@@ -1,0 +1,11 @@
+[D3.S1] From: tkowalski@redfern.com
+[D3.S2] To: yara.banerjee@clearpath.com
+[D3.S3] Subject: Updated remittance details
+[D3.S4] Date: Fri, 14 Feb 2025 12:50:00 +0000
+
+[D3.S5] Hi Yara,
+
+[D3.S6] On February 1, 2025 at 14:25 UTC, Tomas Kowalski initiated the invoice submission. [D3.S7] Tomas Kowalski started the audit review on 14 February 2025, 10:50 UTC. [D3.S8] Hector Quinn was involved in the audit review as well.
+
+[D3.S9] Thanks,
+[D3.S10] Tomas

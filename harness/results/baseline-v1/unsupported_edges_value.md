@@ -1,0 +1,1995 @@
+# Unsupported edges under the value scorer: baseline-v1
+
+Final graphs for b_control, a1_script and a2_tools; a2_tools@first_validate is not listed.
+
+Format: case | emitted (s, p, o) | closest gold triple [tid] | source sentence [span] | model citation
+
+## b_control (747 edges)
+
+### wrong_value (65)
+
+- case_02 | (event-reimbursement, eventType, Initiated) | (event_4, eventType, expense reimbursement) [t42] | "Luca Fischer started the expense reimbursement on July 24, 2025 at 10:10 UTC." [D2.S10] | -
+- case_02 | (event-onboarding, eventType, Initiated) | (event_5, eventType, vendor onboarding) [t45] | "Sofia Ivanova started the vendor onboarding on July 24, 2025 at 12:00 UTC." [D2.S11] | -
+- case_02 | (event-approval, eventType, Initiated) | (event_2, eventType, payment approval) [t36] | "Luca Fischer started the payment approval on 2 July 2025, 13:30 UTC." [D2.S8] | -
+- case_02 | (event-bankdetail, eventType, Initiated) | (event_3, eventType, bank detail change) [t39] | "Sofia Ivanova started the bank detail change on July 22, 2025 at 14:50 UTC." [D2.S9] | -
+- case_02 | (event-invoice, eventType, Initiated) | (event_1, eventType, invoice submission) [t33] | "The invoice submission was initiated by Sofia Ivanova on June 22, 2025 at 09:30 UTC." [D2.S7] | -
+- case_02 | (event-refund, eventType, Initiated) | (event_0, eventType, refund request) [t30] | "Luca Fischer started the refund request on June 20, 2025 at 17:00 UTC." [D2.S6] | -
+- case_02 | (event-wire, eventType, Initiated) | (event_6, eventType, wire transfer) [t48] | "On July 28, 2025 at 09:50 UTC, Luca Fischer initiated the wire transfer." [D2.S12] | -
+- case_03 | (event-vendor-onboarding, eventType, Business Process) | (event_5, eventType, vendor onboarding) [t50] | "On 14 October 2025, 13:25 UTC, Desmond Reyes initiated the vendor onboarding." [D2.S12] | -
+- case_03 | (event-payment-approval, eventType, Business Process) | (event_0, eventType, payment approval) [t35] | "Sofia Park started the payment approval on 17 September 2025, 17:15 UTC." [D2.S6] | -
+- case_03 | (event-account-reconciliation, eventType, Business Process) | (event_3, eventType, account reconciliation) [t44] | "On October 5, 2025 at 14:45 UTC, Priya Kowalski initiated the account reconciliation." [D2.S10] | -
+- case_03 | (event-refund-request, eventType, Business Process) | (event_1, eventType, refund request) [t38] | "The refund request was initiated by Priya Kowalski on 23 September 2025, 12:15 UTC." [D2.S8] | -
+- case_03 | (event-wire-transfer, eventType, Financial Transaction) | (event_2, eventType, wire transfer) [t41] | "The wire transfer was initiated by Desmond Reyes on 30 September 2025, 17:50 UTC." [D2.S9] | -
+- case_03 | (event-audit-review, eventType, Business Process) | (event_4, eventType, audit review) [t47] | "Sofia Park started the audit review on 12 October 2025, 13:15 UTC." [D2.S11] | -
+- case_04 | (event-bank-detail-change, eventType, BusinessProcess) | (event_2, eventType, bank detail change) [t33] | "The bank detail change was initiated by Victor Ashworth on March 14, 2025 at 14:10 UTC." [D4.S4] | -
+- case_04 | (event-refund-request, eventType, BusinessProcess) | (event_0, eventType, refund request) [t27] | "Victor Ashworth started the refund request on March 9, 2025 at 16:50 UTC." [D1.S6] | -
+- case_04 | (event-expense-reimbursement, eventType, BusinessProcess) | (event_1, eventType, expense reimbursement) [t30] | "Victor Ashworth started the expense reimbursement on 10 March 2025, 16:00 UTC." [D3.S6] | -
+- case_07 | (event-wire-transfer-approval, eventType, FinancialTransaction) | (event_2, eventType, payment approval) [t44] | "The payment approval was initiated by Desmond Sorensen on August 4, 2025 at 15:50 UTC." [D1.S9] | -
+- case_07 | (event-account-reconciliation, eventType, AdministrativeTask) | (event_1, eventType, account reconciliation) [t41] | "Desmond Sorensen started the account reconciliation on 3 August 2025, 13:25 UTC." [D3.S6] | -
+- case_07 | (event-refund-request, eventType, FinancialTransaction) | (event_3, eventType, refund request) [t47] | "Mei Castillo started the refund request on 23 August 2025, 09:00 UTC." [D3.S8] | -
+- case_07 | (event-wire-transfer-init, eventType, FinancialTransaction) | (event_0, eventType, wire transfer) [t38] | "The wire transfer was initiated by Mei Castillo on July 30, 2025 at 13:30 UTC." [D1.S6] | -
+- case_08 | (event-init-vendor, eventType, Initiation) | (event_4, eventType, vendor onboarding) [t50] | "On May 8, 2025 at 12:10 UTC, Victor Delgado initiated the vendor onboarding." [D2.S10] | -
+- case_08 | (event-init-audit, eventType, Initiation) | (event_0, eventType, audit review) [t38] | "The audit review was initiated by Grace Mendes on April 17, 2025 at 09:50 UTC." [D2.S6] | -
+- case_08 | (event-init-invoice, eventType, Initiation) | (event_3, eventType, invoice submission) [t47] | "Sofia Sorensen started the invoice submission on May 5, 2025 at 09:45 UTC." [D2.S9] | -
+- case_08 | (event-init-payment, eventType, Initiation) | (event_5, eventType, payment approval) [t53] | "Priya Osei started the payment approval on May 10, 2025 at 15:25 UTC." [D2.S11] | -
+- case_08 | (event-init-reconciliation, eventType, Initiation) | (event_2, eventType, account reconciliation) [t44] | "The account reconciliation was initiated by Victor Delgado on April 30, 2025 at 11:25 UTC." [D2.S8] | -
+- case_08 | (event-init-bank-change, eventType, Initiation) | (event_1, eventType, bank detail change) [t41] | "On 24 April 2025, 09:15 UTC, Grace Mendes initiated the bank detail change." [D2.S7] | -
+- case_09 | (event-reconciliation, eventType, BusinessProcess) | (event_0, eventType, account reconciliation) [t31] | "On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation." [D2.S6] | -
+- case_09 | (event-contract-amendment, eventType, BusinessProcess) | (event_1, eventType, contract amendment) [t34] | "Dana Ashworth started the contract amendment on 6 April 2025, 11:10 UTC." [D2.S8] | -
+- case_09 | (event-invoice-submission, eventType, BusinessProcess) | (event_2, eventType, invoice submission) [t37] | "Julian Osei started the invoice submission on 6 April 2025, 11:15 UTC." [D2.S11] | -
+- case_16 | (event-bank-detail-change, eventType, Configuration Change) | (event_1, eventType, bank detail change) [t33] | "Hector Whitfield started the bank detail change on March 24, 2025 at 14:10 UTC." [D3.S6] | -
+- case_16 | (event-wire-transfer, eventType, Financial Transaction) | (event_4, eventType, wire transfer) [t42] | "The wire transfer was initiated by Hector Whitfield on 13 April 2025, 17:00 UTC." [D3.S7] | -
+- case_16 | (event-audit-review, eventType, Audit) | (event_2, eventType, audit review) [t36] | "The audit review was initiated by Tomas Castillo on 26 March 2025, 11:45 UTC." [D4.S5] | -
+- case_16 | (event-invoice-submission, eventType, Financial Transaction) | (event_3, eventType, invoice submission) [t39] | "On 30 March 2025, 13:15 UTC, Dana Okafor initiated the invoice submission." [D1.S8] | -
+- case_16 | (event-expense-reimbursement, eventType, Financial Transaction) | (event_0, eventType, expense reimbursement) [t30] | "The expense reimbursement was initiated by Hector Whitfield on 15 March 2025, 16:25 UTC." [D1.S6] | -
+- case_19 | (event-vendor-onboarding, eventType, BusinessProcess) | (event_7, eventType, vendor onboarding) [t55] | "On 15 May 2025, 17:00 UTC, Irene Sorensen initiated the vendor onboarding." [D3.S9] | -
+- case_19 | (event-bank-detail-change, eventType, ConfigurationChange) | (event_2, eventType, bank detail change) [t40] | "Kofi Kowalski started the bank detail change on 25 April 2025, 09:45 UTC." [D4.S5] | -
+- case_19 | (event-payment-approval, eventType, BusinessProcess) | (event_1, eventType, payment approval) [t37] | "On 15 April 2025, 15:15 UTC, Maya Novak initiated the payment approval." [D3.S6] | -
+- case_19 | (event-wire-transfer, eventType, FinancialTransaction) | (event_4, eventType, wire transfer) [t46] | "On 3 May 2025, 14:00 UTC, Kofi Kowalski initiated the wire transfer." [D3.S8] | -
+- case_19 | (event-contract-amendment, eventType, BusinessProcess) | (event_6, eventType, contract amendment) [t52] | "Maya Novak started the contract amendment on May 15, 2025 at 16:50 UTC." [D1.S8] | -
+- case_19 | (event-invoice-submission, eventType, BusinessProcess) | (event_3, eventType, invoice submission) [t43] | "The invoice submission was initiated by Irene Sorensen on April 29, 2025 at 11:00 UTC." [D1.S7] | -
+- case_19 | (event-reconciliation-start, eventType, BusinessProcess) | (event_0, eventType, account reconciliation) [t34] | "Irene Sorensen started the account reconciliation on 14 April 2025, 10:30 UTC." [D1.S6] | -
+- case_19 | (event-expense-reimbursement, eventType, FinancialTransaction) | (event_5, eventType, expense reimbursement) [t49] | "Hector Fischer started the expense reimbursement on 5 May 2025, 12:30 UTC." [D4.S6] | -
+- case_22 | (event-bank-detail-change, eventType, ConfigurationChange) | (event_2, eventType, bank detail change) [t40] | "On June 27, 2025 at 09:45 UTC, Yara Ivanova initiated the bank detail change." [D4.S5] | -
+- case_22 | (event-payment-approval, eventType, BusinessProcess) | (event_3, eventType, payment approval) [t43] | "On 2 July 2025, 10:10 UTC, Marcus Abara initiated the payment approval." [D1.S7] | -
+- case_22 | (event-wire-transfer, eventType, FinancialTransaction) | (event_4, eventType, wire transfer) [t46] | "The wire transfer was initiated by Irene Sorensen on 12 July 2025, 09:25 UTC." [D3.S7] | -
+- case_22 | (event-contract-amendment, eventType, BusinessProcess) | (event_1, eventType, contract amendment) [t37] | "Irene Sorensen started the contract amendment on June 23, 2025 at 16:00 UTC." [D3.S6] | -
+- case_22 | (event-invoice-submission, eventType, BusinessProcess) | (event_0, eventType, invoice submission) [t34] | "On June 22, 2025 at 15:15 UTC, Irene Sorensen initiated the invoice submission." [D1.S6] | -
+- case_23 | (event-contract-approve, eventType, Authorization) | (event_2, eventType, contract amendment) [t36] | "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment." [D1.S8] | -
+- case_23 | (event-wire-approve, eventType, Authorization) | (event_0, eventType, wire transfer) [t30] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | -
+- case_23 | (event-audit-init, eventType, Initiation) | (event_3, eventType, audit review) [t39] | "Tomas Kowalski started the audit review on 14 February 2025, 10:50 UTC." [D3.S7] | -
+- case_23 | (event-invoice-init, eventType, Initiation) | (event_1, eventType, invoice submission) [t33] | "On February 1, 2025 at 14:25 UTC, Tomas Kowalski initiated the invoice submission." [D3.S6] | -
+- case_25 | (event-1, eventType, approval) | (event_0, eventType, payment approval) [t27] | "Sofia Lindqvist started the payment approval on 16 May 2025, 16:00 UTC." [D2.S6] | -
+- case_25 | (event-4, eventType, onboarding) | (event_3, eventType, vendor onboarding) [t36] | "On May 27, 2025 at 13:45 UTC, Mei Banerjee initiated the vendor onboarding." [D2.S10] | -
+- case_25 | (event-3, eventType, request) | (event_2, eventType, refund request) [t33] | "Kofi Reyes started the refund request on May 20, 2025 at 16:45 UTC." [D2.S9] | -
+- case_25 | (event-8, eventType, transfer) | (event_7, eventType, wire transfer) [t48] | "Kofi Reyes started the wire transfer on 6 June 2025, 14:25 UTC." [D2.S15] | -
+- case_25 | (event-2, eventType, initiation) | (event_1, eventType, contract amendment) [t30] | "The contract amendment was initiated by Mei Banerjee on May 19, 2025 at 09:45 UTC." [D2.S8] | -
+- case_25 | (event-6, eventType, audit) | (event_5, eventType, audit review) [t42] | "Mei Banerjee started the audit review on 2 June 2025, 10:30 UTC." [D2.S13] | -
+- case_25 | (event-7, eventType, submission) | (event_6, eventType, invoice submission) [t45] | "The invoice submission was initiated by Mei Banerjee on June 5, 2025 at 16:25 UTC." [D2.S14] | -
+- case_25 | (event-5, eventType, reimbursement) | (event_4, eventType, expense reimbursement) [t39] | "Mei Banerjee started the expense reimbursement on 28 May 2025, 17:10 UTC." [D2.S11] | -
+- case_30 | (event-bank-detail-change, eventType, Initiation) | (event_5, eventType, bank detail change) [t49] | "Tomas Okafor started the bank detail change on August 24, 2025 at 10:15 UTC." [D4.S8] | -
+- case_30 | (event-audit-init, eventType, Initiation) | (event_0, eventType, audit review) [t34] | "The audit review was initiated by Desmond Banerjee on August 1, 2025 at 16:50 UTC." [D2.S6] | -
+- case_30 | (event-vendor-onboard, eventType, Initiation) | (event_3, eventType, vendor onboarding) [t43] | "On August 20, 2025 at 12:00 UTC, Arjun Moreau initiated the vendor onboarding." [D4.S7] | -
+- case_30 | (event-recon-init, eventType, Initiation) | (event_2, eventType, account reconciliation) [t40] | "The account reconciliation was initiated by Kofi Park on 8 August 2025, 09:15 UTC." [D2.S7] | -
+- case_30 | (event-wire-init, eventType, Initiation) | (event_4, eventType, wire transfer) [t46] | "Desmond Banerjee started the wire transfer on 22 August 2025, 15:15 UTC." [D2.S8] | -
+- case_30 | (event-invoice-init, eventType, Initiation) | (event_1, eventType, invoice submission) [t37] | "On 5 August 2025, 17:15 UTC, Kofi Park initiated the invoice submission." [D4.S5] | -
+
+### wrong_relation (50)
+
+- case_03 | (event-wire-transfer, Initiated, person-desmond-reyes) | (person_3, Initiated, event_2) [t43] | "The wire transfer was initiated by Desmond Reyes on 30 September 2025, 17:50 UTC." [D2.S9] | -
+- case_03 | (event-audit-review, Initiated, person-sofia-park) | (person_1, Initiated, event_4) [t49] | "Sofia Park started the audit review on 12 October 2025, 13:15 UTC." [D2.S11] | -
+- case_03 | (event-vendor-onboarding, Initiated, person-desmond-reyes) | (person_3, Initiated, event_5) [t52] | "On 14 October 2025, 13:25 UTC, Desmond Reyes initiated the vendor onboarding." [D2.S12] | -
+- case_03 | (event-refund-request, Initiated, person-priya-kowalski) | (person_2, Initiated, event_1) [t40] | "The refund request was initiated by Priya Kowalski on 23 September 2025, 12:15 UTC." [D2.S8] | -
+- case_03 | (event-account-reconciliation, Initiated, person-priya-kowalski) | (person_2, Initiated, event_3) [t46] | "On October 5, 2025 at 14:45 UTC, Priya Kowalski initiated the account reconciliation." [D2.S10] | -
+- case_05 | (acc-westmark, Owns_Account, org-westmark) | (org_company, Owns_Account, acct_company) [t30] | "Union Ledger Bank account 9416052131 is registered to Westmark Tooling Co." [D1.S9] | -
+- case_05 | (acc-oakhaven, Owns_Account, org-oakhaven) | (org_vendor, Owns_Account, acct_vendor) [t33] | "Oakhaven Distribution Group holds account 1667047112 at Union Ledger Bank." [D1.S10] | -
+- case_06 | (event-1, performer, per-2) | (person_1, Initiated, event_0) [t36] | "Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC." [D2.S6] | -
+- case_06 | (event-4, performer, per-3) | (person_2, Initiated, event_3) [t45] | "Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC." [D2.S9] | -
+- case_06 | (event-3, performer, per-4) | (person_3, Initiated, event_2) [t42] | "On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval." [D2.S8] | -
+- case_06 | (event-2, performer, per-1) | (person_0, Initiated, event_1) [t39] | "On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change." [D2.S7] | -
+- case_06 | (event-6, performer, per-1) | (person_0, Initiated, event_5) [t51] | "On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding." [D2.S11] | -
+- case_06 | (event-6, participant, per-3) | (person_2, Participated_In, event_5) [t55] | "Priya Sorensen was involved in the vendor onboarding as well." [D2.S12] | -
+- case_06 | (event-7, performer, per-4) | (person_3, Initiated, event_6) [t54] | "On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission." [D2.S14] | -
+- case_06 | (event-5, performer, per-3) | (person_2, Initiated, event_4) [t48] | "Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC." [D2.S10] | -
+- case_08 | (event-init-vendor, performer, person-victor-delgado) | (person_1, Initiated, event_4) [t52] | "On May 8, 2025 at 12:10 UTC, Victor Delgado initiated the vendor onboarding." [D2.S10] | -
+- case_08 | (event-init-audit, performer, person-grace-mendes) | (person_2, Initiated, event_0) [t40] | "The audit review was initiated by Grace Mendes on April 17, 2025 at 09:50 UTC." [D2.S6] | -
+- case_08 | (event-init-invoice, performer, person-sofia-sorensen) | (person_3, Initiated, event_3) [t49] | "Sofia Sorensen started the invoice submission on May 5, 2025 at 09:45 UTC." [D2.S9] | -
+- case_08 | (event-init-payment, performer, person-priya-osei) | (person_4, Initiated, event_5) [t55] | "Priya Osei started the payment approval on May 10, 2025 at 15:25 UTC." [D2.S11] | -
+- case_08 | (event-init-reconciliation, performer, person-victor-delgado) | (person_1, Initiated, event_2) [t46] | "The account reconciliation was initiated by Victor Delgado on April 30, 2025 at 11:25 UTC." [D2.S8] | -
+- case_08 | (event-init-bank-change, performer, person-grace-mendes) | (person_2, Initiated, event_1) [t43] | "On 24 April 2025, 09:15 UTC, Grace Mendes initiated the bank detail change." [D2.S7] | -
+- case_09 | (event-invoice-submission, Initiated, person-julian-osei) | (person_0, Initiated, event_2) [t39] | "Julian Osei started the invoice submission on 6 April 2025, 11:15 UTC." [D2.S11] | -
+- case_09 | (event-reconciliation, Initiated, person-felix-sorensen) | (person_3, Initiated, event_0) [t33] | "On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation." [D2.S6] | -
+- case_09 | (event-contract-amendment, Initiated, person-dana-ashworth) | (person_1, Initiated, event_1) [t36] | "Dana Ashworth started the contract amendment on 6 April 2025, 11:10 UTC." [D2.S8] | -
+- case_09 | (event-invoice-submission, Participated_In, person-andre-whitfield) | (person_2, Participated_In, event_2) [t42] | "Andre Whitfield was involved in the invoice submission as well." [D2.S12] | -
+- case_09 | (event-contract-amendment, Participated_In, person-andre-whitfield) | (person_2, Participated_In, event_1) [t52] | "Andre Whitfield was involved in the contract amendment as well." [D2.S10] | -
+- case_09 | (event-contract-amendment, Authorized, person-julian-osei) | (person_0, Authorized, event_1) [t44] | "Julian Osei authorized the contract amendment." [D2.S9] | -
+- case_09 | (event-reconciliation, Participated_In, person-andre-whitfield) | (person_2, Participated_In, event_0) [t46] | "Andre Whitfield was involved in the account reconciliation as well." [D2.S7] | -
+- case_10 | (account-westmark, Owns_Account, org-westmark) | (org_vendor, Owns_Account, acct_vendor) [t29] | "Union Ledger Bank account 6222593270 is registered to Westmark Tooling Ltd." [D1.S10] | -
+- case_10 | (account-copperfield, Owns_Account, org-copperfield) | (org_company, Owns_Account, acct_company) [t26] | "Account 4101973631 at Union Ledger Bank belongs to Copperfield Supply Inc." [D1.S9] | -
+- case_12 | (person-victor-whitfield, Participated_In, event-audit-review) | (person_2, Initiated, event_1) [t32] | "The audit review was initiated by Victor Whitfield on 23 October 2025, 10:00 UTC." [D3.S6] | -
+- case_12 | (person-oscar-moreau, Participated_In, event-expense-reimbursement) | (person_1, Initiated, event_3) [t38] | "On 26 October 2025, 12:25 UTC, Oscar Moreau initiated the expense reimbursement." [D3.S8] | -
+- case_12 | (person-tomas-mendes, Participated_In, event-expense-reimbursement) | (person_0, Authorized, event_3) [t39] | "Approval for the expense reimbursement came from Tomas Mendes." [D3.S9] | -
+- case_16 | (person-dana-okafor, Participated_In, event-invoice-submission) | (person_1, Initiated, event_3) [t41] | "On 30 March 2025, 13:15 UTC, Dana Okafor initiated the invoice submission." [D1.S8] | -
+- case_17 | (person-1, Reports_To, person-2) | (person_1, Reports_To, person_0) [t50] | "Nadia Delgado's manager is Andre Osei." [D1.S7] | -
+- case_17 | (email-msg-1, Communicated_With, email-4) | (email_msg_0, to, email_person_3) [t52] | "To: jlindqvist@westmark.com" [D2.S2] | -
+- case_17 | (email-msg-1, Communicated_With, email-1) | (email_msg_0, from, email_person_0) [t51] | "From: andre.osei@redfern.com" [D2.S1] | -
+- case_22 | (account-5413632543, Owns_Account, org-harborline-fabrication) | (org_vendor, Owns_Account, acct_vendor) [t29] | "Account 5413632543 at First Harbor Bank belongs to Harborline Fabrication LLC." [D4.S3] | -
+- case_22 | (account-7421022350, Owns_Account, person-yara-ivanova) | (person_0, Owns_Account, acct_insider) [t32] | "First Harbor Bank account 7421022350 is registered to Yara Ivanova." [D4.S4] | -
+- case_22 | (account-5656063669, Owns_Account, org-northwind-analytics) | (org_company, Owns_Account, acct_company) [t26] | "Account 5656063669 at First Harbor Bank belongs to Northwind Analytics LLC." [D4.S2] | -
+- case_25 | (person-1, Participated_In, event-1) | (person_0, Initiated, event_0) [t29] | "Sofia Lindqvist started the payment approval on 16 May 2025, 16:00 UTC." [D2.S6] | -
+- case_28 | (evt-2, performedBy, person-3) | (person_2, Initiated, event_2) [t46] | "On 19 January 2025, 13:15 UTC, Luca Reyes initiated the account reconciliation." [D2.S7] | -
+- case_28 | (evt-5, performedBy, person-1) | (person_0, Initiated, event_3) [t49] | "On 29 January 2025, 13:25 UTC, Elena Banerjee initiated the refund request." [D3.S7] | -
+- case_28 | (evt-4, performedBy, person-4) | (person_3, Initiated, event_1) [t43] | "On 19 January 2025, 11:10 UTC, Samuel Okafor initiated the contract amendment." [D3.S5] | -
+- case_28 | (evt-3, performedBy, person-1) | (person_0, Initiated, event_4) [t52] | "The audit review was initiated by Elena Banerjee on February 12, 2025 at 12:50 UTC." [D2.S8] | -
+- case_28 | (evt-1, performedBy, person-2) | (person_1, Initiated, event_0) [t40] | "The expense reimbursement was initiated by Tomas Whitfield on January 13, 2025 at 12:10 UTC." [D2.S6] | -
+- case_29 | (person-meikowalski, Reports_To, person-felixfischer) | (person_1, Reports_To, person_0) [t50] | "Felix Fischer's manager is Mei Kowalski." [D1.S6] | -
+- case_30 | (account-9921622374, Owns_Account, org-silverlake) | (org_company, Owns_Account, acct_company) [t26] | "Account 9921622374 at Lakeshore Savings Bank belongs to Silverlake Analytics LLC." [D4.S2] | -
+- case_30 | (account-6775312648, Owns_Account, person-tomas-okafor) | (person_2, Owns_Account, acct_insider) [t32] | "Account 6775312648 at Lakeshore Savings Bank belongs to Tomas Okafor." [D4.S4] | -
+- case_30 | (account-2386670109, Owns_Account, org-westmark) | (org_vendor, Owns_Account, acct_vendor) [t29] | "Westmark Fabrication LLC holds account 2386670109 at Lakeshore Savings Bank." [D4.S3] | -
+
+### wrong_entity (9)
+
+- case_04 | (person-victor-ashworth, Communicated_With, person-grace-fischer) | (person_2, Communicated_With, person_1) [t60] | "To: grace.fischer@harborline.com, vashworth@harborline.com" [D1.S2] | -
+- case_05 | (person-marcus-whitfield, Communicated_With, person-andre-banerjee) | (person_2, Communicated_With, person_4) [t78] | "To: andre.banerjee@oakhaven.com" [D2.S2] | -
+- case_12 | (person-tomas-mendes, Communicated_With, person-oscar-moreau) | (person_2, Communicated_With, person_1) [t41] | "Victor Whitfield had been in contact with Oscar Moreau throughout." [D1.S8] | -
+- case_14 | (person-kofi-whitfield, Communicated_With, person-lena-petrov) | (person_2, Communicated_With, person_0) [t82] | "To: lpetrov@copperfield.com" [D2.S2] | -
+- case_19 | (person-maya-novak, Communicated_With, person-irene-sorensen) | (person_1, Communicated_With, person_0) [t71] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_20 | (org-oakhaven, Owns_Account, acct-granite-3) | (org_company, Owns_Account, acct_company) [t30] | "Granite Federal Credit Union account 9493407158 is registered to Oakhaven Supply Inc." [D4.S2] | -
+- case_25 | (person-1, Communicated_With, person-2) | (person_2, Communicated_With, person_1) [t79] | "To: slindqvist@stonebridge.com, kofi.reyes@stonebridge.com" [D2.S2] | -
+- case_27 | (person-castillo, Initiated, event-wire-transfer) | (person_1, Initiated, event_2) [t35] | "On 27 September 2025, 17:00 UTC, Owen Castillo initiated the expense reimbursement." [D1.S8] | -
+- case_27 | (person-quinn, Communicated_With, person-castillo) | (person_2, Communicated_With, person_1) [t66] | "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com" [D1.S2] | -
+
+### cross_document_conflation (8)
+
+- case_03 | (email-msg-1, from, email-account-desmond) | (email_msg_0, from, email_person_3) [t56] | "From: desmond.reyes@brightwater.com" [D2.S1] | -
+- case_03 | (email-msg-1, to, email-account-priya) | (email_msg_0, to, email_person_2) [t57] | "To: priya.kowalski@ironleaf.com, sofia.park@ironleaf.com" [D2.S2] | -
+- case_03 | (email-msg-1, to, email-account-sofia) | (email_msg_0, to, email_person_2) [t57] | "To: priya.kowalski@ironleaf.com, sofia.park@ironleaf.com" [D2.S2] | -
+- case_11 | (person-arjun-ivanova, Communicated_With, person-tomas-quinn) | (person_3, Communicated_With, person_0) [t66] | "To: nadia.fischer@oakhaven.com" [D1.S2] | -
+- case_14 | (person-kofi-whitfield, Communicated_With, person-felix-okafor) | (person_0, Communicated_With, person_3) [t85] | "[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again." [D3.S5] | -
+- case_14 | (person-lena-petrov, Communicated_With, person-kofi-whitfield) | (person_0, Communicated_With, person_3) [t85] | "[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again." [D3.S5] | -
+- case_14 | (person-felix-okafor, Communicated_With, person-kofi-whitfield) | (person_3, Communicated_With, person_0) [t84] | "[2025-06-21 12:30 UTC] @felixo to @lenap: Send me the new form when you can." [D3.S4] | -
+- case_18 | (person-1, Communicated_With, person-2) | (person_2, Communicated_With, person_1) [t75] | "To: rosa.vance@summitpeak.com" [D3.S2] | -
+
+### misplaced_property (363)
+
+- case_01 | (event-audit-start, name, Audit Review Start) | (event_2, eventType, audit review) [t40] | "Luca Petrov started the audit review on May 18, 2025 at 11:30 UTC." [D2.S8] | -
+- case_01 | (acct-meridian-1, name, 3751001456) | (acct_company, accountIdentifier, 3751001456) [t25] | "Account 3751001456 at Meridian Trust Bank belongs to Oakhaven Services LLC." [D4.S2] | -
+- case_01 | (event-refund-init, name, Refund Request Initiation) | (event_0, eventType, refund request) [t34] | "On 2 May 2025, 09:50 UTC, Nadia Moreau initiated the refund request." [D2.S6] | -
+- case_01 | (acct-meridian-3, name, 5950398673) | (acct_insider, accountIdentifier, 5950398673) [t31] | "Account 5950398673 at Meridian Trust Bank belongs to Nadia Moreau." [D4.S4] | -
+- case_01 | (event-invoice-submit, name, Invoice Submission) | (event_3, eventType, invoice submission) [t43] | "The invoice submission was initiated by Luca Petrov on 2 June 2025, 14:10 UTC." [D4.S6] | -
+- case_01 | (acct-meridian-2, name, 1069850329) | (acct_vendor, accountIdentifier, 1069850329) [t28] | "Account 1069850329 at Meridian Trust Bank belongs to Redfern Components Group." [D4.S3] | -
+- case_01 | (email-wesley, name, wesley.castillo@oakhaven.com) | (email_person_1, addressValue, wesley.castillo@oakhaven.com) [t11] | "Oakhaven Services LLC employs Wesley Castillo, who can be reached at wesley.castillo@oakhaven.com." [D1.S3] | -
+- case_01 | (event-contract-amend, name, Contract Amendment) | (event_1, eventType, contract amendment) [t37] | "Wesley Castillo started the contract amendment on May 12, 2025 at 13:30 UTC." [D4.S5] | -
+- case_01 | (loc-omaha, name, 5868 Market Street, Omaha, NE 68102) | - | - | -
+- case_01 | (email-oscar, name, oscar.banerjee@redfern.com) | (email_person_3, addressValue, oscar.banerjee@redfern.com) [t17] | "Redfern Components Group employs Oscar Banerjee, who can be reached at oscar.banerjee@redfern.com." [D1.S5] | -
+- case_01 | (email-nadia, name, nmoreau@oakhaven.com) | (email_person_2, addressValue, nmoreau@oakhaven.com) [t14] | "Oakhaven Services LLC employs Nadia Moreau, who can be reached at nmoreau@oakhaven.com." [D1.S4] | -
+- case_01 | (email-luca, name, luca.petrov@oakhaven.com) | (email_person_0, addressValue, luca.petrov@oakhaven.com) [t8] | "Luca Petrov works for Oakhaven Services LLC and uses the address luca.petrov@oakhaven.com." [D1.S2] | -
+- case_02 | (event-reimbursement, name, expense reimbursement) | (event_4, eventType, expense reimbursement) [t42] | "Luca Fischer started the expense reimbursement on July 24, 2025 at 10:10 UTC." [D2.S10] | -
+- case_02 | (email-park, name, wesley.park@oakhaven.com) | (email_person_1, addressValue, wesley.park@oakhaven.com) [t10] | "Wesley Park works for Oakhaven Logistics Co. and uses the address wesley.park@oakhaven.com." [D1.S3] | -
+- case_02 | (account-9876553190, name, 9876553190) | (acct_insider, accountIdentifier, 9876553190) [t27] | "Account 9876553190 at First Harbor Bank belongs to Sofia Ivanova." [D1.S8] | -
+- case_02 | (event-onboarding, name, vendor onboarding) | (event_5, eventType, vendor onboarding) [t45] | "Sofia Ivanova started the vendor onboarding on July 24, 2025 at 12:00 UTC." [D2.S11] | -
+- case_02 | (email-fischer, name, lfischer@summitpeak.com) | (email_person_2, addressValue, lfischer@summitpeak.com) [t13] | "Luca Fischer is employed by Summit Peak Freight Group; their email is lfischer@summitpeak.com." [D1.S4] | -
+- case_02 | (email-ivanova, name, sivanova@oakhaven.com) | (email_person_0, addressValue, sivanova@oakhaven.com) [t7] | "Oakhaven Logistics Co. employs Sofia Ivanova, who can be reached at sivanova@oakhaven.com." [D1.S2] | -
+- case_02 | (loc-omaha, name, 946 Market Street, Omaha, NE 68102) | - | - | -
+- case_02 | (event-approval, name, payment approval) | (event_2, eventType, payment approval) [t36] | "Luca Fischer started the payment approval on 2 July 2025, 13:30 UTC." [D2.S8] | -
+- case_02 | (event-bankdetail, name, bank detail change) | (event_3, eventType, bank detail change) [t39] | "Sofia Ivanova started the bank detail change on July 22, 2025 at 14:50 UTC." [D2.S9] | -
+- case_02 | (account-4396839738, name, 4396839738) | (acct_company, accountIdentifier, 4396839738) [t21] | "First Harbor Bank account 4396839738 is registered to Oakhaven Logistics Co." [D1.S6] | -
+- case_02 | (account-8518118555, name, 8518118555) | (acct_vendor, accountIdentifier, 8518118555) [t24] | "Account 8518118555 at First Harbor Bank belongs to Summit Peak Freight Group." [D1.S7] | -
+- case_02 | (event-invoice, name, invoice submission) | (event_1, eventType, invoice submission) [t33] | "The invoice submission was initiated by Sofia Ivanova on June 22, 2025 at 09:30 UTC." [D2.S7] | -
+- case_02 | (msg-1, name, Contract terms for next quarter) | (email_msg_0, subject, Contract terms for next quarter) [t55] | "Subject: Contract terms for next quarter" [D2.S3] | -
+- case_02 | (event-refund, name, refund request) | (event_0, eventType, refund request) [t30] | "Luca Fischer started the refund request on June 20, 2025 at 17:00 UTC." [D2.S6] | -
+- case_02 | (event-wire, name, wire transfer) | (event_6, eventType, wire transfer) [t48] | "On July 28, 2025 at 09:50 UTC, Luca Fischer initiated the wire transfer." [D2.S12] | -
+- case_03 | (email-sofia, name, sofia.park@ironleaf.com) | (email_person_1, addressValue, sofia.park@ironleaf.com) [t12] | "Sofia Park works for Ironleaf Services Co. and uses the address sofia.park@ironleaf.com." [D1.S3] | -
+- case_03 | (event-vendor-onboarding, name, vendor onboarding) | (event_5, eventType, vendor onboarding) [t50] | "On 14 October 2025, 13:25 UTC, Desmond Reyes initiated the vendor onboarding." [D2.S12] | -
+- case_03 | (account-brightwater, name, 1821113291) | (acct_vendor, accountIdentifier, 1821113291) [t32] | "Brightwater Supply Ltd. holds account 1821113291 at First Harbor Bank." [D1.S10] | -
+- case_03 | (event-payment-approval, name, payment approval) | (event_0, eventType, payment approval) [t35] | "Sofia Park started the payment approval on 17 September 2025, 17:15 UTC." [D2.S6] | -
+- case_03 | (email-priya, name, priya.kowalski@ironleaf.com) | (email_person_2, addressValue, priya.kowalski@ironleaf.com) [t15] | "Priya Kowalski is employed by Ironleaf Services Co.; their email is priya.kowalski@ironleaf.com." [D1.S4] | -
+- case_03 | (event-account-reconciliation, name, account reconciliation) | (event_3, eventType, account reconciliation) [t44] | "On October 5, 2025 at 14:45 UTC, Priya Kowalski initiated the account reconciliation." [D2.S10] | -
+- case_03 | (event-refund-request, name, refund request) | (event_1, eventType, refund request) [t38] | "The refund request was initiated by Priya Kowalski on 23 September 2025, 12:15 UTC." [D2.S8] | -
+- case_03 | (event-wire-transfer, name, wire transfer) | (event_2, eventType, wire transfer) [t41] | "The wire transfer was initiated by Desmond Reyes on 30 September 2025, 17:50 UTC." [D2.S9] | -
+- case_03 | (event-audit-review, name, audit review) | (event_4, eventType, audit review) [t47] | "Sofia Park started the audit review on 12 October 2025, 13:15 UTC." [D2.S11] | -
+- case_03 | (email-msg-1, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t59] | "Subject: Urgent: payment timing" [D2.S3] | -
+- case_03 | (email-nadia, name, nadia.holloway@ironleaf.com) | (email_person_0, addressValue, nadia.holloway@ironleaf.com) [t9] | "Nadia Holloway works for Ironleaf Services Co. and uses the address nadia.holloway@ironleaf.com." [D1.S2] | -
+- case_03 | (email-andre, name, afischer@brightwater.com) | (email_person_4, addressValue, afischer@brightwater.com) [t21] | "Brightwater Supply Ltd. employs Andre Fischer, who can be reached at afischer@brightwater.com." [D1.S6] | -
+- case_03 | (email-desmond, name, desmond.reyes@brightwater.com) | (email_person_3, addressValue, desmond.reyes@brightwater.com) [t18] | "Brightwater Supply Ltd. employs Desmond Reyes, who can be reached at desmond.reyes@brightwater.com." [D1.S5] | -
+- case_03 | (account-ironleaf, name, 1033336621) | (acct_company, accountIdentifier, 1033336621) [t29] | "First Harbor Bank account 1033336621 is registered to Ironleaf Services Co." [D1.S9] | -
+- case_04 | (email-vashworth, name, vashworth@harborline.com) | (email_person_0, addressValue, vashworth@harborline.com) [t7] | "To: grace.fischer@harborline.com, vashworth@harborline.com" [D1.S2] | -
+- case_04 | (loc-albany, name, 1589 Lakeview Road, Albany, NY 12207) | - | - | -
+- case_04 | (loc-dayton, name, 879 Main Street, Dayton, OH 45402) | - | - | -
+- case_04 | (event-bank-detail-change, name, bank detail change) | (event_2, eventType, bank detail change) [t33] | "The bank detail change was initiated by Victor Ashworth on March 14, 2025 at 14:10 UTC." [D4.S4] | -
+- case_04 | (event-refund-request, name, refund request) | (event_0, eventType, refund request) [t27] | "Victor Ashworth started the refund request on March 9, 2025 at 16:50 UTC." [D1.S6] | -
+- case_04 | (email-wesley, name, wesley.vance@ironleaf.com) | (email_person_2, addressValue, wesley.vance@ironleaf.com) [t13] | "From: wesley.vance@ironleaf.com" [D1.S1] | -
+- case_04 | (email-grace, name, grace.fischer@harborline.com) | (email_person_1, addressValue, grace.fischer@harborline.com) [t10] | "To: grace.fischer@harborline.com, vashworth@harborline.com" [D1.S2] | -
+- case_04 | (event-expense-reimbursement, name, expense reimbursement) | (event_1, eventType, expense reimbursement) [t30] | "Victor Ashworth started the expense reimbursement on 10 March 2025, 16:00 UTC." [D3.S6] | -
+- case_05 | (email-dnovak, name, dnovak@westmark.com) | (email_person_1, addressValue, dnovak@westmark.com) [t12] | "Westmark Tooling Co. employs Dana Novak, who can be reached at dnovak@westmark.com." [D1.S3] | -
+- case_05 | (email-abanerjee, name, andre.banerjee@oakhaven.com) | (email_person_4, addressValue, andre.banerjee@oakhaven.com) [t21] | "Andre Banerjee works for Oakhaven Distribution Group and uses the address andre.banerjee@oakhaven.com." [D1.S6] | -
+- case_05 | (loc-albany, name, 3192 Main Street, Albany, NY 12207) | - | - | -
+- case_05 | (acc-westmark, name, 9416052131) | (acct_company, accountIdentifier, 9416052131) [t29] | "Union Ledger Bank account 9416052131 is registered to Westmark Tooling Co." [D1.S9] | -
+- case_05 | (email-ffischer, name, ffischer@westmark.com) | (email_person_2, addressValue, ffischer@westmark.com) [t15] | "Felix Fischer works for Westmark Tooling Co. and uses the address ffischer@westmark.com." [D1.S4] | -
+- case_05 | (event-reconciliation, name, account reconciliation) | (event_1, eventType, account reconciliation) [t38] | "On 18 February 2025, 11:00 UTC, Andre Banerjee initiated the account reconciliation." [D2.S9] | -
+- case_05 | (event-audit-review, name, audit review) | (event_2, eventType, audit review) [t41] | "On 5 March 2025, 16:10 UTC, Felix Fischer initiated the audit review." [D2.S11] | -
+- case_05 | (email-tmendes, name, tmendes@westmark.com) | (email_person_0, addressValue, tmendes@westmark.com) [t9] | "Tomas Mendes is employed by Westmark Tooling Co.; their email is tmendes@westmark.com." [D1.S2] | -
+- case_05 | (email-marw, name, marcus.whitfield@oakhaven.com) | (email_person_3, addressValue, marcus.whitfield@oakhaven.com) [t18] | "Oakhaven Distribution Group employs Marcus Whitfield, who can be reached at marcus.whitfield@oakhaven.com." [D1.S5] | -
+- case_05 | (acc-oakhaven, name, 1667047112) | (acct_vendor, accountIdentifier, 1667047112) [t32] | "Oakhaven Distribution Group holds account 1667047112 at Union Ledger Bank." [D1.S10] | -
+- case_05 | (msg-chat-2, name, Let's keep this between us until Friday.) | (chat_msg_1, messageText, Let's keep this between us until Friday.) [t65] | "[2025-02-17 10:52 UTC] @danan to @marcusw: Let's keep this between us until Friday." [D3.S5] | -
+- case_05 | (msg-chat-1, name, I pushed it through, check your inbox.) | (chat_msg_0, messageText, I pushed it through, check your inbox.) [t61] | "[2025-02-17 10:45 UTC] @marcusw to @danan: I pushed it through, check your inbox." [D3.S4] | -
+- case_05 | (event-bank-change, name, bank detail change) | (event_0, eventType, bank detail change) [t35] | "Andre Banerjee started the bank detail change on February 17, 2025 at 09:45 UTC." [D2.S6] | -
+- case_06 | (acc-2, name, 6816152188) | (acct_vendor, accountIdentifier, 6816152188) [t28] | "Account 6816152188 at Union Ledger Bank belongs to Oakhaven Freight Inc." [D1.S8] | -
+- case_06 | (acc-3, name, 4167366163) | (acct_insider, accountIdentifier, 4167366163) [t31] | "Union Ledger Bank account 4167366163 is registered to Andre Fischer." [D1.S9] | -
+- case_06 | (event-1, name, Account reconciliation) | (event_0, eventType, account reconciliation) [t34] | "Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC." [D2.S6] | -
+- case_06 | (event-4, name, Expense reimbursement) | (event_3, eventType, expense reimbursement) [t43] | "Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC." [D2.S9] | -
+- case_06 | (email-1, name, afischer@copperfield.com) | (email_person_0, addressValue, afischer@copperfield.com) [t8] | "Copperfield Fabrication Inc. employs Andre Fischer, who can be reached at afischer@copperfield.com." [D1.S2] | -
+- case_06 | (event-3, name, Payment approval) | (event_2, eventType, payment approval) [t40] | "On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval." [D2.S8] | -
+- case_06 | (email-2, name, julian.holloway@copperfield.com) | (email_person_1, addressValue, julian.holloway@copperfield.com) [t11] | "Julian Holloway is employed by Copperfield Fabrication Inc.; their email is julian.holloway@copperfield.com." [D1.S3] | -
+- case_06 | (event-2, name, Bank detail change) | (event_1, eventType, bank detail change) [t37] | "On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change." [D2.S7] | -
+- case_06 | (event-6, name, Vendor onboarding) | (event_5, eventType, vendor onboarding) [t49] | "On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding." [D2.S11] | -
+- case_06 | (event-7, name, Invoice submission) | (event_6, eventType, invoice submission) [t52] | "On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission." [D2.S14] | -
+- case_06 | (email-3, name, priya.sorensen@copperfield.com) | (email_person_2, addressValue, priya.sorensen@copperfield.com) [t14] | "Priya Sorensen works for Copperfield Fabrication Inc. and uses the address priya.sorensen@copperfield.com." [D1.S4] | -
+- case_06 | (acc-1, name, 9105160648) | (acct_company, accountIdentifier, 9105160648) [t25] | "Copperfield Fabrication Inc. holds account 9105160648 at Union Ledger Bank." [D1.S7] | -
+- case_06 | (event-5, name, Audit review) | (event_4, eventType, audit review) [t46] | "Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC." [D2.S10] | -
+- case_06 | (msg-1, name, Wire confirmation needed) | (email_msg_0, subject, Wire confirmation needed) [t60] | "Subject: Wire confirmation needed" [D2.S3] | -
+- case_06 | (email-4, name, ddelgado@oakhaven.com) | (email_person_3, addressValue, ddelgado@oakhaven.com) [t17] | "Desmond Delgado is employed by Oakhaven Freight Inc.; their email is ddelgado@oakhaven.com." [D1.S5] | -
+- case_07 | (email-mei-castillo, name, mei.castillo@silverlake.com) | (email_person_4, addressValue, mei.castillo@silverlake.com) [t21] | "To: sbrennan@cedarridge.com, mei.castillo@silverlake.com" [D1.S2] | -
+- case_07 | (email-julian-lindqvist, name, jlindqvist@silverlake.com) | (email_person_3, addressValue, jlindqvist@silverlake.com) [t18] | "Julian Lindqvist works for Silverlake Freight Group and uses the address jlindqvist@silverlake.com." [D2.S5] | -
+- case_07 | (event-account-reconciliation, name, Account Reconciliation) | (event_1, eventType, account reconciliation) [t41] | "Desmond Sorensen started the account reconciliation on 3 August 2025, 13:25 UTC." [D3.S6] | -
+- case_07 | (event-refund-request, name, Refund Request) | (event_3, eventType, refund request) [t47] | "Mei Castillo started the refund request on 23 August 2025, 09:00 UTC." [D3.S8] | -
+- case_07 | (email-kofi-park, name, kofi.park@cedarridge.com) | (email_person_2, addressValue, kofi.park@cedarridge.com) [t15] | "Kofi Park works for Cedar Ridge Fabrication Group and uses the address kofi.park@cedarridge.com." [D2.S4] | -
+- case_07 | (event-wire-transfer-init, name, Wire Transfer Initiation) | (event_0, eventType, wire transfer) [t38] | "The wire transfer was initiated by Mei Castillo on July 30, 2025 at 13:30 UTC." [D1.S6] | -
+- case_07 | (email-samuel-brennan, name, sbrennan@cedarridge.com) | (email_person_1, addressValue, sbrennan@cedarridge.com) [t12] | "To: sbrennan@cedarridge.com, mei.castillo@silverlake.com" [D1.S2] | -
+- case_07 | (email-desmond-sorensen, name, desmond.sorensen@cedarridge.com) | (email_person_0, addressValue, desmond.sorensen@cedarridge.com) [t9] | "From: desmond.sorensen@cedarridge.com" [D1.S1] | -
+- case_08 | (loc-albany, name, 8685 Riverside Boulevard, Albany, NY 12207) | - | - | -
+- case_08 | (event-init-vendor, name, Vendor onboarding initiation) | (event_4, eventType, vendor onboarding) [t50] | "On May 8, 2025 at 12:10 UTC, Victor Delgado initiated the vendor onboarding." [D2.S10] | -
+- case_08 | (acc-clearpath-bank, name, 1925770755) | (acct_company, accountIdentifier, 1925770755) [t29] | "First Harbor Bank account 1925770755 is registered to Clearpath Logistics Inc." [D1.S10] | -
+- case_08 | (event-init-audit, name, Audit review initiation) | (event_0, eventType, audit review) [t38] | "The audit review was initiated by Grace Mendes on April 17, 2025 at 09:50 UTC." [D2.S6] | -
+- case_08 | (email-posei, name, posei@redfern.com) | (email_person_4, addressValue, posei@redfern.com) [t21] | "Priya Osei works for Redfern Logistics LLC and uses the address posei@redfern.com." [D1.S6] | -
+- case_08 | (event-init-invoice, name, Invoice submission initiation) | (event_3, eventType, invoice submission) [t47] | "Sofia Sorensen started the invoice submission on May 5, 2025 at 09:45 UTC." [D2.S9] | -
+- case_08 | (event-init-payment, name, Payment approval initiation) | (event_5, eventType, payment approval) [t53] | "Priya Osei started the payment approval on May 10, 2025 at 15:25 UTC." [D2.S11] | -
+- case_08 | (email-fhaddad, name, fhaddad@clearpath.com) | (email_person_0, addressValue, fhaddad@clearpath.com) [t9] | "Clearpath Logistics Inc. employs Felix Haddad, who can be reached at fhaddad@clearpath.com." [D1.S2] | -
+- case_08 | (email-ssorensen, name, ssorensen@redfern.com) | (email_person_3, addressValue, ssorensen@redfern.com) [t18] | "Sofia Sorensen works for Redfern Logistics LLC and uses the address ssorensen@redfern.com." [D1.S5] | -
+- case_08 | (event-init-reconciliation, name, Account reconciliation initiation) | (event_2, eventType, account reconciliation) [t44] | "The account reconciliation was initiated by Victor Delgado on April 30, 2025 at 11:25 UTC." [D2.S8] | -
+- case_08 | (email-vdelgado, name, victor.delgado@clearpath.com) | (email_person_1, addressValue, victor.delgado@clearpath.com) [t12] | "Victor Delgado is employed by Clearpath Logistics Inc.; their email is victor.delgado@clearpath.com." [D1.S3] | -
+- case_08 | (loc-spokane, name, 5618 Main Street, Spokane, WA 99201) | - | - | -
+- case_08 | (acc-redfern-bank, name, 6616593409) | (acct_vendor, accountIdentifier, 6616593409) [t32] | "First Harbor Bank account 6616593409 is registered to Redfern Logistics LLC." [D1.S11] | -
+- case_08 | (event-init-bank-change, name, Bank detail change initiation) | (event_1, eventType, bank detail change) [t41] | "On 24 April 2025, 09:15 UTC, Grace Mendes initiated the bank detail change." [D2.S7] | -
+- case_08 | (acc-felix-bank, name, 4865285406) | (acct_insider, accountIdentifier, 4865285406) [t35] | "Account 4865285406 at First Harbor Bank belongs to Felix Haddad." [D1.S12] | -
+- case_08 | (email-gmendes, name, gmendes@clearpath.com) | (email_person_2, addressValue, gmendes@clearpath.com) [t15] | "Grace Mendes works for Clearpath Logistics Inc. and uses the address gmendes@clearpath.com." [D1.S4] | -
+- case_09 | (email-andre-whitfield, name, awhitfield@oakhaven.com) | (email_person_2, addressValue, awhitfield@oakhaven.com) [t14] | "Oakhaven Fabrication Co. employs Andre Whitfield, who can be reached at awhitfield@oakhaven.com." [D1.S4] | -
+- case_09 | (loc-oakhaven-address, name, 14 Market Street, Omaha, NE 68102) | - | - | -
+- case_09 | (loc-clearpath-address, name, 2499 Market Street, Omaha, NE 68102) | - | - | -
+- case_09 | (email-message-1, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t57] | "Subject: Audit prep items" [D2.S3] | -
+- case_09 | (email-dana-ashworth, name, dashworth@oakhaven.com) | (email_person_1, addressValue, dashworth@oakhaven.com) [t11] | "Oakhaven Fabrication Co. employs Dana Ashworth, who can be reached at dashworth@oakhaven.com." [D1.S3] | -
+- case_09 | (event-reconciliation, name, Account Reconciliation) | (event_0, eventType, account reconciliation) [t31] | "On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation." [D2.S6] | -
+- case_09 | (bank-account-oakhaven, name, 8677543219) | (acct_company, accountIdentifier, 8677543219) [t25] | "Account 8677543219 at Pinecrest National Bank belongs to Oakhaven Fabrication Co." [D1.S10] | -
+- case_09 | (email-julian-osei, name, julian.osei@oakhaven.com) | (email_person_0, addressValue, julian.osei@oakhaven.com) [t8] | "Julian Osei is employed by Oakhaven Fabrication Co.; their email is julian.osei@oakhaven.com." [D1.S2] | -
+- case_09 | (event-contract-amendment, name, Contract Amendment) | (event_1, eventType, contract amendment) [t34] | "Dana Ashworth started the contract amendment on 6 April 2025, 11:10 UTC." [D2.S8] | -
+- case_09 | (event-invoice-submission, name, Invoice Submission) | (event_2, eventType, invoice submission) [t37] | "Julian Osei started the invoice submission on 6 April 2025, 11:15 UTC." [D2.S11] | -
+- case_09 | (email-felix-sorensen, name, felix.sorensen@clearpath.com) | (email_person_3, addressValue, felix.sorensen@clearpath.com) [t17] | "Clearpath Industrial LLC employs Felix Sorensen, who can be reached at felix.sorensen@clearpath.com." [D1.S5] | -
+- case_09 | (bank-account-clearpath, name, 4921747255) | (acct_vendor, accountIdentifier, 4921747255) [t28] | "Clearpath Industrial LLC holds account 4921747255 at Pinecrest National Bank." [D1.S11] | -
+- case_10 | (event-vendor-onboarding, name, vendor onboarding) | (event_3, eventType, vendor onboarding) [t40] | "The vendor onboarding was initiated by Priya Vance on 25 July 2025, 11:00 UTC." [D2.S13] | -
+- case_10 | (loc-westmark-address, name, 287 Harbor Avenue, Madison, WI 53703) | - | - | -
+- case_10 | (event-payment-approval, name, payment approval) | (event_2, eventType, payment approval) [t37] | "The payment approval was initiated by Irene Petrov on 1 July 2025, 10:00 UTC." [D2.S11] | -
+- case_10 | (account-westmark, name, 6222593270) | (acct_vendor, accountIdentifier, 6222593270) [t28] | "Union Ledger Bank account 6222593270 is registered to Westmark Tooling Ltd." [D1.S10] | -
+- case_10 | (email-kosei, name, kosei@copperfield.com) | (email_person_1, addressValue, kosei@copperfield.com) [t11] | "Copperfield Supply Inc. employs Kofi Osei, who can be reached at kosei@copperfield.com." [D1.S3] | -
+- case_10 | (loc-copperfield-address, name, 1126 Commerce Drive, Tucson, AZ 85701) | - | - | -
+- case_10 | (event-reconciliation, name, account reconciliation) | (event_1, eventType, account reconciliation) [t34] | "Lena Kowalski started the account reconciliation on 29 June 2025, 13:25 UTC." [D2.S9] | -
+- case_10 | (email-msg-1, name, Quarter-end vendor payments) | (email_msg_0, subject, Quarter-end vendor payments) [t58] | "Subject: Quarter-end vendor payments" [D2.S3] | -
+- case_10 | (email-pvance, name, pvance@westmark.com) | (email_person_3, addressValue, pvance@westmark.com) [t17] | "Priya Vance is employed by Westmark Tooling Ltd.; their email is pvance@westmark.com." [D1.S5] | -
+- case_10 | (email-ipetrov, name, ipetrov@copperfield.com) | (email_person_2, addressValue, ipetrov@copperfield.com) [t14] | "Copperfield Supply Inc. employs Irene Petrov, who can be reached at ipetrov@copperfield.com." [D1.S4] | -
+- case_10 | (event-contract-amendment, name, contract amendment) | (event_0, eventType, contract amendment) [t31] | "On 26 June 2025, 16:15 UTC, Irene Petrov initiated the contract amendment." [D2.S6] | -
+- case_10 | (account-copperfield, name, 4101973631) | (acct_company, accountIdentifier, 4101973631) [t25] | "Account 4101973631 at Union Ledger Bank belongs to Copperfield Supply Inc." [D1.S9] | -
+- case_10 | (email-lkowalski, name, lkowalski@copperfield.com) | (email_person_0, addressValue, lkowalski@copperfield.com) [t8] | "Lena Kowalski works for Copperfield Supply Inc. and uses the address lkowalski@copperfield.com." [D1.S2] | -
+- case_11 | (email-tomas, name, tomas.quinn@oakhaven.com) | (email_person_1, addressValue, tomas.quinn@oakhaven.com) [t11] | "Oakhaven Tooling Ltd. employs Tomas Quinn, who can be reached at tomas.quinn@oakhaven.com." [D2.S3] | -
+- case_11 | (account-4789109216, name, 4789109216) | (acct_company, accountIdentifier, 4789109216) [t25] | "Oakhaven Tooling Ltd. holds account 4789109216 at Union Ledger Bank." [D2.S10] | -
+- case_11 | (event-bank-detail-change, name, Bank detail change) | (event_1, eventType, bank detail change) [t37] | "Nadia Fischer started the bank detail change on November 11, 2025 at 15:15 UTC." [D3.S6] | -
+- case_11 | (event-account-reconciliation, name, Account reconciliation) | (event_2, eventType, account reconciliation) [t40] | "On November 12, 2025 at 14:00 UTC, Wesley Banerjee initiated the account reconciliation." [D1.S7] | -
+- case_11 | (email-wesley, name, wesley.banerjee@oakhaven.com) | (email_person_2, addressValue, wesley.banerjee@oakhaven.com) [t14] | "Wesley Banerjee works for Oakhaven Tooling Ltd. and uses the address wesley.banerjee@oakhaven.com." [D2.S4] | -
+- case_11 | (account-8244909755, name, 8244909755) | (acct_vendor, accountIdentifier, 8244909755) [t28] | "Cedar Ridge Logistics LLC holds account 8244909755 at Union Ledger Bank." [D2.S11] | -
+- case_11 | (email-aivanova, name, aivanova@cedarridge.com) | (email_person_3, addressValue, aivanova@cedarridge.com) [t17] | "From: aivanova@cedarridge.com" [D1.S1] | -
+- case_11 | (loc-boise, name, 9547 Elm Street, Boise, ID 83702) | - | - | -
+- case_11 | (loc-omaha, name, 340 Market Street, Omaha, NE 68102) | - | - | -
+- case_11 | (account-7062496242, name, 7062496242) | (acct_insider, accountIdentifier, 7062496242) [t31] | "Nadia Fischer holds account 7062496242 at Union Ledger Bank." [D2.S12] | -
+- case_11 | (email-nadia, name, nadia.fischer@oakhaven.com) | (email_person_0, addressValue, nadia.fischer@oakhaven.com) [t8] | "To: nadia.fischer@oakhaven.com" [D1.S2] | -
+- case_11 | (event-contract-amendment, name, Contract amendment) | (event_0, eventType, contract amendment) [t34] | "The contract amendment was initiated by Arjun Ivanova on November 5, 2025 at 17:10 UTC." [D1.S6] | -
+- case_11 | (event-invoice-submission, name, Invoice submission) | (event_3, eventType, invoice submission) [t43] | "On 14 November 2025, 14:00 UTC, Tomas Quinn initiated the invoice submission." [D3.S8] | -
+- case_12 | (email-oscar-moreau, name, oscar.moreau@redfern.com) | (email_person_1, addressValue, oscar.moreau@redfern.com) [t10] | "Oscar Moreau is employed by Redfern Freight LLC; their email is oscar.moreau@redfern.com." [D2.S3] | -
+- case_12 | (email-tomas-mendes, name, tomas.mendes@redfern.com) | (email_person_0, addressValue, tomas.mendes@redfern.com) [t7] | "To: tomas.mendes@redfern.com" [D1.S2] | -
+- case_12 | (account-9354333388, name, 9354333388) | (acct_company, accountIdentifier, 9354333388) [t21] | "First Harbor Bank account 9354333388 is registered to Redfern Freight LLC." [D2.S6] | -
+- case_12 | (email-victor-whitfield, name, victor.whitfield@stonebridge.com) | (email_person_2, addressValue, victor.whitfield@stonebridge.com) [t13] | "From: victor.whitfield@stonebridge.com" [D1.S1] | -
+- case_12 | (event-account-reconciliation, name, Account reconciliation) | (event_2, eventType, account reconciliation) [t33] | "On 24 October 2025, 14:50 UTC, Tomas Mendes initiated the account reconciliation." [D1.S7] | -
+- case_12 | (account-4662947012, name, 4662947012) | (acct_vendor, accountIdentifier, 4662947012) [t24] | "Account 4662947012 at First Harbor Bank belongs to Stonebridge Fabrication Inc." [D2.S7] | -
+- case_12 | (event-audit-review, name, Audit review) | (event_1, eventType, audit review) [t30] | "The audit review was initiated by Victor Whitfield on 23 October 2025, 10:00 UTC." [D3.S6] | -
+- case_12 | (event-expense-reimbursement, name, Expense reimbursement) | (event_3, eventType, expense reimbursement) [t36] | "On 26 October 2025, 12:25 UTC, Oscar Moreau initiated the expense reimbursement." [D3.S8] | -
+- case_12 | (event-wire-transfer-init, name, Wire transfer initiation) | (event_0, eventType, wire transfer) [t27] | "The wire transfer was initiated by Tomas Mendes on October 20, 2025 at 12:45 UTC." [D1.S6] | -
+- case_14 | (email-lpetrov, name, lpetrov@copperfield.com) | (email_person_0, addressValue, lpetrov@copperfield.com) [t8] | "Lena Petrov is employed by Copperfield Distribution Inc.; their email is lpetrov@copperfield.com." [D1.S2] | -
+- case_14 | (email-irene-fischer, name, irene.fischer@copperfield.com) | (email_person_2, addressValue, irene.fischer@copperfield.com) [t14] | "Irene Fischer works for Copperfield Distribution Inc. and uses the address irene.fischer@copperfield.com." [D1.S4] | -
+- case_14 | (account-meridian-5835997512, name, 5835997512) | (acct_company, accountIdentifier, 5835997512) [t25] | "Meridian Trust Bank account 5835997512 is registered to Copperfield Distribution Inc." [D1.S7] | -
+- case_14 | (msg-chat-3, name, I pushed it through, check your inbox.) | (chat_msg_2, messageText, I pushed it through, check your inbox.) [t71] | "[2025-06-21 12:44 UTC] @felixo to @lenap: I pushed it through, check your inbox." [D3.S6] | -
+- case_14 | (account-meridian-3765803916, name, 3765803916) | (acct_vendor, accountIdentifier, 3765803916) [t28] | "Account 3765803916 at Meridian Trust Bank belongs to Stonebridge Logistics Inc." [D1.S8] | -
+- case_14 | (loc-albany-office, name, 2549 Commerce Drive, Albany, NY 12207) | - | - | -
+- case_14 | (email-msg-1, name, Invoice 3557 follow-up) | (email_msg_0, subject, Invoice 3557 follow-up) [t58] | "Subject: Invoice 3557 follow-up" [D2.S3] | -
+- case_14 | (email-kwhitfield, name, kwhitfield@copperfield.com) | (email_person_1, addressValue, kwhitfield@copperfield.com) [t11] | "Kofi Whitfield is employed by Copperfield Distribution Inc.; their email is kwhitfield@copperfield.com." [D1.S3] | -
+- case_14 | (event-invoice-submission-start, name, Invoice submission start) | (event_4, eventType, invoice submission) [t43] | "Felix Okafor started the invoice submission on July 16, 2025 at 15:00 UTC." [D2.S12] | -
+- case_14 | (event-reconciliation-start, name, Account reconciliation start) | (event_0, eventType, account reconciliation) [t31] | "Irene Fischer started the account reconciliation on 21 June 2025, 11:30 UTC." [D2.S6] | -
+- case_14 | (msg-chat-2, name, Finance is asking questions again.) | (chat_msg_1, messageText, Finance is asking questions again.) [t67] | "[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again." [D3.S5] | -
+- case_14 | (email-fokafor, name, fokafor@stonebridge.com) | (email_person_3, addressValue, fokafor@stonebridge.com) [t17] | "Stonebridge Logistics Inc. employs Felix Okafor, who can be reached at fokafor@stonebridge.com." [D1.S5] | -
+- case_14 | (event-wire-transfer-start, name, Wire transfer start) | (event_3, eventType, wire transfer) [t40] | "Kofi Whitfield started the wire transfer on 12 July 2025, 13:10 UTC." [D2.S11] | -
+- case_14 | (event-expense-reimbursement-start, name, Expense reimbursement start) | (event_1, eventType, expense reimbursement) [t34] | "Felix Okafor started the expense reimbursement on June 30, 2025 at 10:45 UTC." [D2.S7] | -
+- case_14 | (msg-chat-1, name, Send me the new form when you can.) | (chat_msg_0, messageText, Send me the new form when you can.) [t63] | "[2025-06-21 12:30 UTC] @felixo to @lenap: Send me the new form when you can." [D3.S4] | -
+- case_14 | (event-vendor-onboarding-start, name, Vendor onboarding start) | (event_5, eventType, vendor onboarding) [t46] | "Felix Okafor started the vendor onboarding on 17 July 2025, 11:25 UTC." [D2.S14] | -
+- case_14 | (event-refund-request-initiated, name, Refund request initiated) | (event_2, eventType, refund request) [t37] | "On 10 July 2025, 17:25 UTC, Lena Petrov initiated the refund request." [D2.S9] | -
+- case_15 | (emailmsg-d1, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t54] | "Subject: Urgent: payment timing" [D1.S3] | -
+- case_15 | (email-okowalski, name, okowalski@redfern.com) | (email_person_0, addressValue, okowalski@redfern.com) [t7] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | -
+- case_15 | (event-vendoronboarding, name, vendor onboarding) | (event_0, eventType, vendor onboarding) [t30] | "On May 5, 2025 at 11:25 UTC, Mei Castillo initiated the vendor onboarding." [D1.S6] | -
+- case_15 | (bankaccount-4948925913, name, 4948925913) | (acct_vendor, accountIdentifier, 4948925913) [t24] | "Account 4948925913 at Meridian Trust Bank belongs to Summit Peak Logistics LLC." [D4.S3] | -
+- case_15 | (event-refundrequest, name, refund request) | (event_4, eventType, refund request) [t42] | "The refund request was initiated by Mei Castillo on June 3, 2025 at 10:00 UTC." [D3.S8] | -
+- case_15 | (email-meicastillo, name, mei.castillo@redfern.com) | (email_person_1, addressValue, mei.castillo@redfern.com) [t10] | "From: mei.castillo@redfern.com" [D1.S1] | -
+- case_15 | (event-invoicesubmission, name, invoice submission) | (event_2, eventType, invoice submission) [t36] | "Desmond Ivanova started the invoice submission on 26 May 2025, 13:00 UTC." [D4.S5] | -
+- case_15 | (email-divanova, name, divanova@summitpeak.com) | (email_person_2, addressValue, divanova@summitpeak.com) [t13] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | -
+- case_15 | (event-auditreview, name, audit review) | (event_1, eventType, audit review) [t33] | "The audit review was initiated by Desmond Ivanova on May 12, 2025 at 12:15 UTC." [D3.S6] | -
+- case_15 | (bankaccount-6302151532, name, 6302151532) | (acct_insider, accountIdentifier, 6302151532) [t27] | "Account 6302151532 at Meridian Trust Bank belongs to Owen Kowalski." [D4.S4] | -
+- case_15 | (bankaccount-2170889721, name, 2170889721) | (acct_company, accountIdentifier, 2170889721) [t21] | "Account 2170889721 at Meridian Trust Bank belongs to Redfern Packaging Group." [D4.S2] | -
+- case_15 | (emailmsg-d3, name, Invoice 3155 follow-up) | (email_msg_1, subject, Invoice 3155 follow-up) [t58] | "Subject: Invoice 3155 follow-up" [D3.S3] | -
+- case_15 | (event-expensereimbursement, name, expense reimbursement) | (event_3, eventType, expense reimbursement) [t39] | "On May 30, 2025 at 12:15 UTC, Mei Castillo initiated the expense reimbursement." [D1.S7] | -
+- case_15 | (event-bankdetailchange, name, bank detail change) | (event_5, eventType, bank detail change) [t45] | "Owen Kowalski started the bank detail change on 6 June 2025, 13:00 UTC." [D4.S6] | -
+- case_16 | (account-dana-bank, name, 1149258289) | (acct_insider, accountIdentifier, 1149258289) [t27] | "Pinecrest National Bank account 1149258289 is registered to Dana Okafor." [D4.S4] | -
+- case_16 | (email-dokafor, name, dokafor@stonebridge.com) | (email_person_1, addressValue, dokafor@stonebridge.com) [t10] | "Dana Okafor works for Stonebridge Supply Ltd. and uses the address dokafor@stonebridge.com." [D2.S3] | -
+- case_16 | (account-stonebridge-bank, name, 9512975827) | (acct_company, accountIdentifier, 9512975827) [t21] | "Stonebridge Supply Ltd. holds account 9512975827 at Pinecrest National Bank." [D4.S2] | -
+- case_16 | (event-bank-detail-change, name, Bank Detail Change) | (event_1, eventType, bank detail change) [t33] | "Hector Whitfield started the bank detail change on March 24, 2025 at 14:10 UTC." [D3.S6] | -
+- case_16 | (msg-d1, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t49] | "Subject: Audit prep items" [D1.S3] | -
+- case_16 | (email-hwhitfield, name, hwhitfield@cedarridge.com) | (email_person_2, addressValue, hwhitfield@cedarridge.com) [t13] | "To: hwhitfield@cedarridge.com" [D1.S2] | -
+- case_16 | (event-wire-transfer, name, Wire Transfer) | (event_4, eventType, wire transfer) [t42] | "The wire transfer was initiated by Hector Whitfield on 13 April 2025, 17:00 UTC." [D3.S7] | -
+- case_16 | (event-audit-review, name, Audit Review) | (event_2, eventType, audit review) [t36] | "The audit review was initiated by Tomas Castillo on 26 March 2025, 11:45 UTC." [D4.S5] | -
+- case_16 | (account-cedar-ridge-bank, name, 8579003599) | (acct_vendor, accountIdentifier, 8579003599) [t24] | "Pinecrest National Bank account 8579003599 is registered to Cedar Ridge Tooling Inc." [D4.S3] | -
+- case_16 | (msg-d3, name, Quarter-end vendor payments) | (email_msg_1, subject, Quarter-end vendor payments) [t54] | "Subject: Quarter-end vendor payments" [D3.S3] | -
+- case_16 | (event-invoice-submission, name, Invoice Submission) | (event_3, eventType, invoice submission) [t39] | "On 30 March 2025, 13:15 UTC, Dana Okafor initiated the invoice submission." [D1.S8] | -
+- case_16 | (email-tcastillo, name, tcastillo@stonebridge.com) | (email_person_0, addressValue, tcastillo@stonebridge.com) [t7] | "From: tcastillo@stonebridge.com" [D1.S1] | -
+- case_16 | (event-expense-reimbursement, name, Expense Reimbursement) | (event_0, eventType, expense reimbursement) [t30] | "The expense reimbursement was initiated by Hector Whitfield on 15 March 2025, 16:25 UTC." [D1.S6] | -
+- case_17 | (loc-1, name, 6004 Riverside Boulevard, Spokane, WA 99201) | - | - | -
+- case_17 | (email-5, name, mbrennan@westmark.com) | (email_person_4, addressValue, mbrennan@westmark.com) [t21] | "Marcus Brennan works for Westmark Fabrication Inc. and uses the address mbrennan@westmark.com." [D1.S6] | -
+- case_17 | (event-1, name, Audit review) | (event_0, eventType, audit review) [t38] | "Desmond Kowalski started the audit review on 3 July 2025, 15:15 UTC." [D2.S6] | -
+- case_17 | (account-1, name, 1310102192) | (acct_company, accountIdentifier, 1310102192) [t29] | "Redfern Consulting Co. holds account 1310102192 at Pinecrest National Bank." [D1.S9] | -
+- case_17 | (event-4, name, Invoice submission) | (event_3, eventType, invoice submission) [t47] | "On 16 July 2025, 13:15 UTC, Marcus Brennan initiated the invoice submission." [D2.S9] | -
+- case_17 | (email-1, name, andre.osei@redfern.com) | (email_person_0, addressValue, andre.osei@redfern.com) [t9] | "Redfern Consulting Co. employs Andre Osei, who can be reached at andre.osei@redfern.com." [D1.S2] | -
+- case_17 | (event-3, name, Bank detail change) | (event_2, eventType, bank detail change) [t44] | "On 16 July 2025, 09:30 UTC, Nadia Delgado initiated the bank detail change." [D2.S8] | -
+- case_17 | (email-2, name, ndelgado@redfern.com) | (email_person_1, addressValue, ndelgado@redfern.com) [t12] | "Nadia Delgado works for Redfern Consulting Co. and uses the address ndelgado@redfern.com." [D1.S3] | -
+- case_17 | (event-2, name, Expense reimbursement) | (event_1, eventType, expense reimbursement) [t41] | "On July 8, 2025 at 17:25 UTC, Nadia Delgado initiated the expense reimbursement." [D2.S7] | -
+- case_17 | (account-2, name, 6545042960) | (acct_vendor, accountIdentifier, 6545042960) [t32] | "Westmark Fabrication Inc. holds account 6545042960 at Pinecrest National Bank." [D1.S10] | -
+- case_17 | (email-msg-1, name, Wire confirmation needed) | (email_msg_0, subject, Wire confirmation needed) [t53] | "Subject: Wire confirmation needed" [D2.S3] | -
+- case_17 | (email-3, name, desmond.kowalski@redfern.com) | (email_person_2, addressValue, desmond.kowalski@redfern.com) [t15] | "Desmond Kowalski works for Redfern Consulting Co. and uses the address desmond.kowalski@redfern.com." [D1.S4] | -
+- case_17 | (account-3, name, 3598599727) | (acct_insider, accountIdentifier, 3598599727) [t35] | "Nadia Delgado holds account 3598599727 at Pinecrest National Bank." [D1.S11] | -
+- case_17 | (email-4, name, jlindqvist@westmark.com) | (email_person_3, addressValue, jlindqvist@westmark.com) [t18] | "Julian Lindqvist is employed by Westmark Fabrication Inc.; their email is jlindqvist@westmark.com." [D1.S5] | -
+- case_18 | (email-5, name, chaddad@silverlake.com) | (email_person_4, addressValue, chaddad@silverlake.com) [t21] | "Clara Haddad is employed by Silverlake Consulting LLC; their email is chaddad@silverlake.com." [D2.S6] | -
+- case_18 | (event-1, name, Contract amendment initiation) | (event_0, eventType, contract amendment) [t38] | "The contract amendment was initiated by Owen Novak on September 5, 2025 at 15:25 UTC." [D1.S6] | -
+- case_18 | (event-4, name, Payment approval initiation) | (event_1, eventType, payment approval) [t41] | "On September 7, 2025 at 16:15 UTC, Sofia Abara initiated the payment approval." [D3.S6] | -
+- case_18 | (email-1, name, owen.novak@summitpeak.com) | (email_person_0, addressValue, owen.novak@summitpeak.com) [t9] | "To: owen.novak@summitpeak.com" [D1.S2] | -
+- case_18 | (event-3, name, Account reconciliation initiation) | (event_4, eventType, account reconciliation) [t50] | "The account reconciliation was initiated by Sofia Abara on September 22, 2025 at 11:30 UTC." [D1.S8] | -
+- case_18 | (email-2, name, rosa.vance@summitpeak.com) | (email_person_1, addressValue, rosa.vance@summitpeak.com) [t12] | "Summit Peak Packaging Inc. employs Rosa Vance, who can be reached at rosa.vance@summitpeak.com." [D2.S3] | -
+- case_18 | (event-2, name, Refund request initiation) | (event_2, eventType, refund request) [t44] | "The refund request was initiated by Rosa Vance on September 14, 2025 at 17:50 UTC." [D1.S7] | -
+- case_18 | (email-3, name, sabara@silverlake.com) | (email_person_3, addressValue, sabara@silverlake.com) [t18] | "From: sabara@silverlake.com" [D1.S1] | -
+- case_18 | (event-5, name, Wire transfer initiation) | (event_3, eventType, wire transfer) [t47] | "On September 18, 2025 at 14:30 UTC, Clara Haddad initiated the wire transfer." [D3.S7] | -
+- case_18 | (email-4, name, mholloway@summitpeak.com) | (email_person_2, addressValue, mholloway@summitpeak.com) [t15] | "Marcus Holloway works for Summit Peak Packaging Inc. and uses the address mholloway@summitpeak.com." [D2.S4] | -
+- case_19 | (email-hector, name, hfischer@westmark.com) | (email_person_3, addressValue, hfischer@westmark.com) [t17] | "Hector Fischer works for Westmark Consulting LLC and uses the address hfischer@westmark.com." [D2.S5] | -
+- case_19 | (event-vendor-onboarding, name, Vendor onboarding) | (event_7, eventType, vendor onboarding) [t55] | "On 15 May 2025, 17:00 UTC, Irene Sorensen initiated the vendor onboarding." [D3.S9] | -
+- case_19 | (bank-account-3811034105, name, 3811034105) | (acct_company, accountIdentifier, 3811034105) [t25] | "Pinecrest National Bank account 3811034105 is registered to Bluegate Services Co." [D4.S2] | -
+- case_19 | (bank-account-9480427652, name, 9480427652) | (acct_vendor, accountIdentifier, 9480427652) [t28] | "Westmark Consulting LLC holds account 9480427652 at Pinecrest National Bank." [D4.S3] | -
+- case_19 | (email-irene, name, isorensen@bluegate.com) | (email_person_0, addressValue, isorensen@bluegate.com) [t8] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_19 | (event-bank-detail-change, name, Bank detail change) | (event_2, eventType, bank detail change) [t40] | "Kofi Kowalski started the bank detail change on 25 April 2025, 09:45 UTC." [D4.S5] | -
+- case_19 | (event-payment-approval, name, Payment approval) | (event_1, eventType, payment approval) [t37] | "On 15 April 2025, 15:15 UTC, Maya Novak initiated the payment approval." [D3.S6] | -
+- case_19 | (event-wire-transfer, name, Wire transfer) | (event_4, eventType, wire transfer) [t46] | "On 3 May 2025, 14:00 UTC, Kofi Kowalski initiated the wire transfer." [D3.S8] | -
+- case_19 | (bank-account-3917062016, name, 3917062016) | (acct_insider, accountIdentifier, 3917062016) [t31] | "Pinecrest National Bank account 3917062016 is registered to Irene Sorensen." [D4.S4] | -
+- case_19 | (email-kofi, name, kofi.kowalski@bluegate.com) | (email_person_1, addressValue, kofi.kowalski@bluegate.com) [t11] | "From: kofi.kowalski@bluegate.com" [D1.S1] | -
+- case_19 | (event-contract-amendment, name, Contract amendment) | (event_6, eventType, contract amendment) [t52] | "Maya Novak started the contract amendment on May 15, 2025 at 16:50 UTC." [D1.S8] | -
+- case_19 | (event-invoice-submission, name, Invoice submission) | (event_3, eventType, invoice submission) [t43] | "The invoice submission was initiated by Irene Sorensen on April 29, 2025 at 11:00 UTC." [D1.S7] | -
+- case_19 | (event-reconciliation-start, name, Account reconciliation start) | (event_0, eventType, account reconciliation) [t34] | "Irene Sorensen started the account reconciliation on 14 April 2025, 10:30 UTC." [D1.S6] | -
+- case_19 | (event-expense-reimbursement, name, Expense reimbursement) | (event_5, eventType, expense reimbursement) [t49] | "Hector Fischer started the expense reimbursement on 5 May 2025, 12:30 UTC." [D4.S6] | -
+- case_19 | (email-maya, name, mnovak@bluegate.com) | (email_person_2, addressValue, mnovak@bluegate.com) [t14] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_20 | (event-reimb, name, Expense reimbursement) | (event_2, eventType, expense reimbursement) [t44] | "The expense reimbursement was initiated by Hannah Haddad on 5 May 2025, 13:30 UTC." [D4.S5] | -
+- case_20 | (acct-granite-2, name, 7051703888) | (acct_vendor, accountIdentifier, 7051703888) [t32] | "Account 7051703888 at Granite Federal Credit Union belongs to Stonebridge Components LLC." [D4.S3] | -
+- case_20 | (email-owen, name, owhitfield@stonebridge.com) | (email_person_4, addressValue, owhitfield@stonebridge.com) [t21] | "Stonebridge Components LLC employs Owen Whitfield, who can be reached at owhitfield@stonebridge.com." [D2.S6] | -
+- case_20 | (event-amend, name, Contract amendment) | (event_4, eventType, contract amendment) [t50] | "The contract amendment was initiated by Owen Whitfield on May 12, 2025 at 16:00 UTC." [D3.S7] | -
+- case_20 | (acct-granite-3, name, 9059135687) | (acct_insider, accountIdentifier, 9059135687) [t35] | "Account 9059135687 at Granite Federal Credit Union belongs to Mei Brennan." [D4.S4] | -
+- case_20 | (email-meibrennan, name, mei.brennan@oakhaven.com) | (email_person_2, addressValue, mei.brennan@oakhaven.com) [t15] | "To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com" [D1.S2] | -
+- case_20 | (msg-d1, name, Quarter-end vendor payments) | (email_msg_0, subject, Quarter-end vendor payments) [t63] | "Subject: Quarter-end vendor payments" [D1.S3] | -
+- case_20 | (email-wesley, name, wesley.osei@oakhaven.com) | (email_person_0, addressValue, wesley.osei@oakhaven.com) [t9] | "Wesley Osei works for Oakhaven Supply Inc. and uses the address wesley.osei@oakhaven.com." [D2.S2] | -
+- case_20 | (event-reconcile, name, Account reconciliation) | (event_0, eventType, account reconciliation) [t38] | "On 14 April 2025, 11:50 UTC, Mei Brennan initiated the account reconciliation." [D1.S6] | -
+- case_20 | (email-kofi, name, kofi.holloway@stonebridge.com) | (email_person_3, addressValue, kofi.holloway@stonebridge.com) [t18] | "To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com" [D1.S2] | -
+- case_20 | (acct-granite-1, name, 9493407158) | (acct_company, accountIdentifier, 9493407158) [t29] | "Granite Federal Credit Union account 9493407158 is registered to Oakhaven Supply Inc." [D4.S2] | -
+- case_20 | (msg-d3, name, Contract terms for next quarter) | (email_msg_1, subject, Contract terms for next quarter) [t68] | "Subject: Contract terms for next quarter" [D3.S3] | -
+- case_20 | (email-hhaddad, name, hhaddad@oakhaven.com) | (email_person_1, addressValue, hhaddad@oakhaven.com) [t12] | "From: hhaddad@oakhaven.com" [D1.S1] | -
+- case_20 | (event-wire-1, name, Wire transfer) | (event_3, eventType, wire transfer) [t47] | "Wesley Osei started the wire transfer on 12 May 2025, 12:25 UTC." [D1.S7] | -
+- case_20 | (event-approve, name, Payment approval) | (event_1, eventType, payment approval) [t41] | "On 19 April 2025, 16:45 UTC, Wesley Osei initiated the payment approval." [D3.S6] | -
+- case_21 | (event-init-audit-review, name, Audit review initiation) | (event_6, eventType, audit review) [t49] | "On 3 May 2025, 15:00 UTC, Maya Quinn initiated the audit review." [D1.S8] | -
+- case_21 | (acct-bluegate, name, 6220296925) | (acct_vendor, accountIdentifier, 6220296925) [t28] | "Granite Federal Credit Union account 6220296925 is registered to Bluegate Distribution LLC." [D4.S3] | -
+- case_21 | (email-apetrov, name, apetrov@oakhaven.com) | (email_person_0, addressValue, apetrov@oakhaven.com) [t8] | "Andre Petrov works for Oakhaven Logistics Inc. and uses the address apetrov@oakhaven.com." [D2.S2] | -
+- case_21 | (email-maya-quinn, name, maya.quinn@oakhaven.com) | (email_person_1, addressValue, maya.quinn@oakhaven.com) [t11] | "From: maya.quinn@oakhaven.com" [D1.S1] | -
+- case_21 | (email-hcastillo, name, hcastillo@oakhaven.com) | (email_person_2, addressValue, hcastillo@oakhaven.com) [t14] | "To: hcastillo@oakhaven.com" [D1.S2] | -
+- case_21 | (event-init-payment-approval, name, Payment approval initiation) | (event_5, eventType, payment approval) [t46] | "Hector Castillo started the payment approval on 30 April 2025, 13:30 UTC." [D4.S5] | -
+- case_21 | (event-init-wire-transfer, name, Wire transfer initiation) | (event_3, eventType, wire transfer) [t40] | "On 25 April 2025, 17:45 UTC, Victor Haddad initiated the wire transfer." [D1.S7] | -
+- case_21 | (event-init-bank-detail-change, name, Bank detail change initiation) | (event_7, eventType, bank detail change) [t52] | "Andre Petrov started the bank detail change on 5 May 2025, 16:45 UTC." [D3.S12] | -
+- case_21 | (event-init-vendor-onboarding, name, Vendor onboarding initiation) | (event_0, eventType, vendor onboarding) [t31] | "The vendor onboarding was initiated by Andre Petrov on 12 April 2025, 16:10 UTC." [D1.S6] | -
+- case_21 | (event-init-expense-reimbursement, name, Expense reimbursement initiation) | (event_4, eventType, expense reimbursement) [t43] | "On 28 April 2025, 16:45 UTC, Hector Castillo initiated the expense reimbursement." [D3.S9] | -
+- case_21 | (event-init-account-reconciliation, name, Account reconciliation initiation) | (event_2, eventType, account reconciliation) [t37] | "Victor Haddad started the account reconciliation on April 25, 2025 at 14:25 UTC." [D4.S4] | -
+- case_21 | (loc-oakhaven-office, name, 1587 Industrial Parkway, Raleigh, NC 27601) | - | - | -
+- case_21 | (acct-oakhaven, name, 2616431031) | (acct_company, accountIdentifier, 2616431031) [t25] | "Oakhaven Logistics Inc. holds account 2616431031 at Granite Federal Credit Union." [D4.S2] | -
+- case_21 | (email-vhaddad, name, victor.haddad@bluegate.com) | (email_person_3, addressValue, victor.haddad@bluegate.com) [t17] | "Victor Haddad works for Bluegate Distribution LLC and uses the address victor.haddad@bluegate.com." [D2.S5] | -
+- case_21 | (event-init-contract-amendment, name, Contract amendment initiation) | (event_1, eventType, contract amendment) [t34] | "On 15 April 2025, 16:00 UTC, Victor Haddad initiated the contract amendment." [D3.S6] | -
+- case_22 | (event-bank-detail-change, name, Bank Detail Change) | (event_2, eventType, bank detail change) [t40] | "On June 27, 2025 at 09:45 UTC, Yara Ivanova initiated the bank detail change." [D4.S5] | -
+- case_22 | (account-5656063669, name, 5656063669) | (acct_company, accountIdentifier, 5656063669) [t25] | "Account 5656063669 at First Harbor Bank belongs to Northwind Analytics LLC." [D4.S2] | -
+- case_22 | (event-payment-approval, name, Payment Approval) | (event_3, eventType, payment approval) [t43] | "On 2 July 2025, 10:10 UTC, Marcus Abara initiated the payment approval." [D1.S7] | -
+- case_22 | (email-irene-sorensen, name, isorensen@northwind.com) | (email_person_1, addressValue, isorensen@northwind.com) [t11] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | -
+- case_22 | (email-yara-ivanova, name, yivanova@northwind.com) | (email_person_0, addressValue, yivanova@northwind.com) [t8] | "Yara Ivanova is employed by Northwind Analytics LLC; their email is yivanova@northwind.com." [D2.S2] | -
+- case_22 | (account-7421022350, name, 7421022350) | (acct_insider, accountIdentifier, 7421022350) [t31] | "First Harbor Bank account 7421022350 is registered to Yara Ivanova." [D4.S4] | -
+- case_22 | (event-wire-transfer, name, Wire Transfer) | (event_4, eventType, wire transfer) [t46] | "The wire transfer was initiated by Irene Sorensen on 12 July 2025, 09:25 UTC." [D3.S7] | -
+- case_22 | (email-tomas-vance, name, tomas.vance@northwind.com) | (email_person_2, addressValue, tomas.vance@northwind.com) [t14] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | -
+- case_22 | (email-msg-1, name, Updated remittance details) | (email_msg_0, subject, Updated remittance details) [t58] | "Subject: Updated remittance details" [D1.S3] | -
+- case_22 | (email-msg-2, name, Urgent: payment timing) | (email_msg_1, subject, Urgent: payment timing) [t62] | "Subject: Urgent: payment timing" [D3.S3] | -
+- case_22 | (event-contract-amendment, name, Contract Amendment) | (event_1, eventType, contract amendment) [t37] | "Irene Sorensen started the contract amendment on June 23, 2025 at 16:00 UTC." [D3.S6] | -
+- case_22 | (event-invoice-submission, name, Invoice Submission) | (event_0, eventType, invoice submission) [t34] | "On June 22, 2025 at 15:15 UTC, Irene Sorensen initiated the invoice submission." [D1.S6] | -
+- case_22 | (email-marcus-abara, name, marcus.abara@harborline.com) | (email_person_3, addressValue, marcus.abara@harborline.com) [t17] | "From: marcus.abara@harborline.com" [D1.S1] | -
+- case_22 | (account-5413632543, name, 5413632543) | (acct_vendor, accountIdentifier, 5413632543) [t28] | "Account 5413632543 at First Harbor Bank belongs to Harborline Fabrication LLC." [D4.S3] | -
+- case_23 | (acc-yara, name, 1484775689) | (acct_insider, accountIdentifier, 1484775689) [t27] | "Pinecrest National Bank account 1484775689 is registered to Yara Banerjee." [D2.S9] | -
+- case_23 | (event-contract-approve, name, Contract amendment authorization) | (event_2, eventType, contract amendment) [t36] | "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment." [D1.S8] | -
+- case_23 | (event-wire-approve, name, Wire transfer approval) | (event_0, eventType, wire transfer) [t30] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | -
+- case_23 | (event-audit-init, name, Audit review initiation) | (event_3, eventType, audit review) [t39] | "Tomas Kowalski started the audit review on 14 February 2025, 10:50 UTC." [D3.S7] | -
+- case_23 | (email-tk, name, tkowalski@redfern.com) | (email_person_2, addressValue, tkowalski@redfern.com) [t13] | "From: tkowalski@redfern.com" [D1.S1] | -
+- case_23 | (acc-redfern, name, 8858108822) | (acct_vendor, accountIdentifier, 8858108822) [t24] | "Account 8858108822 at Pinecrest National Bank belongs to Redfern Analytics Group." [D2.S8] | -
+- case_23 | (email-hq, name, hector.quinn@clearpath.com) | (email_person_1, addressValue, hector.quinn@clearpath.com) [t10] | "Hector Quinn is employed by Clearpath Freight Co.; their email is hector.quinn@clearpath.com." [D2.S3] | -
+- case_23 | (email-yb, name, yara.banerjee@clearpath.com) | (email_person_0, addressValue, yara.banerjee@clearpath.com) [t7] | "To: yara.banerjee@clearpath.com" [D1.S2] | -
+- case_23 | (event-invoice-init, name, Invoice submission initiation) | (event_1, eventType, invoice submission) [t33] | "On February 1, 2025 at 14:25 UTC, Tomas Kowalski initiated the invoice submission." [D3.S6] | -
+- case_23 | (acc-clearpath, name, 8453395788) | (acct_company, accountIdentifier, 8453395788) [t21] | "Pinecrest National Bank account 8453395788 is registered to Clearpath Freight Co." [D2.S7] | -
+- case_24 | (email-yara, name, yfischer@clearpath.com) | (email_person_1, addressValue, yfischer@clearpath.com) [t10] | "To: yfischer@clearpath.com" [D1.S2] | -
+- case_24 | (location-omaha, name, 9297 Market Street, Omaha, NE 68102) | - | - | -
+- case_24 | (event-wire-transfer, name, Wire transfer initiation) | (event_0, eventType, wire transfer) [t30] | "On 26 April 2025, 15:45 UTC, Desmond Kowalski initiated the wire transfer." [D1.S6] | -
+- case_24 | (email-andre, name, andre.okafor@clearpath.com) | (email_person_0, addressValue, andre.okafor@clearpath.com) [t7] | "From: andre.okafor@clearpath.com" [D1.S1] | -
+- case_24 | (event-invoice-submission, name, Invoice submission) | (event_1, eventType, invoice submission) [t33] | "Andre Okafor started the invoice submission on 26 April 2025, 17:10 UTC." [D3.S6] | -
+- case_24 | (email-desmond, name, desmond.kowalski@westmark.com) | (email_person_2, addressValue, desmond.kowalski@westmark.com) [t13] | "Desmond Kowalski is employed by Westmark Logistics Inc.; their email is desmond.kowalski@westmark.com." [D2.S4] | -
+- case_24 | (event-bank-change, name, Bank detail change) | (event_2, eventType, bank detail change) [t36] | "On May 17, 2025 at 17:45 UTC, Andre Okafor initiated the bank detail change." [D1.S7] | -
+- case_25 | (event-1, name, payment approval) | (event_0, eventType, payment approval) [t27] | "Sofia Lindqvist started the payment approval on 16 May 2025, 16:00 UTC." [D2.S6] | -
+- case_25 | (account-1, name, 9698080226) | (acct_company, accountIdentifier, 9698080226) [t21] | "Union Ledger Bank account 9698080226 is registered to Stonebridge Supply Group." [D1.S6] | -
+- case_25 | (event-4, name, vendor onboarding) | (event_3, eventType, vendor onboarding) [t36] | "On May 27, 2025 at 13:45 UTC, Mei Banerjee initiated the vendor onboarding." [D2.S10] | -
+- case_25 | (location-1, name, 9623 Market Street, Dayton, OH 45402) | - | - | -
+- case_25 | (email-1, name, slindqvist@stonebridge.com) | (email_person_0, addressValue, slindqvist@stonebridge.com) [t7] | "Sofia Lindqvist works for Stonebridge Supply Group and uses the address slindqvist@stonebridge.com." [D1.S2] | -
+- case_25 | (event-3, name, refund request) | (event_2, eventType, refund request) [t33] | "Kofi Reyes started the refund request on May 20, 2025 at 16:45 UTC." [D2.S9] | -
+- case_25 | (email-2, name, kofi.reyes@stonebridge.com) | (email_person_1, addressValue, kofi.reyes@stonebridge.com) [t10] | "Kofi Reyes is employed by Stonebridge Supply Group; their email is kofi.reyes@stonebridge.com." [D1.S3] | -
+- case_25 | (event-8, name, wire transfer) | (event_7, eventType, wire transfer) [t48] | "Kofi Reyes started the wire transfer on 6 June 2025, 14:25 UTC." [D2.S15] | -
+- case_25 | (event-2, name, contract amendment) | (event_1, eventType, contract amendment) [t30] | "The contract amendment was initiated by Mei Banerjee on May 19, 2025 at 09:45 UTC." [D2.S8] | -
+- case_25 | (account-2, name, 7347335891) | (acct_vendor, accountIdentifier, 7347335891) [t24] | "Harborline Packaging Inc. holds account 7347335891 at Union Ledger Bank." [D1.S7] | -
+- case_25 | (event-6, name, audit review) | (event_5, eventType, audit review) [t42] | "Mei Banerjee started the audit review on 2 June 2025, 10:30 UTC." [D2.S13] | -
+- case_25 | (event-7, name, invoice submission) | (event_6, eventType, invoice submission) [t45] | "The invoice submission was initiated by Mei Banerjee on June 5, 2025 at 16:25 UTC." [D2.S14] | -
+- case_25 | (email-3, name, mei.banerjee@harborline.com) | (email_person_2, addressValue, mei.banerjee@harborline.com) [t13] | "Mei Banerjee is employed by Harborline Packaging Inc.; their email is mei.banerjee@harborline.com." [D1.S4] | -
+- case_25 | (event-5, name, expense reimbursement) | (event_4, eventType, expense reimbursement) [t39] | "Mei Banerjee started the expense reimbursement on 28 May 2025, 17:10 UTC." [D2.S11] | -
+- case_26 | (acc-stonebridge, name, 6061433726) | (acct_vendor, accountIdentifier, 6061433726) [t24] | "Account 6061433726 at Pinecrest National Bank belongs to Stonebridge Freight LLC." [D4.S3] | -
+- case_26 | (email-tomas, name, tomas.quinn@silverlake.com) | (email_person_0, addressValue, tomas.quinn@silverlake.com) [t7] | "Tomas Quinn works for Silverlake Fabrication Co. and uses the address tomas.quinn@silverlake.com." [D2.S2] | -
+- case_26 | (email-dana, name, dbanerjee@silverlake.com) | (email_person_1, addressValue, dbanerjee@silverlake.com) [t10] | "To: dbanerjee@silverlake.com" [D1.S2] | -
+- case_26 | (event-bank-detail-change, name, Bank detail change execution) | (event_5, eventType, bank detail change) [t42] | "On 19 September 2025, 16:25 UTC, Dana Banerjee initiated the bank detail change." [D4.S5] | -
+- case_26 | (event-init-invoice, name, Invoice submission initiation) | (event_3, eventType, invoice submission) [t36] | "On September 5, 2025 at 13:25 UTC, Dana Banerjee initiated the invoice submission." [D1.S7] | -
+- case_26 | (event-init-payment, name, Payment approval initiation) | (event_0, eventType, payment approval) [t27] | "The payment approval was initiated by Tomas Quinn on 10 August 2025, 16:00 UTC." [D1.S6] | -
+- case_26 | (event-init-wire, name, Wire transfer initiation) | (event_2, eventType, wire transfer) [t33] | "On August 15, 2025 at 09:30 UTC, Clara Holloway initiated the wire transfer." [D4.S4] | -
+- case_26 | (acc-silverlake, name, 1921542892) | (acct_company, accountIdentifier, 1921542892) [t21] | "Account 1921542892 at Pinecrest National Bank belongs to Silverlake Fabrication Co." [D4.S2] | -
+- case_26 | (email-clara, name, clara.holloway@stonebridge.com) | (email_person_2, addressValue, clara.holloway@stonebridge.com) [t13] | "From: clara.holloway@stonebridge.com" [D1.S1] | -
+- case_26 | (event-init-refund, name, Refund request initiation) | (event_1, eventType, refund request) [t30] | "On 14 August 2025, 10:30 UTC, Clara Holloway initiated the refund request." [D3.S6] | -
+- case_26 | (event-init-onboarding, name, Vendor onboarding initiation) | (event_4, eventType, vendor onboarding) [t39] | "Tomas Quinn started the vendor onboarding on September 7, 2025 at 12:15 UTC." [D3.S8] | -
+- case_27 | (event-vendor-onboarding, name, Vendor onboarding) | (event_1, eventType, vendor onboarding) [t30] | "Kofi Quinn started the vendor onboarding on 25 September 2025, 15:15 UTC." [D3.S6] | -
+- case_27 | (event-bank-detail-change, name, Bank detail change) | (event_0, eventType, bank detail change) [t27] | "Yara Ivanova started the bank detail change on 25 September 2025, 14:25 UTC." [D1.S6] | -
+- case_27 | (email-quinn, name, kofi.quinn@clearpath.com) | (email_person_0, addressValue, kofi.quinn@clearpath.com) [t7] | "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com" [D1.S2] | -
+- case_27 | (event-wire-transfer, name, Wire transfer) | (event_3, eventType, wire transfer) [t36] | "The wire transfer was initiated by Kofi Quinn on 7 October 2025, 09:00 UTC." [D3.S8] | -
+- case_27 | (event-audit-review, name, Audit review) | (event_5, eventType, audit review) [t42] | "On 21 October 2025, 11:00 UTC, Owen Castillo initiated the audit review." [D3.S11] | -
+- case_27 | (email-castillo, name, owen.castillo@clearpath.com) | (email_person_1, addressValue, owen.castillo@clearpath.com) [t10] | "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com" [D1.S2] | -
+- case_27 | (email-yivanova, name, yivanova@harborline.com) | (email_person_2, addressValue, yivanova@harborline.com) [t13] | "From: yivanova@harborline.com" [D1.S1] | -
+- case_27 | (event-invoice-submission, name, Invoice submission) | (event_4, eventType, invoice submission) [t39] | "The invoice submission was initiated by Yara Ivanova on October 11, 2025 at 10:10 UTC." [D1.S10] | -
+- case_27 | (event-expense-reimbursement, name, Expense reimbursement) | (event_2, eventType, expense reimbursement) [t33] | "On 27 September 2025, 17:00 UTC, Owen Castillo initiated the expense reimbursement." [D1.S8] | -
+- case_28 | (email-5, name, arjun.mendes@copperfield.com) | (email_person_4, addressValue, arjun.mendes@copperfield.com) [t21] | "Arjun Mendes works for Copperfield Analytics Group and uses the address arjun.mendes@copperfield.com." [D1.S6] | -
+- case_28 | (email-1, name, ebanerjee@westmark.com) | (email_person_0, addressValue, ebanerjee@westmark.com) [t9] | "Elena Banerjee is employed by Westmark Services Group; their email is ebanerjee@westmark.com." [D1.S2] | -
+- case_28 | (evt-2, name, Account Reconciliation) | (event_2, eventType, account reconciliation) [t44] | "On 19 January 2025, 13:15 UTC, Luca Reyes initiated the account reconciliation." [D2.S7] | -
+- case_28 | (email-2, name, tomas.whitfield@westmark.com) | (email_person_1, addressValue, tomas.whitfield@westmark.com) [t12] | "Tomas Whitfield is employed by Westmark Services Group; their email is tomas.whitfield@westmark.com." [D1.S3] | -
+- case_28 | (evt-5, name, Refund Request) | (event_3, eventType, refund request) [t47] | "On 29 January 2025, 13:25 UTC, Elena Banerjee initiated the refund request." [D3.S7] | -
+- case_28 | (email-3, name, lreyes@westmark.com) | (email_person_2, addressValue, lreyes@westmark.com) [t15] | "Luca Reyes is employed by Westmark Services Group; their email is lreyes@westmark.com." [D1.S4] | -
+- case_28 | (evt-4, name, Contract Amendment) | (event_1, eventType, contract amendment) [t41] | "On 19 January 2025, 11:10 UTC, Samuel Okafor initiated the contract amendment." [D3.S5] | -
+- case_28 | (evt-3, name, Audit Review) | (event_4, eventType, audit review) [t50] | "The audit review was initiated by Elena Banerjee on February 12, 2025 at 12:50 UTC." [D2.S8] | -
+- case_28 | (evt-1, name, Expense Reimbursement) | (event_0, eventType, expense reimbursement) [t38] | "The expense reimbursement was initiated by Tomas Whitfield on January 13, 2025 at 12:10 UTC." [D2.S6] | -
+- case_28 | (email-4, name, samuel.okafor@copperfield.com) | (email_person_3, addressValue, samuel.okafor@copperfield.com) [t18] | "Samuel Okafor works for Copperfield Analytics Group and uses the address samuel.okafor@copperfield.com." [D1.S5] | -
+- case_29 | (email-irenevance, name, ivance@stonebridge.com) | (email_person_2, addressValue, ivance@stonebridge.com) [t14] | "Irene Vance is employed by Stonebridge Services Co.; their email is ivance@stonebridge.com." [D1.S4] | -
+- case_29 | (account-6253895836, name, 6253895836) | (acct_insider, accountIdentifier, 6253895836) [t31] | "Account 6253895836 at Lakeshore Savings Bank belongs to Felix Fischer." [D1.S11] | -
+- case_29 | (event-vendoronboarding, name, Vendor onboarding) | (event_0, eventType, vendor onboarding) [t34] | "The vendor onboarding was initiated by Mei Kowalski on January 11, 2025 at 16:50 UTC." [D2.S6] | -
+- case_29 | (event-refundrequest, name, Refund request) | (event_2, eventType, refund request) [t40] | "Mei Kowalski started the refund request on January 29, 2025 at 11:30 UTC." [D2.S8] | -
+- case_29 | (email-felixfischer, name, felix.fischer@stonebridge.com) | (email_person_1, addressValue, felix.fischer@stonebridge.com) [t11] | "Felix Fischer works for Stonebridge Services Co. and uses the address felix.fischer@stonebridge.com." [D1.S3] | -
+- case_29 | (account-6870452896, name, 6870452896) | (acct_vendor, accountIdentifier, 6870452896) [t28] | "Silverlake Packaging Co. holds account 6870452896 at Lakeshore Savings Bank." [D1.S10] | -
+- case_29 | (loc-stonebridge, name, 8252 Industrial Parkway, Spokane, WA 99201) | - | - | -
+- case_29 | (event-invoicesubmission, name, Invoice submission) | (event_1, eventType, invoice submission) [t37] | "On January 23, 2025 at 13:00 UTC, Lena Mendes initiated the invoice submission." [D2.S7] | -
+- case_29 | (email-meikowalski, name, mei.kowalski@stonebridge.com) | (email_person_0, addressValue, mei.kowalski@stonebridge.com) [t8] | "Stonebridge Services Co. employs Mei Kowalski, who can be reached at mei.kowalski@stonebridge.com." [D1.S2] | -
+- case_29 | (account-5837955400, name, 5837955400) | (acct_company, accountIdentifier, 5837955400) [t25] | "Lakeshore Savings Bank account 5837955400 is registered to Stonebridge Services Co." [D1.S9] | -
+- case_29 | (email-lenamendes, name, lena.mendes@silverlake.com) | (email_person_3, addressValue, lena.mendes@silverlake.com) [t17] | "Lena Mendes is employed by Silverlake Packaging Co.; their email is lena.mendes@silverlake.com." [D1.S5] | -
+- case_29 | (loc-silverlake, name, 116 Maple Avenue, Raleigh, NC 27601) | - | - | -
+- case_29 | (msg-1, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t55] | "Subject: Urgent: payment timing" [D2.S3] | -
+- case_30 | (account-6775312648, name, 6775312648) | (acct_insider, accountIdentifier, 6775312648) [t31] | "Account 6775312648 at Lakeshore Savings Bank belongs to Tomas Okafor." [D4.S4] | -
+- case_30 | (email-dbanerjee, name, dbanerjee@silverlake.com) | (email_person_1, addressValue, dbanerjee@silverlake.com) [t11] | "Desmond Banerjee is employed by Silverlake Analytics LLC; their email is dbanerjee@silverlake.com." [D1.S3] | -
+- case_30 | (email-tomas, name, tomas.okafor@silverlake.com) | (email_person_2, addressValue, tomas.okafor@silverlake.com) [t14] | "Tomas Okafor is employed by Silverlake Analytics LLC; their email is tomas.okafor@silverlake.com." [D1.S4] | -
+- case_30 | (loc-silverlake-office, name, 7328 Market Street, Boise, ID 83702) | - | - | -
+- case_30 | (email-arjun, name, arjun.moreau@westmark.com) | (email_person_3, addressValue, arjun.moreau@westmark.com) [t17] | "Arjun Moreau is employed by Westmark Fabrication LLC; their email is arjun.moreau@westmark.com." [D1.S5] | -
+- case_30 | (account-9921622374, name, 9921622374) | (acct_company, accountIdentifier, 9921622374) [t25] | "Account 9921622374 at Lakeshore Savings Bank belongs to Silverlake Analytics LLC." [D4.S2] | -
+- case_30 | (event-bank-detail-change, name, Bank detail change initiation) | (event_5, eventType, bank detail change) [t49] | "Tomas Okafor started the bank detail change on August 24, 2025 at 10:15 UTC." [D4.S8] | -
+- case_30 | (event-audit-init, name, Audit review initiation) | (event_0, eventType, audit review) [t34] | "The audit review was initiated by Desmond Banerjee on August 1, 2025 at 16:50 UTC." [D2.S6] | -
+- case_30 | (event-vendor-onboard, name, Vendor onboarding initiation) | (event_3, eventType, vendor onboarding) [t43] | "On August 20, 2025 at 12:00 UTC, Arjun Moreau initiated the vendor onboarding." [D4.S7] | -
+- case_30 | (event-recon-init, name, Account reconciliation initiation) | (event_2, eventType, account reconciliation) [t40] | "The account reconciliation was initiated by Kofi Park on 8 August 2025, 09:15 UTC." [D2.S7] | -
+- case_30 | (email-kpark, name, kpark@silverlake.com) | (email_person_0, addressValue, kpark@silverlake.com) [t8] | "Silverlake Analytics LLC employs Kofi Park, who can be reached at kpark@silverlake.com." [D1.S2] | -
+- case_30 | (event-wire-init, name, Wire transfer initiation) | (event_4, eventType, wire transfer) [t46] | "Desmond Banerjee started the wire transfer on 22 August 2025, 15:15 UTC." [D2.S8] | -
+- case_30 | (event-invoice-init, name, Invoice submission initiation) | (event_1, eventType, invoice submission) [t37] | "On 5 August 2025, 17:15 UTC, Kofi Park initiated the invoice submission." [D4.S5] | -
+- case_30 | (account-2386670109, name, 2386670109) | (acct_vendor, accountIdentifier, 2386670109) [t28] | "Westmark Fabrication LLC holds account 2386670109 at Lakeshore Savings Bank." [D4.S3] | -
+
+### duplicate_entity (10)
+
+- case_01 | (event-refund-approve, name, Refund Request Approval) | (event_0, eventType, refund request) [t34] | "On 2 May 2025, 09:50 UTC, Nadia Moreau initiated the refund request." [D2.S6] | -
+- case_01 | (event-refund-approve, startTime, 2025-05-18T13:30:00+00:00) | (email_msg_0, sentTime, 2025-05-18T13:30:00Z) [t56] | "Date: Sun, 18 May 2025 13:30:00 +0000" [D2.S4] | -
+- case_23 | (event-wire-transfer, name, Wire transfer execution) | (event_0, eventType, wire transfer) [t30] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | -
+- case_23 | (event-wire-transfer, eventType, Transfer) | - | - | -
+- case_23 | (event-wire-transfer, startTime, 2025-02-06T11:25:00+00:00) | (event_2, startTime, 2025-02-06T11:25:00Z) [t37] | "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment." [D1.S8] | -
+- case_23 | (event-contract-init, name, Contract amendment initiation) | (event_2, eventType, contract amendment) [t36] | "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment." [D1.S8] | -
+- case_23 | (event-contract-init, eventType, Initiation) | - | - | -
+- case_23 | (event-wire-init, name, Wire transfer initiation) | (event_0, eventType, wire transfer) [t30] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | -
+- case_23 | (event-wire-init, eventType, Initiation) | - | - | -
+- case_26 | (event-init-bank-detail, name, Bank detail change initiation) | (event_5, eventType, bank detail change) [t42] | "On 19 September 2025, 16:25 UTC, Dana Banerjee initiated the bank detail change." [D4.S5] | -
+
+### invented (242)
+
+- case_03 | (email-account-sofia, name, sofia.park@ironleaf.com) | (email_person_1, addressValue, sofia.park@ironleaf.com) [t12] | "Sofia Park works for Ironleaf Services Co. and uses the address sofia.park@ironleaf.com." [D1.S3] | -
+- case_03 | (email-account-desmond, name, desmond.reyes@brightwater.com) | (email_person_3, addressValue, desmond.reyes@brightwater.com) [t18] | "Brightwater Supply Ltd. employs Desmond Reyes, who can be reached at desmond.reyes@brightwater.com." [D1.S5] | -
+- case_03 | (email-account-andre, name, afischer@brightwater.com) | (email_person_4, addressValue, afischer@brightwater.com) [t21] | "Brightwater Supply Ltd. employs Andre Fischer, who can be reached at afischer@brightwater.com." [D1.S6] | -
+- case_03 | (loc-ironleaf-office, name, Ironleaf Services Co.'s office) | - | - | -
+- case_03 | (email-account-priya, name, priya.kowalski@ironleaf.com) | (email_person_2, addressValue, priya.kowalski@ironleaf.com) [t15] | "Priya Kowalski is employed by Ironleaf Services Co.; their email is priya.kowalski@ironleaf.com." [D1.S4] | -
+- case_03 | (email-account-nadia, name, nadia.holloway@ironleaf.com) | (email_person_0, addressValue, nadia.holloway@ironleaf.com) [t9] | "Nadia Holloway works for Ironleaf Services Co. and uses the address nadia.holloway@ironleaf.com." [D1.S2] | -
+- case_03 | (org-ironleaf, Located_At, loc-ironleaf-office) | - | - | -
+- case_03 | (event-payment-approval, Located_At, loc-ironleaf-office) | - | - | -
+- case_03 | (event-vendor-onboarding, Located_At, loc-ironleaf-office) | - | - | -
+- case_04 | (loc-harborline-office, name, Harborline Services Inc.'s office) | - | - | -
+- case_04 | (loc-ironleaf-office, name, Ironleaf Freight Inc.'s office) | - | - | -
+- case_04 | (account-ironleaf, name, Account 4824951982 at Union Ledger Bank) | - | - | -
+- case_04 | (account-harborline, name, Union Ledger Bank account 9208356166) | (acct_company, accountType, bank account) [t68] | "Union Ledger Bank account 9208356166 is registered to Harborline Services Inc." [D4.S2] | -
+- case_04 | (event-expense-reimbursement, Located_At, loc-harborline-office) | - | - | -
+- case_04 | (event-bank-detail-change, Located_At, loc-harborline-office) | - | - | -
+- case_04 | (event-refund-request, Located_At, loc-harborline-office) | - | - | -
+- case_04 | (account-harborline, Transferred_To, account-ironleaf) | - | - | -
+- case_05 | (loc-westmark-office, name, Westmark Tooling Co. office) | - | - | -
+- case_05 | (event-audit-review, Located_At, loc-westmark-office) | - | - | -
+- case_05 | (event-bank-change, Located_At, loc-westmark-office) | - | - | -
+- case_06 | (acc-2, hasFacet, acc-2-facet) | - | - | -
+- case_06 | (loc-1, hasFacet, loc-1-facet) | - | - | -
+- case_06 | (acc-3, hasFacet, acc-3-facet) | - | - | -
+- case_06 | (event-6, location, org-1) | - | - | -
+- case_06 | (acc-1, hasFacet, acc-1-facet) | - | - | -
+- case_06 | (msg-1, hasFacet, msg-1-facet) | - | - | -
+- case_06 | (org-1, Located_At, loc-1) | - | - | -
+- case_07 | (email-account-julian, hasFacet, email-account-julian-facet) | - | - | -
+- case_07 | (email-account-samuel, hasFacet, email-account-samuel-facet) | - | - | -
+- case_07 | (email-account-desmond, hasFacet, email-account-desmond-facet) | - | - | -
+- case_07 | (event-wire-transfer-approval, name, Wire Transfer Approval) | (event_0, eventType, wire transfer) [t38] | "The wire transfer was initiated by Mei Castillo on July 30, 2025 at 13:30 UTC." [D1.S6] | -
+- case_07 | (msg-d1, hasFacet, msg-d1-facet) | - | - | -
+- case_07 | (account-silverlake, hasFacet, account-silverlake-facet) | - | - | -
+- case_07 | (account-cedar-ridge, hasFacet, account-cedar-ridge-facet) | - | - | -
+- case_07 | (email-account-mei, hasFacet, email-account-mei-facet) | - | - | -
+- case_07 | (msg-d3, hasFacet, msg-d3-facet) | - | - | -
+- case_07 | (loc-spokane, hasFacet, loc-spokane-facet) | - | - | -
+- case_07 | (account-samuel, hasFacet, account-samuel-facet) | - | - | -
+- case_07 | (email-account-kofi, hasFacet, email-account-kofi-facet) | - | - | -
+- case_07 | (person-samuel-brennan, Owns_Account, account-samuel) | - | - | -
+- case_07 | (person-julian-lindqvist, Holds_Account, email-account-julian) | - | - | -
+- case_07 | (person-kofi-park, Holds_Account, email-account-kofi) | - | - | -
+- case_07 | (person-samuel-brennan, Holds_Account, email-account-samuel) | - | - | -
+- case_07 | (person-mei-castillo, Holds_Account, email-account-mei) | - | - | -
+- case_07 | (org-cedar-ridge, Located_At, loc-spokane) | - | - | -
+- case_07 | (org-silverlake, Owns_Account, account-silverlake) | - | - | -
+- case_07 | (person-desmond-sorensen, Holds_Account, email-account-desmond) | - | - | -
+- case_07 | (org-cedar-ridge, Owns_Account, account-cedar-ridge) | - | - | -
+- case_08 | (event-chat-1, name, Finance questions discussion) | - | - | -
+- case_08 | (event-chat-1, eventType, Communication) | - | - | -
+- case_08 | (event-chat-1, startTime, 2025-04-17T10:50:00+00:00) | (chat_msg_0, sentTime, 2025-04-17T10:50:00Z) [t73] | "[2025-04-17 10:50 UTC] @felixh to @priyao: Finance is asking questions again." [D3.S4] | -
+- case_08 | (event-chat-1, performer, person-felix-haddad) | - | - | -
+- case_08 | (event-chat-3, name, Confidentiality request) | - | - | -
+- case_08 | (event-chat-3, eventType, Communication) | - | - | -
+- case_08 | (event-chat-3, startTime, 2025-04-17T11:04:00+00:00) | (chat_msg_2, sentTime, 2025-04-17T11:04:00Z) [t81] | "[2025-04-17 11:04 UTC] @felixh to @priyao: Let's keep this between us until Friday." [D3.S6] | -
+- case_08 | (event-chat-3, performer, person-felix-haddad) | - | - | -
+- case_08 | (event-chat-2, name, Inbox check notification) | - | - | -
+- case_08 | (event-chat-2, eventType, Communication) | - | - | -
+- case_08 | (event-chat-2, startTime, 2025-04-17T10:57:00+00:00) | (chat_msg_1, sentTime, 2025-04-17T10:57:00Z) [t77] | "[2025-04-17 10:57 UTC] @priyao to @felixh: I pushed it through, check your inbox." [D3.S5] | -
+- case_08 | (event-chat-2, performer, person-priya-osei) | - | - | -
+- case_08 | (person-felix-haddad, Initiated, event-chat-3) | - | - | -
+- case_08 | (person-priya-osei, Initiated, event-chat-2) | - | - | -
+- case_08 | (person-priya-osei, Authorized, event-chat-3) | - | - | -
+- case_08 | (person-priya-osei, Authorized, event-chat-1) | - | - | -
+- case_08 | (person-felix-haddad, Authorized, event-chat-2) | - | - | -
+- case_08 | (person-felix-haddad, Initiated, event-chat-1) | - | - | -
+- case_09 | (email-account-julian, name, julian.osei@oakhaven.com) | (email_person_0, addressValue, julian.osei@oakhaven.com) [t8] | "Julian Osei is employed by Oakhaven Fabrication Co.; their email is julian.osei@oakhaven.com." [D1.S2] | -
+- case_09 | (email-account-julian, EmailAccountFacet, email-account-julian-facet) | - | - | -
+- case_09 | (loc-oakhaven-address, SimpleAddressFacet, loc-oakhaven-address-facet) | - | - | -
+- case_09 | (loc-clearpath-address, SimpleAddressFacet, loc-clearpath-address-facet) | - | - | -
+- case_09 | (email-message-1, EmailMessageFacet, email-message-1-facet) | - | - | -
+- case_09 | (email-account-andre, name, awhitfield@oakhaven.com) | (email_person_2, addressValue, awhitfield@oakhaven.com) [t14] | "Oakhaven Fabrication Co. employs Andre Whitfield, who can be reached at awhitfield@oakhaven.com." [D1.S4] | -
+- case_09 | (email-account-andre, EmailAccountFacet, email-account-andre-facet) | - | - | -
+- case_09 | (bank-account-oakhaven, AccountFacet, bank-account-oakhaven-facet) | - | - | -
+- case_09 | (email-account-felix, name, felix.sorensen@clearpath.com) | (email_person_3, addressValue, felix.sorensen@clearpath.com) [t17] | "Clearpath Industrial LLC employs Felix Sorensen, who can be reached at felix.sorensen@clearpath.com." [D1.S5] | -
+- case_09 | (email-account-felix, EmailAccountFacet, email-account-felix-facet) | - | - | -
+- case_09 | (email-account-dana, name, dashworth@oakhaven.com) | (email_person_1, addressValue, dashworth@oakhaven.com) [t11] | "Oakhaven Fabrication Co. employs Dana Ashworth, who can be reached at dashworth@oakhaven.com." [D1.S3] | -
+- case_09 | (email-account-dana, EmailAccountFacet, email-account-dana-facet) | - | - | -
+- case_09 | (bank-account-clearpath, AccountFacet, bank-account-clearpath-facet) | - | - | -
+- case_09 | (loc-oakhaven-office, name, Oakhaven Fabrication Co. office) | - | - | -
+- case_09 | (event-invoice-submission, Located_At, loc-oakhaven-office) | - | - | -
+- case_10 | (loc-copperfield-office, name, Copperfield Supply Inc. office) | - | - | -
+- case_10 | (event-contract-amendment, Located_At, loc-copperfield-office) | - | - | -
+- case_10 | (event-reconciliation, Located_At, loc-copperfield-office) | - | - | -
+- case_10 | (event-payment-approval, Located_At, loc-copperfield-office) | - | - | -
+- case_10 | (event-vendor-onboarding, Located_At, loc-copperfield-office) | - | - | -
+- case_11 | (loc-cedar-ridge-office, name, Cedar Ridge Logistics LLC office) | - | - | -
+- case_11 | (loc-oakhaven-office, name, Oakhaven Tooling Ltd. office) | - | - | -
+- case_11 | (event-account-reconciliation, Located_At, loc-oakhaven-office) | - | - | -
+- case_11 | (event-invoice-submission, Located_At, loc-oakhaven-office) | - | - | -
+- case_12 | (email-account-oscar, name, oscar.moreau@redfern.com) | (email_person_1, addressValue, oscar.moreau@redfern.com) [t10] | "Oscar Moreau is employed by Redfern Freight LLC; their email is oscar.moreau@redfern.com." [D2.S3] | -
+- case_12 | (email-account-tomas, name, tomas.mendes@redfern.com) | (email_person_0, addressValue, tomas.mendes@redfern.com) [t7] | "To: tomas.mendes@redfern.com" [D1.S2] | -
+- case_12 | (email-account-victor, name, victor.whitfield@stonebridge.com) | (email_person_2, addressValue, victor.whitfield@stonebridge.com) [t13] | "From: victor.whitfield@stonebridge.com" [D1.S1] | -
+- case_12 | (loc-redfern-office, name, Redfern Freight LLC's office) | - | - | -
+- case_12 | (person-oscar-moreau, Participated_In, event-audit-review) | - | - | -
+- case_12 | (org-redfern-freight, Located_At, loc-redfern-office) | - | - | -
+- case_12 | (person-tomas-mendes, Participated_In, event-audit-review) | - | - | -
+- case_12 | (event-audit-review, Located_At, loc-redfern-office) | - | - | -
+- case_12 | (event-expense-reimbursement, Located_At, loc-redfern-office) | - | - | -
+- case_15 | (emailmsg-d1, hasFacet, emailmsg-d1-facet) | - | - | -
+- case_15 | (location-boise, hasFacet, location-boise-facet) | - | - | -
+- case_15 | (bankaccount-4948925913, hasFacet, bankaccount-4948925913-facet) | - | - | -
+- case_15 | (emailaccount-divanova, name, divanova@summitpeak.com) | (email_person_2, addressValue, divanova@summitpeak.com) [t13] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | -
+- case_15 | (emailaccount-divanova, hasFacet, emailaccount-divanova-facet) | - | - | -
+- case_15 | (bankaccount-6302151532, hasFacet, bankaccount-6302151532-facet) | - | - | -
+- case_15 | (bankaccount-2170889721, hasFacet, bankaccount-2170889721-facet) | - | - | -
+- case_15 | (emailmsg-d3, hasFacet, emailmsg-d3-facet) | - | - | -
+- case_15 | (emailaccount-okowalski, name, okowalski@redfern.com) | (email_person_0, addressValue, okowalski@redfern.com) [t7] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | -
+- case_15 | (emailaccount-okowalski, hasFacet, emailaccount-okowalski-facet) | - | - | -
+- case_15 | (emailaccount-meicastillo, name, mei.castillo@redfern.com) | (email_person_1, addressValue, mei.castillo@redfern.com) [t10] | "From: mei.castillo@redfern.com" [D1.S1] | -
+- case_15 | (emailaccount-meicastillo, hasFacet, emailaccount-meicastillo-facet) | - | - | -
+- case_15 | (org-redfern, Located_At, location-boise) | - | - | -
+- case_15 | (event-auditreview, Located_At, location-boise) | - | - | -
+- case_16 | (account-dana-bank, hasFacet, account-dana-bank-facet) | - | - | -
+- case_16 | (account-stonebridge-bank, hasFacet, account-stonebridge-bank-facet) | - | - | -
+- case_16 | (loc-stonebridge-office, hasFacet, loc-stonebridge-office-facet) | - | - | -
+- case_16 | (email-account-dokafor, name, dokafor@stonebridge.com) | (email_person_1, addressValue, dokafor@stonebridge.com) [t10] | "Dana Okafor works for Stonebridge Supply Ltd. and uses the address dokafor@stonebridge.com." [D2.S3] | -
+- case_16 | (email-account-dokafor, hasFacet, email-account-dokafor-facet) | - | - | -
+- case_16 | (email-account-hwhitfield, name, hwhitfield@cedarridge.com) | (email_person_2, addressValue, hwhitfield@cedarridge.com) [t13] | "To: hwhitfield@cedarridge.com" [D1.S2] | -
+- case_16 | (email-account-hwhitfield, hasFacet, email-account-hwhitfield-facet) | - | - | -
+- case_16 | (msg-d1, hasFacet, msg-d1-facet) | - | - | -
+- case_16 | (account-cedar-ridge-bank, hasFacet, account-cedar-ridge-bank-facet) | - | - | -
+- case_16 | (msg-d3, hasFacet, msg-d3-facet) | - | - | -
+- case_16 | (email-account-tcastillo, name, tcastillo@stonebridge.com) | (email_person_0, addressValue, tcastillo@stonebridge.com) [t7] | "From: tcastillo@stonebridge.com" [D1.S1] | -
+- case_16 | (email-account-tcastillo, hasFacet, email-account-tcastillo-facet) | - | - | -
+- case_16 | (org-stonebridge, Located_At, loc-stonebridge-office) | - | - | -
+- case_16 | (event-invoice-submission, Located_At, loc-stonebridge-office) | - | - | -
+- case_17 | (email-msg-1, messageID, msg-1) | - | - | -
+- case_18 | (acct-2, hasFacet, acct-2-facet) | - | - | -
+- case_18 | (loc-1, hasFacet, loc-1-facet) | - | - | -
+- case_18 | (emailacc-5, hasFacet, emailacc-5-facet) | - | - | -
+- case_18 | (msg-2, hasFacet, msg-2-facet) | - | - | -
+- case_18 | (acct-3, hasFacet, acct-3-facet) | - | - | -
+- case_18 | (acct-1, hasFacet, acct-1-facet) | - | - | -
+- case_18 | (emailacc-2, hasFacet, emailacc-2-facet) | - | - | -
+- case_18 | (emailacc-1, hasFacet, emailacc-1-facet) | - | - | -
+- case_18 | (emailacc-4, hasFacet, emailacc-4-facet) | - | - | -
+- case_18 | (emailacc-3, hasFacet, emailacc-3-facet) | - | - | -
+- case_18 | (msg-1, hasFacet, msg-1-facet) | - | - | -
+- case_18 | (person-2, Owns_Account, acct-3) | - | - | -
+- case_18 | (person-5, Holds_Account, emailacc-5) | - | - | -
+- case_18 | (person-4, Holds_Account, emailacc-4) | - | - | -
+- case_18 | (person-2, Holds_Account, emailacc-2) | - | - | -
+- case_18 | (person-3, Holds_Account, emailacc-3) | - | - | -
+- case_18 | (org-1, Located_At, loc-1) | - | - | -
+- case_18 | (org-2, Owns_Account, acct-2) | - | - | -
+- case_18 | (person-1, Holds_Account, emailacc-1) | - | - | -
+- case_18 | (org-1, Owns_Account, acct-1) | - | - | -
+- case_19 | (bank-account-3811034105, hasFacet, bank-account-3811034105-facet) | - | - | -
+- case_19 | (bank-account-9480427652, hasFacet, bank-account-9480427652-facet) | - | - | -
+- case_19 | (bank-account-3917062016, hasFacet, bank-account-3917062016-facet) | - | - | -
+- case_19 | (email-account-maya, name, mnovak@bluegate.com) | (email_person_2, addressValue, mnovak@bluegate.com) [t14] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_19 | (email-account-maya, hasFacet, email-account-maya-facet) | - | - | -
+- case_19 | (email-account-irene, name, isorensen@bluegate.com) | (email_person_0, addressValue, isorensen@bluegate.com) [t8] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_19 | (email-account-irene, hasFacet, email-account-irene-facet) | - | - | -
+- case_19 | (email-account-hector, name, hfischer@westmark.com) | (email_person_3, addressValue, hfischer@westmark.com) [t17] | "Hector Fischer works for Westmark Consulting LLC and uses the address hfischer@westmark.com." [D2.S5] | -
+- case_19 | (email-account-hector, hasFacet, email-account-hector-facet) | - | - | -
+- case_19 | (loc-bluegate-office, hasFacet, loc-bluegate-office-facet) | - | - | -
+- case_19 | (email-account-kofi, name, kofi.kowalski@bluegate.com) | (email_person_1, addressValue, kofi.kowalski@bluegate.com) [t11] | "From: kofi.kowalski@bluegate.com" [D1.S1] | -
+- case_19 | (email-account-kofi, hasFacet, email-account-kofi-facet) | - | - | -
+- case_19 | (event-payment-approval, Located_At, loc-bluegate-office) | - | - | -
+- case_19 | (org-bluegate, Located_At, loc-bluegate-office) | - | - | -
+- case_20 | (acct-granite-2, hasFacet, acct-granite-2-facet) | - | - | -
+- case_20 | (acct-granite-3, hasFacet, acct-granite-3-facet) | - | - | -
+- case_20 | (loc-stonebridge, hasFacet, loc-stonebridge-facet) | - | - | -
+- case_20 | (loc-oakhaven, hasFacet, loc-oakhaven-facet) | - | - | -
+- case_20 | (msg-d1, hasFacet, msg-d1-facet) | - | - | -
+- case_20 | (acct-granite-1, hasFacet, acct-granite-1-facet) | - | - | -
+- case_20 | (msg-d3, hasFacet, msg-d3-facet) | - | - | -
+- case_20 | (org-stonebridge, Located_At, loc-stonebridge) | - | - | -
+- case_20 | (org-oakhaven, Located_At, loc-oakhaven) | - | - | -
+- case_22 | (email-account-marcus-abara, name, marcus.abara@harborline.com) | (email_person_3, addressValue, marcus.abara@harborline.com) [t17] | "From: marcus.abara@harborline.com" [D1.S1] | -
+- case_22 | (email-account-marcus-abara, hasFacet, email-account-marcus-abara-facet) | - | - | -
+- case_22 | (email-account-yara-ivanova, name, yivanova@northwind.com) | (email_person_0, addressValue, yivanova@northwind.com) [t8] | "Yara Ivanova is employed by Northwind Analytics LLC; their email is yivanova@northwind.com." [D2.S2] | -
+- case_22 | (email-account-yara-ivanova, hasFacet, email-account-yara-ivanova-facet) | - | - | -
+- case_22 | (location-dayton, hasFacet, location-dayton-facet) | - | - | -
+- case_22 | (location-omaha, hasFacet, location-omaha-facet) | - | - | -
+- case_22 | (account-5656063669, hasFacet, account-5656063669-facet) | - | - | -
+- case_22 | (email-account-irene-sorensen, name, isorensen@northwind.com) | (email_person_1, addressValue, isorensen@northwind.com) [t11] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | -
+- case_22 | (email-account-irene-sorensen, hasFacet, email-account-irene-sorensen-facet) | - | - | -
+- case_22 | (account-7421022350, hasFacet, account-7421022350-facet) | - | - | -
+- case_22 | (email-msg-1, hasFacet, email-msg-1-facet) | - | - | -
+- case_22 | (email-msg-2, hasFacet, email-msg-2-facet) | - | - | -
+- case_22 | (email-account-tomas-vance, name, tomas.vance@northwind.com) | (email_person_2, addressValue, tomas.vance@northwind.com) [t14] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | -
+- case_22 | (email-account-tomas-vance, hasFacet, email-account-tomas-vance-facet) | - | - | -
+- case_22 | (account-5413632543, hasFacet, account-5413632543-facet) | - | - | -
+- case_22 | (org-harborline-fabrication, Located_At, location-omaha) | - | - | -
+- case_22 | (org-northwind-analytics, Located_At, location-dayton) | - | - | -
+- case_23 | (loc-boise, name, Boise, ID 83702) | - | - | -
+- case_23 | (org-clearpath, Located_At, loc-boise) | - | - | -
+- case_24 | (account-westmark-bank, name, First Harbor Bank account 3503133229) | (acct_company, accountType, bank account) [t54] | "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co." [D2.S6] | -
+- case_24 | (account-andre-bank, name, First Harbor Bank account 7342857219) | (acct_company, accountType, bank account) [t54] | "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co." [D2.S6] | -
+- case_24 | (account-clearpath-bank, name, First Harbor Bank account 8047662278) | (acct_company, accountType, bank account) [t54] | "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co." [D2.S6] | -
+- case_24 | (person-andre-okafor, Owns_Account, account-andre-bank) | - | - | -
+- case_24 | (org-clearpath, Owns_Account, account-clearpath-bank) | - | - | -
+- case_24 | (org-westmark, Owns_Account, account-westmark-bank) | - | - | -
+- case_25 | (event-10, name, vendor file review) | - | - | -
+- case_25 | (event-10, startTime, 2025-05-16T17:07:00+00:00) | (chat_msg_1, sentTime, 2025-05-16T17:07:00Z) [t68] | "[2025-05-16 17:07 UTC] @kofir to @meib: Can you look at the vendor file before lunch?" [D3.S5] | -
+- case_25 | (event-10, eventType, review) | - | - | -
+- case_25 | (event-9, name, bank call back) | - | - | -
+- case_25 | (event-9, startTime, 2025-05-16T17:00:00+00:00) | (chat_msg_0, sentTime, 2025-05-16T17:00:00Z) [t64] | "[2025-05-16 17:00 UTC] @meib to @kofir: Did the bank call back yet?" [D3.S4] | -
+- case_25 | (event-9, eventType, communication) | - | - | -
+- case_25 | (person-1, Participated_In, event-10) | - | - | -
+- case_25 | (person-1, Participated_In, event-9) | - | - | -
+- case_26 | (acc-stonebridge, hasFacet, acc-stonebridge-facet) | - | - | -
+- case_26 | (loc-silverlake-office, hasFacet, loc-silverlake-office-facet) | - | - | -
+- case_26 | (event-bank-detail-change, eventContext, loc-silverlake-office) | - | - | -
+- case_26 | (acc-silverlake, hasFacet, acc-silverlake-facet) | - | - | -
+- case_26 | (org-silverlake, Located_At, loc-silverlake-office) | - | - | -
+- case_26 | (event-bank-detail-change, Located_At, loc-silverlake-office) | - | - | -
+- case_27 | (email-account-quinn, hasFacet, email-account-quinn-facet) | - | - | -
+- case_27 | (account-clearpath, hasFacet, account-clearpath-facet) | - | - | -
+- case_27 | (email-account-castillo, hasFacet, email-account-castillo-facet) | - | - | -
+- case_27 | (event-email-d1, name, Email D1) | - | - | -
+- case_27 | (event-email-d1, startTime, 2025-10-11T12:10:00+00:00) | (email_msg_0, sentTime, 2025-10-11T12:10:00Z) [t60] | "Date: Sat, 11 Oct 2025 12:10:00 +0000" [D1.S4] | -
+- case_27 | (email-account-yivanova, hasFacet, email-account-yivanova-facet) | - | - | -
+- case_27 | (event-email-d3, name, Email D3) | - | - | -
+- case_27 | (event-email-d3, startTime, 2025-10-21T13:00:00+00:00) | (email_msg_1, sentTime, 2025-10-21T13:00:00Z) [t64] | "Date: Tue, 21 Oct 2025 13:00:00 +0000" [D3.S4] | -
+- case_27 | (loc-clearpath, hasFacet, loc-clearpath-facet) | - | - | -
+- case_27 | (account-harborline, hasFacet, account-harborline-facet) | - | - | -
+- case_27 | (loc-harborline, hasFacet, loc-harborline-facet) | - | - | -
+- case_27 | (person-yivanova, Holds_Account, email-account-yivanova) | - | - | -
+- case_27 | (org-clearpath, Located_At, loc-clearpath) | - | - | -
+- case_27 | (event-wire-transfer, Located_At, loc-clearpath) | - | - | -
+- case_27 | (org-clearpath, Owns_Account, account-clearpath) | - | - | -
+- case_27 | (person-castillo, Holds_Account, email-account-castillo) | - | - | -
+- case_27 | (org-harborline, Located_At, loc-harborline) | - | - | -
+- case_27 | (person-quinn, Holds_Account, email-account-quinn) | - | - | -
+- case_27 | (org-harborline, Owns_Account, account-harborline) | - | - | -
+- case_28 | (acct-2, hasFacet, acct-2-facet) | - | - | -
+- case_28 | (loc-1, hasFacet, loc-1-facet) | - | - | -
+- case_28 | (loc-2, hasFacet, loc-2-facet) | - | - | -
+- case_28 | (acct-3, hasFacet, acct-3-facet) | - | - | -
+- case_28 | (acct-1, hasFacet, acct-1-facet) | - | - | -
+- case_28 | (msg-1, hasFacet, msg-1-facet) | - | - | -
+- case_28 | (org-1, Owns_Account, acct-1) | - | - | -
+- case_28 | (person-3, Owns_Account, acct-3) | - | - | -
+- case_28 | (evt-3, Located_At, loc-1) | - | - | -
+- case_28 | (org-2, Owns_Account, acct-2) | - | - | -
+- case_28 | (org-2, Located_At, loc-2) | - | - | -
+- case_28 | (evt-5, Located_At, loc-1) | - | - | -
+- case_28 | (org-1, Located_At, loc-1) | - | - | -
+
+### run failed
+
+- case_13 | run error: no parseable JSON in response
+
+## a1_script (402 edges)
+
+### wrong_value (28)
+
+- case_06 | (event-expense, eventType, Financial Transaction) | (event_3, eventType, expense reimbursement) [t43] | "Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC." [D2.S9] | -
+- case_06 | (event-payment-approval, eventType, Financial Transaction) | (event_2, eventType, payment approval) [t40] | "On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval." [D2.S8] | -
+- case_06 | (event-vendor-onboard, eventType, Procurement) | (event_5, eventType, vendor onboarding) [t49] | "On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding." [D2.S11] | -
+- case_06 | (event-audit, eventType, Compliance) | (event_4, eventType, audit review) [t46] | "Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC." [D2.S10] | -
+- case_06 | (event-recon, eventType, Business Process) | (event_0, eventType, account reconciliation) [t34] | "Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC." [D2.S6] | -
+- case_06 | (event-invoice, eventType, Financial Transaction) | (event_6, eventType, invoice submission) [t52] | "On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission." [D2.S14] | -
+- case_06 | (event-bank-detail, eventType, System Configuration) | (event_1, eventType, bank detail change) [t37] | "On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change." [D2.S7] | -
+- case_13 | (event-payment-approval, eventType, Action) | (event_3, eventType, payment approval) [t43] | "On July 30, 2025 at 17:15 UTC, Nadia Ashworth initiated the payment approval." [D2.S10] | -
+- case_13 | (event-vendor-onboard, eventType, Action) | (event_1, eventType, vendor onboarding) [t37] | "The vendor onboarding was initiated by Sofia Brennan on 23 July 2025, 12:30 UTC." [D2.S7] | -
+- case_13 | (event-wire-transfer, eventType, Action) | (event_2, eventType, wire transfer) [t40] | "On 24 July 2025, 09:25 UTC, Rosa Moreau initiated the wire transfer." [D2.S8] | -
+- case_13 | (event-expense-reimb, eventType, Action) | (event_4, eventType, expense reimbursement) [t46] | "Kofi Okafor started the expense reimbursement on August 1, 2025 at 10:10 UTC." [D2.S11] | -
+- case_13 | (event-contract-amend, eventType, Action) | (event_6, eventType, contract amendment) [t52] | "Sofia Brennan started the contract amendment on 11 August 2025, 15:45 UTC." [D2.S15] | -
+- case_13 | (event-invoice-sub, eventType, Action) | (event_5, eventType, invoice submission) [t49] | "The invoice submission was initiated by Sofia Brennan on 1 August 2025, 11:10 UTC." [D2.S13] | -
+- case_13 | (event-audit-review, eventType, Action) | (event_7, eventType, audit review) [t55] | "On August 19, 2025 at 14:45 UTC, Sofia Brennan initiated the audit review." [D2.S16] | -
+- case_13 | (event-bank-change, eventType, Action) | (event_0, eventType, bank detail change) [t34] | "Rosa Moreau started the bank detail change on 17 July 2025, 15:00 UTC." [D2.S6] | -
+- case_14 | (acc-stonebridge, accountType, bank) | (acct_vendor, accountType, bank account) [t81] | "Account 3765803916 at Meridian Trust Bank belongs to Stonebridge Logistics Inc." [D1.S8] | -
+- case_14 | (acc-copperfield, accountType, bank) | (acct_company, accountType, bank account) [t80] | "Meridian Trust Bank account 5835997512 is registered to Copperfield Distribution Inc." [D1.S7] | -
+- case_17 | (event-expense, eventType, Expense) | (event_1, eventType, expense reimbursement) [t41] | "On July 8, 2025 at 17:25 UTC, Nadia Delgado initiated the expense reimbursement." [D2.S7] | -
+- case_17 | (event-invoice, eventType, Invoice) | (event_3, eventType, invoice submission) [t47] | "On 16 July 2025, 13:15 UTC, Marcus Brennan initiated the invoice submission." [D2.S9] | -
+- case_17 | (event-bank-change, eventType, AccountChange) | (event_2, eventType, bank detail change) [t44] | "On 16 July 2025, 09:30 UTC, Nadia Delgado initiated the bank detail change." [D2.S8] | -
+- case_17 | (event-audit, eventType, Audit) | (event_0, eventType, audit review) [t38] | "Desmond Kowalski started the audit review on 3 July 2025, 15:15 UTC." [D2.S6] | -
+- case_23 | (event-wire-approve, eventType, Authorization) | (event_0, eventType, wire transfer) [t30] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | -
+- case_23 | (event-audit-init, eventType, Audit) | (event_3, eventType, audit review) [t39] | "Tomas Kowalski started the audit review on 14 February 2025, 10:50 UTC." [D3.S7] | -
+- case_23 | (event-contract-auth, eventType, Authorization) | (event_2, eventType, contract amendment) [t36] | "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment." [D1.S8] | -
+- case_23 | (event-invoice-init, eventType, FinancialTransaction) | (event_1, eventType, invoice submission) [t33] | "On February 1, 2025 at 14:25 UTC, Tomas Kowalski initiated the invoice submission." [D3.S6] | -
+- case_24 | (event-init-invoice, eventType, Administrative Action) | (event_1, eventType, invoice submission) [t33] | "Andre Okafor started the invoice submission on 26 April 2025, 17:10 UTC." [D3.S6] | -
+- case_24 | (event-init-wire, eventType, Financial Transaction) | (event_0, eventType, wire transfer) [t30] | "On 26 April 2025, 15:45 UTC, Desmond Kowalski initiated the wire transfer." [D1.S6] | -
+- case_24 | (event-init-bank-change, eventType, Account Modification) | (event_2, eventType, bank detail change) [t36] | "On May 17, 2025 at 17:45 UTC, Andre Okafor initiated the bank detail change." [D1.S7] | -
+
+### wrong_relation (15)
+
+- case_06 | (event-expense, participant, person-priya) | (person_2, Initiated, event_3) [t45] | "Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC." [D2.S9] | -
+- case_06 | (event-payment-approval, participant, person-desmond) | (person_3, Initiated, event_2) [t42] | "On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval." [D2.S8] | -
+- case_06 | (event-vendor-onboard, participant, person-andre) | (person_0, Initiated, event_5) [t51] | "On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding." [D2.S11] | -
+- case_06 | (event-vendor-onboard, participant, person-priya) | (person_2, Participated_In, event_5) [t55] | "Priya Sorensen was involved in the vendor onboarding as well." [D2.S12] | -
+- case_06 | (event-audit, participant, person-priya) | (person_2, Initiated, event_4) [t48] | "Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC." [D2.S10] | -
+- case_06 | (event-recon, participant, person-julian) | (person_1, Initiated, event_0) [t36] | "Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC." [D2.S6] | -
+- case_06 | (event-invoice, participant, person-desmond) | (person_3, Initiated, event_6) [t54] | "On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission." [D2.S14] | -
+- case_06 | (event-bank-detail, participant, person-andre) | (person_0, Initiated, event_1) [t39] | "On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change." [D2.S7] | -
+- case_06 | (email-account-andre, uco-observable:hasFacet, email-andre) | (email_account_person_0, emailAddress, email_person_0) [t62] | "Copperfield Fabrication Inc. employs Andre Fischer, who can be reached at afischer@copperfield.com." [D1.S2] | -
+- case_20 | (person-wesley, Participated_In, event-wire-transfer) | (person_0, Initiated, event_3) [t49] | "Wesley Osei started the wire transfer on 12 May 2025, 12:25 UTC." [D1.S7] | -
+- case_22 | (irene-sorensen, Owns_Account, acc-irene) | (person_1, Holds_Account, email_account_person_1) [t69] | "Northwind Analytics LLC employs Irene Sorensen, who can be reached at isorensen@northwind.com." [D2.S3] | -
+- case_22 | (marcus-abara, Owns_Account, acc-marcus) | (person_3, Holds_Account, email_account_person_3) [t73] | "Marcus Abara is employed by Harborline Fabrication LLC; their email is marcus.abara@harborline.com." [D2.S5] | -
+- case_22 | (tomas-vance, Owns_Account, acc-tomas) | (person_2, Holds_Account, email_account_person_2) [t71] | "Tomas Vance is employed by Northwind Analytics LLC; their email is tomas.vance@northwind.com." [D2.S4] | -
+- case_22 | (yara-ivanova, Owns_Account, acc-yara) | (person_0, Holds_Account, email_account_person_0) [t67] | "Yara Ivanova is employed by Northwind Analytics LLC; their email is yivanova@northwind.com." [D2.S2] | -
+- case_24 | (email-andre, uco-core:hasFacet, email-account-andre) | (email_account_person_0, emailAddress, email_person_0) [t48] | "Andre Okafor is employed by Clearpath Packaging Co.; their email is andre.okafor@clearpath.com." [D2.S2] | -
+
+### wrong_entity (12)
+
+- case_05 | (msg-chat-2, from, person-dana) | (chat_msg_1, from, handle_person_1) [t62] | "[2025-02-17 10:52 UTC] @danan to @marcusw: Let's keep this between us until Friday." [D3.S5] | -
+- case_05 | (msg-chat-2, to, person-marcus) | (chat_msg_1, to, handle_person_3) [t63] | "[2025-02-17 10:52 UTC] @danan to @marcusw: Let's keep this between us until Friday." [D3.S5] | -
+- case_05 | (msg-chat-1, from, person-marcus) | (chat_msg_0, from, handle_person_3) [t58] | "[2025-02-17 10:45 UTC] @marcusw to @danan: I pushed it through, check your inbox." [D3.S4] | -
+- case_05 | (msg-chat-1, to, person-dana) | (chat_msg_0, to, handle_person_1) [t59] | "[2025-02-17 10:45 UTC] @marcusw to @danan: I pushed it through, check your inbox." [D3.S4] | -
+- case_14 | (chat-2, from, person-lena) | (chat_msg_1, from, handle_person_0) [t64] | "[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again." [D3.S5] | -
+- case_14 | (chat-2, to, person-felix) | (chat_msg_1, to, handle_person_3) [t65] | "[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again." [D3.S5] | -
+- case_14 | (chat-3, from, person-felix) | (chat_msg_2, from, handle_person_3) [t68] | "[2025-06-21 12:44 UTC] @felixo to @lenap: I pushed it through, check your inbox." [D3.S6] | -
+- case_14 | (chat-3, to, person-lena) | (chat_msg_2, to, handle_person_0) [t69] | "[2025-06-21 12:44 UTC] @felixo to @lenap: I pushed it through, check your inbox." [D3.S6] | -
+- case_14 | (chat-1, from, person-felix) | (chat_msg_0, from, handle_person_3) [t60] | "[2025-06-21 12:30 UTC] @felixo to @lenap: Send me the new form when you can." [D3.S4] | -
+- case_14 | (chat-1, to, person-lena) | (chat_msg_0, to, handle_person_0) [t61] | "[2025-06-21 12:30 UTC] @felixo to @lenap: Send me the new form when you can." [D3.S4] | -
+- case_25 | (person-3, Initiated, email-msg-1) | (person_2, Initiated, event_1) [t32] | "The contract amendment was initiated by Mei Banerjee on May 19, 2025 at 09:45 UTC." [D2.S8] | -
+- case_25 | (person-1, Participated_In, email-msg-1) | (person_0, Participated_In, event_4) [t55] | "Sofia Lindqvist was involved in the expense reimbursement as well." [D2.S12] | -
+
+### cross_document_conflation (6)
+
+- case_06 | (msg-1, from, email-account-andre) | (email_msg_0, from, email_person_0) [t57] | "From: afischer@copperfield.com" [D2.S1] | -
+- case_06 | (msg-1, to, email-account-julian) | (email_msg_0, to, email_person_1) [t58] | "To: julian.holloway@copperfield.com, ddelgado@oakhaven.com" [D2.S2] | -
+- case_06 | (msg-1, to, email-account-desmond) | (email_msg_0, to, email_person_1) [t58] | "To: julian.holloway@copperfield.com, ddelgado@oakhaven.com" [D2.S2] | -
+- case_25 | (org-1, Located_At, event-1) | (org_company, Located_At, loc_company) [t20] | "Stonebridge Supply Group operates from 9623 Market Street, Dayton, OH 45402." [D1.S5] | -
+- case_25 | (person-3, Initiated, msg-1) | (person_2, Initiated, event_1) [t32] | "The contract amendment was initiated by Mei Banerjee on May 19, 2025 at 09:45 UTC." [D2.S8] | -
+- case_25 | (person-2, Initiated, msg-2) | (person_1, Initiated, event_2) [t35] | "Kofi Reyes started the refund request on May 20, 2025 at 16:45 UTC." [D2.S9] | -
+
+### misplaced_property (233)
+
+- case_01 | (acc-5950398673, name, 5950398673) | (acct_insider, accountIdentifier, 5950398673) [t31] | "Account 5950398673 at Meridian Trust Bank belongs to Nadia Moreau." [D4.S4] | -
+- case_01 | (email-wesley, name, wesley.castillo@oakhaven.com) | (email_person_1, addressValue, wesley.castillo@oakhaven.com) [t11] | "Oakhaven Services LLC employs Wesley Castillo, who can be reached at wesley.castillo@oakhaven.com." [D1.S3] | -
+- case_01 | (loc-omaha, name, 5868 Market Street, Omaha, NE 68102) | - | - | -
+- case_01 | (msg-d2, name, Re: banking change request) | (email_msg_0, subject, Re: banking change request) [t55] | "Subject: Re: banking change request" [D2.S3] | -
+- case_01 | (email-oscar, name, oscar.banerjee@redfern.com) | (email_person_3, addressValue, oscar.banerjee@redfern.com) [t17] | "Redfern Components Group employs Oscar Banerjee, who can be reached at oscar.banerjee@redfern.com." [D1.S5] | -
+- case_01 | (acc-1069850329, name, 1069850329) | (acct_vendor, accountIdentifier, 1069850329) [t28] | "Account 1069850329 at Meridian Trust Bank belongs to Redfern Components Group." [D4.S3] | -
+- case_01 | (email-nadia, name, nmoreau@oakhaven.com) | (email_person_2, addressValue, nmoreau@oakhaven.com) [t14] | "Oakhaven Services LLC employs Nadia Moreau, who can be reached at nmoreau@oakhaven.com." [D1.S4] | -
+- case_01 | (acc-3751001456, name, 3751001456) | (acct_company, accountIdentifier, 3751001456) [t25] | "Account 3751001456 at Meridian Trust Bank belongs to Oakhaven Services LLC." [D4.S2] | -
+- case_01 | (email-luca, name, luca.petrov@oakhaven.com) | (email_person_0, addressValue, luca.petrov@oakhaven.com) [t8] | "Luca Petrov works for Oakhaven Services LLC and uses the address luca.petrov@oakhaven.com." [D1.S2] | -
+- case_02 | (event-reimbursement, name, expense reimbursement) | (event_4, eventType, expense reimbursement) [t42] | "Luca Fischer started the expense reimbursement on July 24, 2025 at 10:10 UTC." [D2.S10] | -
+- case_02 | (email-sofia, name, sivanova@oakhaven.com) | (email_person_0, addressValue, sivanova@oakhaven.com) [t7] | "Oakhaven Logistics Co. employs Sofia Ivanova, who can be reached at sivanova@oakhaven.com." [D1.S2] | -
+- case_02 | (event-onboarding, name, vendor onboarding) | (event_5, eventType, vendor onboarding) [t45] | "Sofia Ivanova started the vendor onboarding on July 24, 2025 at 12:00 UTC." [D2.S11] | -
+- case_02 | (loc-946, name, 946 Market Street, Omaha, NE 68102) | - | - | -
+- case_02 | (acc-summit, name, 8518118555) | (acct_vendor, accountIdentifier, 8518118555) [t24] | "Account 8518118555 at First Harbor Bank belongs to Summit Peak Freight Group." [D1.S7] | -
+- case_02 | (email-wesley, name, wesley.park@oakhaven.com) | (email_person_1, addressValue, wesley.park@oakhaven.com) [t10] | "Wesley Park works for Oakhaven Logistics Co. and uses the address wesley.park@oakhaven.com." [D1.S3] | -
+- case_02 | (event-approval, name, payment approval) | (event_2, eventType, payment approval) [t36] | "Luca Fischer started the payment approval on 2 July 2025, 13:30 UTC." [D2.S8] | -
+- case_02 | (acc-oakhaven, name, 4396839738) | (acct_company, accountIdentifier, 4396839738) [t21] | "First Harbor Bank account 4396839738 is registered to Oakhaven Logistics Co." [D1.S6] | -
+- case_02 | (acc-sofia, name, 9876553190) | (acct_insider, accountIdentifier, 9876553190) [t27] | "Account 9876553190 at First Harbor Bank belongs to Sofia Ivanova." [D1.S8] | -
+- case_02 | (event-invoice, name, invoice submission) | (event_1, eventType, invoice submission) [t33] | "The invoice submission was initiated by Sofia Ivanova on June 22, 2025 at 09:30 UTC." [D2.S7] | -
+- case_02 | (event-bank-detail, name, bank detail change) | (event_3, eventType, bank detail change) [t39] | "Sofia Ivanova started the bank detail change on July 22, 2025 at 14:50 UTC." [D2.S9] | -
+- case_02 | (email-luca, name, lfischer@summitpeak.com) | (email_person_2, addressValue, lfischer@summitpeak.com) [t13] | "Luca Fischer is employed by Summit Peak Freight Group; their email is lfischer@summitpeak.com." [D1.S4] | -
+- case_02 | (event-refund, name, refund request) | (event_0, eventType, refund request) [t30] | "Luca Fischer started the refund request on June 20, 2025 at 17:00 UTC." [D2.S6] | -
+- case_02 | (event-wire, name, wire transfer) | (event_6, eventType, wire transfer) [t48] | "On July 28, 2025 at 09:50 UTC, Luca Fischer initiated the wire transfer." [D2.S12] | -
+- case_05 | (email-dnovak, name, dnovak@westmark.com) | (email_person_1, addressValue, dnovak@westmark.com) [t12] | "Westmark Tooling Co. employs Dana Novak, who can be reached at dnovak@westmark.com." [D1.S3] | -
+- case_05 | (loc-albany, name, 3192 Main Street, Albany, NY 12207) | - | - | -
+- case_05 | (acc-westmark, name, 9416052131) | (acct_company, accountIdentifier, 9416052131) [t29] | "Union Ledger Bank account 9416052131 is registered to Westmark Tooling Co." [D1.S9] | -
+- case_05 | (event-reconciliation, name, Account reconciliation) | (event_1, eventType, account reconciliation) [t38] | "On 18 February 2025, 11:00 UTC, Andre Banerjee initiated the account reconciliation." [D2.S9] | -
+- case_05 | (email-tmendes, name, tmendes@westmark.com) | (email_person_0, addressValue, tmendes@westmark.com) [t9] | "Tomas Mendes is employed by Westmark Tooling Co.; their email is tmendes@westmark.com." [D1.S2] | -
+- case_05 | (event-audit-review, name, Audit review) | (event_2, eventType, audit review) [t41] | "On 5 March 2025, 16:10 UTC, Felix Fischer initiated the audit review." [D2.S11] | -
+- case_05 | (email-marw, name, marcus.whitfield@oakhaven.com) | (email_person_3, addressValue, marcus.whitfield@oakhaven.com) [t18] | "Oakhaven Distribution Group employs Marcus Whitfield, who can be reached at marcus.whitfield@oakhaven.com." [D1.S5] | -
+- case_05 | (acc-oakhaven, name, 1667047112) | (acct_vendor, accountIdentifier, 1667047112) [t32] | "Oakhaven Distribution Group holds account 1667047112 at Union Ledger Bank." [D1.S10] | -
+- case_05 | (msg-chat-2, name, Let's keep this between us until Friday.) | (chat_msg_1, messageText, Let's keep this between us until Friday.) [t65] | "[2025-02-17 10:52 UTC] @danan to @marcusw: Let's keep this between us until Friday." [D3.S5] | -
+- case_05 | (msg-chat-1, name, I pushed it through, check your inbox.) | (chat_msg_0, messageText, I pushed it through, check your inbox.) [t61] | "[2025-02-17 10:45 UTC] @marcusw to @danan: I pushed it through, check your inbox." [D3.S4] | -
+- case_05 | (event-bank-change, name, Bank detail change) | (event_0, eventType, bank detail change) [t35] | "Andre Banerjee started the bank detail change on February 17, 2025 at 09:45 UTC." [D2.S6] | -
+- case_05 | (msg-audit-prep, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t56] | "Subject: Audit prep items" [D2.S3] | -
+- case_06 | (email-julian, name, julian.holloway@copperfield.com) | (email_person_1, addressValue, julian.holloway@copperfield.com) [t11] | "Julian Holloway is employed by Copperfield Fabrication Inc.; their email is julian.holloway@copperfield.com." [D1.S3] | -
+- case_06 | (event-expense, name, Expense Reimbursement) | (event_3, eventType, expense reimbursement) [t43] | "Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC." [D2.S9] | -
+- case_06 | (event-payment-approval, name, Payment Approval) | (event_2, eventType, payment approval) [t40] | "On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval." [D2.S8] | -
+- case_06 | (loc-copperfield, name, 2894 Market Street, Richmond, VA 23219) | - | - | -
+- case_06 | (email-priya, name, priya.sorensen@copperfield.com) | (email_person_2, addressValue, priya.sorensen@copperfield.com) [t14] | "Priya Sorensen works for Copperfield Fabrication Inc. and uses the address priya.sorensen@copperfield.com." [D1.S4] | -
+- case_06 | (acc-andre, name, 4167366163) | (acct_insider, accountIdentifier, 4167366163) [t31] | "Union Ledger Bank account 4167366163 is registered to Andre Fischer." [D1.S9] | -
+- case_06 | (event-vendor-onboard, name, Vendor Onboarding) | (event_5, eventType, vendor onboarding) [t49] | "On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding." [D2.S11] | -
+- case_06 | (event-audit, name, Audit Review) | (event_4, eventType, audit review) [t46] | "Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC." [D2.S10] | -
+- case_06 | (email-andre, name, afischer@copperfield.com) | (email_person_0, addressValue, afischer@copperfield.com) [t8] | "Copperfield Fabrication Inc. employs Andre Fischer, who can be reached at afischer@copperfield.com." [D1.S2] | -
+- case_06 | (acc-oakhaven, name, 6816152188) | (acct_vendor, accountIdentifier, 6816152188) [t28] | "Account 6816152188 at Union Ledger Bank belongs to Oakhaven Freight Inc." [D1.S8] | -
+- case_06 | (event-recon, name, Account Reconciliation) | (event_0, eventType, account reconciliation) [t34] | "Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC." [D2.S6] | -
+- case_06 | (email-desmond, name, ddelgado@oakhaven.com) | (email_person_3, addressValue, ddelgado@oakhaven.com) [t17] | "Desmond Delgado is employed by Oakhaven Freight Inc.; their email is ddelgado@oakhaven.com." [D1.S5] | -
+- case_06 | (event-invoice, name, Invoice Submission) | (event_6, eventType, invoice submission) [t52] | "On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission." [D2.S14] | -
+- case_06 | (event-bank-detail, name, Bank Detail Change) | (event_1, eventType, bank detail change) [t37] | "On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change." [D2.S7] | -
+- case_06 | (acc-copperfield, name, 9105160648) | (acct_company, accountIdentifier, 9105160648) [t25] | "Copperfield Fabrication Inc. holds account 9105160648 at Union Ledger Bank." [D1.S7] | -
+- case_06 | (msg-1, name, Wire confirmation needed) | (email_msg_0, subject, Wire confirmation needed) [t60] | "Subject: Wire confirmation needed" [D2.S3] | -
+- case_09 | (email-julian, name, julian.osei@oakhaven.com) | (email_person_0, addressValue, julian.osei@oakhaven.com) [t8] | "Julian Osei is employed by Oakhaven Fabrication Co.; their email is julian.osei@oakhaven.com." [D1.S2] | -
+- case_09 | (email-dana, name, dashworth@oakhaven.com) | (email_person_1, addressValue, dashworth@oakhaven.com) [t11] | "Oakhaven Fabrication Co. employs Dana Ashworth, who can be reached at dashworth@oakhaven.com." [D1.S3] | -
+- case_09 | (email-msg, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t57] | "Subject: Audit prep items" [D2.S3] | -
+- case_09 | (email-felix, name, felix.sorensen@clearpath.com) | (email_person_3, addressValue, felix.sorensen@clearpath.com) [t17] | "Clearpath Industrial LLC employs Felix Sorensen, who can be reached at felix.sorensen@clearpath.com." [D1.S5] | -
+- case_09 | (email-andre, name, awhitfield@oakhaven.com) | (email_person_2, addressValue, awhitfield@oakhaven.com) [t14] | "Oakhaven Fabrication Co. employs Andre Whitfield, who can be reached at awhitfield@oakhaven.com." [D1.S4] | -
+- case_09 | (event-contract, name, Contract amendment) | (event_1, eventType, contract amendment) [t34] | "Dana Ashworth started the contract amendment on 6 April 2025, 11:10 UTC." [D2.S8] | -
+- case_09 | (event-contract, endTime, 2025-04-06T11:10:00+00:00) | (event_1, startTime, 2025-04-06T11:10:00Z) [t35] | "Dana Ashworth started the contract amendment on 6 April 2025, 11:10 UTC." [D2.S8] | -
+- case_09 | (event-recon, name, Account reconciliation) | (event_0, eventType, account reconciliation) [t31] | "On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation." [D2.S6] | -
+- case_09 | (event-recon, endTime, 2025-04-05T12:30:00+00:00) | (event_0, startTime, 2025-04-05T12:30:00Z) [t32] | "On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation." [D2.S6] | -
+- case_09 | (event-invoice, name, Invoice submission) | (event_2, eventType, invoice submission) [t37] | "Julian Osei started the invoice submission on 6 April 2025, 11:15 UTC." [D2.S11] | -
+- case_09 | (event-invoice, endTime, 2025-04-06T11:15:00+00:00) | (event_2, startTime, 2025-04-06T11:15:00Z) [t38] | "Julian Osei started the invoice submission on 6 April 2025, 11:15 UTC." [D2.S11] | -
+- case_13 | (email-sofia, name, sbrennan@oakhaven.com) | (email_person_0, addressValue, sbrennan@oakhaven.com) [t8] | "Sofia Brennan works for Oakhaven Fabrication Ltd. and uses the address sbrennan@oakhaven.com." [D1.S2] | -
+- case_13 | (acc-bluegate-bank, name, 9817289209) | (acct_vendor, accountIdentifier, 9817289209) [t28] | "Bluegate Fabrication LLC holds account 9817289209 at Lakeshore Savings Bank." [D1.S8] | -
+- case_13 | (event-payment-approval, name, Payment approval) | (event_3, eventType, payment approval) [t43] | "On July 30, 2025 at 17:15 UTC, Nadia Ashworth initiated the payment approval." [D2.S10] | -
+- case_13 | (loc-addr, name, 1734 Market Street, Dayton, OH 45402) | - | - | -
+- case_13 | (acc-kofi-bank, name, 3352443306) | (acct_insider, accountIdentifier, 3352443306) [t31] | "Account 3352443306 at Lakeshore Savings Bank belongs to Kofi Okafor." [D1.S9] | -
+- case_13 | (event-vendor-onboard, name, Vendor onboarding) | (event_1, eventType, vendor onboarding) [t37] | "The vendor onboarding was initiated by Sofia Brennan on 23 July 2025, 12:30 UTC." [D2.S7] | -
+- case_13 | (event-wire-transfer, name, Wire transfer) | (event_2, eventType, wire transfer) [t40] | "On 24 July 2025, 09:25 UTC, Rosa Moreau initiated the wire transfer." [D2.S8] | -
+- case_13 | (event-expense-reimb, name, Expense reimbursement) | (event_4, eventType, expense reimbursement) [t46] | "Kofi Okafor started the expense reimbursement on August 1, 2025 at 10:10 UTC." [D2.S11] | -
+- case_13 | (event-contract-amend, name, Contract amendment) | (event_6, eventType, contract amendment) [t52] | "Sofia Brennan started the contract amendment on 11 August 2025, 15:45 UTC." [D2.S15] | -
+- case_13 | (event-invoice-sub, name, Invoice submission) | (event_5, eventType, invoice submission) [t49] | "The invoice submission was initiated by Sofia Brennan on 1 August 2025, 11:10 UTC." [D2.S13] | -
+- case_13 | (email-kofi, name, kofi.okafor@oakhaven.com) | (email_person_2, addressValue, kofi.okafor@oakhaven.com) [t14] | "Kofi Okafor works for Oakhaven Fabrication Ltd. and uses the address kofi.okafor@oakhaven.com." [D1.S4] | -
+- case_13 | (event-audit-review, name, Audit review) | (event_7, eventType, audit review) [t55] | "On August 19, 2025 at 14:45 UTC, Sofia Brennan initiated the audit review." [D2.S16] | -
+- case_13 | (acc-oakhaven-bank, name, 5734701710) | (acct_company, accountIdentifier, 5734701710) [t25] | "Oakhaven Fabrication Ltd. holds account 5734701710 at Lakeshore Savings Bank." [D1.S7] | -
+- case_13 | (email-nadia, name, nadia.ashworth@oakhaven.com) | (email_person_1, addressValue, nadia.ashworth@oakhaven.com) [t11] | "Nadia Ashworth is employed by Oakhaven Fabrication Ltd.; their email is nadia.ashworth@oakhaven.com." [D1.S3] | -
+- case_13 | (email-rosa, name, rmoreau@bluegate.com) | (email_person_3, addressValue, rmoreau@bluegate.com) [t17] | "Rosa Moreau works for Bluegate Fabrication LLC and uses the address rmoreau@bluegate.com." [D1.S5] | -
+- case_13 | (event-bank-change, name, Bank detail change) | (event_0, eventType, bank detail change) [t34] | "Rosa Moreau started the bank detail change on 17 July 2025, 15:00 UTC." [D2.S6] | -
+- case_14 | (acc-stonebridge, name, 3765803916) | (acct_vendor, accountIdentifier, 3765803916) [t28] | "Account 3765803916 at Meridian Trust Bank belongs to Stonebridge Logistics Inc." [D1.S8] | -
+- case_14 | (event-expense, name, Expense Reimbursement) | (event_1, eventType, expense reimbursement) [t34] | "Felix Okafor started the expense reimbursement on June 30, 2025 at 10:45 UTC." [D2.S7] | -
+- case_14 | (chat-2, name, Finance is asking questions again.) | (chat_msg_1, messageText, Finance is asking questions again.) [t67] | "[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again." [D3.S5] | -
+- case_14 | (email-irene, name, irene.fischer@copperfield.com) | (email_person_2, addressValue, irene.fischer@copperfield.com) [t14] | "Irene Fischer works for Copperfield Distribution Inc. and uses the address irene.fischer@copperfield.com." [D1.S4] | -
+- case_14 | (event-onboarding, name, Vendor Onboarding) | (event_5, eventType, vendor onboarding) [t46] | "Felix Okafor started the vendor onboarding on 17 July 2025, 11:25 UTC." [D2.S14] | -
+- case_14 | (msg-invoice, name, Invoice 3557 follow-up) | (email_msg_0, subject, Invoice 3557 follow-up) [t58] | "Subject: Invoice 3557 follow-up" [D2.S3] | -
+- case_14 | (email-kofi, name, kwhitfield@copperfield.com) | (email_person_1, addressValue, kwhitfield@copperfield.com) [t11] | "Kofi Whitfield is employed by Copperfield Distribution Inc.; their email is kwhitfield@copperfield.com." [D1.S3] | -
+- case_14 | (chat-3, name, I pushed it through, check your inbox.) | (chat_msg_2, messageText, I pushed it through, check your inbox.) [t71] | "[2025-06-21 12:44 UTC] @felixo to @lenap: I pushed it through, check your inbox." [D3.S6] | -
+- case_14 | (chat-1, name, Send me the new form when you can.) | (chat_msg_0, messageText, Send me the new form when you can.) [t63] | "[2025-06-21 12:30 UTC] @felixo to @lenap: Send me the new form when you can." [D3.S4] | -
+- case_14 | (email-felix, name, fokafor@stonebridge.com) | (email_person_3, addressValue, fokafor@stonebridge.com) [t17] | "Stonebridge Logistics Inc. employs Felix Okafor, who can be reached at fokafor@stonebridge.com." [D1.S5] | -
+- case_14 | (event-recon, name, Account Reconciliation) | (event_0, eventType, account reconciliation) [t31] | "Irene Fischer started the account reconciliation on 21 June 2025, 11:30 UTC." [D2.S6] | -
+- case_14 | (event-invoice, name, Invoice Submission) | (event_4, eventType, invoice submission) [t43] | "Felix Okafor started the invoice submission on July 16, 2025 at 15:00 UTC." [D2.S12] | -
+- case_14 | (acc-copperfield, name, 5835997512) | (acct_company, accountIdentifier, 5835997512) [t25] | "Meridian Trust Bank account 5835997512 is registered to Copperfield Distribution Inc." [D1.S7] | -
+- case_14 | (event-refund, name, Refund Request) | (event_2, eventType, refund request) [t37] | "On 10 July 2025, 17:25 UTC, Lena Petrov initiated the refund request." [D2.S9] | -
+- case_14 | (email-lena, name, lpetrov@copperfield.com) | (email_person_0, addressValue, lpetrov@copperfield.com) [t8] | "Lena Petrov is employed by Copperfield Distribution Inc.; their email is lpetrov@copperfield.com." [D1.S2] | -
+- case_14 | (event-wire, name, Wire Transfer) | (event_3, eventType, wire transfer) [t40] | "Kofi Whitfield started the wire transfer on 12 July 2025, 13:10 UTC." [D2.S11] | -
+- case_15 | (event-expense, name, Expense reimbursement) | (event_3, eventType, expense reimbursement) [t39] | "On May 30, 2025 at 12:15 UTC, Mei Castillo initiated the expense reimbursement." [D1.S7] | -
+- case_15 | (email-msg-d1, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t54] | "Subject: Urgent: payment timing" [D1.S3] | -
+- case_15 | (email-meic, name, mei.castillo@redfern.com) | (email_person_1, addressValue, mei.castillo@redfern.com) [t10] | "From: mei.castillo@redfern.com" [D1.S1] | -
+- case_15 | (boise-office, name, 5074 Industrial Parkway, Boise, ID 83702) | - | - | -
+- case_15 | (email-msg-d3, name, Invoice 3155 follow-up) | (email_msg_1, subject, Invoice 3155 follow-up) [t58] | "Subject: Invoice 3155 follow-up" [D3.S3] | -
+- case_15 | (email-okow, name, okowalski@redfern.com) | (email_person_0, addressValue, okowalski@redfern.com) [t7] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | -
+- case_15 | (event-bankchange, name, Bank detail change) | (event_5, eventType, bank detail change) [t45] | "Owen Kowalski started the bank detail change on 6 June 2025, 13:00 UTC." [D4.S6] | -
+- case_15 | (event-invoice, name, Invoice submission) | (event_2, eventType, invoice submission) [t36] | "Desmond Ivanova started the invoice submission on 26 May 2025, 13:00 UTC." [D4.S5] | -
+- case_15 | (email-diva, name, divanova@summitpeak.com) | (email_person_2, addressValue, divanova@summitpeak.com) [t13] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | -
+- case_15 | (event-onboard, name, Vendor onboarding) | (event_0, eventType, vendor onboarding) [t30] | "On May 5, 2025 at 11:25 UTC, Mei Castillo initiated the vendor onboarding." [D1.S6] | -
+- case_15 | (event-refund, name, Refund request) | (event_4, eventType, refund request) [t42] | "The refund request was initiated by Mei Castillo on June 3, 2025 at 10:00 UTC." [D3.S8] | -
+- case_15 | (event-audit, name, Audit review) | (event_1, eventType, audit review) [t33] | "The audit review was initiated by Desmond Ivanova on May 12, 2025 at 12:15 UTC." [D3.S6] | -
+- case_17 | (email-julian, name, jlindqvist@westmark.com) | (email_person_3, addressValue, jlindqvist@westmark.com) [t18] | "Julian Lindqvist is employed by Westmark Fabrication Inc.; their email is jlindqvist@westmark.com." [D1.S5] | -
+- case_17 | (event-expense, name, Expense reimbursement) | (event_1, eventType, expense reimbursement) [t41] | "On July 8, 2025 at 17:25 UTC, Nadia Delgado initiated the expense reimbursement." [D2.S7] | -
+- case_17 | (acc-westmark, name, 6545042960) | (acct_vendor, accountIdentifier, 6545042960) [t32] | "Westmark Fabrication Inc. holds account 6545042960 at Pinecrest National Bank." [D1.S10] | -
+- case_17 | (acc-redfern, name, 1310102192) | (acct_company, accountIdentifier, 1310102192) [t29] | "Redfern Consulting Co. holds account 1310102192 at Pinecrest National Bank." [D1.S9] | -
+- case_17 | (acc-nadia, name, 3598599727) | (acct_insider, accountIdentifier, 3598599727) [t35] | "Nadia Delgado holds account 3598599727 at Pinecrest National Bank." [D1.S11] | -
+- case_17 | (email-andre, name, andre.osei@redfern.com) | (email_person_0, addressValue, andre.osei@redfern.com) [t9] | "Redfern Consulting Co. employs Andre Osei, who can be reached at andre.osei@redfern.com." [D1.S2] | -
+- case_17 | (email-nadia, name, ndelgado@redfern.com) | (email_person_1, addressValue, ndelgado@redfern.com) [t12] | "Nadia Delgado works for Redfern Consulting Co. and uses the address ndelgado@redfern.com." [D1.S3] | -
+- case_17 | (email-desmond, name, desmond.kowalski@redfern.com) | (email_person_2, addressValue, desmond.kowalski@redfern.com) [t15] | "Desmond Kowalski works for Redfern Consulting Co. and uses the address desmond.kowalski@redfern.com." [D1.S4] | -
+- case_17 | (email-marcus, name, mbrennan@westmark.com) | (email_person_4, addressValue, mbrennan@westmark.com) [t21] | "Marcus Brennan works for Westmark Fabrication Inc. and uses the address mbrennan@westmark.com." [D1.S6] | -
+- case_17 | (event-invoice, name, Invoice submission) | (event_3, eventType, invoice submission) [t47] | "On 16 July 2025, 13:15 UTC, Marcus Brennan initiated the invoice submission." [D2.S9] | -
+- case_17 | (event-bank-change, name, Bank detail change) | (event_2, eventType, bank detail change) [t44] | "On 16 July 2025, 09:30 UTC, Nadia Delgado initiated the bank detail change." [D2.S8] | -
+- case_17 | (event-audit, name, Audit review) | (event_0, eventType, audit review) [t38] | "Desmond Kowalski started the audit review on 3 July 2025, 15:15 UTC." [D2.S6] | -
+- case_17 | (loc-redfern, name, 6004 Riverside Boulevard, Spokane, WA 99201) | - | - | -
+- case_18 | (email-owen, name, owen.novak@summitpeak.com) | (email_person_0, addressValue, owen.novak@summitpeak.com) [t9] | "To: owen.novak@summitpeak.com" [D1.S2] | -
+- case_18 | (acc-bank-2, name, 6144966603) | (acct_vendor, accountIdentifier, 6144966603) [t32] | "Granite Federal Credit Union account 6144966603 is registered to Silverlake Consulting LLC." [D2.S9] | -
+- case_18 | (email-sofia, name, sabara@silverlake.com) | (email_person_3, addressValue, sabara@silverlake.com) [t18] | "From: sabara@silverlake.com" [D1.S1] | -
+- case_18 | (event-refund, name, Refund Request Initiation) | (event_2, eventType, refund request) [t44] | "The refund request was initiated by Rosa Vance on September 14, 2025 at 17:50 UTC." [D1.S7] | -
+- case_18 | (acc-bank-1, name, 2622357143) | (acct_company, accountIdentifier, 2622357143) [t29] | "Account 2622357143 at Granite Federal Credit Union belongs to Summit Peak Packaging Inc." [D2.S8] | -
+- case_18 | (event-wire-transfer, name, Wire Transfer Initiation) | (event_3, eventType, wire transfer) [t47] | "On September 18, 2025 at 14:30 UTC, Clara Haddad initiated the wire transfer." [D3.S7] | -
+- case_18 | (event-contract-amend, name, Contract Amendment Initiation) | (event_0, eventType, contract amendment) [t38] | "The contract amendment was initiated by Owen Novak on September 5, 2025 at 15:25 UTC." [D1.S6] | -
+- case_18 | (event-reconcile, name, Account Reconciliation Initiation) | (event_4, eventType, account reconciliation) [t50] | "The account reconciliation was initiated by Sofia Abara on September 22, 2025 at 11:30 UTC." [D1.S8] | -
+- case_18 | (acc-bank-3, name, 7594766430) | (acct_insider, accountIdentifier, 7594766430) [t35] | "Account 7594766430 at Granite Federal Credit Union belongs to Rosa Vance." [D2.S10] | -
+- case_18 | (email-clara, name, chaddad@silverlake.com) | (email_person_4, addressValue, chaddad@silverlake.com) [t21] | "Clara Haddad is employed by Silverlake Consulting LLC; their email is chaddad@silverlake.com." [D2.S6] | -
+- case_18 | (email-rosa, name, rosa.vance@summitpeak.com) | (email_person_1, addressValue, rosa.vance@summitpeak.com) [t12] | "Summit Peak Packaging Inc. employs Rosa Vance, who can be reached at rosa.vance@summitpeak.com." [D2.S3] | -
+- case_18 | (email-marcus, name, mholloway@summitpeak.com) | (email_person_2, addressValue, mholloway@summitpeak.com) [t15] | "Marcus Holloway works for Summit Peak Packaging Inc. and uses the address mholloway@summitpeak.com." [D2.S4] | -
+- case_18 | (event-pay-approval, name, Payment Approval Initiation) | (event_1, eventType, payment approval) [t41] | "On September 7, 2025 at 16:15 UTC, Sofia Abara initiated the payment approval." [D3.S6] | -
+- case_19 | (email-hector, name, hfischer@westmark.com) | (email_person_3, addressValue, hfischer@westmark.com) [t17] | "Hector Fischer works for Westmark Consulting LLC and uses the address hfischer@westmark.com." [D2.S5] | -
+- case_19 | (event-expense, name, Expense reimbursement start) | (event_5, eventType, expense reimbursement) [t49] | "Hector Fischer started the expense reimbursement on 5 May 2025, 12:30 UTC." [D4.S6] | -
+- case_19 | (event-vendor-onboarding, name, Vendor onboarding initiation) | (event_7, eventType, vendor onboarding) [t55] | "On 15 May 2025, 17:00 UTC, Irene Sorensen initiated the vendor onboarding." [D3.S9] | -
+- case_19 | (email-irene, name, isorensen@bluegate.com) | (email_person_0, addressValue, isorensen@bluegate.com) [t8] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_19 | (acc-bluegate-bank, name, 3811034105) | (acct_company, accountIdentifier, 3811034105) [t25] | "Pinecrest National Bank account 3811034105 is registered to Bluegate Services Co." [D4.S2] | -
+- case_19 | (event-payment-approval, name, Payment approval initiation) | (event_1, eventType, payment approval) [t37] | "On 15 April 2025, 15:15 UTC, Maya Novak initiated the payment approval." [D3.S6] | -
+- case_19 | (acc-westmark-bank, name, 9480427652) | (acct_vendor, accountIdentifier, 9480427652) [t28] | "Westmark Consulting LLC holds account 9480427652 at Pinecrest National Bank." [D4.S3] | -
+- case_19 | (event-wire-transfer, name, Wire transfer initiation) | (event_4, eventType, wire transfer) [t46] | "On 3 May 2025, 14:00 UTC, Kofi Kowalski initiated the wire transfer." [D3.S8] | -
+- case_19 | (email-kofi, name, kofi.kowalski@bluegate.com) | (email_person_1, addressValue, kofi.kowalski@bluegate.com) [t11] | "From: kofi.kowalski@bluegate.com" [D1.S1] | -
+- case_19 | (event-contract, name, Contract amendment start) | (event_6, eventType, contract amendment) [t52] | "Maya Novak started the contract amendment on May 15, 2025 at 16:50 UTC." [D1.S8] | -
+- case_19 | (acc-irene-bank, name, 3917062016) | (acct_insider, accountIdentifier, 3917062016) [t31] | "Pinecrest National Bank account 3917062016 is registered to Irene Sorensen." [D4.S4] | -
+- case_19 | (event-recon, name, Account reconciliation start) | (event_0, eventType, account reconciliation) [t34] | "Irene Sorensen started the account reconciliation on 14 April 2025, 10:30 UTC." [D1.S6] | -
+- case_19 | (event-invoice, name, Invoice submission initiation) | (event_3, eventType, invoice submission) [t43] | "The invoice submission was initiated by Irene Sorensen on April 29, 2025 at 11:00 UTC." [D1.S7] | -
+- case_19 | (event-bank-change, name, Bank detail change start) | (event_2, eventType, bank detail change) [t40] | "Kofi Kowalski started the bank detail change on 25 April 2025, 09:45 UTC." [D4.S5] | -
+- case_19 | (email-maya, name, mnovak@bluegate.com) | (email_person_2, addressValue, mnovak@bluegate.com) [t14] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_20 | (email-owen, name, owhitfield@stonebridge.com) | (email_person_4, addressValue, owhitfield@stonebridge.com) [t21] | "Stonebridge Components LLC employs Owen Whitfield, who can be reached at owhitfield@stonebridge.com." [D2.S6] | -
+- case_20 | (acc-bank-2, name, 7051703888) | (acct_vendor, accountIdentifier, 7051703888) [t32] | "Account 7051703888 at Granite Federal Credit Union belongs to Stonebridge Components LLC." [D4.S3] | -
+- case_20 | (event-payment-approval, name, Payment Approval) | (event_1, eventType, payment approval) [t41] | "On 19 April 2025, 16:45 UTC, Wesley Osei initiated the payment approval." [D3.S6] | -
+- case_20 | (event-payment-approval, endTime, 2025-04-19T16:45:00Z) | (event_1, startTime, 2025-04-19T16:45:00Z) [t42] | "On 19 April 2025, 16:45 UTC, Wesley Osei initiated the payment approval." [D3.S6] | -
+- case_20 | (email-meibrennan, name, mei.brennan@oakhaven.com) | (email_person_2, addressValue, mei.brennan@oakhaven.com) [t15] | "To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com" [D1.S2] | -
+- case_20 | (loc-stonebridge, name, 233 Industrial Parkway, Albany, NY 12207) | - | - | -
+- case_20 | (loc-oakhaven, name, 7125 Harbor Avenue, Richmond, VA 23219) | - | - | -
+- case_20 | (email-wesley, name, wesley.osei@oakhaven.com) | (email_person_0, addressValue, wesley.osei@oakhaven.com) [t9] | "Wesley Osei works for Oakhaven Supply Inc. and uses the address wesley.osei@oakhaven.com." [D2.S2] | -
+- case_20 | (acc-bank-1, name, 9493407158) | (acct_company, accountIdentifier, 9493407158) [t29] | "Granite Federal Credit Union account 9493407158 is registered to Oakhaven Supply Inc." [D4.S2] | -
+- case_20 | (event-wire-transfer, name, Wire Transfer) | (event_3, eventType, wire transfer) [t47] | "Wesley Osei started the wire transfer on 12 May 2025, 12:25 UTC." [D1.S7] | -
+- case_20 | (event-wire-transfer, endTime, 2025-05-12T12:25:00Z) | (event_3, startTime, 2025-05-12T12:25:00Z) [t48] | "Wesley Osei started the wire transfer on 12 May 2025, 12:25 UTC." [D1.S7] | -
+- case_20 | (acc-bank-3, name, 9059135687) | (acct_insider, accountIdentifier, 9059135687) [t35] | "Account 9059135687 at Granite Federal Credit Union belongs to Mei Brennan." [D4.S4] | -
+- case_20 | (event-reconcile, name, Account Reconciliation) | (event_0, eventType, account reconciliation) [t38] | "On 14 April 2025, 11:50 UTC, Mei Brennan initiated the account reconciliation." [D1.S6] | -
+- case_20 | (event-reconcile, endTime, 2025-04-14T11:50:00Z) | (event_0, startTime, 2025-04-14T11:50:00Z) [t39] | "On 14 April 2025, 11:50 UTC, Mei Brennan initiated the account reconciliation." [D1.S6] | -
+- case_20 | (email-kofi, name, kofi.holloway@stonebridge.com) | (email_person_3, addressValue, kofi.holloway@stonebridge.com) [t18] | "To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com" [D1.S2] | -
+- case_20 | (event-contract-amendment, name, Contract Amendment) | (event_4, eventType, contract amendment) [t50] | "The contract amendment was initiated by Owen Whitfield on May 12, 2025 at 16:00 UTC." [D3.S7] | -
+- case_20 | (event-contract-amendment, endTime, 2025-05-12T16:00:00Z) | (event_4, startTime, 2025-05-12T16:00:00Z) [t51] | "The contract amendment was initiated by Owen Whitfield on May 12, 2025 at 16:00 UTC." [D3.S7] | -
+- case_20 | (email-hhaddad, name, hhaddad@oakhaven.com) | (email_person_1, addressValue, hhaddad@oakhaven.com) [t12] | "From: hhaddad@oakhaven.com" [D1.S1] | -
+- case_20 | (event-expense-reimbursement, name, Expense Reimbursement) | (event_2, eventType, expense reimbursement) [t44] | "The expense reimbursement was initiated by Hannah Haddad on 5 May 2025, 13:30 UTC." [D4.S5] | -
+- case_20 | (event-expense-reimbursement, endTime, 2025-05-05T13:30:00Z) | (event_2, startTime, 2025-05-05T13:30:00Z) [t45] | "The expense reimbursement was initiated by Hannah Haddad on 5 May 2025, 13:30 UTC." [D4.S5] | -
+- case_21 | (email-hector, name, hcastillo@oakhaven.com) | (email_person_2, addressValue, hcastillo@oakhaven.com) [t14] | "To: hcastillo@oakhaven.com" [D1.S2] | -
+- case_21 | (event-expense, name, Expense reimbursement) | (event_4, eventType, expense reimbursement) [t43] | "On 28 April 2025, 16:45 UTC, Hector Castillo initiated the expense reimbursement." [D3.S9] | -
+- case_21 | (event-payment-approval, name, Payment approval) | (event_5, eventType, payment approval) [t46] | "Hector Castillo started the payment approval on 30 April 2025, 13:30 UTC." [D4.S5] | -
+- case_21 | (event-onboarding, name, Vendor onboarding) | (event_0, eventType, vendor onboarding) [t31] | "The vendor onboarding was initiated by Andre Petrov on 12 April 2025, 16:10 UTC." [D1.S6] | -
+- case_21 | (app-2616431031, name, 2616431031) | (acct_company, accountIdentifier, 2616431031) [t25] | "Oakhaven Logistics Inc. holds account 2616431031 at Granite Federal Credit Union." [D4.S2] | -
+- case_21 | (event-contract-amend, name, Contract amendment) | (event_1, eventType, contract amendment) [t34] | "On 15 April 2025, 16:00 UTC, Victor Haddad initiated the contract amendment." [D3.S6] | -
+- case_21 | (event-reconcile, name, Account reconciliation) | (event_2, eventType, account reconciliation) [t37] | "Victor Haddad started the account reconciliation on April 25, 2025 at 14:25 UTC." [D4.S4] | -
+- case_21 | (email-andre, name, apetrov@oakhaven.com) | (email_person_0, addressValue, apetrov@oakhaven.com) [t8] | "Andre Petrov works for Oakhaven Logistics Inc. and uses the address apetrov@oakhaven.com." [D2.S2] | -
+- case_21 | (email-victor, name, victor.haddad@bluegate.com) | (email_person_3, addressValue, victor.haddad@bluegate.com) [t17] | "Victor Haddad works for Bluegate Distribution LLC and uses the address victor.haddad@bluegate.com." [D2.S5] | -
+- case_21 | (app-6220296925, name, 6220296925) | (acct_vendor, accountIdentifier, 6220296925) [t28] | "Granite Federal Credit Union account 6220296925 is registered to Bluegate Distribution LLC." [D4.S3] | -
+- case_21 | (loc-raleigh, name, 1587 Industrial Parkway, Raleigh, NC 27601) | - | - | -
+- case_21 | (event-bank-change, name, Bank detail change) | (event_7, eventType, bank detail change) [t52] | "Andre Petrov started the bank detail change on 5 May 2025, 16:45 UTC." [D3.S12] | -
+- case_21 | (email-maya, name, maya.quinn@oakhaven.com) | (email_person_1, addressValue, maya.quinn@oakhaven.com) [t11] | "From: maya.quinn@oakhaven.com" [D1.S1] | -
+- case_21 | (event-audit, name, Audit review) | (event_6, eventType, audit review) [t49] | "On 3 May 2025, 15:00 UTC, Maya Quinn initiated the audit review." [D1.S8] | -
+- case_21 | (event-wire, name, Wire transfer) | (event_3, eventType, wire transfer) [t40] | "On 25 April 2025, 17:45 UTC, Victor Haddad initiated the wire transfer." [D1.S7] | -
+- case_22 | (email-tomas, name, tomas.vance@northwind.com) | (email_person_2, addressValue, tomas.vance@northwind.com) [t14] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | -
+- case_22 | (email-yara, name, yivanova@northwind.com) | (email_person_0, addressValue, yivanova@northwind.com) [t8] | "Yara Ivanova is employed by Northwind Analytics LLC; their email is yivanova@northwind.com." [D2.S2] | -
+- case_22 | (email-irene, name, isorensen@northwind.com) | (email_person_1, addressValue, isorensen@northwind.com) [t11] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | -
+- case_22 | (event-bank-detail-change, name, Bank Detail Change) | (event_2, eventType, bank detail change) [t40] | "On June 27, 2025 at 09:45 UTC, Yara Ivanova initiated the bank detail change." [D4.S5] | -
+- case_22 | (event-payment-approval, name, Payment Approval) | (event_3, eventType, payment approval) [t43] | "On 2 July 2025, 10:10 UTC, Marcus Abara initiated the payment approval." [D1.S7] | -
+- case_22 | (bank-acc-harborline, name, 5413632543) | (acct_vendor, accountIdentifier, 5413632543) [t28] | "Account 5413632543 at First Harbor Bank belongs to Harborline Fabrication LLC." [D4.S3] | -
+- case_22 | (msg-d1, name, Updated remittance details) | (email_msg_0, subject, Updated remittance details) [t58] | "Subject: Updated remittance details" [D1.S3] | -
+- case_22 | (event-wire-transfer, name, Wire Transfer) | (event_4, eventType, wire transfer) [t46] | "The wire transfer was initiated by Irene Sorensen on 12 July 2025, 09:25 UTC." [D3.S7] | -
+- case_22 | (event-contract-amend, name, Contract Amendment) | (event_1, eventType, contract amendment) [t37] | "Irene Sorensen started the contract amendment on June 23, 2025 at 16:00 UTC." [D3.S6] | -
+- case_22 | (event-invoice-sub, name, Invoice Submission) | (event_0, eventType, invoice submission) [t34] | "On June 22, 2025 at 15:15 UTC, Irene Sorensen initiated the invoice submission." [D1.S6] | -
+- case_22 | (bank-acc-yara, name, 7421022350) | (acct_insider, accountIdentifier, 7421022350) [t31] | "First Harbor Bank account 7421022350 is registered to Yara Ivanova." [D4.S4] | -
+- case_22 | (bank-acc-northwind, name, 5656063669) | (acct_company, accountIdentifier, 5656063669) [t25] | "Account 5656063669 at First Harbor Bank belongs to Northwind Analytics LLC." [D4.S2] | -
+- case_22 | (msg-d3, name, Urgent: payment timing) | (email_msg_1, subject, Urgent: payment timing) [t62] | "Subject: Urgent: payment timing" [D3.S3] | -
+- case_22 | (email-marcus, name, marcus.abara@harborline.com) | (email_person_3, addressValue, marcus.abara@harborline.com) [t17] | "From: marcus.abara@harborline.com" [D1.S1] | -
+- case_23 | (event-wire-approve, name, Wire Transfer Approval) | (event_0, eventType, wire transfer) [t30] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | -
+- case_23 | (acc-yb, name, 1484775689) | (acct_insider, accountIdentifier, 1484775689) [t27] | "Pinecrest National Bank account 1484775689 is registered to Yara Banerjee." [D2.S9] | -
+- case_23 | (event-audit-init, name, Audit Review) | (event_3, eventType, audit review) [t39] | "Tomas Kowalski started the audit review on 14 February 2025, 10:50 UTC." [D3.S7] | -
+- case_23 | (email-tk, name, tkowalski@redfern.com) | (email_person_2, addressValue, tkowalski@redfern.com) [t13] | "From: tkowalski@redfern.com" [D1.S1] | -
+- case_23 | (event-contract-auth, name, Contract Amendment Authorization) | (event_2, eventType, contract amendment) [t36] | "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment." [D1.S8] | -
+- case_23 | (acc-ra, name, 8858108822) | (acct_vendor, accountIdentifier, 8858108822) [t24] | "Account 8858108822 at Pinecrest National Bank belongs to Redfern Analytics Group." [D2.S8] | -
+- case_23 | (acc-cf, name, 8453395788) | (acct_company, accountIdentifier, 8453395788) [t21] | "Pinecrest National Bank account 8453395788 is registered to Clearpath Freight Co." [D2.S7] | -
+- case_23 | (email-hq, name, hector.quinn@clearpath.com) | (email_person_1, addressValue, hector.quinn@clearpath.com) [t10] | "Hector Quinn is employed by Clearpath Freight Co.; their email is hector.quinn@clearpath.com." [D2.S3] | -
+- case_23 | (email-yb, name, yara.banerjee@clearpath.com) | (email_person_0, addressValue, yara.banerjee@clearpath.com) [t7] | "To: yara.banerjee@clearpath.com" [D1.S2] | -
+- case_23 | (event-invoice-init, name, Invoice Submission) | (event_1, eventType, invoice submission) [t33] | "On February 1, 2025 at 14:25 UTC, Tomas Kowalski initiated the invoice submission." [D3.S6] | -
+- case_24 | (acc-westmark, name, 3503133229) | (acct_vendor, accountIdentifier, 3503133229) [t24] | "Account 3503133229 at First Harbor Bank belongs to Westmark Logistics Inc." [D2.S7] | -
+- case_24 | (email-yara, name, yfischer@clearpath.com) | (email_person_1, addressValue, yfischer@clearpath.com) [t10] | "To: yfischer@clearpath.com" [D1.S2] | -
+- case_24 | (event-init-invoice, name, Invoice Submission Initiation) | (event_1, eventType, invoice submission) [t33] | "Andre Okafor started the invoice submission on 26 April 2025, 17:10 UTC." [D3.S6] | -
+- case_24 | (acc-andre, name, 7342857219) | (acct_insider, accountIdentifier, 7342857219) [t27] | "First Harbor Bank account 7342857219 is registered to Andre Okafor." [D2.S8] | -
+- case_24 | (event-init-wire, name, Wire Transfer Initiation) | (event_0, eventType, wire transfer) [t30] | "On 26 April 2025, 15:45 UTC, Desmond Kowalski initiated the wire transfer." [D1.S6] | -
+- case_24 | (email-andre, name, andre.okafor@clearpath.com) | (email_person_0, addressValue, andre.okafor@clearpath.com) [t7] | "From: andre.okafor@clearpath.com" [D1.S1] | -
+- case_24 | (event-init-bank-change, name, Bank Detail Change Initiation) | (event_2, eventType, bank detail change) [t36] | "On May 17, 2025 at 17:45 UTC, Andre Okafor initiated the bank detail change." [D1.S7] | -
+- case_24 | (email-desmond, name, desmond.kowalski@westmark.com) | (email_person_2, addressValue, desmond.kowalski@westmark.com) [t13] | "Desmond Kowalski is employed by Westmark Logistics Inc.; their email is desmond.kowalski@westmark.com." [D2.S4] | -
+- case_24 | (loc-clearpath, name, 9297 Market Street, Omaha, NE 68102) | - | - | -
+- case_24 | (acc-clearpath, name, 8047662278) | (acct_company, accountIdentifier, 8047662278) [t21] | "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co." [D2.S6] | -
+- case_25 | (loc-1, name, 9623 Market Street, Dayton, OH 45402) | - | - | -
+- case_25 | (event-1, name, Payment Approval) | (event_0, eventType, payment approval) [t27] | "Sofia Lindqvist started the payment approval on 16 May 2025, 16:00 UTC." [D2.S6] | -
+- case_25 | (event-4, name, Vendor Onboarding) | (event_3, eventType, vendor onboarding) [t36] | "On May 27, 2025 at 13:45 UTC, Mei Banerjee initiated the vendor onboarding." [D2.S10] | -
+- case_25 | (msg-2, startTime, 2025-05-16T17:07:00+00:00) | (chat_msg_1, sentTime, 2025-05-16T17:07:00Z) [t68] | "[2025-05-16 17:07 UTC] @kofir to @meib: Can you look at the vendor file before lunch?" [D3.S5] | -
+- case_25 | (email-1, name, slindqvist@stonebridge.com) | (email_person_0, addressValue, slindqvist@stonebridge.com) [t7] | "Sofia Lindqvist works for Stonebridge Supply Group and uses the address slindqvist@stonebridge.com." [D1.S2] | -
+- case_25 | (email-2, name, kofi.reyes@stonebridge.com) | (email_person_1, addressValue, kofi.reyes@stonebridge.com) [t10] | "Kofi Reyes is employed by Stonebridge Supply Group; their email is kofi.reyes@stonebridge.com." [D1.S3] | -
+- case_25 | (event-3, name, Refund Request) | (event_2, eventType, refund request) [t33] | "Kofi Reyes started the refund request on May 20, 2025 at 16:45 UTC." [D2.S9] | -
+- case_25 | (bankacc-1, name, 9698080226) | (acct_company, accountIdentifier, 9698080226) [t21] | "Union Ledger Bank account 9698080226 is registered to Stonebridge Supply Group." [D1.S6] | -
+- case_25 | (event-2, name, Contract Amendment) | (event_1, eventType, contract amendment) [t30] | "The contract amendment was initiated by Mei Banerjee on May 19, 2025 at 09:45 UTC." [D2.S8] | -
+- case_25 | (event-8, name, Wire Transfer) | (event_7, eventType, wire transfer) [t48] | "Kofi Reyes started the wire transfer on 6 June 2025, 14:25 UTC." [D2.S15] | -
+- case_25 | (email-msg-1, name, Contract terms for next quarter) | (email_msg_0, subject, Contract terms for next quarter) [t60] | "Subject: Contract terms for next quarter" [D2.S3] | -
+- case_25 | (event-6, name, Audit Review) | (event_5, eventType, audit review) [t42] | "Mei Banerjee started the audit review on 2 June 2025, 10:30 UTC." [D2.S13] | -
+- case_25 | (event-7, name, Invoice Submission) | (event_6, eventType, invoice submission) [t45] | "The invoice submission was initiated by Mei Banerjee on June 5, 2025 at 16:25 UTC." [D2.S14] | -
+- case_25 | (email-3, name, mei.banerjee@harborline.com) | (email_person_2, addressValue, mei.banerjee@harborline.com) [t13] | "Mei Banerjee is employed by Harborline Packaging Inc.; their email is mei.banerjee@harborline.com." [D1.S4] | -
+- case_25 | (event-5, name, Expense Reimbursement) | (event_4, eventType, expense reimbursement) [t39] | "Mei Banerjee started the expense reimbursement on 28 May 2025, 17:10 UTC." [D2.S11] | -
+- case_25 | (bankacc-2, name, 7347335891) | (acct_vendor, accountIdentifier, 7347335891) [t24] | "Harborline Packaging Inc. holds account 7347335891 at Union Ledger Bank." [D1.S7] | -
+- case_25 | (msg-1, startTime, 2025-05-16T17:00:00+00:00) | (chat_msg_0, sentTime, 2025-05-16T17:00:00Z) [t64] | "[2025-05-16 17:00 UTC] @meib to @kofir: Did the bank call back yet?" [D3.S4] | -
+
+### duplicate_entity (10)
+
+- case_01 | (event-audit-start, name, Audit Review Start) | (event_2, eventType, audit review) [t40] | "Luca Petrov started the audit review on May 18, 2025 at 11:30 UTC." [D2.S8] | -
+- case_01 | (event-refund-init, name, Refund Request Initiation) | (event_0, eventType, refund request) [t34] | "On 2 May 2025, 09:50 UTC, Nadia Moreau initiated the refund request." [D2.S6] | -
+- case_01 | (event-invoice-submit, name, Invoice Submission) | (event_3, eventType, invoice submission) [t43] | "The invoice submission was initiated by Luca Petrov on 2 June 2025, 14:10 UTC." [D4.S6] | -
+- case_01 | (event-contract-amend, name, Contract Amendment) | (event_1, eventType, contract amendment) [t37] | "Wesley Castillo started the contract amendment on May 12, 2025 at 13:30 UTC." [D4.S5] | -
+- case_05 | (email-ffischer-msg, name, ffischer@westmark.com) | (email_person_2, addressValue, ffischer@westmark.com) [t15] | "Felix Fischer works for Westmark Tooling Co. and uses the address ffischer@westmark.com." [D1.S4] | -
+- case_05 | (email-andre-msg, name, andre.banerjee@oakhaven.com) | (email_person_4, addressValue, andre.banerjee@oakhaven.com) [t21] | "Andre Banerjee works for Oakhaven Distribution Group and uses the address andre.banerjee@oakhaven.com." [D1.S6] | -
+- case_23 | (event-contract-init, name, Contract Amendment Initiation) | (event_2, eventType, contract amendment) [t36] | "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment." [D1.S8] | -
+- case_23 | (event-contract-init, eventType, ContractAction) | - | - | -
+- case_23 | (event-wire-init, name, Wire Transfer Initiation) | (event_0, eventType, wire transfer) [t30] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | -
+- case_23 | (event-wire-init, eventType, FinancialTransaction) | - | - | -
+
+### invented (98)
+
+- case_01 | (chat-msg-1, name, Chat: Let's keep this between us until Friday.) | - | - | -
+- case_01 | (event-fund-transfer, name, Fund Transfer) | - | - | -
+- case_01 | (chat-msg-2, name, Chat: Did the bank call back yet?) | - | - | -
+- case_01 | (event-fund-transfer-facet, eventType, Fund Transfer) | - | - | -
+- case_02 | (loc-omaha, name, Omaha, NE 68102) | - | - | -
+- case_05 | (loc-westmark-office, name, Westmark Tooling Co. office) | - | - | -
+- case_05 | (event-bank-change, Located_At, loc-westmark-office) | - | - | -
+- case_05 | (event-audit-review, Located_At, loc-westmark-office) | - | - | -
+- case_06 | (email-account-julian, name, julian.holloway@copperfield.com) | (email_person_1, addressValue, julian.holloway@copperfield.com) [t11] | "Julian Holloway is employed by Copperfield Fabrication Inc.; their email is julian.holloway@copperfield.com." [D1.S3] | -
+- case_06 | (email-account-julian, emailAddressFacet, email-julian-facet) | - | - | -
+- case_06 | (email-account-desmond, name, ddelgado@oakhaven.com) | (email_person_3, addressValue, ddelgado@oakhaven.com) [t17] | "Desmond Delgado is employed by Oakhaven Freight Inc.; their email is ddelgado@oakhaven.com." [D1.S5] | -
+- case_06 | (email-account-desmond, emailAddressFacet, email-desmond-facet) | - | - | -
+- case_06 | (email-account-andre, name, afischer@copperfield.com) | (email_person_0, addressValue, afischer@copperfield.com) [t8] | "Copperfield Fabrication Inc. employs Andre Fischer, who can be reached at afischer@copperfield.com." [D1.S2] | -
+- case_06 | (email-account-andre, emailAddressFacet, email-andre-facet) | - | - | -
+- case_06 | (email-account-priya, name, priya.sorensen@copperfield.com) | (email_person_2, addressValue, priya.sorensen@copperfield.com) [t14] | "Priya Sorensen works for Copperfield Fabrication Inc. and uses the address priya.sorensen@copperfield.com." [D1.S4] | -
+- case_06 | (email-account-priya, emailAddressFacet, email-priya-facet) | - | - | -
+- case_09 | (loc-oakhaven, name, Oakhaven Fabrication Co. office) | - | - | -
+- case_09 | (loc-oakhaven, country, US) | - | - | -
+- case_09 | (acc-oakhaven, name, Account 8677543219) | - | - | -
+- case_09 | (loc-clearpath, name, Clearpath Industrial LLC office) | - | - | -
+- case_09 | (loc-clearpath, country, US) | - | - | -
+- case_09 | (acc-clearpath, name, Account 4921747255) | - | - | -
+- case_13 | (loc-oakhaven, name, Oakhaven Fabrication Ltd. office) | - | - | -
+- case_13 | (note-chat, name, Chat export: #finance-ops) | - | - | -
+- case_13 | (note-chat, text, Chat export: #finance-ops) | - | - | -
+- case_13 | (event-invoice-sub, Located_At, loc-oakhaven) | - | - | -
+- case_13 | (event-expense-reimb, Located_At, loc-oakhaven) | - | - | -
+- case_14 | (loc-albany, name, Albany, NY 12207) | - | - | -
+- case_14 | (loc-albany, addressType, street) | - | - | -
+- case_14 | (loc-albany, country, US) | - | - | -
+- case_15 | (acc-meic, name, mei.castillo@redfern.com) | (email_person_1, addressValue, mei.castillo@redfern.com) [t10] | "From: mei.castillo@redfern.com" [D1.S1] | -
+- case_15 | (acc-diva, name, divanova@summitpeak.com) | (email_person_2, addressValue, divanova@summitpeak.com) [t13] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | -
+- case_15 | (bank-2170889721, name, Account 2170889721) | - | - | -
+- case_15 | (bank-4948925913, name, Account 4948925913) | - | - | -
+- case_15 | (acc-okow, name, okowalski@redfern.com) | (email_person_0, addressValue, okowalski@redfern.com) [t7] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | -
+- case_15 | (bank-6302151532, name, Account 6302151532) | - | - | -
+- case_15 | (redfern, Owns_Account, bank-2170889721) | - | - | -
+- case_15 | (summitpeak, Owns_Account, bank-4948925913) | - | - | -
+- case_15 | (owen-kowalski, Owns_Account, bank-6302151532) | - | - | -
+- case_17 | (event-email, name, Email: Wire confirmation needed) | - | - | -
+- case_17 | (event-email, eventType, Communication) | - | - | -
+- case_17 | (event-email, startTime, 2025-07-16T15:15:00+00:00) | (email_msg_0, sentTime, 2025-07-16T15:15:00Z) [t54] | "Date: Wed, 16 Jul 2025 15:15:00 +0000" [D2.S4] | -
+- case_17 | (person-andre, Initiated, event-email) | - | - | -
+- case_18 | (acc-clara, name, chaddad@silverlake.com) | (email_person_4, addressValue, chaddad@silverlake.com) [t21] | "Clara Haddad is employed by Silverlake Consulting LLC; their email is chaddad@silverlake.com." [D2.S6] | -
+- case_18 | (loc-madison, name, Madison, WI) | - | - | -
+- case_18 | (acc-rosa, name, rosa.vance@summitpeak.com) | (email_person_1, addressValue, rosa.vance@summitpeak.com) [t12] | "Summit Peak Packaging Inc. employs Rosa Vance, who can be reached at rosa.vance@summitpeak.com." [D2.S3] | -
+- case_18 | (loc-us, name, United States) | - | - | -
+- case_18 | (acc-sofia, name, sabara@silverlake.com) | (email_person_3, addressValue, sabara@silverlake.com) [t18] | "From: sabara@silverlake.com" [D1.S1] | -
+- case_18 | (acc-owen, name, owen.novak@summitpeak.com) | (email_person_0, addressValue, owen.novak@summitpeak.com) [t9] | "To: owen.novak@summitpeak.com" [D1.S2] | -
+- case_18 | (acc-marcus, name, mholloway@summitpeak.com) | (email_person_2, addressValue, mholloway@summitpeak.com) [t15] | "Marcus Holloway works for Summit Peak Packaging Inc. and uses the address mholloway@summitpeak.com." [D2.S4] | -
+- case_18 | (org-summit, Located_At, loc-madison) | - | - | -
+- case_19 | (event-contract-facet, eventType, Task Start) | - | - | -
+- case_19 | (event-expense-facet, eventType, Task Start) | - | - | -
+- case_19 | (acc-kofi, name, kofi.kowalski@bluegate.com) | (email_person_1, addressValue, kofi.kowalski@bluegate.com) [t11] | "From: kofi.kowalski@bluegate.com" [D1.S1] | -
+- case_19 | (loc-tucson, name, Tucson, AZ) | - | - | -
+- case_19 | (acc-maya, name, mnovak@bluegate.com) | (email_person_2, addressValue, mnovak@bluegate.com) [t14] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_19 | (event-bank-change-facet, eventType, Task Start) | - | - | -
+- case_19 | (event-payment-approval-facet, eventType, Task Start) | - | - | -
+- case_19 | (event-payment-approval-facet, eventContext, loc-bluegate-office) | - | - | -
+- case_19 | (event-wire-transfer-facet, eventType, Task Start) | - | - | -
+- case_19 | (acc-irene, name, isorensen@bluegate.com) | (email_person_0, addressValue, isorensen@bluegate.com) [t8] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | -
+- case_19 | (event-recon-facet, eventType, Task Start) | - | - | -
+- case_19 | (event-vendor-onboarding-facet, eventType, Task Start) | - | - | -
+- case_19 | (event-invoice-facet, eventType, Task Start) | - | - | -
+- case_19 | (loc-bluegate-office, name, Bluegate Services Co.'s office) | - | - | -
+- case_19 | (acc-hector, name, hfischer@westmark.com) | (email_person_3, addressValue, hfischer@westmark.com) [t17] | "Hector Fischer works for Westmark Consulting LLC and uses the address hfischer@westmark.com." [D2.S5] | -
+- case_19 | (org-bluegate, Located_At, loc-bluegate-office) | - | - | -
+- case_19 | (org-bluegate, Located_At, loc-tucson) | - | - | -
+- case_20 | (acc-meibrennan, name, mei.brennan@oakhaven.com) | (email_person_2, addressValue, mei.brennan@oakhaven.com) [t15] | "To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com" [D1.S2] | -
+- case_20 | (acc-hhaddad, name, hhaddad@oakhaven.com) | (email_person_1, addressValue, hhaddad@oakhaven.com) [t12] | "From: hhaddad@oakhaven.com" [D1.S1] | -
+- case_20 | (acc-wesley, name, wesley.osei@oakhaven.com) | (email_person_0, addressValue, wesley.osei@oakhaven.com) [t9] | "Wesley Osei works for Oakhaven Supply Inc. and uses the address wesley.osei@oakhaven.com." [D2.S2] | -
+- case_20 | (acc-kofi, name, kofi.holloway@stonebridge.com) | (email_person_3, addressValue, kofi.holloway@stonebridge.com) [t18] | "To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com" [D1.S2] | -
+- case_20 | (acc-owen, name, owhitfield@stonebridge.com) | (email_person_4, addressValue, owhitfield@stonebridge.com) [t21] | "Stonebridge Components LLC employs Owen Whitfield, who can be reached at owhitfield@stonebridge.com." [D2.S6] | -
+- case_21 | (acc-andre, name, apetrov@oakhaven.com) | (email_person_0, addressValue, apetrov@oakhaven.com) [t8] | "Andre Petrov works for Oakhaven Logistics Inc. and uses the address apetrov@oakhaven.com." [D2.S2] | -
+- case_21 | (acc-maya, name, maya.quinn@oakhaven.com) | (email_person_1, addressValue, maya.quinn@oakhaven.com) [t11] | "From: maya.quinn@oakhaven.com" [D1.S1] | -
+- case_21 | (acc-victor, name, victor.haddad@bluegate.com) | (email_person_3, addressValue, victor.haddad@bluegate.com) [t17] | "Victor Haddad works for Bluegate Distribution LLC and uses the address victor.haddad@bluegate.com." [D2.S5] | -
+- case_21 | (acc-hector, name, hcastillo@oakhaven.com) | (email_person_2, addressValue, hcastillo@oakhaven.com) [t14] | "To: hcastillo@oakhaven.com" [D1.S2] | -
+- case_22 | (dayton-oh, name, Dayton, OH) | - | - | -
+- case_22 | (acc-yara, name, yivanova@northwind.com) | (email_person_0, addressValue, yivanova@northwind.com) [t8] | "Yara Ivanova is employed by Northwind Analytics LLC; their email is yivanova@northwind.com." [D2.S2] | -
+- case_22 | (omaha-ne, name, Omaha, NE) | - | - | -
+- case_22 | (acc-irene, name, isorensen@northwind.com) | (email_person_1, addressValue, isorensen@northwind.com) [t11] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | -
+- case_22 | (acc-tomas, name, tomas.vance@northwind.com) | (email_person_2, addressValue, tomas.vance@northwind.com) [t14] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | -
+- case_22 | (acc-marcus, name, marcus.abara@harborline.com) | (email_person_3, addressValue, marcus.abara@harborline.com) [t17] | "From: marcus.abara@harborline.com" [D1.S1] | -
+- case_22 | (harborline, Located_At, omaha-ne) | - | - | -
+- case_22 | (northwind, Located_At, dayton-oh) | - | - | -
+- case_23 | (loc-boise, name, Boise, ID 83702) | - | - | -
+- case_23 | (org-cf, Located_At, loc-boise) | - | - | -
+- case_24 | (email-account-desmond, name, desmond.kowalski@westmark.com) | (email_person_2, addressValue, desmond.kowalski@westmark.com) [t13] | "Desmond Kowalski is employed by Westmark Logistics Inc.; their email is desmond.kowalski@westmark.com." [D2.S4] | -
+- case_24 | (email-account-yara, name, yfischer@clearpath.com) | (email_person_1, addressValue, yfischer@clearpath.com) [t10] | "To: yfischer@clearpath.com" [D1.S2] | -
+- case_24 | (email-account-andre, name, andre.okafor@clearpath.com) | (email_person_0, addressValue, andre.okafor@clearpath.com) [t7] | "From: andre.okafor@clearpath.com" [D1.S1] | -
+- case_25 | (msg-2, name, Chat Message 2) | - | - | -
+- case_25 | (emailacc-2, name, kofi.reyes@stonebridge.com) | (email_person_1, addressValue, kofi.reyes@stonebridge.com) [t10] | "Kofi Reyes is employed by Stonebridge Supply Group; their email is kofi.reyes@stonebridge.com." [D1.S3] | -
+- case_25 | (emailacc-1, name, slindqvist@stonebridge.com) | (email_person_0, addressValue, slindqvist@stonebridge.com) [t7] | "Sofia Lindqvist works for Stonebridge Supply Group and uses the address slindqvist@stonebridge.com." [D1.S2] | -
+- case_25 | (emailacc-3, name, mei.banerjee@harborline.com) | (email_person_2, addressValue, mei.banerjee@harborline.com) [t13] | "Mei Banerjee is employed by Harborline Packaging Inc.; their email is mei.banerjee@harborline.com." [D1.S4] | -
+- case_25 | (msg-1, name, Chat Message 1) | - | - | -
+- case_25 | (person-3, Participated_In, msg-2) | - | - | -
+- case_25 | (person-2, Participated_In, email-msg-1) | - | - | -
+- case_25 | (person-2, Participated_In, msg-1) | - | - | -
+
+### run failed
+
+- case_03 | run error: no python code block in response
+- case_04 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_07 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_08 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_10 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_11 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_12 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_16 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_26 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_27 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_28 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_29 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+- case_30 | run error: serializer exited 1: Traceback (most recent call last):
+  File "/Users/mrinaalramachandran/Projects/ProjectVIC
+
+## a2_tools (731 edges)
+
+### wrong_value (86)
+
+- case_01 | (event-invoice-submission-initiated, eventType, Initiated) | (event_3, eventType, invoice submission) [t43] | "The invoice submission was initiated by Luca Petrov on 2 June 2025, 14:10 UTC." [D4.S6] | D4.S6
+- case_01 | (event-contract-amendment-started, eventType, Initiated) | (event_1, eventType, contract amendment) [t37] | "Wesley Castillo started the contract amendment on May 12, 2025 at 13:30 UTC." [D4.S5] | D4.S5
+- case_01 | (event-refund-request-approved, eventType, Authorized) | (event_0, eventType, refund request) [t34] | "On 2 May 2025, 09:50 UTC, Nadia Moreau initiated the refund request." [D2.S6] | D2.S7
+- case_01 | (event-audit-review-started, eventType, Initiated) | (event_2, eventType, audit review) [t40] | "Luca Petrov started the audit review on May 18, 2025 at 11:30 UTC." [D2.S8] | D2.S8
+- case_02 | (expense-reimbursement-event, eventType, business_process) | (event_4, eventType, expense reimbursement) [t42] | "Luca Fischer started the expense reimbursement on July 24, 2025 at 10:10 UTC." [D2.S10] | D2.S10, D2.S6
+- case_02 | (oakhaven-bank-account, accountType, bank) | (acct_company, accountType, bank account) [t63] | "First Harbor Bank account 4396839738 is registered to Oakhaven Logistics Co." [D1.S6] | D1.S6
+- case_02 | (invoice-submission-event, eventType, business_process) | (event_1, eventType, invoice submission) [t33] | "The invoice submission was initiated by Sofia Ivanova on June 22, 2025 at 09:30 UTC." [D2.S7] | D2.S6, D2.S7
+- case_02 | (refund-request-event, eventType, business_process) | (event_0, eventType, refund request) [t30] | "Luca Fischer started the refund request on June 20, 2025 at 17:00 UTC." [D2.S6] | D2.S6
+- case_02 | (payment-approval-event, eventType, business_process) | (event_2, eventType, payment approval) [t36] | "Luca Fischer started the payment approval on 2 July 2025, 13:30 UTC." [D2.S8] | D2.S6, D2.S8
+- case_02 | (bank-detail-change-event, eventType, business_process) | (event_3, eventType, bank detail change) [t39] | "Sofia Ivanova started the bank detail change on July 22, 2025 at 14:50 UTC." [D2.S9] | D2.S6, D2.S9
+- case_02 | (sofia-bank-account, accountType, bank) | (acct_insider, accountType, bank account) [t65] | "Account 9876553190 at First Harbor Bank belongs to Sofia Ivanova." [D1.S8] | D1.S8
+- case_02 | (wire-transfer-event, eventType, financial_transaction) | (event_6, eventType, wire transfer) [t48] | "On July 28, 2025 at 09:50 UTC, Luca Fischer initiated the wire transfer." [D2.S12] | D2.S12, D2.S13, D2.S6
+- case_02 | (summit-bank-account, accountType, bank) | (acct_vendor, accountType, bank account) [t64] | "Account 8518118555 at First Harbor Bank belongs to Summit Peak Freight Group." [D1.S7] | D1.S7
+- case_02 | (vendor-onboarding-event, eventType, business_process) | (event_5, eventType, vendor onboarding) [t45] | "Sofia Ivanova started the vendor onboarding on July 24, 2025 at 12:00 UTC." [D2.S11] | D2.S11, D2.S6
+- case_03 | (event-wire-transfer, eventType, BusinessProcess) | (event_2, eventType, wire transfer) [t41] | "The wire transfer was initiated by Desmond Reyes on 30 September 2025, 17:50 UTC." [D2.S9] | D2.S9
+- case_03 | (event-account-reconciliation, eventType, BusinessProcess) | (event_3, eventType, account reconciliation) [t44] | "On October 5, 2025 at 14:45 UTC, Priya Kowalski initiated the account reconciliation." [D2.S10] | D2.S10
+- case_03 | (event-refund-request, eventType, BusinessProcess) | (event_1, eventType, refund request) [t38] | "The refund request was initiated by Priya Kowalski on 23 September 2025, 12:15 UTC." [D2.S8] | D2.S8
+- case_03 | (event-payment-approval, eventType, BusinessProcess) | (event_0, eventType, payment approval) [t35] | "Sofia Park started the payment approval on 17 September 2025, 17:15 UTC." [D2.S6] | D2.S6
+- case_03 | (event-audit-review, eventType, BusinessProcess) | (event_4, eventType, audit review) [t47] | "Sofia Park started the audit review on 12 October 2025, 13:15 UTC." [D2.S11] | D2.S11
+- case_03 | (event-vendor-onboarding, eventType, BusinessProcess) | (event_5, eventType, vendor onboarding) [t50] | "On 14 October 2025, 13:25 UTC, Desmond Reyes initiated the vendor onboarding." [D2.S12] | D2.S12
+- case_06 | (expense-reimbursement-event, eventType, Business Process) | (event_3, eventType, expense reimbursement) [t43] | "Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC." [D2.S9] | D2.S9
+- case_06 | (invoice-submission-event, eventType, Business Process) | (event_6, eventType, invoice submission) [t52] | "On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission." [D2.S14] | D2.S14
+- case_06 | (payment-approval-event, eventType, Business Process) | (event_2, eventType, payment approval) [t40] | "On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval." [D2.S8] | D2.S8
+- case_06 | (bank-detail-change-event, eventType, Business Process) | (event_1, eventType, bank detail change) [t37] | "On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change." [D2.S7] | D2.S7
+- case_06 | (audit-review-event, eventType, Business Process) | (event_4, eventType, audit review) [t46] | "Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC." [D2.S10] | D2.S10
+- case_06 | (reconciliation-event, eventType, Business Process) | (event_0, eventType, account reconciliation) [t34] | "Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC." [D2.S6] | D2.S6
+- case_06 | (vendor-onboarding-event, eventType, Business Process) | (event_5, eventType, vendor onboarding) [t49] | "On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding." [D2.S11] | D2.S11, D2.S12, D2.S13
+- case_08 | (redfern-bank-account, accountType, bank) | (acct_vendor, accountType, bank account) [t94] | "First Harbor Bank account 6616593409 is registered to Redfern Logistics LLC." [D1.S11] | D1.S11
+- case_08 | (invoice-submission-event, eventType, invoice) | (event_3, eventType, invoice submission) [t47] | "Sofia Sorensen started the invoice submission on May 5, 2025 at 09:45 UTC." [D2.S9] | D2.S9
+- case_08 | (clearpath-bank-account, accountType, bank) | (acct_company, accountType, bank account) [t93] | "First Harbor Bank account 1925770755 is registered to Clearpath Logistics Inc." [D1.S10] | D1.S10
+- case_08 | (payment-approval-event, eventType, payment) | (event_5, eventType, payment approval) [t53] | "Priya Osei started the payment approval on May 10, 2025 at 15:25 UTC." [D2.S11] | D2.S11
+- case_08 | (bank-detail-change-event, eventType, banking) | (event_1, eventType, bank detail change) [t41] | "On 24 April 2025, 09:15 UTC, Grace Mendes initiated the bank detail change." [D2.S7] | D2.S7
+- case_08 | (reconciliation-event, eventType, reconciliation) | (event_2, eventType, account reconciliation) [t44] | "The account reconciliation was initiated by Victor Delgado on April 30, 2025 at 11:25 UTC." [D2.S8] | D2.S8
+- case_08 | (felix-bank-account, accountType, bank) | (acct_insider, accountType, bank account) [t95] | "Account 4865285406 at First Harbor Bank belongs to Felix Haddad." [D1.S12] | D1.S12
+- case_08 | (clearpath-audit-event, eventType, audit) | (event_0, eventType, audit review) [t38] | "The audit review was initiated by Grace Mendes on April 17, 2025 at 09:50 UTC." [D2.S6] | D2.S6
+- case_08 | (vendor-onboarding-event, eventType, vendor) | (event_4, eventType, vendor onboarding) [t50] | "On May 8, 2025 at 12:10 UTC, Victor Delgado initiated the vendor onboarding." [D2.S10] | D2.S10
+- case_10 | (account-copperfield, accountType, bank) | (acct_company, accountType, bank account) [t68] | "Account 4101973631 at Union Ledger Bank belongs to Copperfield Supply Inc." [D1.S9] | D1.S9
+- case_10 | (account-westmark, accountType, bank) | (acct_vendor, accountType, bank account) [t69] | "Union Ledger Bank account 6222593270 is registered to Westmark Tooling Ltd." [D1.S10] | D1.S10
+- case_12 | (account-4662947012, accountType, bank) | (acct_vendor, accountType, bank account) [t61] | "Account 4662947012 at First Harbor Bank belongs to Stonebridge Fabrication Inc." [D2.S7] | D2.S7
+- case_12 | (account-9354333388, accountType, bank) | (acct_company, accountType, bank account) [t60] | "First Harbor Bank account 9354333388 is registered to Redfern Freight LLC." [D2.S6] | D2.S6
+- case_15 | (event-bank-detail-change, eventType, business_process) | (event_5, eventType, bank detail change) [t45] | "Owen Kowalski started the bank detail change on 6 June 2025, 13:00 UTC." [D4.S6] | D4.S6
+- case_15 | (account-6302151532, accountType, bank) | (acct_insider, accountType, bank account) [t70] | "Account 6302151532 at Meridian Trust Bank belongs to Owen Kowalski." [D4.S4] | D4.S4
+- case_15 | (event-expense-reimbursement, eventType, business_process) | (event_3, eventType, expense reimbursement) [t39] | "On May 30, 2025 at 12:15 UTC, Mei Castillo initiated the expense reimbursement." [D1.S7] | D1.S7
+- case_15 | (account-4948925913, accountType, bank) | (acct_vendor, accountType, bank account) [t69] | "Account 4948925913 at Meridian Trust Bank belongs to Summit Peak Logistics LLC." [D4.S3] | D4.S3
+- case_15 | (event-refund-request, eventType, business_process) | (event_4, eventType, refund request) [t42] | "The refund request was initiated by Mei Castillo on June 3, 2025 at 10:00 UTC." [D3.S8] | D3.S8
+- case_15 | (event-invoice-submission, eventType, business_process) | (event_2, eventType, invoice submission) [t36] | "Desmond Ivanova started the invoice submission on 26 May 2025, 13:00 UTC." [D4.S5] | D4.S5
+- case_15 | (event-audit-review, eventType, business_process) | (event_1, eventType, audit review) [t33] | "The audit review was initiated by Desmond Ivanova on May 12, 2025 at 12:15 UTC." [D3.S6] | D3.S6
+- case_15 | (event-vendor-onboarding, eventType, business_process) | (event_0, eventType, vendor onboarding) [t30] | "On May 5, 2025 at 11:25 UTC, Mei Castillo initiated the vendor onboarding." [D1.S6] | D1.S6
+- case_15 | (account-2170889721, accountType, bank) | (acct_company, accountType, bank account) [t68] | "Account 2170889721 at Meridian Trust Bank belongs to Redfern Packaging Group." [D4.S2] | D4.S2
+- case_16 | (account-dana, accountType, bank) | (acct_insider, accountType, bank account) [t67] | "Pinecrest National Bank account 1149258289 is registered to Dana Okafor." [D4.S4] | D4.S4
+- case_16 | (account-cedarridge, accountType, bank) | (acct_vendor, accountType, bank account) [t66] | "Pinecrest National Bank account 8579003599 is registered to Cedar Ridge Tooling Inc." [D4.S3] | D4.S3
+- case_16 | (account-stonebridge, accountType, bank) | (acct_company, accountType, bank account) [t65] | "Stonebridge Supply Ltd. holds account 9512975827 at Pinecrest National Bank." [D4.S2] | D4.S2
+- case_17 | (audit-review-event, eventType, Audit) | (event_0, eventType, audit review) [t38] | "Desmond Kowalski started the audit review on 3 July 2025, 15:15 UTC." [D2.S6] | D2.S6
+- case_18 | (account-6144966603, accountType, bank) | (acct_vendor, accountType, bank account) [t73] | "Granite Federal Credit Union account 6144966603 is registered to Silverlake Consulting LLC." [D2.S9] | D2.S9
+- case_18 | (account-2622357143, accountType, bank) | (acct_company, accountType, bank account) [t72] | "Account 2622357143 at Granite Federal Credit Union belongs to Summit Peak Packaging Inc." [D2.S8] | D2.S8
+- case_18 | (account-7594766430, accountType, bank) | (acct_insider, accountType, bank account) [t74] | "Account 7594766430 at Granite Federal Credit Union belongs to Rosa Vance." [D2.S10] | D2.S10
+- case_21 | (expense-reimbursement-event, eventType, financial_transaction) | (event_4, eventType, expense reimbursement) [t43] | "On 28 April 2025, 16:45 UTC, Hector Castillo initiated the expense reimbursement." [D3.S9] | D3.S9
+- case_21 | (payment-approval-event, eventType, business_process) | (event_5, eventType, payment approval) [t46] | "Hector Castillo started the payment approval on 30 April 2025, 13:30 UTC." [D4.S5] | D4.S5
+- case_21 | (bank-detail-change-event, eventType, financial_transaction) | (event_7, eventType, bank detail change) [t52] | "Andre Petrov started the bank detail change on 5 May 2025, 16:45 UTC." [D3.S12] | D3.S12
+- case_21 | (audit-review-event, eventType, business_process) | (event_6, eventType, audit review) [t49] | "On 3 May 2025, 15:00 UTC, Maya Quinn initiated the audit review." [D1.S8] | D1.S8
+- case_21 | (wire-transfer-event, eventType, financial_transaction) | (event_3, eventType, wire transfer) [t40] | "On 25 April 2025, 17:45 UTC, Victor Haddad initiated the wire transfer." [D1.S7] | D1.S7
+- case_21 | (account-reconciliation-event, eventType, financial_process) | (event_2, eventType, account reconciliation) [t37] | "Victor Haddad started the account reconciliation on April 25, 2025 at 14:25 UTC." [D4.S4] | D4.S4
+- case_21 | (contract-amendment-event, eventType, legal_action) | (event_1, eventType, contract amendment) [t34] | "On 15 April 2025, 16:00 UTC, Victor Haddad initiated the contract amendment." [D3.S6] | D3.S6
+- case_21 | (vendor-onboarding-event, eventType, business_process) | (event_0, eventType, vendor onboarding) [t31] | "The vendor onboarding was initiated by Andre Petrov on 12 April 2025, 16:10 UTC." [D1.S6] | D1.S6
+- case_22 | (event-bank-detail-change, eventType, account_modification) | (event_2, eventType, bank detail change) [t40] | "On June 27, 2025 at 09:45 UTC, Yara Ivanova initiated the bank detail change." [D4.S5] | D4.S5
+- case_22 | (event-contract-amendment, eventType, business_process) | (event_1, eventType, contract amendment) [t37] | "Irene Sorensen started the contract amendment on June 23, 2025 at 16:00 UTC." [D3.S6] | D3.S6
+- case_22 | (event-wire-transfer, eventType, financial_transaction) | (event_4, eventType, wire transfer) [t46] | "The wire transfer was initiated by Irene Sorensen on 12 July 2025, 09:25 UTC." [D3.S7] | D3.S7
+- case_22 | (event-payment-approval, eventType, business_process) | (event_3, eventType, payment approval) [t43] | "On 2 July 2025, 10:10 UTC, Marcus Abara initiated the payment approval." [D1.S7] | D1.S7
+- case_22 | (event-invoice-submission, eventType, business_process) | (event_0, eventType, invoice submission) [t34] | "On June 22, 2025 at 15:15 UTC, Irene Sorensen initiated the invoice submission." [D1.S6] | D1.S6
+- case_23 | (account-clearpath-8453395788, accountType, bank) | (acct_company, accountType, bank account) [t62] | "Pinecrest National Bank account 8453395788 is registered to Clearpath Freight Co." [D2.S7] | D2.S10, D2.S7
+- case_23 | (account-yara-1484775689, accountType, bank) | (acct_insider, accountType, bank account) [t64] | "Pinecrest National Bank account 1484775689 is registered to Yara Banerjee." [D2.S9] | D2.S9
+- case_23 | (event-wire-transfer-initiation, startTime, 2025-01-02T10:25:00+00:00) | (event_0, startTime, 2025-02-01T10:25:00Z) [t31] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | D1.S6
+- case_23 | (account-redfern-8858108822, accountType, bank) | (acct_vendor, accountType, bank account) [t63] | "Account 8858108822 at Pinecrest National Bank belongs to Redfern Analytics Group." [D2.S8] | D2.S10, D2.S8
+- case_24 | (event-bank-detail-change, eventType, account modification) | (event_2, eventType, bank detail change) [t36] | "On May 17, 2025 at 17:45 UTC, Andre Okafor initiated the bank detail change." [D1.S7] | D1.S7
+- case_24 | (event-wire-transfer, eventType, financial transaction) | (event_0, eventType, wire transfer) [t30] | "On 26 April 2025, 15:45 UTC, Desmond Kowalski initiated the wire transfer." [D1.S6] | D1.S7
+- case_24 | (account-clearpath-first-harbor, accountType, bank) | (acct_company, accountType, bank account) [t54] | "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co." [D2.S6] | D2.S6
+- case_24 | (account-andre-first-harbor, accountType, bank) | (acct_insider, accountType, bank account) [t56] | "First Harbor Bank account 7342857219 is registered to Andre Okafor." [D2.S8] | D2.S8
+- case_24 | (account-westmark-first-harbor, accountType, bank) | (acct_vendor, accountType, bank account) [t55] | "Account 3503133229 at First Harbor Bank belongs to Westmark Logistics Inc." [D2.S7] | D2.S7
+- case_24 | (event-invoice-submission, eventType, document submission) | (event_1, eventType, invoice submission) [t33] | "Andre Okafor started the invoice submission on 26 April 2025, 17:10 UTC." [D3.S6] | D3.S6
+- case_26 | (account-silverlake, accountType, bank) | (acct_company, accountType, bank account) [t66] | "Account 1921542892 at Pinecrest National Bank belongs to Silverlake Fabrication Co." [D4.S2] | D4.S2
+- case_26 | (account-stonebridge, accountType, bank) | (acct_vendor, accountType, bank account) [t67] | "Account 6061433726 at Pinecrest National Bank belongs to Stonebridge Freight LLC." [D4.S3] | D4.S3
+- case_27 | (account-clearpath, accountType, bank) | (acct_company, accountType, bank account) [t73] | "Clearpath Tooling Inc. holds account 8561434330 at Union Ledger Bank." [D2.S7] | D2.S7
+- case_27 | (account-harborline, accountType, bank) | (acct_vendor, accountType, bank account) [t74] | "Harborline Consulting LLC holds account 9642990257 at Union Ledger Bank." [D2.S8] | D2.S8
+- case_29 | (silverlake-bank-account, accountType, bank) | (acct_vendor, accountType, bank account) [t66] | "Silverlake Packaging Co. holds account 6870452896 at Lakeshore Savings Bank." [D1.S10] | D1.S10
+- case_29 | (stonebridge-bank-account, accountType, bank) | (acct_company, accountType, bank account) [t65] | "Lakeshore Savings Bank account 5837955400 is registered to Stonebridge Services Co." [D1.S9] | D1.S9
+- case_29 | (felix-bank-account, accountType, bank) | (acct_insider, accountType, bank account) [t67] | "Account 6253895836 at Lakeshore Savings Bank belongs to Felix Fischer." [D1.S11] | D1.S11
+
+### wrong_relation (26)
+
+- case_03 | (person-nadia-holloway, Reports_To, person-sofia-park) | (person_1, Reports_To, person_0) [t53] | "Sofia Park's manager is Nadia Holloway." [D1.S7] | D1.S7
+- case_05 | (person-marcus-whitfield, Authorized, event-bank-detail-change) | (person_3, Participated_In, event_0) [t49] | "Marcus Whitfield was involved in the bank detail change as well." [D2.S7] | D2.S7
+- case_05 | (email-message-1, Communicated_With, email-andre-banerjee) | (email_msg_0, to, email_person_4) [t55] | "To: andre.banerjee@oakhaven.com" [D2.S2] | D2.S2
+- case_05 | (person-andre-banerjee, Authorized, event-bank-detail-change) | (person_4, Initiated, event_0) [t37] | "Andre Banerjee started the bank detail change on February 17, 2025 at 09:45 UTC." [D2.S6] | D2.S6
+- case_07 | (email-msg-3, cc, email-kofi-park) | (email_msg_1, to, email_person_2) [t62] | "To: mei.castillo@silverlake.com, kofi.park@cedarridge.com" [D3.S2] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_07 | (email-msg-1, cc, email-mei-castillo) | (email_msg_0, to, email_person_4) [t57] | "To: sbrennan@cedarridge.com, mei.castillo@silverlake.com" [D1.S2] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_10 | (account-copperfield, accountIssuer, org-copperfield) | (org_company, Owns_Account, acct_company) [t26] | "Account 4101973631 at Union Ledger Bank belongs to Copperfield Supply Inc." [D1.S9] | D1.S9
+- case_10 | (account-westmark, accountIssuer, org-westmark) | (org_vendor, Owns_Account, acct_vendor) [t29] | "Union Ledger Bank account 6222593270 is registered to Westmark Tooling Ltd." [D1.S10] | D1.S10
+- case_12 | (account-4662947012, accountIssuer, org-stonebridge-fabrication-inc) | (org_vendor, Owns_Account, acct_vendor) [t25] | "Account 4662947012 at First Harbor Bank belongs to Stonebridge Fabrication Inc." [D2.S7] | D2.S7
+- case_12 | (account-9354333388, accountIssuer, org-redfern-freight-llc) | (org_company, Owns_Account, acct_company) [t22] | "First Harbor Bank account 9354333388 is registered to Redfern Freight LLC." [D2.S6] | D2.S6
+- case_15 | (account-4948925913, accountIssuer, org-summitpeak) | (org_vendor, Owns_Account, acct_vendor) [t25] | "Account 4948925913 at Meridian Trust Bank belongs to Summit Peak Logistics LLC." [D4.S3] | D4.S3
+- case_15 | (account-2170889721, accountIssuer, org-redfern) | (org_company, Owns_Account, acct_company) [t22] | "Account 2170889721 at Meridian Trust Bank belongs to Redfern Packaging Group." [D4.S2] | D4.S2
+- case_19 | (person-irene-sorensen, Holds_Account, account-irene-3917062016) | (person_0, Owns_Account, acct_insider) [t32] | "Pinecrest National Bank account 3917062016 is registered to Irene Sorensen." [D4.S4] | D4.S4
+- case_23 | (account-clearpath-8453395788, accountIssuer, org-clearpath-freight) | (org_company, Owns_Account, acct_company) [t22] | "Pinecrest National Bank account 8453395788 is registered to Clearpath Freight Co." [D2.S7] | D2.S10, D2.S7
+- case_23 | (email-message-1, sender, email-tomas-kowalski) | (email_msg_0, from, email_person_2) [t47] | "From: tkowalski@redfern.com" [D1.S1] | D1.S1, D1.S2, D1.S3, D1.S4, D1.S6, D1.S7, D2.S7, D2.S9
+- case_23 | (account-yara-1484775689, accountIssuer, person-yara-banerjee) | (person_0, Owns_Account, acct_insider) [t28] | "Pinecrest National Bank account 1484775689 is registered to Yara Banerjee." [D2.S9] | D2.S9
+- case_23 | (email-message-2, sender, email-tomas-kowalski) | (email_msg_1, from, email_person_2) [t51] | "From: tkowalski@redfern.com" [D3.S1] | D1.S6, D1.S7, D2.S7, D2.S9, D3.S1, D3.S2, D3.S3, D3.S4
+- case_23 | (account-redfern-8858108822, accountIssuer, org-redfern-analytics) | (org_vendor, Owns_Account, acct_vendor) [t25] | "Account 8858108822 at Pinecrest National Bank belongs to Redfern Analytics Group." [D2.S8] | D2.S10, D2.S8
+- case_23 | (person-tomas-kowalski, Initiated, event-wire-transfer-initiation) | (person_2, Authorized, event_0) [t44] | "Approval for the wire transfer came from Tomas Kowalski." [D1.S7] | -
+- case_24 | (account-clearpath-first-harbor, accountIssuer, org-clearpath-packaging) | (org_company, Owns_Account, acct_company) [t22] | "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co." [D2.S6] | D2.S6
+- case_24 | (account-westmark-first-harbor, accountIssuer, org-westmark-logistics) | (org_vendor, Owns_Account, acct_vendor) [t25] | "Account 3503133229 at First Harbor Bank belongs to Westmark Logistics Inc." [D2.S7] | D2.S7
+- case_27 | (account-clearpath, accountIssuer, org-clearpath-tooling) | (org_company, Owns_Account, acct_company) [t22] | "Clearpath Tooling Inc. holds account 8561434330 at Union Ledger Bank." [D2.S7] | D2.S7
+- case_27 | (account-harborline, accountIssuer, org-harborline) | (org_vendor, Owns_Account, acct_vendor) [t25] | "Harborline Consulting LLC holds account 9642990257 at Union Ledger Bank." [D2.S8] | D2.S8
+- case_27 | (person-owen-castillo, Participated_In, event-expense-reimbursement) | (person_1, Initiated, event_2) [t35] | "On 27 September 2025, 17:00 UTC, Owen Castillo initiated the expense reimbursement." [D1.S8] | -
+- case_27 | (person-kofi-quinn, Initiated, event-bank-detail-change) | (person_0, Participated_In, event_0) [t45] | "Kofi Quinn was involved in the bank detail change as well." [D1.S7] | -
+- case_27 | (person-yara-ivanova, Initiated, event-wire-transfer) | (person_2, Participated_In, event_3) [t55] | "Yara Ivanova also took part in the wire transfer." [D3.S9] | -
+
+### wrong_entity (23)
+
+- case_01 | (chat-message-1, from, person-oscar-banerjee) | (chat_msg_0, from, handle_person_3) [t57] | "[2025-05-02 10:50 UTC] @oscarb to @lucap: Let's keep this between us until Friday." [D3.S4] | D3.S4
+- case_01 | (chat-message-1, to, person-luca-petrov) | (chat_msg_0, to, handle_person_0) [t58] | "[2025-05-02 10:50 UTC] @oscarb to @lucap: Let's keep this between us until Friday." [D3.S4] | D3.S4
+- case_01 | (chat-message-2, from, person-luca-petrov) | (chat_msg_1, from, handle_person_0) [t61] | "[2025-05-02 10:57 UTC] @lucap to @oscarb: Did the bank call back yet?" [D3.S5] | D3.S5
+- case_01 | (chat-message-2, to, person-oscar-banerjee) | (chat_msg_1, to, handle_person_3) [t62] | "[2025-05-02 10:57 UTC] @lucap to @oscarb: Did the bank call back yet?" [D3.S5] | D3.S5
+- case_02 | (luca-fischer, Initiated, vendor-onboarding-event) | (person_2, Initiated, event_0) [t32] | "Luca Fischer started the refund request on June 20, 2025 at 17:00 UTC." [D2.S6] | -
+- case_02 | (sofia-ivanova, Initiated, expense-reimbursement-event) | (person_0, Initiated, event_1) [t35] | "The invoice submission was initiated by Sofia Ivanova on June 22, 2025 at 09:30 UTC." [D2.S7] | -
+- case_08 | (priya-osei, Holds_Account, redfern-email-account) | (person_4, Holds_Account, email_person_4) [t23] | "Priya Osei works for Redfern Logistics LLC and uses the address posei@redfern.com." [D1.S6] | -
+- case_09 | (person-felix-sorensen, Initiated, email-msg-1) | (person_3, Initiated, event_0) [t33] | "On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation." [D2.S6] | D2.S6
+- case_09 | (person-andre-whitfield, Participated_In, email-msg-1) | (person_2, Participated_In, event_2) [t42] | "Andre Whitfield was involved in the invoice submission as well." [D2.S12] | D2.S7
+- case_15 | (account-6302151532, accountIssuer, org-redfern) | (acct_insider, accountIssuer, org_bank) [t29] | "Account 6302151532 at Meridian Trust Bank belongs to Owen Kowalski." [D4.S4] | D4.S4
+- case_17 | (redfern-consulting, street, 6004 Riverside Boulevard) | (loc_company, street, 6004 Riverside Boulevard) [t24] | "Redfern Consulting Co. is based at 6004 Riverside Boulevard, Spokane, WA 99201." [D1.S8] | D1.S8
+- case_17 | (redfern-consulting, locality, Spokane) | (loc_company, locality, Spokane) [t25] | "Redfern Consulting Co. is based at 6004 Riverside Boulevard, Spokane, WA 99201." [D1.S8] | D1.S8
+- case_17 | (redfern-consulting, region, WA) | (loc_company, region, WA) [t26] | "Redfern Consulting Co. is based at 6004 Riverside Boulevard, Spokane, WA 99201." [D1.S8] | D1.S8
+- case_17 | (redfern-consulting, postalCode, 99201) | (loc_company, postalCode, 99201) [t27] | "Redfern Consulting Co. is based at 6004 Riverside Boulevard, Spokane, WA 99201." [D1.S8] | D1.S8
+- case_17 | (desmond-kowalski, Reports_To, andre-osei) | (person_1, Reports_To, person_0) [t50] | "Nadia Delgado's manager is Andre Osei." [D1.S7] | -
+- case_17 | (redfern-consulting, Located_At, redfern-consulting) | (org_company, Located_At, loc_company) [t28] | "Redfern Consulting Co. is based at 6004 Riverside Boulevard, Spokane, WA 99201." [D1.S8] | -
+- case_24 | (account-andre-first-harbor, accountIssuer, org-clearpath-packaging) | (acct_insider, accountIssuer, org_bank) [t29] | "First Harbor Bank account 7342857219 is registered to Andre Okafor." [D2.S8] | D2.S8
+- case_26 | (person-clara, Initiated, event-payment-approval) | (person_0, Initiated, event_0) [t29] | "The payment approval was initiated by Tomas Quinn on 10 August 2025, 16:00 UTC." [D1.S6] | -
+- case_27 | (person-yara-ivanova, Holds_Account, account-harborline) | (person_2, Holds_Account, email_person_2) [t15] | "Harborline Consulting LLC employs Yara Ivanova, who can be reached at yivanova@harborline.com." [D2.S4] | -
+- case_27 | (person-kofi-quinn, Owns_Account, account-clearpath) | (org_company, Owns_Account, acct_company) [t22] | "Clearpath Tooling Inc. holds account 8561434330 at Union Ledger Bank." [D2.S7] | -
+- case_27 | (person-kofi-quinn, Holds_Account, account-clearpath) | (person_0, Holds_Account, email_person_0) [t9] | "Kofi Quinn works for Clearpath Tooling Inc. and uses the address kofi.quinn@clearpath.com." [D2.S2] | -
+- case_27 | (person-yara-ivanova, Owns_Account, account-harborline) | (org_vendor, Owns_Account, acct_vendor) [t25] | "Harborline Consulting LLC holds account 9642990257 at Union Ledger Bank." [D2.S8] | -
+- case_27 | (person-kofi-quinn, Communicated_With, person-owen-castillo) | (person_2, Communicated_With, person_1) [t66] | "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com" [D1.S2] | -
+
+### cross_document_conflation (15)
+
+- case_01 | (email-message-1, from, email-account-wesley.castillo-oakhaven.com) | (email_msg_0, from, email_person_1) [t53] | "From: wesley.castillo@oakhaven.com" [D2.S1] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_01 | (email-message-1, to, email-account-luca-petrov-oakhaven.com) | (email_msg_0, to, email_person_0) [t54] | "To: luca.petrov@oakhaven.com" [D2.S2] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_05 | (org-westmark-tooling, Located_At, event-bank-detail-change) | (org_company, Located_At, loc_company) [t28] | "Westmark Tooling Co. operates from 3192 Main Street, Albany, NY 12207." [D1.S8] | D2.S8
+- case_05 | (org-westmark-tooling, Located_At, event-audit-review) | (org_company, Located_At, loc_company) [t28] | "Westmark Tooling Co. operates from 3192 Main Street, Albany, NY 12207." [D1.S8] | D2.S12
+- case_06 | (copperfield-fabrication, Located_At, vendor-onboarding-event) | (org_company, Located_At, loc_company) [t24] | "Copperfield Fabrication Inc. operates from 2894 Market Street, Richmond, VA 23219." [D1.S6] | D2.S13
+- case_17 | (redfern-consulting, country, USA) | - | - | D1.S8
+- case_21 | (email-2, from, hcastillo-account) | (email_msg_1, from, email_person_2) [t64] | "From: hcastillo@oakhaven.com" [D3.S1] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_21 | (email-2, to, victor-account) | (email_msg_1, to, email_person_3) [t65] | "To: victor.haddad@bluegate.com" [D3.S2] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_21 | (email-1, to, hcastillo-account) | (email_msg_0, to, email_person_2) [t61] | "To: hcastillo@oakhaven.com" [D1.S2] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_28 | (event-contract-amendment, Located_At, location-copperfield-office) | (org_vendor, Located_At, loc_vendor) [t57] | "The offices of Copperfield Analytics Group are at 3938 Commerce Drive, Albany, NY 12207." [D1.S8] | D3.S5
+- case_29 | (email-message, from, irene-email-account) | (email_msg_0, from, email_person_2) [t52] | "From: ivance@stonebridge.com" [D2.S1] | D2.S1, D2.S10, D2.S11, D2.S12, D2.S13, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7, D2.S8, D2.S9
+- case_29 | (email-message, to, felix-email-account) | (email_msg_0, to, email_person_1) [t53] | "To: felix.fischer@stonebridge.com, mei.kowalski@stonebridge.com" [D2.S2] | D2.S1, D2.S10, D2.S11, D2.S12, D2.S13, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7, D2.S8, D2.S9
+- case_30 | (email-message-1, from, email-kpark-account) | (email_msg_0, from, email_person_0) [t57] | "From: kpark@silverlake.com" [D2.S1] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_30 | (email-message-1, to, email-arjunmoreau-account) | (email_msg_0, to, email_person_3) [t58] | "To: arjun.moreau@westmark.com" [D2.S2] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_30 | (org-silverlake-analytics, Located_At, event-invoice-submission-initiated) | (org_company, Located_At, loc_company) [t24] | "The offices of Silverlake Analytics LLC are at 7328 Market Street, Boise, ID 83702." [D1.S6] | D4.S6
+
+### misplaced_property (435)
+
+- case_01 | (event-invoice-submission-initiated, name, Invoice submission initiated) | (event_3, eventType, invoice submission) [t43] | "The invoice submission was initiated by Luca Petrov on 2 June 2025, 14:10 UTC." [D4.S6] | D4.S6
+- case_01 | (chat-message-1, name, Let's keep this between us until Friday.) | (chat_msg_0, messageText, Let's keep this between us until Friday.) [t60] | "[2025-05-02 10:50 UTC] @oscarb to @lucap: Let's keep this between us until Friday." [D3.S4] | D3.S4
+- case_01 | (email-wesley.castillo-oakhaven.com, name, wesley.castillo@oakhaven.com) | (email_person_1, addressValue, wesley.castillo@oakhaven.com) [t11] | "Oakhaven Services LLC employs Wesley Castillo, who can be reached at wesley.castillo@oakhaven.com." [D1.S3] | D1.S3, D2.S1
+- case_01 | (email-nmoreau-oakhaven.com, name, nmoreau@oakhaven.com) | (email_person_2, addressValue, nmoreau@oakhaven.com) [t14] | "Oakhaven Services LLC employs Nadia Moreau, who can be reached at nmoreau@oakhaven.com." [D1.S4] | D1.S4
+- case_01 | (email-message-1, name, Re: banking change request) | (email_msg_0, subject, Re: banking change request) [t55] | "Subject: Re: banking change request" [D2.S3] | D2.S3
+- case_01 | (event-contract-amendment-started, name, Contract amendment started) | (event_1, eventType, contract amendment) [t37] | "Wesley Castillo started the contract amendment on May 12, 2025 at 13:30 UTC." [D4.S5] | D4.S5
+- case_01 | (account-1069850329, name, 1069850329) | (acct_vendor, accountIdentifier, 1069850329) [t28] | "Account 1069850329 at Meridian Trust Bank belongs to Redfern Components Group." [D4.S3] | D4.S3
+- case_01 | (event-refund-request-approved, name, Refund request approved) | (event_0, eventType, refund request) [t34] | "On 2 May 2025, 09:50 UTC, Nadia Moreau initiated the refund request." [D2.S6] | D2.S7
+- case_01 | (location-5868-market-street-omaha, name, 5868 Market Street, Omaha, NE 68102) | - | - | D1.S7
+- case_01 | (account-5950398673, name, 5950398673) | (acct_insider, accountIdentifier, 5950398673) [t31] | "Account 5950398673 at Meridian Trust Bank belongs to Nadia Moreau." [D4.S4] | D4.S4, D4.S7
+- case_01 | (event-audit-review-started, name, Audit review started) | (event_2, eventType, audit review) [t40] | "Luca Petrov started the audit review on May 18, 2025 at 11:30 UTC." [D2.S8] | D2.S8
+- case_01 | (account-3751001456, name, 3751001456) | (acct_company, accountIdentifier, 3751001456) [t25] | "Account 3751001456 at Meridian Trust Bank belongs to Oakhaven Services LLC." [D4.S2] | D4.S2, D4.S7
+- case_01 | (email-oscar.banerjee-redfern.com, name, oscar.banerjee@redfern.com) | (email_person_3, addressValue, oscar.banerjee@redfern.com) [t17] | "Redfern Components Group employs Oscar Banerjee, who can be reached at oscar.banerjee@redfern.com." [D1.S5] | D1.S5
+- case_01 | (email-luca-petrov-oakhaven.com, name, luca.petrov@oakhaven.com) | (email_person_0, addressValue, luca.petrov@oakhaven.com) [t8] | "Luca Petrov works for Oakhaven Services LLC and uses the address luca.petrov@oakhaven.com." [D1.S2] | D1.S2, D2.S2, D3.S3
+- case_01 | (chat-message-2, name, Did the bank call back yet?) | (chat_msg_1, messageText, Did the bank call back yet?) [t64] | "[2025-05-02 10:57 UTC] @lucap to @oscarb: Did the bank call back yet?" [D3.S5] | D3.S5
+- case_02 | (expense-reimbursement-event, name, expense reimbursement) | (event_4, eventType, expense reimbursement) [t42] | "Luca Fischer started the expense reimbursement on July 24, 2025 at 10:10 UTC." [D2.S10] | D2.S10
+- case_02 | (oakhaven-bank-account, name, 4396839738) | (acct_company, accountIdentifier, 4396839738) [t21] | "First Harbor Bank account 4396839738 is registered to Oakhaven Logistics Co." [D1.S6] | D1.S6
+- case_02 | (invoice-submission-event, name, invoice submission) | (event_1, eventType, invoice submission) [t33] | "The invoice submission was initiated by Sofia Ivanova on June 22, 2025 at 09:30 UTC." [D2.S7] | D2.S7
+- case_02 | (refund-request-event, name, refund request) | (event_0, eventType, refund request) [t30] | "Luca Fischer started the refund request on June 20, 2025 at 17:00 UTC." [D2.S6] | D2.S6
+- case_02 | (payment-approval-event, name, payment approval) | (event_2, eventType, payment approval) [t36] | "Luca Fischer started the payment approval on 2 July 2025, 13:30 UTC." [D2.S8] | D2.S8
+- case_02 | (bank-detail-change-event, name, bank detail change) | (event_3, eventType, bank detail change) [t39] | "Sofia Ivanova started the bank detail change on July 22, 2025 at 14:50 UTC." [D2.S9] | D2.S9
+- case_02 | (oakhaven-loc, name, 946 Market Street, Omaha, NE 68102) | - | - | D1.S5
+- case_02 | (sofia-bank-account, name, 9876553190) | (acct_insider, accountIdentifier, 9876553190) [t27] | "Account 9876553190 at First Harbor Bank belongs to Sofia Ivanova." [D1.S8] | D1.S8
+- case_02 | (wire-transfer-event, name, wire transfer) | (event_6, eventType, wire transfer) [t48] | "On July 28, 2025 at 09:50 UTC, Luca Fischer initiated the wire transfer." [D2.S12] | D2.S12, D2.S13
+- case_02 | (summit-bank-account, name, 8518118555) | (acct_vendor, accountIdentifier, 8518118555) [t24] | "Account 8518118555 at First Harbor Bank belongs to Summit Peak Freight Group." [D1.S7] | D1.S7
+- case_02 | (vendor-onboarding-event, name, vendor onboarding) | (event_5, eventType, vendor onboarding) [t45] | "Sofia Ivanova started the vendor onboarding on July 24, 2025 at 12:00 UTC." [D2.S11] | D2.S11
+- case_02 | (email-1, name, Contract terms for next quarter) | (email_msg_0, subject, Contract terms for next quarter) [t55] | "Subject: Contract terms for next quarter" [D2.S3] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_03 | (email-desmond-reyes, name, desmond.reyes@brightwater.com) | (email_person_3, addressValue, desmond.reyes@brightwater.com) [t18] | "Brightwater Supply Ltd. employs Desmond Reyes, who can be reached at desmond.reyes@brightwater.com." [D1.S5] | D1.S5
+- case_03 | (email-andre-fischer, name, afischer@brightwater.com) | (email_person_4, addressValue, afischer@brightwater.com) [t21] | "Brightwater Supply Ltd. employs Andre Fischer, who can be reached at afischer@brightwater.com." [D1.S6] | D1.S6
+- case_03 | (email-sofia-park, name, sofia.park@ironleaf.com) | (email_person_1, addressValue, sofia.park@ironleaf.com) [t12] | "Sofia Park works for Ironleaf Services Co. and uses the address sofia.park@ironleaf.com." [D1.S3] | D1.S3
+- case_03 | (event-wire-transfer, name, Wire transfer) | (event_2, eventType, wire transfer) [t41] | "The wire transfer was initiated by Desmond Reyes on 30 September 2025, 17:50 UTC." [D2.S9] | D2.S9
+- case_03 | (event-account-reconciliation, name, Account reconciliation) | (event_3, eventType, account reconciliation) [t44] | "On October 5, 2025 at 14:45 UTC, Priya Kowalski initiated the account reconciliation." [D2.S10] | D2.S10
+- case_03 | (account-ironleaf-1033336621, name, 1033336621) | (acct_company, accountIdentifier, 1033336621) [t29] | "First Harbor Bank account 1033336621 is registered to Ironleaf Services Co." [D1.S9] | D1.S9
+- case_03 | (email-nadia-holloway, name, nadia.holloway@ironleaf.com) | (email_person_0, addressValue, nadia.holloway@ironleaf.com) [t9] | "Nadia Holloway works for Ironleaf Services Co. and uses the address nadia.holloway@ironleaf.com." [D1.S2] | D1.S2
+- case_03 | (event-refund-request, name, Refund request) | (event_1, eventType, refund request) [t38] | "The refund request was initiated by Priya Kowalski on 23 September 2025, 12:15 UTC." [D2.S8] | D2.S8
+- case_03 | (event-payment-approval, name, Payment approval) | (event_0, eventType, payment approval) [t35] | "Sofia Park started the payment approval on 17 September 2025, 17:15 UTC." [D2.S6] | D2.S6
+- case_03 | (email-msg-1, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t59] | "Subject: Urgent: payment timing" [D2.S3] | D2.S1
+- case_03 | (event-audit-review, name, Audit review) | (event_4, eventType, audit review) [t47] | "Sofia Park started the audit review on 12 October 2025, 13:15 UTC." [D2.S11] | D2.S11
+- case_03 | (event-vendor-onboarding, name, Vendor onboarding) | (event_5, eventType, vendor onboarding) [t50] | "On 14 October 2025, 13:25 UTC, Desmond Reyes initiated the vendor onboarding." [D2.S12] | D2.S12
+- case_03 | (email-priya-kowalski, name, priya.kowalski@ironleaf.com) | (email_person_2, addressValue, priya.kowalski@ironleaf.com) [t15] | "Priya Kowalski is employed by Ironleaf Services Co.; their email is priya.kowalski@ironleaf.com." [D1.S4] | D1.S4
+- case_03 | (account-brightwater-1821113291, name, 1821113291) | (acct_vendor, accountIdentifier, 1821113291) [t32] | "Brightwater Supply Ltd. holds account 1821113291 at First Harbor Bank." [D1.S10] | D1.S10
+- case_04 | (expense-reimbursement-event, name, expense reimbursement) | (event_1, eventType, expense reimbursement) [t30] | "Victor Ashworth started the expense reimbursement on 10 March 2025, 16:00 UTC." [D3.S6] | D3.S6
+- case_04 | (refund-request-event, name, refund request) | (event_0, eventType, refund request) [t27] | "Victor Ashworth started the refund request on March 9, 2025 at 16:50 UTC." [D1.S6] | D1.S6
+- case_04 | (vashworth-email, name, vashworth@harborline.com) | (email_person_0, addressValue, vashworth@harborline.com) [t7] | "To: grace.fischer@harborline.com, vashworth@harborline.com" [D1.S2] | D1.S2, D2.S2
+- case_04 | (bank-detail-change-event, name, bank detail change) | (event_2, eventType, bank detail change) [t33] | "The bank detail change was initiated by Victor Ashworth on March 14, 2025 at 14:10 UTC." [D4.S4] | D4.S4
+- case_04 | (grace-email, name, grace.fischer@harborline.com) | (email_person_1, addressValue, grace.fischer@harborline.com) [t10] | "To: grace.fischer@harborline.com, vashworth@harborline.com" [D1.S2] | D1.S2, D2.S3
+- case_04 | (email-1, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t54] | "Subject: Urgent: payment timing" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_04 | (email-2, name, Audit prep items) | (email_msg_1, subject, Audit prep items) [t58] | "Subject: Audit prep items" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_04 | (wesley-email, name, wesley.vance@ironleaf.com) | (email_person_2, addressValue, wesley.vance@ironleaf.com) [t13] | "From: wesley.vance@ironleaf.com" [D1.S1] | D1.S1, D3.S1
+- case_05 | (chat-message-1, name, I pushed it through, check your inbox.) | (chat_msg_0, messageText, I pushed it through, check your inbox.) [t61] | "[2025-02-17 10:45 UTC] @marcusw to @danan: I pushed it through, check your inbox." [D3.S4] | D3.S4
+- case_05 | (event-bank-detail-change, name, Bank detail change) | (event_0, eventType, bank detail change) [t35] | "Andre Banerjee started the bank detail change on February 17, 2025 at 09:45 UTC." [D2.S6] | D2.S6
+- case_05 | (email-dnovak, name, dnovak@westmark.com) | (email_person_1, addressValue, dnovak@westmark.com) [t12] | "Westmark Tooling Co. employs Dana Novak, who can be reached at dnovak@westmark.com." [D1.S3] | D1.S3
+- case_05 | (email-message-1, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t56] | "Subject: Audit prep items" [D2.S3] | D2.S1
+- case_05 | (account-oakhaven-1667047112, name, 1667047112) | (acct_vendor, accountIdentifier, 1667047112) [t32] | "Oakhaven Distribution Group holds account 1667047112 at Union Ledger Bank." [D1.S10] | D1.S10
+- case_05 | (email-tmendes, name, tmendes@westmark.com) | (email_person_0, addressValue, tmendes@westmark.com) [t9] | "Tomas Mendes is employed by Westmark Tooling Co.; their email is tmendes@westmark.com." [D1.S2] | D1.S2
+- case_05 | (account-westmark-9416052131, name, 9416052131) | (acct_company, accountIdentifier, 9416052131) [t29] | "Union Ledger Bank account 9416052131 is registered to Westmark Tooling Co." [D1.S9] | D1.S9
+- case_05 | (event-account-reconciliation, name, Account reconciliation) | (event_1, eventType, account reconciliation) [t38] | "On 18 February 2025, 11:00 UTC, Andre Banerjee initiated the account reconciliation." [D2.S9] | D2.S9
+- case_05 | (email-ffischer, name, ffischer@westmark.com) | (email_person_2, addressValue, ffischer@westmark.com) [t15] | "Felix Fischer works for Westmark Tooling Co. and uses the address ffischer@westmark.com." [D1.S4] | D1.S4
+- case_05 | (loc-westmark-office, name, 3192 Main Street, Albany, NY 12207) | - | - | D1.S8
+- case_05 | (email-andre-banerjee, name, andre.banerjee@oakhaven.com) | (email_person_4, addressValue, andre.banerjee@oakhaven.com) [t21] | "Andre Banerjee works for Oakhaven Distribution Group and uses the address andre.banerjee@oakhaven.com." [D1.S6] | D1.S6
+- case_05 | (event-audit-review, name, Audit review) | (event_2, eventType, audit review) [t41] | "On 5 March 2025, 16:10 UTC, Felix Fischer initiated the audit review." [D2.S11] | D2.S11
+- case_05 | (chat-message-2, name, Let's keep this between us until Friday.) | (chat_msg_1, messageText, Let's keep this between us until Friday.) [t65] | "[2025-02-17 10:52 UTC] @danan to @marcusw: Let's keep this between us until Friday." [D3.S5] | D3.S5
+- case_05 | (email-marcus-whitfield, name, marcus.whitfield@oakhaven.com) | (email_person_3, addressValue, marcus.whitfield@oakhaven.com) [t18] | "Oakhaven Distribution Group employs Marcus Whitfield, who can be reached at marcus.whitfield@oakhaven.com." [D1.S5] | D1.S5
+- case_06 | (expense-reimbursement-event, name, Expense reimbursement) | (event_3, eventType, expense reimbursement) [t43] | "Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC." [D2.S9] | D2.S9
+- case_06 | (oakhaven-bank-account, name, 6816152188) | (acct_vendor, accountIdentifier, 6816152188) [t28] | "Account 6816152188 at Union Ledger Bank belongs to Oakhaven Freight Inc." [D1.S8] | D1.S8
+- case_06 | (copperfield-location, name, 2894 Market Street, Richmond, VA 23219) | - | - | D1.S6
+- case_06 | (invoice-submission-event, name, Invoice submission) | (event_6, eventType, invoice submission) [t52] | "On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission." [D2.S14] | D2.S14
+- case_06 | (desmond-email, name, ddelgado@oakhaven.com) | (email_person_3, addressValue, ddelgado@oakhaven.com) [t17] | "Desmond Delgado is employed by Oakhaven Freight Inc.; their email is ddelgado@oakhaven.com." [D1.S5] | D1.S5, D2.S2
+- case_06 | (copperfield-email, name, afischer@copperfield.com) | (email_person_0, addressValue, afischer@copperfield.com) [t8] | "Copperfield Fabrication Inc. employs Andre Fischer, who can be reached at afischer@copperfield.com." [D1.S2] | D1.S2, D2.S1
+- case_06 | (payment-approval-event, name, Payment approval) | (event_2, eventType, payment approval) [t40] | "On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval." [D2.S8] | D2.S8
+- case_06 | (julian-email, name, julian.holloway@copperfield.com) | (email_person_1, addressValue, julian.holloway@copperfield.com) [t11] | "Julian Holloway is employed by Copperfield Fabrication Inc.; their email is julian.holloway@copperfield.com." [D1.S3] | D1.S3, D2.S2
+- case_06 | (andre-bank-account, name, 4167366163) | (acct_insider, accountIdentifier, 4167366163) [t31] | "Union Ledger Bank account 4167366163 is registered to Andre Fischer." [D1.S9] | D1.S9
+- case_06 | (bank-detail-change-event, name, Bank detail change) | (event_1, eventType, bank detail change) [t37] | "On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change." [D2.S7] | D2.S7
+- case_06 | (audit-review-event, name, Audit review) | (event_4, eventType, audit review) [t46] | "Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC." [D2.S10] | D2.S10
+- case_06 | (email-message, name, Wire confirmation needed) | (email_msg_0, subject, Wire confirmation needed) [t60] | "Subject: Wire confirmation needed" [D2.S3] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_06 | (reconciliation-event, name, Account reconciliation) | (event_0, eventType, account reconciliation) [t34] | "Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC." [D2.S6] | D2.S6
+- case_06 | (priya-email, name, priya.sorensen@copperfield.com) | (email_person_2, addressValue, priya.sorensen@copperfield.com) [t14] | "Priya Sorensen works for Copperfield Fabrication Inc. and uses the address priya.sorensen@copperfield.com." [D1.S4] | D1.S4
+- case_06 | (copperfield-bank-account, name, 9105160648) | (acct_company, accountIdentifier, 9105160648) [t25] | "Copperfield Fabrication Inc. holds account 9105160648 at Union Ledger Bank." [D1.S7] | D1.S7
+- case_06 | (vendor-onboarding-event, name, Vendor onboarding) | (event_5, eventType, vendor onboarding) [t49] | "On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding." [D2.S11] | D2.S11, D2.S12, D2.S13
+- case_07 | (account-4846820983, name, 4846820983) | (acct_company, accountIdentifier, 4846820983) [t29] | "Account 4846820983 at First Harbor Bank belongs to Cedar Ridge Fabrication Group." [D2.S8] | D2.S8
+- case_07 | (email-kofi-park, name, kofi.park@cedarridge.com) | (email_person_2, addressValue, kofi.park@cedarridge.com) [t15] | "Kofi Park works for Cedar Ridge Fabrication Group and uses the address kofi.park@cedarridge.com." [D2.S4] | D2.S4, D3.S2
+- case_07 | (email-desmond-sorensen, name, desmond.sorensen@cedarridge.com) | (email_person_0, addressValue, desmond.sorensen@cedarridge.com) [t9] | "From: desmond.sorensen@cedarridge.com" [D1.S1] | D1.S1, D2.S2, D3.S1
+- case_07 | (email-samuel-brennan, name, sbrennan@cedarridge.com) | (email_person_1, addressValue, sbrennan@cedarridge.com) [t12] | "To: sbrennan@cedarridge.com, mei.castillo@silverlake.com" [D1.S2] | D1.S2, D2.S3
+- case_07 | (email-julian-lindqvist, name, jlindqvist@silverlake.com) | (email_person_3, addressValue, jlindqvist@silverlake.com) [t18] | "Julian Lindqvist works for Silverlake Freight Group and uses the address jlindqvist@silverlake.com." [D2.S5] | D2.S5
+- case_07 | (account-1839620453, name, 1839620453) | (acct_insider, accountIdentifier, 1839620453) [t35] | "First Harbor Bank account 1839620453 is registered to Samuel Brennan." [D2.S10] | D2.S10
+- case_07 | (location-spokane-wa, name, 8493 Harbor Avenue, Spokane, WA 99201) | - | - | D2.S7
+- case_07 | (event-account-reconciliation, name, Account reconciliation) | (event_1, eventType, account reconciliation) [t41] | "Desmond Sorensen started the account reconciliation on 3 August 2025, 13:25 UTC." [D3.S6] | D3.S6
+- case_07 | (email-msg-3, name, Quarter-end vendor payments) | (email_msg_1, subject, Quarter-end vendor payments) [t63] | "Subject: Quarter-end vendor payments" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_07 | (event-refund-request, name, Refund request) | (event_3, eventType, refund request) [t47] | "Mei Castillo started the refund request on 23 August 2025, 09:00 UTC." [D3.S8] | D3.S8
+- case_07 | (event-wire-transfer-initiation, name, Wire transfer initiation) | (event_0, eventType, wire transfer) [t38] | "The wire transfer was initiated by Mei Castillo on July 30, 2025 at 13:30 UTC." [D1.S6] | D1.S6
+- case_07 | (event-payment-approval, name, Payment approval) | (event_2, eventType, payment approval) [t44] | "The payment approval was initiated by Desmond Sorensen on August 4, 2025 at 15:50 UTC." [D1.S9] | D1.S9
+- case_07 | (email-mei-castillo, name, mei.castillo@silverlake.com) | (email_person_4, addressValue, mei.castillo@silverlake.com) [t21] | "To: sbrennan@cedarridge.com, mei.castillo@silverlake.com" [D1.S2] | D1.S2, D2.S6, D3.S2
+- case_07 | (email-msg-1, name, Updated remittance details) | (email_msg_0, subject, Updated remittance details) [t58] | "Subject: Updated remittance details" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_07 | (account-3702498766, name, 3702498766) | (acct_vendor, accountIdentifier, 3702498766) [t32] | "Account 3702498766 at First Harbor Bank belongs to Silverlake Freight Group." [D2.S9] | D2.S9
+- case_08 | (redfern-bank-account, name, First Harbor Bank account 6616593409) | (acct_vendor, accountType, bank account) [t94] | "First Harbor Bank account 6616593409 is registered to Redfern Logistics LLC." [D1.S11] | D1.S11, D1.S13
+- case_08 | (albany-location, name, 8685 Riverside Boulevard, Albany, NY 12207) | - | - | D1.S9
+- case_08 | (invoice-submission-event, name, Invoice submission) | (event_3, eventType, invoice submission) [t47] | "Sofia Sorensen started the invoice submission on May 5, 2025 at 09:45 UTC." [D2.S9] | D2.S9
+- case_08 | (fhaddad-email, name, fhaddad@clearpath.com) | (email_person_0, addressValue, fhaddad@clearpath.com) [t9] | "Clearpath Logistics Inc. employs Felix Haddad, who can be reached at fhaddad@clearpath.com." [D1.S2] | D1.S2
+- case_08 | (clearpath-bank-account, name, First Harbor Bank account 1925770755) | (acct_company, accountType, bank account) [t93] | "First Harbor Bank account 1925770755 is registered to Clearpath Logistics Inc." [D1.S10] | D1.S10, D1.S13
+- case_08 | (posei-email, name, posei@redfern.com) | (email_person_4, addressValue, posei@redfern.com) [t21] | "Priya Osei works for Redfern Logistics LLC and uses the address posei@redfern.com." [D1.S6] | D1.S6, D2.S2
+- case_08 | (payment-approval-event, name, Payment approval) | (event_5, eventType, payment approval) [t53] | "Priya Osei started the payment approval on May 10, 2025 at 15:25 UTC." [D2.S11] | D2.S11
+- case_08 | (finance-question-chat, name, Finance is asking questions again.) | (chat_msg_0, messageText, Finance is asking questions again.) [t74] | "[2025-04-17 10:50 UTC] @felixh to @priyao: Finance is asking questions again." [D3.S4] | D3.S4
+- case_08 | (spokane-location, name, 5618 Main Street, Spokane, WA 99201) | - | - | D1.S8
+- case_08 | (gmendes-email-message, name, Re: banking change request) | (email_msg_0, subject, Re: banking change request) [t69] | "Subject: Re: banking change request" [D2.S3] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_08 | (keep-secret-chat, name, Let's keep this between us until Friday.) | (chat_msg_2, messageText, Let's keep this between us until Friday.) [t82] | "[2025-04-17 11:04 UTC] @felixh to @priyao: Let's keep this between us until Friday." [D3.S6] | D3.S6
+- case_08 | (bank-detail-change-event, name, Bank detail change) | (event_1, eventType, bank detail change) [t41] | "On 24 April 2025, 09:15 UTC, Grace Mendes initiated the bank detail change." [D2.S7] | D2.S7
+- case_08 | (vdelgado-email, name, victor.delgado@clearpath.com) | (email_person_1, addressValue, victor.delgado@clearpath.com) [t12] | "Victor Delgado is employed by Clearpath Logistics Inc.; their email is victor.delgado@clearpath.com." [D1.S3] | D1.S3
+- case_08 | (gmendes-email, name, gmendes@clearpath.com) | (email_person_2, addressValue, gmendes@clearpath.com) [t15] | "Grace Mendes works for Clearpath Logistics Inc. and uses the address gmendes@clearpath.com." [D1.S4] | D1.S4, D2.S1
+- case_08 | (reconciliation-event, name, Account reconciliation) | (event_2, eventType, account reconciliation) [t44] | "The account reconciliation was initiated by Victor Delgado on April 30, 2025 at 11:25 UTC." [D2.S8] | D2.S8
+- case_08 | (pushed-through-chat, name, I pushed it through, check your inbox.) | (chat_msg_1, messageText, I pushed it through, check your inbox.) [t78] | "[2025-04-17 10:57 UTC] @priyao to @felixh: I pushed it through, check your inbox." [D3.S5] | D3.S5
+- case_08 | (felix-bank-account, name, First Harbor Bank account 4865285406) | (acct_insider, accountType, bank account) [t95] | "Account 4865285406 at First Harbor Bank belongs to Felix Haddad." [D1.S12] | D1.S12
+- case_08 | (ssorensen-email, name, ssorensen@redfern.com) | (email_person_3, addressValue, ssorensen@redfern.com) [t18] | "Sofia Sorensen works for Redfern Logistics LLC and uses the address ssorensen@redfern.com." [D1.S5] | D1.S5, D2.S2
+- case_08 | (clearpath-audit-event, name, Audit review) | (event_0, eventType, audit review) [t38] | "The audit review was initiated by Grace Mendes on April 17, 2025 at 09:50 UTC." [D2.S6] | D2.S6
+- case_08 | (vendor-onboarding-event, name, Vendor onboarding) | (event_4, eventType, vendor onboarding) [t50] | "On May 8, 2025 at 12:10 UTC, Victor Delgado initiated the vendor onboarding." [D2.S10] | D2.S10
+- case_09 | (account-oakhaven, name, 8677543219) | (acct_company, accountIdentifier, 8677543219) [t25] | "Account 8677543219 at Pinecrest National Bank belongs to Oakhaven Fabrication Co." [D1.S10] | D1.S10
+- case_09 | (email-julian-osei, name, julian.osei@oakhaven.com) | (email_person_0, addressValue, julian.osei@oakhaven.com) [t8] | "Julian Osei is employed by Oakhaven Fabrication Co.; their email is julian.osei@oakhaven.com." [D1.S2] | D1.S2
+- case_09 | (account-clearpath, name, 4921747255) | (acct_vendor, accountIdentifier, 4921747255) [t28] | "Clearpath Industrial LLC holds account 4921747255 at Pinecrest National Bank." [D1.S11] | D1.S11
+- case_09 | (event-contract-amendment, name, contract amendment) | (event_1, eventType, contract amendment) [t34] | "Dana Ashworth started the contract amendment on 6 April 2025, 11:10 UTC." [D2.S8] | D2.S8
+- case_09 | (event-reconciliation, name, account reconciliation) | (event_0, eventType, account reconciliation) [t31] | "On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation." [D2.S6] | D2.S6
+- case_09 | (loc-oakhaven, name, 14 Market Street, Omaha, NE 68102) | - | - | D1.S8
+- case_09 | (email-felix-sorensen, name, felix.sorensen@clearpath.com) | (email_person_3, addressValue, felix.sorensen@clearpath.com) [t17] | "Clearpath Industrial LLC employs Felix Sorensen, who can be reached at felix.sorensen@clearpath.com." [D1.S5] | D1.S5
+- case_09 | (email-dana-ashworth, name, dashworth@oakhaven.com) | (email_person_1, addressValue, dashworth@oakhaven.com) [t11] | "Oakhaven Fabrication Co. employs Dana Ashworth, who can be reached at dashworth@oakhaven.com." [D1.S3] | D1.S3
+- case_09 | (loc-clearpath, name, 2499 Market Street, Omaha, NE 68102) | - | - | D1.S9
+- case_09 | (event-invoice-submission, name, invoice submission) | (event_2, eventType, invoice submission) [t37] | "Julian Osei started the invoice submission on 6 April 2025, 11:15 UTC." [D2.S11] | D2.S11
+- case_09 | (email-msg-1, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t57] | "Subject: Audit prep items" [D2.S3] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_09 | (email-andre-whitfield, name, awhitfield@oakhaven.com) | (email_person_2, addressValue, awhitfield@oakhaven.com) [t14] | "Oakhaven Fabrication Co. employs Andre Whitfield, who can be reached at awhitfield@oakhaven.com." [D1.S4] | D1.S4
+- case_10 | (email-priya, name, pvance@westmark.com) | (email_person_3, addressValue, pvance@westmark.com) [t17] | "Priya Vance is employed by Westmark Tooling Ltd.; their email is pvance@westmark.com." [D1.S5] | D1.S5
+- case_10 | (account-copperfield, name, 4101973631) | (acct_company, accountIdentifier, 4101973631) [t25] | "Account 4101973631 at Union Ledger Bank belongs to Copperfield Supply Inc." [D1.S9] | D1.S9
+- case_10 | (event-contract-amendment, name, contract amendment) | (event_0, eventType, contract amendment) [t31] | "On 26 June 2025, 16:15 UTC, Irene Petrov initiated the contract amendment." [D2.S6] | D2.S6
+- case_10 | (email-kofi, name, kosei@copperfield.com) | (email_person_1, addressValue, kosei@copperfield.com) [t11] | "Copperfield Supply Inc. employs Kofi Osei, who can be reached at kosei@copperfield.com." [D1.S3] | D1.S3
+- case_10 | (account-westmark, name, 6222593270) | (acct_vendor, accountIdentifier, 6222593270) [t28] | "Union Ledger Bank account 6222593270 is registered to Westmark Tooling Ltd." [D1.S10] | D1.S10
+- case_10 | (event-account-reconciliation, name, account reconciliation) | (event_1, eventType, account reconciliation) [t34] | "Lena Kowalski started the account reconciliation on 29 June 2025, 13:25 UTC." [D2.S9] | D2.S9
+- case_10 | (event-payment-approval, name, payment approval) | (event_2, eventType, payment approval) [t37] | "The payment approval was initiated by Irene Petrov on 1 July 2025, 10:00 UTC." [D2.S11] | D2.S11
+- case_10 | (loc-copperfield, name, 1126 Commerce Drive, Tucson, AZ 85701) | - | - | D1.S7
+- case_10 | (loc-westmark, name, 287 Harbor Avenue, Madison, WI 53703) | - | - | D1.S8
+- case_10 | (email-lena, name, lkowalski@copperfield.com) | (email_person_0, addressValue, lkowalski@copperfield.com) [t8] | "Lena Kowalski works for Copperfield Supply Inc. and uses the address lkowalski@copperfield.com." [D1.S2] | D1.S2
+- case_10 | (email-irene, name, ipetrov@copperfield.com) | (email_person_2, addressValue, ipetrov@copperfield.com) [t14] | "Copperfield Supply Inc. employs Irene Petrov, who can be reached at ipetrov@copperfield.com." [D1.S4] | D1.S4
+- case_10 | (email-msg-1, name, Quarter-end vendor payments) | (email_msg_0, subject, Quarter-end vendor payments) [t58] | "Subject: Quarter-end vendor payments" [D2.S3] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_10 | (event-vendor-onboarding, name, vendor onboarding) | (event_3, eventType, vendor onboarding) [t40] | "The vendor onboarding was initiated by Priya Vance on 25 July 2025, 11:00 UTC." [D2.S13] | D2.S13
+- case_11 | (account-4789109216, name, 4789109216) | (acct_company, accountIdentifier, 4789109216) [t25] | "Oakhaven Tooling Ltd. holds account 4789109216 at Union Ledger Bank." [D2.S10] | D2.S10, D2.S13
+- case_11 | (email-msg-d1, name, Re: banking change request) | (email_msg_0, subject, Re: banking change request) [t60] | "Subject: Re: banking change request" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_11 | (email-nadia-fischer, name, nadia.fischer@oakhaven.com) | (email_person_0, addressValue, nadia.fischer@oakhaven.com) [t8] | "To: nadia.fischer@oakhaven.com" [D1.S2] | D1.S2, D2.S2, D3.S2
+- case_11 | (event-bank-detail-change, name, Bank detail change) | (event_1, eventType, bank detail change) [t37] | "Nadia Fischer started the bank detail change on November 11, 2025 at 15:15 UTC." [D3.S6] | D3.S6
+- case_11 | (email-msg-d3, name, Re: banking change request) | (email_msg_1, subject, Re: banking change request) [t64] | "Subject: Re: banking change request" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_11 | (event-contract-amendment, name, Contract amendment) | (event_0, eventType, contract amendment) [t34] | "The contract amendment was initiated by Arjun Ivanova on November 5, 2025 at 17:10 UTC." [D1.S6] | D1.S6
+- case_11 | (location-cedar-ridge, name, 9547 Elm Street, Boise, ID 83702) | - | - | D2.S9
+- case_11 | (email-aivanova, name, aivanova@cedarridge.com) | (email_person_3, addressValue, aivanova@cedarridge.com) [t17] | "From: aivanova@cedarridge.com" [D1.S1] | D1.S1, D2.S5, D3.S1
+- case_11 | (event-account-reconciliation, name, Account reconciliation) | (event_2, eventType, account reconciliation) [t40] | "On November 12, 2025 at 14:00 UTC, Wesley Banerjee initiated the account reconciliation." [D1.S7] | D1.S7
+- case_11 | (account-7062496242, name, 7062496242) | (acct_insider, accountIdentifier, 7062496242) [t31] | "Nadia Fischer holds account 7062496242 at Union Ledger Bank." [D2.S12] | D2.S12, D2.S13
+- case_11 | (account-8244909755, name, 8244909755) | (acct_vendor, accountIdentifier, 8244909755) [t28] | "Cedar Ridge Logistics LLC holds account 8244909755 at Union Ledger Bank." [D2.S11] | D2.S11
+- case_11 | (event-invoice-submission, name, Invoice submission) | (event_3, eventType, invoice submission) [t43] | "On 14 November 2025, 14:00 UTC, Tomas Quinn initiated the invoice submission." [D3.S8] | D3.S8
+- case_11 | (email-tomas-quinn, name, tomas.quinn@oakhaven.com) | (email_person_1, addressValue, tomas.quinn@oakhaven.com) [t11] | "Oakhaven Tooling Ltd. employs Tomas Quinn, who can be reached at tomas.quinn@oakhaven.com." [D2.S3] | D2.S3
+- case_11 | (location-oakhaven, name, 340 Market Street, Omaha, NE 68102) | - | - | D2.S8
+- case_11 | (email-wesley-banerjee, name, wesley.banerjee@oakhaven.com) | (email_person_2, addressValue, wesley.banerjee@oakhaven.com) [t14] | "Wesley Banerjee works for Oakhaven Tooling Ltd. and uses the address wesley.banerjee@oakhaven.com." [D2.S4] | D2.S4
+- case_12 | (email-victor-whitfield, name, victor.whitfield@stonebridge.com) | (email_person_2, addressValue, victor.whitfield@stonebridge.com) [t13] | "From: victor.whitfield@stonebridge.com" [D1.S1] | D1.S1, D2.S4, D3.S1
+- case_12 | (email-tomas-mendes, name, tomas.mendes@redfern.com) | (email_person_0, addressValue, tomas.mendes@redfern.com) [t7] | "To: tomas.mendes@redfern.com" [D1.S2] | D1.S2, D2.S2, D3.S2
+- case_12 | (event-account-reconciliation-initiated, name, Account reconciliation initiated) | (event_2, eventType, account reconciliation) [t33] | "On 24 October 2025, 14:50 UTC, Tomas Mendes initiated the account reconciliation." [D1.S7] | D1.S7
+- case_12 | (account-4662947012, name, 4662947012) | (acct_vendor, accountIdentifier, 4662947012) [t24] | "Account 4662947012 at First Harbor Bank belongs to Stonebridge Fabrication Inc." [D2.S7] | D2.S7, D2.S8
+- case_12 | (email-oscar-moreau, name, oscar.moreau@redfern.com) | (email_person_1, addressValue, oscar.moreau@redfern.com) [t10] | "Oscar Moreau is employed by Redfern Freight LLC; their email is oscar.moreau@redfern.com." [D2.S3] | D2.S3, D3.S2
+- case_12 | (location-redfern-office, name, 433 Market Street, Madison, WI 53703) | - | - | D2.S5, D3.S10, D3.S7
+- case_12 | (event-expense-reimbursement-initiated, name, Expense reimbursement initiated) | (event_3, eventType, expense reimbursement) [t36] | "On 26 October 2025, 12:25 UTC, Oscar Moreau initiated the expense reimbursement." [D3.S8] | D3.S8
+- case_12 | (account-9354333388, name, 9354333388) | (acct_company, accountIdentifier, 9354333388) [t21] | "First Harbor Bank account 9354333388 is registered to Redfern Freight LLC." [D2.S6] | D2.S6, D2.S8
+- case_12 | (event-wire-transfer-initiated, name, Wire transfer initiated) | (event_0, eventType, wire transfer) [t27] | "The wire transfer was initiated by Tomas Mendes on October 20, 2025 at 12:45 UTC." [D1.S6] | D1.S6
+- case_12 | (event-audit-review-initiated, name, Audit review initiated) | (event_1, eventType, audit review) [t30] | "The audit review was initiated by Victor Whitfield on 23 October 2025, 10:00 UTC." [D3.S6] | D3.S6
+- case_13 | (chat-message-1, name, Let's keep this between us until Friday.) | (chat_msg_0, messageText, Let's keep this between us until Friday.) [t72] | "[2025-07-17 16:00 UTC] @nadiaa to @sofiab: Let's keep this between us until Friday." [D3.S4] | D3.S4
+- case_13 | (account-bluegate-bank, name, 9817289209) | (acct_vendor, accountIdentifier, 9817289209) [t28] | "Bluegate Fabrication LLC holds account 9817289209 at Lakeshore Savings Bank." [D1.S8] | D1.S8
+- case_13 | (event-bank-detail-change, name, Bank detail change) | (event_0, eventType, bank detail change) [t34] | "Rosa Moreau started the bank detail change on 17 July 2025, 15:00 UTC." [D2.S6] | D2.S6
+- case_13 | (event-contract-amendment, name, Contract amendment) | (event_6, eventType, contract amendment) [t52] | "Sofia Brennan started the contract amendment on 11 August 2025, 15:45 UTC." [D2.S15] | D2.S15
+- case_13 | (event-expense-reimbursement, name, Expense reimbursement) | (event_4, eventType, expense reimbursement) [t46] | "Kofi Okafor started the expense reimbursement on August 1, 2025 at 10:10 UTC." [D2.S11] | D2.S11
+- case_13 | (email-message-1, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t67] | "Subject: Audit prep items" [D2.S3] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_13 | (event-wire-transfer, name, Wire transfer) | (event_2, eventType, wire transfer) [t40] | "On 24 July 2025, 09:25 UTC, Rosa Moreau initiated the wire transfer." [D2.S8] | D2.S8
+- case_13 | (location-oakhaven-office, name, 1734 Market Street, Dayton, OH 45402) | - | - | D1.S6
+- case_13 | (email-kofi-okafor, name, kofi.okafor@oakhaven.com) | (email_person_2, addressValue, kofi.okafor@oakhaven.com) [t14] | "Kofi Okafor works for Oakhaven Fabrication Ltd. and uses the address kofi.okafor@oakhaven.com." [D1.S4] | D1.S4, D2.S1
+- case_13 | (email-nadia-ashworth, name, nadia.ashworth@oakhaven.com) | (email_person_1, addressValue, nadia.ashworth@oakhaven.com) [t11] | "Nadia Ashworth is employed by Oakhaven Fabrication Ltd.; their email is nadia.ashworth@oakhaven.com." [D1.S3] | D1.S3
+- case_13 | (email-rmoreau, name, rmoreau@bluegate.com) | (email_person_3, addressValue, rmoreau@bluegate.com) [t17] | "Rosa Moreau works for Bluegate Fabrication LLC and uses the address rmoreau@bluegate.com." [D1.S5] | D1.S5
+- case_13 | (event-payment-approval, name, Payment approval) | (event_3, eventType, payment approval) [t43] | "On July 30, 2025 at 17:15 UTC, Nadia Ashworth initiated the payment approval." [D2.S10] | D2.S10
+- case_13 | (account-oakhaven-bank, name, 5734701710) | (acct_company, accountIdentifier, 5734701710) [t25] | "Oakhaven Fabrication Ltd. holds account 5734701710 at Lakeshore Savings Bank." [D1.S7] | D1.S7
+- case_13 | (event-invoice-submission, name, Invoice submission) | (event_5, eventType, invoice submission) [t49] | "The invoice submission was initiated by Sofia Brennan on 1 August 2025, 11:10 UTC." [D2.S13] | D2.S13
+- case_13 | (account-kofi-bank, name, 3352443306) | (acct_insider, accountIdentifier, 3352443306) [t31] | "Account 3352443306 at Lakeshore Savings Bank belongs to Kofi Okafor." [D1.S9] | D1.S9
+- case_13 | (event-audit-review, name, Audit review) | (event_7, eventType, audit review) [t55] | "On August 19, 2025 at 14:45 UTC, Sofia Brennan initiated the audit review." [D2.S16] | D2.S16
+- case_13 | (event-vendor-onboarding, name, Vendor onboarding) | (event_1, eventType, vendor onboarding) [t37] | "The vendor onboarding was initiated by Sofia Brennan on 23 July 2025, 12:30 UTC." [D2.S7] | D2.S7
+- case_13 | (email-sbrennan, name, sbrennan@oakhaven.com) | (email_person_0, addressValue, sbrennan@oakhaven.com) [t8] | "Sofia Brennan works for Oakhaven Fabrication Ltd. and uses the address sbrennan@oakhaven.com." [D1.S2] | D1.S2, D2.S2
+- case_14 | (event-refund-request-initiated, name, Refund request initiated) | (event_2, eventType, refund request) [t37] | "On 10 July 2025, 17:25 UTC, Lena Petrov initiated the refund request." [D2.S9] | D2.S9
+- case_14 | (chat-msg-1, name, Send me the new form when you can.) | (chat_msg_0, messageText, Send me the new form when you can.) [t63] | "[2025-06-21 12:30 UTC] @felixo to @lenap: Send me the new form when you can." [D3.S4] | D3.S4
+- case_14 | (event-invoice-submission-start, name, Invoice submission start) | (event_4, eventType, invoice submission) [t43] | "Felix Okafor started the invoice submission on July 16, 2025 at 15:00 UTC." [D2.S12] | D2.S12
+- case_14 | (email-fokafor, name, fokafor@stonebridge.com) | (email_person_3, addressValue, fokafor@stonebridge.com) [t17] | "Stonebridge Logistics Inc. employs Felix Okafor, who can be reached at fokafor@stonebridge.com." [D1.S5] | D1.S5
+- case_14 | (event-reconciliation-start, name, Account reconciliation start) | (event_0, eventType, account reconciliation) [t31] | "Irene Fischer started the account reconciliation on 21 June 2025, 11:30 UTC." [D2.S6] | D2.S6
+- case_14 | (email-lpetrov, name, lpetrov@copperfield.com) | (email_person_0, addressValue, lpetrov@copperfield.com) [t8] | "Lena Petrov is employed by Copperfield Distribution Inc.; their email is lpetrov@copperfield.com." [D1.S2] | D1.S2, D2.S2
+- case_14 | (loc-copperfield-office, name, 2549 Commerce Drive, Albany, NY 12207) | - | - | D1.S6
+- case_14 | (account-copperfield-meridian, name, 5835997512) | (acct_company, accountIdentifier, 5835997512) [t25] | "Meridian Trust Bank account 5835997512 is registered to Copperfield Distribution Inc." [D1.S7] | D1.S7
+- case_14 | (event-expense-reimbursement-start, name, Expense reimbursement start) | (event_1, eventType, expense reimbursement) [t34] | "Felix Okafor started the expense reimbursement on June 30, 2025 at 10:45 UTC." [D2.S7] | D2.S7
+- case_14 | (event-vendor-onboarding-start, name, Vendor onboarding start) | (event_5, eventType, vendor onboarding) [t46] | "Felix Okafor started the vendor onboarding on 17 July 2025, 11:25 UTC." [D2.S14] | D2.S14
+- case_14 | (email-kwhitfield, name, kwhitfield@copperfield.com) | (email_person_1, addressValue, kwhitfield@copperfield.com) [t11] | "Kofi Whitfield is employed by Copperfield Distribution Inc.; their email is kwhitfield@copperfield.com." [D1.S3] | D1.S3
+- case_14 | (chat-msg-3, name, I pushed it through, check your inbox.) | (chat_msg_2, messageText, I pushed it through, check your inbox.) [t71] | "[2025-06-21 12:44 UTC] @felixo to @lenap: I pushed it through, check your inbox." [D3.S6] | D3.S6
+- case_14 | (account-stonebridge-meridian, name, 3765803916) | (acct_vendor, accountIdentifier, 3765803916) [t28] | "Account 3765803916 at Meridian Trust Bank belongs to Stonebridge Logistics Inc." [D1.S8] | D1.S8
+- case_14 | (email-irene, name, irene.fischer@copperfield.com) | (email_person_2, addressValue, irene.fischer@copperfield.com) [t14] | "Irene Fischer works for Copperfield Distribution Inc. and uses the address irene.fischer@copperfield.com." [D1.S4] | D1.S4, D2.S1
+- case_14 | (email-msg-1, name, Invoice 3557 follow-up) | (email_msg_0, subject, Invoice 3557 follow-up) [t58] | "Subject: Invoice 3557 follow-up" [D2.S3] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_14 | (chat-msg-2, name, Finance is asking questions again.) | (chat_msg_1, messageText, Finance is asking questions again.) [t67] | "[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again." [D3.S5] | D3.S5
+- case_14 | (event-wire-transfer-start, name, Wire transfer start) | (event_3, eventType, wire transfer) [t40] | "Kofi Whitfield started the wire transfer on 12 July 2025, 13:10 UTC." [D2.S11] | D2.S11
+- case_15 | (email-msg-d1, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t54] | "Subject: Urgent: payment timing" [D1.S3] | D1.S3
+- case_15 | (loc-redfern, name, 5074 Industrial Parkway, Boise, ID 83702) | - | - | D2.S5
+- case_15 | (event-bank-detail-change, name, bank detail change) | (event_5, eventType, bank detail change) [t45] | "Owen Kowalski started the bank detail change on 6 June 2025, 13:00 UTC." [D4.S6] | D4.S6
+- case_15 | (email-msg-d3, name, Invoice 3155 follow-up) | (email_msg_1, subject, Invoice 3155 follow-up) [t58] | "Subject: Invoice 3155 follow-up" [D3.S3] | D3.S3
+- case_15 | (account-6302151532, name, 6302151532) | (acct_insider, accountIdentifier, 6302151532) [t27] | "Account 6302151532 at Meridian Trust Bank belongs to Owen Kowalski." [D4.S4] | D4.S4
+- case_15 | (event-expense-reimbursement, name, expense reimbursement) | (event_3, eventType, expense reimbursement) [t39] | "On May 30, 2025 at 12:15 UTC, Mei Castillo initiated the expense reimbursement." [D1.S7] | D1.S7
+- case_15 | (account-4948925913, name, 4948925913) | (acct_vendor, accountIdentifier, 4948925913) [t24] | "Account 4948925913 at Meridian Trust Bank belongs to Summit Peak Logistics LLC." [D4.S3] | D4.S3
+- case_15 | (event-refund-request, name, refund request) | (event_4, eventType, refund request) [t42] | "The refund request was initiated by Mei Castillo on June 3, 2025 at 10:00 UTC." [D3.S8] | D3.S8
+- case_15 | (event-invoice-submission, name, invoice submission) | (event_2, eventType, invoice submission) [t36] | "Desmond Ivanova started the invoice submission on 26 May 2025, 13:00 UTC." [D4.S5] | D4.S5
+- case_15 | (email-divanova, name, divanova@summitpeak.com) | (email_person_2, addressValue, divanova@summitpeak.com) [t13] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | D1.S2, D2.S4
+- case_15 | (email-meicastillo, name, mei.castillo@redfern.com) | (email_person_1, addressValue, mei.castillo@redfern.com) [t10] | "From: mei.castillo@redfern.com" [D1.S1] | D1.S1, D2.S3, D3.S1
+- case_15 | (event-audit-review, name, audit review) | (event_1, eventType, audit review) [t33] | "The audit review was initiated by Desmond Ivanova on May 12, 2025 at 12:15 UTC." [D3.S6] | D3.S6
+- case_15 | (email-okowalski, name, okowalski@redfern.com) | (email_person_0, addressValue, okowalski@redfern.com) [t7] | "To: okowalski@redfern.com, divanova@summitpeak.com" [D1.S2] | D1.S2, D2.S2, D3.S2
+- case_15 | (event-vendor-onboarding, name, vendor onboarding) | (event_0, eventType, vendor onboarding) [t30] | "On May 5, 2025 at 11:25 UTC, Mei Castillo initiated the vendor onboarding." [D1.S6] | D1.S6
+- case_15 | (account-2170889721, name, 2170889721) | (acct_company, accountIdentifier, 2170889721) [t21] | "Account 2170889721 at Meridian Trust Bank belongs to Redfern Packaging Group." [D4.S2] | D4.S2
+- case_16 | (event-bank-detail-change, name, Bank detail change) | (event_1, eventType, bank detail change) [t33] | "Hector Whitfield started the bank detail change on March 24, 2025 at 14:10 UTC." [D3.S6] | D3.S6
+- case_16 | (email-tcastillo, name, tcastillo@stonebridge.com) | (email_person_0, addressValue, tcastillo@stonebridge.com) [t7] | "From: tcastillo@stonebridge.com" [D1.S1] | D1.S1, D2.S2, D3.S2
+- case_16 | (event-expense-reimbursement, name, Expense reimbursement) | (event_0, eventType, expense reimbursement) [t30] | "The expense reimbursement was initiated by Hector Whitfield on 15 March 2025, 16:25 UTC." [D1.S6] | D1.S6
+- case_16 | (account-dana, name, 1149258289) | (acct_insider, accountIdentifier, 1149258289) [t27] | "Pinecrest National Bank account 1149258289 is registered to Dana Okafor." [D4.S4] | D4.S4
+- case_16 | (event-wire-transfer, name, Wire transfer) | (event_4, eventType, wire transfer) [t42] | "The wire transfer was initiated by Hector Whitfield on 13 April 2025, 17:00 UTC." [D3.S7] | D3.S7
+- case_16 | (account-cedarridge, name, 8579003599) | (acct_vendor, accountIdentifier, 8579003599) [t24] | "Pinecrest National Bank account 8579003599 is registered to Cedar Ridge Tooling Inc." [D4.S3] | D4.S3
+- case_16 | (email-msg-3, name, Quarter-end vendor payments) | (email_msg_1, subject, Quarter-end vendor payments) [t54] | "Subject: Quarter-end vendor payments" [D3.S3] | D3.S1, D3.S3, D3.S4
+- case_16 | (email-dokafor, name, dokafor@stonebridge.com) | (email_person_1, addressValue, dokafor@stonebridge.com) [t10] | "Dana Okafor works for Stonebridge Supply Ltd. and uses the address dokafor@stonebridge.com." [D2.S3] | D2.S3, D3.S1
+- case_16 | (email-hwhitfield, name, hwhitfield@cedarridge.com) | (email_person_2, addressValue, hwhitfield@cedarridge.com) [t13] | "To: hwhitfield@cedarridge.com" [D1.S2] | D1.S2, D2.S4, D3.S2
+- case_16 | (location-stonebridge, name, 8549 Commerce Drive, Raleigh, NC 27601) | - | - | D2.S5
+- case_16 | (account-stonebridge, name, 9512975827) | (acct_company, accountIdentifier, 9512975827) [t21] | "Stonebridge Supply Ltd. holds account 9512975827 at Pinecrest National Bank." [D4.S2] | D4.S2
+- case_16 | (event-invoice-submission, name, Invoice submission) | (event_3, eventType, invoice submission) [t39] | "On 30 March 2025, 13:15 UTC, Dana Okafor initiated the invoice submission." [D1.S8] | D1.S8
+- case_16 | (email-msg-1, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t49] | "Subject: Audit prep items" [D1.S3] | D1.S1, D1.S3, D1.S4
+- case_16 | (event-audit-review, name, Audit review) | (event_2, eventType, audit review) [t36] | "The audit review was initiated by Tomas Castillo on 26 March 2025, 11:45 UTC." [D4.S5] | D4.S5
+- case_17 | (andre-osei-email, name, andre.osei@redfern.com) | (email_person_0, addressValue, andre.osei@redfern.com) [t9] | "Redfern Consulting Co. employs Andre Osei, who can be reached at andre.osei@redfern.com." [D1.S2] | D1.S2, D2.S1
+- case_17 | (desmond-kowalski-email, name, desmond.kowalski@redfern.com) | (email_person_2, addressValue, desmond.kowalski@redfern.com) [t15] | "Desmond Kowalski works for Redfern Consulting Co. and uses the address desmond.kowalski@redfern.com." [D1.S4] | D1.S4
+- case_17 | (expense-reimbursement-event, name, Expense reimbursement) | (event_1, eventType, expense reimbursement) [t41] | "On July 8, 2025 at 17:25 UTC, Nadia Delgado initiated the expense reimbursement." [D2.S7] | D2.S7
+- case_17 | (westmark-bank-account, name, 6545042960) | (acct_vendor, accountIdentifier, 6545042960) [t32] | "Westmark Fabrication Inc. holds account 6545042960 at Pinecrest National Bank." [D1.S10] | D1.S10
+- case_17 | (redfern-bank-account, name, 1310102192) | (acct_company, accountIdentifier, 1310102192) [t29] | "Redfern Consulting Co. holds account 1310102192 at Pinecrest National Bank." [D1.S9] | D1.S9
+- case_17 | (mbrennan-email, name, mbrennan@westmark.com) | (email_person_4, addressValue, mbrennan@westmark.com) [t21] | "Marcus Brennan works for Westmark Fabrication Inc. and uses the address mbrennan@westmark.com." [D1.S6] | D1.S6
+- case_17 | (invoice-submission-event, name, Invoice submission) | (event_3, eventType, invoice submission) [t47] | "On 16 July 2025, 13:15 UTC, Marcus Brennan initiated the invoice submission." [D2.S9] | D2.S9
+- case_17 | (nadia-delgado-email, name, ndelgado@redfern.com) | (email_person_1, addressValue, ndelgado@redfern.com) [t12] | "Nadia Delgado works for Redfern Consulting Co. and uses the address ndelgado@redfern.com." [D1.S3] | D1.S3
+- case_17 | (julian-lindqvist-email, name, jlindqvist@westmark.com) | (email_person_3, addressValue, jlindqvist@westmark.com) [t18] | "Julian Lindqvist is employed by Westmark Fabrication Inc.; their email is jlindqvist@westmark.com." [D1.S5] | D1.S5, D2.S2
+- case_17 | (nadia-bank-account, name, 3598599727) | (acct_insider, accountIdentifier, 3598599727) [t35] | "Nadia Delgado holds account 3598599727 at Pinecrest National Bank." [D1.S11] | D1.S11
+- case_17 | (bank-detail-change-event, name, Bank detail change) | (event_2, eventType, bank detail change) [t44] | "On 16 July 2025, 09:30 UTC, Nadia Delgado initiated the bank detail change." [D2.S8] | D2.S8
+- case_17 | (audit-review-event, name, Audit review) | (event_0, eventType, audit review) [t38] | "Desmond Kowalski started the audit review on 3 July 2025, 15:15 UTC." [D2.S6] | D2.S6
+- case_17 | (email-message, name, Wire confirmation needed) | (email_msg_0, subject, Wire confirmation needed) [t53] | "Subject: Wire confirmation needed" [D2.S3] | D2.S1, D2.S10, D2.S11, D2.S2, D2.S3, D2.S4, D2.S5
+- case_18 | (email-marcus-holloway, name, mholloway@summitpeak.com) | (email_person_2, addressValue, mholloway@summitpeak.com) [t15] | "Marcus Holloway works for Summit Peak Packaging Inc. and uses the address mholloway@summitpeak.com." [D2.S4] | D2.S4, D3.S1
+- case_18 | (event-contract-amendment, name, Contract amendment) | (event_0, eventType, contract amendment) [t38] | "The contract amendment was initiated by Owen Novak on September 5, 2025 at 15:25 UTC." [D1.S6] | D1.S6
+- case_18 | (email-chaddad, name, chaddad@silverlake.com) | (email_person_4, addressValue, chaddad@silverlake.com) [t21] | "Clara Haddad is employed by Silverlake Consulting LLC; their email is chaddad@silverlake.com." [D2.S6] | D2.S6
+- case_18 | (account-6144966603, name, 6144966603) | (acct_vendor, accountIdentifier, 6144966603) [t32] | "Granite Federal Credit Union account 6144966603 is registered to Silverlake Consulting LLC." [D2.S9] | D2.S9
+- case_18 | (event-wire-transfer, name, Wire transfer) | (event_3, eventType, wire transfer) [t47] | "On September 18, 2025 at 14:30 UTC, Clara Haddad initiated the wire transfer." [D3.S7] | D3.S7
+- case_18 | (email-owen-novak, name, owen.novak@summitpeak.com) | (email_person_0, addressValue, owen.novak@summitpeak.com) [t9] | "To: owen.novak@summitpeak.com" [D1.S2] | D1.S2, D2.S2
+- case_18 | (loc-summit-peak-office, name, 653 Market Street, Madison, WI 53703) | - | - | D2.S7
+- case_18 | (email-message-d1, name, Wire confirmation needed) | (email_msg_0, subject, Wire confirmation needed) [t55] | "Subject: Wire confirmation needed" [D1.S3] | D1.S3
+- case_18 | (account-2622357143, name, 2622357143) | (acct_company, accountIdentifier, 2622357143) [t29] | "Account 2622357143 at Granite Federal Credit Union belongs to Summit Peak Packaging Inc." [D2.S8] | D2.S8
+- case_18 | (event-account-reconciliation, name, Account reconciliation) | (event_4, eventType, account reconciliation) [t50] | "The account reconciliation was initiated by Sofia Abara on September 22, 2025 at 11:30 UTC." [D1.S8] | D1.S8
+- case_18 | (account-7594766430, name, 7594766430) | (acct_insider, accountIdentifier, 7594766430) [t35] | "Account 7594766430 at Granite Federal Credit Union belongs to Rosa Vance." [D2.S10] | D2.S10
+- case_18 | (email-sabara, name, sabara@silverlake.com) | (email_person_3, addressValue, sabara@silverlake.com) [t18] | "From: sabara@silverlake.com" [D1.S1] | D1.S1, D2.S5
+- case_18 | (email-message-d3, name, Wire confirmation needed) | (email_msg_1, subject, Wire confirmation needed) [t59] | "Subject: Wire confirmation needed" [D3.S3] | D3.S3
+- case_18 | (event-refund-request, name, Refund request) | (event_2, eventType, refund request) [t44] | "The refund request was initiated by Rosa Vance on September 14, 2025 at 17:50 UTC." [D1.S7] | D1.S7
+- case_18 | (event-payment-approval, name, Payment approval) | (event_1, eventType, payment approval) [t41] | "On September 7, 2025 at 16:15 UTC, Sofia Abara initiated the payment approval." [D3.S6] | D3.S6
+- case_18 | (email-rosa-vance, name, rosa.vance@summitpeak.com) | (email_person_1, addressValue, rosa.vance@summitpeak.com) [t12] | "Summit Peak Packaging Inc. employs Rosa Vance, who can be reached at rosa.vance@summitpeak.com." [D2.S3] | D2.S3, D3.S2
+- case_19 | (email-kofi-kowalski, name, kofi.kowalski@bluegate.com) | (email_person_1, addressValue, kofi.kowalski@bluegate.com) [t11] | "From: kofi.kowalski@bluegate.com" [D1.S1] | D1.S1, D2.S3, D3.S2
+- case_19 | (email-isorensen, name, isorensen@bluegate.com) | (email_person_0, addressValue, isorensen@bluegate.com) [t8] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | D1.S2, D2.S2
+- case_19 | (event-bank-detail-change, name, bank detail change) | (event_2, eventType, bank detail change) [t40] | "Kofi Kowalski started the bank detail change on 25 April 2025, 09:45 UTC." [D4.S5] | D4.S5
+- case_19 | (event-contract-amendment, name, contract amendment) | (event_6, eventType, contract amendment) [t52] | "Maya Novak started the contract amendment on May 15, 2025 at 16:50 UTC." [D1.S8] | D1.S8
+- case_19 | (event-expense-reimbursement, name, expense reimbursement) | (event_5, eventType, expense reimbursement) [t49] | "Hector Fischer started the expense reimbursement on 5 May 2025, 12:30 UTC." [D4.S6] | D4.S6
+- case_19 | (event-wire-transfer, name, wire transfer) | (event_4, eventType, wire transfer) [t46] | "On 3 May 2025, 14:00 UTC, Kofi Kowalski initiated the wire transfer." [D3.S8] | D3.S8
+- case_19 | (event-account-reconciliation, name, account reconciliation) | (event_0, eventType, account reconciliation) [t34] | "Irene Sorensen started the account reconciliation on 14 April 2025, 10:30 UTC." [D1.S6] | D1.S6
+- case_19 | (email-mnovak, name, mnovak@bluegate.com) | (email_person_2, addressValue, mnovak@bluegate.com) [t14] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | D1.S2, D2.S4, D3.S2
+- case_19 | (email-hfischer, name, hfischer@westmark.com) | (email_person_3, addressValue, hfischer@westmark.com) [t17] | "Hector Fischer works for Westmark Consulting LLC and uses the address hfischer@westmark.com." [D2.S5] | D2.S5, D3.S1
+- case_19 | (email-d3, name, Updated remittance details) | (email_msg_1, subject, Updated remittance details) [t68] | "Subject: Updated remittance details" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_19 | (event-payment-approval, name, payment approval) | (event_1, eventType, payment approval) [t37] | "On 15 April 2025, 15:15 UTC, Maya Novak initiated the payment approval." [D3.S6] | D3.S6
+- case_19 | (account-bluegate-3811034105, name, 3811034105) | (acct_company, accountIdentifier, 3811034105) [t25] | "Pinecrest National Bank account 3811034105 is registered to Bluegate Services Co." [D4.S2] | D4.S2, D4.S7
+- case_19 | (email-d1, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t63] | "Subject: Urgent: payment timing" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_19 | (event-invoice-submission, name, invoice submission) | (event_3, eventType, invoice submission) [t43] | "The invoice submission was initiated by Irene Sorensen on April 29, 2025 at 11:00 UTC." [D1.S7] | D1.S7
+- case_19 | (account-irene-3917062016, name, 3917062016) | (acct_insider, accountIdentifier, 3917062016) [t31] | "Pinecrest National Bank account 3917062016 is registered to Irene Sorensen." [D4.S4] | D4.S4, D4.S7
+- case_19 | (account-westmark-9480427652, name, 9480427652) | (acct_vendor, accountIdentifier, 9480427652) [t28] | "Westmark Consulting LLC holds account 9480427652 at Pinecrest National Bank." [D4.S3] | D4.S3
+- case_19 | (event-vendor-onboarding, name, vendor onboarding) | (event_7, eventType, vendor onboarding) [t55] | "On 15 May 2025, 17:00 UTC, Irene Sorensen initiated the vendor onboarding." [D3.S9] | D3.S9
+- case_19 | (location-bluegate-office, name, 9297 Commerce Drive, Tucson, AZ 85701) | - | - | D2.S6
+- case_20 | (email-msg-d1, name, Quarter-end vendor payments) | (email_msg_0, subject, Quarter-end vendor payments) [t63] | "Subject: Quarter-end vendor payments" [D1.S3] | D1.S3
+- case_20 | (email-wesley, name, wesley.osei@oakhaven.com) | (email_person_0, addressValue, wesley.osei@oakhaven.com) [t9] | "Wesley Osei works for Oakhaven Supply Inc. and uses the address wesley.osei@oakhaven.com." [D2.S2] | D2.S2
+- case_20 | (email-msg-d3, name, Contract terms for next quarter) | (email_msg_1, subject, Contract terms for next quarter) [t68] | "Subject: Contract terms for next quarter" [D3.S3] | D3.S3
+- case_20 | (event-contract-amendment, name, Contract amendment) | (event_4, eventType, contract amendment) [t50] | "The contract amendment was initiated by Owen Whitfield on May 12, 2025 at 16:00 UTC." [D3.S7] | D3.S7
+- case_20 | (event-reconciliation, name, Account reconciliation) | (event_0, eventType, account reconciliation) [t38] | "On 14 April 2025, 11:50 UTC, Mei Brennan initiated the account reconciliation." [D1.S6] | D1.S6
+- case_20 | (email-kofi, name, kofi.holloway@stonebridge.com) | (email_person_3, addressValue, kofi.holloway@stonebridge.com) [t18] | "To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com" [D1.S2] | D1.S2, D2.S5, D3.S2
+- case_20 | (loc-oakhaven, name, 7125 Harbor Avenue, Richmond, VA 23219) | - | - | D2.S7
+- case_20 | (loc-stonebridge, name, 233 Industrial Parkway, Albany, NY 12207) | - | - | D2.S8
+- case_20 | (event-expense-reimbursement, name, Expense reimbursement) | (event_2, eventType, expense reimbursement) [t44] | "The expense reimbursement was initiated by Hannah Haddad on 5 May 2025, 13:30 UTC." [D4.S5] | D4.S5
+- case_20 | (event-wire-transfer, name, Wire transfer) | (event_3, eventType, wire transfer) [t47] | "Wesley Osei started the wire transfer on 12 May 2025, 12:25 UTC." [D1.S7] | D1.S7
+- case_20 | (email-owen, name, owhitfield@stonebridge.com) | (email_person_4, addressValue, owhitfield@stonebridge.com) [t21] | "Stonebridge Components LLC employs Owen Whitfield, who can be reached at owhitfield@stonebridge.com." [D2.S6] | D2.S6, D3.S1
+- case_20 | (account-granite-oakhaven, name, 9493407158) | (acct_company, accountIdentifier, 9493407158) [t29] | "Granite Federal Credit Union account 9493407158 is registered to Oakhaven Supply Inc." [D4.S2] | D4.S2
+- case_20 | (email-mei, name, mei.brennan@oakhaven.com) | (email_person_2, addressValue, mei.brennan@oakhaven.com) [t15] | "To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com" [D1.S2] | D1.S2, D2.S4, D3.S2
+- case_20 | (account-granite-mei, name, 9059135687) | (acct_insider, accountIdentifier, 9059135687) [t35] | "Account 9059135687 at Granite Federal Credit Union belongs to Mei Brennan." [D4.S4] | D4.S4
+- case_20 | (event-payment-approval, name, Payment approval) | (event_1, eventType, payment approval) [t41] | "On 19 April 2025, 16:45 UTC, Wesley Osei initiated the payment approval." [D3.S6] | D3.S6
+- case_20 | (account-granite-stonebridge, name, 7051703888) | (acct_vendor, accountIdentifier, 7051703888) [t32] | "Account 7051703888 at Granite Federal Credit Union belongs to Stonebridge Components LLC." [D4.S3] | D4.S3
+- case_20 | (email-hannah, name, hhaddad@oakhaven.com) | (email_person_1, addressValue, hhaddad@oakhaven.com) [t12] | "From: hhaddad@oakhaven.com" [D1.S1] | D1.S1, D2.S3
+- case_21 | (expense-reimbursement-event, name, Expense reimbursement) | (event_4, eventType, expense reimbursement) [t43] | "On 28 April 2025, 16:45 UTC, Hector Castillo initiated the expense reimbursement." [D3.S9] | D3.S9
+- case_21 | (email-2, name, Re: banking change request) | (email_msg_1, subject, Re: banking change request) [t66] | "Subject: Re: banking change request" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_21 | (payment-approval-event, name, Payment approval) | (event_5, eventType, payment approval) [t46] | "Hector Castillo started the payment approval on 30 April 2025, 13:30 UTC." [D4.S5] | D4.S5
+- case_21 | (hcastillo-email, name, hcastillo@oakhaven.com) | (email_person_2, addressValue, hcastillo@oakhaven.com) [t14] | "To: hcastillo@oakhaven.com" [D1.S2] | D1.S2, D2.S4, D3.S1
+- case_21 | (bank-detail-change-event, name, Bank detail change) | (event_7, eventType, bank detail change) [t52] | "Andre Petrov started the bank detail change on 5 May 2025, 16:45 UTC." [D3.S12] | D3.S12
+- case_21 | (audit-review-event, name, Audit review) | (event_6, eventType, audit review) [t49] | "On 3 May 2025, 15:00 UTC, Maya Quinn initiated the audit review." [D1.S8] | D1.S8
+- case_21 | (wire-transfer-event, name, Wire transfer) | (event_3, eventType, wire transfer) [t40] | "On 25 April 2025, 17:45 UTC, Victor Haddad initiated the wire transfer." [D1.S7] | D1.S7
+- case_21 | (bluegate-account, name, 6220296925) | (acct_vendor, accountIdentifier, 6220296925) [t28] | "Granite Federal Credit Union account 6220296925 is registered to Bluegate Distribution LLC." [D4.S3] | D4.S3
+- case_21 | (victor-email, name, victor.haddad@bluegate.com) | (email_person_3, addressValue, victor.haddad@bluegate.com) [t17] | "Victor Haddad works for Bluegate Distribution LLC and uses the address victor.haddad@bluegate.com." [D2.S5] | D2.S5, D3.S2
+- case_21 | (account-reconciliation-event, name, Account reconciliation) | (event_2, eventType, account reconciliation) [t37] | "Victor Haddad started the account reconciliation on April 25, 2025 at 14:25 UTC." [D4.S4] | D4.S4
+- case_21 | (email-1, name, Invoice 8176 follow-up) | (email_msg_0, subject, Invoice 8176 follow-up) [t62] | "Subject: Invoice 8176 follow-up" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_21 | (contract-amendment-event, name, Contract amendment) | (event_1, eventType, contract amendment) [t34] | "On 15 April 2025, 16:00 UTC, Victor Haddad initiated the contract amendment." [D3.S6] | D3.S6
+- case_21 | (maya-email, name, maya.quinn@oakhaven.com) | (email_person_1, addressValue, maya.quinn@oakhaven.com) [t11] | "From: maya.quinn@oakhaven.com" [D1.S1] | D1.S1, D2.S3
+- case_21 | (oakhaven-location, name, 1587 Industrial Parkway, Raleigh, NC 27601) | - | - | D2.S6
+- case_21 | (apetrov-email, name, apetrov@oakhaven.com) | (email_person_0, addressValue, apetrov@oakhaven.com) [t8] | "Andre Petrov works for Oakhaven Logistics Inc. and uses the address apetrov@oakhaven.com." [D2.S2] | D2.S2
+- case_21 | (oakhaven-account, name, 2616431031) | (acct_company, accountIdentifier, 2616431031) [t25] | "Oakhaven Logistics Inc. holds account 2616431031 at Granite Federal Credit Union." [D4.S2] | D4.S2
+- case_21 | (vendor-onboarding-event, name, Vendor onboarding) | (event_0, eventType, vendor onboarding) [t31] | "The vendor onboarding was initiated by Andre Petrov on 12 April 2025, 16:10 UTC." [D1.S6] | D1.S6
+- case_22 | (location-harborline, name, 6481 Industrial Parkway, Omaha, NE 68102) | - | - | D2.S8
+- case_22 | (event-bank-detail-change, name, bank detail change) | (event_2, eventType, bank detail change) [t40] | "On June 27, 2025 at 09:45 UTC, Yara Ivanova initiated the bank detail change." [D4.S5] | D4.S5
+- case_22 | (event-contract-amendment, name, contract amendment) | (event_1, eventType, contract amendment) [t37] | "Irene Sorensen started the contract amendment on June 23, 2025 at 16:00 UTC." [D3.S6] | D3.S6
+- case_22 | (event-wire-transfer, name, wire transfer) | (event_4, eventType, wire transfer) [t46] | "The wire transfer was initiated by Irene Sorensen on 12 July 2025, 09:25 UTC." [D3.S7] | D3.S7
+- case_22 | (email-marcus-abara, name, marcus.abara@harborline.com) | (email_person_3, addressValue, marcus.abara@harborline.com) [t17] | "From: marcus.abara@harborline.com" [D1.S1] | D1.S1
+- case_22 | (location-northwind, name, 8532 Main Street, Dayton, OH 45402) | - | - | D2.S7
+- case_22 | (email-msg-2, name, Urgent: payment timing) | (email_msg_1, subject, Urgent: payment timing) [t62] | "Subject: Urgent: payment timing" [D3.S3] | D3.S3
+- case_22 | (account-harborline-bank, name, 5413632543) | (acct_vendor, accountIdentifier, 5413632543) [t28] | "Account 5413632543 at First Harbor Bank belongs to Harborline Fabrication LLC." [D4.S3] | D4.S3
+- case_22 | (account-northwind-bank, name, 5656063669) | (acct_company, accountIdentifier, 5656063669) [t25] | "Account 5656063669 at First Harbor Bank belongs to Northwind Analytics LLC." [D4.S2] | D4.S2
+- case_22 | (event-payment-approval, name, payment approval) | (event_3, eventType, payment approval) [t43] | "On 2 July 2025, 10:10 UTC, Marcus Abara initiated the payment approval." [D1.S7] | D1.S7
+- case_22 | (account-yara-bank, name, 7421022350) | (acct_insider, accountIdentifier, 7421022350) [t31] | "First Harbor Bank account 7421022350 is registered to Yara Ivanova." [D4.S4] | D4.S4
+- case_22 | (email-yara-ivanova, name, yivanova@northwind.com) | (email_person_0, addressValue, yivanova@northwind.com) [t8] | "Yara Ivanova is employed by Northwind Analytics LLC; their email is yivanova@northwind.com." [D2.S2] | D2.S2
+- case_22 | (event-invoice-submission, name, invoice submission) | (event_0, eventType, invoice submission) [t34] | "On June 22, 2025 at 15:15 UTC, Irene Sorensen initiated the invoice submission." [D1.S6] | D1.S6
+- case_22 | (email-msg-1, name, Updated remittance details) | (email_msg_0, subject, Updated remittance details) [t58] | "Subject: Updated remittance details" [D1.S3] | D1.S3
+- case_22 | (email-irene-sorensen, name, isorensen@northwind.com) | (email_person_1, addressValue, isorensen@northwind.com) [t11] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | D1.S2
+- case_22 | (email-tomas-vance, name, tomas.vance@northwind.com) | (email_person_2, addressValue, tomas.vance@northwind.com) [t14] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | D1.S2
+- case_23 | (account-clearpath-8453395788, name, 8453395788) | (acct_company, accountIdentifier, 8453395788) [t21] | "Pinecrest National Bank account 8453395788 is registered to Clearpath Freight Co." [D2.S7] | D2.S10, D2.S7
+- case_23 | (event-contract-amendment-initiation, name, Contract amendment initiation) | (event_2, eventType, contract amendment) [t36] | "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment." [D1.S8] | D1.S8
+- case_23 | (email-message-1, name, Wire confirmation needed) | (email_msg_0, subject, Wire confirmation needed) [t49] | "Subject: Wire confirmation needed" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_23 | (email-yara-banerjee, name, yara.banerjee@clearpath.com) | (email_person_0, addressValue, yara.banerjee@clearpath.com) [t7] | "To: yara.banerjee@clearpath.com" [D1.S2] | D1.S2, D2.S2, D3.S2
+- case_23 | (location-boise, name, 513 Elm Street, Boise, ID 83702) | - | - | D2.S6
+- case_23 | (account-yara-1484775689, name, 1484775689) | (acct_insider, accountIdentifier, 1484775689) [t27] | "Pinecrest National Bank account 1484775689 is registered to Yara Banerjee." [D2.S9] | D2.S9
+- case_23 | (email-hector-quinn, name, hector.quinn@clearpath.com) | (email_person_1, addressValue, hector.quinn@clearpath.com) [t10] | "Hector Quinn is employed by Clearpath Freight Co.; their email is hector.quinn@clearpath.com." [D2.S3] | D2.S3
+- case_23 | (email-tomas-kowalski, name, tkowalski@redfern.com) | (email_person_2, addressValue, tkowalski@redfern.com) [t13] | "From: tkowalski@redfern.com" [D1.S1] | D1.S1, D2.S4, D3.S1
+- case_23 | (event-wire-transfer-initiation, name, Wire transfer initiation) | (event_0, eventType, wire transfer) [t30] | "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer." [D1.S6] | D1.S6
+- case_23 | (email-message-2, name, Updated remittance details) | (email_msg_1, subject, Updated remittance details) [t53] | "Subject: Updated remittance details" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_23 | (event-invoice-submission, name, Invoice submission) | (event_1, eventType, invoice submission) [t33] | "On February 1, 2025 at 14:25 UTC, Tomas Kowalski initiated the invoice submission." [D3.S6] | D3.S6
+- case_23 | (event-audit-review, name, Audit review) | (event_3, eventType, audit review) [t39] | "Tomas Kowalski started the audit review on 14 February 2025, 10:50 UTC." [D3.S7] | D3.S7
+- case_23 | (account-redfern-8858108822, name, 8858108822) | (acct_vendor, accountIdentifier, 8858108822) [t24] | "Account 8858108822 at Pinecrest National Bank belongs to Redfern Analytics Group." [D2.S8] | D2.S10, D2.S8
+- case_24 | (event-bank-detail-change, name, Bank detail change) | (event_2, eventType, bank detail change) [t36] | "On May 17, 2025 at 17:45 UTC, Andre Okafor initiated the bank detail change." [D1.S7] | D1.S7
+- case_24 | (event-wire-transfer, name, Wire transfer) | (event_0, eventType, wire transfer) [t30] | "On 26 April 2025, 15:45 UTC, Desmond Kowalski initiated the wire transfer." [D1.S6] | D1.S7
+- case_24 | (account-clearpath-first-harbor, name, 8047662278) | (acct_company, accountIdentifier, 8047662278) [t21] | "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co." [D2.S6] | D2.S6
+- case_24 | (email-yara-fischer, name, yfischer@clearpath.com) | (email_person_1, addressValue, yfischer@clearpath.com) [t10] | "To: yfischer@clearpath.com" [D1.S2] | D1.S2, D2.S3, D3.S2
+- case_24 | (account-andre-first-harbor, name, 7342857219) | (acct_insider, accountIdentifier, 7342857219) [t27] | "First Harbor Bank account 7342857219 is registered to Andre Okafor." [D2.S8] | D2.S8
+- case_24 | (email-msg-3, name, Urgent: payment timing) | (email_msg_1, subject, Urgent: payment timing) [t45] | "Subject: Urgent: payment timing" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_24 | (email-desmond-kowalski, name, desmond.kowalski@westmark.com) | (email_person_2, addressValue, desmond.kowalski@westmark.com) [t13] | "Desmond Kowalski is employed by Westmark Logistics Inc.; their email is desmond.kowalski@westmark.com." [D2.S4] | D2.S4, D3.S1
+- case_24 | (account-westmark-first-harbor, name, 3503133229) | (acct_vendor, accountIdentifier, 3503133229) [t24] | "Account 3503133229 at First Harbor Bank belongs to Westmark Logistics Inc." [D2.S7] | D2.S7
+- case_24 | (email-andre-okafor, name, andre.okafor@clearpath.com) | (email_person_0, addressValue, andre.okafor@clearpath.com) [t7] | "From: andre.okafor@clearpath.com" [D1.S1] | D1.S1, D2.S2
+- case_24 | (event-invoice-submission, name, Invoice submission) | (event_1, eventType, invoice submission) [t33] | "Andre Okafor started the invoice submission on 26 April 2025, 17:10 UTC." [D3.S6] | D3.S6
+- case_24 | (email-msg-1, name, Re: banking change request) | (email_msg_0, subject, Re: banking change request) [t41] | "Subject: Re: banking change request" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_24 | (location-omaha, name, 9297 Market Street, Omaha, NE 68102) | - | - | D2.S5
+- case_25 | (msg-chat-2, name, Can you look at the vendor file before lunch?) | (chat_msg_1, messageText, Can you look at the vendor file before lunch?) [t69] | "[2025-05-16 17:07 UTC] @kofir to @meib: Can you look at the vendor file before lunch?" [D3.S5] | D3.S5
+- case_25 | (event-contract-amendment, name, Contract amendment) | (event_1, eventType, contract amendment) [t30] | "The contract amendment was initiated by Mei Banerjee on May 19, 2025 at 09:45 UTC." [D2.S8] | D2.S8
+- case_25 | (email-kofi, name, kofi.reyes@stonebridge.com) | (email_person_1, addressValue, kofi.reyes@stonebridge.com) [t10] | "Kofi Reyes is employed by Stonebridge Supply Group; their email is kofi.reyes@stonebridge.com." [D1.S3] | D1.S3
+- case_25 | (loc-stonebridge, name, 9623 Market Street, Dayton, OH 45402) | - | - | D1.S5
+- case_25 | (event-expense-reimbursement, name, Expense reimbursement) | (event_4, eventType, expense reimbursement) [t39] | "Mei Banerjee started the expense reimbursement on 28 May 2025, 17:10 UTC." [D2.S11] | D2.S11
+- case_25 | (event-wire-transfer, name, Wire transfer) | (event_7, eventType, wire transfer) [t48] | "Kofi Reyes started the wire transfer on 6 June 2025, 14:25 UTC." [D2.S15] | D2.S15
+- case_25 | (msg-chat-1, name, Did the bank call back yet?) | (chat_msg_0, messageText, Did the bank call back yet?) [t65] | "[2025-05-16 17:00 UTC] @meib to @kofir: Did the bank call back yet?" [D3.S4] | D3.S4
+- case_25 | (email-meimei, name, mei.banerjee@harborline.com) | (email_person_2, addressValue, mei.banerjee@harborline.com) [t13] | "Mei Banerjee is employed by Harborline Packaging Inc.; their email is mei.banerjee@harborline.com." [D1.S4] | D1.S4
+- case_25 | (account-harborline, name, 7347335891) | (acct_vendor, accountIdentifier, 7347335891) [t24] | "Harborline Packaging Inc. holds account 7347335891 at Union Ledger Bank." [D1.S7] | D1.S7
+- case_25 | (email-sofia, name, slindqvist@stonebridge.com) | (email_person_0, addressValue, slindqvist@stonebridge.com) [t7] | "Sofia Lindqvist works for Stonebridge Supply Group and uses the address slindqvist@stonebridge.com." [D1.S2] | D1.S2
+- case_25 | (event-refund-request, name, Refund request) | (event_2, eventType, refund request) [t33] | "Kofi Reyes started the refund request on May 20, 2025 at 16:45 UTC." [D2.S9] | D2.S9
+- case_25 | (event-payment-approval, name, Payment approval) | (event_0, eventType, payment approval) [t27] | "Sofia Lindqvist started the payment approval on 16 May 2025, 16:00 UTC." [D2.S6] | D2.S6
+- case_25 | (account-stonebridge, name, 9698080226) | (acct_company, accountIdentifier, 9698080226) [t21] | "Union Ledger Bank account 9698080226 is registered to Stonebridge Supply Group." [D1.S6] | D1.S6
+- case_25 | (event-invoice-submission, name, Invoice submission) | (event_6, eventType, invoice submission) [t45] | "The invoice submission was initiated by Mei Banerjee on June 5, 2025 at 16:25 UTC." [D2.S14] | D2.S14
+- case_25 | (email-msg-1, name, Contract terms for next quarter) | (email_msg_0, subject, Contract terms for next quarter) [t60] | "Subject: Contract terms for next quarter" [D2.S3] | D2.S1
+- case_25 | (event-audit-review, name, Audit review) | (event_5, eventType, audit review) [t42] | "Mei Banerjee started the audit review on 2 June 2025, 10:30 UTC." [D2.S13] | D2.S13
+- case_25 | (event-vendor-onboarding, name, Vendor onboarding) | (event_3, eventType, vendor onboarding) [t36] | "On May 27, 2025 at 13:45 UTC, Mei Banerjee initiated the vendor onboarding." [D2.S10] | D2.S10
+- case_26 | (email-dana, name, dbanerjee@silverlake.com) | (email_person_1, addressValue, dbanerjee@silverlake.com) [t10] | "To: dbanerjee@silverlake.com" [D1.S2] | D1.S2, D2.S3
+- case_26 | (event-bank-detail-change, name, Bank detail change) | (event_5, eventType, bank detail change) [t42] | "On 19 September 2025, 16:25 UTC, Dana Banerjee initiated the bank detail change." [D4.S5] | D4.S5
+- case_26 | (event-wire-transfer, name, Wire transfer) | (event_2, eventType, wire transfer) [t33] | "On August 15, 2025 at 09:30 UTC, Clara Holloway initiated the wire transfer." [D4.S4] | D4.S4
+- case_26 | (email-msg-3, name, Urgent: payment timing) | (email_msg_1, subject, Urgent: payment timing) [t56] | "Subject: Urgent: payment timing" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_26 | (event-refund-request, name, Refund request) | (event_1, eventType, refund request) [t30] | "On 14 August 2025, 10:30 UTC, Clara Holloway initiated the refund request." [D3.S6] | D3.S6
+- case_26 | (event-payment-approval, name, Payment approval) | (event_0, eventType, payment approval) [t27] | "The payment approval was initiated by Tomas Quinn on 10 August 2025, 16:00 UTC." [D1.S6] | D1.S6
+- case_26 | (event-invoice-submission, name, Invoice submission) | (event_3, eventType, invoice submission) [t36] | "On September 5, 2025 at 13:25 UTC, Dana Banerjee initiated the invoice submission." [D1.S7] | D1.S7
+- case_26 | (email-msg-1, name, Quarter-end vendor payments) | (email_msg_0, subject, Quarter-end vendor payments) [t52] | "Subject: Quarter-end vendor payments" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_26 | (event-vendor-onboarding, name, Vendor onboarding) | (event_4, eventType, vendor onboarding) [t39] | "Tomas Quinn started the vendor onboarding on September 7, 2025 at 12:15 UTC." [D3.S8] | D3.S8
+- case_26 | (email-clara, name, clara.holloway@stonebridge.com) | (email_person_2, addressValue, clara.holloway@stonebridge.com) [t13] | "From: clara.holloway@stonebridge.com" [D1.S1] | D1.S1, D2.S4, D3.S1
+- case_27 | (account-clearpath, name, 8561434330) | (acct_company, accountIdentifier, 8561434330) [t21] | "Clearpath Tooling Inc. holds account 8561434330 at Union Ledger Bank." [D2.S7] | D2.S7
+- case_27 | (email-yivanova, name, yivanova@harborline.com) | (email_person_2, addressValue, yivanova@harborline.com) [t13] | "From: yivanova@harborline.com" [D1.S1] | D1.S1, D2.S4, D3.S1
+- case_27 | (event-bank-detail-change, name, Bank detail change) | (event_0, eventType, bank detail change) [t27] | "Yara Ivanova started the bank detail change on 25 September 2025, 14:25 UTC." [D1.S6] | D1.S6
+- case_27 | (event-expense-reimbursement, name, Expense reimbursement) | (event_2, eventType, expense reimbursement) [t33] | "On 27 September 2025, 17:00 UTC, Owen Castillo initiated the expense reimbursement." [D1.S8] | D1.S8
+- case_27 | (event-wire-transfer, name, Wire transfer) | (event_3, eventType, wire transfer) [t36] | "The wire transfer was initiated by Kofi Quinn on 7 October 2025, 09:00 UTC." [D3.S8] | D3.S8
+- case_27 | (email-message-d1, name, Audit prep items) | (email_msg_0, subject, Audit prep items) [t59] | "Subject: Audit prep items" [D1.S3] | D1.S1, D1.S2, D1.S3, D1.S4
+- case_27 | (email-owen-castillo, name, owen.castillo@clearpath.com) | (email_person_1, addressValue, owen.castillo@clearpath.com) [t10] | "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com" [D1.S2] | D1.S2, D2.S3, D3.S2
+- case_27 | (account-harborline, name, 9642990257) | (acct_vendor, accountIdentifier, 9642990257) [t24] | "Harborline Consulting LLC holds account 9642990257 at Union Ledger Bank." [D2.S8] | D2.S8
+- case_27 | (email-message-d3, name, Quarter-end vendor payments) | (email_msg_1, subject, Quarter-end vendor payments) [t63] | "Subject: Quarter-end vendor payments" [D3.S3] | D3.S1, D3.S2, D3.S3, D3.S4
+- case_27 | (email-kofi-quinn, name, kofi.quinn@clearpath.com) | (email_person_0, addressValue, kofi.quinn@clearpath.com) [t7] | "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com" [D1.S2] | D1.S2, D2.S2
+- case_27 | (event-invoice-submission, name, Invoice submission) | (event_4, eventType, invoice submission) [t39] | "The invoice submission was initiated by Yara Ivanova on October 11, 2025 at 10:10 UTC." [D1.S10] | D1.S10
+- case_27 | (event-audit-review, name, Audit review) | (event_5, eventType, audit review) [t42] | "On 21 October 2025, 11:00 UTC, Owen Castillo initiated the audit review." [D3.S11] | D3.S11
+- case_27 | (event-vendor-onboarding, name, Vendor onboarding) | (event_1, eventType, vendor onboarding) [t30] | "Kofi Quinn started the vendor onboarding on 25 September 2025, 15:15 UTC." [D3.S6] | D3.S6
+- case_27 | (location-harborline-address, name, 979 Main Street, Tucson, AZ 85701) | - | - | D2.S6
+- case_27 | (location-clearpath-address, name, 2969 Market Street, Albany, NY 12207) | - | - | D2.S5
+- case_28 | (location-copperfield-office, name, 3938 Commerce Drive, Albany, NY 12207) | - | - | D1.S8
+- case_28 | (account-luca-reyes-3784241935, name, 3784241935) | (acct_insider, accountIdentifier, 3784241935) [t35] | "Lakeshore Savings Bank account 3784241935 is registered to Luca Reyes." [D3.S4] | D3.S4
+- case_28 | (email-d2, name, Quarter-end vendor payments) | (email_msg_0, subject, Quarter-end vendor payments) [t65] | "Subject: Quarter-end vendor payments" [D2.S3] | D2.S1, D2.S2, D2.S3, D2.S4
+- case_28 | (email-luca-reyes, name, lreyes@westmark.com) | (email_person_2, addressValue, lreyes@westmark.com) [t15] | "Luca Reyes is employed by Westmark Services Group; their email is lreyes@westmark.com." [D1.S4] | D1.S4
+- case_28 | (account-copperfield-6644931153, name, 6644931153) | (acct_vendor, accountIdentifier, 6644931153) [t32] | "Copperfield Analytics Group holds account 6644931153 at Lakeshore Savings Bank." [D3.S3] | D3.S3
+- case_28 | (event-contract-amendment, name, Contract amendment) | (event_1, eventType, contract amendment) [t41] | "On 19 January 2025, 11:10 UTC, Samuel Okafor initiated the contract amendment." [D3.S5] | D3.S5
+- case_28 | (email-elena-banerjee, name, ebanerjee@westmark.com) | (email_person_0, addressValue, ebanerjee@westmark.com) [t9] | "Elena Banerjee is employed by Westmark Services Group; their email is ebanerjee@westmark.com." [D1.S2] | D1.S2
+- case_28 | (event-expense-reimbursement, name, Expense reimbursement) | (event_0, eventType, expense reimbursement) [t38] | "The expense reimbursement was initiated by Tomas Whitfield on January 13, 2025 at 12:10 UTC." [D2.S6] | D2.S6
+- case_28 | (location-westmark-office, name, 9635 Maple Avenue, Richmond, VA 23219) | - | - | D1.S7
+- case_28 | (event-account-reconciliation, name, Account reconciliation) | (event_2, eventType, account reconciliation) [t44] | "On 19 January 2025, 13:15 UTC, Luca Reyes initiated the account reconciliation." [D2.S7] | D2.S7
+- case_28 | (account-westmark-6687847403, name, 6687847403) | (acct_company, accountIdentifier, 6687847403) [t29] | "Lakeshore Savings Bank account 6687847403 is registered to Westmark Services Group." [D3.S2] | D3.S2
+- case_28 | (email-tomas-whitfield, name, tomas.whitfield@westmark.com) | (email_person_1, addressValue, tomas.whitfield@westmark.com) [t12] | "Tomas Whitfield is employed by Westmark Services Group; their email is tomas.whitfield@westmark.com." [D1.S3] | D1.S3
+- case_28 | (email-arjun-mendes, name, arjun.mendes@copperfield.com) | (email_person_4, addressValue, arjun.mendes@copperfield.com) [t21] | "Arjun Mendes works for Copperfield Analytics Group and uses the address arjun.mendes@copperfield.com." [D1.S6] | D1.S6
+- case_28 | (email-samuel-okafor, name, samuel.okafor@copperfield.com) | (email_person_3, addressValue, samuel.okafor@copperfield.com) [t18] | "Samuel Okafor works for Copperfield Analytics Group and uses the address samuel.okafor@copperfield.com." [D1.S5] | D1.S5
+- case_28 | (event-refund-request, name, Refund request) | (event_3, eventType, refund request) [t47] | "On 29 January 2025, 13:25 UTC, Elena Banerjee initiated the refund request." [D3.S7] | D3.S7
+- case_28 | (event-audit-review, name, Audit review) | (event_4, eventType, audit review) [t50] | "The audit review was initiated by Elena Banerjee on February 12, 2025 at 12:50 UTC." [D2.S8] | D2.S8
+- case_29 | (silverlake-bank-account, name, 6870452896) | (acct_vendor, accountIdentifier, 6870452896) [t28] | "Silverlake Packaging Co. holds account 6870452896 at Lakeshore Savings Bank." [D1.S10] | D1.S10
+- case_29 | (invoice-submission-event, name, Invoice submission) | (event_1, eventType, invoice submission) [t37] | "On January 23, 2025 at 13:00 UTC, Lena Mendes initiated the invoice submission." [D2.S7] | D2.S7
+- case_29 | (refund-request-event, name, Refund request) | (event_2, eventType, refund request) [t40] | "Mei Kowalski started the refund request on January 29, 2025 at 11:30 UTC." [D2.S8] | D2.S10, D2.S11, D2.S8, D2.S9
+- case_29 | (felix-email, name, felix.fischer@stonebridge.com) | (email_person_1, addressValue, felix.fischer@stonebridge.com) [t11] | "Felix Fischer works for Stonebridge Services Co. and uses the address felix.fischer@stonebridge.com." [D1.S3] | D1.S3, D2.S2
+- case_29 | (irene-email, name, ivance@stonebridge.com) | (email_person_2, addressValue, ivance@stonebridge.com) [t14] | "Irene Vance is employed by Stonebridge Services Co.; their email is ivance@stonebridge.com." [D1.S4] | D1.S4, D2.S1
+- case_29 | (stonebridge-location, name, 8252 Industrial Parkway, Spokane, WA 99201) | - | - | D1.S7
+- case_29 | (silverlake-location, name, 116 Maple Avenue, Raleigh, NC 27601) | - | - | D1.S8
+- case_29 | (email-message, name, Urgent: payment timing) | (email_msg_0, subject, Urgent: payment timing) [t55] | "Subject: Urgent: payment timing" [D2.S3] | D2.S3
+- case_29 | (lena-email, name, lena.mendes@silverlake.com) | (email_person_3, addressValue, lena.mendes@silverlake.com) [t17] | "Lena Mendes is employed by Silverlake Packaging Co.; their email is lena.mendes@silverlake.com." [D1.S5] | D1.S5
+- case_29 | (stonebridge-email, name, mei.kowalski@stonebridge.com) | (email_person_0, addressValue, mei.kowalski@stonebridge.com) [t8] | "Stonebridge Services Co. employs Mei Kowalski, who can be reached at mei.kowalski@stonebridge.com." [D1.S2] | D1.S2
+- case_29 | (stonebridge-bank-account, name, 5837955400) | (acct_company, accountIdentifier, 5837955400) [t25] | "Lakeshore Savings Bank account 5837955400 is registered to Stonebridge Services Co." [D1.S9] | D1.S9
+- case_29 | (felix-bank-account, name, 6253895836) | (acct_insider, accountIdentifier, 6253895836) [t31] | "Account 6253895836 at Lakeshore Savings Bank belongs to Felix Fischer." [D1.S11] | D1.S11
+- case_29 | (vendor-onboarding-event, name, Vendor onboarding) | (event_0, eventType, vendor onboarding) [t34] | "The vendor onboarding was initiated by Mei Kowalski on January 11, 2025 at 16:50 UTC." [D2.S6] | D2.S6
+- case_30 | (event-invoice-submission-initiated, name, Invoice submission initiated) | (event_1, eventType, invoice submission) [t37] | "On 5 August 2025, 17:15 UTC, Kofi Park initiated the invoice submission." [D4.S5] | D4.S5
+- case_30 | (event-account-reconciliation-initiated, name, Account reconciliation initiated) | (event_2, eventType, account reconciliation) [t40] | "The account reconciliation was initiated by Kofi Park on 8 August 2025, 09:15 UTC." [D2.S7] | D2.S7
+- case_30 | (account-9921622374, name, 9921622374) | (acct_company, accountIdentifier, 9921622374) [t25] | "Account 9921622374 at Lakeshore Savings Bank belongs to Silverlake Analytics LLC." [D4.S2] | D4.S2
+- case_30 | (email-message-1, name, Re: banking change request) | (email_msg_0, subject, Re: banking change request) [t59] | "Subject: Re: banking change request" [D2.S3] | D2.S3
+- case_30 | (event-vendor-onboarding-initiated, name, Vendor onboarding initiated) | (event_3, eventType, vendor onboarding) [t43] | "On August 20, 2025 at 12:00 UTC, Arjun Moreau initiated the vendor onboarding." [D4.S7] | D4.S7
+- case_30 | (account-6775312648, name, 6775312648) | (acct_insider, accountIdentifier, 6775312648) [t31] | "Account 6775312648 at Lakeshore Savings Bank belongs to Tomas Okafor." [D4.S4] | D4.S4
+- case_30 | (email-dbanerjee, name, dbanerjee@silverlake.com) | (email_person_1, addressValue, dbanerjee@silverlake.com) [t11] | "Desmond Banerjee is employed by Silverlake Analytics LLC; their email is dbanerjee@silverlake.com." [D1.S3] | D1.S3
+- case_30 | (account-2386670109, name, 2386670109) | (acct_vendor, accountIdentifier, 2386670109) [t28] | "Westmark Fabrication LLC holds account 2386670109 at Lakeshore Savings Bank." [D4.S3] | D4.S3
+- case_30 | (event-bank-detail-change-initiated, name, Bank detail change initiated) | (event_5, eventType, bank detail change) [t49] | "Tomas Okafor started the bank detail change on August 24, 2025 at 10:15 UTC." [D4.S8] | D4.S8
+- case_30 | (email-kpark, name, kpark@silverlake.com) | (email_person_0, addressValue, kpark@silverlake.com) [t8] | "Silverlake Analytics LLC employs Kofi Park, who can be reached at kpark@silverlake.com." [D1.S2] | D1.S2
+- case_30 | (event-wire-transfer-initiated, name, Wire transfer initiated) | (event_4, eventType, wire transfer) [t46] | "Desmond Banerjee started the wire transfer on 22 August 2025, 15:15 UTC." [D2.S8] | D2.S8
+- case_30 | (email-arjunmoreau, name, arjun.moreau@westmark.com) | (email_person_3, addressValue, arjun.moreau@westmark.com) [t17] | "Arjun Moreau is employed by Westmark Fabrication LLC; their email is arjun.moreau@westmark.com." [D1.S5] | D1.S5
+- case_30 | (location-silverlake-office, name, 7328 Market Street, Boise, ID 83702) | - | - | D1.S6
+- case_30 | (event-audit-review-initiated, name, Audit review initiated) | (event_0, eventType, audit review) [t34] | "The audit review was initiated by Desmond Banerjee on August 1, 2025 at 16:50 UTC." [D2.S6] | D2.S6
+
+### duplicate_entity (9)
+
+- case_01 | (event-refund-request-initiated, name, Refund request initiated) | (event_0, eventType, refund request) [t34] | "On 2 May 2025, 09:50 UTC, Nadia Moreau initiated the refund request." [D2.S6] | D2.S6
+- case_01 | (event-refund-request-initiated, eventType, Initiated) | - | - | D2.S6
+- case_02 | (luca-fischer-email, name, lfischer@summitpeak.com) | (email_person_2, addressValue, lfischer@summitpeak.com) [t13] | "Luca Fischer is employed by Summit Peak Freight Group; their email is lfischer@summitpeak.com." [D1.S4] | D1.S4
+- case_02 | (wesley-park-email-account-2, name, wesley.park@oakhaven.com) | (email_person_1, addressValue, wesley.park@oakhaven.com) [t10] | "Wesley Park works for Oakhaven Logistics Co. and uses the address wesley.park@oakhaven.com." [D1.S3] | D1.S3
+- case_02 | (wesley-park-email, name, wesley.park@oakhaven.com) | (email_person_1, addressValue, wesley.park@oakhaven.com) [t10] | "Wesley Park works for Oakhaven Logistics Co. and uses the address wesley.park@oakhaven.com." [D1.S3] | D1.S3
+- case_02 | (sofia-ivanova-email-account, name, sivanova@oakhaven.com) | (email_person_0, addressValue, sivanova@oakhaven.com) [t7] | "Oakhaven Logistics Co. employs Sofia Ivanova, who can be reached at sivanova@oakhaven.com." [D1.S2] | D1.S2
+- case_02 | (sofia-ivanova-email, name, sivanova@oakhaven.com) | (email_person_0, addressValue, sivanova@oakhaven.com) [t7] | "Oakhaven Logistics Co. employs Sofia Ivanova, who can be reached at sivanova@oakhaven.com." [D1.S2] | D1.S2
+- case_02 | (summit-peak-freight, Holds_Account, luca-fischer-email-account-2) | - | - | -
+- case_02 | (oakhaven-logistics, Holds_Account, oakhaven-logistics-email-account) | - | - | -
+
+### invented (137)
+
+- case_01 | (chat-message-1, messageType, Chat) | - | - | D3.S4
+- case_01 | (email-account-nmoreau-oakhaven.com, name, nmoreau@oakhaven.com) | (email_person_2, addressValue, nmoreau@oakhaven.com) [t14] | "Oakhaven Services LLC employs Nadia Moreau, who can be reached at nmoreau@oakhaven.com." [D1.S4] | D1.S4
+- case_01 | (email-account-luca-petrov-oakhaven.com, name, luca.petrov@oakhaven.com) | (email_person_0, addressValue, luca.petrov@oakhaven.com) [t8] | "Luca Petrov works for Oakhaven Services LLC and uses the address luca.petrov@oakhaven.com." [D1.S2] | D1.S2
+- case_01 | (account-1069850329, accountIssuer, Meridian-Trust-Bank) | - | - | D4.S3
+- case_01 | (account-5950398673, accountIssuer, Meridian-Trust-Bank) | - | - | D4.S4, D4.S7
+- case_01 | (email-account-wesley.castillo-oakhaven.com, name, wesley.castillo@oakhaven.com) | (email_person_1, addressValue, wesley.castillo@oakhaven.com) [t11] | "Oakhaven Services LLC employs Wesley Castillo, who can be reached at wesley.castillo@oakhaven.com." [D1.S3] | D1.S3
+- case_01 | (account-3751001456, accountIssuer, Meridian-Trust-Bank) | - | - | D4.S2, D4.S7
+- case_01 | (email-account-oscar.banerjee-redfern.com, name, oscar.banerjee@redfern.com) | (email_person_3, addressValue, oscar.banerjee@redfern.com) [t17] | "Redfern Components Group employs Oscar Banerjee, who can be reached at oscar.banerjee@redfern.com." [D1.S5] | D1.S5
+- case_01 | (chat-message-2, messageType, Chat) | - | - | D3.S5
+- case_01 | (event-funds-transferred, name, Funds transferred) | - | - | D4.S7
+- case_01 | (event-funds-transferred, startTime, 2025-05-02T10:50:00+00:00) | (chat_msg_0, sentTime, 2025-05-02T10:50:00Z) [t59] | "[2025-05-02 10:50 UTC] @oscarb to @lucap: Let's keep this between us until Friday." [D3.S4] | D4.S7
+- case_01 | (event-funds-transferred, eventType, Transferred_To) | - | - | D4.S7
+- case_02 | (luca-email-account, name, lfischer@summitpeak.com) | (email_person_2, addressValue, lfischer@summitpeak.com) [t13] | "Luca Fischer is employed by Summit Peak Freight Group; their email is lfischer@summitpeak.com." [D1.S4] | D1.S4
+- case_03 | (loc-ironleaf-office, name, Ironleaf Services Co. office) | - | - | D1.S8
+- case_03 | (loc-ironleaf-office, country, USA) | - | - | D1.S8
+- case_04 | (ironleaf-office, name, Ironleaf Freight Inc.'s office) | - | - | D2.S6
+- case_04 | (wesley-account, name, wesley.vance@ironleaf.com) | (email_person_2, addressValue, wesley.vance@ironleaf.com) [t13] | "From: wesley.vance@ironleaf.com" [D1.S1] | D1.S1, D2.S4
+- case_04 | (harborline-bank-account, name, Union Ledger Bank account 9208356166) | (acct_company, accountType, bank account) [t68] | "Union Ledger Bank account 9208356166 is registered to Harborline Services Inc." [D4.S2] | D4.S2
+- case_04 | (harborline-office, name, Harborline Services Inc.'s office) | - | - | D1.S9, D3.S8, D4.S7
+- case_04 | (ironleaf-address, name, Ironleaf Freight Inc.'s address) | - | - | D2.S6
+- case_04 | (ironleaf-address, country, USA) | - | - | D2.S6
+- case_04 | (vashworth-account, name, vashworth@harborline.com) | (email_person_0, addressValue, vashworth@harborline.com) [t7] | "To: grace.fischer@harborline.com, vashworth@harborline.com" [D1.S2] | D1.S2, D2.S2
+- case_04 | (ironleaf-bank-account, name, Account 4824951982 at Union Ledger Bank) | - | - | D4.S3
+- case_04 | (harborline-address, name, Harborline Services Inc.'s address) | - | - | D2.S5
+- case_04 | (harborline-address, country, USA) | - | - | D2.S5
+- case_04 | (grace-account, name, grace.fischer@harborline.com) | (email_person_1, addressValue, grace.fischer@harborline.com) [t10] | "To: grace.fischer@harborline.com, vashworth@harborline.com" [D1.S2] | D1.S2, D2.S3
+- case_04 | (expense-reimbursement-event, Located_At, harborline-office) | - | - | D3.S8
+- case_04 | (harborline-bank-account, Transferred_To, ironleaf-bank-account) | - | - | D4.S8
+- case_04 | (ironleaf-freight, Owns_Account, ironleaf-bank-account) | - | - | -
+- case_04 | (harborline-services, Owns_Account, harborline-bank-account) | - | - | D4.S2
+- case_04 | (refund-request-event, Located_At, harborline-office) | - | - | -
+- case_04 | (bank-detail-change-event, Located_At, harborline-office) | - | - | D4.S7
+- case_05 | (person-marcus-whitfield, Authorized, chat-message-1) | - | - | D3.S4
+- case_05 | (person-felix-fischer, Authorized, email-message-1) | - | - | D2.S1
+- case_05 | (person-dana-novak, Authorized, chat-message-2) | - | - | D3.S5
+- case_06 | (copperfield-location, country, USA) | - | - | D1.S6
+- case_07 | (location-spokane-wa, country, USA) | - | - | D2.S7
+- case_08 | (redfern-bank-account, accountIssuer, First-Harbor-Bank) | - | - | D1.S11
+- case_08 | (clearpath-email-account, name, Clearpath email account) | - | - | D1.S2, D1.S3, D1.S4
+- case_08 | (clearpath-bank-account, accountIssuer, First-Harbor-Bank) | - | - | D1.S10
+- case_08 | (finance-question-chat, messageType, chat) | - | - | D3.S4
+- case_08 | (finance-question-chat, from, felixh-chat-handle) | - | - | D3.S4
+- case_08 | (finance-question-chat, to, priyao-chat-handle) | - | - | D3.S4
+- case_08 | (priyao-chat-handle, name, @priyao) | (handle_person_4, accountIdentifier, @priyao) [t58] | "@priyao is Priya Osei." [D3.S3] | D3.S3
+- case_08 | (keep-secret-chat, messageType, chat) | - | - | D3.S6
+- case_08 | (keep-secret-chat, from, felixh-chat-handle) | - | - | D3.S6
+- case_08 | (keep-secret-chat, to, priyao-chat-handle) | - | - | D3.S6
+- case_08 | (felixh-chat-handle, name, @felixh) | (handle_person_0, accountIdentifier, @felixh) [t56] | "@felixh is Felix Haddad." [D3.S2] | D3.S2
+- case_08 | (pushed-through-chat, messageType, chat) | - | - | D3.S5
+- case_08 | (pushed-through-chat, from, priyao-chat-handle) | - | - | D3.S5
+- case_08 | (pushed-through-chat, to, felixh-chat-handle) | - | - | D3.S5
+- case_08 | (felix-bank-account, accountIssuer, First-Harbor-Bank) | - | - | D1.S12
+- case_08 | (redfern-email-account, name, Redfern email account) | - | - | D1.S5, D1.S6
+- case_08 | (felix-haddad, Authorized, finance-question-chat) | - | - | -
+- case_08 | (felix-haddad, Authorized, keep-secret-chat) | - | - | -
+- case_08 | (priya-osei, Authorized, pushed-through-chat) | - | - | -
+- case_11 | (location-oakhaven-office, name, Oakhaven Tooling Ltd. office) | - | - | D1.S9, D3.S9
+- case_11 | (note-d2, name, INTERNAL MEMO: Vendor payment review) | - | - | D2.S1, D2.S10, D2.S11, D2.S12, D2.S13, D2.S14, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7, D2.S8, D2.S9
+- case_11 | (note-d2, text, INTERNAL MEMO: Vendor payment review
+
+Oakhaven Tooling Ltd. employs Na) | - | - | D2.S1, D2.S10, D2.S11, D2.S12, D2.S13, D2.S14, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7, D2.S8, D2.S9
+- case_11 | (org-oakhaven-tooling, Located_At, location-oakhaven-office) | - | - | D1.S9, D3.S9
+- case_12 | (email-message-1, name, Audit prep items (D1)) | - | - | D1.S1, D1.S2, D1.S3, D1.S4
+- case_12 | (location-redfern-office, country, US) | - | - | D2.S5, D3.S10, D3.S7
+- case_12 | (email-message-2, name, Audit prep items (D3)) | - | - | D3.S1, D3.S2, D3.S3, D3.S4
+- case_12 | (memo-message-1, name, Vendor payment review) | - | - | D2.S1, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7, D2.S8, D2.S9
+- case_13 | (chat-message-1, sessionID, finance-ops) | (chat_thread, name, #finance-ops) [t85] | "Chat export: #finance-ops" [D3.S1] | D3.S4
+- case_16 | (email-account-dokafor, name, dokafor@stonebridge.com) | (email_person_1, addressValue, dokafor@stonebridge.com) [t10] | "Dana Okafor works for Stonebridge Supply Ltd. and uses the address dokafor@stonebridge.com." [D2.S3] | D2.S3
+- case_16 | (location-stonebridge, country, USA) | - | - | D2.S5
+- case_16 | (email-account-hwhitfield, name, hwhitfield@cedarridge.com) | (email_person_2, addressValue, hwhitfield@cedarridge.com) [t13] | "To: hwhitfield@cedarridge.com" [D1.S2] | D2.S4
+- case_16 | (email-account-tcastillo, name, tcastillo@stonebridge.com) | (email_person_0, addressValue, tcastillo@stonebridge.com) [t7] | "From: tcastillo@stonebridge.com" [D1.S1] | D2.S2
+- case_17 | (marcus-brennan, Reports_To, julian-lindqvist) | - | - | D1.S6
+- case_18 | (email-account-rosa, name, rosa.vance@summitpeak.com) | (email_person_1, addressValue, rosa.vance@summitpeak.com) [t12] | "Summit Peak Packaging Inc. employs Rosa Vance, who can be reached at rosa.vance@summitpeak.com." [D2.S3] | D2.S3
+- case_18 | (email-account-marcus, name, mholloway@summitpeak.com) | (email_person_2, addressValue, mholloway@summitpeak.com) [t15] | "Marcus Holloway works for Summit Peak Packaging Inc. and uses the address mholloway@summitpeak.com." [D2.S4] | D2.S4
+- case_18 | (loc-summit-peak-office, country, US) | - | - | D2.S7
+- case_18 | (email-account-owen, name, owen.novak@summitpeak.com) | (email_person_0, addressValue, owen.novak@summitpeak.com) [t9] | "To: owen.novak@summitpeak.com" [D1.S2] | D2.S2
+- case_18 | (email-account-chaddad, name, chaddad@silverlake.com) | (email_person_4, addressValue, chaddad@silverlake.com) [t21] | "Clara Haddad is employed by Silverlake Consulting LLC; their email is chaddad@silverlake.com." [D2.S6] | D2.S6
+- case_18 | (email-account-sabara, name, sabara@silverlake.com) | (email_person_3, addressValue, sabara@silverlake.com) [t18] | "From: sabara@silverlake.com" [D1.S1] | D2.S5
+- case_19 | (account-kofi-kowalski-email, name, kofi.kowalski@bluegate.com) | (email_person_1, addressValue, kofi.kowalski@bluegate.com) [t11] | "From: kofi.kowalski@bluegate.com" [D1.S1] | D2.S3
+- case_19 | (event-funds-transfer, name, funds transfer) | - | - | D4.S7
+- case_19 | (note-d4, name, Incident summary) | - | - | D4.S1, D4.S2, D4.S3, D4.S4, D4.S5, D4.S6, D4.S7, D4.S8
+- case_19 | (note-d4, text, Incident summary
+
+Pinecrest National Bank account 3811034105 is regist) | (event_2, eventType, bank detail change) [t40] | "Kofi Kowalski started the bank detail change on 25 April 2025, 09:45 UTC." [D4.S5] | D4.S1, D4.S2, D4.S3, D4.S4, D4.S5, D4.S6, D4.S7, D4.S8
+- case_19 | (account-mnovak-email, name, mnovak@bluegate.com) | (email_person_2, addressValue, mnovak@bluegate.com) [t14] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | D2.S4
+- case_19 | (account-hfischer-email, name, hfischer@westmark.com) | (email_person_3, addressValue, hfischer@westmark.com) [t17] | "Hector Fischer works for Westmark Consulting LLC and uses the address hfischer@westmark.com." [D2.S5] | D2.S5
+- case_19 | (account-isorensen-email, name, isorensen@bluegate.com) | (email_person_0, addressValue, isorensen@bluegate.com) [t8] | "To: mnovak@bluegate.com, isorensen@bluegate.com" [D1.S2] | D2.S2
+- case_19 | (note-d2, name, INTERNAL MEMO: Vendor payment review) | - | - | D2.S1, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7
+- case_19 | (note-d2, text, INTERNAL MEMO: Vendor payment review
+
+Irene Sorensen is employed by Bl) | - | - | D2.S1, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7
+- case_20 | (loc-oakhaven, country, USA) | - | - | D2.S7
+- case_20 | (loc-stonebridge, country, USA) | - | - | D2.S8
+- case_20 | (email-msg-d1, Communicated_With, person-hannah) | - | - | D1.S1, D1.S2
+- case_20 | (email-msg-d3, Communicated_With, person-owen) | - | - | D3.S1, D3.S2
+- case_21 | (hcastillo-account, name, hcastillo@oakhaven.com) | (email_person_2, addressValue, hcastillo@oakhaven.com) [t14] | "To: hcastillo@oakhaven.com" [D1.S2] | D2.S4
+- case_21 | (memo-1, name, INTERNAL MEMO: Vendor payment review) | - | - | D2.S1, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7
+- case_21 | (memo-1, text, Andre Petrov works for Oakhaven Logistics Inc. and uses the address ap) | - | - | D2.S1, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7
+- case_21 | (maya-account, name, maya.quinn@oakhaven.com) | (email_person_1, addressValue, maya.quinn@oakhaven.com) [t11] | "From: maya.quinn@oakhaven.com" [D1.S1] | D2.S3
+- case_21 | (report-1, name, Incident summary) | - | - | D4.S1, D4.S2, D4.S3, D4.S4, D4.S5, D4.S6
+- case_21 | (report-1, text, Oakhaven Logistics Inc. holds account 2616431031 at Granite Federal Cr) | (event_2, eventType, account reconciliation) [t37] | "Victor Haddad started the account reconciliation on April 25, 2025 at 14:25 UTC." [D4.S4] | D4.S1, D4.S2, D4.S3, D4.S4, D4.S5, D4.S6
+- case_21 | (apetrov-account, name, apetrov@oakhaven.com) | (email_person_0, addressValue, apetrov@oakhaven.com) [t8] | "Andre Petrov works for Oakhaven Logistics Inc. and uses the address apetrov@oakhaven.com." [D2.S2] | D2.S2
+- case_21 | (victor-account, name, victor.haddad@bluegate.com) | (email_person_3, addressValue, victor.haddad@bluegate.com) [t17] | "Victor Haddad works for Bluegate Distribution LLC and uses the address victor.haddad@bluegate.com." [D2.S5] | D2.S5
+- case_22 | (account-irene-email, name, isorensen@northwind.com) | (email_person_1, addressValue, isorensen@northwind.com) [t11] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | D2.S3
+- case_22 | (account-marcus-email, name, marcus.abara@harborline.com) | (email_person_3, addressValue, marcus.abara@harborline.com) [t17] | "From: marcus.abara@harborline.com" [D1.S1] | D2.S5
+- case_22 | (account-yara-email, name, yivanova@northwind.com) | (email_person_0, addressValue, yivanova@northwind.com) [t8] | "Yara Ivanova is employed by Northwind Analytics LLC; their email is yivanova@northwind.com." [D2.S2] | D2.S2
+- case_22 | (account-tomas-email, name, tomas.vance@northwind.com) | (email_person_2, addressValue, tomas.vance@northwind.com) [t14] | "To: isorensen@northwind.com, tomas.vance@northwind.com" [D1.S2] | D2.S4
+- case_24 | (memo-1, name, INTERNAL MEMO: Vendor payment review) | - | - | D2.S1, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7, D2.S8, D2.S9
+- case_24 | (memo-1, text, INTERNAL MEMO: Vendor payment review
+
+Andre Okafor is employed by Clea) | (acct_company, accountType, bank account) [t54] | "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co." [D2.S6] | D2.S1, D2.S2, D2.S3, D2.S4, D2.S5, D2.S6, D2.S7, D2.S8, D2.S9
+- case_24 | (email-account-andre-okafor, name, andre.okafor@clearpath.com) | (email_person_0, addressValue, andre.okafor@clearpath.com) [t7] | "From: andre.okafor@clearpath.com" [D1.S1] | D2.S2
+- case_24 | (email-account-desmond-kowalski, name, desmond.kowalski@westmark.com) | (email_person_2, addressValue, desmond.kowalski@westmark.com) [t13] | "Desmond Kowalski is employed by Westmark Logistics Inc.; their email is desmond.kowalski@westmark.com." [D2.S4] | D2.S4
+- case_24 | (email-account-yara-fischer, name, yfischer@clearpath.com) | (email_person_1, addressValue, yfischer@clearpath.com) [t10] | "To: yfischer@clearpath.com" [D1.S2] | D2.S3
+- case_24 | (location-omaha, country, US) | - | - | D2.S5
+- case_25 | (chat-finance-ops, name, #finance-ops) | (chat_thread, name, #finance-ops) [t80] | "Chat export: #finance-ops" [D3.S1] | D3.S1
+- case_25 | (person-kofi, Participated_In, chat-finance-ops) | - | - | D3.S3
+- case_25 | (person-meimei, Participated_In, chat-finance-ops) | - | - | D3.S2
+- case_25 | (email-msg-1, Authorized, event-contract-amendment) | - | - | D2.S1
+- case_26 | (email-tomas, name, tomass.quinn@silverlake.com) | - | - | D2.S2
+- case_26 | (email-tomas, addressValue, tomass.quinn@silverlake.com) | - | - | D2.S2
+- case_26 | (email-msg-3, to, email-tomas) | - | - | D3.S1, D3.S2, D3.S3, D3.S4
+- case_26 | (account-silverlake, name, Account 1921542892) | - | - | D4.S2
+- case_26 | (test-person, name, Test Person) | - | - | D1.S1
+- case_26 | (account-stonebridge, name, Account 6061433726) | - | - | D4.S3
+- case_26 | (loc-silverlake-office, name, Silverlake Fabrication Co. office) | - | - | D2.S5
+- case_26 | (test-person, Employed_By, org-silverlake) | - | - | D1.S1
+- case_26 | (event-refund-request, Located_At, loc-silverlake-office) | - | - | -
+- case_26 | (person-tomas, Holds_Account, email-tomas) | - | - | -
+- case_26 | (org-silverlake, Located_At, loc-silverlake-office) | - | - | -
+- case_26 | (event-bank-detail-change, Located_At, loc-silverlake-office) | - | - | -
+- case_27 | (email-account-yivanova, name, yivanova@harborline.com) | (email_person_2, addressValue, yivanova@harborline.com) [t13] | "From: yivanova@harborline.com" [D1.S1] | D2.S4
+- case_27 | (location-clearpath-office, name, Clearpath Tooling Inc. office) | - | - | D3.S10
+- case_27 | (email-account-kofi-quinn, name, kofi.quinn@clearpath.com) | (email_person_0, addressValue, kofi.quinn@clearpath.com) [t7] | "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com" [D1.S2] | D2.S2
+- case_27 | (email-account-owen-castillo, name, owen.castillo@clearpath.com) | (email_person_1, addressValue, owen.castillo@clearpath.com) [t10] | "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com" [D1.S2] | D2.S3
+- case_29 | (lena-email-account, name, lena.mendes@silverlake.com) | (email_person_3, addressValue, lena.mendes@silverlake.com) [t17] | "Lena Mendes is employed by Silverlake Packaging Co.; their email is lena.mendes@silverlake.com." [D1.S5] | D1.S5
+- case_29 | (stonebridge-location, country, USA) | - | - | D1.S7
+- case_29 | (silverlake-location, country, USA) | - | - | D1.S8
+- case_29 | (felix-email-account, name, felix.fischer@stonebridge.com) | (email_person_1, addressValue, felix.fischer@stonebridge.com) [t11] | "Felix Fischer works for Stonebridge Services Co. and uses the address felix.fischer@stonebridge.com." [D1.S3] | D1.S3
+- case_29 | (stonebridge-email-account, name, mei.kowalski@stonebridge.com) | (email_person_0, addressValue, mei.kowalski@stonebridge.com) [t8] | "Stonebridge Services Co. employs Mei Kowalski, who can be reached at mei.kowalski@stonebridge.com." [D1.S2] | D1.S2
+- case_29 | (irene-email-account, name, ivance@stonebridge.com) | (email_person_2, addressValue, ivance@stonebridge.com) [t14] | "Irene Vance is employed by Stonebridge Services Co.; their email is ivance@stonebridge.com." [D1.S4] | D1.S4
+- case_30 | (email-arjunmoreau-account, name, arjun.moreau@westmark.com) | (email_person_3, addressValue, arjun.moreau@westmark.com) [t17] | "Arjun Moreau is employed by Westmark Fabrication LLC; their email is arjun.moreau@westmark.com." [D1.S5] | D2.S2
+- case_30 | (email-tomasokafor, name, tomask.okafor@silverlake.com) | - | - | D1.S4
+- case_30 | (email-kpark-account, name, kpark@silverlake.com) | (email_person_0, addressValue, kpark@silverlake.com) [t8] | "Silverlake Analytics LLC employs Kofi Park, who can be reached at kpark@silverlake.com." [D1.S2] | D2.S1
+- case_30 | (person-tomas-okafor, Holds_Account, email-tomasokafor) | - | - | D1.S4
+

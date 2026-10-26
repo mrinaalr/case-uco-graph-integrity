@@ -1,0 +1,11 @@
+[D2.S1] From: mei.banerjee@harborline.com
+[D2.S2] To: slindqvist@stonebridge.com, kofi.reyes@stonebridge.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Fri, 06 Jun 2025 16:25:00 +0000
+
+[D2.S5] Hi Sofia,
+
+[D2.S6] Sofia Lindqvist started the payment approval on 16 May 2025, 16:00 UTC. [D2.S7] The payment approval happened at Stonebridge Supply Group's office. [D2.S8] The contract amendment was initiated by Mei Banerjee on May 19, 2025 at 09:45 UTC. [D2.S9] Kofi Reyes started the refund request on May 20, 2025 at 16:45 UTC. [D2.S10] On May 27, 2025 at 13:45 UTC, Mei Banerjee initiated the vendor onboarding. [D2.S11] Mei Banerjee started the expense reimbursement on 28 May 2025, 17:10 UTC. [D2.S12] Sofia Lindqvist was involved in the expense reimbursement as well. [D2.S13] Mei Banerjee started the audit review on 2 June 2025, 10:30 UTC. [D2.S14] The invoice submission was initiated by Mei Banerjee on June 5, 2025 at 16:25 UTC. [D2.S15] Kofi Reyes started the wire transfer on 6 June 2025, 14:25 UTC.
+
+[D2.S16] Thanks,
+[D2.S17] Mei

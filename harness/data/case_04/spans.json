@@ -1,0 +1,495 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 31,
+  "text": "From: wesley.vance@ironleaf.com",
+  "tids": [
+   "t51",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 32,
+  "end": 90,
+  "text": "To: grace.fischer@harborline.com, vashworth@harborline.com",
+  "tids": [
+   "t52",
+   "t53",
+   "t60",
+   "t61",
+   "t7",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 91,
+  "end": 122,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 123,
+  "end": 160,
+  "text": "Date: Sun, 09 Mar 2025 18:50:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 162,
+  "end": 171,
+  "text": "Hi Grace,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 173,
+  "end": 246,
+  "text": "Victor Ashworth started the refund request on March 9, 2025 at 16:50 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 247,
+  "end": 290,
+  "text": "Wesley Vance authorized the refund request.",
+  "tids": [
+   "t39",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 291,
+  "end": 348,
+  "text": "Grace Fischer was involved in the refund request as well.",
+  "tids": [
+   "t42",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 349,
+  "end": 414,
+  "text": "The refund request happened at Harborline Services Inc.'s office.",
+  "tids": [
+   "t43",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 416,
+  "end": 423,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 424,
+  "end": 430,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 135,
+  "text": "Victor Ashworth is employed by Harborline Services Inc.; their email is vashworth@harborline.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 235,
+  "text": "Grace Fischer is employed by Harborline Services Inc.; their email is grace.fischer@harborline.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t64",
+   "t65"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 236,
+  "end": 328,
+  "text": "Wesley Vance is employed by Ironleaf Freight Inc.; their email is wesley.vance@ironleaf.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t66",
+   "t67",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 330,
+  "end": 404,
+  "text": "Harborline Services Inc. is based at 1589 Lakeview Road, Albany, NY 12207.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 405,
+  "end": 473,
+  "text": "Ironleaf Freight Inc. is based at 879 Main Street, Dayton, OH 45402.",
+  "tids": [
+   "t49",
+   "t45",
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 475,
+  "end": 538,
+  "text": "Grace Fischer had been in contact with Wesley Vance throughout.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_1",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 540,
+  "end": 574,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 31,
+  "text": "From: wesley.vance@ironleaf.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 32,
+  "end": 64,
+  "text": "To: grace.fischer@harborline.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 65,
+  "end": 90,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 91,
+  "end": 128,
+  "text": "Date: Mon, 10 Mar 2025 18:00:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 130,
+  "end": 139,
+  "text": "Hi Grace,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 141,
+  "end": 219,
+  "text": "Victor Ashworth started the expense reimbursement on 10 March 2025, 16:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 220,
+  "end": 270,
+  "text": "Wesley Vance authorized the expense reimbursement.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 271,
+  "end": 347,
+  "text": "The expense reimbursement took place at the Harborline Services Inc. office.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 349,
+  "end": 356,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 357,
+  "end": 363,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 96,
+  "text": "Union Ledger Bank account 9208356166 is registered to Harborline Services Inc.",
+  "tids": [
+   "t22",
+   "t23",
+   "t68",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 97,
+  "end": 169,
+  "text": "Account 4824951982 at Union Ledger Bank belongs to Ironleaf Freight Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t69",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 171,
+  "end": 258,
+  "text": "The bank detail change was initiated by Victor Ashworth on March 14, 2025 at 14:10 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 259,
+  "end": 318,
+  "text": "Approval for the bank detail change came from Wesley Vance.",
+  "tids": [
+   "t38"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 319,
+  "end": 374,
+  "text": "Grace Fischer also took part in the bank detail change.",
+  "tids": [
+   "t36"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 375,
+  "end": 444,
+  "text": "The bank detail change happened at Harborline Services Inc.'s office.",
+  "tids": [
+   "t37"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 445,
+  "end": 503,
+  "text": "Funds moved from account 9208356166 to account 4824951982.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 505,
+  "end": 553,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

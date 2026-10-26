@@ -1,0 +1,432 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Sofia Lindqvist works for Stonebridge Supply Group and uses the address slindqvist@stonebridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t70",
+   "t71",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 232,
+  "text": "Kofi Reyes is employed by Stonebridge Supply Group; their email is kofi.reyes@stonebridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t72",
+   "t73",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 331,
+  "text": "Mei Banerjee is employed by Harborline Packaging Inc.; their email is mei.banerjee@harborline.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t74",
+   "t75",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 333,
+  "end": 409,
+  "text": "Stonebridge Supply Group operates from 9623 Market Street, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 411,
+  "end": 490,
+  "text": "Union Ledger Bank account 9698080226 is registered to Stonebridge Supply Group.",
+  "tids": [
+   "t22",
+   "t23",
+   "t76",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 491,
+  "end": 563,
+  "text": "Harborline Packaging Inc. holds account 7347335891 at Union Ledger Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t77",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 565,
+  "end": 613,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: mei.banerjee@harborline.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 92,
+  "text": "To: slindqvist@stonebridge.com, kofi.reyes@stonebridge.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t78",
+   "t79"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 133,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 171,
+  "text": "Date: Fri, 06 Jun 2025 16:25:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 173,
+  "end": 182,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 184,
+  "end": 255,
+  "text": "Sofia Lindqvist started the payment approval on 16 May 2025, 16:00 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 256,
+  "end": 323,
+  "text": "The payment approval happened at Stonebridge Supply Group's office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 324,
+  "end": 406,
+  "text": "The contract amendment was initiated by Mei Banerjee on May 19, 2025 at 09:45 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 407,
+  "end": 474,
+  "text": "Kofi Reyes started the refund request on May 20, 2025 at 16:45 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 475,
+  "end": 550,
+  "text": "On May 27, 2025 at 13:45 UTC, Mei Banerjee initiated the vendor onboarding.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 551,
+  "end": 624,
+  "text": "Mei Banerjee started the expense reimbursement on 28 May 2025, 17:10 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 625,
+  "end": 691,
+  "text": "Sofia Lindqvist was involved in the expense reimbursement as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_0",
+   "event_4"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 692,
+  "end": 756,
+  "text": "Mei Banerjee started the audit review on 2 June 2025, 10:30 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 757,
+  "end": 839,
+  "text": "The invoice submission was initiated by Mei Banerjee on June 5, 2025 at 16:25 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 840,
+  "end": 903,
+  "text": "Kofi Reyes started the wire transfer on 6 June 2025, 14:25 UTC.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_7",
+   "person_1"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 905,
+  "end": 912,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 913,
+  "end": 916,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t80"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 48,
+  "text": "@meib is Mei Banerjee.",
+  "tids": [
+   "t52",
+   "t51"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 49,
+  "end": 70,
+  "text": "@kofir is Kofi Reyes.",
+  "tids": [
+   "t54",
+   "t53"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 71,
+  "end": 138,
+  "text": "[2025-05-16 17:00 UTC] @meib to @kofir: Did the bank call back yet?",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 139,
+  "end": 224,
+  "text": "[2025-05-16 17:07 UTC] @kofir to @meib: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t66",
+   "t67",
+   "t68",
+   "t69",
+   "t81"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_2"
+  ]
+ }
+}

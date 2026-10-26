@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Yara Ivanova is employed by Northwind Analytics LLC; their email is yivanova@northwind.com. [D2.S3] Northwind Analytics LLC employs Irene Sorensen, who can be reached at isorensen@northwind.com. [D2.S4] Tomas Vance is employed by Northwind Analytics LLC; their email is tomas.vance@northwind.com. [D2.S5] Marcus Abara is employed by Harborline Fabrication LLC; their email is marcus.abara@harborline.com.
+
+[D2.S6] Irene Sorensen's manager is Yara Ivanova.
+
+[D2.S7] Northwind Analytics LLC is based at 8532 Main Street, Dayton, OH 45402. [D2.S8] Harborline Fabrication LLC operates from 6481 Industrial Parkway, Omaha, NE 68102.
+
+[D2.S9] More detail will follow once records are pulled.

@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Owen Novak is employed by Summit Peak Packaging Inc.; their email is owen.novak@summitpeak.com. [D2.S3] Summit Peak Packaging Inc. employs Rosa Vance, who can be reached at rosa.vance@summitpeak.com. [D2.S4] Marcus Holloway works for Summit Peak Packaging Inc. and uses the address mholloway@summitpeak.com. [D2.S5] Sofia Abara works for Silverlake Consulting LLC and uses the address sabara@silverlake.com. [D2.S6] Clara Haddad is employed by Silverlake Consulting LLC; their email is chaddad@silverlake.com.
+
+[D2.S7] The offices of Summit Peak Packaging Inc. are at 653 Market Street, Madison, WI 53703.
+
+[D2.S8] Account 2622357143 at Granite Federal Credit Union belongs to Summit Peak Packaging Inc. [D2.S9] Granite Federal Credit Union account 6144966603 is registered to Silverlake Consulting LLC. [D2.S10] Account 7594766430 at Granite Federal Credit Union belongs to Rosa Vance.
+
+[D2.S11] This summary reflects records available to date.

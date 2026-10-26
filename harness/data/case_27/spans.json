@@ -1,0 +1,470 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 29,
+  "text": "From: yivanova@harborline.com",
+  "tids": [
+   "t56",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 30,
+  "end": 87,
+  "text": "To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com",
+  "tids": [
+   "t57",
+   "t58",
+   "t65",
+   "t66",
+   "t7",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 88,
+  "end": 113,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 114,
+  "end": 151,
+  "text": "Date: Sat, 11 Oct 2025 12:10:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 153,
+  "end": 161,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 163,
+  "end": 239,
+  "text": "Yara Ivanova started the bank detail change on 25 September 2025, 14:25 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 240,
+  "end": 298,
+  "text": "Kofi Quinn was involved in the bank detail change as well.",
+  "tids": [
+   "t45",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 299,
+  "end": 382,
+  "text": "On 27 September 2025, 17:00 UTC, Owen Castillo initiated the expense reimbursement.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35",
+   "t5"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 383,
+  "end": 433,
+  "text": "Yara Ivanova authorized the expense reimbursement.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 434,
+  "end": 520,
+  "text": "The invoice submission was initiated by Yara Ivanova on October 11, 2025 at 10:10 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 522,
+  "end": 529,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 530,
+  "end": 534,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 128,
+  "text": "Kofi Quinn works for Clearpath Tooling Inc. and uses the address kofi.quinn@clearpath.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t67",
+   "t68",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 225,
+  "text": "Owen Castillo works for Clearpath Tooling Inc. and uses the address owen.castillo@clearpath.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t69",
+   "t70"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 320,
+  "text": "Harborline Consulting LLC employs Yara Ivanova, who can be reached at yivanova@harborline.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t71",
+   "t72",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 322,
+  "end": 394,
+  "text": "Clearpath Tooling Inc. is based at 2969 Market Street, Albany, NY 12207.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 395,
+  "end": 467,
+  "text": "Harborline Consulting LLC is based at 979 Main Street, Tucson, AZ 85701.",
+  "tids": [
+   "t52",
+   "t48",
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 469,
+  "end": 538,
+  "text": "Clearpath Tooling Inc. holds account 8561434330 at Union Ledger Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t73",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 539,
+  "end": 611,
+  "text": "Harborline Consulting LLC holds account 9642990257 at Union Ledger Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t74",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 613,
+  "end": 661,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 29,
+  "text": "From: yivanova@harborline.com",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 30,
+  "end": 61,
+  "text": "To: owen.castillo@clearpath.com",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 62,
+  "end": 98,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Tue, 21 Oct 2025 13:00:00 +0000",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 138,
+  "end": 146,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 148,
+  "end": 221,
+  "text": "Kofi Quinn started the vendor onboarding on 25 September 2025, 15:15 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 222,
+  "end": 282,
+  "text": "Owen Castillo was involved in the vendor onboarding as well.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 283,
+  "end": 358,
+  "text": "The wire transfer was initiated by Kofi Quinn on 7 October 2025, 09:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 359,
+  "end": 408,
+  "text": "Yara Ivanova also took part in the wire transfer.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 409,
+  "end": 475,
+  "text": "The wire transfer took place at the Clearpath Tooling Inc. office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 476,
+  "end": 548,
+  "text": "On 21 October 2025, 11:00 UTC, Owen Castillo initiated the audit review.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 549,
+  "end": 603,
+  "text": "Yara Ivanova was involved in the audit review as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "event_5"
+  ]
+ },
+ "D3.S13": {
+  "doc_id": "D3",
+  "start": 605,
+  "end": 612,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S14": {
+  "doc_id": "D3",
+  "start": 613,
+  "end": 617,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ }
+}

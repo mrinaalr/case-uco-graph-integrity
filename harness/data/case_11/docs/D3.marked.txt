@@ -1,0 +1,11 @@
+[D3.S1] From: aivanova@cedarridge.com
+[D3.S2] To: nadia.fischer@oakhaven.com
+[D3.S3] Subject: Re: banking change request
+[D3.S4] Date: Fri, 14 Nov 2025 16:00:00 +0000
+
+[D3.S5] Hi Nadia,
+
+[D3.S6] Nadia Fischer started the bank detail change on November 11, 2025 at 15:15 UTC. [D3.S7] Tomas Quinn was involved in the bank detail change as well. [D3.S8] On 14 November 2025, 14:00 UTC, Tomas Quinn initiated the invoice submission. [D3.S9] The invoice submission took place at the Oakhaven Tooling Ltd. office.
+
+[D3.S10] Thanks,
+[D3.S11] Arjun

@@ -1,0 +1,11 @@
+From: ivance@stonebridge.com
+To: felix.fischer@stonebridge.com, mei.kowalski@stonebridge.com
+Subject: Urgent: payment timing
+Date: Wed, 29 Jan 2025 13:30:00 +0000
+
+Hi Felix,
+
+The vendor onboarding was initiated by Mei Kowalski on January 11, 2025 at 16:50 UTC. On January 23, 2025 at 13:00 UTC, Lena Mendes initiated the invoice submission. Mei Kowalski started the refund request on January 29, 2025 at 11:30 UTC. Lena Mendes authorized the refund request. Irene Vance also took part in the refund request. The refund request happened at Stonebridge Services Co.'s office.
+
+Thanks,
+Irene

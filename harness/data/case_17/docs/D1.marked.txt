@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Redfern Consulting Co. employs Andre Osei, who can be reached at andre.osei@redfern.com. [D1.S3] Nadia Delgado works for Redfern Consulting Co. and uses the address ndelgado@redfern.com. [D1.S4] Desmond Kowalski works for Redfern Consulting Co. and uses the address desmond.kowalski@redfern.com. [D1.S5] Julian Lindqvist is employed by Westmark Fabrication Inc.; their email is jlindqvist@westmark.com. [D1.S6] Marcus Brennan works for Westmark Fabrication Inc. and uses the address mbrennan@westmark.com.
+
+[D1.S7] Nadia Delgado's manager is Andre Osei.
+
+[D1.S8] Redfern Consulting Co. is based at 6004 Riverside Boulevard, Spokane, WA 99201.
+
+[D1.S9] Redfern Consulting Co. holds account 1310102192 at Pinecrest National Bank. [D1.S10] Westmark Fabrication Inc. holds account 6545042960 at Pinecrest National Bank. [D1.S11] Nadia Delgado holds account 3598599727 at Pinecrest National Bank.
+
+[D1.S12] This summary reflects records available to date.

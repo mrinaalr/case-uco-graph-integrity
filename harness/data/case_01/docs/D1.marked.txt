@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Luca Petrov works for Oakhaven Services LLC and uses the address luca.petrov@oakhaven.com. [D1.S3] Oakhaven Services LLC employs Wesley Castillo, who can be reached at wesley.castillo@oakhaven.com. [D1.S4] Oakhaven Services LLC employs Nadia Moreau, who can be reached at nmoreau@oakhaven.com. [D1.S5] Redfern Components Group employs Oscar Banerjee, who can be reached at oscar.banerjee@redfern.com.
+
+[D1.S6] Wesley Castillo's manager is Luca Petrov.
+
+[D1.S7] Oakhaven Services LLC operates from 5868 Market Street, Omaha, NE 68102.
+
+[D1.S8] More detail will follow once records are pulled.

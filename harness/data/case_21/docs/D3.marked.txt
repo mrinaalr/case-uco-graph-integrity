@@ -1,0 +1,11 @@
+[D3.S1] From: hcastillo@oakhaven.com
+[D3.S2] To: victor.haddad@bluegate.com
+[D3.S3] Subject: Re: banking change request
+[D3.S4] Date: Mon, 05 May 2025 18:45:00 +0000
+
+[D3.S5] Hi Victor,
+
+[D3.S6] On 15 April 2025, 16:00 UTC, Victor Haddad initiated the contract amendment. [D3.S7] Maya Quinn authorized the contract amendment. [D3.S8] Hector Castillo was involved in the contract amendment as well. [D3.S9] On 28 April 2025, 16:45 UTC, Hector Castillo initiated the expense reimbursement. [D3.S10] Approval for the expense reimbursement came from Andre Petrov. [D3.S11] Victor Haddad also took part in the expense reimbursement. [D3.S12] Andre Petrov started the bank detail change on 5 May 2025, 16:45 UTC. [D3.S13] Approval for the bank detail change came from Hector Castillo.
+
+[D3.S14] Thanks,
+[D3.S15] Hector

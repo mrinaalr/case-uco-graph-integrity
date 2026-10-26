@@ -1,0 +1,337 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 126,
+  "text": "Redfern Consulting Co. employs Andre Osei, who can be reached at andre.osei@redfern.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t55",
+   "t56",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 127,
+  "end": 216,
+  "text": "Nadia Delgado works for Redfern Consulting Co. and uses the address ndelgado@redfern.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t57",
+   "t58",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 217,
+  "end": 317,
+  "text": "Desmond Kowalski works for Redfern Consulting Co. and uses the address desmond.kowalski@redfern.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t59",
+   "t60",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 416,
+  "text": "Julian Lindqvist is employed by Westmark Fabrication Inc.; their email is jlindqvist@westmark.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t61",
+   "t62",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 417,
+  "end": 511,
+  "text": "Marcus Brennan works for Westmark Fabrication Inc. and uses the address mbrennan@westmark.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t63",
+   "t64",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 513,
+  "end": 551,
+  "text": "Nadia Delgado's manager is Andre Osei.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 553,
+  "end": 632,
+  "text": "Redfern Consulting Co. is based at 6004 Riverside Boulevard, Spokane, WA 99201.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 634,
+  "end": 709,
+  "text": "Redfern Consulting Co. holds account 1310102192 at Pinecrest National Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t65",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 710,
+  "end": 788,
+  "text": "Westmark Fabrication Inc. holds account 6545042960 at Pinecrest National Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t66",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 789,
+  "end": 855,
+  "text": "Nadia Delgado holds account 3598599727 at Pinecrest National Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t67",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 857,
+  "end": 905,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: andre.osei@redfern.com",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 56,
+  "text": "To: jlindqvist@westmark.com",
+  "tids": [
+   "t52",
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 57,
+  "end": 90,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 91,
+  "end": 128,
+  "text": "Date: Wed, 16 Jul 2025 15:15:00 +0000",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 140,
+  "text": "Hi Julian,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 142,
+  "end": 210,
+  "text": "Desmond Kowalski started the audit review on 3 July 2025, 15:15 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 211,
+  "end": 291,
+  "text": "On July 8, 2025 at 17:25 UTC, Nadia Delgado initiated the expense reimbursement.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 292,
+  "end": 367,
+  "text": "On 16 July 2025, 09:30 UTC, Nadia Delgado initiated the bank detail change.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 368,
+  "end": 444,
+  "text": "On 16 July 2025, 13:15 UTC, Marcus Brennan initiated the invoice submission.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 446,
+  "end": 453,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 454,
+  "end": 459,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ }
+}

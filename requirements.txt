@@ -1,0 +1,8 @@
+# SDK under test (submodule at sdk/, tag v1.33.0) and its MCP server
+-r sdk/requirements.txt
+-r sdk/mcp_server/requirements.txt
+-e sdk/python
+
+# Harness
+openai==3.37.0
+scipy==1.18.1

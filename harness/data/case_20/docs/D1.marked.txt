@@ -1,0 +1,11 @@
+[D1.S1] From: hhaddad@oakhaven.com
+[D1.S2] To: mei.brennan@oakhaven.com, kofi.holloway@stonebridge.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Mon, 12 May 2025 14:25:00 +0000
+
+[D1.S5] Hi Mei,
+
+[D1.S6] On 14 April 2025, 11:50 UTC, Mei Brennan initiated the account reconciliation. [D1.S7] Wesley Osei started the wire transfer on 12 May 2025, 12:25 UTC. [D1.S8] Kofi Holloway also took part in the wire transfer.
+
+[D1.S9] Thanks,
+[D1.S10] Hannah

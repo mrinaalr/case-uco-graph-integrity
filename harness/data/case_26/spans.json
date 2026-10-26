@@ -1,0 +1,455 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "From: clara.holloway@stonebridge.com",
+  "tids": [
+   "t50",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 37,
+  "end": 65,
+  "text": "To: dbanerjee@silverlake.com",
+  "tids": [
+   "t51",
+   "t58",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 66,
+  "end": 102,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 103,
+  "end": 140,
+  "text": "Date: Fri, 05 Sep 2025 15:25:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 142,
+  "end": 150,
+  "text": "Hi Dana,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 152,
+  "end": 231,
+  "text": "The payment approval was initiated by Tomas Quinn on 10 August 2025, 16:00 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 314,
+  "text": "On September 5, 2025 at 13:25 UTC, Dana Banerjee initiated the invoice submission.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38",
+   "t5"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 315,
+  "end": 377,
+  "text": "Tomas Quinn had been in contact with Dana Banerjee throughout.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_0",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 379,
+  "end": 386,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 387,
+  "end": 392,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 135,
+  "text": "Tomas Quinn works for Silverlake Fabrication Co. and uses the address tomas.quinn@silverlake.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t59",
+   "t60",
+   "t1",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 233,
+  "text": "Silverlake Fabrication Co. employs Dana Banerjee, who can be reached at dbanerjee@silverlake.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t61",
+   "t62"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 234,
+  "end": 335,
+  "text": "Clara Holloway is employed by Stonebridge Freight LLC; their email is clara.holloway@stonebridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t63",
+   "t64",
+   "t2",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 337,
+  "end": 423,
+  "text": "The offices of Silverlake Fabrication Co. are at 8236 Harbor Avenue, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 425,
+  "end": 464,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 36,
+  "text": "From: clara.holloway@stonebridge.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 37,
+  "end": 67,
+  "text": "To: tomas.quinn@silverlake.com",
+  "tids": [
+   "t55",
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 68,
+  "end": 99,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 100,
+  "end": 137,
+  "text": "Date: Sun, 07 Sep 2025 14:15:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 139,
+  "end": 148,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 150,
+  "end": 224,
+  "text": "On 14 August 2025, 10:30 UTC, Clara Holloway initiated the refund request.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 225,
+  "end": 292,
+  "text": "The refund request happened at Silverlake Fabrication Co.'s office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 293,
+  "end": 369,
+  "text": "Tomas Quinn started the vendor onboarding on September 7, 2025 at 12:15 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 371,
+  "end": 378,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 379,
+  "end": 384,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 101,
+  "text": "Account 1921542892 at Pinecrest National Bank belongs to Silverlake Fabrication Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t66",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 102,
+  "end": 183,
+  "text": "Account 6061433726 at Pinecrest National Bank belongs to Stonebridge Freight LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t67",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 185,
+  "end": 261,
+  "text": "On August 15, 2025 at 09:30 UTC, Clara Holloway initiated the wire transfer.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 262,
+  "end": 342,
+  "text": "On 19 September 2025, 16:25 UTC, Dana Banerjee initiated the bank detail change.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 343,
+  "end": 399,
+  "text": "Clara Holloway also took part in the bank detail change.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_2",
+   "event_5"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 400,
+  "end": 475,
+  "text": "The bank detail change took place at the Silverlake Fabrication Co. office.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 476,
+  "end": 533,
+  "text": "Account 1921542892 sent a transfer to account 6061433726.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 535,
+  "end": 583,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

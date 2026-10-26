@@ -1,0 +1,488 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: kofi.kowalski@bluegate.com",
+  "tids": [
+   "t60",
+   "t11"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 80,
+  "text": "To: mnovak@bluegate.com, isorensen@bluegate.com",
+  "tids": [
+   "t61",
+   "t62",
+   "t70",
+   "t71",
+   "t8",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 81,
+  "end": 112,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 113,
+  "end": 150,
+  "text": "Date: Thu, 15 May 2025 18:50:00 +0000",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 152,
+  "end": 160,
+  "text": "Hi Maya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 162,
+  "end": 240,
+  "text": "Irene Sorensen started the account reconciliation on 14 April 2025, 10:30 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 241,
+  "end": 327,
+  "text": "The invoice submission was initiated by Irene Sorensen on April 29, 2025 at 11:00 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 328,
+  "end": 399,
+  "text": "Maya Novak started the contract amendment on May 15, 2025 at 16:50 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54",
+   "t6"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 401,
+  "end": 408,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 409,
+  "end": 413,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 129,
+  "text": "Irene Sorensen is employed by Bluegate Services Co.; their email is isorensen@bluegate.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t72",
+   "t73",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 224,
+  "text": "Kofi Kowalski works for Bluegate Services Co. and uses the address kofi.kowalski@bluegate.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t74",
+   "t75",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 225,
+  "end": 309,
+  "text": "Bluegate Services Co. employs Maya Novak, who can be reached at mnovak@bluegate.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t76",
+   "t77"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 310,
+  "end": 402,
+  "text": "Hector Fischer works for Westmark Consulting LLC and uses the address hfischer@westmark.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t78",
+   "t79",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 404,
+  "end": 476,
+  "text": "Bluegate Services Co. is based at 9297 Commerce Drive, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 478,
+  "end": 526,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: hfischer@westmark.com",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 79,
+  "text": "To: mnovak@bluegate.com, kofi.kowalski@bluegate.com",
+  "tids": [
+   "t66",
+   "t67",
+   "t80",
+   "t81"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 80,
+  "end": 115,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 116,
+  "end": 153,
+  "text": "Date: Thu, 15 May 2025 19:00:00 +0000",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 155,
+  "end": 163,
+  "text": "Hi Maya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 165,
+  "end": 236,
+  "text": "On 15 April 2025, 15:15 UTC, Maya Novak initiated the payment approval.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 237,
+  "end": 301,
+  "text": "The payment approval happened at Bluegate Services Co.'s office.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 302,
+  "end": 370,
+  "text": "On 3 May 2025, 14:00 UTC, Kofi Kowalski initiated the wire transfer.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 371,
+  "end": 445,
+  "text": "On 15 May 2025, 17:00 UTC, Irene Sorensen initiated the vendor onboarding.",
+  "tids": [
+   "t55",
+   "t56",
+   "t57"
+  ],
+  "mentions": [
+   "event_7",
+   "person_0"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 447,
+  "end": 454,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 455,
+  "end": 461,
+  "text": "Hector",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 99,
+  "text": "Pinecrest National Bank account 3811034105 is registered to Bluegate Services Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t82",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 100,
+  "end": 176,
+  "text": "Westmark Consulting LLC holds account 9480427652 at Pinecrest National Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t83",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 177,
+  "end": 252,
+  "text": "Pinecrest National Bank account 3917062016 is registered to Irene Sorensen.",
+  "tids": [
+   "t32",
+   "t33",
+   "t84",
+   "t31"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 254,
+  "end": 327,
+  "text": "Kofi Kowalski started the bank detail change on 25 April 2025, 09:45 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 328,
+  "end": 402,
+  "text": "Hector Fischer started the expense reimbursement on 5 May 2025, 12:30 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 403,
+  "end": 461,
+  "text": "Funds moved from account 3811034105 to account 3917062016.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 463,
+  "end": 502,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

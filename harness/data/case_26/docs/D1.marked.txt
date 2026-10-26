@@ -1,0 +1,11 @@
+[D1.S1] From: clara.holloway@stonebridge.com
+[D1.S2] To: dbanerjee@silverlake.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Fri, 05 Sep 2025 15:25:00 +0000
+
+[D1.S5] Hi Dana,
+
+[D1.S6] The payment approval was initiated by Tomas Quinn on 10 August 2025, 16:00 UTC. [D1.S7] On September 5, 2025 at 13:25 UTC, Dana Banerjee initiated the invoice submission. [D1.S8] Tomas Quinn had been in contact with Dana Banerjee throughout.
+
+[D1.S9] Thanks,
+[D1.S10] Clara

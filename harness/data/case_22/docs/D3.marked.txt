@@ -1,0 +1,11 @@
+[D3.S1] From: yivanova@northwind.com
+[D3.S2] To: marcus.abara@harborline.com
+[D3.S3] Subject: Urgent: payment timing
+[D3.S4] Date: Sat, 12 Jul 2025 11:25:00 +0000
+
+[D3.S5] Hi Marcus,
+
+[D3.S6] Irene Sorensen started the contract amendment on June 23, 2025 at 16:00 UTC. [D3.S7] The wire transfer was initiated by Irene Sorensen on 12 July 2025, 09:25 UTC.
+
+[D3.S8] Thanks,
+[D3.S9] Yara

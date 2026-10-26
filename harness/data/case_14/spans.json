@@ -1,0 +1,449 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Lena Petrov is employed by Copperfield Distribution Inc.; their email is lpetrov@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t72",
+   "t73",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 239,
+  "text": "Kofi Whitfield is employed by Copperfield Distribution Inc.; their email is kwhitfield@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t74",
+   "t75",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 240,
+  "end": 345,
+  "text": "Irene Fischer works for Copperfield Distribution Inc. and uses the address irene.fischer@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t76",
+   "t77",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 346,
+  "end": 441,
+  "text": "Stonebridge Logistics Inc. employs Felix Okafor, who can be reached at fokafor@stonebridge.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t78",
+   "t79",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 443,
+  "end": 533,
+  "text": "The offices of Copperfield Distribution Inc. are at 2549 Commerce Drive, Albany, NY 12207.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 535,
+  "end": 620,
+  "text": "Meridian Trust Bank account 5835997512 is registered to Copperfield Distribution Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t80",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 621,
+  "end": 700,
+  "text": "Account 3765803916 at Meridian Trust Bank belongs to Stonebridge Logistics Inc.",
+  "tids": [
+   "t29",
+   "t30",
+   "t81",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 702,
+  "end": 741,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 35,
+  "text": "From: irene.fischer@copperfield.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 36,
+  "end": 63,
+  "text": "To: lpetrov@copperfield.com",
+  "tids": [
+   "t57",
+   "t82"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 64,
+  "end": 95,
+  "text": "Subject: Invoice 3557 follow-up",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Thu, 17 Jul 2025 13:25:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 143,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 145,
+  "end": 221,
+  "text": "Irene Fischer started the account reconciliation on 21 June 2025, 11:30 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 222,
+  "end": 299,
+  "text": "Felix Okafor started the expense reimbursement on June 30, 2025 at 10:45 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 300,
+  "end": 359,
+  "text": "Kofi Whitfield also took part in the expense reimbursement.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 360,
+  "end": 429,
+  "text": "On 10 July 2025, 17:25 UTC, Lena Petrov initiated the refund request.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 430,
+  "end": 488,
+  "text": "Kofi Whitfield was involved in the refund request as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 489,
+  "end": 557,
+  "text": "Kofi Whitfield started the wire transfer on 12 July 2025, 13:10 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 558,
+  "end": 632,
+  "text": "Felix Okafor started the invoice submission on July 16, 2025 at 15:00 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 633,
+  "end": 686,
+  "text": "Lena Petrov also took part in the invoice submission.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_0",
+   "event_4"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 687,
+  "end": 757,
+  "text": "Felix Okafor started the vendor onboarding on 17 July 2025, 11:25 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 759,
+  "end": 766,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 767,
+  "end": 772,
+  "text": "Irene",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t83"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@felixo is Felix Okafor.",
+  "tids": [
+   "t50",
+   "t49"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 73,
+  "text": "@lenap is Lena Petrov.",
+  "tids": [
+   "t52",
+   "t51"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 74,
+  "end": 150,
+  "text": "[2025-06-21 12:30 UTC] @felixo to @lenap: Send me the new form when you can.",
+  "tids": [
+   "t60",
+   "t61",
+   "t62",
+   "t63",
+   "t84"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 151,
+  "end": 227,
+  "text": "[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67",
+   "t85"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 228,
+  "end": 308,
+  "text": "[2025-06-21 12:44 UTC] @felixo to @lenap: I pushed it through, check your inbox.",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ }
+}

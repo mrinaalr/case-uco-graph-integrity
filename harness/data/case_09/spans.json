@@ -1,0 +1,409 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Julian Osei is employed by Oakhaven Fabrication Co.; their email is julian.osei@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t59",
+   "t60",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 225,
+  "text": "Oakhaven Fabrication Co. employs Dana Ashworth, who can be reached at dashworth@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t61",
+   "t62",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 322,
+  "text": "Oakhaven Fabrication Co. employs Andre Whitfield, who can be reached at awhitfield@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t63",
+   "t64",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 323,
+  "end": 423,
+  "text": "Clearpath Industrial LLC employs Felix Sorensen, who can be reached at felix.sorensen@clearpath.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t65",
+   "t66",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 425,
+  "end": 464,
+  "text": "Dana Ashworth's manager is Julian Osei.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 465,
+  "end": 504,
+  "text": "Andre Whitfield reports to Julian Osei.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 506,
+  "end": 579,
+  "text": "Oakhaven Fabrication Co. operates from 14 Market Street, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 580,
+  "end": 655,
+  "text": "Clearpath Industrial LLC operates from 2499 Market Street, Omaha, NE 68102.",
+  "tids": [
+   "t51",
+   "t47",
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 657,
+  "end": 738,
+  "text": "Account 8677543219 at Pinecrest National Bank belongs to Oakhaven Fabrication Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t67",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 739,
+  "end": 816,
+  "text": "Clearpath Industrial LLC holds account 4921747255 at Pinecrest National Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t68",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 818,
+  "end": 876,
+  "text": "Funds moved from account 8677543219 to account 4921747255.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 877,
+  "end": 941,
+  "text": "Felix Sorensen communicated with Julian Osei about the payments.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_3",
+   "person_0"
+  ]
+ },
+ "D1.S14": {
+  "doc_id": "D1",
+  "start": 943,
+  "end": 977,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: felix.sorensen@clearpath.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 88,
+  "text": "To: julian.osei@oakhaven.com, awhitfield@oakhaven.com",
+  "tids": [
+   "t55",
+   "t56",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 89,
+  "end": 114,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Sun, 06 Apr 2025 13:15:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 154,
+  "end": 164,
+  "text": "Hi Julian,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 246,
+  "text": "On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 247,
+  "end": 314,
+  "text": "Andre Whitfield was involved in the account reconciliation as well.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 315,
+  "end": 387,
+  "text": "Dana Ashworth started the contract amendment on 6 April 2025, 11:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 388,
+  "end": 434,
+  "text": "Julian Osei authorized the contract amendment.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 435,
+  "end": 498,
+  "text": "Andre Whitfield was involved in the contract amendment as well.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 499,
+  "end": 569,
+  "text": "Julian Osei started the invoice submission on 6 April 2025, 11:15 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 570,
+  "end": 633,
+  "text": "Andre Whitfield was involved in the invoice submission as well.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 634,
+  "end": 707,
+  "text": "The invoice submission took place at the Oakhaven Fabrication Co. office.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 709,
+  "end": 716,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 717,
+  "end": 722,
+  "text": "Felix",
+  "tids": [],
+  "mentions": []
+ }
+}

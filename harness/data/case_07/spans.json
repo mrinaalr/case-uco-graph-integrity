@@ -1,0 +1,469 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 37,
+  "text": "From: desmond.sorensen@cedarridge.com",
+  "tids": [
+   "t55",
+   "t9"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 94,
+  "text": "To: sbrennan@cedarridge.com, mei.castillo@silverlake.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t65",
+   "t66",
+   "t12",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_4"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 95,
+  "end": 130,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 168,
+  "text": "Date: Mon, 04 Aug 2025 17:50:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 170,
+  "end": 180,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 182,
+  "end": 260,
+  "text": "The wire transfer was initiated by Mei Castillo on July 30, 2025 at 13:30 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t8"
+  ],
+  "mentions": [
+   "event_0",
+   "person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 261,
+  "end": 317,
+  "text": "Approval for the wire transfer came from Samuel Brennan.",
+  "tids": [
+   "t53",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 377,
+  "text": "Desmond Sorensen was involved in the wire transfer as well.",
+  "tids": [
+   "t52",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 378,
+  "end": 464,
+  "text": "The payment approval was initiated by Desmond Sorensen on August 4, 2025 at 15:50 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 465,
+  "end": 517,
+  "text": "Mei Castillo also took part in the payment approval.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_4",
+   "event_2"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 519,
+  "end": 526,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 527,
+  "end": 534,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 148,
+  "text": "Desmond Sorensen is employed by Cedar Ridge Fabrication Group; their email is desmond.sorensen@cedarridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t67",
+   "t68",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 249,
+  "text": "Samuel Brennan works for Cedar Ridge Fabrication Group and uses the address sbrennan@cedarridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t69",
+   "t70"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 250,
+  "end": 346,
+  "text": "Kofi Park works for Cedar Ridge Fabrication Group and uses the address kofi.park@cedarridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t71",
+   "t72",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 347,
+  "end": 446,
+  "text": "Julian Lindqvist works for Silverlake Freight Group and uses the address jlindqvist@silverlake.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t73",
+   "t74",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 447,
+  "end": 544,
+  "text": "Mei Castillo works for Silverlake Freight Group and uses the address mei.castillo@silverlake.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t75",
+   "t76"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 546,
+  "end": 626,
+  "text": "Cedar Ridge Fabrication Group is based at 8493 Harbor Avenue, Spokane, WA 99201.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 628,
+  "end": 709,
+  "text": "Account 4846820983 at First Harbor Bank belongs to Cedar Ridge Fabrication Group.",
+  "tids": [
+   "t30",
+   "t31",
+   "t77",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 710,
+  "end": 786,
+  "text": "Account 3702498766 at First Harbor Bank belongs to Silverlake Freight Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t78",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 787,
+  "end": 856,
+  "text": "First Harbor Bank account 1839620453 is registered to Samuel Brennan.",
+  "tids": [
+   "t36",
+   "t37",
+   "t79",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 858,
+  "end": 897,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 37,
+  "text": "From: desmond.sorensen@cedarridge.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 38,
+  "end": 95,
+  "text": "To: mei.castillo@silverlake.com, kofi.park@cedarridge.com",
+  "tids": [
+   "t61",
+   "t62",
+   "t80"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 96,
+  "end": 132,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 133,
+  "end": 170,
+  "text": "Date: Sat, 23 Aug 2025 11:00:00 +0000",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 172,
+  "end": 179,
+  "text": "Hi Mei,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 181,
+  "end": 261,
+  "text": "Desmond Sorensen started the account reconciliation on 3 August 2025, 13:25 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 262,
+  "end": 323,
+  "text": "Kofi Park was involved in the account reconciliation as well.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 324,
+  "end": 393,
+  "text": "Mei Castillo started the refund request on 23 August 2025, 09:00 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 394,
+  "end": 453,
+  "text": "Approval for the refund request came from Desmond Sorensen.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 455,
+  "end": 462,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 463,
+  "end": 470,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ }
+}

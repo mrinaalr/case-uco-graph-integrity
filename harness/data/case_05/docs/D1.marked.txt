@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Tomas Mendes is employed by Westmark Tooling Co.; their email is tmendes@westmark.com. [D1.S3] Westmark Tooling Co. employs Dana Novak, who can be reached at dnovak@westmark.com. [D1.S4] Felix Fischer works for Westmark Tooling Co. and uses the address ffischer@westmark.com. [D1.S5] Oakhaven Distribution Group employs Marcus Whitfield, who can be reached at marcus.whitfield@oakhaven.com. [D1.S6] Andre Banerjee works for Oakhaven Distribution Group and uses the address andre.banerjee@oakhaven.com.
+
+[D1.S7] Dana Novak's manager is Tomas Mendes.
+
+[D1.S8] Westmark Tooling Co. operates from 3192 Main Street, Albany, NY 12207.
+
+[D1.S9] Union Ledger Bank account 9416052131 is registered to Westmark Tooling Co. [D1.S10] Oakhaven Distribution Group holds account 1667047112 at Union Ledger Bank.
+
+[D1.S11] Account 9416052131 sent a transfer to account 1667047112.
+
+[D1.S12] More detail will follow once records are pulled.

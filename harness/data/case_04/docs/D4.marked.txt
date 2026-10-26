@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Union Ledger Bank account 9208356166 is registered to Harborline Services Inc. [D4.S3] Account 4824951982 at Union Ledger Bank belongs to Ironleaf Freight Inc.
+
+[D4.S4] The bank detail change was initiated by Victor Ashworth on March 14, 2025 at 14:10 UTC. [D4.S5] Approval for the bank detail change came from Wesley Vance. [D4.S6] Grace Fischer also took part in the bank detail change. [D4.S7] The bank detail change happened at Harborline Services Inc.'s office. [D4.S8] Funds moved from account 9208356166 to account 4824951982.
+
+[D4.S9] More detail will follow once records are pulled.

@@ -1,0 +1,11 @@
+[D1.S1] From: yivanova@harborline.com
+[D1.S2] To: kofi.quinn@clearpath.com, owen.castillo@clearpath.com
+[D1.S3] Subject: Audit prep items
+[D1.S4] Date: Sat, 11 Oct 2025 12:10:00 +0000
+
+[D1.S5] Hi Kofi,
+
+[D1.S6] Yara Ivanova started the bank detail change on 25 September 2025, 14:25 UTC. [D1.S7] Kofi Quinn was involved in the bank detail change as well. [D1.S8] On 27 September 2025, 17:00 UTC, Owen Castillo initiated the expense reimbursement. [D1.S9] Yara Ivanova authorized the expense reimbursement. [D1.S10] The invoice submission was initiated by Yara Ivanova on October 11, 2025 at 10:10 UTC.
+
+[D1.S11] Thanks,
+[D1.S12] Yara

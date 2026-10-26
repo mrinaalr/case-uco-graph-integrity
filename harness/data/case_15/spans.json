@@ -1,0 +1,447 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: mei.castillo@redfern.com",
+  "tids": [
+   "t51",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 81,
+  "text": "To: okowalski@redfern.com, divanova@summitpeak.com",
+  "tids": [
+   "t52",
+   "t53",
+   "t60",
+   "t61",
+   "t7",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 82,
+  "end": 113,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 114,
+  "end": 151,
+  "text": "Date: Fri, 30 May 2025 14:15:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 153,
+  "end": 161,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 163,
+  "end": 237,
+  "text": "On May 5, 2025 at 11:25 UTC, Mei Castillo initiated the vendor onboarding.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 317,
+  "text": "On May 30, 2025 at 12:15 UTC, Mei Castillo initiated the expense reimbursement.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 371,
+  "text": "Desmond Ivanova authorized the expense reimbursement.",
+  "tids": [
+   "t48",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 372,
+  "end": 430,
+  "text": "Owen Kowalski also took part in the expense reimbursement.",
+  "tids": [
+   "t50",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 432,
+  "end": 439,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 440,
+  "end": 443,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 129,
+  "text": "Owen Kowalski works for Redfern Packaging Group and uses the address okowalski@redfern.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t62",
+   "t63",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 223,
+  "text": "Redfern Packaging Group employs Mei Castillo, who can be reached at mei.castillo@redfern.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t64",
+   "t65"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 224,
+  "end": 321,
+  "text": "Desmond Ivanova works for Summit Peak Logistics LLC and uses the address divanova@summitpeak.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t66",
+   "t67",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 323,
+  "end": 410,
+  "text": "The offices of Redfern Packaging Group are at 5074 Industrial Parkway, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 412,
+  "end": 446,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 30,
+  "text": "From: mei.castillo@redfern.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 31,
+  "end": 56,
+  "text": "To: okowalski@redfern.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 57,
+  "end": 88,
+  "text": "Subject: Invoice 3155 follow-up",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 89,
+  "end": 126,
+  "text": "Date: Tue, 03 Jun 2025 12:00:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 128,
+  "end": 136,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 138,
+  "end": 217,
+  "text": "The audit review was initiated by Desmond Ivanova on May 12, 2025 at 12:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 218,
+  "end": 280,
+  "text": "The audit review happened at Redfern Packaging Group's office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 281,
+  "end": 359,
+  "text": "The refund request was initiated by Mei Castillo on June 3, 2025 at 10:00 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 361,
+  "end": 368,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 369,
+  "end": 372,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 95,
+  "text": "Account 2170889721 at Meridian Trust Bank belongs to Redfern Packaging Group.",
+  "tids": [
+   "t22",
+   "t23",
+   "t68",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 96,
+  "end": 175,
+  "text": "Account 4948925913 at Meridian Trust Bank belongs to Summit Peak Logistics LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t69",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 176,
+  "end": 243,
+  "text": "Account 6302151532 at Meridian Trust Bank belongs to Owen Kowalski.",
+  "tids": [
+   "t28",
+   "t29",
+   "t70",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 245,
+  "end": 318,
+  "text": "Desmond Ivanova started the invoice submission on 26 May 2025, 13:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 319,
+  "end": 390,
+  "text": "Owen Kowalski started the bank detail change on 6 June 2025, 13:00 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 392,
+  "end": 431,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

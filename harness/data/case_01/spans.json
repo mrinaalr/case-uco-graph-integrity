@@ -1,0 +1,435 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 128,
+  "text": "Luca Petrov works for Oakhaven Services LLC and uses the address luca.petrov@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t65",
+   "t66",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 227,
+  "text": "Oakhaven Services LLC employs Wesley Castillo, who can be reached at wesley.castillo@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t67",
+   "t68",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 315,
+  "text": "Oakhaven Services LLC employs Nadia Moreau, who can be reached at nmoreau@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t69",
+   "t70",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 316,
+  "end": 414,
+  "text": "Redfern Components Group employs Oscar Banerjee, who can be reached at oscar.banerjee@redfern.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t71",
+   "t72",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 416,
+  "end": 457,
+  "text": "Wesley Castillo's manager is Luca Petrov.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 459,
+  "end": 531,
+  "text": "Oakhaven Services LLC operates from 5868 Market Street, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 533,
+  "end": 581,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: wesley.castillo@oakhaven.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 63,
+  "text": "To: luca.petrov@oakhaven.com",
+  "tids": [
+   "t54",
+   "t73"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 64,
+  "end": 99,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 100,
+  "end": 137,
+  "text": "Date: Sun, 18 May 2025 13:30:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 139,
+  "end": 147,
+  "text": "Hi Luca,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 217,
+  "text": "On 2 May 2025, 09:50 UTC, Nadia Moreau initiated the refund request.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 276,
+  "text": "Approval for the refund request came from Wesley Castillo.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 277,
+  "end": 343,
+  "text": "Luca Petrov started the audit review on May 18, 2025 at 11:30 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 345,
+  "end": 352,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 353,
+  "end": 359,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t74"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 52,
+  "text": "@oscarb is Oscar Banerjee.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 75,
+  "text": "@lucap is Luca Petrov.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 158,
+  "text": "[2025-05-02 10:50 UTC] @oscarb to @lucap: Let's keep this between us until Friday.",
+  "tids": [
+   "t57",
+   "t58",
+   "t59",
+   "t60",
+   "t75"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 159,
+  "end": 228,
+  "text": "[2025-05-02 10:57 UTC] @lucap to @oscarb: Did the bank call back yet?",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64",
+   "t76"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 93,
+  "text": "Account 3751001456 at Meridian Trust Bank belongs to Oakhaven Services LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t77",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 94,
+  "end": 172,
+  "text": "Account 1069850329 at Meridian Trust Bank belongs to Redfern Components Group.",
+  "tids": [
+   "t29",
+   "t30",
+   "t78",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 173,
+  "end": 239,
+  "text": "Account 5950398673 at Meridian Trust Bank belongs to Nadia Moreau.",
+  "tids": [
+   "t32",
+   "t33",
+   "t79",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 241,
+  "end": 317,
+  "text": "Wesley Castillo started the contract amendment on May 12, 2025 at 13:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 318,
+  "end": 396,
+  "text": "The invoice submission was initiated by Luca Petrov on 2 June 2025, 14:10 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 397,
+  "end": 455,
+  "text": "Funds moved from account 3751001456 to account 5950398673.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 457,
+  "end": 496,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

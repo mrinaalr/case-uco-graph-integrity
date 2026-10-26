@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Lakeshore Savings Bank account 6687847403 is registered to Westmark Services Group. [D3.S3] Copperfield Analytics Group holds account 6644931153 at Lakeshore Savings Bank. [D3.S4] Lakeshore Savings Bank account 3784241935 is registered to Luca Reyes.
+
+[D3.S5] On 19 January 2025, 11:10 UTC, Samuel Okafor initiated the contract amendment. [D3.S6] Approval for the contract amendment came from Tomas Whitfield. [D3.S7] On 29 January 2025, 13:25 UTC, Elena Banerjee initiated the refund request. [D3.S8] Samuel Okafor was involved in the refund request as well. [D3.S9] The refund request took place at the Westmark Services Group office.
+
+[D3.S10] Please treat this as confidential.

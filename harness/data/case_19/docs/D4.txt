@@ -1,0 +1,7 @@
+Incident summary
+
+Pinecrest National Bank account 3811034105 is registered to Bluegate Services Co. Westmark Consulting LLC holds account 9480427652 at Pinecrest National Bank. Pinecrest National Bank account 3917062016 is registered to Irene Sorensen.
+
+Kofi Kowalski started the bank detail change on 25 April 2025, 09:45 UTC. Hector Fischer started the expense reimbursement on 5 May 2025, 12:30 UTC. Funds moved from account 3811034105 to account 3917062016.
+
+Let me know if anything here looks off.

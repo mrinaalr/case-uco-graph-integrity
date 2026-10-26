@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @felixh is Felix Haddad.
+[D3.S3] @priyao is Priya Osei.
+[D3.S4] [2025-04-17 10:50 UTC] @felixh to @priyao: Finance is asking questions again.
+[D3.S5] [2025-04-17 10:57 UTC] @priyao to @felixh: I pushed it through, check your inbox.
+[D3.S6] [2025-04-17 11:04 UTC] @felixh to @priyao: Let's keep this between us until Friday.

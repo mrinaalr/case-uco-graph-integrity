@@ -1,0 +1,414 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 27,
+  "text": "From: sabara@silverlake.com",
+  "tids": [
+   "t53",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 28,
+  "end": 57,
+  "text": "To: owen.novak@summitpeak.com",
+  "tids": [
+   "t54",
+   "t61",
+   "t9"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 58,
+  "end": 91,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 92,
+  "end": 129,
+  "text": "Date: Mon, 22 Sep 2025 13:30:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 139,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 141,
+  "end": 226,
+  "text": "The contract amendment was initiated by Owen Novak on September 5, 2025 at 15:25 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 227,
+  "end": 309,
+  "text": "The refund request was initiated by Rosa Vance on September 14, 2025 at 17:50 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46",
+   "t5"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 310,
+  "end": 401,
+  "text": "The account reconciliation was initiated by Sofia Abara on September 22, 2025 at 11:30 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52",
+   "t7"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 403,
+  "end": 410,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 411,
+  "end": 416,
+  "text": "Sofia",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Owen Novak is employed by Summit Peak Packaging Inc.; their email is owen.novak@summitpeak.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t62",
+   "t63",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 229,
+  "text": "Summit Peak Packaging Inc. employs Rosa Vance, who can be reached at rosa.vance@summitpeak.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t64",
+   "t65",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 230,
+  "end": 329,
+  "text": "Marcus Holloway works for Summit Peak Packaging Inc. and uses the address mholloway@summitpeak.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t66",
+   "t67",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 330,
+  "end": 421,
+  "text": "Sofia Abara works for Silverlake Consulting LLC and uses the address sabara@silverlake.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t68",
+   "t69",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 422,
+  "end": 515,
+  "text": "Clara Haddad is employed by Silverlake Consulting LLC; their email is chaddad@silverlake.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t70",
+   "t71",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 517,
+  "end": 603,
+  "text": "The offices of Summit Peak Packaging Inc. are at 653 Market Street, Madison, WI 53703.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 605,
+  "end": 693,
+  "text": "Account 2622357143 at Granite Federal Credit Union belongs to Summit Peak Packaging Inc.",
+  "tids": [
+   "t30",
+   "t31",
+   "t72",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 694,
+  "end": 785,
+  "text": "Granite Federal Credit Union account 6144966603 is registered to Silverlake Consulting LLC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t73",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 786,
+  "end": 859,
+  "text": "Account 7594766430 at Granite Federal Credit Union belongs to Rosa Vance.",
+  "tids": [
+   "t36",
+   "t37",
+   "t74",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 861,
+  "end": 909,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 30,
+  "text": "From: mholloway@summitpeak.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 31,
+  "end": 60,
+  "text": "To: rosa.vance@summitpeak.com",
+  "tids": [
+   "t58",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 61,
+  "end": 94,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Thu, 18 Sep 2025 16:30:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 134,
+  "end": 142,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 144,
+  "end": 222,
+  "text": "On September 7, 2025 at 16:15 UTC, Sofia Abara initiated the payment approval.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 223,
+  "end": 300,
+  "text": "On September 18, 2025 at 14:30 UTC, Clara Haddad initiated the wire transfer.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 302,
+  "end": 309,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 310,
+  "end": 316,
+  "text": "Marcus",
+  "tids": [],
+  "mentions": []
+ }
+}

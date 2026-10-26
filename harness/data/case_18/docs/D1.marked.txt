@@ -1,0 +1,11 @@
+[D1.S1] From: sabara@silverlake.com
+[D1.S2] To: owen.novak@summitpeak.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Mon, 22 Sep 2025 13:30:00 +0000
+
+[D1.S5] Hi Owen,
+
+[D1.S6] The contract amendment was initiated by Owen Novak on September 5, 2025 at 15:25 UTC. [D1.S7] The refund request was initiated by Rosa Vance on September 14, 2025 at 17:50 UTC. [D1.S8] The account reconciliation was initiated by Sofia Abara on September 22, 2025 at 11:30 UTC.
+
+[D1.S9] Thanks,
+[D1.S10] Sofia

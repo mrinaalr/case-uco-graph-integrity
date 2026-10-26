@@ -1,0 +1,10 @@
+__pycache__/
+.env
+# Run outputs stay local; only baseline-v1's summaries are tracked.
+results/*
+!results/baseline-v1/
+results/baseline-v1/*
+!results/baseline-v1/summary.md
+!results/baseline-v1/summary.csv
+!results/baseline-v1/per_case.csv
+!results/baseline-v1/unsupported_edges_value.md

@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Account 1921542892 at Pinecrest National Bank belongs to Silverlake Fabrication Co. [D4.S3] Account 6061433726 at Pinecrest National Bank belongs to Stonebridge Freight LLC.
+
+[D4.S4] On August 15, 2025 at 09:30 UTC, Clara Holloway initiated the wire transfer. [D4.S5] On 19 September 2025, 16:25 UTC, Dana Banerjee initiated the bank detail change. [D4.S6] Clara Holloway also took part in the bank detail change. [D4.S7] The bank detail change took place at the Silverlake Fabrication Co. office. [D4.S8] Account 1921542892 sent a transfer to account 6061433726.
+
+[D4.S9] This summary reflects records available to date.

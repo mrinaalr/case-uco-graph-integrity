@@ -1,0 +1,53 @@
+# Harness settings. Every arm reads this file; a run picks an endpoint with --model.
+
+[llm]
+default_model = "ollama"
+temperature = 0
+max_tokens = 4096            # per A2 turn
+monolith_max_tokens = 16384  # single-call arms (A1 script, B JSON-LD)
+request_timeout_s = 3600   # local 14B on 16 GB runs ~6 tok/s
+
+# Named OpenAI-compatible endpoints. api_key_env names the environment
+# variable that holds the key; leave it empty for a keyless local server.
+[models.ollama]
+# qwen2.5:14b-instruct (Q4_K_M, digest 7cdf5a0187d5) with num_ctx 32768; Ollama's default
+# 4096-token context truncates prompts. Build: FROM qwen2.5:14b-instruct / PARAMETER num_ctx 32768
+base_url = "http://localhost:11434/v1"
+model = "qwen2.5:14b-instruct-32k"
+api_key_env = ""
+
+[models.tinker]
+# Tinker's OpenAI-compatible endpoint (beta). Key goes in harness/.env as TINKER_API_KEY.
+base_url = "https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1"
+model = "Qwen/Qwen3.5-9B"
+api_key_env = "TINKER_API_KEY"
+extra_body = { reasoning_effort = false }  # Qwen3.5-9B thinks by default; Tinker takes a boolean here
+
+[models.tinker_large]
+# Inkling on the same Tinker endpoint. The exact name resolves to thinkingmachines/Inkling:peft:262144.
+# Inkling rejects a boolean effort (it takes a scalar in [0.0, 0.99]); "none" maps to 0.0 and
+# produced no reasoning text in testing, the same effect as Qwen's reasoning_effort = false.
+base_url = "https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1"
+model = "thinkingmachines/Inkling"
+api_key_env = "TINKER_API_KEY"
+extra_body = { reasoning_effort = "none" }
+
+[models.cloud]
+base_url = ""
+model = ""
+api_key_env = ""
+
+[server]
+# The case-uco MCP server as registered with Claude Code, but without cac.
+# Paths are relative to the repo root; the SDK is the sdk/ submodule.
+python = ".venv/bin/python"
+script = "sdk/mcp_server/server.py"
+extensions = "legalproc,cryptoinv"
+
+[run]
+max_turns = 80
+max_tool_calls = 150         # A2: stop and mark the run "capped"
+max_context_tokens = 65536   # A2: same cap for every model; also "capped"
+repair_rounds = 2
+script_timeout_s = 120
+case_timeout_s = 10800

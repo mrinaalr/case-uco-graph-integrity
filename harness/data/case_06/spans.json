@@ -1,0 +1,379 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Copperfield Fabrication Inc. employs Andre Fischer, who can be reached at afischer@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 246,
+  "text": "Julian Holloway is employed by Copperfield Fabrication Inc.; their email is julian.holloway@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 247,
+  "end": 353,
+  "text": "Priya Sorensen works for Copperfield Fabrication Inc. and uses the address priya.sorensen@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 354,
+  "end": 445,
+  "text": "Desmond Delgado is employed by Oakhaven Freight Inc.; their email is ddelgado@oakhaven.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 447,
+  "end": 529,
+  "text": "Copperfield Fabrication Inc. operates from 2894 Market Street, Richmond, VA 23219.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 531,
+  "end": 606,
+  "text": "Copperfield Fabrication Inc. holds account 9105160648 at Union Ledger Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 607,
+  "end": 679,
+  "text": "Account 6816152188 at Union Ledger Bank belongs to Oakhaven Freight Inc.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 680,
+  "end": 748,
+  "text": "Union Ledger Bank account 4167366163 is registered to Andre Fischer.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 750,
+  "end": 798,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: afischer@copperfield.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 89,
+  "text": "To: julian.holloway@copperfield.com, ddelgado@oakhaven.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t73",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 123,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 124,
+  "end": 161,
+  "text": "Date: Wed, 18 Jun 2025 13:30:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 163,
+  "end": 173,
+  "text": "Hi Julian,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 175,
+  "end": 255,
+  "text": "Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 256,
+  "end": 330,
+  "text": "On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 331,
+  "end": 405,
+  "text": "On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 406,
+  "end": 481,
+  "text": "Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 482,
+  "end": 552,
+  "text": "Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 553,
+  "end": 630,
+  "text": "On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 631,
+  "end": 692,
+  "text": "Priya Sorensen was involved in the vendor onboarding as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_5"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 693,
+  "end": 765,
+  "text": "The vendor onboarding happened at Copperfield Fabrication Inc.'s office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 766,
+  "end": 843,
+  "text": "On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 845,
+  "end": 852,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 853,
+  "end": 858,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D3.S1] From: victor.whitfield@stonebridge.com
+[D3.S2] To: tomas.mendes@redfern.com, oscar.moreau@redfern.com
+[D3.S3] Subject: Audit prep items
+[D3.S4] Date: Sun, 26 Oct 2025 14:25:00 +0000
+
+[D3.S5] Hi Tomas,
+
+[D3.S6] The audit review was initiated by Victor Whitfield on 23 October 2025, 10:00 UTC. [D3.S7] The audit review happened at Redfern Freight LLC's office. [D3.S8] On 26 October 2025, 12:25 UTC, Oscar Moreau initiated the expense reimbursement. [D3.S9] Approval for the expense reimbursement came from Tomas Mendes. [D3.S10] The expense reimbursement happened at Redfern Freight LLC's office.
+
+[D3.S11] Thanks,
+[D3.S12] Victor

@@ -1,0 +1,11 @@
+[D2.S1] From: kofi.okafor@oakhaven.com
+[D2.S2] To: sbrennan@oakhaven.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Tue, 19 Aug 2025 16:45:00 +0000
+
+[D2.S5] Hi Sofia,
+
+[D2.S6] Rosa Moreau started the bank detail change on 17 July 2025, 15:00 UTC. [D2.S7] The vendor onboarding was initiated by Sofia Brennan on 23 July 2025, 12:30 UTC. [D2.S8] On 24 July 2025, 09:25 UTC, Rosa Moreau initiated the wire transfer. [D2.S9] Approval for the wire transfer came from Kofi Okafor. [D2.S10] On July 30, 2025 at 17:15 UTC, Nadia Ashworth initiated the payment approval. [D2.S11] Kofi Okafor started the expense reimbursement on August 1, 2025 at 10:10 UTC. [D2.S12] The expense reimbursement took place at the Oakhaven Fabrication Ltd. office. [D2.S13] The invoice submission was initiated by Sofia Brennan on 1 August 2025, 11:10 UTC. [D2.S14] The invoice submission happened at Oakhaven Fabrication Ltd.'s office. [D2.S15] Sofia Brennan started the contract amendment on 11 August 2025, 15:45 UTC. [D2.S16] On August 19, 2025 at 14:45 UTC, Sofia Brennan initiated the audit review.
+
+[D2.S17] Thanks,
+[D2.S18] Kofi

@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Lena Kowalski works for Copperfield Supply Inc. and uses the address lkowalski@copperfield.com. [D1.S3] Copperfield Supply Inc. employs Kofi Osei, who can be reached at kosei@copperfield.com. [D1.S4] Copperfield Supply Inc. employs Irene Petrov, who can be reached at ipetrov@copperfield.com. [D1.S5] Priya Vance is employed by Westmark Tooling Ltd.; their email is pvance@westmark.com.
+
+[D1.S6] Kofi Osei's manager is Lena Kowalski.
+
+[D1.S7] Copperfield Supply Inc. is based at 1126 Commerce Drive, Tucson, AZ 85701. [D1.S8] Westmark Tooling Ltd. operates from 287 Harbor Avenue, Madison, WI 53703.
+
+[D1.S9] Account 4101973631 at Union Ledger Bank belongs to Copperfield Supply Inc. [D1.S10] Union Ledger Bank account 6222593270 is registered to Westmark Tooling Ltd.
+
+[D1.S11] Account 4101973631 sent a transfer to account 6222593270.
+
+[D1.S12] More detail will follow once records are pulled.

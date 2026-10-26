@@ -1,0 +1,991 @@
+{
+ "case_id": "case_28",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Westmark Services Group"
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D3"
+   ],
+   "label": "Copperfield Analytics Group"
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D3"
+   ],
+   "label": "Lakeshore Savings Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Elena Banerjee"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Tomas Whitfield"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Luca Reyes"
+  },
+  {
+   "eid": "person_3",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D3"
+   ],
+   "label": "Samuel Okafor"
+  },
+  {
+   "eid": "person_4",
+   "class": "Person",
+   "docs": [
+    "D1"
+   ],
+   "label": "Arjun Mendes"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "ebanerjee@westmark.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "tomas.whitfield@westmark.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "lreyes@westmark.com"
+  },
+  {
+   "eid": "email_person_3",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "samuel.okafor@copperfield.com"
+  },
+  {
+   "eid": "email_person_4",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "arjun.mendes@copperfield.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "9635 Maple Avenue, Richmond, VA 23219"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D3"
+   ],
+   "label": "6687847403"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D3"
+   ],
+   "label": "6644931153"
+  },
+  {
+   "eid": "acct_insider",
+   "class": "Account",
+   "docs": [
+    "D3"
+   ],
+   "label": "3784241935"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "expense reimbursement"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "contract amendment"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "account reconciliation"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "refund request"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "audit review"
+  },
+  {
+   "eid": "loc_vendor",
+   "class": "Location",
+   "docs": [
+    "D1"
+   ],
+   "label": "3938 Commerce Drive, Albany, NY 12207"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_3",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_4",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Westmark Services Group",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Copperfield Analytics Group",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Lakeshore Savings Bank",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Elena Banerjee",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Tomas Whitfield",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Luca Reyes",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "person_3",
+   "p": "name",
+   "o": "Samuel Okafor",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "person_4",
+   "p": "name",
+   "o": "Arjun Mendes",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "ebanerjee@westmark.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t10",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "tomas.whitfield@westmark.com",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t13",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "lreyes@westmark.com",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t16",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t17",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "email_person_3",
+   "p": "addressValue",
+   "o": "samuel.okafor@copperfield.com",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t19",
+   "s": "person_3",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t20",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t21",
+   "s": "email_person_4",
+   "p": "addressValue",
+   "o": "arjun.mendes@copperfield.com",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t22",
+   "s": "person_4",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t23",
+   "s": "person_4",
+   "p": "Holds_Account",
+   "o": "email_person_4",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t24",
+   "s": "loc_company",
+   "p": "street",
+   "o": "9635 Maple Avenue",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t25",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Richmond",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t26",
+   "s": "loc_company",
+   "p": "region",
+   "o": "VA",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t27",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "23219",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t28",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t29",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "6687847403",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t30",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t31",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t32",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "6644931153",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t33",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t34",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t35",
+   "s": "acct_insider",
+   "p": "accountIdentifier",
+   "o": "3784241935",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t36",
+   "s": "person_2",
+   "p": "Owns_Account",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t37",
+   "s": "acct_insider",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t38",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "expense reimbursement",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t39",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-01-13T12:10:00Z",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t40",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t41",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "contract amendment",
+   "lit": true,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t42",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-01-19T11:10:00Z",
+   "lit": true,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t43",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t44",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "account reconciliation",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t45",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-01-19T13:15:00Z",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t46",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t47",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "refund request",
+   "lit": true,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t48",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-01-29T13:25:00Z",
+   "lit": true,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t49",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t50",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "audit review",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t51",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-02-12T12:50:00Z",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t52",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t53",
+   "s": "loc_vendor",
+   "p": "street",
+   "o": "3938 Commerce Drive",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t54",
+   "s": "loc_vendor",
+   "p": "locality",
+   "o": "Albany",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t55",
+   "s": "loc_vendor",
+   "p": "region",
+   "o": "NY",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t56",
+   "s": "loc_vendor",
+   "p": "postalCode",
+   "o": "12207",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t57",
+   "s": "org_vendor",
+   "p": "Located_At",
+   "o": "loc_vendor",
+   "lit": false,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t58",
+   "s": "person_1",
+   "p": "Authorized",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t59",
+   "s": "event_3",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D3.S9",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t60",
+   "s": "event_4",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t61",
+   "s": "person_3",
+   "p": "Participated_In",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D3.S8",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t62",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S1",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t63",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_4",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t64",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t65",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Quarter-end vendor payments",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t66",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-02-12T14:50:00Z",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t67",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t68",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t69",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t70",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t71",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t72",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t73",
+   "s": "email_account_person_3",
+   "p": "emailAddress",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t74",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_account_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t75",
+   "s": "email_account_person_4",
+   "p": "emailAddress",
+   "o": "email_person_4",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t76",
+   "s": "person_4",
+   "p": "Holds_Account",
+   "o": "email_account_person_4",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t77",
+   "s": "person_0",
+   "p": "Communicated_With",
+   "o": "person_4",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t78",
+   "s": "person_0",
+   "p": "Communicated_With",
+   "o": "person_1",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t79",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t80",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t81",
+   "s": "acct_insider",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  }
+ ],
+ "relationship_count": 24,
+ "relationship_count_total": 31,
+ "documents": {
+  "D1": "memo",
+  "D2": "email",
+  "D3": "report"
+ },
+ "seed": 20251025
+}

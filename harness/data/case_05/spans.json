@@ -1,0 +1,448 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 124,
+  "text": "Tomas Mendes is employed by Westmark Tooling Co.; their email is tmendes@westmark.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 125,
+  "end": 208,
+  "text": "Westmark Tooling Co. employs Dana Novak, who can be reached at dnovak@westmark.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t68",
+   "t69",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 209,
+  "end": 297,
+  "text": "Felix Fischer works for Westmark Tooling Co. and uses the address ffischer@westmark.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t70",
+   "t71",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 298,
+  "end": 404,
+  "text": "Oakhaven Distribution Group employs Marcus Whitfield, who can be reached at marcus.whitfield@oakhaven.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 405,
+  "end": 507,
+  "text": "Andre Banerjee works for Oakhaven Distribution Group and uses the address andre.banerjee@oakhaven.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t75",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 509,
+  "end": 546,
+  "text": "Dana Novak's manager is Tomas Mendes.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 548,
+  "end": 618,
+  "text": "Westmark Tooling Co. operates from 3192 Main Street, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 620,
+  "end": 694,
+  "text": "Union Ledger Bank account 9416052131 is registered to Westmark Tooling Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t76",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 695,
+  "end": 769,
+  "text": "Oakhaven Distribution Group holds account 1667047112 at Union Ledger Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t77",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 771,
+  "end": 828,
+  "text": "Account 9416052131 sent a transfer to account 1667047112.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 830,
+  "end": 878,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: ffischer@westmark.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 59,
+  "text": "To: andre.banerjee@oakhaven.com",
+  "tids": [
+   "t55",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 60,
+  "end": 85,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 123,
+  "text": "Date: Wed, 05 Mar 2025 18:10:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 125,
+  "end": 134,
+  "text": "Hi Andre,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 216,
+  "text": "Andre Banerjee started the bank detail change on February 17, 2025 at 09:45 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 217,
+  "end": 281,
+  "text": "Marcus Whitfield was involved in the bank detail change as well.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_3",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 282,
+  "end": 351,
+  "text": "The bank detail change took place at the Westmark Tooling Co. office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 352,
+  "end": 436,
+  "text": "On 18 February 2025, 11:00 UTC, Andre Banerjee initiated the account reconciliation.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 437,
+  "end": 499,
+  "text": "Marcus Whitfield also took part in the account reconciliation.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 500,
+  "end": 569,
+  "text": "On 5 March 2025, 16:10 UTC, Felix Fischer initiated the audit review.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 570,
+  "end": 629,
+  "text": "The audit review happened at Westmark Tooling Co.'s office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 631,
+  "end": 638,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 639,
+  "end": 644,
+  "text": "Felix",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t79"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 55,
+  "text": "@marcusw is Marcus Whitfield.",
+  "tids": [
+   "t45",
+   "t44"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 56,
+  "end": 77,
+  "text": "@danan is Dana Novak.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 159,
+  "text": "[2025-02-17 10:45 UTC] @marcusw to @danan: I pushed it through, check your inbox.",
+  "tids": [
+   "t58",
+   "t59",
+   "t60",
+   "t61",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 160,
+  "end": 243,
+  "text": "[2025-02-17 10:52 UTC] @danan to @marcusw: Let's keep this between us until Friday.",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65",
+   "t81"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_3"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+[D2.S1] From: irene.fischer@copperfield.com
+[D2.S2] To: lpetrov@copperfield.com
+[D2.S3] Subject: Invoice 3557 follow-up
+[D2.S4] Date: Thu, 17 Jul 2025 13:25:00 +0000
+
+[D2.S5] Hi Lena,
+
+[D2.S6] Irene Fischer started the account reconciliation on 21 June 2025, 11:30 UTC. [D2.S7] Felix Okafor started the expense reimbursement on June 30, 2025 at 10:45 UTC. [D2.S8] Kofi Whitfield also took part in the expense reimbursement. [D2.S9] On 10 July 2025, 17:25 UTC, Lena Petrov initiated the refund request. [D2.S10] Kofi Whitfield was involved in the refund request as well. [D2.S11] Kofi Whitfield started the wire transfer on 12 July 2025, 13:10 UTC. [D2.S12] Felix Okafor started the invoice submission on July 16, 2025 at 15:00 UTC. [D2.S13] Lena Petrov also took part in the invoice submission. [D2.S14] Felix Okafor started the vendor onboarding on 17 July 2025, 11:25 UTC.
+
+[D2.S15] Thanks,
+[D2.S16] Irene

@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oakhaven Logistics Co. employs Sofia Ivanova, who can be reached at sivanova@oakhaven.com. [D1.S3] Wesley Park works for Oakhaven Logistics Co. and uses the address wesley.park@oakhaven.com. [D1.S4] Luca Fischer is employed by Summit Peak Freight Group; their email is lfischer@summitpeak.com.
+
+[D1.S5] Oakhaven Logistics Co. operates from 946 Market Street, Omaha, NE 68102.
+
+[D1.S6] First Harbor Bank account 4396839738 is registered to Oakhaven Logistics Co. [D1.S7] Account 8518118555 at First Harbor Bank belongs to Summit Peak Freight Group. [D1.S8] Account 9876553190 at First Harbor Bank belongs to Sofia Ivanova.
+
+[D1.S9] Let me know if anything here looks off.

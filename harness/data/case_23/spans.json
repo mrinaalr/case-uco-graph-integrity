@@ -1,0 +1,423 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 27,
+  "text": "From: tkowalski@redfern.com",
+  "tids": [
+   "t47",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 28,
+  "end": 59,
+  "text": "To: yara.banerjee@clearpath.com",
+  "tids": [
+   "t48",
+   "t55",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 60,
+  "end": 93,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Thu, 06 Feb 2025 13:25:00 +0000",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 141,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 143,
+  "end": 215,
+  "text": "On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 216,
+  "end": 272,
+  "text": "Approval for the wire transfer came from Tomas Kowalski.",
+  "tids": [
+   "t44",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 273,
+  "end": 351,
+  "text": "On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38",
+   "t4"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 352,
+  "end": 401,
+  "text": "Tomas Kowalski authorized the contract amendment.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 403,
+  "end": 410,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 411,
+  "end": 416,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Yara Banerjee works for Clearpath Freight Co. and uses the address yara.banerjee@clearpath.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t56",
+   "t57",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 227,
+  "text": "Hector Quinn is employed by Clearpath Freight Co.; their email is hector.quinn@clearpath.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t58",
+   "t59",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 228,
+  "end": 320,
+  "text": "Tomas Kowalski is employed by Redfern Analytics Group; their email is tkowalski@redfern.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t60",
+   "t61",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 322,
+  "end": 360,
+  "text": "Hector Quinn reports to Yara Banerjee.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 362,
+  "end": 430,
+  "text": "Clearpath Freight Co. operates from 513 Elm Street, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 432,
+  "end": 513,
+  "text": "Pinecrest National Bank account 8453395788 is registered to Clearpath Freight Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t62",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 514,
+  "end": 595,
+  "text": "Account 8858108822 at Pinecrest National Bank belongs to Redfern Analytics Group.",
+  "tids": [
+   "t25",
+   "t26",
+   "t63",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 596,
+  "end": 670,
+  "text": "Pinecrest National Bank account 1484775689 is registered to Yara Banerjee.",
+  "tids": [
+   "t28",
+   "t29",
+   "t64",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 672,
+  "end": 730,
+  "text": "Funds moved from account 8453395788 to account 8858108822.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 732,
+  "end": 766,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: tkowalski@redfern.com",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 59,
+  "text": "To: yara.banerjee@clearpath.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 60,
+  "end": 95,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Fri, 14 Feb 2025 12:50:00 +0000",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 135,
+  "end": 143,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 227,
+  "text": "On February 1, 2025 at 14:25 UTC, Tomas Kowalski initiated the invoice submission.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 228,
+  "end": 299,
+  "text": "Tomas Kowalski started the audit review on 14 February 2025, 10:50 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 300,
+  "end": 354,
+  "text": "Hector Quinn was involved in the audit review as well.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 356,
+  "end": 363,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 364,
+  "end": 369,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ }
+}

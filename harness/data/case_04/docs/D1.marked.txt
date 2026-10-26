@@ -1,0 +1,11 @@
+[D1.S1] From: wesley.vance@ironleaf.com
+[D1.S2] To: grace.fischer@harborline.com, vashworth@harborline.com
+[D1.S3] Subject: Urgent: payment timing
+[D1.S4] Date: Sun, 09 Mar 2025 18:50:00 +0000
+
+[D1.S5] Hi Grace,
+
+[D1.S6] Victor Ashworth started the refund request on March 9, 2025 at 16:50 UTC. [D1.S7] Wesley Vance authorized the refund request. [D1.S8] Grace Fischer was involved in the refund request as well. [D1.S9] The refund request happened at Harborline Services Inc.'s office.
+
+[D1.S10] Thanks,
+[D1.S11] Wesley

@@ -1,0 +1,420 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 31,
+  "text": "From: tcastillo@stonebridge.com",
+  "tids": [
+   "t47",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 32,
+  "end": 61,
+  "text": "To: hwhitfield@cedarridge.com",
+  "tids": [
+   "t48",
+   "t56",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 62,
+  "end": 87,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 88,
+  "end": 125,
+  "text": "Date: Sun, 30 Mar 2025 15:15:00 +0000",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 127,
+  "end": 137,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 227,
+  "text": "The expense reimbursement was initiated by Hector Whitfield on 15 March 2025, 16:25 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 287,
+  "text": "Tomas Castillo also took part in the expense reimbursement.",
+  "tids": [
+   "t46",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 288,
+  "end": 362,
+  "text": "On 30 March 2025, 13:15 UTC, Dana Okafor initiated the invoice submission.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41",
+   "t5"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 363,
+  "end": 435,
+  "text": "The invoice submission took place at the Stonebridge Supply Ltd. office.",
+  "tids": [
+   "t45",
+   "t1"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 437,
+  "end": 444,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 445,
+  "end": 450,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 134,
+  "text": "Tomas Castillo works for Stonebridge Supply Ltd. and uses the address tcastillo@stonebridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 226,
+  "text": "Dana Okafor works for Stonebridge Supply Ltd. and uses the address dokafor@stonebridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t59",
+   "t60",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 227,
+  "end": 326,
+  "text": "Hector Whitfield works for Cedar Ridge Tooling Inc. and uses the address hwhitfield@cedarridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t61",
+   "t62",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 328,
+  "end": 405,
+  "text": "Stonebridge Supply Ltd. operates from 8549 Commerce Drive, Raleigh, NC 27601.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 407,
+  "end": 455,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 29,
+  "text": "From: dokafor@stonebridge.com",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 30,
+  "end": 86,
+  "text": "To: tcastillo@stonebridge.com, hwhitfield@cedarridge.com",
+  "tids": [
+   "t52",
+   "t53",
+   "t63",
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 87,
+  "end": 123,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 124,
+  "end": 161,
+  "text": "Date: Sun, 13 Apr 2025 19:00:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 163,
+  "end": 172,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 174,
+  "end": 253,
+  "text": "Hector Whitfield started the bank detail change on March 24, 2025 at 14:10 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 254,
+  "end": 334,
+  "text": "The wire transfer was initiated by Hector Whitfield on 13 April 2025, 17:00 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 336,
+  "end": 343,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 344,
+  "end": 348,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 94,
+  "text": "Stonebridge Supply Ltd. holds account 9512975827 at Pinecrest National Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t65",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 95,
+  "end": 179,
+  "text": "Pinecrest National Bank account 8579003599 is registered to Cedar Ridge Tooling Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t66",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 180,
+  "end": 252,
+  "text": "Pinecrest National Bank account 1149258289 is registered to Dana Okafor.",
+  "tids": [
+   "t28",
+   "t29",
+   "t67",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 254,
+  "end": 331,
+  "text": "The audit review was initiated by Tomas Castillo on 26 March 2025, 11:45 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 333,
+  "end": 372,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

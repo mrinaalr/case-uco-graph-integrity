@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Andre Okafor is employed by Clearpath Packaging Co.; their email is andre.okafor@clearpath.com. [D2.S3] Clearpath Packaging Co. employs Yara Fischer, who can be reached at yfischer@clearpath.com. [D2.S4] Desmond Kowalski is employed by Westmark Logistics Inc.; their email is desmond.kowalski@westmark.com.
+
+[D2.S5] Clearpath Packaging Co. operates from 9297 Market Street, Omaha, NE 68102.
+
+[D2.S6] First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co. [D2.S7] Account 3503133229 at First Harbor Bank belongs to Westmark Logistics Inc. [D2.S8] First Harbor Bank account 7342857219 is registered to Andre Okafor.
+
+[D2.S9] This summary reflects records available to date.

@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Copperfield Fabrication Inc. employs Andre Fischer, who can be reached at afischer@copperfield.com. [D1.S3] Julian Holloway is employed by Copperfield Fabrication Inc.; their email is julian.holloway@copperfield.com. [D1.S4] Priya Sorensen works for Copperfield Fabrication Inc. and uses the address priya.sorensen@copperfield.com. [D1.S5] Desmond Delgado is employed by Oakhaven Freight Inc.; their email is ddelgado@oakhaven.com.
+
+[D1.S6] Copperfield Fabrication Inc. operates from 2894 Market Street, Richmond, VA 23219.
+
+[D1.S7] Copperfield Fabrication Inc. holds account 9105160648 at Union Ledger Bank. [D1.S8] Account 6816152188 at Union Ledger Bank belongs to Oakhaven Freight Inc. [D1.S9] Union Ledger Bank account 4167366163 is registered to Andre Fischer.
+
+[D1.S10] More detail will follow once records are pulled.

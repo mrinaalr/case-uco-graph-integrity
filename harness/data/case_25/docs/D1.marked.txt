@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Sofia Lindqvist works for Stonebridge Supply Group and uses the address slindqvist@stonebridge.com. [D1.S3] Kofi Reyes is employed by Stonebridge Supply Group; their email is kofi.reyes@stonebridge.com. [D1.S4] Mei Banerjee is employed by Harborline Packaging Inc.; their email is mei.banerjee@harborline.com.
+
+[D1.S5] Stonebridge Supply Group operates from 9623 Market Street, Dayton, OH 45402.
+
+[D1.S6] Union Ledger Bank account 9698080226 is registered to Stonebridge Supply Group. [D1.S7] Harborline Packaging Inc. holds account 7347335891 at Union Ledger Bank.
+
+[D1.S8] This summary reflects records available to date.

@@ -1,0 +1,13 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Oakhaven Tooling Ltd. employs Nadia Fischer, who can be reached at nadia.fischer@oakhaven.com. [D2.S3] Oakhaven Tooling Ltd. employs Tomas Quinn, who can be reached at tomas.quinn@oakhaven.com. [D2.S4] Wesley Banerjee works for Oakhaven Tooling Ltd. and uses the address wesley.banerjee@oakhaven.com. [D2.S5] Cedar Ridge Logistics LLC employs Arjun Ivanova, who can be reached at aivanova@cedarridge.com.
+
+[D2.S6] Tomas Quinn's manager is Nadia Fischer. [D2.S7] Wesley Banerjee's manager is Nadia Fischer.
+
+[D2.S8] Oakhaven Tooling Ltd. operates from 340 Market Street, Omaha, NE 68102. [D2.S9] Cedar Ridge Logistics LLC operates from 9547 Elm Street, Boise, ID 83702.
+
+[D2.S10] Oakhaven Tooling Ltd. holds account 4789109216 at Union Ledger Bank. [D2.S11] Cedar Ridge Logistics LLC holds account 8244909755 at Union Ledger Bank. [D2.S12] Nadia Fischer holds account 7062496242 at Union Ledger Bank.
+
+[D2.S13] Funds moved from account 4789109216 to account 7062496242.
+
+[D2.S14] Please treat this as confidential.

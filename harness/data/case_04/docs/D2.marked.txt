@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Victor Ashworth is employed by Harborline Services Inc.; their email is vashworth@harborline.com. [D2.S3] Grace Fischer is employed by Harborline Services Inc.; their email is grace.fischer@harborline.com. [D2.S4] Wesley Vance is employed by Ironleaf Freight Inc.; their email is wesley.vance@ironleaf.com.
+
+[D2.S5] Harborline Services Inc. is based at 1589 Lakeview Road, Albany, NY 12207. [D2.S6] Ironleaf Freight Inc. is based at 879 Main Street, Dayton, OH 45402.
+
+[D2.S7] Grace Fischer had been in contact with Wesley Vance throughout.
+
+[D2.S8] Please treat this as confidential.

@@ -1,0 +1,11 @@
+[D1.S1] From: victor.whitfield@stonebridge.com
+[D1.S2] To: tomas.mendes@redfern.com
+[D1.S3] Subject: Audit prep items
+[D1.S4] Date: Fri, 24 Oct 2025 16:50:00 +0000
+
+[D1.S5] Hi Tomas,
+
+[D1.S6] The wire transfer was initiated by Tomas Mendes on October 20, 2025 at 12:45 UTC. [D1.S7] On 24 October 2025, 14:50 UTC, Tomas Mendes initiated the account reconciliation. [D1.S8] Victor Whitfield had been in contact with Oscar Moreau throughout.
+
+[D1.S9] Thanks,
+[D1.S10] Victor

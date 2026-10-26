@@ -1,0 +1,11 @@
+[D3.S1] From: dokafor@stonebridge.com
+[D3.S2] To: tcastillo@stonebridge.com, hwhitfield@cedarridge.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Sun, 13 Apr 2025 19:00:00 +0000
+
+[D3.S5] Hi Tomas,
+
+[D3.S6] Hector Whitfield started the bank detail change on March 24, 2025 at 14:10 UTC. [D3.S7] The wire transfer was initiated by Hector Whitfield on 13 April 2025, 17:00 UTC.
+
+[D3.S8] Thanks,
+[D3.S9] Dana

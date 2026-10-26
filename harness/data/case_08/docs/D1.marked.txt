@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Clearpath Logistics Inc. employs Felix Haddad, who can be reached at fhaddad@clearpath.com. [D1.S3] Victor Delgado is employed by Clearpath Logistics Inc.; their email is victor.delgado@clearpath.com. [D1.S4] Grace Mendes works for Clearpath Logistics Inc. and uses the address gmendes@clearpath.com. [D1.S5] Sofia Sorensen works for Redfern Logistics LLC and uses the address ssorensen@redfern.com. [D1.S6] Priya Osei works for Redfern Logistics LLC and uses the address posei@redfern.com.
+
+[D1.S7] Grace Mendes reports to Felix Haddad.
+
+[D1.S8] Clearpath Logistics Inc. operates from 5618 Main Street, Spokane, WA 99201. [D1.S9] Redfern Logistics LLC is based at 8685 Riverside Boulevard, Albany, NY 12207.
+
+[D1.S10] First Harbor Bank account 1925770755 is registered to Clearpath Logistics Inc. [D1.S11] First Harbor Bank account 6616593409 is registered to Redfern Logistics LLC. [D1.S12] Account 4865285406 at First Harbor Bank belongs to Felix Haddad.
+
+[D1.S13] Account 1925770755 sent a transfer to account 6616593409.
+
+[D1.S14] Please treat this as confidential.

@@ -1,0 +1,11 @@
+[D1.S1] From: desmond.sorensen@cedarridge.com
+[D1.S2] To: sbrennan@cedarridge.com, mei.castillo@silverlake.com
+[D1.S3] Subject: Updated remittance details
+[D1.S4] Date: Mon, 04 Aug 2025 17:50:00 +0000
+
+[D1.S5] Hi Samuel,
+
+[D1.S6] The wire transfer was initiated by Mei Castillo on July 30, 2025 at 13:30 UTC. [D1.S7] Approval for the wire transfer came from Samuel Brennan. [D1.S8] Desmond Sorensen was involved in the wire transfer as well. [D1.S9] The payment approval was initiated by Desmond Sorensen on August 4, 2025 at 15:50 UTC. [D1.S10] Mei Castillo also took part in the payment approval.
+
+[D1.S11] Thanks,
+[D1.S12] Desmond

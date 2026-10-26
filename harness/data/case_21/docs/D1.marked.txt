@@ -1,0 +1,11 @@
+[D1.S1] From: maya.quinn@oakhaven.com
+[D1.S2] To: hcastillo@oakhaven.com
+[D1.S3] Subject: Invoice 8176 follow-up
+[D1.S4] Date: Sat, 03 May 2025 17:00:00 +0000
+
+[D1.S5] Hi Hector,
+
+[D1.S6] The vendor onboarding was initiated by Andre Petrov on 12 April 2025, 16:10 UTC. [D1.S7] On 25 April 2025, 17:45 UTC, Victor Haddad initiated the wire transfer. [D1.S8] On 3 May 2025, 15:00 UTC, Maya Quinn initiated the audit review.
+
+[D1.S9] Thanks,
+[D1.S10] Maya

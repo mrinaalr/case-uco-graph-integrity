@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @oscarb is Oscar Banerjee.
+[D3.S3] @lucap is Luca Petrov.
+[D3.S4] [2025-05-02 10:50 UTC] @oscarb to @lucap: Let's keep this between us until Friday.
+[D3.S5] [2025-05-02 10:57 UTC] @lucap to @oscarb: Did the bank call back yet?

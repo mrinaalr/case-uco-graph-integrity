@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Kofi Quinn works for Clearpath Tooling Inc. and uses the address kofi.quinn@clearpath.com. [D2.S3] Owen Castillo works for Clearpath Tooling Inc. and uses the address owen.castillo@clearpath.com. [D2.S4] Harborline Consulting LLC employs Yara Ivanova, who can be reached at yivanova@harborline.com.
+
+[D2.S5] Clearpath Tooling Inc. is based at 2969 Market Street, Albany, NY 12207. [D2.S6] Harborline Consulting LLC is based at 979 Main Street, Tucson, AZ 85701.
+
+[D2.S7] Clearpath Tooling Inc. holds account 8561434330 at Union Ledger Bank. [D2.S8] Harborline Consulting LLC holds account 9642990257 at Union Ledger Bank.
+
+[D2.S9] More detail will follow once records are pulled.

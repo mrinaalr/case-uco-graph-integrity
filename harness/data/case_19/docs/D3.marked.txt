@@ -1,0 +1,11 @@
+[D3.S1] From: hfischer@westmark.com
+[D3.S2] To: mnovak@bluegate.com, kofi.kowalski@bluegate.com
+[D3.S3] Subject: Updated remittance details
+[D3.S4] Date: Thu, 15 May 2025 19:00:00 +0000
+
+[D3.S5] Hi Maya,
+
+[D3.S6] On 15 April 2025, 15:15 UTC, Maya Novak initiated the payment approval. [D3.S7] The payment approval happened at Bluegate Services Co.'s office. [D3.S8] On 3 May 2025, 14:00 UTC, Kofi Kowalski initiated the wire transfer. [D3.S9] On 15 May 2025, 17:00 UTC, Irene Sorensen initiated the vendor onboarding.
+
+[D3.S10] Thanks,
+[D3.S11] Hector

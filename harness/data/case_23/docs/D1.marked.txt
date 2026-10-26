@@ -1,0 +1,11 @@
+[D1.S1] From: tkowalski@redfern.com
+[D1.S2] To: yara.banerjee@clearpath.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Thu, 06 Feb 2025 13:25:00 +0000
+
+[D1.S5] Hi Yara,
+
+[D1.S6] On 1 February 2025, 10:25 UTC, Hector Quinn initiated the wire transfer. [D1.S7] Approval for the wire transfer came from Tomas Kowalski. [D1.S8] On 6 February 2025, 11:25 UTC, Yara Banerjee initiated the contract amendment. [D1.S9] Tomas Kowalski authorized the contract amendment.
+
+[D1.S10] Thanks,
+[D1.S11] Tomas

@@ -1,0 +1,11 @@
+[D2.S1] From: wesley.castillo@oakhaven.com
+[D2.S2] To: luca.petrov@oakhaven.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Sun, 18 May 2025 13:30:00 +0000
+
+[D2.S5] Hi Luca,
+
+[D2.S6] On 2 May 2025, 09:50 UTC, Nadia Moreau initiated the refund request. [D2.S7] Approval for the refund request came from Wesley Castillo. [D2.S8] Luca Petrov started the audit review on May 18, 2025 at 11:30 UTC.
+
+[D2.S9] Thanks,
+[D2.S10] Wesley

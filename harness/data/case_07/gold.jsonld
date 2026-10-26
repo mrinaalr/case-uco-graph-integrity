@@ -1,0 +1,940 @@
+{
+  "@context": {
+    "kb": "http://example.org/kb/",
+    "uco-core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "uco-identity": "https://ontology.unifiedcyberontology.org/uco/identity/",
+    "uco-location": "https://ontology.unifiedcyberontology.org/uco/location/",
+    "uco-observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "kb:org_company-7b99f20c-102f-504d-bbbc-4d39e57e4be2",
+      "@type": "uco-identity:Organization",
+      "uco-core:name": "Cedar Ridge Fabrication Group"
+    },
+    {
+      "@id": "kb:org_vendor-01b9788b-2daa-5de5-b782-5e0a2baa0deb",
+      "@type": "uco-identity:Organization",
+      "uco-core:name": "Silverlake Freight Group"
+    },
+    {
+      "@id": "kb:org_bank-1f3c5251-09d2-58c4-a33a-474bc97cd081",
+      "@type": "uco-identity:Organization",
+      "uco-core:name": "First Harbor Bank"
+    },
+    {
+      "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13",
+      "@type": "uco-identity:Person",
+      "uco-core:name": "Desmond Sorensen"
+    },
+    {
+      "@id": "kb:person_1-163b83e6-716d-5344-ad6c-92a74603f727",
+      "@type": "uco-identity:Person",
+      "uco-core:name": "Samuel Brennan"
+    },
+    {
+      "@id": "kb:person_2-2c2737ad-a059-52bd-bce9-95fb6e1b7c3c",
+      "@type": "uco-identity:Person",
+      "uco-core:name": "Kofi Park"
+    },
+    {
+      "@id": "kb:person_3-ec0bf7a7-119c-52ed-b039-34ae3ccc795f",
+      "@type": "uco-identity:Person",
+      "uco-core:name": "Julian Lindqvist"
+    },
+    {
+      "@id": "kb:person_4-33b022e2-d1f4-56b7-915e-ceae6efa3872",
+      "@type": "uco-identity:Person",
+      "uco-core:name": "Mei Castillo"
+    },
+    {
+      "@id": "kb:email_person_0-7820e08b-24c0-5e11-89fa-1fa2a5e9b982",
+      "@type": "uco-observable:EmailAddress",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_person_0-EmailAddressFacet-300ea0fe-842e-55d9-81a9-977b14165cda"
+      }
+    },
+    {
+      "@id": "kb:email_person_1-e3aa7310-ba53-516c-853c-2e2a30f02211",
+      "@type": "uco-observable:EmailAddress",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_person_1-EmailAddressFacet-d6e851b5-b430-5a64-8a22-5f0d07a3f235"
+      }
+    },
+    {
+      "@id": "kb:email_person_2-e9e1702e-816e-5181-b764-a25d8410248c",
+      "@type": "uco-observable:EmailAddress",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_person_2-EmailAddressFacet-cde3de50-cacb-57dd-8480-14055470e6c9"
+      }
+    },
+    {
+      "@id": "kb:email_person_3-6f3b62b6-bb9f-5950-84ff-d96dec0495a2",
+      "@type": "uco-observable:EmailAddress",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_person_3-EmailAddressFacet-cf45371a-f559-52b7-a5c2-ef97f6a268a0"
+      }
+    },
+    {
+      "@id": "kb:email_person_4-9a7b261b-5fea-5e31-b439-272af9861c8f",
+      "@type": "uco-observable:EmailAddress",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_person_4-EmailAddressFacet-9e87767f-fb3d-5513-92cd-532b00fa9fdb"
+      }
+    },
+    {
+      "@id": "kb:loc_company-bf9c870f-5288-5c0b-a256-647a1533be56",
+      "@type": "uco-location:Location",
+      "uco-core:hasFacet": {
+        "@id": "kb:loc_company-SimpleAddressFacet-9c1589a9-8ab1-5687-a8b8-8c37e2d2fcb9"
+      }
+    },
+    {
+      "@id": "kb:acct_company-7d89d9d8-e3a8-5a25-87ad-28af3f222267",
+      "@type": "uco-observable:Account",
+      "uco-core:hasFacet": {
+        "@id": "kb:acct_company-AccountFacet-b6885c95-3dbe-5af5-b9a4-345d734f030e"
+      }
+    },
+    {
+      "@id": "kb:acct_vendor-f75496a7-037b-52de-8896-4c7464c5b39b",
+      "@type": "uco-observable:Account",
+      "uco-core:hasFacet": {
+        "@id": "kb:acct_vendor-AccountFacet-69a15a47-c8a0-529a-b88a-51240a022929"
+      }
+    },
+    {
+      "@id": "kb:acct_insider-1bb51612-43f0-549f-8e43-19930ba28bbc",
+      "@type": "uco-observable:Account",
+      "uco-core:hasFacet": {
+        "@id": "kb:acct_insider-AccountFacet-082a8854-6e1e-5e2b-b582-bc1467f81e30"
+      }
+    },
+    {
+      "@id": "kb:event_0-2b926b35-50fc-55cf-818e-4a113381f09b",
+      "@type": "uco-core:Event",
+      "uco-core:eventType": [
+        "wire transfer"
+      ],
+      "uco-core:startTime": [
+        {
+          "@type": "xsd:dateTime",
+          "@value": "2025-07-30T13:30:00Z"
+        }
+      ]
+    },
+    {
+      "@id": "kb:event_1-5de708f9-a5d2-5296-b8dc-95aa51429485",
+      "@type": "uco-core:Event",
+      "uco-core:eventType": [
+        "account reconciliation"
+      ],
+      "uco-core:startTime": [
+        {
+          "@type": "xsd:dateTime",
+          "@value": "2025-08-03T13:25:00Z"
+        }
+      ]
+    },
+    {
+      "@id": "kb:event_2-3fdaf4d2-0576-50b0-9397-2401f4391084",
+      "@type": "uco-core:Event",
+      "uco-core:eventType": [
+        "payment approval"
+      ],
+      "uco-core:startTime": [
+        {
+          "@type": "xsd:dateTime",
+          "@value": "2025-08-04T15:50:00Z"
+        }
+      ]
+    },
+    {
+      "@id": "kb:event_3-cdef7e09-ff56-5532-aa37-0c6bb374e11b",
+      "@type": "uco-core:Event",
+      "uco-core:eventType": [
+        "refund request"
+      ],
+      "uco-core:startTime": [
+        {
+          "@type": "xsd:dateTime",
+          "@value": "2025-08-23T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "@id": "kb:email_msg_0-96aa6a37-bd18-58d3-8697-15b66d0acfd3",
+      "@type": "uco-observable:EmailMessage",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_msg_0-EmailMessageFacet-cbe53104-2161-5e60-96ae-c205cd3f8ecf"
+      }
+    },
+    {
+      "@id": "kb:email_msg_1-997df278-6515-5ac8-b8ea-01feaa846794",
+      "@type": "uco-observable:EmailMessage",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_msg_1-EmailMessageFacet-d6df6dd5-e451-548b-884e-bbb95a80e261"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_0-5493de85-32e6-565a-b510-a313d428d920",
+      "@type": "uco-observable:EmailAccount",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_account_person_0-EmailAccountFacet-7d45b685-83e7-5c00-bf39-e1736dc3d48e"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_1-7fd37684-32fb-5154-8ce4-ec065d185040",
+      "@type": "uco-observable:EmailAccount",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_account_person_1-EmailAccountFacet-11c9a0d9-c435-5aa5-86af-3b0bbbc93be3"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_2-f28d6e84-7301-58d3-98d0-4454eeb23203",
+      "@type": "uco-observable:EmailAccount",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_account_person_2-EmailAccountFacet-5c42cbda-dc2c-5e59-be70-d309feff9575"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_3-e5c3b9d3-b7c4-5ea7-9349-d01a514a9891",
+      "@type": "uco-observable:EmailAccount",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_account_person_3-EmailAccountFacet-74e6311f-5329-5e4d-96e4-4baed40c3cfc"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_4-ab4c9145-3f73-588b-8517-125e69f72988",
+      "@type": "uco-observable:EmailAccount",
+      "uco-core:hasFacet": {
+        "@id": "kb:email_account_person_4-EmailAccountFacet-39711de2-b302-5f1c-b3ff-f6c5b3968d53"
+      }
+    },
+    {
+      "@id": "kb:email_person_0-EmailAddressFacet-300ea0fe-842e-55d9-81a9-977b14165cda",
+      "@type": "uco-observable:EmailAddressFacet",
+      "uco-observable:addressValue": "desmond.sorensen@cedarridge.com"
+    },
+    {
+      "@id": "kb:email_person_1-EmailAddressFacet-d6e851b5-b430-5a64-8a22-5f0d07a3f235",
+      "@type": "uco-observable:EmailAddressFacet",
+      "uco-observable:addressValue": "sbrennan@cedarridge.com"
+    },
+    {
+      "@id": "kb:email_person_2-EmailAddressFacet-cde3de50-cacb-57dd-8480-14055470e6c9",
+      "@type": "uco-observable:EmailAddressFacet",
+      "uco-observable:addressValue": "kofi.park@cedarridge.com"
+    },
+    {
+      "@id": "kb:email_person_3-EmailAddressFacet-cf45371a-f559-52b7-a5c2-ef97f6a268a0",
+      "@type": "uco-observable:EmailAddressFacet",
+      "uco-observable:addressValue": "jlindqvist@silverlake.com"
+    },
+    {
+      "@id": "kb:email_person_4-EmailAddressFacet-9e87767f-fb3d-5513-92cd-532b00fa9fdb",
+      "@type": "uco-observable:EmailAddressFacet",
+      "uco-observable:addressValue": "mei.castillo@silverlake.com"
+    },
+    {
+      "@id": "kb:loc_company-SimpleAddressFacet-9c1589a9-8ab1-5687-a8b8-8c37e2d2fcb9",
+      "@type": "uco-location:SimpleAddressFacet",
+      "uco-location:street": "8493 Harbor Avenue",
+      "uco-location:locality": "Spokane",
+      "uco-location:region": "WA",
+      "uco-location:postalCode": "99201"
+    },
+    {
+      "@id": "kb:acct_company-AccountFacet-b6885c95-3dbe-5af5-b9a4-345d734f030e",
+      "@type": "uco-observable:AccountFacet",
+      "uco-observable:accountIdentifier": "4846820983",
+      "uco-observable:accountIssuer": {
+        "@id": "kb:org_bank-1f3c5251-09d2-58c4-a33a-474bc97cd081"
+      },
+      "uco-observable:accountType": "bank account"
+    },
+    {
+      "@id": "kb:acct_vendor-AccountFacet-69a15a47-c8a0-529a-b88a-51240a022929",
+      "@type": "uco-observable:AccountFacet",
+      "uco-observable:accountIdentifier": "3702498766",
+      "uco-observable:accountIssuer": {
+        "@id": "kb:org_bank-1f3c5251-09d2-58c4-a33a-474bc97cd081"
+      },
+      "uco-observable:accountType": "bank account"
+    },
+    {
+      "@id": "kb:acct_insider-AccountFacet-082a8854-6e1e-5e2b-b582-bc1467f81e30",
+      "@type": "uco-observable:AccountFacet",
+      "uco-observable:accountIdentifier": "1839620453",
+      "uco-observable:accountIssuer": {
+        "@id": "kb:org_bank-1f3c5251-09d2-58c4-a33a-474bc97cd081"
+      },
+      "uco-observable:accountType": "bank account"
+    },
+    {
+      "@id": "kb:email_msg_0-EmailMessageFacet-cbe53104-2161-5e60-96ae-c205cd3f8ecf",
+      "@type": "uco-observable:EmailMessageFacet",
+      "uco-observable:from": {
+        "@id": "kb:email_person_0-7820e08b-24c0-5e11-89fa-1fa2a5e9b982"
+      },
+      "uco-observable:to": [
+        {
+          "@id": "kb:email_person_1-e3aa7310-ba53-516c-853c-2e2a30f02211"
+        },
+        {
+          "@id": "kb:email_person_4-9a7b261b-5fea-5e31-b439-272af9861c8f"
+        }
+      ],
+      "uco-observable:subject": "Updated remittance details",
+      "uco-observable:sentTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-04T17:50:00Z"
+      }
+    },
+    {
+      "@id": "kb:email_msg_1-EmailMessageFacet-d6df6dd5-e451-548b-884e-bbb95a80e261",
+      "@type": "uco-observable:EmailMessageFacet",
+      "uco-observable:from": {
+        "@id": "kb:email_person_0-7820e08b-24c0-5e11-89fa-1fa2a5e9b982"
+      },
+      "uco-observable:to": [
+        {
+          "@id": "kb:email_person_4-9a7b261b-5fea-5e31-b439-272af9861c8f"
+        },
+        {
+          "@id": "kb:email_person_2-e9e1702e-816e-5181-b764-a25d8410248c"
+        }
+      ],
+      "uco-observable:subject": "Quarter-end vendor payments",
+      "uco-observable:sentTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-23T11:00:00Z"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_0-EmailAccountFacet-7d45b685-83e7-5c00-bf39-e1736dc3d48e",
+      "@type": "uco-observable:EmailAccountFacet",
+      "uco-observable:emailAddress": {
+        "@id": "kb:email_person_0-7820e08b-24c0-5e11-89fa-1fa2a5e9b982"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_1-EmailAccountFacet-11c9a0d9-c435-5aa5-86af-3b0bbbc93be3",
+      "@type": "uco-observable:EmailAccountFacet",
+      "uco-observable:emailAddress": {
+        "@id": "kb:email_person_1-e3aa7310-ba53-516c-853c-2e2a30f02211"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_2-EmailAccountFacet-5c42cbda-dc2c-5e59-be70-d309feff9575",
+      "@type": "uco-observable:EmailAccountFacet",
+      "uco-observable:emailAddress": {
+        "@id": "kb:email_person_2-e9e1702e-816e-5181-b764-a25d8410248c"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_3-EmailAccountFacet-74e6311f-5329-5e4d-96e4-4baed40c3cfc",
+      "@type": "uco-observable:EmailAccountFacet",
+      "uco-observable:emailAddress": {
+        "@id": "kb:email_person_3-6f3b62b6-bb9f-5950-84ff-d96dec0495a2"
+      }
+    },
+    {
+      "@id": "kb:email_account_person_4-EmailAccountFacet-39711de2-b302-5f1c-b3ff-f6c5b3968d53",
+      "@type": "uco-observable:EmailAccountFacet",
+      "uco-observable:emailAddress": {
+        "@id": "kb:email_person_4-9a7b261b-5fea-5e31-b439-272af9861c8f"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Employed_By-org_company-0e579659-ac64-562a-aede-b5f435949a44",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:org_company-7b99f20c-102f-504d-bbbc-4d39e57e4be2"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Employed_By",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Holds_Account-email_person_0-59cc7e58-119c-513e-9b0d-52c6116e8650",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_person_0-7820e08b-24c0-5e11-89fa-1fa2a5e9b982"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_1-Employed_By-org_company-5e05e6ad-f576-5142-8f8c-012ecc6998a1",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_1-163b83e6-716d-5344-ad6c-92a74603f727"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:org_company-7b99f20c-102f-504d-bbbc-4d39e57e4be2"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Employed_By",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_1-Holds_Account-email_person_1-5c569b08-a225-5ed7-b633-7ca51b7b16eb",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_1-163b83e6-716d-5344-ad6c-92a74603f727"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_person_1-e3aa7310-ba53-516c-853c-2e2a30f02211"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_2-Employed_By-org_company-17b3ee14-0391-5bd1-8739-cef5ef94b541",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_2-2c2737ad-a059-52bd-bce9-95fb6e1b7c3c"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:org_company-7b99f20c-102f-504d-bbbc-4d39e57e4be2"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Employed_By",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_2-Holds_Account-email_person_2-2cb7ecba-6d55-52ff-95c8-919c1b8f40fd",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_2-2c2737ad-a059-52bd-bce9-95fb6e1b7c3c"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_person_2-e9e1702e-816e-5181-b764-a25d8410248c"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_3-Employed_By-org_vendor-91f886bf-4046-50e3-a2bf-538e994dada3",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_3-ec0bf7a7-119c-52ed-b039-34ae3ccc795f"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:org_vendor-01b9788b-2daa-5de5-b782-5e0a2baa0deb"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Employed_By",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_3-Holds_Account-email_person_3-94d42870-3013-5945-ae65-e0043afc4ad9",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_3-ec0bf7a7-119c-52ed-b039-34ae3ccc795f"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_person_3-6f3b62b6-bb9f-5950-84ff-d96dec0495a2"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_4-Employed_By-org_vendor-6e3e8c90-fc86-559a-b1f2-bb5a5917cc45",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_4-33b022e2-d1f4-56b7-915e-ceae6efa3872"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:org_vendor-01b9788b-2daa-5de5-b782-5e0a2baa0deb"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Employed_By",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_4-Holds_Account-email_person_4-66fbc475-380d-5752-8cb2-92a64b72337e",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_4-33b022e2-d1f4-56b7-915e-ceae6efa3872"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_person_4-9a7b261b-5fea-5e31-b439-272af9861c8f"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-org_company-Located_At-loc_company-97e7d66a-ebbf-51e8-9264-ce954cf69fa1",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:org_company-7b99f20c-102f-504d-bbbc-4d39e57e4be2"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:loc_company-bf9c870f-5288-5c0b-a256-647a1533be56"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Located_At",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-org_company-Owns_Account-acct_company-a224301e-d6a0-5c13-bd2b-fa9826612d80",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:org_company-7b99f20c-102f-504d-bbbc-4d39e57e4be2"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:acct_company-7d89d9d8-e3a8-5a25-87ad-28af3f222267"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Owns_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-org_vendor-Owns_Account-acct_vendor-49e0f665-f728-546e-879e-37b7a28eb730",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:org_vendor-01b9788b-2daa-5de5-b782-5e0a2baa0deb"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:acct_vendor-f75496a7-037b-52de-8896-4c7464c5b39b"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Owns_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_1-Owns_Account-acct_insider-e240e75a-5e2f-5174-be6f-ea52f9a82d3b",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_1-163b83e6-716d-5344-ad6c-92a74603f727"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:acct_insider-1bb51612-43f0-549f-8e43-19930ba28bbc"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Owns_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_4-Initiated-event_0-a0d43939-8a17-5c88-a302-108a5f3eab59",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_4-33b022e2-d1f4-56b7-915e-ceae6efa3872"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_0-2b926b35-50fc-55cf-818e-4a113381f09b"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Initiated",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Initiated-event_1-6ed71e90-8d4a-556d-b08c-a555728bc951",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_1-5de708f9-a5d2-5296-b8dc-95aa51429485"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Initiated",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Initiated-event_2-a8783932-6d5c-5321-88b5-5439cbf05e3d",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_2-3fdaf4d2-0576-50b0-9397-2401f4391084"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Initiated",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_4-Initiated-event_3-391c9b2b-9780-5244-9bc3-7c2766a3dd70",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_4-33b022e2-d1f4-56b7-915e-ceae6efa3872"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_3-cdef7e09-ff56-5532-aa37-0c6bb374e11b"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Initiated",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_2-Participated_In-event_1-35a7e39a-1730-5a10-9a03-db660db79a76",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_2-2c2737ad-a059-52bd-bce9-95fb6e1b7c3c"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_1-5de708f9-a5d2-5296-b8dc-95aa51429485"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Participated_In",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Authorized-event_3-1a29a913-2e4e-5458-a823-0a7daacbc05f",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_3-cdef7e09-ff56-5532-aa37-0c6bb374e11b"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Authorized",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Participated_In-event_0-bbcd987c-e1b0-5a91-9fca-7c5614b4f3d9",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_0-2b926b35-50fc-55cf-818e-4a113381f09b"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Participated_In",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_1-Authorized-event_0-3557e4cc-7918-5e03-b8d9-1109aaee1ad4",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_1-163b83e6-716d-5344-ad6c-92a74603f727"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_0-2b926b35-50fc-55cf-818e-4a113381f09b"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Authorized",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_4-Participated_In-event_2-b3a2378f-c2fe-5033-a06f-0d488c48e86d",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_4-33b022e2-d1f4-56b7-915e-ceae6efa3872"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:event_2-3fdaf4d2-0576-50b0-9397-2401f4391084"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Participated_In",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Communicated_With-person_1-96cf4666-0c70-558c-8b42-183d9432f853",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:person_1-163b83e6-716d-5344-ad6c-92a74603f727"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Communicated_With",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Communicated_With-person_4-cb644adb-80d3-5290-967a-5aa570b1570a",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:person_4-33b022e2-d1f4-56b7-915e-ceae6efa3872"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Communicated_With",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Holds_Account-email_account_person_0-e8cb07b1-e6c7-58a4-86b9-f3050dc29ff5",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_account_person_0-5493de85-32e6-565a-b510-a313d428d920"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_1-Holds_Account-email_account_person_1-493f2af8-accb-54b1-b7dd-e975f9041372",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_1-163b83e6-716d-5344-ad6c-92a74603f727"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_account_person_1-7fd37684-32fb-5154-8ce4-ec065d185040"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_2-Holds_Account-email_account_person_2-fbc2c1d7-f3d3-539d-b5a6-7fd1e8e0f58c",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_2-2c2737ad-a059-52bd-bce9-95fb6e1b7c3c"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_account_person_2-f28d6e84-7301-58d3-98d0-4454eeb23203"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_3-Holds_Account-email_account_person_3-56833b5c-0e05-5761-9976-8aa33ef51931",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_3-ec0bf7a7-119c-52ed-b039-34ae3ccc795f"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_account_person_3-e5c3b9d3-b7c4-5ea7-9349-d01a514a9891"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_4-Holds_Account-email_account_person_4-e1475ae8-98d7-5fb5-888b-aef0a55a8a8a",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_4-33b022e2-d1f4-56b7-915e-ceae6efa3872"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:email_account_person_4-ab4c9145-3f73-588b-8517-125e69f72988"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Holds_Account",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    },
+    {
+      "@id": "kb:rel-person_0-Communicated_With-person_2-a9a02821-f7b9-5b48-9b60-0523afb6aafe",
+      "@type": "uco-core:Relationship",
+      "uco-core:source": [
+        {
+          "@id": "kb:person_0-ec6e5e4c-82ec-5b43-bcbb-7e3aa0aefd13"
+        }
+      ],
+      "uco-core:target": [
+        {
+          "@id": "kb:person_2-2c2737ad-a059-52bd-bce9-95fb6e1b7c3c"
+        }
+      ],
+      "uco-core:kindOfRelationship": "Communicated_With",
+      "uco-core:isDirectional": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      }
+    }
+  ]
+}

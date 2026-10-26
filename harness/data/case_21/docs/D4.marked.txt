@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Oakhaven Logistics Inc. holds account 2616431031 at Granite Federal Credit Union. [D4.S3] Granite Federal Credit Union account 6220296925 is registered to Bluegate Distribution LLC.
+
+[D4.S4] Victor Haddad started the account reconciliation on April 25, 2025 at 14:25 UTC. [D4.S5] Hector Castillo started the payment approval on 30 April 2025, 13:30 UTC.
+
+[D4.S6] More detail will follow once records are pulled.

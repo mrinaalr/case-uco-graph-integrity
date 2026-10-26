@@ -1,0 +1,11 @@
+[D3.S1] From: desmond.kowalski@westmark.com
+[D3.S2] To: yfischer@clearpath.com
+[D3.S3] Subject: Urgent: payment timing
+[D3.S4] Date: Sat, 26 Apr 2025 19:10:00 +0000
+
+[D3.S5] Hi Yara,
+
+[D3.S6] Andre Okafor started the invoice submission on 26 April 2025, 17:10 UTC.
+
+[D3.S7] Thanks,
+[D3.S8] Desmond

@@ -1,0 +1,11 @@
+[D3.S1] From: desmond.sorensen@cedarridge.com
+[D3.S2] To: mei.castillo@silverlake.com, kofi.park@cedarridge.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Sat, 23 Aug 2025 11:00:00 +0000
+
+[D3.S5] Hi Mei,
+
+[D3.S6] Desmond Sorensen started the account reconciliation on 3 August 2025, 13:25 UTC. [D3.S7] Kofi Park was involved in the account reconciliation as well. [D3.S8] Mei Castillo started the refund request on 23 August 2025, 09:00 UTC. [D3.S9] Approval for the refund request came from Desmond Sorensen.
+
+[D3.S10] Thanks,
+[D3.S11] Desmond

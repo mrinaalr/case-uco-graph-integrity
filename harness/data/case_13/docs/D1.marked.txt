@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Sofia Brennan works for Oakhaven Fabrication Ltd. and uses the address sbrennan@oakhaven.com. [D1.S3] Nadia Ashworth is employed by Oakhaven Fabrication Ltd.; their email is nadia.ashworth@oakhaven.com. [D1.S4] Kofi Okafor works for Oakhaven Fabrication Ltd. and uses the address kofi.okafor@oakhaven.com. [D1.S5] Rosa Moreau works for Bluegate Fabrication LLC and uses the address rmoreau@bluegate.com.
+
+[D1.S6] Oakhaven Fabrication Ltd. operates from 1734 Market Street, Dayton, OH 45402.
+
+[D1.S7] Oakhaven Fabrication Ltd. holds account 5734701710 at Lakeshore Savings Bank. [D1.S8] Bluegate Fabrication LLC holds account 9817289209 at Lakeshore Savings Bank. [D1.S9] Account 3352443306 at Lakeshore Savings Bank belongs to Kofi Okafor.
+
+[D1.S10] Let me know if anything here looks off.

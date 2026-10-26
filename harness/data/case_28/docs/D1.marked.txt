@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Elena Banerjee is employed by Westmark Services Group; their email is ebanerjee@westmark.com. [D1.S3] Tomas Whitfield is employed by Westmark Services Group; their email is tomas.whitfield@westmark.com. [D1.S4] Luca Reyes is employed by Westmark Services Group; their email is lreyes@westmark.com. [D1.S5] Samuel Okafor works for Copperfield Analytics Group and uses the address samuel.okafor@copperfield.com. [D1.S6] Arjun Mendes works for Copperfield Analytics Group and uses the address arjun.mendes@copperfield.com.
+
+[D1.S7] Westmark Services Group is based at 9635 Maple Avenue, Richmond, VA 23219. [D1.S8] The offices of Copperfield Analytics Group are at 3938 Commerce Drive, Albany, NY 12207.
+
+[D1.S9] Please treat this as confidential.

@@ -1,0 +1,101 @@
+# Frozen scorer and gold
+
+Scores are comparable only between runs scored under the same freeze entry. No change to any hashed file without a new entry below (date, reason, hashes). Since Freeze 2 the run harness is hashed too (llm.py, the three pipeline_*.py files, config.toml), and no harness file is edited while a run is in progress: changes wait until runs finish and get a new entry.
+
+## Freeze 1: 2026-10-25 23:51 EDT
+
+Baseline freeze before scoring case_04 to case_30. SDK under test: v1.33.0 (a2dc8bc).
+
+SHA-256:
+
+```
+6dcfad75a2e8ed85ba61d75eb4a9687efcd6bf00891f6022ce1e6a7c56be8e65  score.py
+be68990064b89cb0243d970397b7972d0f2891af8f731cc3af60bcc661948536  generate_data.py
+819ea233eb2963952d4ce71ccdea1732d94e3c3f6ee1111353c8722a8ff773d9  graphkit.py
+758e20889fcd9f0e2bde082c99159ce95a68a4d947628ba5094ea465b59e7cb9  data/case_01/gold.json
+4c26f70adbfea75e1572ab7870693307585576bf562238476a42a556a8b75954  data/case_02/gold.json
+1a21efa6d6b5069e04532c37684ba8b7fd588a4d56bb5a265a6f7c9a569d3a64  data/case_03/gold.json
+173f2d0b6bef2e50fb38bfeaa931f90f2d274910800831e3fb1ce751026348df  data/case_04/gold.json
+8ef0f3dee59bdbade326e5715dd8887d756e324e40f9a1e4a5797d55a15586e1  data/case_05/gold.json
+e1fa9d15f8afe1093ecf2089d3c04e9e16ade25d6d6f00676b0582d8b8e08eab  data/case_06/gold.json
+37159a054fcbbc70965309e076b53c4d1604e8f772e1e30d055dc4d200cda9f7  data/case_07/gold.json
+674ff33de5c5bcd0e031a5a817b55e0f44c6c51f2fd8709b0ae44379172c5dce  data/case_08/gold.json
+04cc6bd7fedb39a3b9392a99054bab00ac6dbc6eff3b23de7f5fd99b0635d5fc  data/case_09/gold.json
+2bfbb17e962f865aaa37a10fddfb1e1a0b0188a4e6e533bbf2a362e4ee343282  data/case_10/gold.json
+906c39a7917689eb0f05a80833ba34bfebeee165db1c93e6e640fa7c746cbd5a  data/case_11/gold.json
+d754aac2eedefebd3e806f78390ed5028fe8a401db6c1de8316a657f0452e62b  data/case_12/gold.json
+788ab083629c7ef1ba82197e7abac2b085643cc963d7eaae1e79cbf4295c015c  data/case_13/gold.json
+0797fffb50cf353c05c43baac35fbe7df54531c4cfb0ae467fd693710cc7ec3d  data/case_14/gold.json
+01d5ada3c57912dfd86f446c0035999c5e4e4f56c5209e8cf8ac74868053940a  data/case_15/gold.json
+7d11e7719d0b568ac76538a036e4d217ac6865822d3277b4757389379cf67480  data/case_16/gold.json
+9d1b92a42bb87d0bba7619100e039a65be18a07f8893f2ecbaf4a17fde7b561c  data/case_17/gold.json
+15f010f61f8fd6aee81325d4e53e9a0188b34c33cd761b0e1409331069f890ef  data/case_18/gold.json
+4851570620a158f63a738703e8387e93de2382ac6e627ae6b80ea772920e35aa  data/case_19/gold.json
+0e0c79aa951fccd8104dd018021eea2e09e698b07b40546d739c1c2c80f1bd99  data/case_20/gold.json
+616eda118ec4da404f03c5d7bd5aac321367d67aa86e5e1140363496c4bb5c1a  data/case_21/gold.json
+09a26fe2bd99e0dc40f41cecf099ca28eedba46665598c0f5478432e6e4068e8  data/case_22/gold.json
+804f440b09943e1f8a0913e2769ef3930ae656a85ffd1c54fc7daf2852761f0f  data/case_23/gold.json
+fee6532ad05698bcac11141341d208c484eabb2b4c1c28a02e3ea996b9e2a4b1  data/case_24/gold.json
+70cd92a365426c102bbbbd30725d7a4724bb59535f7bedff88a67ce1ba516272  data/case_25/gold.json
+7109776f3ee702214476d8ba6faa41fe7d197a79c3c460ee8fb487e67cf9d366  data/case_26/gold.json
+7c4c7f96fca4ceb77e24cf92449d4d7074bb052c2e39fe4a3ce7b694a29fae11  data/case_27/gold.json
+09076ef2a4e1166b94eef332c0aaf102c64b31b233959d4c45acac9a1df81413  data/case_28/gold.json
+4a39a38af991cdd4f606910b5af34ddfa0c7abc00c59fb3e7528a7c4ef6b001a  data/case_29/gold.json
+43f27811d30d5ae39c434b253f40945cfca124da51c9cb4167280114f6ccd6b0  data/case_30/gold.json
+```
+
+graphkit.py is included because score.py takes its triple extraction and date normalization from it.
+
+## Freeze 2: 2026-10-26 08:39 EDT
+
+Moved to the case-uco-graph-integrity repo, with the SDK as the sdk/ submodule at v1.33.0 (a2dc8bc). Scorer and gold are unchanged from Freeze 1, and their hashes below match it. New since Freeze 1:
+
+- SDK paths now point to sdk/.
+- Each case line shows progress and an ETA.
+- A2 marks a run capped when it would pass max_context_tokens (65,536, the same for every model) or the endpoint rejects it for context length.
+- The [models.tinker_large] Inkling entry.
+
+Runs scored under this entry: baseline-v1 and tinker-inkling-v1.
+
+SHA-256:
+
+```
+6dcfad75a2e8ed85ba61d75eb4a9687efcd6bf00891f6022ce1e6a7c56be8e65  score.py
+be68990064b89cb0243d970397b7972d0f2891af8f731cc3af60bcc661948536  generate_data.py
+819ea233eb2963952d4ce71ccdea1732d94e3c3f6ee1111353c8722a8ff773d9  graphkit.py
+60a8275d07bbcb933f210eab95bb98ff7972400251eb265fc5769ec562bf2ea1  llm.py
+05c518d77626eace6a275317691d8cc4c089093cc3118278ebb504d476162d45  pipeline_monolith.py
+844f8a037b97c52055699f26faf070d362a5366e3a035d6ae0515fae899c4d21  pipeline_script.py
+7bb3abc323adfd8e248d6a090183d8801ee3a67e2756b8585d47a05e1b3c88f3  pipeline_sdk.py
+634a49689e4a7deda2cf994da59c466978772ea03a06c602d34d06ef15d749b0  config.toml
+758e20889fcd9f0e2bde082c99159ce95a68a4d947628ba5094ea465b59e7cb9  data/case_01/gold.json
+4c26f70adbfea75e1572ab7870693307585576bf562238476a42a556a8b75954  data/case_02/gold.json
+1a21efa6d6b5069e04532c37684ba8b7fd588a4d56bb5a265a6f7c9a569d3a64  data/case_03/gold.json
+173f2d0b6bef2e50fb38bfeaa931f90f2d274910800831e3fb1ce751026348df  data/case_04/gold.json
+8ef0f3dee59bdbade326e5715dd8887d756e324e40f9a1e4a5797d55a15586e1  data/case_05/gold.json
+e1fa9d15f8afe1093ecf2089d3c04e9e16ade25d6d6f00676b0582d8b8e08eab  data/case_06/gold.json
+37159a054fcbbc70965309e076b53c4d1604e8f772e1e30d055dc4d200cda9f7  data/case_07/gold.json
+674ff33de5c5bcd0e031a5a817b55e0f44c6c51f2fd8709b0ae44379172c5dce  data/case_08/gold.json
+04cc6bd7fedb39a3b9392a99054bab00ac6dbc6eff3b23de7f5fd99b0635d5fc  data/case_09/gold.json
+2bfbb17e962f865aaa37a10fddfb1e1a0b0188a4e6e533bbf2a362e4ee343282  data/case_10/gold.json
+906c39a7917689eb0f05a80833ba34bfebeee165db1c93e6e640fa7c746cbd5a  data/case_11/gold.json
+d754aac2eedefebd3e806f78390ed5028fe8a401db6c1de8316a657f0452e62b  data/case_12/gold.json
+788ab083629c7ef1ba82197e7abac2b085643cc963d7eaae1e79cbf4295c015c  data/case_13/gold.json
+0797fffb50cf353c05c43baac35fbe7df54531c4cfb0ae467fd693710cc7ec3d  data/case_14/gold.json
+01d5ada3c57912dfd86f446c0035999c5e4e4f56c5209e8cf8ac74868053940a  data/case_15/gold.json
+7d11e7719d0b568ac76538a036e4d217ac6865822d3277b4757389379cf67480  data/case_16/gold.json
+9d1b92a42bb87d0bba7619100e039a65be18a07f8893f2ecbaf4a17fde7b561c  data/case_17/gold.json
+15f010f61f8fd6aee81325d4e53e9a0188b34c33cd761b0e1409331069f890ef  data/case_18/gold.json
+4851570620a158f63a738703e8387e93de2382ac6e627ae6b80ea772920e35aa  data/case_19/gold.json
+0e0c79aa951fccd8104dd018021eea2e09e698b07b40546d739c1c2c80f1bd99  data/case_20/gold.json
+616eda118ec4da404f03c5d7bd5aac321367d67aa86e5e1140363496c4bb5c1a  data/case_21/gold.json
+09a26fe2bd99e0dc40f41cecf099ca28eedba46665598c0f5478432e6e4068e8  data/case_22/gold.json
+804f440b09943e1f8a0913e2769ef3930ae656a85ffd1c54fc7daf2852761f0f  data/case_23/gold.json
+fee6532ad05698bcac11141341d208c484eabb2b4c1c28a02e3ea996b9e2a4b1  data/case_24/gold.json
+70cd92a365426c102bbbbd30725d7a4724bb59535f7bedff88a67ce1ba516272  data/case_25/gold.json
+7109776f3ee702214476d8ba6faa41fe7d197a79c3c460ee8fb487e67cf9d366  data/case_26/gold.json
+7c4c7f96fca4ceb77e24cf92449d4d7074bb052c2e39fe4a3ce7b694a29fae11  data/case_27/gold.json
+09076ef2a4e1166b94eef332c0aaf102c64b31b233959d4c45acac9a1df81413  data/case_28/gold.json
+4a39a38af991cdd4f606910b5af34ddfa0c7abc00c59fb3e7528a7c4ef6b001a  data/case_29/gold.json
+43f27811d30d5ae39c434b253f40945cfca124da51c9cb4167280114f6ccd6b0  data/case_30/gold.json
+```

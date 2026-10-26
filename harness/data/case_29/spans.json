@@ -1,0 +1,362 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Stonebridge Services Co. employs Mei Kowalski, who can be reached at mei.kowalski@stonebridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t57",
+   "t58",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 237,
+  "text": "Felix Fischer works for Stonebridge Services Co. and uses the address felix.fischer@stonebridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t59",
+   "t60",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 329,
+  "text": "Irene Vance is employed by Stonebridge Services Co.; their email is ivance@stonebridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t61",
+   "t62",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 330,
+  "end": 425,
+  "text": "Lena Mendes is employed by Silverlake Packaging Co.; their email is lena.mendes@silverlake.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t63",
+   "t64",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 427,
+  "end": 467,
+  "text": "Felix Fischer's manager is Mei Kowalski.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 469,
+  "end": 549,
+  "text": "Stonebridge Services Co. is based at 8252 Industrial Parkway, Spokane, WA 99201.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 550,
+  "end": 633,
+  "text": "The offices of Silverlake Packaging Co. are at 116 Maple Avenue, Raleigh, NC 27601.",
+  "tids": [
+   "t47",
+   "t43",
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 635,
+  "end": 718,
+  "text": "Lakeshore Savings Bank account 5837955400 is registered to Stonebridge Services Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t65",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 719,
+  "end": 795,
+  "text": "Silverlake Packaging Co. holds account 6870452896 at Lakeshore Savings Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t66",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 796,
+  "end": 866,
+  "text": "Account 6253895836 at Lakeshore Savings Bank belongs to Felix Fischer.",
+  "tids": [
+   "t32",
+   "t33",
+   "t67",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 868,
+  "end": 902,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: ivance@stonebridge.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 92,
+  "text": "To: felix.fischer@stonebridge.com, mei.kowalski@stonebridge.com",
+  "tids": [
+   "t53",
+   "t54",
+   "t68",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 124,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 125,
+  "end": 162,
+  "text": "Date: Wed, 29 Jan 2025 13:30:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 164,
+  "end": 173,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 175,
+  "end": 260,
+  "text": "The vendor onboarding was initiated by Mei Kowalski on January 11, 2025 at 16:50 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 261,
+  "end": 340,
+  "text": "On January 23, 2025 at 13:00 UTC, Lena Mendes initiated the invoice submission.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 341,
+  "end": 414,
+  "text": "Mei Kowalski started the refund request on January 29, 2025 at 11:30 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 415,
+  "end": 457,
+  "text": "Lena Mendes authorized the refund request.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_3",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 458,
+  "end": 507,
+  "text": "Irene Vance also took part in the refund request.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 508,
+  "end": 573,
+  "text": "The refund request happened at Stonebridge Services Co.'s office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 575,
+  "end": 582,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 583,
+  "end": 588,
+  "text": "Irene",
+  "tids": [],
+  "mentions": []
+ }
+}

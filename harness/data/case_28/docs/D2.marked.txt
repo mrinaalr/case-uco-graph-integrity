@@ -1,0 +1,11 @@
+[D2.S1] From: ebanerjee@westmark.com
+[D2.S2] To: arjun.mendes@copperfield.com, tomas.whitfield@westmark.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Wed, 12 Feb 2025 14:50:00 +0000
+
+[D2.S5] Hi Arjun,
+
+[D2.S6] The expense reimbursement was initiated by Tomas Whitfield on January 13, 2025 at 12:10 UTC. [D2.S7] On 19 January 2025, 13:15 UTC, Luca Reyes initiated the account reconciliation. [D2.S8] The audit review was initiated by Elena Banerjee on February 12, 2025 at 12:50 UTC. [D2.S9] The audit review happened at Westmark Services Group's office.
+
+[D2.S10] Thanks,
+[D2.S11] Elena

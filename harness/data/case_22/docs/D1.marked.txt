@@ -1,0 +1,11 @@
+[D1.S1] From: marcus.abara@harborline.com
+[D1.S2] To: isorensen@northwind.com, tomas.vance@northwind.com
+[D1.S3] Subject: Updated remittance details
+[D1.S4] Date: Wed, 02 Jul 2025 12:10:00 +0000
+
+[D1.S5] Hi Irene,
+
+[D1.S6] On June 22, 2025 at 15:15 UTC, Irene Sorensen initiated the invoice submission. [D1.S7] On 2 July 2025, 10:10 UTC, Marcus Abara initiated the payment approval.
+
+[D1.S8] Thanks,
+[D1.S9] Marcus

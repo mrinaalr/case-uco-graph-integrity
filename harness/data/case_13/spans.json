@@ -1,0 +1,463 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Sofia Brennan works for Oakhaven Fabrication Ltd. and uses the address sbrennan@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t73",
+   "t74",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 232,
+  "text": "Nadia Ashworth is employed by Oakhaven Fabrication Ltd.; their email is nadia.ashworth@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t75",
+   "t76",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 327,
+  "text": "Kofi Okafor works for Oakhaven Fabrication Ltd. and uses the address kofi.okafor@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t77",
+   "t78",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 328,
+  "end": 417,
+  "text": "Rosa Moreau works for Bluegate Fabrication LLC and uses the address rmoreau@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t79",
+   "t80",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 419,
+  "end": 496,
+  "text": "Oakhaven Fabrication Ltd. operates from 1734 Market Street, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 498,
+  "end": 575,
+  "text": "Oakhaven Fabrication Ltd. holds account 5734701710 at Lakeshore Savings Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t81",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 576,
+  "end": 652,
+  "text": "Bluegate Fabrication LLC holds account 9817289209 at Lakeshore Savings Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t82",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 653,
+  "end": 721,
+  "text": "Account 3352443306 at Lakeshore Savings Bank belongs to Kofi Okafor.",
+  "tids": [
+   "t32",
+   "t33",
+   "t83",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 723,
+  "end": 762,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: kofi.okafor@oakhaven.com",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 56,
+  "text": "To: sbrennan@oakhaven.com",
+  "tids": [
+   "t66",
+   "t84"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 57,
+  "end": 82,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 83,
+  "end": 120,
+  "text": "Date: Tue, 19 Aug 2025 16:45:00 +0000",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 122,
+  "end": 131,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 203,
+  "text": "Rosa Moreau started the bank detail change on 17 July 2025, 15:00 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 204,
+  "end": 284,
+  "text": "The vendor onboarding was initiated by Sofia Brennan on 23 July 2025, 12:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 285,
+  "end": 353,
+  "text": "On 24 July 2025, 09:25 UTC, Rosa Moreau initiated the wire transfer.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 354,
+  "end": 407,
+  "text": "Approval for the wire transfer came from Kofi Okafor.",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 408,
+  "end": 485,
+  "text": "On July 30, 2025 at 17:15 UTC, Nadia Ashworth initiated the payment approval.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 486,
+  "end": 563,
+  "text": "Kofi Okafor started the expense reimbursement on August 1, 2025 at 10:10 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 564,
+  "end": 641,
+  "text": "The expense reimbursement took place at the Oakhaven Fabrication Ltd. office.",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 642,
+  "end": 724,
+  "text": "The invoice submission was initiated by Sofia Brennan on 1 August 2025, 11:10 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 725,
+  "end": 795,
+  "text": "The invoice submission happened at Oakhaven Fabrication Ltd.'s office.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 796,
+  "end": 870,
+  "text": "Sofia Brennan started the contract amendment on 11 August 2025, 15:45 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 871,
+  "end": 945,
+  "text": "On August 19, 2025 at 14:45 UTC, Sofia Brennan initiated the audit review.",
+  "tids": [
+   "t55",
+   "t56",
+   "t57"
+  ],
+  "mentions": [
+   "event_7",
+   "person_0"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 947,
+  "end": 954,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 955,
+  "end": 959,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t85"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 52,
+  "text": "@nadiaa is Nadia Ashworth.",
+  "tids": [
+   "t59",
+   "t58"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 78,
+  "text": "@sofiab is Sofia Brennan.",
+  "tids": [
+   "t61",
+   "t60"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 162,
+  "text": "[2025-07-17 16:00 UTC] @nadiaa to @sofiab: Let's keep this between us until Friday.",
+  "tids": [
+   "t69",
+   "t70",
+   "t71",
+   "t72",
+   "t86"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ }
+}

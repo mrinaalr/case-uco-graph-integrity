@@ -1,0 +1,11 @@
+[D2.S1] From: afischer@copperfield.com
+[D2.S2] To: julian.holloway@copperfield.com, ddelgado@oakhaven.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Wed, 18 Jun 2025 13:30:00 +0000
+
+[D2.S5] Hi Julian,
+
+[D2.S6] Julian Holloway started the account reconciliation on May 13, 2025 at 16:15 UTC. [D2.S7] On 16 May 2025, 09:15 UTC, Andre Fischer initiated the bank detail change. [D2.S8] On 27 May 2025, 16:15 UTC, Desmond Delgado initiated the payment approval. [D2.S9] Priya Sorensen started the expense reimbursement on 30 May 2025, 17:15 UTC. [D2.S10] Priya Sorensen started the audit review on June 10, 2025 at 09:10 UTC. [D2.S11] On June 14, 2025 at 10:00 UTC, Andre Fischer initiated the vendor onboarding. [D2.S12] Priya Sorensen was involved in the vendor onboarding as well. [D2.S13] The vendor onboarding happened at Copperfield Fabrication Inc.'s office. [D2.S14] On 18 June 2025, 11:30 UTC, Desmond Delgado initiated the invoice submission.
+
+[D2.S15] Thanks,
+[D2.S16] Andre

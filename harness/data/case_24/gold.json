@@ -1,0 +1,704 @@
+{
+ "case_id": "case_24",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D2"
+   ],
+   "label": "Clearpath Packaging Co."
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D2"
+   ],
+   "label": "Westmark Logistics Inc."
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D2"
+   ],
+   "label": "First Harbor Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Andre Okafor"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D2"
+   ],
+   "label": "Yara Fischer"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Desmond Kowalski"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "andre.okafor@clearpath.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "yfischer@clearpath.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D2",
+    "D3"
+   ],
+   "label": "desmond.kowalski@westmark.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D2"
+   ],
+   "label": "9297 Market Street, Omaha, NE 68102"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D2"
+   ],
+   "label": "8047662278"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D2"
+   ],
+   "label": "3503133229"
+  },
+  {
+   "eid": "acct_insider",
+   "class": "Account",
+   "docs": [
+    "D2"
+   ],
+   "label": "7342857219"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "bank detail change"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_msg_1",
+   "class": "EmailMessage",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Clearpath Packaging Co.",
+   "lit": true,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Westmark Logistics Inc.",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "First Harbor Bank",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Andre Okafor",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Yara Fischer",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Desmond Kowalski",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "andre.okafor@clearpath.com",
+   "lit": true,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t10",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "yfischer@clearpath.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t13",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "desmond.kowalski@westmark.com",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t14",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t16",
+   "s": "loc_company",
+   "p": "street",
+   "o": "9297 Market Street",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t17",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Omaha",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t18",
+   "s": "loc_company",
+   "p": "region",
+   "o": "NE",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t19",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "68102",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t20",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t21",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "8047662278",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t22",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t23",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t24",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "3503133229",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t25",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t26",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t27",
+   "s": "acct_insider",
+   "p": "accountIdentifier",
+   "o": "7342857219",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t28",
+   "s": "person_0",
+   "p": "Owns_Account",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t29",
+   "s": "acct_insider",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t30",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t31",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-04-26T15:45:00Z",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t32",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t33",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t34",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-04-26T17:10:00Z",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t35",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t36",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "bank detail change",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t37",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-05-17T17:45:00Z",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t38",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t39",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t40",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t41",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Re: banking change request",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t42",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-05-17T19:45:00Z",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t43",
+   "s": "email_msg_1",
+   "p": "from",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t44",
+   "s": "email_msg_1",
+   "p": "to",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t45",
+   "s": "email_msg_1",
+   "p": "subject",
+   "o": "Urgent: payment timing",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t46",
+   "s": "email_msg_1",
+   "p": "sentTime",
+   "o": "2025-04-26T19:10:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t47",
+   "s": "person_0",
+   "p": "Communicated_With",
+   "o": "person_1",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t48",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t49",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t50",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t51",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t52",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t53",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t54",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t55",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t56",
+   "s": "acct_insider",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t57",
+   "s": "person_2",
+   "p": "Communicated_With",
+   "o": "person_1",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  }
+ ],
+ "relationship_count": 13,
+ "relationship_count_total": 18,
+ "documents": {
+  "D1": "email",
+  "D2": "memo",
+  "D3": "email"
+ },
+ "seed": 20251025
+}

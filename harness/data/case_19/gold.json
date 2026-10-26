@@ -1,0 +1,1024 @@
+{
+ "case_id": "case_19",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Bluegate Services Co."
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D2",
+    "D4"
+   ],
+   "label": "Westmark Consulting LLC"
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D4"
+   ],
+   "label": "Pinecrest National Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Irene Sorensen"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Kofi Kowalski"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Maya Novak"
+  },
+  {
+   "eid": "person_3",
+   "class": "Person",
+   "docs": [
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Hector Fischer"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "isorensen@bluegate.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "kofi.kowalski@bluegate.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "mnovak@bluegate.com"
+  },
+  {
+   "eid": "email_person_3",
+   "class": "EmailAddress",
+   "docs": [
+    "D2",
+    "D3"
+   ],
+   "label": "hfischer@westmark.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D2",
+    "D3"
+   ],
+   "label": "9297 Commerce Drive, Tucson, AZ 85701"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "3811034105"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "9480427652"
+  },
+  {
+   "eid": "acct_insider",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "3917062016"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "account reconciliation"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "payment approval"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "bank detail change"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "event_5",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "expense reimbursement"
+  },
+  {
+   "eid": "event_6",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "contract amendment"
+  },
+  {
+   "eid": "event_7",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "vendor onboarding"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_msg_1",
+   "class": "EmailMessage",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_3",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Bluegate Services Co.",
+   "lit": true,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Westmark Consulting LLC",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Pinecrest National Bank",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Irene Sorensen",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Kofi Kowalski",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Maya Novak",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "person_3",
+   "p": "name",
+   "o": "Hector Fischer",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t8",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "isorensen@bluegate.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t10",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t11",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "kofi.kowalski@bluegate.com",
+   "lit": true,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t13",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t14",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "mnovak@bluegate.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t16",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t17",
+   "s": "email_person_3",
+   "p": "addressValue",
+   "o": "hfischer@westmark.com",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t18",
+   "s": "person_3",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t19",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t20",
+   "s": "loc_company",
+   "p": "street",
+   "o": "9297 Commerce Drive",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t21",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Tucson",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t22",
+   "s": "loc_company",
+   "p": "region",
+   "o": "AZ",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t23",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "85701",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t24",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t25",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "3811034105",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t26",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t27",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t28",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "9480427652",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t29",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t30",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t31",
+   "s": "acct_insider",
+   "p": "accountIdentifier",
+   "o": "3917062016",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t32",
+   "s": "person_0",
+   "p": "Owns_Account",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t33",
+   "s": "acct_insider",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t34",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "account reconciliation",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t35",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-04-14T10:30:00Z",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t36",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t37",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "payment approval",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t38",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-04-15T15:15:00Z",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t39",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t40",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "bank detail change",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t41",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-04-25T09:45:00Z",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t42",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t43",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t44",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-04-29T11:00:00Z",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t45",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t46",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D3.S8",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t47",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-05-03T14:00:00Z",
+   "lit": true,
+   "span_id": "D3.S8",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t48",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D3.S8",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t49",
+   "s": "event_5",
+   "p": "eventType",
+   "o": "expense reimbursement",
+   "lit": true,
+   "span_id": "D4.S6",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t50",
+   "s": "event_5",
+   "p": "startTime",
+   "o": "2025-05-05T12:30:00Z",
+   "lit": true,
+   "span_id": "D4.S6",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t51",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_5",
+   "lit": false,
+   "span_id": "D4.S6",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t52",
+   "s": "event_6",
+   "p": "eventType",
+   "o": "contract amendment",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t53",
+   "s": "event_6",
+   "p": "startTime",
+   "o": "2025-05-15T16:50:00Z",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t54",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_6",
+   "lit": false,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t55",
+   "s": "event_7",
+   "p": "eventType",
+   "o": "vendor onboarding",
+   "lit": true,
+   "span_id": "D3.S9",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t56",
+   "s": "event_7",
+   "p": "startTime",
+   "o": "2025-05-15T17:00:00Z",
+   "lit": true,
+   "span_id": "D3.S9",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t57",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_7",
+   "lit": false,
+   "span_id": "D3.S9",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t58",
+   "s": "acct_company",
+   "p": "Transferred_To",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D4.S7",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t59",
+   "s": "event_1",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t60",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t61",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t62",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t63",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Urgent: payment timing",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t64",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-05-15T18:50:00Z",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t65",
+   "s": "email_msg_1",
+   "p": "from",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t66",
+   "s": "email_msg_1",
+   "p": "to",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t67",
+   "s": "email_msg_1",
+   "p": "to",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t68",
+   "s": "email_msg_1",
+   "p": "subject",
+   "o": "Updated remittance details",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t69",
+   "s": "email_msg_1",
+   "p": "sentTime",
+   "o": "2025-05-15T19:00:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t70",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t71",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t72",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t73",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t74",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t75",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t76",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t77",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t78",
+   "s": "email_account_person_3",
+   "p": "emailAddress",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t79",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_account_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t80",
+   "s": "person_3",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t81",
+   "s": "person_3",
+   "p": "Communicated_With",
+   "o": "person_1",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t82",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t83",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t84",
+   "s": "acct_insider",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  }
+ ],
+ "relationship_count": 22,
+ "relationship_count_total": 30,
+ "documents": {
+  "D1": "email",
+  "D2": "memo",
+  "D3": "email",
+  "D4": "report"
+ },
+ "seed": 20251025
+}

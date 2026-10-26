@@ -1,0 +1,970 @@
+{
+ "case_id": "case_30",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D4"
+   ],
+   "label": "Silverlake Analytics LLC"
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D4"
+   ],
+   "label": "Westmark Fabrication LLC"
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D4"
+   ],
+   "label": "Lakeshore Savings Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D4"
+   ],
+   "label": "Kofi Park"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Desmond Banerjee"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D4"
+   ],
+   "label": "Tomas Okafor"
+  },
+  {
+   "eid": "person_3",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D3",
+    "D4"
+   ],
+   "label": "Arjun Moreau"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "kpark@silverlake.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "dbanerjee@silverlake.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "tomas.okafor@silverlake.com"
+  },
+  {
+   "eid": "email_person_3",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "arjun.moreau@westmark.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1",
+    "D4"
+   ],
+   "label": "7328 Market Street, Boise, ID 83702"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "9921622374"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "2386670109"
+  },
+  {
+   "eid": "acct_insider",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "6775312648"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "audit review"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "account reconciliation"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "vendor onboarding"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "event_5",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "bank detail change"
+  },
+  {
+   "eid": "handle_person_3",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@arjunm"
+  },
+  {
+   "eid": "handle_person_1",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@desmondb"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_0",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_3",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_thread",
+   "class": "MessageThread",
+   "docs": [
+    "D3"
+   ],
+   "label": "#finance-ops"
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Silverlake Analytics LLC",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Westmark Fabrication LLC",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Lakeshore Savings Bank",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Kofi Park",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Desmond Banerjee",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Tomas Okafor",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "person_3",
+   "p": "name",
+   "o": "Arjun Moreau",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "kpark@silverlake.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t10",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "dbanerjee@silverlake.com",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t13",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "tomas.okafor@silverlake.com",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t16",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t17",
+   "s": "email_person_3",
+   "p": "addressValue",
+   "o": "arjun.moreau@westmark.com",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "person_3",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t19",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t20",
+   "s": "loc_company",
+   "p": "street",
+   "o": "7328 Market Street",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t21",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Boise",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t22",
+   "s": "loc_company",
+   "p": "region",
+   "o": "ID",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t23",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "83702",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t24",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t25",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "9921622374",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t26",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t27",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t28",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "2386670109",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t29",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t30",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t31",
+   "s": "acct_insider",
+   "p": "accountIdentifier",
+   "o": "6775312648",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t32",
+   "s": "person_2",
+   "p": "Owns_Account",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t33",
+   "s": "acct_insider",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t34",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "audit review",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t35",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-08-01T16:50:00Z",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t36",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t37",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t38",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-08-05T17:15:00Z",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t39",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t40",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "account reconciliation",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t41",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-08-08T09:15:00Z",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t42",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t43",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "vendor onboarding",
+   "lit": true,
+   "span_id": "D4.S7",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t44",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-08-20T12:00:00Z",
+   "lit": true,
+   "span_id": "D4.S7",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t45",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D4.S7",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t46",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t47",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-08-22T15:15:00Z",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t48",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t49",
+   "s": "event_5",
+   "p": "eventType",
+   "o": "bank detail change",
+   "lit": true,
+   "span_id": "D4.S8",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t50",
+   "s": "event_5",
+   "p": "startTime",
+   "o": "2025-08-24T10:15:00Z",
+   "lit": true,
+   "span_id": "D4.S8",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t51",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_5",
+   "lit": false,
+   "span_id": "D4.S8",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t52",
+   "s": "handle_person_3",
+   "p": "accountIdentifier",
+   "o": "@arjunm",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t53",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "handle_person_3",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t54",
+   "s": "handle_person_1",
+   "p": "accountIdentifier",
+   "o": "@desmondb",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t55",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t56",
+   "s": "event_1",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D4.S6",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t57",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S1",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t58",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t59",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Re: banking change request",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t60",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-08-22T17:15:00Z",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t61",
+   "s": "chat_msg_0",
+   "p": "from",
+   "o": "handle_person_3",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t62",
+   "s": "chat_msg_0",
+   "p": "to",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t63",
+   "s": "chat_msg_0",
+   "p": "sentTime",
+   "o": "2025-08-01T17:50:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t64",
+   "s": "chat_msg_0",
+   "p": "messageText",
+   "o": "Can you look at the vendor file before lunch?",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t65",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t66",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t67",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t68",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t69",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t70",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t71",
+   "s": "email_account_person_3",
+   "p": "emailAddress",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t72",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_account_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t73",
+   "s": "person_0",
+   "p": "Communicated_With",
+   "o": "person_3",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t74",
+   "s": "chat_thread",
+   "p": "name",
+   "o": "#finance-ops",
+   "lit": true,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t75",
+   "s": "person_3",
+   "p": "Communicated_With",
+   "o": "person_1",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t76",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t77",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t78",
+   "s": "acct_insider",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  }
+ ],
+ "relationship_count": 21,
+ "relationship_count_total": 27,
+ "documents": {
+  "D1": "memo",
+  "D2": "email",
+  "D3": "chat",
+  "D4": "report"
+ },
+ "seed": 20251025
+}

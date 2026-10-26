@@ -1,0 +1,410 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 38,
+  "text": "From: victor.whitfield@stonebridge.com",
+  "tids": [
+   "t44",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 39,
+  "end": 67,
+  "text": "To: tomas.mendes@redfern.com",
+  "tids": [
+   "t45",
+   "t53",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 68,
+  "end": 93,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Fri, 24 Oct 2025 16:50:00 +0000",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 142,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 144,
+  "end": 225,
+  "text": "The wire transfer was initiated by Tomas Mendes on October 20, 2025 at 12:45 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 307,
+  "text": "On 24 October 2025, 14:50 UTC, Tomas Mendes initiated the account reconciliation.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 308,
+  "end": 374,
+  "text": "Victor Whitfield had been in contact with Oscar Moreau throughout.",
+  "tids": [
+   "t41",
+   "t5",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 376,
+  "end": 383,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 384,
+  "end": 390,
+  "text": "Victor",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 127,
+  "text": "Tomas Mendes is employed by Redfern Freight LLC; their email is tomas.mendes@redfern.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t54",
+   "t55",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 128,
+  "end": 217,
+  "text": "Oscar Moreau is employed by Redfern Freight LLC; their email is oscar.moreau@redfern.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t56",
+   "t57",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 328,
+  "text": "Victor Whitfield is employed by Stonebridge Fabrication Inc.; their email is victor.whitfield@stonebridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t58",
+   "t59",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 330,
+  "end": 409,
+  "text": "The offices of Redfern Freight LLC are at 433 Market Street, Madison, WI 53703.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 411,
+  "end": 485,
+  "text": "First Harbor Bank account 9354333388 is registered to Redfern Freight LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t60",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 486,
+  "end": 565,
+  "text": "Account 4662947012 at First Harbor Bank belongs to Stonebridge Fabrication Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t61",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 567,
+  "end": 624,
+  "text": "Account 9354333388 sent a transfer to account 4662947012.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 626,
+  "end": 674,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 38,
+  "text": "From: victor.whitfield@stonebridge.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 39,
+  "end": 93,
+  "text": "To: tomas.mendes@redfern.com, oscar.moreau@redfern.com",
+  "tids": [
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 94,
+  "end": 119,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 120,
+  "end": 157,
+  "text": "Date: Sun, 26 Oct 2025 14:25:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 159,
+  "end": 168,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 170,
+  "end": 251,
+  "text": "The audit review was initiated by Victor Whitfield on 23 October 2025, 10:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 252,
+  "end": 310,
+  "text": "The audit review happened at Redfern Freight LLC's office.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 311,
+  "end": 391,
+  "text": "On 26 October 2025, 12:25 UTC, Oscar Moreau initiated the expense reimbursement.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 392,
+  "end": 454,
+  "text": "Approval for the expense reimbursement came from Tomas Mendes.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 455,
+  "end": 522,
+  "text": "The expense reimbursement happened at Redfern Freight LLC's office.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 524,
+  "end": 531,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 532,
+  "end": 538,
+  "text": "Victor",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,344 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: andre.okafor@clearpath.com",
+  "tids": [
+   "t39",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 59,
+  "text": "To: yfischer@clearpath.com",
+  "tids": [
+   "t40",
+   "t47",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 60,
+  "end": 95,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Sat, 17 May 2025 19:45:00 +0000",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 143,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 145,
+  "end": 219,
+  "text": "On 26 April 2025, 15:45 UTC, Desmond Kowalski initiated the wire transfer.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 220,
+  "end": 296,
+  "text": "On May 17, 2025 at 17:45 UTC, Andre Okafor initiated the bank detail change.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38",
+   "t4"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 298,
+  "end": 305,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 306,
+  "end": 311,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Andre Okafor is employed by Clearpath Packaging Co.; their email is andre.okafor@clearpath.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t48",
+   "t49",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 225,
+  "text": "Clearpath Packaging Co. employs Yara Fischer, who can be reached at yfischer@clearpath.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t50",
+   "t51",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 328,
+  "text": "Desmond Kowalski is employed by Westmark Logistics Inc.; their email is desmond.kowalski@westmark.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t52",
+   "t53",
+   "t2",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 330,
+  "end": 404,
+  "text": "Clearpath Packaging Co. operates from 9297 Market Street, Omaha, NE 68102.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 406,
+  "end": 483,
+  "text": "First Harbor Bank account 8047662278 is registered to Clearpath Packaging Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t54",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 484,
+  "end": 558,
+  "text": "Account 3503133229 at First Harbor Bank belongs to Westmark Logistics Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t55",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 559,
+  "end": 626,
+  "text": "First Harbor Bank account 7342857219 is registered to Andre Okafor.",
+  "tids": [
+   "t28",
+   "t29",
+   "t56",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 628,
+  "end": 676,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 35,
+  "text": "From: desmond.kowalski@westmark.com",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 36,
+  "end": 62,
+  "text": "To: yfischer@clearpath.com",
+  "tids": [
+   "t44",
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 63,
+  "end": 94,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Sat, 26 Apr 2025 19:10:00 +0000",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 134,
+  "end": 142,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 144,
+  "end": 216,
+  "text": "Andre Okafor started the invoice submission on 26 April 2025, 17:10 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 218,
+  "end": 225,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 226,
+  "end": 233,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ }
+}

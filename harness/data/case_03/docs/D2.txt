@@ -1,0 +1,11 @@
+From: desmond.reyes@brightwater.com
+To: priya.kowalski@ironleaf.com, sofia.park@ironleaf.com
+Subject: Urgent: payment timing
+Date: Tue, 14 Oct 2025 15:25:00 +0000
+
+Hi Priya,
+
+Sofia Park started the payment approval on 17 September 2025, 17:15 UTC. The payment approval happened at Ironleaf Services Co.'s office. The refund request was initiated by Priya Kowalski on 23 September 2025, 12:15 UTC. The wire transfer was initiated by Desmond Reyes on 30 September 2025, 17:50 UTC. On October 5, 2025 at 14:45 UTC, Priya Kowalski initiated the account reconciliation. Sofia Park started the audit review on 12 October 2025, 13:15 UTC. On 14 October 2025, 13:25 UTC, Desmond Reyes initiated the vendor onboarding. The vendor onboarding happened at Ironleaf Services Co.'s office.
+
+Thanks,
+Desmond

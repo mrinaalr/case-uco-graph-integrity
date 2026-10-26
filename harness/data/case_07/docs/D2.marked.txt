@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Desmond Sorensen is employed by Cedar Ridge Fabrication Group; their email is desmond.sorensen@cedarridge.com. [D2.S3] Samuel Brennan works for Cedar Ridge Fabrication Group and uses the address sbrennan@cedarridge.com. [D2.S4] Kofi Park works for Cedar Ridge Fabrication Group and uses the address kofi.park@cedarridge.com. [D2.S5] Julian Lindqvist works for Silverlake Freight Group and uses the address jlindqvist@silverlake.com. [D2.S6] Mei Castillo works for Silverlake Freight Group and uses the address mei.castillo@silverlake.com.
+
+[D2.S7] Cedar Ridge Fabrication Group is based at 8493 Harbor Avenue, Spokane, WA 99201.
+
+[D2.S8] Account 4846820983 at First Harbor Bank belongs to Cedar Ridge Fabrication Group. [D2.S9] Account 3702498766 at First Harbor Bank belongs to Silverlake Freight Group. [D2.S10] First Harbor Bank account 1839620453 is registered to Samuel Brennan.
+
+[D2.S11] Let me know if anything here looks off.

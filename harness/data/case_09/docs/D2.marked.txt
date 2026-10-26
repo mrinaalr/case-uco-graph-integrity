@@ -1,0 +1,11 @@
+[D2.S1] From: felix.sorensen@clearpath.com
+[D2.S2] To: julian.osei@oakhaven.com, awhitfield@oakhaven.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Sun, 06 Apr 2025 13:15:00 +0000
+
+[D2.S5] Hi Julian,
+
+[D2.S6] On 5 April 2025, 12:30 UTC, Felix Sorensen initiated the account reconciliation. [D2.S7] Andre Whitfield was involved in the account reconciliation as well. [D2.S8] Dana Ashworth started the contract amendment on 6 April 2025, 11:10 UTC. [D2.S9] Julian Osei authorized the contract amendment. [D2.S10] Andre Whitfield was involved in the contract amendment as well. [D2.S11] Julian Osei started the invoice submission on 6 April 2025, 11:15 UTC. [D2.S12] Andre Whitfield was involved in the invoice submission as well. [D2.S13] The invoice submission took place at the Oakhaven Fabrication Co. office.
+
+[D2.S14] Thanks,
+[D2.S15] Felix

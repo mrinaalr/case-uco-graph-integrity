@@ -1,0 +1,503 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 29,
+  "text": "From: maya.quinn@oakhaven.com",
+  "tids": [
+   "t60",
+   "t11"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 30,
+  "end": 56,
+  "text": "To: hcastillo@oakhaven.com",
+  "tids": [
+   "t61",
+   "t68",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 57,
+  "end": 88,
+  "text": "Subject: Invoice 8176 follow-up",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 89,
+  "end": 126,
+  "text": "Date: Sat, 03 May 2025 17:00:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 128,
+  "end": 138,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 220,
+  "text": "The vendor onboarding was initiated by Andre Petrov on 12 April 2025, 16:10 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 221,
+  "end": 292,
+  "text": "On 25 April 2025, 17:45 UTC, Victor Haddad initiated the wire transfer.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42",
+   "t7"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 293,
+  "end": 357,
+  "text": "On 3 May 2025, 15:00 UTC, Maya Quinn initiated the audit review.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51",
+   "t5"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 359,
+  "end": 366,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 367,
+  "end": 371,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 127,
+  "text": "Andre Petrov works for Oakhaven Logistics Inc. and uses the address apetrov@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t69",
+   "t70",
+   "t1",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 128,
+  "end": 218,
+  "text": "Maya Quinn is employed by Oakhaven Logistics Inc.; their email is maya.quinn@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t71",
+   "t72"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 219,
+  "end": 313,
+  "text": "Oakhaven Logistics Inc. employs Hector Castillo, who can be reached at hcastillo@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t73",
+   "t74",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 314,
+  "end": 412,
+  "text": "Victor Haddad works for Bluegate Distribution LLC and uses the address victor.haddad@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t75",
+   "t76",
+   "t2",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 414,
+  "end": 503,
+  "text": "The offices of Oakhaven Logistics Inc. are at 1587 Industrial Parkway, Raleigh, NC 27601.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 505,
+  "end": 539,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: hcastillo@oakhaven.com",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 59,
+  "text": "To: victor.haddad@bluegate.com",
+  "tids": [
+   "t65",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 60,
+  "end": 95,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Mon, 05 May 2025 18:45:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 135,
+  "end": 145,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 147,
+  "end": 223,
+  "text": "On 15 April 2025, 16:00 UTC, Victor Haddad initiated the contract amendment.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 224,
+  "end": 269,
+  "text": "Maya Quinn authorized the contract amendment.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 270,
+  "end": 333,
+  "text": "Hector Castillo was involved in the contract amendment as well.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 334,
+  "end": 415,
+  "text": "On 28 April 2025, 16:45 UTC, Hector Castillo initiated the expense reimbursement.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 416,
+  "end": 478,
+  "text": "Approval for the expense reimbursement came from Andre Petrov.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_0",
+   "event_4"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 479,
+  "end": 537,
+  "text": "Victor Haddad also took part in the expense reimbursement.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_3",
+   "event_4"
+  ]
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 538,
+  "end": 607,
+  "text": "Andre Petrov started the bank detail change on 5 May 2025, 16:45 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_7",
+   "person_0"
+  ]
+ },
+ "D3.S13": {
+  "doc_id": "D3",
+  "start": 608,
+  "end": 670,
+  "text": "Approval for the bank detail change came from Hector Castillo.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_2",
+   "event_7"
+  ]
+ },
+ "D3.S14": {
+  "doc_id": "D3",
+  "start": 672,
+  "end": 679,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S15": {
+  "doc_id": "D3",
+  "start": 680,
+  "end": 686,
+  "text": "Hector",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 99,
+  "text": "Oakhaven Logistics Inc. holds account 2616431031 at Granite Federal Credit Union.",
+  "tids": [
+   "t26",
+   "t27",
+   "t78",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 100,
+  "end": 191,
+  "text": "Granite Federal Credit Union account 6220296925 is registered to Bluegate Distribution LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t79",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 193,
+  "end": 273,
+  "text": "Victor Haddad started the account reconciliation on April 25, 2025 at 14:25 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 274,
+  "end": 347,
+  "text": "Hector Castillo started the payment approval on 30 April 2025, 13:30 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 349,
+  "end": 397,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Stonebridge Services Co. employs Mei Kowalski, who can be reached at mei.kowalski@stonebridge.com. [D1.S3] Felix Fischer works for Stonebridge Services Co. and uses the address felix.fischer@stonebridge.com. [D1.S4] Irene Vance is employed by Stonebridge Services Co.; their email is ivance@stonebridge.com. [D1.S5] Lena Mendes is employed by Silverlake Packaging Co.; their email is lena.mendes@silverlake.com.
+
+[D1.S6] Felix Fischer's manager is Mei Kowalski.
+
+[D1.S7] Stonebridge Services Co. is based at 8252 Industrial Parkway, Spokane, WA 99201. [D1.S8] The offices of Silverlake Packaging Co. are at 116 Maple Avenue, Raleigh, NC 27601.
+
+[D1.S9] Lakeshore Savings Bank account 5837955400 is registered to Stonebridge Services Co. [D1.S10] Silverlake Packaging Co. holds account 6870452896 at Lakeshore Savings Bank. [D1.S11] Account 6253895836 at Lakeshore Savings Bank belongs to Felix Fischer.
+
+[D1.S12] Please treat this as confidential.
