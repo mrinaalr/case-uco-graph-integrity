@@ -1,0 +1,837 @@
+{
+ "case_id": "case_95",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D3"
+   ],
+   "label": "Cedar Ridge Components LLC"
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D3"
+   ],
+   "label": "Westmark Fabrication Group"
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D3"
+   ],
+   "label": "Granite Federal Credit Union"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Owen Haddad"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Oscar Castillo"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Wesley Okafor"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "ohaddad@cedarridge.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "ocastillo@cedarridge.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "wokafor@westmark.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1"
+   ],
+   "label": "4875 Lakeview Road, Raleigh, NC 27601"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D3"
+   ],
+   "label": "9047979490"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D3"
+   ],
+   "label": "8690243155"
+  },
+  {
+   "eid": "acct_insider",
+   "class": "Account",
+   "docs": [
+    "D3"
+   ],
+   "label": "7548776554"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "refund request"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "contract amendment"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "expense reimbursement"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "payment approval"
+  },
+  {
+   "eid": "event_5",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "account reconciliation"
+  },
+  {
+   "eid": "event_6",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "bank detail change"
+  },
+  {
+   "eid": "event_7",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "audit review"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Cedar Ridge Components LLC",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Westmark Fabrication Group",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Granite Federal Credit Union",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Owen Haddad",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Oscar Castillo",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Wesley Okafor",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "ohaddad@cedarridge.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t10",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "ocastillo@cedarridge.com",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t13",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "wokafor@westmark.com",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t16",
+   "s": "loc_company",
+   "p": "street",
+   "o": "4875 Lakeview Road",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t17",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Raleigh",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "loc_company",
+   "p": "region",
+   "o": "NC",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t19",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "27601",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t20",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t21",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "9047979490",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t22",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t23",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t24",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "8690243155",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t25",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t26",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t27",
+   "s": "acct_insider",
+   "p": "accountIdentifier",
+   "o": "7548776554",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t28",
+   "s": "person_0",
+   "p": "Owns_Account",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t29",
+   "s": "acct_insider",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t30",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "refund request",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t31",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-10-08T16:15:00Z",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t32",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t33",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "contract amendment",
+   "lit": true,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t34",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-10-09T16:15:00Z",
+   "lit": true,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t35",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t36",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t37",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-10-10T13:15:00Z",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t38",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t39",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "expense reimbursement",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t40",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-10-11T16:25:00Z",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t41",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t42",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "payment approval",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t43",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-10-12T14:10:00Z",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t44",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t45",
+   "s": "event_5",
+   "p": "eventType",
+   "o": "account reconciliation",
+   "lit": true,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t46",
+   "s": "event_5",
+   "p": "startTime",
+   "o": "2025-10-14T16:30:00Z",
+   "lit": true,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t47",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_5",
+   "lit": false,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t48",
+   "s": "event_6",
+   "p": "eventType",
+   "o": "bank detail change",
+   "lit": true,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t49",
+   "s": "event_6",
+   "p": "startTime",
+   "o": "2025-10-19T11:10:00Z",
+   "lit": true,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t50",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_6",
+   "lit": false,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t51",
+   "s": "event_7",
+   "p": "eventType",
+   "o": "audit review",
+   "lit": true,
+   "span_id": "D3.S8",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t52",
+   "s": "event_7",
+   "p": "startTime",
+   "o": "2025-10-20T10:15:00Z",
+   "lit": true,
+   "span_id": "D3.S8",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t53",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_7",
+   "lit": false,
+   "span_id": "D3.S8",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t54",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t55",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S1",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t56",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t57",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Updated remittance details",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t58",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-10-19T13:10:00Z",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t59",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t60",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t61",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t62",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t63",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t64",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t65",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t66",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t67",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t68",
+   "s": "acct_insider",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  }
+ ],
+ "relationship_count": 19,
+ "relationship_count_total": 23,
+ "documents": {
+  "D1": "memo",
+  "D2": "email",
+  "D3": "report"
+ },
+ "seed": 20260202
+}

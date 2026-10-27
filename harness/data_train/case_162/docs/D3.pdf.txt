@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@owenr is Owen Reyes.
+@samuelc is Samuel Castillo.
+[2025-04-30 12:30 UTC] @owenr to @samuelc: Finance is asking questions again.
+[2025-04-30 12:37 UTC] @samuelc to @owenr: I pushed it through, check your inbox.
+[2025-04-30 12:44 UTC] @owenr to @samuelc: Let's keep this between us until Friday.

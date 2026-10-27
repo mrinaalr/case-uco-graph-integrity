@@ -1,0 +1,7 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Northwind Components Inc. employs Tomas Delgado, who can be reached at tdelgado@northwind.com. [D2.S3] Northwind Components Inc. employs Yara Moreau, who can be reached at yara.moreau@northwind.com. [D2.S4] Copperfield Tooling Inc. employs Mei Haddad, who can be reached at mei.haddad@copperfield.com.
+
+[D2.S5] Northwind Components Inc. operates from 8024 Commerce Drive, Richmond, VA 23219.
+
+[D2.S6] This summary reflects records available to date.

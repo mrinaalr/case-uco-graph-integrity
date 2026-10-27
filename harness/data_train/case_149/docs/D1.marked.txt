@@ -1,0 +1,11 @@
+[D1.S1] From: andre.abara@bluegate.com
+[D1.S2] To: spark@brightwater.com, jcastillo@bluegate.com
+[D1.S3] Subject: Re: banking change request
+[D1.S4] Date: Wed, 08 Oct 2025 12:50:00 +0000
+
+[D1.S5] Hi Samuel,
+
+[D1.S6] The bank detail change was initiated by Julian Castillo on September 6, 2025 at 15:10 UTC. [D1.S7] Samuel Park also took part in the bank detail change. [D1.S8] The vendor onboarding was initiated by Andre Abara on 19 September 2025, 15:30 UTC. [D1.S9] On 25 September 2025, 16:25 UTC, Samuel Park initiated the audit review. [D1.S10] Julian Castillo started the payment approval on October 8, 2025 at 10:50 UTC. [D1.S11] Approval for the payment approval came from Samuel Park.
+
+[D1.S12] Thanks,
+[D1.S13] Andre

@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Owen Holloway works for Clearpath Analytics Co. and uses the address oholloway@clearpath.com. [D1.S3] Clearpath Analytics Co. employs Julian Sorensen, who can be reached at jsorensen@clearpath.com. [D1.S4] Andre Mendes is employed by Clearpath Analytics Co.; their email is andre.mendes@clearpath.com. [D1.S5] Sofia Ivanova works for Northwind Distribution Group and uses the address sivanova@northwind.com. [D1.S6] Arjun Quinn is employed by Northwind Distribution Group; their email is aquinn@northwind.com.
+
+[D1.S7] Clearpath Analytics Co. is based at 6475 Market Street, Madison, WI 53703.
+
+[D1.S8] Please treat this as confidential.

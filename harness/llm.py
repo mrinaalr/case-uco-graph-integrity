@@ -61,9 +61,9 @@ def client(cfg: dict) -> AsyncOpenAI:
                        timeout=llm.get("request_timeout_s", 600))
 
 
-def case_dirs(selection: str | None) -> list[Path]:
-    """All cases, or a comma-separated list like 'case_01,case_07'."""
-    dirs = sorted(p for p in (HARNESS / "data").iterdir() if p.is_dir())
+def case_dirs(selection: str | None, data: str = "data") -> list[Path]:
+    """All cases of a data folder, or a comma-separated list like 'case_01,case_07'."""
+    dirs = sorted(p for p in (HARNESS / data).iterdir() if p.is_dir())
     if selection:
         wanted = set(selection.split(","))
         dirs = [d for d in dirs if d.name in wanted]
@@ -186,14 +186,16 @@ def tokens_of(resp) -> dict:
 
 
 async def _run_all(arm: str, run_case, args) -> None:
+    arm = args.arm or arm
     cfg = load_config(Path(args.config) if args.config else None, args.model)
     llm = client(cfg)
     meta = {"arm": arm, "endpoint": cfg["llm"]["name"], "model": cfg["llm"]["model"], "base_url": cfg["llm"]["base_url"],
             "temperature": cfg["llm"].get("temperature", 0), "sdk_version": sdk_version()}
-    cases = case_dirs(args.cases)
+    cases = case_dirs(args.cases, args.data)
     run_start = time.monotonic()
     for done, case_dir in enumerate(cases, 1):
         out = HARNESS / "results" / args.run_id / arm / case_dir.name
+        info = None
         out.mkdir(parents=True, exist_ok=True)
         start = time.monotonic()
         try:
@@ -220,4 +222,6 @@ def main(arm: str, run_case) -> None:
     ap.add_argument("--model", help="endpoint name from [models] in config.toml (default: llm.default_model)")
     ap.add_argument("--cases", help="comma-separated case ids (default: all)")
     ap.add_argument("--config")
+    ap.add_argument("--arm", help="results folder name for this arm (default: the pipeline's own)")
+    ap.add_argument("--data", default="data", help="case folder under harness/ (data, data_dev)")
     asyncio.run(_run_all(arm, run_case, ap.parse_args()))

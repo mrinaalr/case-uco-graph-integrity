@@ -1,0 +1,11 @@
+[D2.S1] From: rwhitfield@oakhaven.com
+[D2.S2] To: andre.sorensen@stonebridge.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Sat, 15 Mar 2025 15:25:00 +0000
+
+[D2.S5] Hi Andre,
+
+[D2.S6] The invoice submission was initiated by Andre Sorensen on March 4, 2025 at 15:15 UTC. [D2.S7] Ruth Brennan also took part in the invoice submission. [D2.S8] The invoice submission took place at the Stonebridge Logistics Co. office. [D2.S9] The expense reimbursement was initiated by Andre Sorensen on 15 March 2025, 13:25 UTC. [D2.S10] Rosa Whitfield authorized the expense reimbursement. [D2.S11] Ruth Brennan also took part in the expense reimbursement.
+
+[D2.S12] Thanks,
+[D2.S13] Rosa

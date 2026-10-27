@@ -1,0 +1,11 @@
+[D1.S1] From: sofia.reyes@stonebridge.com
+[D1.S2] To: clara.quinn@copperfield.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Fri, 10 Oct 2025 18:30:00 +0000
+
+[D1.S5] Hi Clara,
+
+[D1.S6] On 4 October 2025, 13:00 UTC, Sofia Reyes initiated the contract amendment. [D1.S7] The vendor onboarding was initiated by Sofia Reyes on October 10, 2025 at 16:30 UTC.
+
+[D1.S8] Thanks,
+[D1.S9] Sofia

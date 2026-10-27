@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Account 3420961278 at Lakeshore Savings Bank belongs to Redfern Packaging Inc. [D3.S3] Ironleaf Services Group holds account 9391482075 at Lakeshore Savings Bank.
+
+[D3.S4] On 25 January 2025, 12:30 UTC, Felix Haddad initiated the audit review. [D3.S5] The wire transfer was initiated by Yara Ashworth on 7 February 2025, 13:10 UTC.
+
+[D3.S6] This summary reflects records available to date.

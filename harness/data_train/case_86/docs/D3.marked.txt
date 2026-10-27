@@ -1,0 +1,11 @@
+[D3.S1] From: amendes@northwind.com
+[D3.S2] To: marcus.park@bluegate.com, gmoreau@northwind.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Tue, 22 Jul 2025 14:30:00 +0000
+
+[D3.S5] Hi Marcus,
+
+[D3.S6] The invoice submission was initiated by Grace Moreau on July 1, 2025 at 09:45 UTC. [D3.S7] Grace Moreau started the refund request on 22 July 2025, 12:30 UTC.
+
+[D3.S8] Thanks,
+[D3.S9] Andre

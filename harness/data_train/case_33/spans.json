@@ -1,0 +1,300 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 128,
+  "text": "Irene Novak works for Harborline Packaging LLC and uses the address inovak@harborline.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t48",
+   "t49",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 228,
+  "text": "Arjun Ivanova works for Harborline Packaging LLC and uses the address arjun.ivanova@harborline.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t50",
+   "t51",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 229,
+  "end": 322,
+  "text": "Oakhaven Supply Inc. employs Rosa Holloway, who can be reached at rosa.holloway@oakhaven.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t52",
+   "t53",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 324,
+  "end": 397,
+  "text": "Harborline Packaging LLC is based at 4807 Main Street, Spokane, WA 99201.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 399,
+  "end": 489,
+  "text": "Granite Federal Credit Union account 6146589458 is registered to Harborline Packaging LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t54",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 490,
+  "end": 572,
+  "text": "Account 7120231600 at Granite Federal Credit Union belongs to Oakhaven Supply Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t55",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 573,
+  "end": 649,
+  "text": "Account 9810691418 at Granite Federal Credit Union belongs to Arjun Ivanova.",
+  "tids": [
+   "t28",
+   "t29",
+   "t56",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 651,
+  "end": 713,
+  "text": "Rosa Holloway had been in contact with Irene Novak throughout.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 715,
+  "end": 763,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: arjun.ivanova@harborline.com",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 88,
+  "text": "To: rosa.holloway@oakhaven.com, inovak@harborline.com",
+  "tids": [
+   "t44",
+   "t45",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 89,
+  "end": 120,
+  "text": "Subject: Invoice 6818 follow-up",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 121,
+  "end": 158,
+  "text": "Date: Sun, 25 May 2025 13:50:00 +0000",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 160,
+  "end": 168,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 170,
+  "end": 246,
+  "text": "On May 4, 2025 at 13:00 UTC, Rosa Holloway initiated the bank detail change.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 247,
+  "end": 318,
+  "text": "Irene Novak started the invoice submission on May 5, 2025 at 17:50 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 319,
+  "end": 390,
+  "text": "On May 21, 2025 at 10:50 UTC, Rosa Holloway initiated the audit review.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 391,
+  "end": 462,
+  "text": "On May 25, 2025 at 11:50 UTC, Irene Novak initiated the refund request.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 464,
+  "end": 471,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 472,
+  "end": 477,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ }
+}

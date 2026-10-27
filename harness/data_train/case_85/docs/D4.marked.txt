@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Cedar Ridge Components Group holds account 8158168333 at Lakeshore Savings Bank. [D4.S3] Lakeshore Savings Bank account 9738379272 is registered to Westmark Components Ltd.
+
+[D4.S4] Tomas Mendes started the invoice submission on October 15, 2025 at 15:25 UTC. [D4.S5] On 9 November 2025, 11:10 UTC, Marcus Park initiated the account reconciliation.
+
+[D4.S6] Please treat this as confidential.

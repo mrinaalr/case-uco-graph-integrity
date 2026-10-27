@@ -1,0 +1,11 @@
+[D2.S1] From: ruth.delgado@oakhaven.com
+[D2.S2] To: mfischer@oakhaven.com
+[D2.S3] Subject: Invoice 3495 follow-up
+[D2.S4] Date: Mon, 21 Jul 2025 14:00:00 +0000
+
+[D2.S5] Hi Mei,
+
+[D2.S6] On 18 June 2025, 12:00 UTC, Felix Osei initiated the bank detail change. [D2.S7] Luca Okafor authorized the bank detail change. [D2.S8] Felix Osei started the vendor onboarding on 21 July 2025, 12:00 UTC. [D2.S9] Irene Haddad also took part in the vendor onboarding.
+
+[D2.S10] Thanks,
+[D2.S11] Ruth

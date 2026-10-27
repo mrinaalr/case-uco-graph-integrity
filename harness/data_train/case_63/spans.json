@@ -1,0 +1,429 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 126,
+  "text": "Owen Petrov works for Ironleaf Analytics Ltd. and uses the address opetrov@ironleaf.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t64",
+   "t65",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 127,
+  "end": 221,
+  "text": "Ironleaf Analytics Ltd. employs Samuel Kowalski, who can be reached at skowalski@ironleaf.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t66",
+   "t67",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 315,
+  "text": "Priya Holloway is employed by Ironleaf Analytics Ltd.; their email is pholloway@ironleaf.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t68",
+   "t69",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 316,
+  "end": 413,
+  "text": "Arjun Moreau works for Copperfield Distribution Co. and uses the address amoreau@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t70",
+   "t71",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 415,
+  "end": 456,
+  "text": "Samuel Kowalski's manager is Owen Petrov.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 457,
+  "end": 497,
+  "text": "Priya Holloway's manager is Owen Petrov.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 499,
+  "end": 575,
+  "text": "Ironleaf Analytics Ltd. operates from 5458 Commerce Drive, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 577,
+  "end": 660,
+  "text": "Pinecrest National Bank account 4029657027 is registered to Ironleaf Analytics Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t72",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 661,
+  "end": 746,
+  "text": "Account 2904626061 at Pinecrest National Bank belongs to Copperfield Distribution Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t73",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 748,
+  "end": 787,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: opetrov@ironleaf.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 78,
+  "text": "To: pholloway@ironleaf.com, amoreau@copperfield.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 79,
+  "end": 114,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Sun, 17 Aug 2025 15:10:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 154,
+  "end": 163,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 165,
+  "end": 247,
+  "text": "The contract amendment was initiated by Priya Holloway on 17 July 2025, 10:15 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 248,
+  "end": 328,
+  "text": "Samuel Kowalski started the expense reimbursement on July 22, 2025 at 13:30 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 329,
+  "end": 402,
+  "text": "On July 23, 2025 at 14:30 UTC, Arjun Moreau initiated the refund request.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 403,
+  "end": 471,
+  "text": "The refund request took place at the Ironleaf Analytics Ltd. office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 472,
+  "end": 540,
+  "text": "Owen Petrov started the wire transfer on July 28, 2025 at 17:50 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 541,
+  "end": 583,
+  "text": "Arjun Moreau authorized the wire transfer.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_3",
+   "event_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 584,
+  "end": 647,
+  "text": "The wire transfer happened at Ironleaf Analytics Ltd.'s office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 648,
+  "end": 726,
+  "text": "The vendor onboarding was initiated by Owen Petrov on 31 July 2025, 12:50 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 727,
+  "end": 796,
+  "text": "Priya Holloway started the audit review on 14 August 2025, 17:10 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 797,
+  "end": 854,
+  "text": "Samuel Kowalski was involved in the audit review as well.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 855,
+  "end": 943,
+  "text": "The account reconciliation was initiated by Owen Petrov on August 17, 2025 at 13:10 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 944,
+  "end": 1016,
+  "text": "The account reconciliation happened at Ironleaf Analytics Ltd.'s office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_6",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 1018,
+  "end": 1025,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S19": {
+  "doc_id": "D2",
+  "start": 1026,
+  "end": 1030,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ }
+}

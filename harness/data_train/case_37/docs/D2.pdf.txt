@@ -1,0 +1,16 @@
+From: marcus.vance@ironleaf.com
+To: priya.moreau@westmark.com, alindqvist@ironleaf.com
+Subject: Audit prep items
+Date: Fri, 11 Jul 2025 19:00:00 +0000
+Hi Priya,
+The payment approval was initiated by Marcus Vance on 26 June 2025, 13:30 UTC. Approval for the
+payment approval came from Andre Lindqvist. The payment approval took place at the Ironleaf
+Components Co. office. The account reconciliation was initiated by Priya Moreau on 4 July 2025, 09:00
+UTC. Andre Lindqvist also took part in the account reconciliation. The account reconciliation took place
+at the Ironleaf Components Co. office. The bank detail change was initiated by Marcus Vance on July
+5, 2025 at 10:00 UTC. Approval for the bank detail change came from Priya Moreau. The bank detail
+change happened at Ironleaf Components Co.'s office. Priya Moreau started the vendor onboarding on
+11 July 2025, 11:00 UTC. The vendor onboarding took place at the Ironleaf Components Co. office.
+Marcus Vance started the contract amendment on 11 July 2025, 17:00 UTC.
+Thanks,
+Marcus

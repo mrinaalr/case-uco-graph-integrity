@@ -1,0 +1,11 @@
+[D3.S1] From: dosei@copperfield.com
+[D3.S2] To: fholloway@copperfield.com, pquinn@copperfield.com
+[D3.S3] Subject: Contract terms for next quarter
+[D3.S4] Date: Fri, 14 Feb 2025 14:30:00 +0000
+
+[D3.S5] Hi Felix,
+
+[D3.S6] Dana Osei started the invoice submission on January 15, 2025 at 17:25 UTC. [D3.S7] Kofi Castillo started the account reconciliation on 14 February 2025, 12:30 UTC. [D3.S8] Felix Holloway was involved in the account reconciliation as well.
+
+[D3.S9] Thanks,
+[D3.S10] Dana

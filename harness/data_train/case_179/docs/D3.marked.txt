@@ -1,0 +1,11 @@
+[D3.S1] From: jfischer@ironleaf.com
+[D3.S2] To: tmoreau@ironleaf.com
+[D3.S3] Subject: Contract terms for next quarter
+[D3.S4] Date: Mon, 03 Nov 2025 13:00:00 +0000
+
+[D3.S5] Hi Tomas,
+
+[D3.S6] On 21 October 2025, 11:30 UTC, Tomas Moreau initiated the contract amendment. [D3.S7] On November 3, 2025 at 11:00 UTC, Julian Fischer initiated the vendor onboarding.
+
+[D3.S8] Thanks,
+[D3.S9] Julian

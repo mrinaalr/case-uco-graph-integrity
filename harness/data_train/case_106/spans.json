@@ -1,0 +1,393 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 120,
+  "text": "Sofia Novak works for Redfern Tooling Co. and uses the address snovak@redfern.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t63",
+   "t64",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 121,
+  "end": 206,
+  "text": "Dana Abara is employed by Redfern Tooling Co.; their email is dana.abara@redfern.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t65",
+   "t66",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 207,
+  "end": 298,
+  "text": "Maya Sorensen is employed by Redfern Tooling Co.; their email is maya.sorensen@redfern.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t67",
+   "t68",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 299,
+  "end": 396,
+  "text": "Desmond Park works for Harborline Logistics Co. and uses the address desmond.park@harborline.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t69",
+   "t70",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 398,
+  "end": 468,
+  "text": "Redfern Tooling Co. operates from 4728 Maple Avenue, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 470,
+  "end": 518,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: maya.sorensen@redfern.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 54,
+  "text": "To: snovak@redfern.com",
+  "tids": [
+   "t60",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 55,
+  "end": 95,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Mon, 07 Jul 2025 14:50:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 144,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 146,
+  "end": 217,
+  "text": "On 16 June 2025, 09:30 UTC, Sofia Novak initiated the payment approval.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 289,
+  "text": "On June 20, 2025 at 11:10 UTC, Desmond Park initiated the audit review.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 290,
+  "end": 367,
+  "text": "On June 30, 2025 at 15:15 UTC, Desmond Park initiated the bank detail change.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 368,
+  "end": 448,
+  "text": "The expense reimbursement was initiated by Dana Abara on 7 July 2025, 12:50 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 449,
+  "end": 505,
+  "text": "Sofia Novak also took part in the expense reimbursement.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_0",
+   "event_6"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 507,
+  "end": 514,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 515,
+  "end": 519,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 97,
+  "text": "Pinecrest National Bank account 9070167155 is registered to Redfern Tooling Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t72",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 98,
+  "end": 182,
+  "text": "Pinecrest National Bank account 8015186713 is registered to Harborline Logistics Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t73",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 183,
+  "end": 249,
+  "text": "Maya Sorensen holds account 6251856404 at Pinecrest National Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t74",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 251,
+  "end": 328,
+  "text": "The refund request was initiated by Maya Sorensen on 19 June 2025, 12:45 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 329,
+  "end": 407,
+  "text": "The contract amendment was initiated by Dana Abara on 30 June 2025, 09:30 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 408,
+  "end": 483,
+  "text": "On July 3, 2025 at 09:00 UTC, Sofia Novak initiated the invoice submission.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 484,
+  "end": 561,
+  "text": "On 8 July 2025, 14:50 UTC, Desmond Park initiated the account reconciliation.",
+  "tids": [
+   "t55",
+   "t56",
+   "t57"
+  ],
+  "mentions": [
+   "event_7",
+   "person_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 563,
+  "end": 602,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

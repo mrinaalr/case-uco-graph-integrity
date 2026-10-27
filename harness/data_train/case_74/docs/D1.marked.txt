@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Julian Haddad is employed by Harborline Tooling Inc.; their email is julian.haddad@harborline.com. [D1.S3] Felix Okafor is employed by Harborline Tooling Inc.; their email is fokafor@harborline.com. [D1.S4] Kofi Quinn works for Harborline Tooling Inc. and uses the address kofi.quinn@harborline.com. [D1.S5] Oakhaven Tooling Ltd. employs Lena Brennan, who can be reached at lena.brennan@oakhaven.com. [D1.S6] Oakhaven Tooling Ltd. employs Clara Ashworth, who can be reached at cashworth@oakhaven.com.
+
+[D1.S7] Felix Okafor's manager is Julian Haddad.
+
+[D1.S8] Harborline Tooling Inc. operates from 9123 Harbor Avenue, Albany, NY 12207.
+
+[D1.S9] Account 2407654053 at Pinecrest National Bank belongs to Harborline Tooling Inc. [D1.S10] Oakhaven Tooling Ltd. holds account 7930605592 at Pinecrest National Bank.
+
+[D1.S11] Funds moved from account 2407654053 to account 7930605592.
+
+[D1.S12] More detail will follow once records are pulled.

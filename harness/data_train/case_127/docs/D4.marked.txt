@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Union Ledger Bank account 9007838486 is registered to Copperfield Supply Group. [D4.S3] Union Ledger Bank account 5565307732 is registered to Ironleaf Components Ltd. [D4.S4] Elena Park holds account 9233109866 at Union Ledger Bank.
+
+[D4.S5] The account reconciliation was initiated by Irene Quinn on 6 November 2025, 13:30 UTC.
+
+[D4.S6] Please treat this as confidential.

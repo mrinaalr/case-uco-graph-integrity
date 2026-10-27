@@ -1,0 +1,453 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 125,
+  "text": "Oakhaven Supply Group employs Mei Fischer, who can be reached at mfischer@oakhaven.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t68",
+   "t69",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 126,
+  "end": 213,
+  "text": "Oakhaven Supply Group employs Irene Haddad, who can be reached at ihaddad@oakhaven.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t70",
+   "t71",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 214,
+  "end": 306,
+  "text": "Oakhaven Supply Group employs Ruth Delgado, who can be reached at ruth.delgado@oakhaven.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t72",
+   "t73",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 307,
+  "end": 400,
+  "text": "Felix Osei works for Northwind Components Inc. and uses the address felix.osei@northwind.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t74",
+   "t75",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 401,
+  "end": 492,
+  "text": "Luca Okafor works for Northwind Components Inc. and uses the address lokafor@northwind.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t76",
+   "t77",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 494,
+  "end": 532,
+  "text": "Irene Haddad's manager is Mei Fischer.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 534,
+  "end": 612,
+  "text": "Oakhaven Supply Group is based at 6229 Riverside Boulevard, Raleigh, NC 27601.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 614,
+  "end": 648,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: ruth.delgado@oakhaven.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 57,
+  "text": "To: mfischer@oakhaven.com",
+  "tids": [
+   "t53",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 58,
+  "end": 89,
+  "text": "Subject: Invoice 3495 follow-up",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 127,
+  "text": "Date: Mon, 21 Jul 2025 14:00:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 136,
+  "text": "Hi Mei,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 210,
+  "text": "On 18 June 2025, 12:00 UTC, Felix Osei initiated the bank detail change.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 211,
+  "end": 257,
+  "text": "Luca Okafor authorized the bank detail change.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_4",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 258,
+  "end": 326,
+  "text": "Felix Osei started the vendor onboarding on 21 July 2025, 12:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 327,
+  "end": 380,
+  "text": "Irene Haddad also took part in the vendor onboarding.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 382,
+  "end": 389,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 390,
+  "end": 394,
+  "text": "Ruth",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t79"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 49,
+  "text": "@ruthd is Ruth Delgado.",
+  "tids": [
+   "t45",
+   "t44"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 50,
+  "end": 72,
+  "text": "@felixo is Felix Osei.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 73,
+  "end": 142,
+  "text": "[2025-06-18 13:00 UTC] @ruthd to @felixo: Did the bank call back yet?",
+  "tids": [
+   "t56",
+   "t57",
+   "t58",
+   "t59",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_3"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 143,
+  "end": 230,
+  "text": "[2025-06-18 13:07 UTC] @felixo to @ruthd: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t60",
+   "t61",
+   "t62",
+   "t63",
+   "t81"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_3",
+   "handle_person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 231,
+  "end": 307,
+  "text": "[2025-06-18 13:14 UTC] @ruthd to @felixo: Send me the new form when you can.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_2",
+   "handle_person_3"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 86,
+  "text": "Oakhaven Supply Group holds account 9351077756 at First Harbor Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t82",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 87,
+  "end": 163,
+  "text": "Account 6818444040 at First Harbor Bank belongs to Northwind Components Inc.",
+  "tids": [
+   "t33",
+   "t34",
+   "t83",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 165,
+  "end": 235,
+  "text": "On 13 July 2025, 10:10 UTC, Irene Haddad initiated the refund request.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 236,
+  "end": 285,
+  "text": "Luca Okafor also took part in the refund request.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_4",
+   "event_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 287,
+  "end": 321,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

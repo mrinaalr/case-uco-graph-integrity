@@ -1,0 +1,11 @@
+[D2.S1] From: cwhitfield@bluegate.com
+[D2.S2] To: marcus.ivanova@redfern.com
+[D2.S3] Subject: Invoice 1201 follow-up
+[D2.S4] Date: Sat, 15 Nov 2025 17:50:00 +0000
+
+[D2.S5] Hi Marcus,
+
+[D2.S6] On October 21, 2025 at 14:50 UTC, Owen Banerjee initiated the audit review. [D2.S7] On 3 November 2025, 17:50 UTC, Clara Whitfield initiated the invoice submission. [D2.S8] Marcus Ivanova was involved in the invoice submission as well. [D2.S9] Clara Whitfield started the wire transfer on 15 November 2025, 15:50 UTC. [D2.S10] The wire transfer happened at Bluegate Fabrication Co.'s office.
+
+[D2.S11] Thanks,
+[D2.S12] Clara

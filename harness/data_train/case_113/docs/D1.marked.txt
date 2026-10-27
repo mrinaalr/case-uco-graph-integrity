@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Ruth Brennan works for Stonebridge Logistics Co. and uses the address ruth.brennan@stonebridge.com. [D1.S3] Stonebridge Logistics Co. employs Andre Sorensen, who can be reached at andre.sorensen@stonebridge.com. [D1.S4] Rosa Whitfield works for Oakhaven Industrial LLC and uses the address rwhitfield@oakhaven.com.
+
+[D1.S5] Andre Sorensen's manager is Ruth Brennan.
+
+[D1.S6] Stonebridge Logistics Co. is based at 3050 Main Street, Tucson, AZ 85701. [D1.S7] Oakhaven Industrial LLC is based at 625 Harbor Avenue, Albany, NY 12207.
+
+[D1.S8] Rosa Whitfield had been in contact with Andre Sorensen throughout.
+
+[D1.S9] This summary reflects records available to date.

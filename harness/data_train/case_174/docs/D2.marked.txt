@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Lena Quinn works for Summit Peak Analytics Inc. and uses the address lquinn@summitpeak.com. [D2.S3] Priya Kowalski works for Summit Peak Analytics Inc. and uses the address pkowalski@summitpeak.com. [D2.S4] Summit Peak Analytics Inc. employs Hector Sorensen, who can be reached at hector.sorensen@summitpeak.com. [D2.S5] Nadia Abara works for Northwind Supply Inc. and uses the address nabara@northwind.com. [D2.S6] Rosa Osei is employed by Northwind Supply Inc.; their email is rosa.osei@northwind.com.
+
+[D2.S7] Summit Peak Analytics Inc. is based at 5953 Main Street, Dayton, OH 45402.
+
+[D2.S8] Account 8842954746 at Lakeshore Savings Bank belongs to Summit Peak Analytics Inc. [D2.S9] Lakeshore Savings Bank account 4948449284 is registered to Northwind Supply Inc.
+
+[D2.S10] This summary reflects records available to date.

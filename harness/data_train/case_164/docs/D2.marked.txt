@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Priya Tanaka works for Harborline Fabrication LLC and uses the address ptanaka@harborline.com. [D2.S3] Arjun Ivanova works for Harborline Fabrication LLC and uses the address arjun.ivanova@harborline.com. [D2.S4] Mei Kowalski works for Harborline Fabrication LLC and uses the address mei.kowalski@harborline.com. [D2.S5] Northwind Industrial Co. employs Rosa Reyes, who can be reached at rosa.reyes@northwind.com.
+
+[D2.S6] The offices of Harborline Fabrication LLC are at 35 Riverside Boulevard, Madison, WI 53703.
+
+[D2.S7] Meridian Trust Bank account 5669608512 is registered to Harborline Fabrication LLC. [D2.S8] Meridian Trust Bank account 2487974999 is registered to Northwind Industrial Co. [D2.S9] Meridian Trust Bank account 6894420927 is registered to Arjun Ivanova.
+
+[D2.S10] Let me know if anything here looks off.

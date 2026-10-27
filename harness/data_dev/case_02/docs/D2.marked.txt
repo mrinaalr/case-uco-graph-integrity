@@ -1,0 +1,7 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Kofi Novak is employed by Silverlake Services Ltd.; their email is kofi.novak@silverlake.com. [D2.S3] Grace Park is employed by Silverlake Services Ltd.; their email is grace.park@silverlake.com. [D2.S4] Julian Haddad is employed by Silverlake Services Ltd.; their email is julian.haddad@silverlake.com. [D2.S5] Owen Abara works for Oakhaven Tooling Ltd. and uses the address owen.abara@oakhaven.com. [D2.S6] Elena Kowalski works for Oakhaven Tooling Ltd. and uses the address ekowalski@oakhaven.com.
+
+[D2.S7] Silverlake Services Ltd. operates from 4032 Elm Street, Albany, NY 12207. [D2.S8] The offices of Oakhaven Tooling Ltd. are at 5305 Harbor Avenue, Omaha, NE 68102.
+
+[D2.S9] Let me know if anything here looks off.

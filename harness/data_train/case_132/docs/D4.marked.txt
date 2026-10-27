@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Bluegate Services Inc. holds account 7881972299 at Union Ledger Bank. [D4.S3] Account 9822282470 at Union Ledger Bank belongs to Clearpath Industrial Co.
+
+[D4.S4] Priya Tanaka started the account reconciliation on April 4, 2025 at 09:25 UTC. [D4.S5] On April 19, 2025 at 15:25 UTC, Maya Abara initiated the wire transfer. [D4.S6] Victor Okafor had been in contact with Priya Tanaka throughout.
+
+[D4.S7] This summary reflects records available to date.

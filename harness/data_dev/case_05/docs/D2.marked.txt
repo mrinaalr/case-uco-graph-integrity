@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Northwind Logistics Inc. employs Maya Banerjee, who can be reached at mbanerjee@northwind.com. [D2.S3] Dana Tanaka works for Northwind Logistics Inc. and uses the address dtanaka@northwind.com. [D2.S4] Northwind Logistics Inc. employs Julian Kowalski, who can be reached at julian.kowalski@northwind.com. [D2.S5] Summit Peak Logistics Co. employs Hector Holloway, who can be reached at hector.holloway@summitpeak.com. [D2.S6] Summit Peak Logistics Co. employs Owen Castillo, who can be reached at ocastillo@summitpeak.com.
+
+[D2.S7] Northwind Logistics Inc. is based at 258 Maple Avenue, Raleigh, NC 27601.
+
+[D2.S8] Northwind Logistics Inc. holds account 7842241572 at Lakeshore Savings Bank. [D2.S9] Account 1901806558 at Lakeshore Savings Bank belongs to Summit Peak Logistics Co. [D2.S10] Lakeshore Savings Bank account 7329094019 is registered to Dana Tanaka.
+
+[D2.S11] Let me know if anything here looks off.

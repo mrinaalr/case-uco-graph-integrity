@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] First Harbor Bank account 2707502874 is registered to Northwind Fabrication LLC. [D4.S3] Redfern Analytics LLC holds account 2971759776 at First Harbor Bank. [D4.S4] Account 2592512364 at First Harbor Bank belongs to Julian Lindqvist.
+
+[D4.S5] The account reconciliation was initiated by Nadia Vance on 5 July 2025, 14:30 UTC. [D4.S6] Julian Lindqvist also took part in the account reconciliation. [D4.S7] The account reconciliation took place at the Northwind Fabrication LLC office. [D4.S8] Marcus Whitfield started the payment approval on 29 July 2025, 17:50 UTC. [D4.S9] Nadia Vance authorized the payment approval. [D4.S10] Account 2707502874 sent a transfer to account 2592512364.
+
+[D4.S11] Let me know if anything here looks off.

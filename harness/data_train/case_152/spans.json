@@ -1,0 +1,418 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 29,
+  "text": "From: hivanova@cedarridge.com",
+  "tids": [
+   "t49",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 30,
+  "end": 63,
+  "text": "To: marcus.lindqvist@westmark.com",
+  "tids": [
+   "t50",
+   "t57",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 64,
+  "end": 100,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 101,
+  "end": 138,
+  "text": "Date: Mon, 24 Mar 2025 18:30:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 150,
+  "text": "Hi Marcus,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 152,
+  "end": 232,
+  "text": "On March 7, 2025 at 11:10 UTC, Marcus Lindqvist initiated the vendor onboarding.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 287,
+  "text": "Maya Ashworth also took part in the vendor onboarding.",
+  "tids": [
+   "t48",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 288,
+  "end": 367,
+  "text": "On March 24, 2025 at 16:30 UTC, Maya Ashworth initiated the invoice submission.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 369,
+  "end": 376,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 377,
+  "end": 383,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 139,
+  "text": "Maya Ashworth works for Cedar Ridge Components LLC and uses the address maya.ashworth@cedarridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t58",
+   "t59",
+   "t1",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 140,
+  "end": 237,
+  "text": "Cedar Ridge Components LLC employs Hannah Ivanova, who can be reached at hivanova@cedarridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t60",
+   "t61",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 238,
+  "end": 341,
+  "text": "Westmark Fabrication Co. employs Marcus Lindqvist, who can be reached at marcus.lindqvist@westmark.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t62",
+   "t63",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 343,
+  "end": 421,
+  "text": "Cedar Ridge Components LLC is based at 5962 Commerce Drive, Madison, WI 53703.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 423,
+  "end": 457,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 34,
+  "text": "From: maya.ashworth@cedarridge.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 35,
+  "end": 68,
+  "text": "To: marcus.lindqvist@westmark.com",
+  "tids": [
+   "t54",
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 69,
+  "end": 105,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 106,
+  "end": 143,
+  "text": "Date: Fri, 28 Mar 2025 11:50:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 155,
+  "text": "Hi Marcus,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 240,
+  "text": "The bank detail change was initiated by Hannah Ivanova on 18 March 2025, 16:10 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 241,
+  "end": 320,
+  "text": "The audit review was initiated by Marcus Lindqvist on 28 March 2025, 09:50 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 322,
+  "end": 329,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 330,
+  "end": 334,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 96,
+  "text": "Account 8903518081 at Union Ledger Bank belongs to Cedar Ridge Components LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t65",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 97,
+  "end": 175,
+  "text": "Union Ledger Bank account 7534335358 is registered to Westmark Fabrication Co.",
+  "tids": [
+   "t25",
+   "t26",
+   "t66",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 176,
+  "end": 245,
+  "text": "Union Ledger Bank account 9690020980 is registered to Hannah Ivanova.",
+  "tids": [
+   "t28",
+   "t29",
+   "t67",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 247,
+  "end": 333,
+  "text": "The contract amendment was initiated by Hannah Ivanova on March 23, 2025 at 12:45 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 334,
+  "end": 411,
+  "text": "The wire transfer was initiated by Hannah Ivanova on 4 April 2025, 09:15 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 413,
+  "end": 447,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,390 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 124,
+  "text": "Lena Abara is employed by Redfern Distribution LLC; their email is labara@redfern.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t61",
+   "t62",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 125,
+  "end": 215,
+  "text": "Marcus Petrov is employed by Redfern Distribution LLC; their email is mpetrov@redfern.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t63",
+   "t64",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 216,
+  "end": 303,
+  "text": "Redfern Distribution LLC employs Felix Novak, who can be reached at fnovak@redfern.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t65",
+   "t66",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 304,
+  "end": 395,
+  "text": "Silverlake Supply Inc. employs Julian Haddad, who can be reached at jhaddad@silverlake.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t67",
+   "t68",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 397,
+  "end": 482,
+  "text": "The offices of Redfern Distribution LLC are at 5627 Commerce Drive, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 484,
+  "end": 518,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 24,
+  "text": "From: labara@redfern.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 25,
+  "end": 51,
+  "text": "To: jhaddad@silverlake.com",
+  "tids": [
+   "t58",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 52,
+  "end": 87,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 88,
+  "end": 125,
+  "text": "Date: Thu, 23 Oct 2025 16:45:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 127,
+  "end": 137,
+  "text": "Hi Julian,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 139,
+  "end": 213,
+  "text": "On 26 September 2025, 12:45 UTC, Marcus Petrov initiated the audit review.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 214,
+  "end": 291,
+  "text": "On 4 October 2025, 11:30 UTC, Marcus Petrov initiated the invoice submission.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 292,
+  "end": 365,
+  "text": "The invoice submission took place at the Redfern Distribution LLC office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 366,
+  "end": 439,
+  "text": "Julian Haddad started the wire transfer on October 10, 2025 at 16:25 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 440,
+  "end": 494,
+  "text": "Felix Novak was involved in the wire transfer as well.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_2",
+   "event_4"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 495,
+  "end": 576,
+  "text": "The vendor onboarding was initiated by Felix Novak on 23 October 2025, 14:45 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 578,
+  "end": 585,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 586,
+  "end": 590,
+  "text": "Lena",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 91,
+  "text": "Redfern Distribution LLC holds account 9297137508 at Meridian Trust Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 92,
+  "end": 163,
+  "text": "Silverlake Supply Inc. holds account 6007436101 at Meridian Trust Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 165,
+  "end": 248,
+  "text": "The contract amendment was initiated by Lena Abara on 27 September 2025, 09:45 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 249,
+  "end": 320,
+  "text": "Marcus Petrov started the refund request on 10 October 2025, 09:00 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 321,
+  "end": 393,
+  "text": "Lena Abara started the bank detail change on 19 October 2025, 11:00 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 394,
+  "end": 474,
+  "text": "The payment approval was initiated by Felix Novak on 29 October 2025, 12:30 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_7",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 476,
+  "end": 524,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D2.S1] From: vpark@redfern.com
+[D2.S2] To: sosei@brightwater.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Fri, 30 May 2025 18:10:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] The account reconciliation was initiated by Samuel Osei on 7 May 2025, 13:50 UTC. [D2.S7] Felix Brennan started the refund request on May 10, 2025 at 17:50 UTC. [D2.S8] Approval for the refund request came from Victor Park. [D2.S9] On May 30, 2025 at 16:10 UTC, Priya Novak initiated the invoice submission. [D2.S10] Samuel Osei also took part in the invoice submission. [D2.S11] The invoice submission took place at the Redfern Fabrication Co. office.
+
+[D2.S12] Thanks,
+[D2.S13] Victor

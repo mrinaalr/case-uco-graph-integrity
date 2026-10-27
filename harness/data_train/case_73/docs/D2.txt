@@ -1,0 +1,11 @@
+From: priya.novak@northwind.com
+To: tomas.abara@oakhaven.com, mpetrov@oakhaven.com
+Subject: Re: banking change request
+Date: Thu, 31 Jul 2025 16:25:00 +0000
+
+Hi Tomas,
+
+Priya Novak started the vendor onboarding on 11 July 2025, 10:45 UTC. The vendor onboarding took place at the Oakhaven Freight Group office. The bank detail change was initiated by Priya Novak on July 31, 2025 at 14:25 UTC. Tomas Abara authorized the bank detail change. Marcus Petrov also took part in the bank detail change. The bank detail change happened at Oakhaven Freight Group's office.
+
+Thanks,
+Priya

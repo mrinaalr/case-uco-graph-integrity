@@ -1,0 +1,11 @@
+[D1.S1] From: abrennan@ironleaf.com
+[D1.S2] To: shaddad@northwind.com, priya.mendes@northwind.com
+[D1.S3] Subject: Contract terms for next quarter
+[D1.S4] Date: Thu, 18 Sep 2025 18:10:00 +0000
+
+[D1.S5] Hi Samuel,
+
+[D1.S6] Kofi Holloway started the bank detail change on 19 August 2025, 14:10 UTC. [D1.S7] Andre Brennan started the account reconciliation on August 21, 2025 at 13:30 UTC. [D1.S8] On September 18, 2025 at 16:10 UTC, Priya Mendes initiated the wire transfer. [D1.S9] The wire transfer happened at Ironleaf Logistics Inc.'s office.
+
+[D1.S10] Thanks,
+[D1.S11] Andre

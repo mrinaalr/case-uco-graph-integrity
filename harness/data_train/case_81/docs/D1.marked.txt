@@ -1,0 +1,11 @@
+[D1.S1] From: maya.reyes@brightwater.com
+[D1.S2] To: ivance@oakhaven.com
+[D1.S3] Subject: Re: banking change request
+[D1.S4] Date: Thu, 15 May 2025 13:00:00 +0000
+
+[D1.S5] Hi Irene,
+
+[D1.S6] On April 7, 2025 at 10:15 UTC, Irene Vance initiated the refund request. [D1.S7] On April 23, 2025 at 10:25 UTC, Rosa Mendes initiated the audit review. [D1.S8] The account reconciliation was initiated by Rosa Mendes on April 24, 2025 at 16:00 UTC. [D1.S9] The invoice submission was initiated by Irene Vance on 15 May 2025, 11:00 UTC.
+
+[D1.S10] Thanks,
+[D1.S11] Maya

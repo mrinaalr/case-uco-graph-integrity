@@ -1,0 +1,342 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 130,
+  "text": "Victor Okafor works for Oakhaven Distribution LLC and uses the address vokafor@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t53",
+   "t54",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 225,
+  "text": "Kofi Moreau is employed by Oakhaven Distribution LLC; their email is kofi.moreau@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t55",
+   "t56",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 317,
+  "text": "Priya Petrov is employed by Oakhaven Distribution LLC; their email is ppetrov@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t57",
+   "t58",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 412,
+  "text": "Owen Brennan is employed by Copperfield Services LLC; their email is obrennan@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t59",
+   "t60",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 414,
+  "end": 488,
+  "text": "Oakhaven Distribution LLC is based at 705 Commerce Drive, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 490,
+  "end": 573,
+  "text": "Oakhaven Distribution LLC holds account 5260014552 at Granite Federal Credit Union.",
+  "tids": [
+   "t26",
+   "t27",
+   "t61",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 574,
+  "end": 664,
+  "text": "Granite Federal Credit Union account 4853736922 is registered to Copperfield Services LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t62",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 666,
+  "end": 705,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: kofi.moreau@oakhaven.com",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 59,
+  "text": "To: obrennan@copperfield.com",
+  "tids": [
+   "t50",
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 60,
+  "end": 85,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 123,
+  "text": "Date: Fri, 22 Aug 2025 19:45:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 125,
+  "end": 133,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 208,
+  "text": "On 24 July 2025, 13:25 UTC, Kofi Moreau initiated the contract amendment.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 209,
+  "end": 268,
+  "text": "Approval for the contract amendment came from Owen Brennan.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_3",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 269,
+  "end": 344,
+  "text": "Victor Okafor started the bank detail change on July 29, 2025 at 16:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 345,
+  "end": 432,
+  "text": "The account reconciliation was initiated by Kofi Moreau on August 7, 2025 at 11:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 433,
+  "end": 498,
+  "text": "Victor Okafor was involved in the account reconciliation as well.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 499,
+  "end": 580,
+  "text": "The wire transfer was initiated by Victor Okafor on August 19, 2025 at 09:25 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 581,
+  "end": 650,
+  "text": "The wire transfer took place at the Oakhaven Distribution LLC office.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 651,
+  "end": 726,
+  "text": "On 22 August 2025, 17:45 UTC, Victor Okafor initiated the payment approval.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 728,
+  "end": 735,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 736,
+  "end": 740,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ }
+}

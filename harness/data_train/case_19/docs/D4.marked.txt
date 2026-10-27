@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Pinecrest National Bank account 1338487092 is registered to Clearpath Analytics Ltd. [D4.S3] Account 7104595047 at Pinecrest National Bank belongs to Bluegate Tooling Co.
+
+[D4.S4] On 20 July 2025, 10:30 UTC, Ruth Banerjee initiated the audit review. [D4.S5] Maya Holloway started the expense reimbursement on July 29, 2025 at 13:15 UTC. [D4.S6] Ruth Banerjee started the bank detail change on August 19, 2025 at 14:30 UTC.
+
+[D4.S7] Please treat this as confidential.

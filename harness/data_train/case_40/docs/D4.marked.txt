@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Meridian Trust Bank account 6381469000 is registered to Westmark Freight Inc. [D4.S3] Account 4416775398 at Meridian Trust Bank belongs to Redfern Components Co. [D4.S4] Meridian Trust Bank account 4501057150 is registered to Marcus Sorensen.
+
+[D4.S5] The payment approval was initiated by Julian Delgado on 29 January 2025, 11:25 UTC. [D4.S6] Marcus Sorensen was involved in the payment approval as well. [D4.S7] Funds moved from account 6381469000 to account 4501057150. [D4.S8] Funds moved from account 6381469000 to account 4416775398.
+
+[D4.S9] This summary reflects records available to date.

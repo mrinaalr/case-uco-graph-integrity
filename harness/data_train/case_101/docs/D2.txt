@@ -1,0 +1,11 @@
+From: opark@oakhaven.com
+To: lbrennan@bluegate.com
+Subject: Audit prep items
+Date: Sat, 29 Mar 2025 15:30:00 +0000
+
+Hi Luca,
+
+Owen Park started the account reconciliation on 8 March 2025, 12:30 UTC. On March 17, 2025 at 11:25 UTC, Nadia Kowalski initiated the audit review. Owen Park started the wire transfer on March 29, 2025 at 13:30 UTC. Approval for the wire transfer came from Luca Brennan.
+
+Thanks,
+Owen

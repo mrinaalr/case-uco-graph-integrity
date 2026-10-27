@@ -1,0 +1,11 @@
+[D2.S1] From: yara.tanaka@bluegate.com
+[D2.S2] To: irene.ivanova@silverlake.com, maya.delgado@silverlake.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Mon, 23 Jun 2025 17:10:00 +0000
+
+[D2.S5] Hi Irene,
+
+[D2.S6] On May 22, 2025 at 13:25 UTC, Irene Ivanova initiated the payment approval. [D2.S7] Approval for the payment approval came from Maya Delgado. [D2.S8] Owen Petrov was involved in the payment approval as well. [D2.S9] Yara Tanaka started the invoice submission on June 23, 2025 at 15:10 UTC. [D2.S10] Julian Fischer also took part in the invoice submission. [D2.S11] The invoice submission happened at Silverlake Supply Co.'s office.
+
+[D2.S12] Thanks,
+[D2.S13] Yara

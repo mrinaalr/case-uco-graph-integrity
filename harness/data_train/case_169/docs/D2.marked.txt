@@ -1,0 +1,11 @@
+[D2.S1] From: wdelgado@clearpath.com
+[D2.S2] To: vholloway@brightwater.com, kofi.vance@brightwater.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Fri, 17 Oct 2025 17:30:00 +0000
+
+[D2.S5] Hi Victor,
+
+[D2.S6] The vendor onboarding was initiated by Kofi Vance on 24 September 2025, 16:25 UTC. [D2.S7] Victor Holloway also took part in the vendor onboarding. [D2.S8] The vendor onboarding happened at Brightwater Consulting LLC's office. [D2.S9] On 17 October 2025, 15:30 UTC, Victor Holloway initiated the bank detail change. [D2.S10] Wesley Delgado authorized the bank detail change. [D2.S11] Kofi Vance was involved in the bank detail change as well. [D2.S12] The bank detail change took place at the Brightwater Consulting LLC office.
+
+[D2.S13] Thanks,
+[D2.S14] Wesley

@@ -1,0 +1,11 @@
+[D2.S1] From: dpark@cedarridge.com
+[D2.S2] To: rholloway@copperfield.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Tue, 18 Feb 2025 17:45:00 +0000
+
+[D2.S5] Hi Rosa,
+
+[D2.S6] The bank detail change was initiated by Victor Novak on January 31, 2025 at 14:45 UTC. [D2.S7] The bank detail change took place at the Cedar Ridge Fabrication Co. office. [D2.S8] Desmond Park started the vendor onboarding on February 11, 2025 at 12:00 UTC. [D2.S9] Tomas Okafor was involved in the vendor onboarding as well. [D2.S10] The vendor onboarding took place at the Cedar Ridge Fabrication Co. office. [D2.S11] The audit review was initiated by Irene Abara on 11 February 2025, 12:30 UTC. [D2.S12] The audit review happened at Cedar Ridge Fabrication Co.'s office. [D2.S13] Rosa Holloway started the contract amendment on February 18, 2025 at 15:45 UTC. [D2.S14] Irene Abara also took part in the contract amendment.
+
+[D2.S15] Thanks,
+[D2.S16] Desmond

@@ -1,0 +1,11 @@
+[D2.S1] From: ruth.whitfield@harborline.com
+[D2.S2] To: rhaddad@copperfield.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Wed, 22 Oct 2025 18:15:00 +0000
+
+[D2.S5] Hi Rosa,
+
+[D2.S6] Rosa Haddad started the expense reimbursement on October 1, 2025 at 09:50 UTC. [D2.S7] Oscar Okafor was involved in the expense reimbursement as well. [D2.S8] The expense reimbursement took place at the Copperfield Freight Inc. office. [D2.S9] Yara Vance started the bank detail change on 11 October 2025, 12:25 UTC. [D2.S10] Ruth Whitfield started the invoice submission on 13 October 2025, 09:30 UTC. [D2.S11] The invoice submission happened at Copperfield Freight Inc.'s office. [D2.S12] The refund request was initiated by Rosa Haddad on October 13, 2025 at 11:50 UTC. [D2.S13] Yara Vance was involved in the refund request as well. [D2.S14] Oscar Okafor started the audit review on October 22, 2025 at 16:15 UTC. [D2.S15] Rosa Haddad also took part in the audit review.
+
+[D2.S16] Thanks,
+[D2.S17] Ruth

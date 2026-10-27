@@ -8,7 +8,12 @@ sentence that spells them out; later mentions are references, not restatements.
 Each document is also rendered to a PDF (docs/D1.pdf, ...) with no sentence markers; the
 PDFs are what the methods under test receive. The .txt and .marked.txt files stay for scoring.
 
-    python harness/generate_data.py [--cases 100] [--seed 20251025] [--validate]
+    python harness/generate_data.py [--cases 100] [--seed 20251025] [--validate] [--out data]
+
+The benchmark is data/ (seed 20251025). A development set for prompt tuning and a training set for
+the trained arms use other seeds and folders, so no benchmark case is ever seen during tuning or training:
+    python harness/generate_data.py --cases 20 --seed 20260101 --out data_dev
+    python harness/generate_data.py --cases 200 --seed 20260202 --out data_train
 """
 
 from __future__ import annotations
@@ -523,8 +528,9 @@ def main() -> None:
     ap.add_argument("--cases", type=int, default=100)
     ap.add_argument("--seed", type=int, default=20251025)
     ap.add_argument("--validate", action="store_true", help="run case_validate on every gold graph")
+    ap.add_argument("--out", default="data", help="output folder under harness/ (data, data_dev, data_train)")
     args = ap.parse_args()
-    out = HARNESS / "data"
+    out = HARNESS / args.out
     if out.exists():
         shutil.rmtree(out)
     out.mkdir(parents=True)

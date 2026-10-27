@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Andre Holloway works for Bluegate Fabrication Group and uses the address aholloway@bluegate.com. [D2.S3] Irene Sorensen is employed by Bluegate Fabrication Group; their email is irene.sorensen@bluegate.com. [D2.S4] Priya Fischer is employed by Oakhaven Freight Co.; their email is priya.fischer@oakhaven.com.
+
+[D2.S5] The offices of Bluegate Fabrication Group are at 1839 Harbor Avenue, Boise, ID 83702.
+
+[D2.S6] Bluegate Fabrication Group holds account 8075197467 at Union Ledger Bank. [D2.S7] Account 2134050688 at Union Ledger Bank belongs to Oakhaven Freight Co. [D2.S8] Irene Sorensen holds account 1758086614 at Union Ledger Bank.
+
+[D2.S9] Funds moved from account 8075197467 to account 1758086614.
+
+[D2.S10] Let me know if anything here looks off.

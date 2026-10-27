@@ -1,0 +1,918 @@
+{
+ "case_id": "case_104",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D4"
+   ],
+   "label": "Summit Peak Freight LLC"
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D4"
+   ],
+   "label": "Stonebridge Packaging LLC"
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D4"
+   ],
+   "label": "Granite Federal Credit Union"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Arjun Park"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Sofia Haddad"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D3",
+    "D4"
+   ],
+   "label": "Samuel Reyes"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "apark@summitpeak.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "sofia.haddad@summitpeak.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "samuel.reyes@stonebridge.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1"
+   ],
+   "label": "9269 Riverside Boulevard, Dayton, OH 45402"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "2274925054"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "4271692387"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "audit review"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "expense reimbursement"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "vendor onboarding"
+  },
+  {
+   "eid": "handle_person_2",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@samuelr"
+  },
+  {
+   "eid": "handle_person_0",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@arjunp"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_0",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_1",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_2",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_thread",
+   "class": "MessageThread",
+   "docs": [
+    "D3"
+   ],
+   "label": "#finance-ops"
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Summit Peak Freight LLC",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Stonebridge Packaging LLC",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Granite Federal Credit Union",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Arjun Park",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Sofia Haddad",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Samuel Reyes",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "apark@summitpeak.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t10",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "sofia.haddad@summitpeak.com",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t13",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "samuel.reyes@stonebridge.com",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t16",
+   "s": "loc_company",
+   "p": "street",
+   "o": "9269 Riverside Boulevard",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t17",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Dayton",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "loc_company",
+   "p": "region",
+   "o": "OH",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t19",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "45402",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t20",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t21",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "2274925054",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t22",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t23",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t24",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "4271692387",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t25",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t26",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t27",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t28",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-01-12T17:00:00Z",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t29",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t30",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "audit review",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t31",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-01-13T13:10:00Z",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t32",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t33",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "expense reimbursement",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t34",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-01-17T09:45:00Z",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t35",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t36",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t37",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-01-18T13:50:00Z",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t38",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t39",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "vendor onboarding",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t40",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-02-04T12:00:00Z",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t41",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t42",
+   "s": "handle_person_2",
+   "p": "accountIdentifier",
+   "o": "@samuelr",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t43",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "handle_person_2",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t44",
+   "s": "handle_person_0",
+   "p": "accountIdentifier",
+   "o": "@arjunp",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t45",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "handle_person_0",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t46",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S1",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t47",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t48",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t49",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Audit prep items",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t50",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-02-04T14:00:00Z",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t51",
+   "s": "chat_msg_0",
+   "p": "from",
+   "o": "handle_person_2",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t52",
+   "s": "chat_msg_0",
+   "p": "to",
+   "o": "handle_person_0",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t53",
+   "s": "chat_msg_0",
+   "p": "sentTime",
+   "o": "2025-01-12T18:00:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t54",
+   "s": "chat_msg_0",
+   "p": "messageText",
+   "o": "Let's keep this between us until Friday.",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t55",
+   "s": "chat_msg_1",
+   "p": "from",
+   "o": "handle_person_0",
+   "lit": false,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t56",
+   "s": "chat_msg_1",
+   "p": "to",
+   "o": "handle_person_2",
+   "lit": false,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t57",
+   "s": "chat_msg_1",
+   "p": "sentTime",
+   "o": "2025-01-12T18:07:00Z",
+   "lit": true,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t58",
+   "s": "chat_msg_1",
+   "p": "messageText",
+   "o": "Did the bank call back yet?",
+   "lit": true,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t59",
+   "s": "chat_msg_2",
+   "p": "from",
+   "o": "handle_person_2",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t60",
+   "s": "chat_msg_2",
+   "p": "to",
+   "o": "handle_person_0",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t61",
+   "s": "chat_msg_2",
+   "p": "sentTime",
+   "o": "2025-01-12T18:14:00Z",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t62",
+   "s": "chat_msg_2",
+   "p": "messageText",
+   "o": "Can you look at the vendor file before lunch?",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t63",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t64",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t65",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t66",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t67",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t68",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t69",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t70",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t71",
+   "s": "chat_thread",
+   "p": "name",
+   "o": "#finance-ops",
+   "lit": true,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t72",
+   "s": "person_2",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t73",
+   "s": "person_0",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t74",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t75",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  }
+ ],
+ "relationship_count": 16,
+ "relationship_count_total": 23,
+ "documents": {
+  "D1": "memo",
+  "D2": "email",
+  "D3": "chat",
+  "D4": "report"
+ },
+ "seed": 20260202
+}

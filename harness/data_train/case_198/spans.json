@@ -1,0 +1,514 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: pquinn@copperfield.com",
+  "tids": [
+   "t62",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 82,
+  "text": "To: kcastillo@oakhaven.com, fholloway@copperfield.com",
+  "tids": [
+   "t63",
+   "t64",
+   "t72",
+   "t73",
+   "t8",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 83,
+  "end": 114,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Wed, 12 Feb 2025 13:50:00 +0000",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 154,
+  "end": 162,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 164,
+  "end": 249,
+  "text": "The expense reimbursement was initiated by Priya Quinn on 10 January 2025, 17:50 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 250,
+  "end": 326,
+  "text": "The expense reimbursement happened at Copperfield Industrial Group's office.",
+  "tids": [
+   "t56",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 327,
+  "end": 401,
+  "text": "Kofi Castillo started the wire transfer on February 12, 2025 at 11:50 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45",
+   "t7"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 402,
+  "end": 459,
+  "text": "Felix Holloway was involved in the wire transfer as well.",
+  "tids": [
+   "t54",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 461,
+  "end": 468,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 469,
+  "end": 474,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 139,
+  "text": "Felix Holloway works for Copperfield Industrial Group and uses the address fholloway@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 140,
+  "end": 232,
+  "text": "Dana Osei is employed by Copperfield Industrial Group; their email is dosei@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t76",
+   "t77",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 233,
+  "end": 328,
+  "text": "Priya Quinn works for Copperfield Industrial Group and uses the address pquinn@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t78",
+   "t79"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 329,
+  "end": 419,
+  "text": "Oakhaven Tooling Inc. employs Kofi Castillo, who can be reached at kcastillo@oakhaven.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t80",
+   "t81",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 421,
+  "end": 461,
+  "text": "Priya Quinn's manager is Felix Holloway.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 463,
+  "end": 552,
+  "text": "The offices of Copperfield Industrial Group are at 4097 Market Street, Spokane, WA 99201.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 553,
+  "end": 626,
+  "text": "Oakhaven Tooling Inc. is based at 8117 Market Street, Richmond, VA 23219.",
+  "tids": [
+   "t61",
+   "t57",
+   "t58",
+   "t59",
+   "t60"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 628,
+  "end": 676,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: dosei@copperfield.com",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 81,
+  "text": "To: fholloway@copperfield.com, pquinn@copperfield.com",
+  "tids": [
+   "t68",
+   "t69",
+   "t82",
+   "t83"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 82,
+  "end": 122,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 123,
+  "end": 160,
+  "text": "Date: Fri, 14 Feb 2025 14:30:00 +0000",
+  "tids": [
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 162,
+  "end": 171,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 173,
+  "end": 247,
+  "text": "Dana Osei started the invoice submission on January 15, 2025 at 17:25 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 248,
+  "end": 328,
+  "text": "Kofi Castillo started the account reconciliation on 14 February 2025, 12:30 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 329,
+  "end": 395,
+  "text": "Felix Holloway was involved in the account reconciliation as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_0",
+   "event_4"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 397,
+  "end": 404,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 405,
+  "end": 409,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 93,
+  "text": "Copperfield Industrial Group holds account 5355656516 at First Harbor Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t84",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 94,
+  "end": 162,
+  "text": "Oakhaven Tooling Inc. holds account 3802741851 at First Harbor Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t85",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 163,
+  "end": 229,
+  "text": "First Harbor Bank account 7747992659 is registered to Priya Quinn.",
+  "tids": [
+   "t32",
+   "t33",
+   "t86",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 231,
+  "end": 308,
+  "text": "On 31 January 2025, 15:00 UTC, Kofi Castillo initiated the vendor onboarding.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 309,
+  "end": 396,
+  "text": "The payment approval was initiated by Felix Holloway on February 16, 2025 at 14:15 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 397,
+  "end": 456,
+  "text": "Priya Quinn communicated with Dana Osei about the payments.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 458,
+  "end": 497,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

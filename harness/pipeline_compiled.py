@@ -102,8 +102,26 @@ def value_in(value: str, quote: str, prop: str) -> bool:
     return v in q or " ".join(t for t in re.sub(r"[^\w\s@.]", " ", v).split()) in re.sub(r"[^\w\s@.]", " ", q)
 
 
+REL_ALIASES = {"subject": "source", "from": "source", "src": "source", "object": "target", "to": "target", "dst": "target",
+               "type": "kind", "relation": "kind", "relationship": "kind", "predicate": "kind", "evidence": "quote"}
+ATTR_ALIASES = {"entity_id": "entity", "id": "entity", "subject": "entity", "name": "property", "key": "property",
+                "attribute": "property", "evidence": "quote"}
+
+
+def canon(claim, aliases: dict) -> dict:
+    """Rename alias keys to the schema's; "e1.name" style attribute keys split into entity and property."""
+    if not isinstance(claim, dict):
+        return {}
+    out = {aliases.get(k, k): v for k, v in claim.items()}
+    if aliases is ATTR_ALIASES and isinstance(out.get("property"), str) and "." in out["property"] and "entity" not in out:
+        out["entity"], out["property"] = out["property"].split(".", 1)
+    return out
+
+
 def verify(claims: dict, text: str) -> tuple[dict, list[str]]:
     """Admit the claims the document supports; list the reasons for every rejection."""
+    claims = {"entities": claims.get("entities") or [], "attributes": [canon(a, ATTR_ALIASES) for a in claims.get("attributes") or []],
+              "relations": [canon(r, REL_ALIASES) for r in claims.get("relations") or []]}
     text = squash(text)
     admitted = {"entities": [], "attributes": [], "relations": []}
     rejected = []

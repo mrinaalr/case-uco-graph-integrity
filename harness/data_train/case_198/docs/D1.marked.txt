@@ -1,0 +1,11 @@
+[D1.S1] From: pquinn@copperfield.com
+[D1.S2] To: kcastillo@oakhaven.com, fholloway@copperfield.com
+[D1.S3] Subject: Urgent: payment timing
+[D1.S4] Date: Wed, 12 Feb 2025 13:50:00 +0000
+
+[D1.S5] Hi Kofi,
+
+[D1.S6] The expense reimbursement was initiated by Priya Quinn on 10 January 2025, 17:50 UTC. [D1.S7] The expense reimbursement happened at Copperfield Industrial Group's office. [D1.S8] Kofi Castillo started the wire transfer on February 12, 2025 at 11:50 UTC. [D1.S9] Felix Holloway was involved in the wire transfer as well.
+
+[D1.S10] Thanks,
+[D1.S11] Priya

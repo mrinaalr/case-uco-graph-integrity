@@ -1,0 +1,11 @@
+[D2.S1] From: msorensen@brightwater.com
+[D2.S2] To: wesley.banerjee@clearpath.com, hector.delgado@clearpath.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Sun, 09 Nov 2025 16:15:00 +0000
+
+[D2.S5] Hi Wesley,
+
+[D2.S6] On October 12, 2025 at 15:10 UTC, Hector Delgado initiated the invoice submission. [D2.S7] The invoice submission happened at Clearpath Packaging Ltd.'s office. [D2.S8] Mei Sorensen started the audit review on 22 October 2025, 16:30 UTC. [D2.S9] Mei Sorensen started the refund request on November 1, 2025 at 14:15 UTC. [D2.S10] Wesley Banerjee was involved in the refund request as well. [D2.S11] The bank detail change was initiated by Mei Sorensen on 9 November 2025, 14:15 UTC. [D2.S12] The bank detail change took place at the Clearpath Packaging Ltd. office.
+
+[D2.S13] Thanks,
+[D2.S14] Mei

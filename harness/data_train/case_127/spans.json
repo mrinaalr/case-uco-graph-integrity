@@ -1,0 +1,406 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 25,
+  "text": "From: iquinn@ironleaf.com",
+  "tids": [
+   "t50",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 26,
+  "end": 59,
+  "text": "To: hector.okafor@copperfield.com",
+  "tids": [
+   "t51",
+   "t58",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 60,
+  "end": 91,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 92,
+  "end": 129,
+  "text": "Date: Thu, 06 Nov 2025 19:25:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 141,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 143,
+  "end": 226,
+  "text": "The payment approval was initiated by Irene Quinn on October 15, 2025 at 09:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 227,
+  "end": 307,
+  "text": "The refund request was initiated by Elena Park on November 6, 2025 at 17:25 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41",
+   "t4"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 309,
+  "end": 316,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 317,
+  "end": 322,
+  "text": "Irene",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 132,
+  "text": "Elena Park works for Copperfield Supply Group and uses the address elena.park@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t59",
+   "t60",
+   "t1",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 233,
+  "text": "Copperfield Supply Group employs Hector Okafor, who can be reached at hector.okafor@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t61",
+   "t62",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 234,
+  "end": 322,
+  "text": "Ironleaf Components Ltd. employs Irene Quinn, who can be reached at iquinn@ironleaf.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t63",
+   "t64",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 324,
+  "end": 409,
+  "text": "The offices of Copperfield Supply Group are at 9333 Harbor Avenue, Spokane, WA 99201.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 410,
+  "end": 484,
+  "text": "Ironleaf Components Ltd. is based at 7462 Commerce Drive, Boise, ID 83702.",
+  "tids": [
+   "t49",
+   "t45",
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 486,
+  "end": 534,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "From: iquinn@ironleaf.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 59,
+  "text": "To: hector.okafor@copperfield.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 60,
+  "end": 85,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 86,
+  "end": 123,
+  "text": "Date: Sun, 09 Nov 2025 14:25:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 125,
+  "end": 135,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 137,
+  "end": 220,
+  "text": "The vendor onboarding was initiated by Hector Okafor on 17 October 2025, 10:50 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 221,
+  "end": 297,
+  "text": "Irene Quinn started the expense reimbursement on 9 November 2025, 12:25 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 299,
+  "end": 306,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 307,
+  "end": 312,
+  "text": "Irene",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 97,
+  "text": "Union Ledger Bank account 9007838486 is registered to Copperfield Supply Group.",
+  "tids": [
+   "t22",
+   "t23",
+   "t65",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 98,
+  "end": 176,
+  "text": "Union Ledger Bank account 5565307732 is registered to Ironleaf Components Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t66",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 177,
+  "end": 234,
+  "text": "Elena Park holds account 9233109866 at Union Ledger Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t67",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 236,
+  "end": 322,
+  "text": "The account reconciliation was initiated by Irene Quinn on 6 November 2025, 13:30 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 324,
+  "end": 358,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,389 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Lena Banerjee works for Ironleaf Components Inc. and uses the address lbanerjee@ironleaf.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 225,
+  "text": "Ironleaf Components Inc. employs Clara Abara, who can be reached at clara.abara@ironleaf.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 320,
+  "text": "Priya Castillo is employed by Ironleaf Components Inc.; their email is pcastillo@ironleaf.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 321,
+  "end": 417,
+  "text": "Silverlake Packaging LLC employs Irene Ashworth, who can be reached at iashworth@silverlake.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 419,
+  "end": 496,
+  "text": "Ironleaf Components Inc. operates from 134 Harbor Avenue, Richmond, VA 23219.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 498,
+  "end": 569,
+  "text": "Ironleaf Components Inc. holds account 4971205345 at Union Ledger Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 570,
+  "end": 649,
+  "text": "Union Ledger Bank account 9039418874 is registered to Silverlake Packaging LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 650,
+  "end": 710,
+  "text": "Lena Banerjee holds account 6663310206 at Union Ledger Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 712,
+  "end": 769,
+  "text": "Account 4971205345 sent a transfer to account 6663310206.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 771,
+  "end": 810,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: clara.abara@ironleaf.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 57,
+  "text": "To: pcastillo@ironleaf.com",
+  "tids": [
+   "t59",
+   "t73"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 58,
+  "end": 98,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Fri, 17 Oct 2025 12:15:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 147,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 236,
+  "text": "The invoice submission was initiated by Clara Abara on September 12, 2025 at 12:45 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 237,
+  "end": 323,
+  "text": "The bank detail change was initiated by Lena Banerjee on 19 September 2025, 16:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 324,
+  "end": 414,
+  "text": "The expense reimbursement was initiated by Irene Ashworth on 30 September 2025, 16:45 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 415,
+  "end": 487,
+  "text": "On 6 October 2025, 09:30 UTC, Lena Banerjee initiated the wire transfer.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 488,
+  "end": 569,
+  "text": "Lena Banerjee started the account reconciliation on October 8, 2025 at 13:30 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 570,
+  "end": 630,
+  "text": "Priya Castillo also took part in the account reconciliation.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_4"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 631,
+  "end": 719,
+  "text": "The contract amendment was initiated by Irene Ashworth on October 17, 2025 at 09:25 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 720,
+  "end": 789,
+  "text": "The contract amendment happened at Ironleaf Components Inc.'s office.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 790,
+  "end": 877,
+  "text": "The vendor onboarding was initiated by Irene Ashworth on October 17, 2025 at 10:15 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 879,
+  "end": 886,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 887,
+  "end": 892,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ }
+}

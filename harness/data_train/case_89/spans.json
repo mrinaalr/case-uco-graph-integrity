@@ -1,0 +1,363 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Nadia Vance works for Brightwater Analytics Ltd. and uses the address nadia.vance@brightwater.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t57",
+   "t58",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 239,
+  "text": "Brightwater Analytics Ltd. employs Wesley Petrov, who can be reached at wesley.petrov@brightwater.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t59",
+   "t60",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 240,
+  "end": 334,
+  "text": "Lena Tanaka works for Brightwater Analytics Ltd. and uses the address ltanaka@brightwater.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t61",
+   "t62",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 335,
+  "end": 432,
+  "text": "Silverlake Freight LLC employs Clara Ivanova, who can be reached at clara.ivanova@silverlake.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t63",
+   "t64",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 433,
+  "end": 527,
+  "text": "Irene Kowalski is employed by Silverlake Freight LLC; their email is ikowalski@silverlake.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t65",
+   "t66",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 529,
+  "end": 605,
+  "text": "Brightwater Analytics Ltd. is based at 4695 Harbor Avenue, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 607,
+  "end": 698,
+  "text": "Granite Federal Credit Union account 2358357442 is registered to Brightwater Analytics Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t67",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 699,
+  "end": 779,
+  "text": "Silverlake Freight LLC holds account 4944215022 at Granite Federal Credit Union.",
+  "tids": [
+   "t33",
+   "t34",
+   "t68",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 781,
+  "end": 829,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 35,
+  "text": "From: wesley.petrov@brightwater.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 36,
+  "end": 64,
+  "text": "To: ikowalski@silverlake.com",
+  "tids": [
+   "t54",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 65,
+  "end": 96,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 97,
+  "end": 134,
+  "text": "Date: Mon, 17 Feb 2025 12:25:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 145,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 147,
+  "end": 219,
+  "text": "On 20 January 2025, 15:15 UTC, Nadia Vance initiated the refund request.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 220,
+  "end": 303,
+  "text": "The payment approval was initiated by Nadia Vance on January 28, 2025 at 12:50 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 304,
+  "end": 376,
+  "text": "Irene Kowalski started the wire transfer on 13 February 2025, 11:10 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 377,
+  "end": 425,
+  "text": "Nadia Vance also took part in the wire transfer.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 426,
+  "end": 496,
+  "text": "The wire transfer took place at the Brightwater Analytics Ltd. office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 497,
+  "end": 589,
+  "text": "The account reconciliation was initiated by Wesley Petrov on February 17, 2025 at 09:50 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 590,
+  "end": 669,
+  "text": "The account reconciliation took place at the Brightwater Analytics Ltd. office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 670,
+  "end": 752,
+  "text": "On February 17, 2025 at 10:25 UTC, Clara Ivanova initiated the bank detail change.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 754,
+  "end": 761,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 762,
+  "end": 768,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ }
+}

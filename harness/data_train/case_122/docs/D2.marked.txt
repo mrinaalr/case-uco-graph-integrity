@@ -1,0 +1,11 @@
+[D2.S1] From: hannah.moreau@oakhaven.com
+[D2.S2] To: samuel.brennan@bluegate.com
+[D2.S3] Subject: Invoice 9216 follow-up
+[D2.S4] Date: Wed, 17 Sep 2025 13:00:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] Mei Osei started the contract amendment on August 13, 2025 at 13:00 UTC. [D2.S7] Hannah Moreau authorized the contract amendment. [D2.S8] On 18 August 2025, 14:45 UTC, Samuel Brennan initiated the payment approval. [D2.S9] Mei Osei was involved in the payment approval as well. [D2.S10] The payment approval happened at Oakhaven Industrial Co.'s office. [D2.S11] The account reconciliation was initiated by Mei Osei on 22 August 2025, 15:50 UTC. [D2.S12] Mei Osei started the refund request on September 1, 2025 at 16:00 UTC. [D2.S13] Samuel Brennan authorized the refund request. [D2.S14] Hannah Moreau started the vendor onboarding on 7 September 2025, 13:25 UTC. [D2.S15] Samuel Brennan was involved in the vendor onboarding as well. [D2.S16] The vendor onboarding took place at the Oakhaven Industrial Co. office. [D2.S17] Hannah Moreau started the expense reimbursement on September 17, 2025 at 11:00 UTC.
+
+[D2.S18] Thanks,
+[D2.S19] Hannah

@@ -1,0 +1,358 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Samuel Novak works for Brightwater Logistics Co. and uses the address samuel.novak@brightwater.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t58",
+   "t59",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 238,
+  "text": "Brightwater Logistics Co. employs Arjun Lindqvist, who can be reached at alindqvist@brightwater.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t60",
+   "t61",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 239,
+  "end": 338,
+  "text": "Lena Fischer works for Brightwater Logistics Co. and uses the address lena.fischer@brightwater.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t62",
+   "t63",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 339,
+  "end": 427,
+  "text": "Yara Vance works for Oakhaven Fabrication Ltd. and uses the address yvance@oakhaven.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t64",
+   "t65",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 429,
+  "end": 505,
+  "text": "Brightwater Logistics Co. operates from 3948 Maple Avenue, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 507,
+  "end": 589,
+  "text": "Account 8498755300 at Pinecrest National Bank belongs to Brightwater Logistics Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t66",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 590,
+  "end": 668,
+  "text": "Oakhaven Fabrication Ltd. holds account 7192766029 at Pinecrest National Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t67",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 670,
+  "end": 718,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: alindqvist@brightwater.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 56,
+  "text": "To: yvance@oakhaven.com",
+  "tids": [
+   "t55",
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 57,
+  "end": 88,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 89,
+  "end": 126,
+  "text": "Date: Sun, 14 Sep 2025 16:50:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 128,
+  "end": 136,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 204,
+  "text": "Yara Vance started the wire transfer on 17 August 2025, 13:45 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 205,
+  "end": 277,
+  "text": "On 24 August 2025, 17:25 UTC, Samuel Novak initiated the refund request.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 278,
+  "end": 334,
+  "text": "Lena Fischer was involved in the refund request as well.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 335,
+  "end": 414,
+  "text": "On 26 August 2025, 14:15 UTC, Arjun Lindqvist initiated the contract amendment.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 415,
+  "end": 496,
+  "text": "Arjun Lindqvist started the vendor onboarding on September 11, 2025 at 15:50 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 497,
+  "end": 573,
+  "text": "On September 11, 2025 at 16:30 UTC, Lena Fischer initiated the audit review.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 574,
+  "end": 620,
+  "text": "Yara Vance also took part in the audit review.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_3",
+   "event_4"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 621,
+  "end": 703,
+  "text": "On September 12, 2025 at 09:50 UTC, Lena Fischer initiated the bank detail change.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 704,
+  "end": 787,
+  "text": "The payment approval was initiated by Lena Fischer on 14 September 2025, 14:50 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 789,
+  "end": 796,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 797,
+  "end": 802,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ }
+}

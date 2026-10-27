@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Ironleaf Components Co. employs Marcus Vance, who can be reached at marcus.vance@ironleaf.com. [D1.S3] Ironleaf Components Co. employs Andre Lindqvist, who can be reached at alindqvist@ironleaf.com. [D1.S4] Priya Moreau works for Westmark Freight LLC and uses the address priya.moreau@westmark.com.
+
+[D1.S5] Ironleaf Components Co. operates from 2566 Industrial Parkway, Dayton, OH 45402.
+
+[D1.S6] Ironleaf Components Co. holds account 2792241837 at Pinecrest National Bank. [D1.S7] Westmark Freight LLC holds account 6683923934 at Pinecrest National Bank. [D1.S8] Pinecrest National Bank account 1021430100 is registered to Marcus Vance.
+
+[D1.S9] Account 2792241837 sent a transfer to account 6683923934.
+
+[D1.S10] This summary reflects records available to date.

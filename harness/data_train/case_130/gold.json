@@ -1,0 +1,876 @@
+{
+ "case_id": "case_130",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D2",
+    "D4"
+   ],
+   "label": "Bluegate Industrial Inc."
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D2",
+    "D4"
+   ],
+   "label": "Westmark Distribution Inc."
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D4"
+   ],
+   "label": "Meridian Trust Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Mei Park"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Samuel Okafor"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D2",
+    "D3"
+   ],
+   "label": "Clara Osei"
+  },
+  {
+   "eid": "person_3",
+   "class": "Person",
+   "docs": [
+    "D2",
+    "D4"
+   ],
+   "label": "Arjun Vance"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "mei.park@bluegate.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D2",
+    "D3"
+   ],
+   "label": "sokafor@bluegate.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D2"
+   ],
+   "label": "cosei@bluegate.com"
+  },
+  {
+   "eid": "email_person_3",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "arjun.vance@westmark.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D2"
+   ],
+   "label": "1908 Lakeview Road, Dayton, OH 45402"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "4990437010"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "5092828834"
+  },
+  {
+   "eid": "acct_insider",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "8049410070"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "expense reimbursement"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "refund request"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "account reconciliation"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_msg_1",
+   "class": "EmailMessage",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_3",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Bluegate Industrial Inc.",
+   "lit": true,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Westmark Distribution Inc.",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Meridian Trust Bank",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Mei Park",
+   "lit": true,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Samuel Okafor",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Clara Osei",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t7",
+   "s": "person_3",
+   "p": "name",
+   "o": "Arjun Vance",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t8",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "mei.park@bluegate.com",
+   "lit": true,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t10",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t11",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "sokafor@bluegate.com",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t13",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t14",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "cosei@bluegate.com",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t16",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t17",
+   "s": "email_person_3",
+   "p": "addressValue",
+   "o": "arjun.vance@westmark.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "person_3",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t19",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t20",
+   "s": "loc_company",
+   "p": "street",
+   "o": "1908 Lakeview Road",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t21",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Dayton",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t22",
+   "s": "loc_company",
+   "p": "region",
+   "o": "OH",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t23",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "45402",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t24",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t25",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "4990437010",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t26",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t27",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t28",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "5092828834",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t29",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t30",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t31",
+   "s": "acct_insider",
+   "p": "accountIdentifier",
+   "o": "8049410070",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t32",
+   "s": "person_1",
+   "p": "Owns_Account",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t33",
+   "s": "acct_insider",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t34",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t35",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-03-23T15:45:00Z",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t36",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t37",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "expense reimbursement",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t38",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-03-24T09:45:00Z",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t39",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t40",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "refund request",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t41",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-03-25T15:25:00Z",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t42",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t43",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "account reconciliation",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t44",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-03-31T14:00:00Z",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t45",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t46",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t47",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-04-13T14:50:00Z",
+   "lit": true,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t48",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t49",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t50",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t51",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Invoice 5958 follow-up",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t52",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-03-31T16:00:00Z",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t53",
+   "s": "email_msg_1",
+   "p": "from",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t54",
+   "s": "email_msg_1",
+   "p": "to",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t55",
+   "s": "email_msg_1",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t56",
+   "s": "email_msg_1",
+   "p": "subject",
+   "o": "Audit prep items",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t57",
+   "s": "email_msg_1",
+   "p": "sentTime",
+   "o": "2025-04-13T16:50:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t58",
+   "s": "person_0",
+   "p": "Communicated_With",
+   "o": "person_3",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t59",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t60",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t61",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t62",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t63",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t64",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t65",
+   "s": "email_account_person_3",
+   "p": "emailAddress",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t66",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_account_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t67",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_3",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t68",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t69",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t70",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t71",
+   "s": "acct_insider",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  }
+ ],
+ "relationship_count": 17,
+ "relationship_count_total": 24,
+ "documents": {
+  "D1": "email",
+  "D2": "memo",
+  "D3": "email",
+  "D4": "report"
+ },
+ "seed": 20260202
+}

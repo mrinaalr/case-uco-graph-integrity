@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Felix Novak is employed by Bluegate Packaging Co.; their email is felix.novak@bluegate.com. [D1.S3] Sofia Kowalski is employed by Bluegate Packaging Co.; their email is skowalski@bluegate.com. [D1.S4] Kofi Castillo is employed by Bluegate Packaging Co.; their email is kofi.castillo@bluegate.com. [D1.S5] Dana Brennan is employed by Clearpath Freight Group; their email is dbrennan@clearpath.com. [D1.S6] Andre Haddad works for Clearpath Freight Group and uses the address andre.haddad@clearpath.com.
+
+[D1.S7] Kofi Castillo reports to Felix Novak. [D1.S8] Sofia Kowalski's manager is Felix Novak.
+
+[D1.S9] Bluegate Packaging Co. operates from 850 Harbor Avenue, Boise, ID 83702.
+
+[D1.S10] Account 1953833833 at Lakeshore Savings Bank belongs to Bluegate Packaging Co. [D1.S11] Account 8755214573 at Lakeshore Savings Bank belongs to Clearpath Freight Group. [D1.S12] Lakeshore Savings Bank account 1861867402 is registered to Sofia Kowalski.
+
+[D1.S13] Please treat this as confidential.

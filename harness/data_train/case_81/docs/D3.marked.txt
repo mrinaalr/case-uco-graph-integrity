@@ -1,0 +1,11 @@
+[D3.S1] From: wpetrov@brightwater.com
+[D3.S2] To: rmendes@brightwater.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Thu, 15 May 2025 18:10:00 +0000
+
+[D3.S5] Hi Rosa,
+
+[D3.S6] On 18 April 2025, 13:50 UTC, Rosa Mendes initiated the payment approval. [D3.S7] The payment approval happened at Brightwater Freight Inc.'s office. [D3.S8] Irene Vance started the bank detail change on April 23, 2025 at 15:45 UTC. [D3.S9] Rosa Mendes also took part in the bank detail change. [D3.S10] The expense reimbursement was initiated by Wesley Petrov on 12 May 2025, 14:15 UTC. [D3.S11] Maya Reyes started the contract amendment on May 15, 2025 at 16:10 UTC.
+
+[D3.S12] Thanks,
+[D3.S13] Wesley

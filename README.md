@@ -9,9 +9,12 @@ The experiment is an A/B/C comparison of three ways to build the graph from the 
 documents, described in [EXPERIMENT.md](EXPERIMENT.md):
 - **A, the SDK as shipped:** a coding agent with the SDK's MCP server follows the SDK's workflow
   (route, look up classes and recipes, write a `CASEGraph` serializer, validate, critic loop).
-- **B, direct generation:** the model emits CASE JSON-LD in one reply.
-- **C, grounded claims, compiled graph:** the model extracts quoted facts per document, a
-  verifier keeps the ones the text supports, and a deterministic compiler writes the graph with the SDK.
+- **B1 to B4, direct generation:** the model emits CASE JSON-LD in one reply; a 2x2 of
+  training (a LoRA on generated training cases) and defenses (validator and critic reports sent
+  back for rewrites). B2 and B4 are placeholders until the LoRA is trained.
+- **C, evidence-grounded graph compilation:** the model extracts quoted facts per document, a
+  verifier keeps the ones the text supports, a resolver maps them to ontology constructs, and a
+  deterministic compiler writes the graph with the SDK; everything not asserted sits in a review ledger.
 
 Earlier arms (A1 script, A1+QA, A2 tools) remain runnable; [DIRECTION.md](DIRECTION.md) has what
 they showed about the SDK's critic loop.
@@ -51,7 +54,11 @@ Put API keys in `harness/.env`, which is gitignored; for example
 ```
 
 ```bash
-.venv/bin/python harness/pipeline_compiled.py --run-id RUN --model tinker
+.venv/bin/python harness/pipeline_defended.py --run-id RUN --model tinker
+```
+
+```bash
+.venv/bin/python harness/pipeline_grounded.py --run-id RUN --model tinker
 ```
 
 ```bash

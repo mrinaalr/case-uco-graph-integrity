@@ -1,0 +1,11 @@
+From: aquinn@northwind.com
+To: jsorensen@clearpath.com
+Subject: Quarter-end vendor payments
+Date: Wed, 14 May 2025 13:30:00 +0000
+
+Hi Julian,
+
+Arjun Quinn started the bank detail change on April 26, 2025 at 09:25 UTC. Sofia Ivanova authorized the bank detail change. On May 6, 2025 at 10:50 UTC, Julian Sorensen initiated the invoice submission. Owen Holloway also took part in the invoice submission. The account reconciliation was initiated by Owen Holloway on 14 May 2025, 11:30 UTC. Arjun Quinn was involved in the account reconciliation as well.
+
+Thanks,
+Arjun

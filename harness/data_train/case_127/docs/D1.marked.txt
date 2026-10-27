@@ -1,0 +1,11 @@
+[D1.S1] From: iquinn@ironleaf.com
+[D1.S2] To: hector.okafor@copperfield.com
+[D1.S3] Subject: Urgent: payment timing
+[D1.S4] Date: Thu, 06 Nov 2025 19:25:00 +0000
+
+[D1.S5] Hi Hector,
+
+[D1.S6] The payment approval was initiated by Irene Quinn on October 15, 2025 at 09:30 UTC. [D1.S7] The refund request was initiated by Elena Park on November 6, 2025 at 17:25 UTC.
+
+[D1.S8] Thanks,
+[D1.S9] Irene

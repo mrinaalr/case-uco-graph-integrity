@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@desmondl is Desmond Lindqvist.
+@lenah is Lena Haddad.
+[2025-10-12 15:30 UTC] @desmondl to @lenah: Can you look at the vendor file before lunch?
+[2025-10-12 15:37 UTC] @lenah to @desmondl: Send me the new form when you can.
+[2025-10-12 15:44 UTC] @desmondl to @lenah: Finance is asking questions again.

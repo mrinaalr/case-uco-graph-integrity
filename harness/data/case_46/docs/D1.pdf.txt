@@ -1,0 +1,11 @@
+INTERNAL MEMO: Vendor payment review
+Julian Reyes is employed by Oakhaven Supply Co.; their email is jreyes@oakhaven.com. Samuel Osei
+is employed by Oakhaven Supply Co.; their email is sosei@oakhaven.com. Clara Tanaka is employed
+by Ironleaf Supply Inc.; their email is clara.tanaka@ironleaf.com.
+Samuel Osei reports to Julian Reyes.
+Oakhaven Supply Co. operates from 1791 Maple Avenue, Omaha, NE 68102.
+Oakhaven Supply Co. holds account 1644072641 at Lakeshore Savings Bank. Ironleaf Supply Inc.
+holds account 8013744215 at Lakeshore Savings Bank. Lakeshore Savings Bank account 3899580339
+is registered to Samuel Osei.
+Funds moved from account 1644072641 to account 3899580339.
+This summary reflects records available to date.

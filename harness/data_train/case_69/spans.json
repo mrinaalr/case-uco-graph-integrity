@@ -1,0 +1,356 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 142,
+  "text": "Priya Ivanova is employed by Summit Peak Distribution Inc.; their email is priya.ivanova@summitpeak.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t54",
+   "t55",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 143,
+  "end": 240,
+  "text": "Summit Peak Distribution Inc. employs Arjun Okafor, who can be reached at aokafor@summitpeak.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t56",
+   "t57",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 241,
+  "end": 333,
+  "text": "Maya Brennan is employed by Northwind Analytics Inc.; their email is mbrennan@northwind.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t58",
+   "t59",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 335,
+  "end": 412,
+  "text": "Summit Peak Distribution Inc. is based at 8054 Main Street, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 413,
+  "end": 497,
+  "text": "The offices of Northwind Analytics Inc. are at 4825 Market Street, Albany, NY 12207.",
+  "tids": [
+   "t43",
+   "t39",
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 499,
+  "end": 575,
+  "text": "Summit Peak Distribution Inc. holds account 9075395481 at Union Ledger Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t60",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 576,
+  "end": 654,
+  "text": "Union Ledger Bank account 3883548903 is registered to Northwind Analytics Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t61",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 655,
+  "end": 722,
+  "text": "Union Ledger Bank account 6670388032 is registered to Arjun Okafor.",
+  "tids": [
+   "t28",
+   "t29",
+   "t62",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 724,
+  "end": 782,
+  "text": "Funds moved from account 9075395481 to account 3883548903.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 784,
+  "end": 823,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: aokafor@summitpeak.com",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 85,
+  "text": "To: priya.ivanova@summitpeak.com, mbrennan@northwind.com",
+  "tids": [
+   "t50",
+   "t51",
+   "t63",
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 111,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 112,
+  "end": 149,
+  "text": "Date: Sun, 10 Aug 2025 18:45:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 151,
+  "end": 160,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 162,
+  "end": 232,
+  "text": "Maya Brennan started the refund request on July 17, 2025 at 11:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 233,
+  "end": 289,
+  "text": "Approval for the refund request came from Priya Ivanova.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 290,
+  "end": 360,
+  "text": "The refund request happened at Summit Peak Distribution Inc.'s office.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 361,
+  "end": 428,
+  "text": "Maya Brennan started the audit review on 10 August 2025, 09:50 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 429,
+  "end": 502,
+  "text": "Maya Brennan started the invoice submission on 10 August 2025, 16:45 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 503,
+  "end": 557,
+  "text": "Arjun Okafor also took part in the invoice submission.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 558,
+  "end": 632,
+  "text": "The invoice submission happened at Summit Peak Distribution Inc.'s office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 634,
+  "end": 641,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 642,
+  "end": 647,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ }
+}

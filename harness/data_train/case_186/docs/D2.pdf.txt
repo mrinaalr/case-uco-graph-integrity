@@ -1,0 +1,13 @@
+From: samuel.vance@northwind.com
+To: oscar.quinn@summitpeak.com
+Subject: Urgent: payment timing
+Date: Sun, 05 Oct 2025 11:25:00 +0000
+Hi Oscar,
+The expense reimbursement was initiated by Samuel Vance on September 4, 2025 at 17:00 UTC. The
+refund request was initiated by Mei Delgado on 8 September 2025, 15:00 UTC. The wire transfer was
+initiated by Samuel Vance on September 19, 2025 at 17:30 UTC. The payment approval was initiated
+by Samuel Vance on September 21, 2025 at 12:50 UTC. Oscar Quinn also took part in the payment
+approval. The vendor onboarding was initiated by Mei Delgado on 25 September 2025, 15:30 UTC.
+Dana Whitfield started the invoice submission on October 5, 2025 at 09:25 UTC.
+Thanks,
+Samuel

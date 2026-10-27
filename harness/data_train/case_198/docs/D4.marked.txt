@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Copperfield Industrial Group holds account 5355656516 at First Harbor Bank. [D4.S3] Oakhaven Tooling Inc. holds account 3802741851 at First Harbor Bank. [D4.S4] First Harbor Bank account 7747992659 is registered to Priya Quinn.
+
+[D4.S5] On 31 January 2025, 15:00 UTC, Kofi Castillo initiated the vendor onboarding. [D4.S6] The payment approval was initiated by Felix Holloway on February 16, 2025 at 14:15 UTC. [D4.S7] Priya Quinn communicated with Dana Osei about the payments.
+
+[D4.S8] Let me know if anything here looks off.

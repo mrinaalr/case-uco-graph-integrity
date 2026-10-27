@@ -1,0 +1,11 @@
+From: julian.osei@copperfield.com
+To: andre.vance@harborline.com
+Subject: Updated remittance details
+Date: Fri, 28 Mar 2025 11:25:00 +0000
+
+Hi Andre,
+
+The refund request was initiated by Hector Abara on March 1, 2025 at 15:25 UTC. Approval for the refund request came from Julian Osei. The audit review was initiated by Julian Osei on 11 March 2025, 09:25 UTC. The wire transfer was initiated by Andre Vance on March 19, 2025 at 15:30 UTC. The contract amendment was initiated by Hector Abara on March 28, 2025 at 09:25 UTC.
+
+Thanks,
+Julian

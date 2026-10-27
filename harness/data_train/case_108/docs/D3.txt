@@ -1,0 +1,7 @@
+Incident summary
+
+Northwind Tooling Group holds account 1491531788 at Lakeshore Savings Bank. Lakeshore Savings Bank account 5480732855 is registered to Redfern Services LLC. Account 1917141128 at Lakeshore Savings Bank belongs to Mei Abara.
+
+The vendor onboarding was initiated by Mei Abara on 14 March 2025, 15:45 UTC. The invoice submission was initiated by Owen Tanaka on March 24, 2025 at 15:10 UTC. Owen Tanaka started the expense reimbursement on April 13, 2025 at 11:50 UTC.
+
+Let me know if anything here looks off.

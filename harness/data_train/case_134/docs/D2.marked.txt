@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Tomas Lindqvist is employed by Northwind Industrial Inc.; their email is tlindqvist@northwind.com. [D2.S3] Northwind Industrial Inc. employs Lena Kowalski, who can be reached at lena.kowalski@northwind.com. [D2.S4] Nadia Novak is employed by Northwind Industrial Inc.; their email is nnovak@northwind.com. [D2.S5] Ironleaf Supply Inc. employs Hannah Holloway, who can be reached at hholloway@ironleaf.com. [D2.S6] Maya Brennan is employed by Ironleaf Supply Inc.; their email is mbrennan@ironleaf.com.
+
+[D2.S7] Northwind Industrial Inc. is based at 5651 Riverside Boulevard, Boise, ID 83702.
+
+[D2.S8] Account 6230045896 at Union Ledger Bank belongs to Northwind Industrial Inc. [D2.S9] Union Ledger Bank account 6959604143 is registered to Ironleaf Supply Inc. [D2.S10] Tomas Lindqvist holds account 5940100655 at Union Ledger Bank.
+
+[D2.S11] Account 6230045896 sent a transfer to account 5940100655.
+
+[D2.S12] Please treat this as confidential.

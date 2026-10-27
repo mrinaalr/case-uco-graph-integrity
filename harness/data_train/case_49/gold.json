@@ -1,0 +1,884 @@
+{
+ "case_id": "case_49",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1"
+   ],
+   "label": "Northwind Analytics Inc."
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D1"
+   ],
+   "label": "Stonebridge Distribution Co."
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D1"
+   ],
+   "label": "Meridian Trust Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1"
+   ],
+   "label": "Owen Ivanova"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Arjun Reyes"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Yara Abara"
+  },
+  {
+   "eid": "person_3",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Hector Brennan"
+  },
+  {
+   "eid": "person_4",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Victor Haddad"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "oivanova@northwind.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "areyes@northwind.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "yabara@northwind.com"
+  },
+  {
+   "eid": "email_person_3",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "hbrennan@stonebridge.com"
+  },
+  {
+   "eid": "email_person_4",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "vhaddad@stonebridge.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1"
+   ],
+   "label": "6492 Commerce Drive, Spokane, WA 99201"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D1"
+   ],
+   "label": "6300054573"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D1"
+   ],
+   "label": "1761379886"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "expense reimbursement"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "audit review"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "vendor onboarding"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "contract amendment"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "refund request"
+  },
+  {
+   "eid": "event_5",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_3",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_4",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Northwind Analytics Inc.",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Stonebridge Distribution Co.",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Meridian Trust Bank",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Owen Ivanova",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Arjun Reyes",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Yara Abara",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "person_3",
+   "p": "name",
+   "o": "Hector Brennan",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "person_4",
+   "p": "name",
+   "o": "Victor Haddad",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "oivanova@northwind.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t10",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "areyes@northwind.com",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t13",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "yabara@northwind.com",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t16",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t17",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "email_person_3",
+   "p": "addressValue",
+   "o": "hbrennan@stonebridge.com",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t19",
+   "s": "person_3",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t20",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t21",
+   "s": "email_person_4",
+   "p": "addressValue",
+   "o": "vhaddad@stonebridge.com",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t22",
+   "s": "person_4",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t23",
+   "s": "person_4",
+   "p": "Holds_Account",
+   "o": "email_person_4",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t24",
+   "s": "loc_company",
+   "p": "street",
+   "o": "6492 Commerce Drive",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t25",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Spokane",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t26",
+   "s": "loc_company",
+   "p": "region",
+   "o": "WA",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t27",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "99201",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t28",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t29",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "6300054573",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t30",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t31",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t32",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "1761379886",
+   "lit": true,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t33",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t34",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t35",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "expense reimbursement",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t36",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-07-04T12:10:00Z",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t37",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t38",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "audit review",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t39",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-07-08T17:25:00Z",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t40",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t41",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "vendor onboarding",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t42",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-07-20T11:25:00Z",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t43",
+   "s": "person_4",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t44",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "contract amendment",
+   "lit": true,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t45",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-07-23T09:15:00Z",
+   "lit": true,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t46",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t47",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "refund request",
+   "lit": true,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t48",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-07-28T09:00:00Z",
+   "lit": true,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t49",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t50",
+   "s": "event_5",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D2.S11",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t51",
+   "s": "event_5",
+   "p": "startTime",
+   "o": "2025-08-08T16:30:00Z",
+   "lit": true,
+   "span_id": "D2.S11",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t52",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_5",
+   "lit": false,
+   "span_id": "D2.S11",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t53",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S1",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t54",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t55",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t56",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Re: banking change request",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t57",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-08-08T18:30:00Z",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t58",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t59",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t60",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t61",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t62",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t63",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t64",
+   "s": "email_account_person_3",
+   "p": "emailAddress",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t65",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_account_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t66",
+   "s": "email_account_person_4",
+   "p": "emailAddress",
+   "o": "email_person_4",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t67",
+   "s": "person_4",
+   "p": "Holds_Account",
+   "o": "email_account_person_4",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t68",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t69",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t70",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t71",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_3",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  }
+ ],
+ "relationship_count": 19,
+ "relationship_count_total": 26,
+ "documents": {
+  "D1": "memo",
+  "D2": "email"
+ },
+ "seed": 20260202
+}

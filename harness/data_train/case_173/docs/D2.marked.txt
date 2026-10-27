@@ -1,0 +1,11 @@
+[D2.S1] From: aquinn@oakhaven.com
+[D2.S2] To: wpark@oakhaven.com, maya.tanaka@westmark.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Sun, 08 Jun 2025 13:15:00 +0000
+
+[D2.S5] Hi Wesley,
+
+[D2.S6] The wire transfer was initiated by Maya Tanaka on 4 May 2025, 12:30 UTC. [D2.S7] The account reconciliation was initiated by Wesley Park on May 11, 2025 at 10:00 UTC. [D2.S8] Arjun Quinn started the bank detail change on 25 May 2025, 15:45 UTC. [D2.S9] The payment approval was initiated by Andre Ivanova on June 8, 2025 at 11:15 UTC.
+
+[D2.S10] Thanks,
+[D2.S11] Arjun

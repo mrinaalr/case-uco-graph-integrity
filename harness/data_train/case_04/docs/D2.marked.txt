@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Luca Reyes works for Harborline Industrial Group and uses the address lreyes@harborline.com. [D2.S3] Harborline Industrial Group employs Priya Lindqvist, who can be reached at plindqvist@harborline.com. [D2.S4] Stonebridge Packaging Co. employs Victor Novak, who can be reached at vnovak@stonebridge.com.
+
+[D2.S5] Priya Lindqvist reports to Luca Reyes.
+
+[D2.S6] The offices of Harborline Industrial Group are at 6726 Industrial Parkway, Tucson, AZ 85701. [D2.S7] Stonebridge Packaging Co. operates from 3818 Commerce Drive, Raleigh, NC 27601.
+
+[D2.S8] Please treat this as confidential.

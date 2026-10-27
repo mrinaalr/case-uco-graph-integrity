@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @oscaro is Oscar Okafor.
+[D3.S3] @wesleyq is Wesley Quinn.
+[D3.S4] [2025-02-14 14:50 UTC] @oscaro to @wesleyq: Send me the new form when you can.
+[D3.S5] [2025-02-14 14:57 UTC] @wesleyq to @oscaro: Finance is asking questions again.
+[D3.S6] [2025-02-14 15:04 UTC] @oscaro to @wesleyq: I pushed it through, check your inbox.

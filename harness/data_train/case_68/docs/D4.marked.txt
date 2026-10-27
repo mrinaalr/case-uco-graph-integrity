@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Meridian Trust Bank account 1642692787 is registered to Oakhaven Tooling Inc. [D4.S3] Meridian Trust Bank account 3810629652 is registered to Ironleaf Logistics Co. [D4.S4] Account 5072739475 at Meridian Trust Bank belongs to Dana Abara.
+
+[D4.S5] On September 6, 2025 at 14:15 UTC, Rosa Brennan initiated the audit review. [D4.S6] Funds moved from account 1642692787 to account 5072739475.
+
+[D4.S7] More detail will follow once records are pulled.

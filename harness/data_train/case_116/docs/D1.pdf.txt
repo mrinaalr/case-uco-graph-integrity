@@ -1,0 +1,8 @@
+INTERNAL MEMO: Vendor payment review
+Maya Novak works for Northwind Tooling LLC and uses the address mnovak@northwind.com. Rosa
+Park is employed by Northwind Tooling LLC; their email is rpark@northwind.com. Northwind Tooling
+LLC employs Owen Lindqvist, who can be reached at owen.lindqvist@northwind.com. Irene Tanaka is
+employed by Ironleaf Fabrication LLC; their email is irene.tanaka@ironleaf.com. Ironleaf Fabrication
+LLC employs Oscar Moreau, who can be reached at oscar.moreau@ironleaf.com.
+Northwind Tooling LLC is based at 5178 Maple Avenue, Raleigh, NC 27601.
+Please treat this as confidential.

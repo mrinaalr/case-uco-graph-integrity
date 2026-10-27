@@ -1,0 +1,11 @@
+[D1.S1] From: andre.osei@copperfield.com
+[D1.S2] To: anovak@bluegate.com
+[D1.S3] Subject: Updated remittance details
+[D1.S4] Date: Tue, 11 Mar 2025 15:25:00 +0000
+
+[D1.S5] Hi Arjun,
+
+[D1.S6] Andre Osei started the bank detail change on 12 February 2025, 14:30 UTC. [D1.S7] Hector Reyes started the account reconciliation on 21 February 2025, 10:25 UTC. [D1.S8] Hector Reyes started the refund request on 11 March 2025, 13:25 UTC.
+
+[D1.S9] Thanks,
+[D1.S10] Andre

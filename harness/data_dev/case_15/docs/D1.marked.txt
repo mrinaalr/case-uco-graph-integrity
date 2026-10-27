@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Kofi Petrov works for Bluegate Fabrication Ltd. and uses the address kofi.petrov@bluegate.com. [D1.S3] Samuel Banerjee is employed by Bluegate Fabrication Ltd.; their email is sbanerjee@bluegate.com. [D1.S4] Nadia Haddad is employed by Bluegate Fabrication Ltd.; their email is nadia.haddad@bluegate.com. [D1.S5] Elena Okafor is employed by Clearpath Industrial LLC; their email is elena.okafor@clearpath.com. [D1.S6] Arjun Ivanova is employed by Clearpath Industrial LLC; their email is aivanova@clearpath.com.
+
+[D1.S7] Bluegate Fabrication Ltd. operates from 702 Commerce Drive, Richmond, VA 23219.
+
+[D1.S8] Account 8887387116 at Union Ledger Bank belongs to Bluegate Fabrication Ltd. [D1.S9] Account 7131540908 at Union Ledger Bank belongs to Clearpath Industrial LLC. [D1.S10] Union Ledger Bank account 5897335669 is registered to Samuel Banerjee.
+
+[D1.S11] This summary reflects records available to date.

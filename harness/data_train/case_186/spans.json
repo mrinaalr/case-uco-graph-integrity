@@ -1,0 +1,330 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Oscar Quinn works for Summit Peak Consulting Inc. and uses the address oscar.quinn@summitpeak.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t54",
+   "t55",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 232,
+  "text": "Mei Delgado is employed by Summit Peak Consulting Inc.; their email is mdelgado@summitpeak.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t56",
+   "t57",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 333,
+  "text": "Dana Whitfield is employed by Summit Peak Consulting Inc.; their email is dwhitfield@summitpeak.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t58",
+   "t59",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 334,
+  "end": 430,
+  "text": "Northwind Analytics Ltd. employs Samuel Vance, who can be reached at samuel.vance@northwind.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t60",
+   "t61",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 432,
+  "end": 510,
+  "text": "Summit Peak Consulting Inc. is based at 8387 Lakeview Road, Spokane, WA 99201.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 512,
+  "end": 601,
+  "text": "Account 1643924444 at Granite Federal Credit Union belongs to Summit Peak Consulting Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t62",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 602,
+  "end": 688,
+  "text": "Account 1493913830 at Granite Federal Credit Union belongs to Northwind Analytics Ltd.",
+  "tids": [
+   "t29",
+   "t30",
+   "t63",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 690,
+  "end": 724,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: samuel.vance@northwind.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 63,
+  "text": "To: oscar.quinn@summitpeak.com",
+  "tids": [
+   "t51",
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 64,
+  "end": 95,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Sun, 05 Oct 2025 11:25:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 144,
+  "text": "Hi Oscar,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 146,
+  "end": 236,
+  "text": "The expense reimbursement was initiated by Samuel Vance on September 4, 2025 at 17:00 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 237,
+  "end": 316,
+  "text": "The refund request was initiated by Mei Delgado on 8 September 2025, 15:00 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 317,
+  "end": 400,
+  "text": "The wire transfer was initiated by Samuel Vance on September 19, 2025 at 17:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 401,
+  "end": 487,
+  "text": "The payment approval was initiated by Samuel Vance on September 21, 2025 at 12:50 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 488,
+  "end": 539,
+  "text": "Oscar Quinn also took part in the payment approval.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 540,
+  "end": 623,
+  "text": "The vendor onboarding was initiated by Mei Delgado on 25 September 2025, 15:30 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 624,
+  "end": 702,
+  "text": "Dana Whitfield started the invoice submission on October 5, 2025 at 09:25 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 704,
+  "end": 711,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 712,
+  "end": 718,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ }
+}

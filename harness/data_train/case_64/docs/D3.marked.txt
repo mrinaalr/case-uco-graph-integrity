@@ -1,0 +1,11 @@
+[D3.S1] From: apark@bluegate.com
+[D3.S2] To: priya.whitfield@bluegate.com
+[D3.S3] Subject: Invoice 6293 follow-up
+[D3.S4] Date: Fri, 27 Jun 2025 15:00:00 +0000
+
+[D3.S5] Hi Priya,
+
+[D3.S6] On May 29, 2025 at 09:15 UTC, Victor Quinn initiated the bank detail change. [D3.S7] On 12 June 2025, 09:10 UTC, Victor Quinn initiated the payment approval. [D3.S8] Arjun Park also took part in the payment approval. [D3.S9] The payment approval happened at Cedar Ridge Fabrication Group's office. [D3.S10] On 16 June 2025, 13:45 UTC, Sofia Moreau initiated the contract amendment. [D3.S11] Victor Quinn started the audit review on 27 June 2025, 13:00 UTC.
+
+[D3.S12] Thanks,
+[D3.S13] Arjun

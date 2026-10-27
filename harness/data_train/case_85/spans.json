@@ -1,0 +1,403 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: marcus.park@cedarridge.com",
+  "tids": [
+   "t48",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 63,
+  "text": "To: desmond.novak@westmark.com",
+  "tids": [
+   "t49",
+   "t56",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 64,
+  "end": 100,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 101,
+  "end": 138,
+  "text": "Date: Wed, 12 Nov 2025 16:50:00 +0000",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 151,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 153,
+  "end": 229,
+  "text": "On 7 October 2025, 14:25 UTC, Tomas Mendes initiated the contract amendment.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 304,
+  "text": "Marcus Park started the payment approval on October 18, 2025 at 11:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38",
+   "t5"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 305,
+  "end": 377,
+  "text": "Desmond Novak started the refund request on 12 November 2025, 14:50 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47",
+   "t6"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 379,
+  "end": 386,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 387,
+  "end": 393,
+  "text": "Marcus",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 134,
+  "text": "Tomas Mendes is employed by Cedar Ridge Components Group; their email is tmendes@cedarridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t57",
+   "t58",
+   "t1",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 234,
+  "text": "Marcus Park works for Cedar Ridge Components Group and uses the address marcus.park@cedarridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t59",
+   "t60"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 235,
+  "end": 332,
+  "text": "Desmond Novak is employed by Westmark Components Ltd.; their email is desmond.novak@westmark.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t61",
+   "t62",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 334,
+  "end": 419,
+  "text": "Cedar Ridge Components Group operates from 2471 Industrial Parkway, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 421,
+  "end": 460,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: tmendes@cedarridge.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 59,
+  "text": "To: desmond.novak@westmark.com",
+  "tids": [
+   "t53",
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 60,
+  "end": 91,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 92,
+  "end": 129,
+  "text": "Date: Mon, 27 Oct 2025 11:10:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 131,
+  "end": 142,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 144,
+  "end": 218,
+  "text": "On October 11, 2025 at 13:00 UTC, Marcus Park initiated the wire transfer.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 219,
+  "end": 295,
+  "text": "The audit review was initiated by Marcus Park on 27 October 2025, 09:10 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 297,
+  "end": 304,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 305,
+  "end": 310,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 98,
+  "text": "Cedar Ridge Components Group holds account 8158168333 at Lakeshore Savings Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t64",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 99,
+  "end": 182,
+  "text": "Lakeshore Savings Bank account 9738379272 is registered to Westmark Components Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t65",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 184,
+  "end": 261,
+  "text": "Tomas Mendes started the invoice submission on October 15, 2025 at 15:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 262,
+  "end": 342,
+  "text": "On 9 November 2025, 11:10 UTC, Marcus Park initiated the account reconciliation.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 344,
+  "end": 378,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

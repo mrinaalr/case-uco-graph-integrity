@@ -1,0 +1,397 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 126,
+  "text": "Oscar Okafor is employed by Ironleaf Freight Group; their email is ookafor@ironleaf.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 127,
+  "end": 226,
+  "text": "Samuel Holloway works for Ironleaf Freight Group and uses the address samuel.holloway@ironleaf.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t68",
+   "t69",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 227,
+  "end": 317,
+  "text": "Sofia Delgado is employed by Ironleaf Freight Group; their email is sdelgado@ironleaf.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t70",
+   "t71",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 418,
+  "text": "Wesley Quinn is employed by Brightwater Components LLC; their email is wesley.quinn@brightwater.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 420,
+  "end": 498,
+  "text": "Ironleaf Freight Group is based at 1920 Industrial Parkway, Spokane, WA 99201.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 500,
+  "end": 569,
+  "text": "Ironleaf Freight Group holds account 9081689743 at First Harbor Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t74",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 570,
+  "end": 643,
+  "text": "Brightwater Components LLC holds account 6473864620 at First Harbor Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t75",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 644,
+  "end": 712,
+  "text": "First Harbor Bank account 2880885598 is registered to Sofia Delgado.",
+  "tids": [
+   "t32",
+   "t33",
+   "t76",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 714,
+  "end": 753,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: samuel.holloway@ironleaf.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 60,
+  "text": "To: sdelgado@ironleaf.com",
+  "tids": [
+   "t51",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 61,
+  "end": 92,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Fri, 07 Mar 2025 15:30:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 141,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 143,
+  "end": 219,
+  "text": "On 14 February 2025, 13:50 UTC, Wesley Quinn initiated the payment approval.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 220,
+  "end": 298,
+  "text": "Wesley Quinn started the bank detail change on February 21, 2025 at 12:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 299,
+  "end": 377,
+  "text": "Samuel Holloway started the account reconciliation on 2 March 2025, 10:00 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 378,
+  "end": 451,
+  "text": "Oscar Okafor started the vendor onboarding on March 7, 2025 at 13:30 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 453,
+  "end": 460,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 461,
+  "end": 467,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t78"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@oscaro is Oscar Okafor.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 76,
+  "text": "@wesleyq is Wesley Quinn.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 77,
+  "end": 155,
+  "text": "[2025-02-14 14:50 UTC] @oscaro to @wesleyq: Send me the new form when you can.",
+  "tids": [
+   "t54",
+   "t55",
+   "t56",
+   "t57",
+   "t79"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 156,
+  "end": 234,
+  "text": "[2025-02-14 14:57 UTC] @wesleyq to @oscaro: Finance is asking questions again.",
+  "tids": [
+   "t58",
+   "t59",
+   "t60",
+   "t61",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 235,
+  "end": 317,
+  "text": "[2025-02-14 15:04 UTC] @oscaro to @wesleyq: I pushed it through, check your inbox.",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ }
+}

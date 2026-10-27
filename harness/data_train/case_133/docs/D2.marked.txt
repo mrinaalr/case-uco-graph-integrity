@@ -1,0 +1,11 @@
+[D2.S1] From: yara.reyes@clearpath.com
+[D2.S2] To: samuel.quinn@oakhaven.com, owen.vance@oakhaven.com
+[D2.S3] Subject: Invoice 2169 follow-up
+[D2.S4] Date: Tue, 11 Mar 2025 11:50:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] On February 5, 2025 at 16:50 UTC, Samuel Quinn initiated the contract amendment. [D2.S7] On 23 February 2025, 15:10 UTC, Mei Castillo initiated the invoice submission. [D2.S8] On 1 March 2025, 15:00 UTC, Yara Reyes initiated the bank detail change. [D2.S9] On 11 March 2025, 09:50 UTC, Desmond Ivanova initiated the wire transfer.
+
+[D2.S10] Thanks,
+[D2.S11] Yara

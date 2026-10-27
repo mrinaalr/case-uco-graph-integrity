@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Maya Lindqvist is employed by Silverlake Consulting Group; their email is mlindqvist@silverlake.com. [D1.S3] Oscar Holloway works for Silverlake Consulting Group and uses the address oholloway@silverlake.com. [D1.S4] Irene Reyes is employed by Silverlake Consulting Group; their email is ireyes@silverlake.com. [D1.S5] Lena Park works for Westmark Freight LLC and uses the address lpark@westmark.com.
+
+[D1.S6] The offices of Silverlake Consulting Group are at 3404 Main Street, Madison, WI 53703.
+
+[D1.S7] Silverlake Consulting Group holds account 7574215267 at Union Ledger Bank. [D1.S8] Westmark Freight LLC holds account 9857450027 at Union Ledger Bank.
+
+[D1.S9] Funds moved from account 7574215267 to account 9857450027.
+
+[D1.S10] This summary reflects records available to date.

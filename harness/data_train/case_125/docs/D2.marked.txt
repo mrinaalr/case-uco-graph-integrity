@@ -1,0 +1,11 @@
+[D2.S1] From: tmendes@redfern.com
+[D2.S2] To: dhaddad@copperfield.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Sat, 10 May 2025 13:10:00 +0000
+
+[D2.S5] Hi Dana,
+
+[D2.S6] The account reconciliation was initiated by Tomas Mendes on 1 April 2025, 13:25 UTC. [D2.S7] On 4 April 2025, 15:50 UTC, Tomas Mendes initiated the contract amendment. [D2.S8] The contract amendment took place at the Redfern Components Inc. office. [D2.S9] On April 17, 2025 at 10:00 UTC, Tomas Mendes initiated the refund request. [D2.S10] Approval for the refund request came from Yara Tanaka. [D2.S11] Dana Haddad also took part in the refund request. [D2.S12] Dana Haddad started the invoice submission on April 22, 2025 at 09:30 UTC. [D2.S13] The invoice submission took place at the Redfern Components Inc. office. [D2.S14] The audit review was initiated by Tomas Mendes on April 22, 2025 at 12:25 UTC. [D2.S15] Yara Tanaka started the payment approval on April 24, 2025 at 14:50 UTC. [D2.S16] On 26 April 2025, 16:30 UTC, Tomas Mendes initiated the vendor onboarding. [D2.S17] Dana Haddad was involved in the vendor onboarding as well. [D2.S18] The expense reimbursement was initiated by Dana Haddad on May 10, 2025 at 11:10 UTC. [D2.S19] Approval for the expense reimbursement came from Yara Tanaka. [D2.S20] The expense reimbursement took place at the Redfern Components Inc. office. [D2.S21] Tomas Mendes had been in contact with Yara Tanaka throughout.
+
+[D2.S22] Thanks,
+[D2.S23] Tomas

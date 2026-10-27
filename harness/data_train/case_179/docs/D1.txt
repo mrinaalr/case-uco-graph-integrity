@@ -1,0 +1,11 @@
+From: wesley.novak@oakhaven.com
+To: jfischer@ironleaf.com
+Subject: Updated remittance details
+Date: Tue, 04 Nov 2025 14:10:00 +0000
+
+Hi Julian,
+
+The invoice submission was initiated by Wesley Novak on October 21, 2025 at 09:00 UTC. Julian Fischer also took part in the invoice submission. On October 25, 2025 at 14:45 UTC, Wesley Novak initiated the bank detail change. Tomas Moreau started the wire transfer on November 4, 2025 at 12:10 UTC. Wesley Novak also took part in the wire transfer. The wire transfer happened at Ironleaf Analytics Group's office.
+
+Thanks,
+Wesley

@@ -1,0 +1,377 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 138,
+  "text": "Elena Okafor works for Cedar Ridge Components Ltd. and uses the address elena.okafor@cedarridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t59",
+   "t60",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 234,
+  "text": "Tomas Haddad works for Cedar Ridge Components Ltd. and uses the address thaddad@cedarridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t61",
+   "t62",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 235,
+  "end": 337,
+  "text": "Owen Banerjee works for Brightwater Analytics Ltd. and uses the address owen.banerjee@brightwater.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t63",
+   "t64",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 339,
+  "end": 418,
+  "text": "Cedar Ridge Components Ltd. operates from 4968 Commerce Drive, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 420,
+  "end": 468,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: thaddad@cedarridge.com",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 60,
+  "text": "To: elena.okafor@cedarridge.com",
+  "tids": [
+   "t44",
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 61,
+  "end": 96,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 97,
+  "end": 134,
+  "text": "Date: Wed, 09 Jul 2025 16:25:00 +0000",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 145,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 147,
+  "end": 217,
+  "text": "On July 3, 2025 at 14:15 UTC, Tomas Haddad initiated the audit review.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 295,
+  "text": "The payment approval was initiated by Tomas Haddad on 9 July 2025, 14:25 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 297,
+  "end": 304,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 305,
+  "end": 310,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@tomash is Tomas Haddad.",
+  "tids": [
+   "t40",
+   "t39"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@elenao is Elena Okafor.",
+  "tids": [
+   "t42",
+   "t41"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 153,
+  "text": "[2025-07-03 15:15 UTC] @tomash to @elenao: Finance is asking questions again.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 154,
+  "end": 235,
+  "text": "[2025-07-03 15:22 UTC] @elenao to @tomash: I pushed it through, check your inbox.",
+  "tids": [
+   "t51",
+   "t52",
+   "t53",
+   "t54",
+   "t67"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 236,
+  "end": 319,
+  "text": "[2025-07-03 15:29 UTC] @tomash to @elenao: Let's keep this between us until Friday.",
+  "tids": [
+   "t55",
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 99,
+  "text": "First Harbor Bank account 9564435085 is registered to Cedar Ridge Components Ltd.",
+  "tids": [
+   "t22",
+   "t23",
+   "t68",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 100,
+  "end": 180,
+  "text": "First Harbor Bank account 4460431967 is registered to Brightwater Analytics Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t69",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 181,
+  "end": 248,
+  "text": "First Harbor Bank account 2517584075 is registered to Elena Okafor.",
+  "tids": [
+   "t28",
+   "t29",
+   "t70",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 250,
+  "end": 318,
+  "text": "Elena Okafor started the wire transfer on July 5, 2025 at 17:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 320,
+  "end": 359,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

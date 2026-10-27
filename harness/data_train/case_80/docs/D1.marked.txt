@@ -1,0 +1,11 @@
+[D1.S1] From: mfischer@copperfield.com
+[D1.S2] To: dreyes@copperfield.com, luca.park@northwind.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Thu, 21 Aug 2025 14:45:00 +0000
+
+[D1.S5] Hi Desmond,
+
+[D1.S6] Desmond Reyes started the wire transfer on 3 August 2025, 09:30 UTC. [D1.S7] Approval for the wire transfer came from Marcus Fischer. [D1.S8] The wire transfer took place at the Copperfield Fabrication Ltd. office. [D1.S9] Marcus Fischer started the expense reimbursement on August 21, 2025 at 12:45 UTC. [D1.S10] Approval for the expense reimbursement came from Desmond Reyes.
+
+[D1.S11] Thanks,
+[D1.S12] Marcus

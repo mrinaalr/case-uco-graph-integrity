@@ -1,0 +1,11 @@
+[D2.S1] From: rpark@silverlake.com
+[D2.S2] To: arjun.moreau@silverlake.com, obrennan@westmark.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Sun, 16 Feb 2025 13:00:00 +0000
+
+[D2.S5] Hi Arjun,
+
+[D2.S6] On 18 January 2025, 16:50 UTC, Ruth Park initiated the bank detail change. [D2.S7] On January 31, 2025 at 09:25 UTC, Oscar Brennan initiated the expense reimbursement. [D2.S8] On February 13, 2025 at 15:50 UTC, Ruth Park initiated the invoice submission. [D2.S9] Arjun Moreau started the vendor onboarding on February 16, 2025 at 11:00 UTC. [D2.S10] The vendor onboarding took place at the Silverlake Components LLC office.
+
+[D2.S11] Thanks,
+[D2.S12] Ruth

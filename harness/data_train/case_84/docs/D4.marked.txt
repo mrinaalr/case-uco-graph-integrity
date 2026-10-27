@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Union Ledger Bank account 8988403015 is registered to Bluegate Fabrication Group. [D4.S3] Account 6022131732 at Union Ledger Bank belongs to Redfern Consulting Group. [D4.S4] Maya Kowalski holds account 8911852619 at Union Ledger Bank.
+
+[D4.S5] The vendor onboarding was initiated by Maya Kowalski on July 20, 2025 at 16:50 UTC. [D4.S6] Maya Kowalski started the expense reimbursement on 29 July 2025, 12:10 UTC.
+
+[D4.S7] More detail will follow once records are pulled.

@@ -19,11 +19,24 @@ the ontology. The A/B/C design is in [../EXPERIMENT.md](../EXPERIMENT.md).
   tools plus `read_file`, `write_serializer` (saves and runs the script) and `finish`, asked to
   follow the SDK's workflow including the critic loop (deterministic policy). The graph at the
   first `validate_graph` call is scored as `@first_validate`.
-- **B, direct** (`pipeline_monolith.py`, arm `b_control`): one prompt, raw JSON-LD back.
-- **C, compiled** (`pipeline_compiled.py`, arm `c_compiled`): per-document claim extraction with
-  quotes, a deterministic verifier with one repair round (`[compiled] repair_rounds`), cross-document
-  entity resolution by key, and a compiler that writes the graph with `GraphWriter`. `claims.json`
-  keeps every admitted claim and the entity mapping; `run.json` counts claims, rejections and repairs.
+- **B1, direct** (`pipeline_monolith.py`, arm `b_control`): one prompt, raw JSON-LD back.
+- **B2, trained** (`pipeline_monolith.py --model trained --arm b2_trained`): B1 on the LoRA
+  described in `train_lora.py`; `make_training_set.py` builds its pairs from `data_train`. Placeholder
+  until `[models.trained].model` is filled in.
+- **B3, defended** (`pipeline_defended.py`, arm `b3_defended`): B1, then the guards in
+  `[defenses]`: a parse retry, the validator's report sent back for a rewrite, the deterministic
+  critic's findings sent back for a rewrite. Snapshots `graph_raw.jsonld` and `graph_validated.jsonld`
+  are scored as `@raw` and `@validated`.
+- **B4, trained + defended** (`pipeline_defended.py --model trained --arm b4_trained_defended`): placeholder, as B2.
+- **C v2, grounded** (`pipeline_grounded.py`, arm `c_grounded`): entities per document, then claims
+  against that list, each with a quote; a deterministic admission gate with one repair round
+  (`[compiled] repair_rounds`); cross-document resolution by key; mapping to ontology constructs with
+  domain/range checks and direction normalization; compilation with `GraphWriter`; a validation gate
+  that quarantines assertions on violating nodes. `ledger.jsonl` has one row per assertion (passage,
+  claim, mapping, checks, status); `run.json` counts the review queue. `graph_compiled.jsonld` is
+  scored as `@compiled` (before the gate).
+- **C v1, compiled** (`pipeline_compiled.py`, arm `c_compiled`): the single-shot reader version
+  (one call per document, no domain/range resolution, no ledger, no gate), kept as C's ablation.
 
 Earlier arms, still runnable:
 
@@ -38,7 +51,9 @@ Earlier arms, still runnable:
 
 `generate_data.py` writes 100 seeded fraud / business-communication cases to
 `data/case_NN/`: `gold.json`, `gold.jsonld`, `docs/D*.txt`,
-`docs/D*.marked.txt`, `docs/D*.pdf` and `spans.json`.
+`docs/D*.marked.txt`, `docs/D*.pdf` and `spans.json`. `--out data_dev --seed 20260101`
+and `--out data_train --seed 20260202` write the development and training sets; `--data` on any
+pipeline picks the folder to run on. The benchmark folder is never used for tuning or training.
 
 - The gold graph is authored first, then rendered to 2-4 documents from
   templates with paraphrase pools.

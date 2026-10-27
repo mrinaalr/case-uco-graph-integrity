@@ -1,0 +1,11 @@
+[D3.S1] From: kcastillo@stonebridge.com
+[D3.S2] To: nadia.park@redfern.com, hmoreau@redfern.com
+[D3.S3] Subject: Audit prep items
+[D3.S4] Date: Thu, 27 Mar 2025 12:15:00 +0000
+
+[D3.S5] Hi Nadia,
+
+[D3.S6] Kofi Castillo started the invoice submission on 20 February 2025, 15:10 UTC. [D3.S7] Kofi Castillo started the contract amendment on 3 March 2025, 17:45 UTC. [D3.S8] On March 27, 2025 at 10:15 UTC, Arjun Lindqvist initiated the expense reimbursement.
+
+[D3.S9] Thanks,
+[D3.S10] Kofi

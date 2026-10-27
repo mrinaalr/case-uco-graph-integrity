@@ -1,0 +1,7 @@
+Incident summary
+Lakeshore Savings Bank account 1486468115 is registered to Harborline Consulting Inc. Lakeshore
+Savings Bank account 2356568648 is registered to Northwind Components Ltd. Hannah Mendes holds
+account 2213622158 at Lakeshore Savings Bank.
+The refund request was initiated by Hannah Mendes on September 19, 2025 at 15:25 UTC. On 15
+October 2025, 11:00 UTC, Samuel Castillo initiated the wire transfer.
+This summary reflects records available to date.

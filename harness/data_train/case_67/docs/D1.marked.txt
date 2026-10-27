@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Lena Novak is employed by Brightwater Industrial Group; their email is lnovak@brightwater.com. [D1.S3] Brightwater Industrial Group employs Maya Brennan, who can be reached at mbrennan@brightwater.com. [D1.S4] Brightwater Industrial Group employs Luca Sorensen, who can be reached at lsorensen@brightwater.com. [D1.S5] Wesley Ivanova is employed by Silverlake Components Co.; their email is wivanova@silverlake.com.
+
+[D1.S6] Luca Sorensen's manager is Lena Novak.
+
+[D1.S7] Brightwater Industrial Group operates from 7179 Market Street, Richmond, VA 23219.
+
+[D1.S8] Granite Federal Credit Union account 1556870805 is registered to Brightwater Industrial Group. [D1.S9] Granite Federal Credit Union account 4236094678 is registered to Silverlake Components Co. [D1.S10] Account 9088831114 at Granite Federal Credit Union belongs to Lena Novak.
+
+[D1.S11] Let me know if anything here looks off.

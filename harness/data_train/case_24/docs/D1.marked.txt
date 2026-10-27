@@ -1,0 +1,11 @@
+[D1.S1] From: hbanerjee@westmark.com
+[D1.S2] To: ylindqvist@brightwater.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Sat, 01 Feb 2025 14:00:00 +0000
+
+[D1.S5] Hi Yara,
+
+[D1.S6] The expense reimbursement was initiated by Priya Moreau on January 13, 2025 at 09:25 UTC. [D1.S7] Approval for the expense reimbursement came from Hannah Banerjee. [D1.S8] Sofia Delgado was involved in the expense reimbursement as well. [D1.S9] The expense reimbursement happened at Westmark Industrial Group's office. [D1.S10] On 1 February 2025, 12:00 UTC, Hannah Banerjee initiated the payment approval.
+
+[D1.S11] Thanks,
+[D1.S12] Hannah

@@ -1,0 +1,11 @@
+[D1.S1] From: nnovak@northwind.com
+[D1.S2] To: tlindqvist@northwind.com, hholloway@ironleaf.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Thu, 25 Sep 2025 11:50:00 +0000
+
+[D1.S5] Hi Tomas,
+
+[D1.S6] On September 3, 2025 at 15:45 UTC, Nadia Novak initiated the bank detail change. [D1.S7] The bank detail change took place at the Northwind Industrial Inc. office. [D1.S8] Lena Kowalski started the payment approval on September 13, 2025 at 15:10 UTC. [D1.S9] The payment approval happened at Northwind Industrial Inc.'s office. [D1.S10] The expense reimbursement was initiated by Hannah Holloway on September 25, 2025 at 09:50 UTC. [D1.S11] Maya Brennan authorized the expense reimbursement.
+
+[D1.S12] Thanks,
+[D1.S13] Nadia

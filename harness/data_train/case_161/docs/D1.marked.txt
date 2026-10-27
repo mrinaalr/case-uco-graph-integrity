@@ -1,0 +1,11 @@
+[D1.S1] From: yara.novak@clearpath.com
+[D1.S2] To: rvance@harborline.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Sun, 10 Aug 2025 15:30:00 +0000
+
+[D1.S5] Hi Rosa,
+
+[D1.S6] On 17 July 2025, 11:45 UTC, Rosa Vance initiated the refund request. [D1.S7] The refund request happened at Harborline Freight Group's office. [D1.S8] On 30 July 2025, 16:10 UTC, Rosa Vance initiated the expense reimbursement. [D1.S9] On 4 August 2025, 17:30 UTC, Hector Banerjee initiated the vendor onboarding. [D1.S10] Elena Petrov started the invoice submission on 10 August 2025, 13:30 UTC.
+
+[D1.S11] Thanks,
+[D1.S12] Yara

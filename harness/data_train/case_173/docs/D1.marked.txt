@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Maya Tanaka is employed by Westmark Tooling Co.; their email is maya.tanaka@westmark.com. [D1.S3] Irene Novak is employed by Westmark Tooling Co.; their email is irene.novak@westmark.com. [D1.S4] Westmark Tooling Co. employs Andre Ivanova, who can be reached at aivanova@westmark.com. [D1.S5] Oakhaven Analytics Inc. employs Arjun Quinn, who can be reached at aquinn@oakhaven.com. [D1.S6] Oakhaven Analytics Inc. employs Wesley Park, who can be reached at wpark@oakhaven.com.
+
+[D1.S7] The offices of Westmark Tooling Co. are at 8106 Harbor Avenue, Spokane, WA 99201.
+
+[D1.S8] This summary reflects records available to date.

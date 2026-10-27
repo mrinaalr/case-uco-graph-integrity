@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Meridian Trust Bank account 6151648792 is registered to Harborline Industrial Group. [D4.S3] Account 4719658511 at Meridian Trust Bank belongs to Stonebridge Packaging Co. [D4.S4] Priya Lindqvist holds account 8375195152 at Meridian Trust Bank.
+
+[D4.S5] Luca Reyes started the invoice submission on 5 October 2025, 14:00 UTC. [D4.S6] Priya Lindqvist was involved in the invoice submission as well. [D4.S7] Account 6151648792 sent a transfer to account 4719658511.
+
+[D4.S8] More detail will follow once records are pulled.

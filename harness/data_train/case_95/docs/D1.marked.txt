@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Owen Haddad works for Cedar Ridge Components LLC and uses the address ohaddad@cedarridge.com. [D1.S3] Oscar Castillo is employed by Cedar Ridge Components LLC; their email is ocastillo@cedarridge.com. [D1.S4] Wesley Okafor works for Westmark Fabrication Group and uses the address wokafor@westmark.com.
+
+[D1.S5] Cedar Ridge Components LLC is based at 4875 Lakeview Road, Raleigh, NC 27601.
+
+[D1.S6] Oscar Castillo communicated with Owen Haddad about the payments.
+
+[D1.S7] This summary reflects records available to date.

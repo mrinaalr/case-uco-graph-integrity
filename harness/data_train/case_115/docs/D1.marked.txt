@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Julian Fischer is employed by Silverlake Supply Co.; their email is jfischer@silverlake.com. [D1.S3] Silverlake Supply Co. employs Irene Ivanova, who can be reached at irene.ivanova@silverlake.com. [D1.S4] Silverlake Supply Co. employs Maya Delgado, who can be reached at maya.delgado@silverlake.com. [D1.S5] Yara Tanaka is employed by Bluegate Consulting Ltd.; their email is yara.tanaka@bluegate.com. [D1.S6] Owen Petrov works for Bluegate Consulting Ltd. and uses the address owen.petrov@bluegate.com.
+
+[D1.S7] Maya Delgado reports to Julian Fischer. [D1.S8] Irene Ivanova reports to Julian Fischer.
+
+[D1.S9] Silverlake Supply Co. is based at 737 Maple Avenue, Richmond, VA 23219.
+
+[D1.S10] More detail will follow once records are pulled.

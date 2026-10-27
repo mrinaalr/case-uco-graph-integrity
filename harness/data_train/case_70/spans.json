@@ -1,0 +1,486 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 121,
+  "text": "Irene Vance is employed by Westmark Supply Co.; their email is ivance@westmark.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t72",
+   "t73",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 122,
+  "end": 214,
+  "text": "Priya Ivanova works for Westmark Supply Co. and uses the address priya.ivanova@westmark.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t74",
+   "t75",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 215,
+  "end": 300,
+  "text": "Felix Abara works for Clearpath Supply Co. and uses the address fabara@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t76",
+   "t77",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 302,
+  "end": 375,
+  "text": "Westmark Supply Co. operates from 3291 Market Street, Richmond, VA 23219.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 376,
+  "end": 445,
+  "text": "Clearpath Supply Co. is based at 3870 Main Street, Madison, WI 53703.",
+  "tids": [
+   "t51",
+   "t47",
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 447,
+  "end": 524,
+  "text": "Westmark Supply Co. holds account 9316384119 at Granite Federal Credit Union.",
+  "tids": [
+   "t22",
+   "t23",
+   "t78",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 525,
+  "end": 610,
+  "text": "Granite Federal Credit Union account 6893854038 is registered to Clearpath Supply Co.",
+  "tids": [
+   "t25",
+   "t26",
+   "t79",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 611,
+  "end": 682,
+  "text": "Priya Ivanova holds account 3480085333 at Granite Federal Credit Union.",
+  "tids": [
+   "t28",
+   "t29",
+   "t80",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 684,
+  "end": 741,
+  "text": "Account 9316384119 sent a transfer to account 3480085333.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 742,
+  "end": 804,
+  "text": "Felix Abara had been in contact with Priya Ivanova throughout.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 806,
+  "end": 854,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: priya.ivanova@westmark.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 78,
+  "text": "To: ivance@westmark.com, fabara@clearpath.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t81",
+   "t82"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 79,
+  "end": 114,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Wed, 20 Aug 2025 11:10:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 154,
+  "end": 163,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 165,
+  "end": 248,
+  "text": "The invoice submission was initiated by Irene Vance on August 2, 2025 at 11:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 249,
+  "end": 308,
+  "text": "Felix Abara was involved in the invoice submission as well.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 309,
+  "end": 373,
+  "text": "The invoice submission happened at Westmark Supply Co.'s office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 374,
+  "end": 448,
+  "text": "Irene Vance started the expense reimbursement on 2 August 2025, 17:10 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 449,
+  "end": 510,
+  "text": "Approval for the expense reimbursement came from Felix Abara.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 511,
+  "end": 578,
+  "text": "The expense reimbursement happened at Westmark Supply Co.'s office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 579,
+  "end": 653,
+  "text": "On 19 August 2025, 09:10 UTC, Felix Abara initiated the vendor onboarding.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 654,
+  "end": 708,
+  "text": "Priya Ivanova also took part in the vendor onboarding.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 709,
+  "end": 788,
+  "text": "On 20 August 2025, 09:10 UTC, Felix Abara initiated the account reconciliation.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 789,
+  "end": 846,
+  "text": "Irene Vance also took part in the account reconciliation.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 848,
+  "end": 855,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 856,
+  "end": 861,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t83"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 49,
+  "text": "@felixa is Felix Abara.",
+  "tids": [
+   "t43",
+   "t42"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 50,
+  "end": 73,
+  "text": "@irenev is Irene Vance.",
+  "tids": [
+   "t45",
+   "t44"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 74,
+  "end": 155,
+  "text": "[2025-08-02 12:30 UTC] @felixa to @irenev: I pushed it through, check your inbox.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67",
+   "t84"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 156,
+  "end": 239,
+  "text": "[2025-08-02 12:37 UTC] @irenev to @felixa: Let's keep this between us until Friday.",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71",
+   "t85"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ }
+}

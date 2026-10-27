@@ -1,0 +1,11 @@
+From: andre.abara@bluegate.com
+To: spark@brightwater.com, jcastillo@bluegate.com
+Subject: Re: banking change request
+Date: Tue, 07 Oct 2025 15:45:00 +0000
+Hi Samuel,
+On 7 September 2025, 09:10 UTC, Andre Abara initiated the wire transfer. Samuel Park authorized the
+wire transfer. The contract amendment was initiated by Andre Abara on September 24, 2025 at 13:30
+UTC. Approval for the contract amendment came from Samuel Park. On 7 October 2025, 13:45 UTC,
+Julian Castillo initiated the account reconciliation.
+Thanks,
+Andre

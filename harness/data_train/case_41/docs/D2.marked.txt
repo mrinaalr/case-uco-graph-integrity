@@ -1,0 +1,11 @@
+[D2.S1] From: hector.delgado@summitpeak.com
+[D2.S2] To: felix.sorensen@summitpeak.com
+[D2.S3] Subject: Invoice 2296 follow-up
+[D2.S4] Date: Fri, 09 May 2025 18:30:00 +0000
+
+[D2.S5] Hi Felix,
+
+[D2.S6] Hector Delgado started the vendor onboarding on April 2, 2025 at 10:15 UTC. [D2.S7] The vendor onboarding happened at Summit Peak Freight Ltd.'s office. [D2.S8] On 7 April 2025, 13:25 UTC, Felix Sorensen initiated the refund request. [D2.S9] The refund request took place at the Summit Peak Freight Ltd. office. [D2.S10] On 22 April 2025, 11:30 UTC, Hannah Ashworth initiated the payment approval. [D2.S11] Approval for the payment approval came from Hector Delgado. [D2.S12] Felix Sorensen was involved in the payment approval as well. [D2.S13] The expense reimbursement was initiated by Hector Delgado on April 26, 2025 at 15:10 UTC. [D2.S14] On April 30, 2025 at 13:45 UTC, Hannah Ashworth initiated the wire transfer. [D2.S15] Felix Sorensen was involved in the wire transfer as well. [D2.S16] The wire transfer took place at the Summit Peak Freight Ltd. office. [D2.S17] Julian Quinn started the contract amendment on 9 May 2025, 16:30 UTC.
+
+[D2.S18] Thanks,
+[D2.S19] Hector

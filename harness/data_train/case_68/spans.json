@@ -1,0 +1,476 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 27,
+  "text": "From: rbrennan@oakhaven.com",
+  "tids": [
+   "t58",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 28,
+  "end": 82,
+  "text": "To: hannah.castillo@ironleaf.com, jhaddad@ironleaf.com",
+  "tids": [
+   "t59",
+   "t60",
+   "t68",
+   "t18",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_4"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 83,
+  "end": 114,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Tue, 09 Sep 2025 11:10:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 154,
+  "end": 164,
+  "text": "Hi Hannah,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 166,
+  "end": 244,
+  "text": "On August 11, 2025 at 09:30 UTC, Hannah Castillo initiated the refund request.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 245,
+  "end": 330,
+  "text": "Hannah Castillo started the account reconciliation on September 9, 2025 at 09:10 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 332,
+  "end": 339,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 340,
+  "end": 344,
+  "text": "Rosa",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 129,
+  "text": "Elena Holloway works for Oakhaven Tooling Inc. and uses the address eholloway@oakhaven.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t69",
+   "t70",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 214,
+  "text": "Dana Abara is employed by Oakhaven Tooling Inc.; their email is dabara@oakhaven.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t71",
+   "t72",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 215,
+  "end": 303,
+  "text": "Rosa Brennan is employed by Oakhaven Tooling Inc.; their email is rbrennan@oakhaven.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t73",
+   "t74",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 304,
+  "end": 403,
+  "text": "Hannah Castillo is employed by Ironleaf Logistics Co.; their email is hannah.castillo@ironleaf.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t75",
+   "t76",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 404,
+  "end": 493,
+  "text": "Julian Haddad is employed by Ironleaf Logistics Co.; their email is jhaddad@ironleaf.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t77",
+   "t78",
+   "t8"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 495,
+  "end": 572,
+  "text": "The offices of Oakhaven Tooling Inc. are at 3362 Elm Street, Boise, ID 83702.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 573,
+  "end": 662,
+  "text": "The offices of Ironleaf Logistics Co. are at 4401 Industrial Parkway, Richmond, VA 23219.",
+  "tids": [
+   "t56",
+   "t52",
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 664,
+  "end": 729,
+  "text": "Rosa Brennan had been in contact with Hannah Castillo throughout.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_2",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 731,
+  "end": 779,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: rbrennan@oakhaven.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 84,
+  "text": "To: hannah.castillo@ironleaf.com, eholloway@oakhaven.com",
+  "tids": [
+   "t64",
+   "t65",
+   "t79"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 85,
+  "end": 125,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 126,
+  "end": 163,
+  "text": "Date: Wed, 20 Aug 2025 16:10:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 165,
+  "end": 175,
+  "text": "Hi Hannah,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 177,
+  "end": 251,
+  "text": "On 20 August 2025, 14:10 UTC, Hannah Castillo initiated the wire transfer.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 252,
+  "end": 317,
+  "text": "The wire transfer took place at the Oakhaven Tooling Inc. office.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 319,
+  "end": 326,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 327,
+  "end": 331,
+  "text": "Rosa",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 95,
+  "text": "Meridian Trust Bank account 1642692787 is registered to Oakhaven Tooling Inc.",
+  "tids": [
+   "t30",
+   "t31",
+   "t80",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 96,
+  "end": 174,
+  "text": "Meridian Trust Bank account 3810629652 is registered to Ironleaf Logistics Co.",
+  "tids": [
+   "t33",
+   "t34",
+   "t81",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 175,
+  "end": 239,
+  "text": "Account 5072739475 at Meridian Trust Bank belongs to Dana Abara.",
+  "tids": [
+   "t36",
+   "t37",
+   "t82",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 241,
+  "end": 316,
+  "text": "On September 6, 2025 at 14:15 UTC, Rosa Brennan initiated the audit review.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 317,
+  "end": 375,
+  "text": "Funds moved from account 1642692787 to account 5072739475.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 377,
+  "end": 425,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

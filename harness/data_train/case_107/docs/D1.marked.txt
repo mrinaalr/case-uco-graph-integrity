@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Mei Tanaka works for Clearpath Distribution Group and uses the address mtanaka@clearpath.com. [D1.S3] Clearpath Distribution Group employs Hector Reyes, who can be reached at hreyes@clearpath.com. [D1.S4] Clearpath Distribution Group employs Tomas Okafor, who can be reached at tokafor@clearpath.com. [D1.S5] Elena Novak works for Harborline Distribution LLC and uses the address elena.novak@harborline.com. [D1.S6] Sofia Petrov works for Harborline Distribution LLC and uses the address spetrov@harborline.com.
+
+[D1.S7] Tomas Okafor's manager is Mei Tanaka.
+
+[D1.S8] Clearpath Distribution Group operates from 6283 Market Street, Madison, WI 53703.
+
+[D1.S9] Clearpath Distribution Group holds account 6810732503 at First Harbor Bank. [D1.S10] Harborline Distribution LLC holds account 8745493274 at First Harbor Bank.
+
+[D1.S11] Let me know if anything here looks off.

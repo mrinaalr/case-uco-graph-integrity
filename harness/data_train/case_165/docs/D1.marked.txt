@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Rosa Kowalski is employed by Oakhaven Consulting LLC; their email is rkowalski@oakhaven.com. [D1.S3] Tomas Castillo works for Oakhaven Consulting LLC and uses the address tcastillo@oakhaven.com. [D1.S4] Mei Mendes is employed by Oakhaven Consulting LLC; their email is mmendes@oakhaven.com. [D1.S5] Arjun Sorensen works for Northwind Distribution Co. and uses the address asorensen@northwind.com. [D1.S6] Northwind Distribution Co. employs Sofia Brennan, who can be reached at sbrennan@northwind.com.
+
+[D1.S7] Tomas Castillo reports to Rosa Kowalski.
+
+[D1.S8] Oakhaven Consulting LLC is based at 1085 Main Street, Boise, ID 83702.
+
+[D1.S9] Account 2217145922 at Meridian Trust Bank belongs to Oakhaven Consulting LLC. [D1.S10] Meridian Trust Bank account 6447391252 is registered to Northwind Distribution Co. [D1.S11] Account 6942526599 at Meridian Trust Bank belongs to Tomas Castillo.
+
+[D1.S12] Let me know if anything here looks off.

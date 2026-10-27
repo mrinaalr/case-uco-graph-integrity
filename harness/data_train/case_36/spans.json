@@ -1,0 +1,322 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 130,
+  "text": "Irene Banerjee works for Bluegate Services Ltd. and uses the address ibanerjee@bluegate.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t52",
+   "t53",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 216,
+  "text": "Yara Vance works for Bluegate Services Ltd. and uses the address yvance@bluegate.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t54",
+   "t55",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 217,
+  "end": 310,
+  "text": "Wesley Abara works for Bluegate Services Ltd. and uses the address wesley.abara@bluegate.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t56",
+   "t57",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 311,
+  "end": 415,
+  "text": "Marcus Brennan is employed by Brightwater Analytics Ltd.; their email is marcus.brennan@brightwater.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t58",
+   "t59",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 416,
+  "end": 514,
+  "text": "Brightwater Analytics Ltd. employs Hannah Park, who can be reached at hannah.park@brightwater.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t60",
+   "t61",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 516,
+  "end": 555,
+  "text": "Yara Vance's manager is Irene Banerjee.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 557,
+  "end": 637,
+  "text": "Bluegate Services Ltd. operates from 6484 Riverside Boulevard, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 639,
+  "end": 717,
+  "text": "Meridian Trust Bank account 8208806267 is registered to Bluegate Services Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t62",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 718,
+  "end": 800,
+  "text": "Meridian Trust Bank account 1807841684 is registered to Brightwater Analytics Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t63",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 801,
+  "end": 865,
+  "text": "Account 4876377186 at Meridian Trust Bank belongs to Yara Vance.",
+  "tids": [
+   "t36",
+   "t37",
+   "t64",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 867,
+  "end": 901,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: wesley.abara@bluegate.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 55,
+  "text": "To: yvance@bluegate.com",
+  "tids": [
+   "t49",
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 56,
+  "end": 96,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 97,
+  "end": 134,
+  "text": "Date: Sat, 01 Nov 2025 14:25:00 +0000",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 144,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 146,
+  "end": 217,
+  "text": "Yara Vance started the vendor onboarding on 11 October 2025, 09:15 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 294,
+  "text": "On 26 October 2025, 16:50 UTC, Hannah Park initiated the invoice submission.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_4"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 295,
+  "end": 372,
+  "text": "Wesley Abara started the expense reimbursement on 1 November 2025, 12:25 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 374,
+  "end": 381,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 382,
+  "end": 388,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ }
+}

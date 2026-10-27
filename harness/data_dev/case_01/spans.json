@@ -1,0 +1,474 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 29,
+  "text": "From: eokafor@stonebridge.com",
+  "tids": [
+   "t57",
+   "t11"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 30,
+  "end": 62,
+  "text": "To: dana.fischer@stonebridge.com",
+  "tids": [
+   "t58",
+   "t65",
+   "t8"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 63,
+  "end": 99,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 100,
+  "end": 137,
+  "text": "Date: Thu, 23 Oct 2025 16:00:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 147,
+  "text": "Hi Dana,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 149,
+  "end": 225,
+  "text": "On 1 October 2025, 16:25 UTC, Elena Okafor initiated the invoice submission.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 301,
+  "text": "The invoice submission took place at the Stonebridge Services Group office.",
+  "tids": [
+   "t54",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 302,
+  "end": 379,
+  "text": "On October 4, 2025 at 16:45 UTC, Mei Holloway initiated the payment approval.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39",
+   "t7"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 380,
+  "end": 437,
+  "text": "Approval for the payment approval came from Elena Okafor.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 438,
+  "end": 511,
+  "text": "The payment approval took place at the Stonebridge Services Group office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 512,
+  "end": 597,
+  "text": "The vendor onboarding was initiated by Mei Holloway on October 15, 2025 at 09:15 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 598,
+  "end": 679,
+  "text": "On 23 October 2025, 14:00 UTC, Elena Okafor initiated the account reconciliation.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 681,
+  "end": 688,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S14": {
+  "doc_id": "D1",
+  "start": 689,
+  "end": 694,
+  "text": "Elena",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 138,
+  "text": "Dana Fischer works for Stonebridge Services Group and uses the address dana.fischer@stonebridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t66",
+   "t67",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 139,
+  "end": 234,
+  "text": "Elena Okafor works for Stonebridge Services Group and uses the address eokafor@stonebridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t68",
+   "t69"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 235,
+  "end": 333,
+  "text": "Stonebridge Services Group employs Victor Park, who can be reached at victor.park@stonebridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t70",
+   "t71",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 334,
+  "end": 422,
+  "text": "Mei Holloway is employed by Oakhaven Freight Co.; their email is mholloway@oakhaven.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t72",
+   "t73",
+   "t2",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 424,
+  "end": 461,
+  "text": "Elena Okafor reports to Dana Fischer.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 463,
+  "end": 538,
+  "text": "Stonebridge Services Group is based at 6563 Lakeview Road, Boise, ID 83702.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 540,
+  "end": 624,
+  "text": "Stonebridge Services Group holds account 8163912792 at Granite Federal Credit Union.",
+  "tids": [
+   "t26",
+   "t27",
+   "t74",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 625,
+  "end": 707,
+  "text": "Account 3274469086 at Granite Federal Credit Union belongs to Oakhaven Freight Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t75",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 709,
+  "end": 748,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: mholloway@oakhaven.com",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 56,
+  "text": "To: eokafor@stonebridge.com",
+  "tids": [
+   "t62",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 57,
+  "end": 92,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Wed, 15 Oct 2025 12:45:00 +0000",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 132,
+  "end": 141,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 143,
+  "end": 214,
+  "text": "Victor Park started the refund request on October 3, 2025 at 14:00 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 215,
+  "end": 297,
+  "text": "On October 5, 2025 at 13:50 UTC, Elena Okafor initiated the expense reimbursement.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 298,
+  "end": 354,
+  "text": "Victor Park also took part in the expense reimbursement.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 355,
+  "end": 432,
+  "text": "The audit review was initiated by Dana Fischer on 15 October 2025, 10:45 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 434,
+  "end": 441,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 442,
+  "end": 445,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ }
+}

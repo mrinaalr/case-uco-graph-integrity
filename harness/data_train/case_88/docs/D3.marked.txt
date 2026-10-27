@@ -1,0 +1,11 @@
+[D3.S1] From: tbrennan@brightwater.com
+[D3.S2] To: irene.moreau@bluegate.com
+[D3.S3] Subject: Invoice 8402 follow-up
+[D3.S4] Date: Mon, 17 Mar 2025 13:15:00 +0000
+
+[D3.S5] Hi Irene,
+
+[D3.S6] The invoice submission was initiated by Luca Whitfield on February 13, 2025 at 11:15 UTC. [D3.S7] The vendor onboarding was initiated by Luca Whitfield on February 23, 2025 at 09:45 UTC. [D3.S8] Tomas Brennan started the expense reimbursement on March 11, 2025 at 12:45 UTC. [D3.S9] On 17 March 2025, 11:15 UTC, Tomas Brennan initiated the audit review.
+
+[D3.S10] Thanks,
+[D3.S11] Tomas

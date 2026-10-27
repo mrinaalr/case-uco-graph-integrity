@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Clara Kowalski works for Stonebridge Components Inc. and uses the address clara.kowalski@stonebridge.com. [D2.S3] Marcus Lindqvist is employed by Stonebridge Components Inc.; their email is mlindqvist@stonebridge.com. [D2.S4] Mei Ashworth works for Stonebridge Components Inc. and uses the address mashworth@stonebridge.com. [D2.S5] Kofi Tanaka is employed by Westmark Logistics LLC; their email is kofi.tanaka@westmark.com. [D2.S6] Rosa Abara works for Westmark Logistics LLC and uses the address rabara@westmark.com.
+
+[D2.S7] The offices of Stonebridge Components Inc. are at 8860 Maple Avenue, Omaha, NE 68102.
+
+[D2.S8] Account 2262714647 at Pinecrest National Bank belongs to Stonebridge Components Inc. [D2.S9] Pinecrest National Bank account 2464287906 is registered to Westmark Logistics LLC. [D2.S10] Pinecrest National Bank account 4692847135 is registered to Mei Ashworth.
+
+[D2.S11] This summary reflects records available to date.

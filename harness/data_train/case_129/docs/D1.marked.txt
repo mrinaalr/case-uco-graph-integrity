@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Luca Haddad works for Redfern Consulting Co. and uses the address luca.haddad@redfern.com. [D1.S3] Redfern Consulting Co. employs Felix Moreau, who can be reached at felix.moreau@redfern.com. [D1.S4] Redfern Consulting Co. employs Maya Banerjee, who can be reached at maya.banerjee@redfern.com. [D1.S5] Summit Peak Consulting Ltd. employs Irene Osei, who can be reached at iosei@summitpeak.com.
+
+[D1.S6] Redfern Consulting Co. is based at 3290 Lakeview Road, Dayton, OH 45402. [D1.S7] Summit Peak Consulting Ltd. operates from 7736 Elm Street, Boise, ID 83702.
+
+[D1.S8] First Harbor Bank account 5461433921 is registered to Redfern Consulting Co. [D1.S9] Account 1803031294 at First Harbor Bank belongs to Summit Peak Consulting Ltd.
+
+[D1.S10] Let me know if anything here looks off.

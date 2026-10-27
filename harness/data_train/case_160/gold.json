@@ -1,0 +1,1019 @@
+{
+ "case_id": "case_160",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Cedar Ridge Services LLC"
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D1"
+   ],
+   "label": "Copperfield Tooling Inc."
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D1"
+   ],
+   "label": "Union Ledger Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1"
+   ],
+   "label": "Hannah Mendes"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Felix Osei"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Owen Moreau"
+  },
+  {
+   "eid": "person_3",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Mei Brennan"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "hannah.mendes@cedarridge.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "felix.osei@cedarridge.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "owen.moreau@cedarridge.com"
+  },
+  {
+   "eid": "email_person_3",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "mei.brennan@copperfield.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "9370 Elm Street, Omaha, NE 68102"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D1"
+   ],
+   "label": "1263138163"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D1"
+   ],
+   "label": "3730899335"
+  },
+  {
+   "eid": "acct_insider",
+   "class": "Account",
+   "docs": [
+    "D1"
+   ],
+   "label": "1784977869"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "contract amendment"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "expense reimbursement"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "refund request"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "vendor onboarding"
+  },
+  {
+   "eid": "event_5",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "account reconciliation"
+  },
+  {
+   "eid": "handle_person_1",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@felixo"
+  },
+  {
+   "eid": "handle_person_2",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@owenm"
+  },
+  {
+   "eid": "loc_vendor",
+   "class": "Location",
+   "docs": [
+    "D1"
+   ],
+   "label": "9527 Lakeview Road, Tucson, AZ 85701"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_0",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_3",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_thread",
+   "class": "MessageThread",
+   "docs": [
+    "D3"
+   ],
+   "label": "#finance-ops"
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Cedar Ridge Services LLC",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Copperfield Tooling Inc.",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Union Ledger Bank",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Hannah Mendes",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Felix Osei",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Owen Moreau",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "person_3",
+   "p": "name",
+   "o": "Mei Brennan",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "hannah.mendes@cedarridge.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t10",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "felix.osei@cedarridge.com",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t13",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "owen.moreau@cedarridge.com",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t16",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t17",
+   "s": "email_person_3",
+   "p": "addressValue",
+   "o": "mei.brennan@copperfield.com",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "person_3",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t19",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t20",
+   "s": "loc_company",
+   "p": "street",
+   "o": "9370 Elm Street",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t21",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Omaha",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t22",
+   "s": "loc_company",
+   "p": "region",
+   "o": "NE",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t23",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "68102",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t24",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t25",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "1263138163",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t26",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t27",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t28",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "3730899335",
+   "lit": true,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t29",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t30",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t31",
+   "s": "acct_insider",
+   "p": "accountIdentifier",
+   "o": "1784977869",
+   "lit": true,
+   "span_id": "D1.S10",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t32",
+   "s": "person_1",
+   "p": "Owns_Account",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D1.S10",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t33",
+   "s": "acct_insider",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D1.S10",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t34",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t35",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-01-09T12:50:00Z",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t36",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t37",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "contract amendment",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t38",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-01-12T12:45:00Z",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t39",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t40",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "expense reimbursement",
+   "lit": true,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t41",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-01-19T17:15:00Z",
+   "lit": true,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t42",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t43",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "refund request",
+   "lit": true,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t44",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-01-24T14:15:00Z",
+   "lit": true,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t45",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t46",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "vendor onboarding",
+   "lit": true,
+   "span_id": "D2.S11",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t47",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-02-05T09:00:00Z",
+   "lit": true,
+   "span_id": "D2.S11",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t48",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D2.S11",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t49",
+   "s": "event_5",
+   "p": "eventType",
+   "o": "account reconciliation",
+   "lit": true,
+   "span_id": "D2.S12",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t50",
+   "s": "event_5",
+   "p": "startTime",
+   "o": "2025-02-09T15:30:00Z",
+   "lit": true,
+   "span_id": "D2.S12",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t51",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_5",
+   "lit": false,
+   "span_id": "D2.S12",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t52",
+   "s": "handle_person_1",
+   "p": "accountIdentifier",
+   "o": "@felixo",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t53",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t54",
+   "s": "handle_person_2",
+   "p": "accountIdentifier",
+   "o": "@owenm",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t55",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "handle_person_2",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t56",
+   "s": "event_0",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t57",
+   "s": "loc_vendor",
+   "p": "street",
+   "o": "9527 Lakeview Road",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t58",
+   "s": "loc_vendor",
+   "p": "locality",
+   "o": "Tucson",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t59",
+   "s": "loc_vendor",
+   "p": "region",
+   "o": "AZ",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t60",
+   "s": "loc_vendor",
+   "p": "postalCode",
+   "o": "85701",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t61",
+   "s": "org_vendor",
+   "p": "Located_At",
+   "o": "loc_vendor",
+   "lit": false,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t62",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S1",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t63",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t64",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Urgent: payment timing",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t65",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-02-09T17:30:00Z",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t66",
+   "s": "chat_msg_0",
+   "p": "from",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t67",
+   "s": "chat_msg_0",
+   "p": "to",
+   "o": "handle_person_2",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t68",
+   "s": "chat_msg_0",
+   "p": "sentTime",
+   "o": "2025-01-09T13:50:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t69",
+   "s": "chat_msg_0",
+   "p": "messageText",
+   "o": "Send me the new form when you can.",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t70",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t71",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t72",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t73",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t74",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t75",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t76",
+   "s": "email_account_person_3",
+   "p": "emailAddress",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t77",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_account_person_3",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t78",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t79",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t80",
+   "s": "acct_insider",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D1.S10",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t81",
+   "s": "person_2",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t82",
+   "s": "chat_thread",
+   "p": "name",
+   "o": "#finance-ops",
+   "lit": true,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t83",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  }
+ ],
+ "relationship_count": 22,
+ "relationship_count_total": 28,
+ "documents": {
+  "D1": "memo",
+  "D2": "email",
+  "D3": "chat"
+ },
+ "seed": 20260202
+}

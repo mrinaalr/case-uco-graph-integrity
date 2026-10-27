@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Copperfield Components Inc. employs Wesley Vance, who can be reached at wesley.vance@copperfield.com. [D1.S3] Copperfield Components Inc. employs Owen Lindqvist, who can be reached at olindqvist@copperfield.com. [D1.S4] Irene Delgado is employed by Bluegate Consulting LLC; their email is idelgado@bluegate.com.
+
+[D1.S5] Copperfield Components Inc. is based at 3653 Market Street, Omaha, NE 68102. [D1.S6] Bluegate Consulting LLC is based at 9193 Lakeview Road, Spokane, WA 99201.
+
+[D1.S7] Account 8712048342 at Union Ledger Bank belongs to Copperfield Components Inc. [D1.S8] Account 6126435796 at Union Ledger Bank belongs to Bluegate Consulting LLC. [D1.S9] Union Ledger Bank account 5199904067 is registered to Owen Lindqvist.
+
+[D1.S10] More detail will follow once records are pulled.

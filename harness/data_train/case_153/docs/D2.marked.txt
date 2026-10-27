@@ -1,0 +1,11 @@
+[D2.S1] From: samuel.lindqvist@harborline.com
+[D2.S2] To: nquinn@westmark.com, hkowalski@westmark.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Tue, 17 Jun 2025 13:25:00 +0000
+
+[D2.S5] Hi Nadia,
+
+[D2.S6] Nadia Quinn started the audit review on June 7, 2025 at 14:10 UTC. [D2.S7] The payment approval was initiated by Mei Ivanova on 10 June 2025, 16:50 UTC. [D2.S8] The payment approval took place at the Westmark Components Ltd. office. [D2.S9] On June 17, 2025 at 11:25 UTC, Hannah Kowalski initiated the vendor onboarding. [D2.S10] Samuel Lindqvist was involved in the vendor onboarding as well.
+
+[D2.S11] Thanks,
+[D2.S12] Samuel

@@ -1,0 +1,11 @@
+From: skowalski@oakhaven.com
+To: grace.fischer@oakhaven.com, julian.vance@brightwater.com
+Subject: Urgent: payment timing
+Date: Wed, 29 Oct 2025 15:30:00 +0000
+Hi Grace,
+Grace Fischer started the expense reimbursement on 14 October 2025, 16:25 UTC. The expense
+reimbursement happened at Oakhaven Distribution Group's office. On October 29, 2025 at 12:00 UTC,
+Samuel Kowalski initiated the bank detail change. The payment approval was initiated by Julian Vance
+on October 29, 2025 at 13:30 UTC.
+Thanks,
+Samuel

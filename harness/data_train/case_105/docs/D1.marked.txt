@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Rosa Whitfield is employed by Ironleaf Analytics Co.; their email is rwhitfield@ironleaf.com. [D1.S3] Ironleaf Analytics Co. employs Elena Haddad, who can be reached at ehaddad@ironleaf.com. [D1.S4] Grace Holloway is employed by Ironleaf Analytics Co.; their email is grace.holloway@ironleaf.com. [D1.S5] Felix Okafor works for Copperfield Consulting Inc. and uses the address fokafor@copperfield.com.
+
+[D1.S6] Ironleaf Analytics Co. is based at 1967 Elm Street, Tucson, AZ 85701.
+
+[D1.S7] Account 5508012415 at Lakeshore Savings Bank belongs to Ironleaf Analytics Co. [D1.S8] Copperfield Consulting Inc. holds account 6300084532 at Lakeshore Savings Bank. [D1.S9] Elena Haddad holds account 5604097080 at Lakeshore Savings Bank.
+
+[D1.S10] Please treat this as confidential.

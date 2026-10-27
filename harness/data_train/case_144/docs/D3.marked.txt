@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @oscard is Oscar Delgado.
+[D3.S3] @yarab is Yara Brennan.
+[D3.S4] [2025-01-18 14:45 UTC] @oscard to @yarab: Send me the new form when you can.
+[D3.S5] [2025-01-18 14:52 UTC] @yarab to @oscard: Finance is asking questions again.

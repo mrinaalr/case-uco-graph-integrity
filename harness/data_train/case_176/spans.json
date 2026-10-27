@@ -1,0 +1,428 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Owen Banerjee works for Bluegate Fabrication Co. and uses the address obanerjee@bluegate.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t64",
+   "t65",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 228,
+  "text": "Clara Whitfield is employed by Bluegate Fabrication Co.; their email is cwhitfield@bluegate.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t66",
+   "t67",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 229,
+  "end": 325,
+  "text": "Redfern Components Co. employs Marcus Ivanova, who can be reached at marcus.ivanova@redfern.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t68",
+   "t69",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 327,
+  "end": 407,
+  "text": "Bluegate Fabrication Co. is based at 3504 Riverside Boulevard, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 409,
+  "end": 498,
+  "text": "Granite Federal Credit Union account 7623404513 is registered to Bluegate Fabrication Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t70",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 499,
+  "end": 586,
+  "text": "Granite Federal Credit Union account 7756575129 is registered to Redfern Components Co.",
+  "tids": [
+   "t25",
+   "t26",
+   "t71",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 587,
+  "end": 668,
+  "text": "Granite Federal Credit Union account 5655783451 is registered to Clara Whitfield.",
+  "tids": [
+   "t28",
+   "t29",
+   "t72",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 670,
+  "end": 727,
+  "text": "Account 7623404513 sent a transfer to account 5655783451.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 728,
+  "end": 786,
+  "text": "Funds moved from account 7623404513 to account 7756575129.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 787,
+  "end": 852,
+  "text": "Owen Banerjee had been in contact with Marcus Ivanova throughout.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_0",
+   "person_2"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 854,
+  "end": 888,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: cwhitfield@bluegate.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 60,
+  "text": "To: marcus.ivanova@redfern.com",
+  "tids": [
+   "t49",
+   "t73"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 61,
+  "end": 92,
+  "text": "Subject: Invoice 1201 follow-up",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Sat, 15 Nov 2025 17:50:00 +0000",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 142,
+  "text": "Hi Marcus,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 144,
+  "end": 219,
+  "text": "On October 21, 2025 at 14:50 UTC, Owen Banerjee initiated the audit review.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 220,
+  "end": 300,
+  "text": "On 3 November 2025, 17:50 UTC, Clara Whitfield initiated the invoice submission.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 301,
+  "end": 363,
+  "text": "Marcus Ivanova was involved in the invoice submission as well.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 364,
+  "end": 437,
+  "text": "Clara Whitfield started the wire transfer on 15 November 2025, 15:50 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 438,
+  "end": 502,
+  "text": "The wire transfer happened at Bluegate Fabrication Co.'s office.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 504,
+  "end": 511,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 512,
+  "end": 517,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t74"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@owenb is Owen Banerjee.",
+  "tids": [
+   "t40",
+   "t39"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 78,
+  "text": "@claraw is Clara Whitfield.",
+  "tids": [
+   "t42",
+   "t41"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 159,
+  "text": "[2025-10-21 15:50 UTC] @owenb to @claraw: I pushed it through, check your inbox.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54",
+   "t55",
+   "t75"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 160,
+  "end": 242,
+  "text": "[2025-10-21 15:57 UTC] @claraw to @owenb: Let's keep this between us until Friday.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58",
+   "t59",
+   "t76"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 243,
+  "end": 312,
+  "text": "[2025-10-21 16:04 UTC] @owenb to @claraw: Did the bank call back yet?",
+  "tids": [
+   "t60",
+   "t61",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ }
+}

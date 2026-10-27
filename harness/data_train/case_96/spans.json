@@ -1,0 +1,441 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Kofi Castillo is employed by Harborline Logistics Co.; their email is kofi.castillo@harborline.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t70",
+   "t71",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 235,
+  "text": "Wesley Novak is employed by Harborline Logistics Co.; their email is wesley.novak@harborline.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t72",
+   "t73",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 236,
+  "end": 330,
+  "text": "Irene Fischer is employed by Harborline Logistics Co.; their email is ifischer@harborline.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t74",
+   "t75",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 331,
+  "end": 429,
+  "text": "Clara Okafor is employed by Silverlake Logistics Ltd.; their email is clara.okafor@silverlake.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t76",
+   "t77",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 430,
+  "end": 528,
+  "text": "Felix Moreau works for Silverlake Logistics Ltd. and uses the address felix.moreau@silverlake.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t78",
+   "t79",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 530,
+  "end": 607,
+  "text": "Harborline Logistics Co. operates from 4672 Market Street, Raleigh, NC 27601.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 609,
+  "end": 684,
+  "text": "Account 4175076294 at Union Ledger Bank belongs to Harborline Logistics Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t80",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 685,
+  "end": 761,
+  "text": "Account 4622296393 at Union Ledger Bank belongs to Silverlake Logistics Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t81",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 763,
+  "end": 811,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: wesley.novak@harborline.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 61,
+  "text": "To: ifischer@harborline.com",
+  "tids": [
+   "t55",
+   "t82"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 62,
+  "end": 98,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Tue, 18 Mar 2025 12:15:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 147,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 233,
+  "text": "The vendor onboarding was initiated by Irene Fischer on 16 February 2025, 15:50 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 234,
+  "end": 303,
+  "text": "Clara Okafor started the audit review on 24 February 2025, 12:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 304,
+  "end": 367,
+  "text": "The audit review happened at Harborline Logistics Co.'s office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 368,
+  "end": 443,
+  "text": "On 25 February 2025, 15:50 UTC, Irene Fischer initiated the refund request.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 444,
+  "end": 500,
+  "text": "Felix Moreau was involved in the refund request as well.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_4",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 501,
+  "end": 579,
+  "text": "On 18 March 2025, 10:15 UTC, Clara Okafor initiated the expense reimbursement.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 580,
+  "end": 656,
+  "text": "The expense reimbursement took place at the Harborline Logistics Co. office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 658,
+  "end": 665,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 666,
+  "end": 672,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t83"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@kofic is Kofi Castillo.",
+  "tids": [
+   "t48",
+   "t47"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@clarao is Clara Okafor.",
+  "tids": [
+   "t50",
+   "t49"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 156,
+  "text": "[2025-02-16 16:50 UTC] @kofic to @clarao: I pushed it through, check your inbox.",
+  "tids": [
+   "t58",
+   "t59",
+   "t60",
+   "t61",
+   "t84"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 239,
+  "text": "[2025-02-16 16:57 UTC] @clarao to @kofic: Let's keep this between us until Friday.",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65",
+   "t85"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 240,
+  "end": 309,
+  "text": "[2025-02-16 17:04 UTC] @kofic to @clarao: Did the bank call back yet?",
+  "tids": [
+   "t66",
+   "t67",
+   "t68",
+   "t69"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ }
+}

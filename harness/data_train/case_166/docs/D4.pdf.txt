@@ -1,0 +1,7 @@
+Incident summary
+Account 6484155564 at Union Ledger Bank belongs to Clearpath Analytics Co. Northwind Distribution
+Group holds account 3826115039 at Union Ledger Bank.
+The vendor onboarding was initiated by Arjun Quinn on 2 May 2025, 12:25 UTC. The contract
+amendment was initiated by Julian Sorensen on 13 May 2025, 14:50 UTC. Arjun Quinn had been in
+contact with Sofia Ivanova throughout.
+This summary reflects records available to date.

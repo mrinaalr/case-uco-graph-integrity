@@ -1,0 +1,455 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 134,
+  "text": "Marcus Kowalski is employed by Oakhaven Supply LLC; their email is marcus.kowalski@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 224,
+  "text": "Desmond Brennan is employed by Oakhaven Supply LLC; their email is dbrennan@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t68",
+   "t69",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 225,
+  "end": 312,
+  "text": "Oscar Ivanova is employed by Oakhaven Supply LLC; their email is oivanova@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t70",
+   "t71",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 313,
+  "end": 414,
+  "text": "Arjun Haddad works for Copperfield Packaging Group and uses the address arjun.haddad@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 416,
+  "end": 457,
+  "text": "Oscar Ivanova reports to Marcus Kowalski.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 459,
+  "end": 529,
+  "text": "Oakhaven Supply LLC operates from 8029 Lakeview Road, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 531,
+  "end": 604,
+  "text": "Account 9902781821 at Meridian Trust Bank belongs to Oakhaven Supply LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t74",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 605,
+  "end": 689,
+  "text": "Meridian Trust Bank account 9033561083 is registered to Copperfield Packaging Group.",
+  "tids": [
+   "t29",
+   "t30",
+   "t75",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 691,
+  "end": 749,
+  "text": "Funds moved from account 9902781821 to account 9033561083.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 751,
+  "end": 785,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: dbrennan@oakhaven.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 83,
+  "text": "To: oivanova@oakhaven.com, marcus.kowalski@oakhaven.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 84,
+  "end": 115,
+  "text": "Subject: Invoice 3932 follow-up",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 116,
+  "end": 153,
+  "text": "Date: Fri, 20 Jun 2025 19:45:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 155,
+  "end": 164,
+  "text": "Hi Oscar,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 241,
+  "text": "Oscar Ivanova started the account reconciliation on 3 June 2025, 17:50 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 242,
+  "end": 310,
+  "text": "The account reconciliation happened at Oakhaven Supply LLC's office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 311,
+  "end": 396,
+  "text": "The invoice submission was initiated by Marcus Kowalski on June 4, 2025 at 10:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 397,
+  "end": 458,
+  "text": "Oscar Ivanova was involved in the invoice submission as well.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 459,
+  "end": 523,
+  "text": "The invoice submission happened at Oakhaven Supply LLC's office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 524,
+  "end": 597,
+  "text": "Marcus Kowalski started the vendor onboarding on 11 June 2025, 10:15 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 598,
+  "end": 661,
+  "text": "The vendor onboarding happened at Oakhaven Supply LLC's office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 662,
+  "end": 737,
+  "text": "On June 20, 2025 at 14:45 UTC, Marcus Kowalski initiated the wire transfer.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 738,
+  "end": 824,
+  "text": "The expense reimbursement was initiated by Desmond Brennan on 20 June 2025, 17:45 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 825,
+  "end": 892,
+  "text": "Desmond Brennan communicated with Oscar Ivanova about the payments.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "person_2"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 894,
+  "end": 901,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 902,
+  "end": 909,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t77"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 55,
+  "text": "@desmondb is Desmond Brennan.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 56,
+  "end": 81,
+  "text": "@oscari is Oscar Ivanova.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 82,
+  "end": 154,
+  "text": "[2025-06-03 18:50 UTC] @desmondb to @oscari: Did the bank call back yet?",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_2"
+  ]
+ }
+}

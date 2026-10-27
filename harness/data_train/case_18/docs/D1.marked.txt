@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Sofia Tanaka works for Silverlake Industrial Group and uses the address sofia.tanaka@silverlake.com. [D1.S3] Irene Quinn works for Silverlake Industrial Group and uses the address irene.quinn@silverlake.com. [D1.S4] Ironleaf Distribution Co. employs Kofi Novak, who can be reached at knovak@ironleaf.com.
+
+[D1.S5] Silverlake Industrial Group is based at 1576 Lakeview Road, Madison, WI 53703.
+
+[D1.S6] Pinecrest National Bank account 2975707411 is registered to Silverlake Industrial Group. [D1.S7] Account 1790451639 at Pinecrest National Bank belongs to Ironleaf Distribution Co.
+
+[D1.S8] Let me know if anything here looks off.

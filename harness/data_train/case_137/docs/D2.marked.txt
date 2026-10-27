@@ -1,0 +1,11 @@
+[D2.S1] From: sofia.holloway@oakhaven.com
+[D2.S2] To: acastillo@westmark.com, rquinn@oakhaven.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Sun, 02 Nov 2025 12:30:00 +0000
+
+[D2.S5] Hi Andre,
+
+[D2.S6] On 3 October 2025, 12:15 UTC, Sofia Holloway initiated the vendor onboarding. [D2.S7] On 19 October 2025, 13:30 UTC, Andre Castillo initiated the wire transfer. [D2.S8] The contract amendment was initiated by Rosa Quinn on 2 November 2025, 10:30 UTC.
+
+[D2.S9] Thanks,
+[D2.S10] Sofia

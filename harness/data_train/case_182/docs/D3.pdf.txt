@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@arjunh is Arjun Holloway.
+@mayah is Maya Haddad.
+[2025-02-14 10:15 UTC] @arjunh to @mayah: Let's keep this between us until Friday.
+[2025-02-14 10:22 UTC] @mayah to @arjunh: Did the bank call back yet?
+[2025-02-14 10:29 UTC] @arjunh to @mayah: Can you look at the vendor file before lunch?

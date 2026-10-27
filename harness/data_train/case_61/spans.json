@@ -1,0 +1,396 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Dana Vance works for Clearpath Distribution Co. and uses the address dana.vance@clearpath.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 221,
+  "text": "Maya Park is employed by Clearpath Distribution Co.; their email is mpark@clearpath.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t64",
+   "t65",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 312,
+  "text": "Yara Reyes is employed by Clearpath Distribution Co.; their email is yreyes@clearpath.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t66",
+   "t67",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 313,
+  "end": 409,
+  "text": "Mei Delgado is employed by Stonebridge Services LLC; their email is mei.delgado@stonebridge.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 410,
+  "end": 504,
+  "text": "Stonebridge Services LLC employs Luca Abara, who can be reached at luca.abara@stonebridge.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t70",
+   "t71",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 506,
+  "end": 593,
+  "text": "The offices of Clearpath Distribution Co. are at 3528 Harbor Avenue, Raleigh, NC 27601.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 595,
+  "end": 634,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: luca.abara@stonebridge.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 57,
+  "text": "To: yreyes@clearpath.com",
+  "tids": [
+   "t55",
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 58,
+  "end": 89,
+  "text": "Subject: Invoice 2158 follow-up",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 127,
+  "text": "Date: Sun, 20 Apr 2025 13:50:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 137,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 139,
+  "end": 220,
+  "text": "The vendor onboarding was initiated by Yara Reyes on March 28, 2025 at 14:15 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 221,
+  "end": 296,
+  "text": "Dana Vance started the expense reimbursement on April 6, 2025 at 09:50 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 297,
+  "end": 371,
+  "text": "On 20 April 2025, 11:50 UTC, Mei Delgado initiated the bank detail change.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 373,
+  "end": 380,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 381,
+  "end": 385,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t73"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 47,
+  "text": "@yarar is Yara Reyes.",
+  "tids": [
+   "t51",
+   "t50"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 48,
+  "end": 68,
+  "text": "@mayap is Maya Park.",
+  "tids": [
+   "t53",
+   "t52"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 69,
+  "end": 148,
+  "text": "[2025-03-28 15:15 UTC] @yarar to @mayap: I pushed it through, check your inbox.",
+  "tids": [
+   "t58",
+   "t59",
+   "t60",
+   "t61",
+   "t74"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_1"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 98,
+  "text": "Union Ledger Bank account 8631365741 is registered to Clearpath Distribution Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t75",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 99,
+  "end": 170,
+  "text": "Stonebridge Services LLC holds account 7084732956 at Union Ledger Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t76",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 172,
+  "end": 251,
+  "text": "The invoice submission was initiated by Mei Delgado on 3 April 2025, 16:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 252,
+  "end": 331,
+  "text": "The contract amendment was initiated by Luca Abara on 16 April 2025, 10:00 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 333,
+  "end": 381,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

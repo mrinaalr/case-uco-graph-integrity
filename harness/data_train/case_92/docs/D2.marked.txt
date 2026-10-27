@@ -1,0 +1,11 @@
+[D2.S1] From: ruth.delgado@redfern.com
+[D2.S2] To: vabara@redfern.com, aquinn@ironleaf.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Sat, 21 Jun 2025 19:10:00 +0000
+
+[D2.S5] Hi Victor,
+
+[D2.S6] The audit review was initiated by Hector Sorensen on May 28, 2025 at 10:15 UTC. [D2.S7] On 5 June 2025, 15:30 UTC, Victor Abara initiated the account reconciliation. [D2.S8] The invoice submission was initiated by Hector Sorensen on 15 June 2025, 17:45 UTC. [D2.S9] The refund request was initiated by Hector Sorensen on June 21, 2025 at 17:10 UTC.
+
+[D2.S10] Thanks,
+[D2.S11] Ruth

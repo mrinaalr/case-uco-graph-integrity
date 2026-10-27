@@ -1,0 +1,11 @@
+[D2.S1] From: tcastillo@silverlake.com
+[D2.S2] To: owen.reyes@summitpeak.com, oscar.okafor@summitpeak.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Mon, 28 Jul 2025 11:45:00 +0000
+
+[D2.S5] Hi Owen,
+
+[D2.S6] The payment approval was initiated by Oscar Okafor on 9 July 2025, 12:15 UTC. [D2.S7] Oscar Okafor started the refund request on 11 July 2025, 09:30 UTC. [D2.S8] Tomas Castillo started the expense reimbursement on 12 July 2025, 17:45 UTC. [D2.S9] Oscar Okafor also took part in the expense reimbursement. [D2.S10] The expense reimbursement took place at the Summit Peak Tooling Co. office. [D2.S11] Owen Reyes started the wire transfer on 19 July 2025, 12:15 UTC. [D2.S12] Tomas Castillo was involved in the wire transfer as well. [D2.S13] Tomas Castillo started the account reconciliation on July 21, 2025 at 13:15 UTC. [D2.S14] On July 22, 2025 at 13:50 UTC, Owen Reyes initiated the audit review. [D2.S15] Tomas Castillo started the bank detail change on July 28, 2025 at 09:45 UTC.
+
+[D2.S16] Thanks,
+[D2.S17] Tomas

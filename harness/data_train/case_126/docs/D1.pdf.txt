@@ -1,0 +1,9 @@
+INTERNAL MEMO: Vendor payment review
+Wesley Delgado works for Summit Peak Services Co. and uses the address
+wdelgado@summitpeak.com. Summit Peak Services Co. employs Samuel Vance, who can be reached
+at samuel.vance@summitpeak.com. Grace Haddad works for Summit Peak Services Co. and uses the
+address grace.haddad@summitpeak.com. Arjun Tanaka is employed by Westmark Analytics Co.; their
+email is atanaka@westmark.com.
+Samuel Vance reports to Wesley Delgado. Grace Haddad's manager is Wesley Delgado.
+Summit Peak Services Co. is based at 8066 Maple Avenue, Dayton, OH 45402.
+Please treat this as confidential.

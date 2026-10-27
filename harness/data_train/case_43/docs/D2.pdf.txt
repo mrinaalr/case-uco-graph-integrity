@@ -1,0 +1,13 @@
+From: vpetrov@ironleaf.com
+To: wesley.novak@ironleaf.com, nadia.ivanova@ironleaf.com
+Subject: Updated remittance details
+Date: Sat, 23 Aug 2025 19:10:00 +0000
+Hi Wesley,
+Victor Petrov started the bank detail change on 17 July 2025, 12:25 UTC. Wesley Novak authorized the
+bank detail change. The audit review was initiated by Victor Petrov on 18 July 2025, 13:50 UTC. Nadia
+Ivanova started the expense reimbursement on August 2, 2025 at 16:15 UTC. The account
+reconciliation was initiated by Oscar Whitfield on August 5, 2025 at 10:15 UTC. Victor Petrov was
+involved in the account reconciliation as well. Victor Petrov started the refund request on 23 August
+2025, 17:10 UTC.
+Thanks,
+Victor

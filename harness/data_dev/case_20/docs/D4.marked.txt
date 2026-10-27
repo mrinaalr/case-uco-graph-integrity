@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Brightwater Fabrication Group holds account 5149195714 at Pinecrest National Bank. [D4.S3] Account 1192048693 at Pinecrest National Bank belongs to Westmark Supply Ltd. [D4.S4] Grace Castillo holds account 5739047847 at Pinecrest National Bank.
+
+[D4.S5] On July 31, 2025 at 11:45 UTC, Grace Castillo initiated the refund request.
+
+[D4.S6] More detail will follow once records are pulled.

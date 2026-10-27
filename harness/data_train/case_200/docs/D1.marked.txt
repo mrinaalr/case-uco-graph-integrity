@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Elena Tanaka works for Silverlake Analytics Co. and uses the address elena.tanaka@silverlake.com. [D1.S3] Luca Reyes is employed by Silverlake Analytics Co.; their email is luca.reyes@silverlake.com. [D1.S4] Wesley Mendes works for Cedar Ridge Tooling Co. and uses the address wesley.mendes@cedarridge.com.
+
+[D1.S5] Luca Reyes reports to Elena Tanaka.
+
+[D1.S6] The offices of Silverlake Analytics Co. are at 6110 Main Street, Omaha, NE 68102. [D1.S7] Cedar Ridge Tooling Co. operates from 6597 Riverside Boulevard, Boise, ID 83702.
+
+[D1.S8] Lakeshore Savings Bank account 9606887046 is registered to Silverlake Analytics Co. [D1.S9] Account 7033519889 at Lakeshore Savings Bank belongs to Cedar Ridge Tooling Co.
+
+[D1.S10] More detail will follow once records are pulled.

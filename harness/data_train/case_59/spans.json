@@ -1,0 +1,429 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 122,
+  "text": "Priya Osei works for Ironleaf Packaging Co. and uses the address posei@ironleaf.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t59",
+   "t60",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 123,
+  "end": 216,
+  "text": "Hector Sorensen works for Ironleaf Packaging Co. and uses the address hsorensen@ironleaf.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t61",
+   "t62",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 217,
+  "end": 314,
+  "text": "Ironleaf Packaging Co. employs Hannah Delgado, who can be reached at hannah.delgado@ironleaf.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t63",
+   "t64",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 315,
+  "end": 413,
+  "text": "Tomas Holloway works for Bluegate Packaging Ltd. and uses the address tomas.holloway@bluegate.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t65",
+   "t66",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 414,
+  "end": 506,
+  "text": "Oscar Reyes is employed by Bluegate Packaging Ltd.; their email is oscar.reyes@bluegate.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t67",
+   "t68",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 508,
+  "end": 596,
+  "text": "The offices of Ironleaf Packaging Co. are at 3023 Riverside Boulevard, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 598,
+  "end": 661,
+  "text": "Oscar Reyes had been in contact with Hannah Delgado throughout.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_4",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 663,
+  "end": 711,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: oscar.reyes@bluegate.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 57,
+  "text": "To: hsorensen@ironleaf.com",
+  "tids": [
+   "t56",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 58,
+  "end": 98,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Thu, 05 Jun 2025 15:15:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 148,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 150,
+  "end": 228,
+  "text": "On May 27, 2025 at 16:10 UTC, Hector Sorensen initiated the vendor onboarding.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 229,
+  "end": 299,
+  "text": "The vendor onboarding took place at the Ironleaf Packaging Co. office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 300,
+  "end": 375,
+  "text": "Tomas Holloway started the bank detail change on June 5, 2025 at 13:15 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 376,
+  "end": 422,
+  "text": "Oscar Reyes authorized the bank detail change.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_4",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 423,
+  "end": 486,
+  "text": "Hector Sorensen was involved in the bank detail change as well.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 488,
+  "end": 495,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 496,
+  "end": 501,
+  "text": "Oscar",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 87,
+  "text": "Ironleaf Packaging Co. holds account 1428204403 at First Harbor Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t70",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 88,
+  "end": 162,
+  "text": "Account 1147777168 at First Harbor Bank belongs to Bluegate Packaging Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t71",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 164,
+  "end": 242,
+  "text": "On May 28, 2025 at 12:50 UTC, Priya Osei initiated the account reconciliation.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 243,
+  "end": 303,
+  "text": "Tomas Holloway also took part in the account reconciliation.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 304,
+  "end": 375,
+  "text": "The account reconciliation happened at Ironleaf Packaging Co.'s office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 376,
+  "end": 455,
+  "text": "On June 11, 2025 at 14:45 UTC, Hannah Delgado initiated the contract amendment.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 456,
+  "end": 501,
+  "text": "Priya Osei authorized the contract amendment.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 502,
+  "end": 559,
+  "text": "Account 1428204403 sent a transfer to account 1147777168.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 561,
+  "end": 609,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

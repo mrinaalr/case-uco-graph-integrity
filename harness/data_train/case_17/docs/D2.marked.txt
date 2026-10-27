@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Arjun Lindqvist is employed by Redfern Logistics LLC; their email is alindqvist@redfern.com. [D2.S3] Redfern Logistics LLC employs Dana Brennan, who can be reached at dana.brennan@redfern.com. [D2.S4] Redfern Logistics LLC employs Samuel Park, who can be reached at spark@redfern.com. [D2.S5] Marcus Delgado is employed by Stonebridge Consulting LLC; their email is mdelgado@stonebridge.com.
+
+[D2.S6] Samuel Park's manager is Arjun Lindqvist.
+
+[D2.S7] Redfern Logistics LLC is based at 8237 Maple Avenue, Spokane, WA 99201.
+
+[D2.S8] This summary reflects records available to date.

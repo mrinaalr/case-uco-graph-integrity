@@ -1,0 +1,395 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Copperfield Supply Co. employs Irene Brennan, who can be reached at irene.brennan@copperfield.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t65",
+   "t66",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 239,
+  "text": "Copperfield Supply Co. employs Wesley Sorensen, who can be reached at wesley.sorensen@copperfield.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t67",
+   "t68",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 240,
+  "end": 335,
+  "text": "Sofia Ashworth works for Copperfield Supply Co. and uses the address sashworth@copperfield.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t69",
+   "t70",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 336,
+  "end": 428,
+  "text": "Hannah Tanaka is employed by Oakhaven Components Group; their email is htanaka@oakhaven.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t71",
+   "t72",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 429,
+  "end": 522,
+  "text": "Priya Delgado is employed by Oakhaven Components Group; their email is pdelgado@oakhaven.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t73",
+   "t74",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 524,
+  "end": 596,
+  "text": "Copperfield Supply Co. operates from 923 Harbor Avenue, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 598,
+  "end": 673,
+  "text": "Account 1575452000 at Meridian Trust Bank belongs to Copperfield Supply Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t75",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 674,
+  "end": 748,
+  "text": "Oakhaven Components Group holds account 1394084560 at Meridian Trust Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t76",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 749,
+  "end": 819,
+  "text": "Meridian Trust Bank account 1658622616 is registered to Irene Brennan.",
+  "tids": [
+   "t36",
+   "t37",
+   "t77",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 821,
+  "end": 878,
+  "text": "Account 1575452000 sent a transfer to account 1658622616.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 880,
+  "end": 928,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: htanaka@oakhaven.com",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 52,
+  "text": "To: pdelgado@oakhaven.com",
+  "tids": [
+   "t62",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 53,
+  "end": 84,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 85,
+  "end": 122,
+  "text": "Date: Mon, 14 Apr 2025 15:30:00 +0000",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 124,
+  "end": 133,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 211,
+  "text": "On March 10, 2025 at 09:50 UTC, Sofia Ashworth initiated the refund request.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 212,
+  "end": 297,
+  "text": "The expense reimbursement was initiated by Irene Brennan on 16 March 2025, 12:25 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 298,
+  "end": 381,
+  "text": "The payment approval was initiated by Hannah Tanaka on March 22, 2025 at 15:30 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 382,
+  "end": 460,
+  "text": "On 26 March 2025, 09:30 UTC, Wesley Sorensen initiated the bank detail change.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 461,
+  "end": 521,
+  "text": "Approval for the bank detail change came from Hannah Tanaka.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_3",
+   "event_3"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 522,
+  "end": 603,
+  "text": "The contract amendment was initiated by Priya Delgado on 6 April 2025, 13:45 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_4"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 604,
+  "end": 694,
+  "text": "The account reconciliation was initiated by Sofia Ashworth on April 14, 2025 at 09:15 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 695,
+  "end": 770,
+  "text": "On 14 April 2025, 13:30 UTC, Priya Delgado initiated the vendor onboarding.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_4"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 772,
+  "end": 779,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 780,
+  "end": 786,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ }
+}

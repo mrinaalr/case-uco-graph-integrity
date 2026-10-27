@@ -1,0 +1,412 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: andre.osei@copperfield.com",
+  "tids": [
+   "t52",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 56,
+  "text": "To: anovak@bluegate.com",
+  "tids": [
+   "t53",
+   "t61",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 57,
+  "end": 92,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Tue, 11 Mar 2025 15:25:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 141,
+  "text": "Hi Arjun,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 143,
+  "end": 216,
+  "text": "Andre Osei started the bank detail change on 12 February 2025, 14:30 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 217,
+  "end": 296,
+  "text": "Hector Reyes started the account reconciliation on 21 February 2025, 10:25 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42",
+   "t5"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 297,
+  "end": 365,
+  "text": "Hector Reyes started the refund request on 11 March 2025, 13:25 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 367,
+  "end": 374,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 375,
+  "end": 380,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 129,
+  "text": "Priya Brennan is employed by Bluegate Analytics Ltd.; their email is pbrennan@bluegate.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 218,
+  "text": "Bluegate Analytics Ltd. employs Hector Reyes, who can be reached at hreyes@bluegate.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 219,
+  "end": 306,
+  "text": "Bluegate Analytics Ltd. employs Arjun Novak, who can be reached at anovak@bluegate.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 307,
+  "end": 401,
+  "text": "Copperfield Freight Ltd. employs Andre Osei, who can be reached at andre.osei@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 403,
+  "end": 487,
+  "text": "The offices of Bluegate Analytics Ltd. are at 5071 Lakeview Road, Spokane, WA 99201.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 489,
+  "end": 565,
+  "text": "Account 2377476882 at Meridian Trust Bank belongs to Bluegate Analytics Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 566,
+  "end": 646,
+  "text": "Meridian Trust Bank account 5258634124 is registered to Copperfield Freight Ltd.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 647,
+  "end": 717,
+  "text": "Meridian Trust Bank account 9559267538 is registered to Priya Brennan.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 719,
+  "end": 767,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: pbrennan@bluegate.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 72,
+  "text": "To: anovak@bluegate.com, hreyes@bluegate.com",
+  "tids": [
+   "t57",
+   "t58",
+   "t73",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 73,
+  "end": 106,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 107,
+  "end": 144,
+  "text": "Date: Fri, 14 Mar 2025 17:00:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 146,
+  "end": 155,
+  "text": "Hi Arjun,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 233,
+  "text": "On 13 February 2025, 09:00 UTC, Arjun Novak initiated the vendor onboarding.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 234,
+  "end": 313,
+  "text": "On 27 February 2025, 11:00 UTC, Priya Brennan initiated the invoice submission.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 314,
+  "end": 390,
+  "text": "Priya Brennan started the expense reimbursement on 14 March 2025, 15:00 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 392,
+  "end": 399,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 400,
+  "end": 405,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ }
+}

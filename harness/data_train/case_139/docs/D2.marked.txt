@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Dana Tanaka is employed by Ironleaf Tooling Group; their email is dtanaka@ironleaf.com. [D2.S3] Priya Vance is employed by Ironleaf Tooling Group; their email is priya.vance@ironleaf.com. [D2.S4] Tomas Ashworth is employed by Ironleaf Tooling Group; their email is tashworth@ironleaf.com. [D2.S5] Bluegate Freight Inc. employs Felix Park, who can be reached at felix.park@bluegate.com. [D2.S6] Desmond Mendes works for Bluegate Freight Inc. and uses the address dmendes@bluegate.com.
+
+[D2.S7] Tomas Ashworth's manager is Dana Tanaka. [D2.S8] Priya Vance's manager is Dana Tanaka.
+
+[D2.S9] Ironleaf Tooling Group operates from 3306 Harbor Avenue, Raleigh, NC 27601.
+
+[D2.S10] Ironleaf Tooling Group holds account 5641484885 at Meridian Trust Bank. [D2.S11] Meridian Trust Bank account 7420064005 is registered to Bluegate Freight Inc. [D2.S12] Priya Vance holds account 9189371618 at Meridian Trust Bank.
+
+[D2.S13] Let me know if anything here looks off.

@@ -1,0 +1,11 @@
+From: hfischer@harborline.com
+To: nhaddad@summitpeak.com
+Subject: Audit prep items
+Date: Wed, 20 Aug 2025 11:45:00 +0000
+
+Hi Nadia,
+
+Dana Sorensen started the expense reimbursement on July 13, 2025 at 14:25 UTC. The account reconciliation was initiated by Samuel Moreau on July 20, 2025 at 16:45 UTC. The refund request was initiated by Hannah Fischer on July 24, 2025 at 14:30 UTC. On July 28, 2025 at 09:30 UTC, Priya Park initiated the audit review. On 5 August 2025, 13:30 UTC, Hannah Fischer initiated the wire transfer. Hannah Fischer started the invoice submission on August 8, 2025 at 11:00 UTC. Priya Park was involved in the invoice submission as well. The vendor onboarding was initiated by Priya Park on August 16, 2025 at 15:50 UTC. On August 20, 2025 at 09:45 UTC, Hannah Fischer initiated the bank detail change.
+
+Thanks,
+Hannah

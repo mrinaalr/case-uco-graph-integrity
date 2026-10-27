@@ -1,0 +1,11 @@
+[D3.S1] From: priya.osei@ironleaf.com
+[D3.S2] To: amoreau@redfern.com
+[D3.S3] Subject: Urgent: payment timing
+[D3.S4] Date: Tue, 03 Jun 2025 16:10:00 +0000
+
+[D3.S5] Hi Andre,
+
+[D3.S6] The expense reimbursement was initiated by Yara Lindqvist on 3 June 2025, 14:10 UTC.
+
+[D3.S7] Thanks,
+[D3.S8] Priya

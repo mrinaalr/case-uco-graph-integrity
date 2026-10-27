@@ -1,0 +1,468 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Samuel Brennan works for Northwind Freight LLC and uses the address samuel.brennan@northwind.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t76",
+   "t77",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 223,
+  "text": "Kofi Petrov is employed by Northwind Freight LLC; their email is kpetrov@northwind.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t78",
+   "t79",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 224,
+  "end": 315,
+  "text": "Luca Holloway works for Northwind Freight LLC and uses the address lholloway@northwind.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t80",
+   "t81",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 316,
+  "end": 410,
+  "text": "Priya Quinn is employed by Copperfield Industrial Inc.; their email is pquinn@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t82",
+   "t83",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 412,
+  "end": 492,
+  "text": "The offices of Northwind Freight LLC are at 9519 Harbor Avenue, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 494,
+  "end": 568,
+  "text": "Northwind Freight LLC holds account 4411586859 at Pinecrest National Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t84",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 569,
+  "end": 653,
+  "text": "Account 6917279053 at Pinecrest National Bank belongs to Copperfield Industrial Inc.",
+  "tids": [
+   "t29",
+   "t30",
+   "t85",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 655,
+  "end": 689,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: pquinn@copperfield.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 79,
+  "text": "To: kpetrov@northwind.com, lholloway@northwind.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t86",
+   "t87"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 80,
+  "end": 105,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 106,
+  "end": 143,
+  "text": "Date: Sat, 19 Apr 2025 19:50:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 145,
+  "end": 153,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 155,
+  "end": 229,
+  "text": "On 18 March 2025, 12:25 UTC, Priya Quinn initiated the bank detail change.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 230,
+  "end": 307,
+  "text": "On March 19, 2025 at 09:30 UTC, Priya Quinn initiated the contract amendment.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 308,
+  "end": 377,
+  "text": "Kofi Petrov started the refund request on April 6, 2025 at 11:00 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 378,
+  "end": 420,
+  "text": "Priya Quinn authorized the refund request.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_3",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 421,
+  "end": 497,
+  "text": "On April 9, 2025 at 12:00 UTC, Priya Quinn initiated the invoice submission.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 498,
+  "end": 576,
+  "text": "On 11 April 2025, 13:15 UTC, Priya Quinn initiated the account reconciliation.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 577,
+  "end": 651,
+  "text": "The account reconciliation took place at the Northwind Freight LLC office.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 652,
+  "end": 732,
+  "text": "On April 14, 2025 at 14:25 UTC, Priya Quinn initiated the expense reimbursement.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 733,
+  "end": 789,
+  "text": "Kofi Petrov also took part in the expense reimbursement.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 790,
+  "end": 866,
+  "text": "On April 19, 2025 at 17:50 UTC, Priya Quinn initiated the vendor onboarding.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 868,
+  "end": 875,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 876,
+  "end": 881,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t88"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 48,
+  "text": "@kofip is Kofi Petrov.",
+  "tids": [
+   "t53",
+   "t52"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 49,
+  "end": 76,
+  "text": "@samuelb is Samuel Brennan.",
+  "tids": [
+   "t55",
+   "t54"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 77,
+  "end": 158,
+  "text": "[2025-03-18 13:25 UTC] @kofip to @samuelb: I pushed it through, check your inbox.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67",
+   "t89"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 159,
+  "end": 242,
+  "text": "[2025-03-18 13:32 UTC] @samuelb to @kofip: Let's keep this between us until Friday.",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71",
+   "t90"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 243,
+  "end": 313,
+  "text": "[2025-03-18 13:39 UTC] @kofip to @samuelb: Did the bank call back yet?",
+  "tids": [
+   "t72",
+   "t73",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ }
+}

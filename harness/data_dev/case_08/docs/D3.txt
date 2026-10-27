@@ -1,0 +1,11 @@
+From: mhaddad@cedarridge.com
+To: dcastillo@clearpath.com, julian.mendes@clearpath.com
+Subject: Updated remittance details
+Date: Sat, 10 May 2025 19:00:00 +0000
+
+Hi Desmond,
+
+On 21 April 2025, 17:15 UTC, Marcus Haddad initiated the bank detail change. The payment approval was initiated by Julian Mendes on 4 May 2025, 14:50 UTC. Marcus Haddad started the refund request on May 10, 2025 at 17:00 UTC.
+
+Thanks,
+Marcus

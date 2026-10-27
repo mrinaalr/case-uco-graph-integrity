@@ -1,0 +1,11 @@
+[D2.S1] From: klindqvist@redfern.com
+[D2.S2] To: hector.abara@brightwater.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Sat, 19 Jul 2025 11:30:00 +0000
+
+[D2.S5] Hi Hector,
+
+[D2.S6] On 12 June 2025, 11:50 UTC, Clara Osei initiated the vendor onboarding. [D2.S7] The account reconciliation was initiated by Kofi Lindqvist on 12 June 2025, 16:25 UTC. [D2.S8] The invoice submission was initiated by Hector Abara on 19 June 2025, 10:10 UTC. [D2.S9] Kofi Lindqvist was involved in the invoice submission as well. [D2.S10] The invoice submission happened at Brightwater Fabrication Inc.'s office. [D2.S11] On July 19, 2025 at 09:30 UTC, Clara Osei initiated the payment approval.
+
+[D2.S12] Thanks,
+[D2.S13] Kofi

@@ -1,0 +1,11 @@
+From: julian.mendes@clearpath.com
+To: sfischer@cedarridge.com, mhaddad@cedarridge.com
+Subject: Urgent: payment timing
+Date: Mon, 12 May 2025 19:30:00 +0000
+
+Hi Sofia,
+
+The wire transfer was initiated by Kofi Abara on 10 April 2025, 10:30 UTC. The contract amendment was initiated by Desmond Castillo on May 1, 2025 at 14:50 UTC. The audit review was initiated by Marcus Haddad on May 6, 2025 at 16:15 UTC. The account reconciliation was initiated by Julian Mendes on 12 May 2025, 17:30 UTC.
+
+Thanks,
+Julian

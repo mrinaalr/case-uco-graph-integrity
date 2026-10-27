@@ -1,0 +1,481 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 125,
+  "text": "Redfern Consulting Inc. employs Victor Abara, who can be reached at vabara@redfern.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t80",
+   "t81",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 126,
+  "end": 219,
+  "text": "Hector Sorensen is employed by Redfern Consulting Inc.; their email is hsorensen@redfern.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t82",
+   "t83",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 220,
+  "end": 313,
+  "text": "Redfern Consulting Inc. employs Ruth Delgado, who can be reached at ruth.delgado@redfern.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t84",
+   "t85",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 314,
+  "end": 400,
+  "text": "Ironleaf Analytics LLC employs Andre Quinn, who can be reached at aquinn@ironleaf.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t86",
+   "t87",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 401,
+  "end": 490,
+  "text": "Ironleaf Analytics LLC employs Marcus Okafor, who can be reached at mokafor@ironleaf.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t88",
+   "t89",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 492,
+  "end": 570,
+  "text": "Redfern Consulting Inc. operates from 1732 Commerce Drive, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 572,
+  "end": 606,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: ruth.delgado@redfern.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 74,
+  "text": "To: vabara@redfern.com, aquinn@ironleaf.com",
+  "tids": [
+   "t64",
+   "t65",
+   "t90",
+   "t91"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 75,
+  "end": 110,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 111,
+  "end": 148,
+  "text": "Date: Sat, 21 Jun 2025 19:10:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 150,
+  "end": 160,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 162,
+  "end": 241,
+  "text": "The audit review was initiated by Hector Sorensen on May 28, 2025 at 10:15 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 242,
+  "end": 319,
+  "text": "On 5 June 2025, 15:30 UTC, Victor Abara initiated the account reconciliation.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 320,
+  "end": 403,
+  "text": "The invoice submission was initiated by Hector Sorensen on 15 June 2025, 17:45 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 404,
+  "end": 486,
+  "text": "The refund request was initiated by Hector Sorensen on June 21, 2025 at 17:10 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 488,
+  "end": 495,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 496,
+  "end": 500,
+  "text": "Ruth",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t92"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@victora is Victor Abara.",
+  "tids": [
+   "t60",
+   "t59"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 80,
+  "text": "@hectors is Hector Sorensen.",
+  "tids": [
+   "t62",
+   "t61"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 81,
+  "end": 153,
+  "text": "[2025-05-28 11:15 UTC] @victora to @hectors: Did the bank call back yet?",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71",
+   "t93"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 154,
+  "end": 244,
+  "text": "[2025-05-28 11:22 UTC] @hectors to @victora: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t72",
+   "t73",
+   "t74",
+   "t75",
+   "t94"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 245,
+  "end": 324,
+  "text": "[2025-05-28 11:29 UTC] @victora to @hectors: Send me the new form when you can.",
+  "tids": [
+   "t76",
+   "t77",
+   "t78",
+   "t79"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 103,
+  "text": "Account 1176048021 at Granite Federal Credit Union belongs to Redfern Consulting Inc.",
+  "tids": [
+   "t30",
+   "t31",
+   "t95",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 104,
+  "end": 192,
+  "text": "Granite Federal Credit Union account 2735740553 is registered to Ironleaf Analytics LLC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t96",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 193,
+  "end": 274,
+  "text": "Granite Federal Credit Union account 2990150865 is registered to Hector Sorensen.",
+  "tids": [
+   "t36",
+   "t37",
+   "t97",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 276,
+  "end": 348,
+  "text": "Andre Quinn started the contract amendment on June 3, 2025 at 14:10 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 349,
+  "end": 418,
+  "text": "Ruth Delgado started the wire transfer on June 10, 2025 at 17:30 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 419,
+  "end": 504,
+  "text": "The expense reimbursement was initiated by Andre Quinn on June 20, 2025 at 11:25 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 506,
+  "end": 554,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

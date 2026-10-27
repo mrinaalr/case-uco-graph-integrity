@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oakhaven Supply Group employs Mei Fischer, who can be reached at mfischer@oakhaven.com. [D1.S3] Oakhaven Supply Group employs Irene Haddad, who can be reached at ihaddad@oakhaven.com. [D1.S4] Oakhaven Supply Group employs Ruth Delgado, who can be reached at ruth.delgado@oakhaven.com. [D1.S5] Felix Osei works for Northwind Components Inc. and uses the address felix.osei@northwind.com. [D1.S6] Luca Okafor works for Northwind Components Inc. and uses the address lokafor@northwind.com.
+
+[D1.S7] Irene Haddad's manager is Mei Fischer.
+
+[D1.S8] Oakhaven Supply Group is based at 6229 Riverside Boulevard, Raleigh, NC 27601.
+
+[D1.S9] Please treat this as confidential.

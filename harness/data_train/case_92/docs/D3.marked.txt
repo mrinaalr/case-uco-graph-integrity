@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @victora is Victor Abara.
+[D3.S3] @hectors is Hector Sorensen.
+[D3.S4] [2025-05-28 11:15 UTC] @victora to @hectors: Did the bank call back yet?
+[D3.S5] [2025-05-28 11:22 UTC] @hectors to @victora: Can you look at the vendor file before lunch?
+[D3.S6] [2025-05-28 11:29 UTC] @victora to @hectors: Send me the new form when you can.

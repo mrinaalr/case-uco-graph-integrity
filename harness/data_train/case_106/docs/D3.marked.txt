@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Pinecrest National Bank account 9070167155 is registered to Redfern Tooling Co. [D3.S3] Pinecrest National Bank account 8015186713 is registered to Harborline Logistics Co. [D3.S4] Maya Sorensen holds account 6251856404 at Pinecrest National Bank.
+
+[D3.S5] The refund request was initiated by Maya Sorensen on 19 June 2025, 12:45 UTC. [D3.S6] The contract amendment was initiated by Dana Abara on 30 June 2025, 09:30 UTC. [D3.S7] On July 3, 2025 at 09:00 UTC, Sofia Novak initiated the invoice submission. [D3.S8] On 8 July 2025, 14:50 UTC, Desmond Park initiated the account reconciliation.
+
+[D3.S9] Let me know if anything here looks off.

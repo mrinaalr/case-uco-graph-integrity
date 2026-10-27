@@ -1,0 +1,11 @@
+[D2.S1] From: gokafor@brightwater.com
+[D2.S2] To: lena.osei@brightwater.com, clara.reyes@summitpeak.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Thu, 14 Aug 2025 19:45:00 +0000
+
+[D2.S5] Hi Lena,
+
+[D2.S6] On July 13, 2025 at 12:00 UTC, Desmond Moreau initiated the bank detail change. [D2.S7] Clara Reyes started the refund request on 20 July 2025, 13:45 UTC. [D2.S8] The refund request took place at the Brightwater Supply Ltd. office. [D2.S9] On 14 August 2025, 17:45 UTC, Grace Okafor initiated the invoice submission.
+
+[D2.S10] Thanks,
+[D2.S11] Grace

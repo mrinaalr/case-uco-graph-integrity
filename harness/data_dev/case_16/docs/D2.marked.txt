@@ -1,0 +1,11 @@
+[D2.S1] From: wesley.vance@copperfield.com
+[D2.S2] To: idelgado@bluegate.com
+[D2.S3] Subject: Invoice 3861 follow-up
+[D2.S4] Date: Thu, 04 Sep 2025 13:50:00 +0000
+
+[D2.S5] Hi Irene,
+
+[D2.S6] The invoice submission was initiated by Irene Delgado on 12 August 2025, 12:25 UTC. [D2.S7] The contract amendment was initiated by Irene Delgado on 13 August 2025, 16:15 UTC. [D2.S8] Wesley Vance was involved in the contract amendment as well. [D2.S9] On 19 August 2025, 12:25 UTC, Owen Lindqvist initiated the vendor onboarding. [D2.S10] On 26 August 2025, 15:30 UTC, Owen Lindqvist initiated the bank detail change. [D2.S11] On August 29, 2025 at 15:10 UTC, Wesley Vance initiated the account reconciliation. [D2.S12] Irene Delgado also took part in the account reconciliation. [D2.S13] Wesley Vance started the payment approval on 3 September 2025, 15:15 UTC. [D2.S14] The payment approval took place at the Copperfield Components Inc. office. [D2.S15] On September 4, 2025 at 11:50 UTC, Irene Delgado initiated the expense reimbursement. [D2.S16] Owen Lindqvist was involved in the expense reimbursement as well.
+
+[D2.S17] Thanks,
+[D2.S18] Wesley

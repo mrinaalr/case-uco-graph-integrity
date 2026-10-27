@@ -1,0 +1,12 @@
+From: andre.fischer@bluegate.com
+To: ekowalski@clearpath.com, rbanerjee@clearpath.com
+Subject: Audit prep items
+Date: Tue, 19 Aug 2025 19:25:00 +0000
+Hi Elena,
+Elena Kowalski started the wire transfer on 16 July 2025, 15:50 UTC. The account reconciliation was
+initiated by Maya Holloway on July 24, 2025 at 17:50 UTC. The invoice submission was initiated by
+Elena Kowalski on August 16, 2025 at 17:25 UTC. Andre Fischer was involved in the invoice
+submission as well. The payment approval was initiated by Maya Holloway on August 19, 2025 at
+17:25 UTC.
+Thanks,
+Andre

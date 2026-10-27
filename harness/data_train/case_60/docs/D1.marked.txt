@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Mei Vance is employed by Clearpath Analytics Ltd.; their email is mvance@clearpath.com. [D1.S3] Clearpath Analytics Ltd. employs Lena Ivanova, who can be reached at livanova@clearpath.com. [D1.S4] Clearpath Analytics Ltd. employs Clara Ashworth, who can be reached at cashworth@clearpath.com. [D1.S5] Kofi Reyes works for Oakhaven Packaging Ltd. and uses the address kofi.reyes@oakhaven.com.
+
+[D1.S6] Lena Ivanova's manager is Mei Vance. [D1.S7] Clara Ashworth's manager is Mei Vance.
+
+[D1.S8] The offices of Clearpath Analytics Ltd. are at 4564 Market Street, Tucson, AZ 85701. [D1.S9] Oakhaven Packaging Ltd. is based at 7253 Elm Street, Albany, NY 12207.
+
+[D1.S10] Account 4387741515 at Granite Federal Credit Union belongs to Clearpath Analytics Ltd. [D1.S11] Account 1275320113 at Granite Federal Credit Union belongs to Oakhaven Packaging Ltd.
+
+[D1.S12] Funds moved from account 4387741515 to account 1275320113.
+
+[D1.S13] Please treat this as confidential.

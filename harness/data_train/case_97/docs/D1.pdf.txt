@@ -1,0 +1,11 @@
+INTERNAL MEMO: Vendor payment review
+Victor Ivanova is employed by Copperfield Logistics LLC; their email is vivanova@copperfield.com.
+Dana Mendes works for Copperfield Logistics LLC and uses the address
+dana.mendes@copperfield.com. Arjun Reyes works for Copperfield Logistics LLC and uses the
+address arjun.reyes@copperfield.com. Rosa Castillo is employed by Redfern Consulting Inc.; their
+email is rcastillo@redfern.com.
+Copperfield Logistics LLC operates from 4737 Lakeview Road, Dayton, OH 45402.
+Copperfield Logistics LLC holds account 5931991227 at Meridian Trust Bank. Account 7324176502 at
+Meridian Trust Bank belongs to Redfern Consulting Inc.
+Account 5931991227 sent a transfer to account 7324176502.
+Let me know if anything here looks off.

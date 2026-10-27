@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Luca Banerjee is employed by Brightwater Supply Inc.; their email is luca.banerjee@brightwater.com. [D1.S3] Maya Brennan is employed by Brightwater Supply Inc.; their email is maya.brennan@brightwater.com. [D1.S4] Kofi Vance works for Brightwater Supply Inc. and uses the address kvance@brightwater.com. [D1.S5] Priya Reyes is employed by Cedar Ridge Industrial LLC; their email is priya.reyes@cedarridge.com. [D1.S6] Hannah Tanaka works for Cedar Ridge Industrial LLC and uses the address htanaka@cedarridge.com.
+
+[D1.S7] The offices of Brightwater Supply Inc. are at 8737 Elm Street, Madison, WI 53703.
+
+[D1.S8] Brightwater Supply Inc. holds account 8959148328 at Granite Federal Credit Union. [D1.S9] Account 7574720171 at Granite Federal Credit Union belongs to Cedar Ridge Industrial LLC. [D1.S10] Granite Federal Credit Union account 7644995970 is registered to Luca Banerjee.
+
+[D1.S11] Let me know if anything here looks off.

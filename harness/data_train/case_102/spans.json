@@ -1,0 +1,393 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Oakhaven Fabrication LLC employs Wesley Ivanova, who can be reached at wesley.ivanova@oakhaven.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t63",
+   "t64",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 231,
+  "text": "Grace Abara works for Oakhaven Fabrication LLC and uses the address grace.abara@oakhaven.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t65",
+   "t66",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 325,
+  "text": "Oakhaven Fabrication LLC employs Lena Moreau, who can be reached at lena.moreau@oakhaven.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t67",
+   "t68",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 326,
+  "end": 426,
+  "text": "Nadia Brennan works for Harborline Packaging Ltd. and uses the address nadia.brennan@harborline.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t69",
+   "t70",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 427,
+  "end": 516,
+  "text": "Harborline Packaging Ltd. employs Mei Quinn, who can be reached at mquinn@harborline.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t71",
+   "t72",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 518,
+  "end": 601,
+  "text": "The offices of Oakhaven Fabrication LLC are at 4169 Lakeview Road, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 603,
+  "end": 688,
+  "text": "Pinecrest National Bank account 5389390414 is registered to Oakhaven Fabrication LLC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t73",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 689,
+  "end": 774,
+  "text": "Pinecrest National Bank account 3883512990 is registered to Harborline Packaging Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t74",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 775,
+  "end": 847,
+  "text": "Pinecrest National Bank account 6486542402 is registered to Grace Abara.",
+  "tids": [
+   "t36",
+   "t37",
+   "t75",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 849,
+  "end": 908,
+  "text": "Mei Quinn communicated with Lena Moreau about the payments.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_4",
+   "person_2"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 910,
+  "end": 944,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: nadia.brennan@harborline.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 66,
+  "text": "To: wesley.ivanova@oakhaven.com",
+  "tids": [
+   "t60",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 67,
+  "end": 103,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 104,
+  "end": 141,
+  "text": "Date: Tue, 18 Feb 2025 17:45:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 143,
+  "end": 153,
+  "text": "Hi Wesley,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 155,
+  "end": 226,
+  "text": "Grace Abara started the payment approval on 19 January 2025, 17:00 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 227,
+  "end": 305,
+  "text": "On January 30, 2025 at 12:10 UTC, Grace Abara initiated the vendor onboarding.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 306,
+  "end": 364,
+  "text": "Lena Moreau was involved in the vendor onboarding as well.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 365,
+  "end": 453,
+  "text": "The invoice submission was initiated by Wesley Ivanova on February 3, 2025 at 17:15 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 454,
+  "end": 530,
+  "text": "Lena Moreau started the expense reimbursement on 6 February 2025, 17:50 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 531,
+  "end": 615,
+  "text": "The bank detail change was initiated by Mei Quinn on February 17, 2025 at 15:30 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_4"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 616,
+  "end": 672,
+  "text": "Wesley Ivanova also took part in the bank detail change.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_0",
+   "event_4"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 673,
+  "end": 742,
+  "text": "On 18 February 2025, 15:45 UTC, Mei Quinn initiated the audit review.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_4"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 744,
+  "end": 751,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 752,
+  "end": 757,
+  "text": "Nadia",
+  "tids": [],
+  "mentions": []
+ }
+}

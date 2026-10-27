@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@victori is Victor Ivanova.
+@arjunp is Arjun Petrov.
+[2025-07-10 15:10 UTC] @victori to @arjunp: Let's keep this between us until Friday.
+[2025-07-10 15:17 UTC] @arjunp to @victori: Did the bank call back yet?
+[2025-07-10 15:24 UTC] @victori to @arjunp: Can you look at the vendor file before lunch?

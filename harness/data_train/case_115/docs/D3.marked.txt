@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Silverlake Supply Co. holds account 1194753811 at Meridian Trust Bank. [D3.S3] Account 2839036756 at Meridian Trust Bank belongs to Bluegate Consulting Ltd.
+
+[D3.S4] The audit review was initiated by Maya Delgado on 15 June 2025, 11:00 UTC. [D3.S5] The audit review happened at Silverlake Supply Co.'s office.
+
+[D3.S6] More detail will follow once records are pulled.

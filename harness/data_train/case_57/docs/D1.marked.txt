@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Ruth Brennan works for Bluegate Components Group and uses the address rbrennan@bluegate.com. [D1.S3] Grace Vance works for Bluegate Components Group and uses the address gvance@bluegate.com. [D1.S4] Hector Fischer is employed by Harborline Fabrication Ltd.; their email is hector.fischer@harborline.com.
+
+[D1.S5] Bluegate Components Group is based at 68 Market Street, Spokane, WA 99201. [D1.S6] The offices of Harborline Fabrication Ltd. are at 2939 Riverside Boulevard, Dayton, OH 45402.
+
+[D1.S7] More detail will follow once records are pulled.

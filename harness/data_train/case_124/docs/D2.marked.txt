@@ -1,0 +1,11 @@
+[D2.S1] From: lnovak@redfern.com
+[D2.S2] To: hector.banerjee@ironleaf.com, maya.fischer@ironleaf.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Wed, 02 Jul 2025 14:50:00 +0000
+
+[D2.S5] Hi Hector,
+
+[D2.S6] On July 2, 2025 at 11:15 UTC, Hector Banerjee initiated the bank detail change. [D2.S7] Luca Novak also took part in the bank detail change. [D2.S8] Hector Banerjee started the payment approval on 2 July 2025, 12:00 UTC. [D2.S9] Luca Novak authorized the payment approval. [D2.S10] The payment approval took place at the Ironleaf Logistics Group office. [D2.S11] Hector Banerjee started the expense reimbursement on July 2, 2025 at 12:50 UTC. [D2.S12] Maya Fischer was involved in the expense reimbursement as well. [D2.S13] The expense reimbursement happened at Ironleaf Logistics Group's office.
+
+[D2.S14] Thanks,
+[D2.S15] Luca

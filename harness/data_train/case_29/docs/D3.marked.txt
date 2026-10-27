@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] First Harbor Bank account 1918864254 is registered to Ironleaf Freight LLC. [D3.S3] Bluegate Freight Inc. holds account 6145587460 at First Harbor Bank.
+
+[D3.S4] Wesley Vance started the audit review on 2 June 2025, 09:00 UTC. [D3.S5] The wire transfer was initiated by Kofi Fischer on June 11, 2025 at 12:50 UTC. [D3.S6] The wire transfer took place at the Ironleaf Freight LLC office. [D3.S7] Wesley Vance started the account reconciliation on 24 June 2025, 17:45 UTC. [D3.S8] Wesley Vance started the bank detail change on 27 June 2025, 09:15 UTC.
+
+[D3.S9] This summary reflects records available to date.

@@ -1,0 +1,7 @@
+Incident summary
+Granite Federal Credit Union account 4814144228 is registered to Summit Peak Packaging Inc.
+Copperfield Packaging Group holds account 9910480056 at Granite Federal Credit Union.
+Oscar Lindqvist started the vendor onboarding on April 2, 2025 at 09:50 UTC. The bank detail change
+was initiated by Tomas Abara on 10 April 2025, 17:30 UTC. The bank detail change happened at
+Summit Peak Packaging Inc.'s office.
+More detail will follow once records are pulled.

@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Oakhaven Freight Group holds account 9670108412 at Lakeshore Savings Bank. [D4.S3] Northwind Analytics Ltd. holds account 8593088184 at Lakeshore Savings Bank. [D4.S4] Lakeshore Savings Bank account 1654869666 is registered to Marcus Petrov.
+
+[D4.S5] On July 25, 2025 at 16:15 UTC, Tomas Abara initiated the contract amendment. [D4.S6] Funds moved from account 9670108412 to account 8593088184.
+
+[D4.S7] Please treat this as confidential.

@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Rosa Tanaka works for Copperfield Packaging LLC and uses the address rtanaka@copperfield.com. [D1.S3] Copperfield Packaging LLC employs Ruth Ivanova, who can be reached at ruth.ivanova@copperfield.com. [D1.S4] Priya Quinn is employed by Copperfield Packaging LLC; their email is pquinn@copperfield.com. [D1.S5] Cedar Ridge Supply Ltd. employs Oscar Moreau, who can be reached at omoreau@cedarridge.com.
+
+[D1.S6] Ruth Ivanova reports to Rosa Tanaka.
+
+[D1.S7] Copperfield Packaging LLC operates from 4471 Maple Avenue, Madison, WI 53703.
+
+[D1.S8] Copperfield Packaging LLC holds account 3785249162 at Lakeshore Savings Bank. [D1.S9] Lakeshore Savings Bank account 6172591635 is registered to Cedar Ridge Supply Ltd.
+
+[D1.S10] Funds moved from account 3785249162 to account 6172591635.
+
+[D1.S11] Please treat this as confidential.

@@ -1,0 +1,11 @@
+From: alindqvist@brightwater.com
+To: yvance@oakhaven.com
+Subject: Urgent: payment timing
+Date: Sun, 14 Sep 2025 16:50:00 +0000
+
+Hi Yara,
+
+Yara Vance started the wire transfer on 17 August 2025, 13:45 UTC. On 24 August 2025, 17:25 UTC, Samuel Novak initiated the refund request. Lena Fischer was involved in the refund request as well. On 26 August 2025, 14:15 UTC, Arjun Lindqvist initiated the contract amendment. Arjun Lindqvist started the vendor onboarding on September 11, 2025 at 15:50 UTC. On September 11, 2025 at 16:30 UTC, Lena Fischer initiated the audit review. Yara Vance also took part in the audit review. On September 12, 2025 at 09:50 UTC, Lena Fischer initiated the bank detail change. The payment approval was initiated by Lena Fischer on 14 September 2025, 14:50 UTC.
+
+Thanks,
+Arjun

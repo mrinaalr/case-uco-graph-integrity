@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Lakeshore Savings Bank account 8903475136 is registered to Ironleaf Services Group. [D4.S3] Lakeshore Savings Bank account 2377480936 is registered to Northwind Supply Ltd. [D4.S4] Sofia Abara holds account 8857251084 at Lakeshore Savings Bank.
+
+[D4.S5] Hector Delgado started the vendor onboarding on January 27, 2025 at 09:50 UTC. [D4.S6] Hector Delgado started the bank detail change on 19 February 2025, 14:30 UTC.
+
+[D4.S7] Please treat this as confidential.

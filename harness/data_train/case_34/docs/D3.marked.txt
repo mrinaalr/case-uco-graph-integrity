@@ -1,0 +1,11 @@
+[D3.S1] From: pbrennan@bluegate.com
+[D3.S2] To: anovak@bluegate.com, hreyes@bluegate.com
+[D3.S3] Subject: Wire confirmation needed
+[D3.S4] Date: Fri, 14 Mar 2025 17:00:00 +0000
+
+[D3.S5] Hi Arjun,
+
+[D3.S6] On 13 February 2025, 09:00 UTC, Arjun Novak initiated the vendor onboarding. [D3.S7] On 27 February 2025, 11:00 UTC, Priya Brennan initiated the invoice submission. [D3.S8] Priya Brennan started the expense reimbursement on 14 March 2025, 15:00 UTC.
+
+[D3.S9] Thanks,
+[D3.S10] Priya

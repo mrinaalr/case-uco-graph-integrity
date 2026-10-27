@@ -1,0 +1,493 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: dreyes@stonebridge.com",
+  "tids": [
+   "t63",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 84,
+  "text": "To: nadia.park@redfern.com, arjun.lindqvist@redfern.com",
+  "tids": [
+   "t64",
+   "t65",
+   "t73",
+   "t74",
+   "t12",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 85,
+  "end": 121,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 122,
+  "end": 159,
+  "text": "Date: Sun, 23 Mar 2025 16:10:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 161,
+  "end": 170,
+  "text": "Hi Nadia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 172,
+  "end": 245,
+  "text": "On 19 February 2025, 15:25 UTC, Kofi Castillo initiated the audit review.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 246,
+  "end": 318,
+  "text": "Desmond Reyes started the refund request on 23 February 2025, 17:45 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49",
+   "t8"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 319,
+  "end": 400,
+  "text": "The vendor onboarding was initiated by Kofi Castillo on 23 March 2025, 14:10 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 402,
+  "end": 409,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 410,
+  "end": 417,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 123,
+  "text": "Hannah Moreau is employed by Redfern Supply Inc.; their email is hmoreau@redfern.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t75",
+   "t76",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 124,
+  "end": 219,
+  "text": "Arjun Lindqvist is employed by Redfern Supply Inc.; their email is arjun.lindqvist@redfern.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t77",
+   "t78",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 220,
+  "end": 305,
+  "text": "Redfern Supply Inc. employs Nadia Park, who can be reached at nadia.park@redfern.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t79",
+   "t80",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 306,
+  "end": 402,
+  "text": "Stonebridge Tooling Inc. employs Kofi Castillo, who can be reached at kcastillo@stonebridge.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t81",
+   "t82",
+   "t2",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 403,
+  "end": 496,
+  "text": "Desmond Reyes is employed by Stonebridge Tooling Inc.; their email is dreyes@stonebridge.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t83",
+   "t84"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 498,
+  "end": 577,
+  "text": "The offices of Redfern Supply Inc. are at 4312 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 579,
+  "end": 643,
+  "text": "Kofi Castillo had been in contact with Hannah Moreau throughout.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "person_3",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 645,
+  "end": 684,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 31,
+  "text": "From: kcastillo@stonebridge.com",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 32,
+  "end": 79,
+  "text": "To: nadia.park@redfern.com, hmoreau@redfern.com",
+  "tids": [
+   "t69",
+   "t70",
+   "t85"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 80,
+  "end": 105,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 106,
+  "end": 143,
+  "text": "Date: Thu, 27 Mar 2025 12:15:00 +0000",
+  "tids": [
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 154,
+  "text": "Hi Nadia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 156,
+  "end": 232,
+  "text": "Kofi Castillo started the invoice submission on 20 February 2025, 15:10 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 233,
+  "end": 305,
+  "text": "Kofi Castillo started the contract amendment on 3 March 2025, 17:45 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 306,
+  "end": 390,
+  "text": "On March 27, 2025 at 10:15 UTC, Arjun Lindqvist initiated the expense reimbursement.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "event_7",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 392,
+  "end": 399,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 400,
+  "end": 404,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 97,
+  "text": "Pinecrest National Bank account 7830288017 is registered to Redfern Supply Inc.",
+  "tids": [
+   "t30",
+   "t31",
+   "t86",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 98,
+  "end": 182,
+  "text": "Pinecrest National Bank account 1809083723 is registered to Stonebridge Tooling Inc.",
+  "tids": [
+   "t33",
+   "t34",
+   "t87",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 183,
+  "end": 259,
+  "text": "Pinecrest National Bank account 4902900551 is registered to Arjun Lindqvist.",
+  "tids": [
+   "t36",
+   "t37",
+   "t88",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 261,
+  "end": 343,
+  "text": "On February 21, 2025 at 09:10 UTC, Arjun Lindqvist initiated the payment approval.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 344,
+  "end": 431,
+  "text": "The bank detail change was initiated by Arjun Lindqvist on March 20, 2025 at 10:25 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 433,
+  "end": 481,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

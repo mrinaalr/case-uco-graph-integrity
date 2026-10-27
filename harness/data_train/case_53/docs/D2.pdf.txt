@@ -1,0 +1,15 @@
+From: dbrennan@oakhaven.com
+To: oivanova@oakhaven.com, marcus.kowalski@oakhaven.com
+Subject: Invoice 3932 follow-up
+Date: Fri, 20 Jun 2025 19:45:00 +0000
+Hi Oscar,
+Oscar Ivanova started the account reconciliation on 3 June 2025, 17:50 UTC. The account
+reconciliation happened at Oakhaven Supply LLC's office. The invoice submission was initiated by
+Marcus Kowalski on June 4, 2025 at 10:10 UTC. Oscar Ivanova was involved in the invoice submission
+as well. The invoice submission happened at Oakhaven Supply LLC's office. Marcus Kowalski started
+the vendor onboarding on 11 June 2025, 10:15 UTC. The vendor onboarding happened at Oakhaven
+Supply LLC's office. On June 20, 2025 at 14:45 UTC, Marcus Kowalski initiated the wire transfer. The
+expense reimbursement was initiated by Desmond Brennan on 20 June 2025, 17:45 UTC. Desmond
+Brennan communicated with Oscar Ivanova about the payments.
+Thanks,
+Desmond

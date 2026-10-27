@@ -1,0 +1,11 @@
+From: ruth.delgado@redfern.com
+To: vabara@redfern.com, aquinn@ironleaf.com
+Subject: Re: banking change request
+Date: Sat, 21 Jun 2025 19:10:00 +0000
+
+Hi Victor,
+
+The audit review was initiated by Hector Sorensen on May 28, 2025 at 10:15 UTC. On 5 June 2025, 15:30 UTC, Victor Abara initiated the account reconciliation. The invoice submission was initiated by Hector Sorensen on 15 June 2025, 17:45 UTC. The refund request was initiated by Hector Sorensen on June 21, 2025 at 17:10 UTC.
+
+Thanks,
+Ruth

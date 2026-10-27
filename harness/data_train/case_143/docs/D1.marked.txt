@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oakhaven Industrial Inc. employs Mei Reyes, who can be reached at mreyes@oakhaven.com. [D1.S3] Arjun Ivanova works for Oakhaven Industrial Inc. and uses the address aivanova@oakhaven.com. [D1.S4] Lena Delgado works for Ironleaf Tooling Ltd. and uses the address ldelgado@ironleaf.com.
+
+[D1.S5] The offices of Oakhaven Industrial Inc. are at 7525 Maple Avenue, Raleigh, NC 27601.
+
+[D1.S6] Account 5986682606 at Lakeshore Savings Bank belongs to Oakhaven Industrial Inc. [D1.S7] Lakeshore Savings Bank account 9465528044 is registered to Ironleaf Tooling Ltd. [D1.S8] Account 6164331033 at Lakeshore Savings Bank belongs to Arjun Ivanova.
+
+[D1.S9] More detail will follow once records are pulled.

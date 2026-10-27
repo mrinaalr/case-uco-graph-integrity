@@ -1,0 +1,4 @@
+Chat export: #finance-ops
+@arjunm is Arjun Moreau.
+@desmondb is Desmond Banerjee.
+[2025-08-01 17:50 UTC] @arjunm to @desmondb: Can you look at the vendor file before lunch?

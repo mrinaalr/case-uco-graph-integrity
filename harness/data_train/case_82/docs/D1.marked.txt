@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Ironleaf Distribution Co. employs Arjun Banerjee, who can be reached at arjun.banerjee@ironleaf.com. [D1.S3] Hector Whitfield is employed by Ironleaf Distribution Co.; their email is hwhitfield@ironleaf.com. [D1.S4] Ironleaf Distribution Co. employs Mei Petrov, who can be reached at mpetrov@ironleaf.com. [D1.S5] Summit Peak Components Ltd. employs Maya Kowalski, who can be reached at mkowalski@summitpeak.com.
+
+[D1.S6] Mei Petrov's manager is Arjun Banerjee.
+
+[D1.S7] Ironleaf Distribution Co. operates from 9474 Maple Avenue, Tucson, AZ 85701.
+
+[D1.S8] Account 6698929922 at Pinecrest National Bank belongs to Ironleaf Distribution Co. [D1.S9] Account 5217738869 at Pinecrest National Bank belongs to Summit Peak Components Ltd. [D1.S10] Pinecrest National Bank account 7060417071 is registered to Hector Whitfield.
+
+[D1.S11] More detail will follow once records are pulled.

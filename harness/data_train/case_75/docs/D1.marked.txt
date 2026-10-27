@@ -1,0 +1,11 @@
+[D1.S1] From: smoreau@oakhaven.com
+[D1.S2] To: felix.abara@oakhaven.com, lsorensen@clearpath.com
+[D1.S3] Subject: Contract terms for next quarter
+[D1.S4] Date: Sun, 02 Feb 2025 16:10:00 +0000
+
+[D1.S5] Hi Felix,
+
+[D1.S6] Felix Abara started the bank detail change on 5 January 2025, 16:15 UTC. [D1.S7] On 2 February 2025, 14:10 UTC, Samuel Moreau initiated the invoice submission.
+
+[D1.S8] Thanks,
+[D1.S9] Samuel

@@ -1,0 +1,11 @@
+[D3.S1] From: rreyes@oakhaven.com
+[D3.S2] To: priya.castillo@oakhaven.com, dvance@harborline.com
+[D3.S3] Subject: Wire confirmation needed
+[D3.S4] Date: Fri, 10 Oct 2025 13:50:00 +0000
+
+[D3.S5] Hi Priya,
+
+[D3.S6] The account reconciliation was initiated by Priya Castillo on 14 September 2025, 16:30 UTC. [D3.S7] On October 10, 2025 at 11:50 UTC, Ruth Reyes initiated the contract amendment. [D3.S8] The contract amendment took place at the Oakhaven Packaging Inc. office.
+
+[D3.S9] Thanks,
+[D3.S10] Ruth

@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Elena Holloway works for Oakhaven Tooling Inc. and uses the address eholloway@oakhaven.com. [D2.S3] Dana Abara is employed by Oakhaven Tooling Inc.; their email is dabara@oakhaven.com. [D2.S4] Rosa Brennan is employed by Oakhaven Tooling Inc.; their email is rbrennan@oakhaven.com. [D2.S5] Hannah Castillo is employed by Ironleaf Logistics Co.; their email is hannah.castillo@ironleaf.com. [D2.S6] Julian Haddad is employed by Ironleaf Logistics Co.; their email is jhaddad@ironleaf.com.
+
+[D2.S7] The offices of Oakhaven Tooling Inc. are at 3362 Elm Street, Boise, ID 83702. [D2.S8] The offices of Ironleaf Logistics Co. are at 4401 Industrial Parkway, Richmond, VA 23219.
+
+[D2.S9] Rosa Brennan had been in contact with Hannah Castillo throughout.
+
+[D2.S10] This summary reflects records available to date.

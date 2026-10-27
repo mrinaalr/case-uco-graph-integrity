@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Rosa Kowalski is employed by Silverlake Tooling Inc.; their email is rkowalski@silverlake.com. [D1.S3] Tomas Holloway is employed by Silverlake Tooling Inc.; their email is tholloway@silverlake.com. [D1.S4] Clara Reyes is employed by Silverlake Tooling Inc.; their email is creyes@silverlake.com. [D1.S5] Mei Vance is employed by Summit Peak Freight Inc.; their email is mvance@summitpeak.com.
+
+[D1.S6] Clara Reyes reports to Rosa Kowalski.
+
+[D1.S7] Silverlake Tooling Inc. operates from 5924 Market Street, Dayton, OH 45402. [D1.S8] Summit Peak Freight Inc. operates from 9562 Elm Street, Tucson, AZ 85701.
+
+[D1.S9] Silverlake Tooling Inc. holds account 9409379264 at Meridian Trust Bank. [D1.S10] Account 1762957392 at Meridian Trust Bank belongs to Summit Peak Freight Inc.
+
+[D1.S11] Account 9409379264 sent a transfer to account 1762957392.
+
+[D1.S12] More detail will follow once records are pulled.

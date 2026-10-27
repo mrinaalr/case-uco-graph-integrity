@@ -1,0 +1,11 @@
+[D3.S1] From: arjun.delgado@copperfield.com
+[D3.S2] To: lena.kowalski@copperfield.com
+[D3.S3] Subject: Re: banking change request
+[D3.S4] Date: Fri, 15 Aug 2025 14:30:00 +0000
+
+[D3.S5] Hi Lena,
+
+[D3.S6] On July 28, 2025 at 11:10 UTC, Arjun Delgado initiated the wire transfer. [D3.S7] Lena Kowalski also took part in the wire transfer. [D3.S8] On August 15, 2025 at 12:30 UTC, Owen Mendes initiated the bank detail change. [D3.S9] Approval for the bank detail change came from Lena Kowalski.
+
+[D3.S10] Thanks,
+[D3.S11] Arjun

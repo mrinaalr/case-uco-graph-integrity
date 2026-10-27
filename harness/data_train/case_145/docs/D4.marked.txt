@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] First Harbor Bank account 2117228135 is registered to Cedar Ridge Packaging Co. [D4.S3] First Harbor Bank account 6637787851 is registered to Harborline Fabrication LLC. [D4.S4] First Harbor Bank account 9113941933 is registered to Ruth Mendes.
+
+[D4.S5] Clara Holloway started the refund request on February 22, 2025 at 11:30 UTC. [D4.S6] Victor Park started the account reconciliation on March 4, 2025 at 17:00 UTC. [D4.S7] The audit review was initiated by Grace Kowalski on March 14, 2025 at 10:30 UTC. [D4.S8] The expense reimbursement was initiated by Grace Kowalski on 20 March 2025, 14:45 UTC. [D4.S9] Clara Holloway also took part in the expense reimbursement. [D4.S10] Funds moved from account 2117228135 to account 6637787851.
+
+[D4.S11] Let me know if anything here looks off.

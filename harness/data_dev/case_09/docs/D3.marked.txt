@@ -1,0 +1,11 @@
+[D3.S1] From: desmond.castillo@northwind.com
+[D3.S2] To: tomas.ivanova@copperfield.com, arjun.okafor@copperfield.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Fri, 09 May 2025 14:15:00 +0000
+
+[D3.S5] Hi Tomas,
+
+[D3.S6] On 16 April 2025, 15:25 UTC, Arjun Okafor initiated the contract amendment. [D3.S7] Arjun Okafor started the wire transfer on April 27, 2025 at 09:00 UTC. [D3.S8] The wire transfer happened at Copperfield Supply Co.'s office. [D3.S9] On 9 May 2025, 12:15 UTC, Tomas Ivanova initiated the refund request. [D3.S10] Desmond Castillo was involved in the refund request as well.
+
+[D3.S11] Thanks,
+[D3.S12] Desmond

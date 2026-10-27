@@ -1,0 +1,11 @@
+[D2.S1] From: grace.vance@stonebridge.com
+[D2.S2] To: felix.sorensen@stonebridge.com, mei.tanaka@stonebridge.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Tue, 13 May 2025 13:10:00 +0000
+
+[D2.S5] Hi Felix,
+
+[D2.S6] The wire transfer was initiated by Mei Tanaka on April 8, 2025 at 11:25 UTC. [D2.S7] On April 8, 2025 at 16:15 UTC, Victor Quinn initiated the refund request. [D2.S8] The refund request happened at Stonebridge Components Co.'s office. [D2.S9] On 12 April 2025, 14:50 UTC, Grace Vance initiated the account reconciliation. [D2.S10] Felix Sorensen started the invoice submission on 15 April 2025, 10:30 UTC. [D2.S11] Grace Vance also took part in the invoice submission. [D2.S12] Mei Tanaka started the contract amendment on 21 April 2025, 09:25 UTC. [D2.S13] Felix Sorensen started the audit review on April 26, 2025 at 10:10 UTC. [D2.S14] Victor Quinn also took part in the audit review. [D2.S15] The audit review took place at the Stonebridge Components Co. office. [D2.S16] Mei Tanaka started the bank detail change on 13 May 2025, 11:10 UTC.
+
+[D2.S17] Thanks,
+[D2.S18] Grace

@@ -1,0 +1,12 @@
+INTERNAL MEMO: Vendor payment review
+Owen Banerjee works for Bluegate Fabrication Co. and uses the address obanerjee@bluegate.com.
+Clara Whitfield is employed by Bluegate Fabrication Co.; their email is cwhitfield@bluegate.com.
+Redfern Components Co. employs Marcus Ivanova, who can be reached at
+marcus.ivanova@redfern.com.
+Bluegate Fabrication Co. is based at 3504 Riverside Boulevard, Dayton, OH 45402.
+Granite Federal Credit Union account 7623404513 is registered to Bluegate Fabrication Co. Granite
+Federal Credit Union account 7756575129 is registered to Redfern Components Co. Granite Federal
+Credit Union account 5655783451 is registered to Clara Whitfield.
+Account 7623404513 sent a transfer to account 5655783451. Funds moved from account 7623404513
+to account 7756575129. Owen Banerjee had been in contact with Marcus Ivanova throughout.
+Please treat this as confidential.

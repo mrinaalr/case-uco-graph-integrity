@@ -1,0 +1,11 @@
+[D2.S1] From: julian.ivanova@harborline.com
+[D2.S2] To: yara.banerjee@harborline.com, dosei@harborline.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Sun, 24 Aug 2025 18:30:00 +0000
+
+[D2.S5] Hi Yara,
+
+[D2.S6] Victor Castillo started the expense reimbursement on 9 August 2025, 09:00 UTC. [D2.S7] Yara Banerjee started the invoice submission on 9 August 2025, 12:25 UTC. [D2.S8] The wire transfer was initiated by Dana Osei on August 10, 2025 at 14:30 UTC. [D2.S9] On 20 August 2025, 09:30 UTC, Julian Ivanova initiated the audit review. [D2.S10] Yara Banerjee also took part in the audit review. [D2.S11] The refund request was initiated by Yara Banerjee on August 22, 2025 at 15:25 UTC. [D2.S12] The contract amendment was initiated by Sofia Whitfield on August 22, 2025 at 15:45 UTC. [D2.S13] On August 24, 2025 at 16:30 UTC, Yara Banerjee initiated the payment approval. [D2.S14] Approval for the payment approval came from Dana Osei.
+
+[D2.S15] Thanks,
+[D2.S16] Julian

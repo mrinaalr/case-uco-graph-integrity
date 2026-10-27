@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Account 8428117443 at Granite Federal Credit Union belongs to Clearpath Packaging Inc. [D4.S3] Granite Federal Credit Union account 5206589834 is registered to Ironleaf Supply Ltd.
+
+[D4.S4] On June 20, 2025 at 09:15 UTC, Arjun Banerjee initiated the contract amendment. [D4.S5] The contract amendment took place at the Clearpath Packaging Inc. office. [D4.S6] The bank detail change was initiated by Owen Castillo on July 9, 2025 at 14:00 UTC. [D4.S7] Account 8428117443 sent a transfer to account 5206589834.
+
+[D4.S8] More detail will follow once records are pulled.

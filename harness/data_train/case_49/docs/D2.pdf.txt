@@ -1,0 +1,12 @@
+From: areyes@northwind.com
+To: oivanova@northwind.com, hbrennan@stonebridge.com
+Subject: Re: banking change request
+Date: Fri, 08 Aug 2025 18:30:00 +0000
+Hi Owen,
+On 4 July 2025, 12:10 UTC, Hector Brennan initiated the expense reimbursement. Hector Brennan
+started the audit review on 8 July 2025, 17:25 UTC. The vendor onboarding was initiated by Victor
+Haddad on 20 July 2025, 11:25 UTC. Arjun Reyes started the contract amendment on 23 July 2025,
+09:15 UTC. Yara Abara started the refund request on 28 July 2025, 09:00 UTC. On August 8, 2025 at
+16:30 UTC, Hector Brennan initiated the invoice submission.
+Thanks,
+Arjun

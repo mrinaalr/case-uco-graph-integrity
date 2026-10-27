@@ -1,0 +1,456 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 124,
+  "text": "Yara Novak is employed by Oakhaven Logistics Ltd.; their email is ynovak@oakhaven.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t68",
+   "t69",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 125,
+  "end": 213,
+  "text": "Oakhaven Logistics Ltd. employs Luca Park, who can be reached at luca.park@oakhaven.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t70",
+   "t71",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 214,
+  "end": 317,
+  "text": "Stonebridge Components Ltd. employs Desmond Abara, who can be reached at desmond.abara@stonebridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t72",
+   "t73",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 319,
+  "end": 398,
+  "text": "Oakhaven Logistics Ltd. is based at 1710 Industrial Parkway, Madison, WI 53703.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 400,
+  "end": 476,
+  "text": "Oakhaven Logistics Ltd. holds account 4922199874 at Pinecrest National Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 477,
+  "end": 564,
+  "text": "Pinecrest National Bank account 3338571130 is registered to Stonebridge Components Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t75",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 565,
+  "end": 627,
+  "text": "Luca Park holds account 3119720420 at Pinecrest National Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t76",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 629,
+  "end": 677,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: luca.park@oakhaven.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 83,
+  "text": "To: ynovak@oakhaven.com, desmond.abara@stonebridge.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 84,
+  "end": 117,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Fri, 21 Nov 2025 17:45:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 157,
+  "end": 165,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 167,
+  "end": 248,
+  "text": "On November 4, 2025 at 14:25 UTC, Desmond Abara initiated the contract amendment.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 249,
+  "end": 307,
+  "text": "Yara Novak was involved in the contract amendment as well.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 308,
+  "end": 380,
+  "text": "The contract amendment took place at the Oakhaven Logistics Ltd. office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 381,
+  "end": 451,
+  "text": "Desmond Abara started the audit review on 15 November 2025, 11:50 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 452,
+  "end": 504,
+  "text": "Yara Novak was involved in the audit review as well.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 505,
+  "end": 587,
+  "text": "On November 16, 2025 at 12:50 UTC, Desmond Abara initiated the invoice submission.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 588,
+  "end": 640,
+  "text": "Yara Novak also took part in the invoice submission.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 641,
+  "end": 715,
+  "text": "On 20 November 2025, 15:15 UTC, Luca Park initiated the vendor onboarding.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 716,
+  "end": 792,
+  "text": "Luca Park started the account reconciliation on 21 November 2025, 15:45 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 793,
+  "end": 869,
+  "text": "The account reconciliation took place at the Oakhaven Logistics Ltd. office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 870,
+  "end": 928,
+  "text": "Yara Novak communicated with Luca Park about the payments.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_0",
+   "person_1"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 930,
+  "end": 937,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 938,
+  "end": 942,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t79"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 47,
+  "text": "@yaran is Yara Novak.",
+  "tids": [
+   "t46",
+   "t45"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 48,
+  "end": 68,
+  "text": "@lucap is Luca Park.",
+  "tids": [
+   "t48",
+   "t47"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 69,
+  "end": 144,
+  "text": "[2025-11-04 15:25 UTC] @yaran to @lucap: Send me the new form when you can.",
+  "tids": [
+   "t60",
+   "t61",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 220,
+  "text": "[2025-11-04 15:32 UTC] @lucap to @yaran: Finance is asking questions again.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ }
+}

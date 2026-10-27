@@ -1,0 +1,528 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: maya.okafor@oakhaven.com",
+  "tids": [
+   "t59",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 57,
+  "text": "To: ldelgado@clearpath.com",
+  "tids": [
+   "t60",
+   "t68",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 58,
+  "end": 93,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Thu, 14 Aug 2025 15:10:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 141,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 143,
+  "end": 208,
+  "text": "Kofi Vance started the audit review on July 6, 2025 at 17:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 209,
+  "end": 257,
+  "text": "Lena Delgado also took part in the audit review.",
+  "tids": [
+   "t54",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 258,
+  "end": 331,
+  "text": "Lena Delgado started the vendor onboarding on July 31, 2025 at 09:10 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 332,
+  "end": 416,
+  "text": "The expense reimbursement was initiated by Maya Okafor on 14 August 2025, 13:10 UTC.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50",
+   "t5"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 417,
+  "end": 479,
+  "text": "Approval for the expense reimbursement came from Lena Delgado.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_2",
+   "event_6"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 480,
+  "end": 541,
+  "text": "Kofi Vance was involved in the expense reimbursement as well.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_0",
+   "event_6"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 543,
+  "end": 550,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 551,
+  "end": 555,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 128,
+  "text": "Kofi Vance works for Oakhaven Services Group and uses the address kofi.vance@oakhaven.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t69",
+   "t70",
+   "t1",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 221,
+  "text": "Maya Okafor is employed by Oakhaven Services Group; their email is maya.okafor@oakhaven.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t71",
+   "t72"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 222,
+  "end": 311,
+  "text": "Lena Delgado works for Clearpath Supply Inc. and uses the address ldelgado@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t73",
+   "t74",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 313,
+  "end": 400,
+  "text": "The offices of Oakhaven Services Group are at 5767 Industrial Parkway, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 402,
+  "end": 441,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: ldelgado@clearpath.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 82,
+  "text": "To: kofi.vance@oakhaven.com, maya.okafor@oakhaven.com",
+  "tids": [
+   "t64",
+   "t65",
+   "t75",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 83,
+  "end": 114,
+  "text": "Subject: Invoice 7152 follow-up",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Sat, 02 Aug 2025 17:30:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 154,
+  "end": 162,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 164,
+  "end": 234,
+  "text": "Maya Okafor started the invoice submission on 25 July 2025, 09:00 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 235,
+  "end": 308,
+  "text": "On 2 August 2025, 15:30 UTC, Lena Delgado initiated the payment approval.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 309,
+  "end": 366,
+  "text": "Maya Okafor was involved in the payment approval as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_1",
+   "event_4"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 367,
+  "end": 433,
+  "text": "The payment approval happened at Oakhaven Services Group's office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 435,
+  "end": 442,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 443,
+  "end": 447,
+  "text": "Lena",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 107,
+  "text": "Granite Federal Credit Union account 3656898715 is registered to Oakhaven Services Group.",
+  "tids": [
+   "t22",
+   "t23",
+   "t77",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 108,
+  "end": 194,
+  "text": "Granite Federal Credit Union account 5372760903 is registered to Clearpath Supply Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t78",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 195,
+  "end": 272,
+  "text": "Granite Federal Credit Union account 4275921140 is registered to Maya Okafor.",
+  "tids": [
+   "t28",
+   "t29",
+   "t79",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 274,
+  "end": 343,
+  "text": "Maya Okafor started the refund request on July 29, 2025 at 17:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 344,
+  "end": 392,
+  "text": "Kofi Vance also took part in the refund request.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 393,
+  "end": 462,
+  "text": "On 13 August 2025, 14:15 UTC, Kofi Vance initiated the wire transfer.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 463,
+  "end": 517,
+  "text": "Approval for the wire transfer came from Lena Delgado.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "event_5"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 518,
+  "end": 566,
+  "text": "Maya Okafor also took part in the wire transfer.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D4.S10": {
+  "doc_id": "D4",
+  "start": 568,
+  "end": 616,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

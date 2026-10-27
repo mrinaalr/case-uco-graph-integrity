@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Account 3565692895 at Lakeshore Savings Bank belongs to Brightwater Fabrication Inc. [D4.S3] Redfern Analytics Co. holds account 4427368583 at Lakeshore Savings Bank. [D4.S4] Account 7066314098 at Lakeshore Savings Bank belongs to Clara Osei.
+
+[D4.S5] Kofi Lindqvist started the refund request on June 12, 2025 at 12:25 UTC. [D4.S6] Hector Abara started the bank detail change on 17 June 2025, 16:30 UTC. [D4.S7] The bank detail change took place at the Brightwater Fabrication Inc. office. [D4.S8] The expense reimbursement was initiated by Clara Osei on June 20, 2025 at 15:15 UTC. [D4.S9] Clara Osei started the audit review on 21 July 2025, 10:15 UTC.
+
+[D4.S10] More detail will follow once records are pulled.

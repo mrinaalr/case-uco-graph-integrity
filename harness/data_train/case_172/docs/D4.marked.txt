@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Pinecrest National Bank account 7830288017 is registered to Redfern Supply Inc. [D4.S3] Pinecrest National Bank account 1809083723 is registered to Stonebridge Tooling Inc. [D4.S4] Pinecrest National Bank account 4902900551 is registered to Arjun Lindqvist.
+
+[D4.S5] On February 21, 2025 at 09:10 UTC, Arjun Lindqvist initiated the payment approval. [D4.S6] The bank detail change was initiated by Arjun Lindqvist on March 20, 2025 at 10:25 UTC.
+
+[D4.S7] This summary reflects records available to date.

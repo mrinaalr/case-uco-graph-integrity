@@ -1,0 +1,11 @@
+[D1.S1] From: elindqvist@summitpeak.com
+[D1.S2] To: hector.kowalski@summitpeak.com
+[D1.S3] Subject: Urgent: payment timing
+[D1.S4] Date: Tue, 14 Oct 2025 18:00:00 +0000
+
+[D1.S5] Hi Hector,
+
+[D1.S6] Elena Lindqvist started the payment approval on 21 September 2025, 17:15 UTC. [D1.S7] Dana Reyes also took part in the payment approval. [D1.S8] The account reconciliation was initiated by Hector Kowalski on 7 October 2025, 11:45 UTC. [D1.S9] Elena Lindqvist also took part in the account reconciliation. [D1.S10] On October 14, 2025 at 16:00 UTC, Elena Lindqvist initiated the audit review. [D1.S11] Dana Reyes also took part in the audit review.
+
+[D1.S12] Thanks,
+[D1.S13] Elena

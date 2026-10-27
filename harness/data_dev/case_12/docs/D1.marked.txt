@@ -1,0 +1,11 @@
+[D1.S1] From: priya.fischer@oakhaven.com
+[D1.S2] To: irene.sorensen@bluegate.com
+[D1.S3] Subject: Re: banking change request
+[D1.S4] Date: Mon, 06 Oct 2025 12:25:00 +0000
+
+[D1.S5] Hi Irene,
+
+[D1.S6] On September 11, 2025 at 09:10 UTC, Andre Holloway initiated the account reconciliation. [D1.S7] On 15 September 2025, 13:25 UTC, Priya Fischer initiated the wire transfer. [D1.S8] Irene Sorensen also took part in the wire transfer. [D1.S9] The wire transfer happened at Bluegate Fabrication Group's office. [D1.S10] The vendor onboarding was initiated by Irene Sorensen on September 28, 2025 at 09:45 UTC. [D1.S11] Priya Fischer started the contract amendment on 6 October 2025, 10:25 UTC. [D1.S12] Approval for the contract amendment came from Andre Holloway.
+
+[D1.S13] Thanks,
+[D1.S14] Priya

@@ -1,0 +1,11 @@
+[D2.S1] From: nokafor@bluegate.com
+[D2.S2] To: ruth.abara@bluegate.com, wfischer@northwind.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Mon, 25 Aug 2025 19:15:00 +0000
+
+[D2.S5] Hi Ruth,
+
+[D2.S6] The expense reimbursement was initiated by Wesley Fischer on July 29, 2025 at 15:25 UTC. [D2.S7] The invoice submission was initiated by Wesley Fischer on August 11, 2025 at 13:15 UTC. [D2.S8] The invoice submission took place at the Bluegate Packaging Group office. [D2.S9] On 25 August 2025, 17:15 UTC, Ruth Abara initiated the refund request. [D2.S10] Approval for the refund request came from Wesley Fischer. [D2.S11] Nadia Okafor also took part in the refund request. [D2.S12] Nadia Okafor had been in contact with Wesley Fischer throughout.
+
+[D2.S13] Thanks,
+[D2.S14] Nadia

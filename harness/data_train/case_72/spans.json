@@ -1,0 +1,500 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 31,
+  "text": "From: tomas.park@cedarridge.com",
+  "tids": [
+   "t63",
+   "t9"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 32,
+  "end": 84,
+  "text": "To: ovance@bluegate.com, desmond.osei@cedarridge.com",
+  "tids": [
+   "t64",
+   "t65",
+   "t72",
+   "t73",
+   "t12",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 85,
+  "end": 110,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 111,
+  "end": 148,
+  "text": "Date: Tue, 22 Apr 2025 17:25:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 150,
+  "end": 159,
+  "text": "Hi Oscar,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 161,
+  "end": 234,
+  "text": "On 15 March 2025, 10:15 UTC, Oscar Vance initiated the vendor onboarding.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 235,
+  "end": 302,
+  "text": "The vendor onboarding happened at Cedar Ridge Freight Co.'s office.",
+  "tids": [
+   "t60",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 303,
+  "end": 374,
+  "text": "On 21 March 2025, 13:45 UTC, Tomas Park initiated the payment approval.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46",
+   "t4"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 375,
+  "end": 447,
+  "text": "Desmond Osei started the contract amendment on 22 April 2025, 15:25 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52",
+   "t5"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 448,
+  "end": 520,
+  "text": "The contract amendment took place at the Cedar Ridge Freight Co. office.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 521,
+  "end": 583,
+  "text": "Tomas Park had been in contact with Luca Whitfield throughout.",
+  "tids": [
+   "t61",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "person_4"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 585,
+  "end": 592,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 593,
+  "end": 598,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 130,
+  "text": "Tomas Park is employed by Cedar Ridge Freight Co.; their email is tomas.park@cedarridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 131,
+  "end": 227,
+  "text": "Cedar Ridge Freight Co. employs Desmond Osei, who can be reached at desmond.osei@cedarridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t76",
+   "t77"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 228,
+  "end": 319,
+  "text": "Cedar Ridge Freight Co. employs Felix Okafor, who can be reached at fokafor@cedarridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t78",
+   "t79",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 320,
+  "end": 406,
+  "text": "Oscar Vance is employed by Bluegate Freight Group; their email is ovance@bluegate.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t80",
+   "t81",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 407,
+  "end": 500,
+  "text": "Luca Whitfield is employed by Bluegate Freight Group; their email is lwhitfield@bluegate.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t82",
+   "t83",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 502,
+  "end": 581,
+  "text": "Cedar Ridge Freight Co. is based at 1711 Riverside Boulevard, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 582,
+  "end": 660,
+  "text": "The offices of Bluegate Freight Group are at 3449 Elm Street, Boise, ID 83702.",
+  "tids": [
+   "t57",
+   "t53",
+   "t54",
+   "t55",
+   "t56"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 662,
+  "end": 739,
+  "text": "First Harbor Bank account 7623194637 is registered to Cedar Ridge Freight Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t84",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 740,
+  "end": 809,
+  "text": "Bluegate Freight Group holds account 5455719980 at First Harbor Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t85",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 810,
+  "end": 867,
+  "text": "Tomas Park holds account 6177353570 at First Harbor Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t86",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 869,
+  "end": 917,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 31,
+  "text": "From: tomas.park@cedarridge.com",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 32,
+  "end": 63,
+  "text": "To: desmond.osei@cedarridge.com",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 64,
+  "end": 97,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 98,
+  "end": 135,
+  "text": "Date: Sun, 06 Apr 2025 17:10:00 +0000",
+  "tids": [
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 137,
+  "end": 148,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 150,
+  "end": 232,
+  "text": "The expense reimbursement was initiated by Tomas Park on 15 March 2025, 12:45 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 233,
+  "end": 290,
+  "text": "Desmond Osei also took part in the expense reimbursement.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 291,
+  "end": 371,
+  "text": "The wire transfer was initiated by Luca Whitfield on April 6, 2025 at 15:10 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 372,
+  "end": 426,
+  "text": "Approval for the wire transfer came from Desmond Osei.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 428,
+  "end": 435,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 436,
+  "end": 441,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ }
+}

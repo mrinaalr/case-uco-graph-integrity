@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@elenao is Elena Osei.
+@wesleyb is Wesley Banerjee.
+[2025-10-12 16:10 UTC] @elenao to @wesleyb: Can you look at the vendor file before lunch?
+[2025-10-12 16:17 UTC] @wesleyb to @elenao: Send me the new form when you can.
+[2025-10-12 16:24 UTC] @elenao to @wesleyb: Finance is asking questions again.

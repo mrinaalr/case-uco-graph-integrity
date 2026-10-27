@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oakhaven Industrial Co. employs Mei Osei, who can be reached at mosei@oakhaven.com. [D1.S3] Hannah Moreau is employed by Oakhaven Industrial Co.; their email is hannah.moreau@oakhaven.com. [D1.S4] Samuel Brennan is employed by Bluegate Consulting Inc.; their email is samuel.brennan@bluegate.com.
+
+[D1.S5] Oakhaven Industrial Co. is based at 6808 Lakeview Road, Raleigh, NC 27601. [D1.S6] The offices of Bluegate Consulting Inc. are at 5887 Lakeview Road, Richmond, VA 23219.
+
+[D1.S7] Granite Federal Credit Union account 2548405333 is registered to Oakhaven Industrial Co. [D1.S8] Bluegate Consulting Inc. holds account 6197857922 at Granite Federal Credit Union.
+
+[D1.S9] This summary reflects records available to date.

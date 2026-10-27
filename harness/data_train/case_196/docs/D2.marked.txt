@@ -1,0 +1,11 @@
+[D2.S1] From: rosa.moreau@cedarridge.com
+[D2.S2] To: pwhitfield@cedarridge.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Sat, 02 Aug 2025 17:10:00 +0000
+
+[D2.S5] Hi Priya,
+
+[D2.S6] Priya Whitfield started the refund request on 10 July 2025, 11:25 UTC. [D2.S7] Clara Mendes started the wire transfer on July 29, 2025 at 15:30 UTC. [D2.S8] Rosa Moreau started the expense reimbursement on 2 August 2025, 15:10 UTC. [D2.S9] The expense reimbursement happened at Cedar Ridge Logistics LLC's office.
+
+[D2.S10] Thanks,
+[D2.S11] Rosa

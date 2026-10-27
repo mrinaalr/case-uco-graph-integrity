@@ -1,0 +1,11 @@
+From: sreyes@copperfield.com
+To: clara.lindqvist@ironleaf.com
+Subject: Invoice 4246 follow-up
+Date: Tue, 25 Mar 2025 18:00:00 +0000
+
+Hi Clara,
+
+Samuel Reyes started the wire transfer on 28 February 2025, 16:00 UTC. The vendor onboarding was initiated by Clara Lindqvist on 6 March 2025, 13:00 UTC. The account reconciliation was initiated by Clara Lindqvist on March 12, 2025 at 10:15 UTC. Samuel Reyes was involved in the account reconciliation as well. Owen Ashworth started the refund request on 24 March 2025, 13:15 UTC. Clara Lindqvist started the expense reimbursement on March 25, 2025 at 16:00 UTC.
+
+Thanks,
+Samuel

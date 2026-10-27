@@ -1,0 +1,460 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 130,
+  "text": "Wesley Novak works for Clearpath Distribution LLC and uses the address wnovak@clearpath.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t78",
+   "t79",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 229,
+  "text": "Clearpath Distribution LLC employs Felix Moreau, who can be reached at felix.moreau@clearpath.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t80",
+   "t81",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 322,
+  "text": "Hannah Abara works for Clearpath Distribution LLC and uses the address habara@clearpath.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t82",
+   "t83",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 323,
+  "end": 425,
+  "text": "Summit Peak Components Ltd. employs Maya Holloway, who can be reached at maya.holloway@summitpeak.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t84",
+   "t85",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 426,
+  "end": 524,
+  "text": "Owen Kowalski works for Summit Peak Components Ltd. and uses the address okowalski@summitpeak.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t86",
+   "t87",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 526,
+  "end": 611,
+  "text": "The offices of Clearpath Distribution LLC are at 3271 Main Street, Madison, WI 53703.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 612,
+  "end": 688,
+  "text": "Summit Peak Components Ltd. is based at 319 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t65",
+   "t61",
+   "t62",
+   "t63",
+   "t64"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 690,
+  "end": 771,
+  "text": "Union Ledger Bank account 6913614736 is registered to Clearpath Distribution LLC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t88",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 772,
+  "end": 853,
+  "text": "Union Ledger Bank account 7810803667 is registered to Summit Peak Components Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t89",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 854,
+  "end": 918,
+  "text": "Account 2194800982 at Union Ledger Bank belongs to Felix Moreau.",
+  "tids": [
+   "t36",
+   "t37",
+   "t90",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 920,
+  "end": 954,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: maya.holloway@summitpeak.com",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 59,
+  "text": "To: wnovak@clearpath.com",
+  "tids": [
+   "t67",
+   "t91"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 60,
+  "end": 85,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 123,
+  "text": "Date: Fri, 11 Jul 2025 17:30:00 +0000",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 125,
+  "end": 135,
+  "text": "Hi Wesley,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 207,
+  "text": "On June 8, 2025 at 09:50 UTC, Felix Moreau initiated the audit review.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 208,
+  "end": 295,
+  "text": "The account reconciliation was initiated by Felix Moreau on June 15, 2025 at 10:30 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 296,
+  "end": 375,
+  "text": "The refund request was initiated by Felix Moreau on June 15, 2025 at 17:15 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 376,
+  "end": 447,
+  "text": "Hannah Abara started the bank detail change on 25 June 2025, 10:25 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 448,
+  "end": 516,
+  "text": "Hannah Abara started the wire transfer on July 8, 2025 at 13:25 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 517,
+  "end": 559,
+  "text": "Felix Moreau authorized the wire transfer.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "person_1",
+   "event_4"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 560,
+  "end": 637,
+  "text": "On 11 July 2025, 15:30 UTC, Wesley Novak initiated the expense reimbursement.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 639,
+  "end": 646,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 647,
+  "end": 651,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t92"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@owenk is Owen Kowalski.",
+  "tids": [
+   "t57",
+   "t56"
+  ],
+  "mentions": [
+   "handle_person_4",
+   "person_4"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@felixm is Felix Moreau.",
+  "tids": [
+   "t59",
+   "t58"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 156,
+  "text": "[2025-06-08 10:50 UTC] @owenk to @felixm: I pushed it through, check your inbox.",
+  "tids": [
+   "t70",
+   "t71",
+   "t72",
+   "t73",
+   "t93"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_4",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 239,
+  "text": "[2025-06-08 10:57 UTC] @felixm to @owenk: Let's keep this between us until Friday.",
+  "tids": [
+   "t74",
+   "t75",
+   "t76",
+   "t77",
+   "t94"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_4"
+  ]
+ }
+}

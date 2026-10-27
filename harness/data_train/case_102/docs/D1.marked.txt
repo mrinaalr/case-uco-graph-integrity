@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oakhaven Fabrication LLC employs Wesley Ivanova, who can be reached at wesley.ivanova@oakhaven.com. [D1.S3] Grace Abara works for Oakhaven Fabrication LLC and uses the address grace.abara@oakhaven.com. [D1.S4] Oakhaven Fabrication LLC employs Lena Moreau, who can be reached at lena.moreau@oakhaven.com. [D1.S5] Nadia Brennan works for Harborline Packaging Ltd. and uses the address nadia.brennan@harborline.com. [D1.S6] Harborline Packaging Ltd. employs Mei Quinn, who can be reached at mquinn@harborline.com.
+
+[D1.S7] The offices of Oakhaven Fabrication LLC are at 4169 Lakeview Road, Omaha, NE 68102.
+
+[D1.S8] Pinecrest National Bank account 5389390414 is registered to Oakhaven Fabrication LLC. [D1.S9] Pinecrest National Bank account 3883512990 is registered to Harborline Packaging Ltd. [D1.S10] Pinecrest National Bank account 6486542402 is registered to Grace Abara.
+
+[D1.S11] Mei Quinn communicated with Lena Moreau about the payments.
+
+[D1.S12] Please treat this as confidential.

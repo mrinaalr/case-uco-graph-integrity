@@ -1,0 +1,11 @@
+[D1.S1] From: julian.quinn@northwind.com
+[D1.S2] To: marcus.park@bluegate.com
+[D1.S3] Subject: Invoice 4228 follow-up
+[D1.S4] Date: Mon, 14 Jul 2025 19:15:00 +0000
+
+[D1.S5] Hi Marcus,
+
+[D1.S6] On June 27, 2025 at 13:15 UTC, Marcus Park initiated the audit review. [D1.S7] The wire transfer was initiated by Julian Quinn on July 14, 2025 at 17:15 UTC.
+
+[D1.S8] Thanks,
+[D1.S9] Julian

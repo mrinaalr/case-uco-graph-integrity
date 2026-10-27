@@ -1,0 +1,382 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Silverlake Analytics Ltd. employs Clara Mendes, who can be reached at clara.mendes@silverlake.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 234,
+  "text": "Andre Banerjee works for Silverlake Analytics Ltd. and uses the address abanerjee@silverlake.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t64",
+   "t65",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 235,
+  "end": 331,
+  "text": "Grace Vance works for Silverlake Analytics Ltd. and uses the address grace.vance@silverlake.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t66",
+   "t67",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 332,
+  "end": 427,
+  "text": "Julian Petrov works for Redfern Consulting Ltd. and uses the address julian.petrov@redfern.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 428,
+  "end": 516,
+  "text": "Desmond Quinn works for Redfern Consulting Ltd. and uses the address dquinn@redfern.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t70",
+   "t71",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 518,
+  "end": 592,
+  "text": "Silverlake Analytics Ltd. operates from 7250 Main Street, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 594,
+  "end": 666,
+  "text": "Silverlake Analytics Ltd. holds account 1552481532 at Union Ledger Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t72",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 667,
+  "end": 744,
+  "text": "Union Ledger Bank account 3159653699 is registered to Redfern Consulting Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t73",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 745,
+  "end": 806,
+  "text": "Andre Banerjee holds account 7088363261 at Union Ledger Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t74",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 808,
+  "end": 847,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: julian.petrov@redfern.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 63,
+  "text": "To: clara.mendes@silverlake.com",
+  "tids": [
+   "t59",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 64,
+  "end": 104,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 105,
+  "end": 142,
+  "text": "Date: Sun, 18 May 2025 11:50:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 144,
+  "end": 153,
+  "text": "Hi Clara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 155,
+  "end": 234,
+  "text": "On April 12, 2025 at 15:45 UTC, Julian Petrov initiated the invoice submission.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 235,
+  "end": 305,
+  "text": "The invoice submission happened at Silverlake Analytics Ltd.'s office.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 306,
+  "end": 382,
+  "text": "Clara Mendes started the account reconciliation on 13 April 2025, 16:30 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 383,
+  "end": 462,
+  "text": "On 16 April 2025, 09:45 UTC, Desmond Quinn initiated the expense reimbursement.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 463,
+  "end": 537,
+  "text": "Andre Banerjee started the contract amendment on May 6, 2025 at 13:00 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 538,
+  "end": 612,
+  "text": "The contract amendment took place at the Silverlake Analytics Ltd. office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 613,
+  "end": 685,
+  "text": "On May 11, 2025 at 10:10 UTC, Clara Mendes initiated the refund request.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 686,
+  "end": 758,
+  "text": "Julian Petrov started the payment approval on May 18, 2025 at 09:50 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 760,
+  "end": 767,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 768,
+  "end": 774,
+  "text": "Julian",
+  "tids": [],
+  "mentions": []
+ }
+}

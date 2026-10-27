@@ -1,0 +1,7 @@
+Incident summary
+Northwind Fabrication Inc. holds account 8815326830 at Granite Federal Credit Union. Granite Federal
+Credit Union account 1452129398 is registered to Ironleaf Freight Co.
+The bank detail change was initiated by Elena Holloway on 9 March 2025, 10:10 UTC. Approval for the
+bank detail change came from Yara Banerjee. The refund request was initiated by Arjun Abara on 29
+March 2025, 09:45 UTC. The audit review was initiated by Arjun Abara on 8 April 2025, 12:10 UTC.
+This summary reflects records available to date.

@@ -1,0 +1,7 @@
+Incident summary
+Account 1891850290 at Meridian Trust Bank belongs to Northwind Services Group. Westmark
+Distribution LLC holds account 5339456655 at Meridian Trust Bank. Account 6313594835 at Meridian
+Trust Bank belongs to Luca Okafor.
+On May 9, 2025 at 15:15 UTC, Luca Okafor initiated the contract amendment. Account 1891850290
+sent a transfer to account 5339456655.
+Please treat this as confidential.

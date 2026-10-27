@@ -1,0 +1,11 @@
+[D3.S1] From: rbrennan@oakhaven.com
+[D3.S2] To: hannah.castillo@ironleaf.com, eholloway@oakhaven.com
+[D3.S3] Subject: Contract terms for next quarter
+[D3.S4] Date: Wed, 20 Aug 2025 16:10:00 +0000
+
+[D3.S5] Hi Hannah,
+
+[D3.S6] On 20 August 2025, 14:10 UTC, Hannah Castillo initiated the wire transfer. [D3.S7] The wire transfer took place at the Oakhaven Tooling Inc. office.
+
+[D3.S8] Thanks,
+[D3.S9] Rosa

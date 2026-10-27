@@ -1,0 +1,491 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 139,
+  "text": "Wesley Tanaka is employed by Stonebridge Logistics LLC; their email is wesley.tanaka@stonebridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t82",
+   "t83",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 236,
+  "text": "Felix Ivanova works for Stonebridge Logistics LLC and uses the address fivanova@stonebridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t84",
+   "t85",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 237,
+  "end": 327,
+  "text": "Irene Osei is employed by Stonebridge Logistics LLC; their email is iosei@stonebridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t86",
+   "t87",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 328,
+  "end": 421,
+  "text": "Maya Brennan works for Oakhaven Freight Group and uses the address maya.brennan@oakhaven.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t88",
+   "t89",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 422,
+  "end": 521,
+  "text": "Desmond Fischer is employed by Oakhaven Freight Group; their email is desmond.fischer@oakhaven.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t90",
+   "t91",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 523,
+  "end": 606,
+  "text": "The offices of Stonebridge Logistics LLC are at 8570 Main Street, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 608,
+  "end": 699,
+  "text": "Granite Federal Credit Union account 1607520966 is registered to Stonebridge Logistics LLC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t92",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 700,
+  "end": 788,
+  "text": "Granite Federal Credit Union account 4710644323 is registered to Oakhaven Freight Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t93",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 789,
+  "end": 865,
+  "text": "Account 7881333492 at Granite Federal Credit Union belongs to Wesley Tanaka.",
+  "tids": [
+   "t36",
+   "t37",
+   "t94",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 867,
+  "end": 915,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: desmond.fischer@oakhaven.com",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 94,
+  "text": "To: fivanova@stonebridge.com, wesley.tanaka@stonebridge.com",
+  "tids": [
+   "t66",
+   "t67",
+   "t95",
+   "t96"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 95,
+  "end": 126,
+  "text": "Subject: Invoice 9295 follow-up",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 127,
+  "end": 164,
+  "text": "Date: Tue, 01 Apr 2025 13:45:00 +0000",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 175,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 177,
+  "end": 263,
+  "text": "The invoice submission was initiated by Desmond Fischer on March 7, 2025 at 09:25 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 264,
+  "end": 334,
+  "text": "The invoice submission happened at Stonebridge Logistics LLC's office.",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 335,
+  "end": 407,
+  "text": "On 17 March 2025, 17:50 UTC, Desmond Fischer initiated the audit review.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_4"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 408,
+  "end": 485,
+  "text": "On March 19, 2025 at 17:15 UTC, Maya Brennan initiated the vendor onboarding.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 486,
+  "end": 571,
+  "text": "The contract amendment was initiated by Felix Ivanova on March 20, 2025 at 17:15 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 572,
+  "end": 634,
+  "text": "Approval for the contract amendment came from Desmond Fischer.",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "person_4",
+   "event_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 635,
+  "end": 701,
+  "text": "Irene Osei started the refund request on 21 March 2025, 17:45 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 702,
+  "end": 779,
+  "text": "The payment approval was initiated by Irene Osei on 27 March 2025, 11:00 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 780,
+  "end": 861,
+  "text": "On 1 April 2025, 11:45 UTC, Desmond Fischer initiated the account reconciliation.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_4"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 863,
+  "end": 870,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 871,
+  "end": 878,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t97"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 55,
+  "text": "@desmondf is Desmond Fischer.",
+  "tids": [
+   "t60",
+   "t59"
+  ],
+  "mentions": [
+   "handle_person_4",
+   "person_4"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 56,
+  "end": 82,
+  "text": "@wesleyt is Wesley Tanaka.",
+  "tids": [
+   "t62",
+   "t61"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 83,
+  "end": 167,
+  "text": "[2025-03-07 10:25 UTC] @desmondf to @wesleyt: I pushed it through, check your inbox.",
+  "tids": [
+   "t70",
+   "t71",
+   "t72",
+   "t73"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_4",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 168,
+  "end": 254,
+  "text": "[2025-03-07 10:32 UTC] @wesleyt to @desmondf: Let's keep this between us until Friday.",
+  "tids": [
+   "t74",
+   "t75",
+   "t76",
+   "t77",
+   "t98"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_4"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 255,
+  "end": 328,
+  "text": "[2025-03-07 10:39 UTC] @desmondf to @wesleyt: Did the bank call back yet?",
+  "tids": [
+   "t78",
+   "t79",
+   "t80",
+   "t81"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_4",
+   "handle_person_0"
+  ]
+ }
+}

@@ -1,0 +1,412 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: rosa.reyes@northwind.com",
+  "tids": [
+   "t52",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 62,
+  "text": "To: mei.kowalski@harborline.com",
+  "tids": [
+   "t53",
+   "t61",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 63,
+  "end": 98,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Thu, 13 Nov 2025 16:25:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 145,
+  "text": "Hi Mei,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 147,
+  "end": 233,
+  "text": "The expense reimbursement was initiated by Priya Tanaka on 22 October 2025, 12:45 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 234,
+  "end": 312,
+  "text": "The wire transfer was initiated by Mei Kowalski on 7 November 2025, 14:45 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42",
+   "t6"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 313,
+  "end": 394,
+  "text": "The vendor onboarding was initiated by Rosa Reyes on 13 November 2025, 14:25 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48",
+   "t7"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 396,
+  "end": 403,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 404,
+  "end": 408,
+  "text": "Rosa",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 132,
+  "text": "Priya Tanaka works for Harborline Fabrication LLC and uses the address ptanaka@harborline.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 234,
+  "text": "Arjun Ivanova works for Harborline Fabrication LLC and uses the address arjun.ivanova@harborline.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 235,
+  "end": 334,
+  "text": "Mei Kowalski works for Harborline Fabrication LLC and uses the address mei.kowalski@harborline.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 335,
+  "end": 427,
+  "text": "Northwind Industrial Co. employs Rosa Reyes, who can be reached at rosa.reyes@northwind.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 429,
+  "end": 520,
+  "text": "The offices of Harborline Fabrication LLC are at 35 Riverside Boulevard, Madison, WI 53703.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 522,
+  "end": 605,
+  "text": "Meridian Trust Bank account 5669608512 is registered to Harborline Fabrication LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 606,
+  "end": 686,
+  "text": "Meridian Trust Bank account 2487974999 is registered to Northwind Industrial Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 687,
+  "end": 757,
+  "text": "Meridian Trust Bank account 6894420927 is registered to Arjun Ivanova.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 759,
+  "end": 798,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 33,
+  "text": "From: mei.kowalski@harborline.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 34,
+  "end": 86,
+  "text": "To: ptanaka@harborline.com, rosa.reyes@northwind.com",
+  "tids": [
+   "t57",
+   "t58",
+   "t73",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 87,
+  "end": 122,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 123,
+  "end": 160,
+  "text": "Date: Thu, 20 Nov 2025 14:00:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 162,
+  "end": 171,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 173,
+  "end": 252,
+  "text": "On 2 November 2025, 16:25 UTC, Rosa Reyes initiated the account reconciliation.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 253,
+  "end": 328,
+  "text": "On 8 November 2025, 17:25 UTC, Priya Tanaka initiated the payment approval.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 329,
+  "end": 407,
+  "text": "Mei Kowalski started the invoice submission on November 20, 2025 at 12:00 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 409,
+  "end": 416,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 417,
+  "end": 420,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ }
+}

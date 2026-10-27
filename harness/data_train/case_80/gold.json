@@ -1,0 +1,776 @@
+{
+ "case_id": "case_80",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D2",
+    "D4"
+   ],
+   "label": "Copperfield Fabrication Ltd."
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D2",
+    "D4"
+   ],
+   "label": "Northwind Distribution Co."
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D4"
+   ],
+   "label": "Granite Federal Credit Union"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Desmond Reyes"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Marcus Fischer"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Luca Park"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "dreyes@copperfield.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "mfischer@copperfield.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "luca.park@northwind.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1",
+    "D2",
+    "D4"
+   ],
+   "label": "3562 Market Street, Tucson, AZ 85701"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "3686355211"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "3855223553"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "account reconciliation"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "expense reimbursement"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_msg_1",
+   "class": "EmailMessage",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Copperfield Fabrication Ltd.",
+   "lit": true,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Northwind Distribution Co.",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Granite Federal Credit Union",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Desmond Reyes",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Marcus Fischer",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Luca Park",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t7",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "dreyes@copperfield.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t10",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "mfischer@copperfield.com",
+   "lit": true,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t13",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "luca.park@northwind.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t16",
+   "s": "loc_company",
+   "p": "street",
+   "o": "3562 Market Street",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t17",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Tucson",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t18",
+   "s": "loc_company",
+   "p": "region",
+   "o": "AZ",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t19",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "85701",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t20",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t21",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "3686355211",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t22",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t23",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t24",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "3855223553",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t25",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t26",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t27",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t28",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-08-03T09:30:00Z",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t29",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t30",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "account reconciliation",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t31",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-08-07T11:45:00Z",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t32",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t33",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t34",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-08-20T14:15:00Z",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t35",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t36",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "expense reimbursement",
+   "lit": true,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t37",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-08-21T12:45:00Z",
+   "lit": true,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t38",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D1.S9",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t39",
+   "s": "person_0",
+   "p": "Authorized",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D1.S10",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t40",
+   "s": "event_2",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t41",
+   "s": "event_0",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S8",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t42",
+   "s": "person_1",
+   "p": "Authorized",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t43",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t44",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t45",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t46",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Wire confirmation needed",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t47",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-08-21T14:45:00Z",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t48",
+   "s": "email_msg_1",
+   "p": "from",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t49",
+   "s": "email_msg_1",
+   "p": "to",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t50",
+   "s": "email_msg_1",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t51",
+   "s": "email_msg_1",
+   "p": "subject",
+   "o": "Updated remittance details",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t52",
+   "s": "email_msg_1",
+   "p": "sentTime",
+   "o": "2025-08-07T13:45:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t53",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t54",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t55",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t56",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t57",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t58",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t59",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t60",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t61",
+   "s": "person_2",
+   "p": "Communicated_With",
+   "o": "person_1",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t62",
+   "s": "person_2",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t63",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t64",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  }
+ ],
+ "relationship_count": 17,
+ "relationship_count_total": 24,
+ "documents": {
+  "D1": "email",
+  "D2": "memo",
+  "D3": "email",
+  "D4": "report"
+ },
+ "seed": 20260202
+}

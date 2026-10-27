@@ -1,0 +1,11 @@
+From: pkowalski@redfern.com
+To: lquinn@northwind.com, samuel.castillo@redfern.com
+Subject: Quarter-end vendor payments
+Date: Sun, 13 Jul 2025 17:15:00 +0000
+
+Hi Lena,
+
+The expense reimbursement was initiated by Lena Quinn on June 11, 2025 at 13:10 UTC. On 18 June 2025, 13:15 UTC, Priya Kowalski initiated the audit review. Desmond Petrov started the bank detail change on July 4, 2025 at 14:15 UTC. The bank detail change happened at Northwind Services Group's office. On 13 July 2025, 15:15 UTC, Priya Kowalski initiated the account reconciliation.
+
+Thanks,
+Priya

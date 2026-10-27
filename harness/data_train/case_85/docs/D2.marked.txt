@@ -1,0 +1,7 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Tomas Mendes is employed by Cedar Ridge Components Group; their email is tmendes@cedarridge.com. [D2.S3] Marcus Park works for Cedar Ridge Components Group and uses the address marcus.park@cedarridge.com. [D2.S4] Desmond Novak is employed by Westmark Components Ltd.; their email is desmond.novak@westmark.com.
+
+[D2.S5] Cedar Ridge Components Group operates from 2471 Industrial Parkway, Tucson, AZ 85701.
+
+[D2.S6] Let me know if anything here looks off.

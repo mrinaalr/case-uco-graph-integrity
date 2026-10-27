@@ -1,0 +1,11 @@
+[D3.S1] From: lreyes@harborline.com
+[D3.S2] To: vnovak@stonebridge.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Thu, 02 Oct 2025 13:50:00 +0000
+
+[D3.S5] Hi Victor,
+
+[D3.S6] The payment approval was initiated by Victor Novak on 2 October 2025, 11:50 UTC. [D3.S7] Luca Reyes was involved in the payment approval as well.
+
+[D3.S8] Thanks,
+[D3.S9] Luca

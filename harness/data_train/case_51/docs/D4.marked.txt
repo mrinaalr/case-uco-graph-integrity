@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Oakhaven Supply Group holds account 9351077756 at First Harbor Bank. [D4.S3] Account 6818444040 at First Harbor Bank belongs to Northwind Components Inc.
+
+[D4.S4] On 13 July 2025, 10:10 UTC, Irene Haddad initiated the refund request. [D4.S5] Luca Okafor also took part in the refund request.
+
+[D4.S6] Please treat this as confidential.

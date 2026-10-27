@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Meridian Trust Bank account 4990437010 is registered to Bluegate Industrial Inc. [D4.S3] Westmark Distribution Inc. holds account 5092828834 at Meridian Trust Bank. [D4.S4] Meridian Trust Bank account 8049410070 is registered to Samuel Okafor.
+
+[D4.S5] On 25 March 2025, 15:25 UTC, Arjun Vance initiated the refund request.
+
+[D4.S6] This summary reflects records available to date.

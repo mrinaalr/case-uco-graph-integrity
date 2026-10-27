@@ -1,0 +1,8 @@
+Incident summary
+Brightwater Components LLC holds account 7193246434 at Union Ledger Bank. Account 4957962313
+at Union Ledger Bank belongs to Clearpath Fabrication LLC.
+Lena Novak started the vendor onboarding on February 15, 2025 at 17:00 UTC. On 18 February 2025,
+11:15 UTC, Wesley Whitfield initiated the expense reimbursement. On February 23, 2025 at 14:25
+UTC, Wesley Whitfield initiated the contract amendment. On March 14, 2025 at 11:50 UTC, Kofi
+Mendes initiated the bank detail change. Account 7193246434 sent a transfer to account 4957962313.
+Please treat this as confidential.

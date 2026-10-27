@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Westmark Packaging Inc. employs Andre Reyes, who can be reached at areyes@westmark.com. [D1.S3] Elena Tanaka is employed by Westmark Packaging Inc.; their email is etanaka@westmark.com. [D1.S4] Westmark Packaging Inc. employs Hector Abara, who can be reached at hector.abara@westmark.com. [D1.S5] Stonebridge Services LLC employs Luca Quinn, who can be reached at luca.quinn@stonebridge.com.
+
+[D1.S6] Westmark Packaging Inc. is based at 9072 Elm Street, Tucson, AZ 85701.
+
+[D1.S7] Union Ledger Bank account 2699620760 is registered to Westmark Packaging Inc. [D1.S8] Union Ledger Bank account 5005345014 is registered to Stonebridge Services LLC.
+
+[D1.S9] Please treat this as confidential.

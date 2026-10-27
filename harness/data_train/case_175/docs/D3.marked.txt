@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Account 1807098087 at First Harbor Bank belongs to Redfern Fabrication Co. [D3.S3] First Harbor Bank account 4213619790 is registered to Brightwater Distribution LLC.
+
+[D3.S4] The bank detail change was initiated by Priya Novak on 10 May 2025, 13:10 UTC. [D3.S5] Priya Novak started the wire transfer on 14 May 2025, 10:00 UTC. [D3.S6] Approval for the wire transfer came from Felix Brennan. [D3.S7] Victor Park was involved in the wire transfer as well. [D3.S8] The wire transfer happened at Redfern Fabrication Co.'s office.
+
+[D3.S9] This summary reflects records available to date.

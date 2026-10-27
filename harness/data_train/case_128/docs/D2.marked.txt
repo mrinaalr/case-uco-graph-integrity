@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Lena Castillo is employed by Westmark Freight Inc.; their email is lena.castillo@westmark.com. [D2.S3] Sofia Abara works for Westmark Freight Inc. and uses the address sofia.abara@westmark.com. [D2.S4] Westmark Freight Inc. employs Andre Vance, who can be reached at andre.vance@westmark.com. [D2.S5] Grace Brennan works for Harborline Fabrication Group and uses the address grace.brennan@harborline.com.
+
+[D2.S6] Sofia Abara's manager is Lena Castillo.
+
+[D2.S7] Westmark Freight Inc. operates from 5576 Maple Avenue, Boise, ID 83702.
+
+[D2.S8] Westmark Freight Inc. holds account 2278408256 at Pinecrest National Bank. [D2.S9] Pinecrest National Bank account 2062046786 is registered to Harborline Fabrication Group. [D2.S10] Sofia Abara holds account 9906343982 at Pinecrest National Bank.
+
+[D2.S11] Let me know if anything here looks off.

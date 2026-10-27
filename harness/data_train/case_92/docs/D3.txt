@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@victora is Victor Abara.
+@hectors is Hector Sorensen.
+[2025-05-28 11:15 UTC] @victora to @hectors: Did the bank call back yet?
+[2025-05-28 11:22 UTC] @hectors to @victora: Can you look at the vendor file before lunch?
+[2025-05-28 11:29 UTC] @victora to @hectors: Send me the new form when you can.

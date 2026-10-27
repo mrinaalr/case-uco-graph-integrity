@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Maya Delgado is employed by Westmark Packaging Inc.; their email is maya.delgado@westmark.com. [D1.S3] Mei Brennan works for Westmark Packaging Inc. and uses the address mbrennan@westmark.com. [D1.S4] Lena Lindqvist is employed by Westmark Packaging Inc.; their email is llindqvist@westmark.com. [D1.S5] Harborline Distribution Co. employs Nadia Reyes, who can be reached at nadia.reyes@harborline.com.
+
+[D1.S6] Lena Lindqvist's manager is Maya Delgado.
+
+[D1.S7] Westmark Packaging Inc. operates from 6617 Elm Street, Omaha, NE 68102.
+
+[D1.S8] Westmark Packaging Inc. holds account 7608283525 at Pinecrest National Bank. [D1.S9] Account 4376920746 at Pinecrest National Bank belongs to Harborline Distribution Co.
+
+[D1.S10] Let me know if anything here looks off.

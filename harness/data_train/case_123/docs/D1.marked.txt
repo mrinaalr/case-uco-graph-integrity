@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Ironleaf Freight LLC employs Irene Banerjee, who can be reached at ibanerjee@ironleaf.com. [D1.S3] Ironleaf Freight LLC employs Clara Lindqvist, who can be reached at clindqvist@ironleaf.com. [D1.S4] Ironleaf Freight LLC employs Owen Osei, who can be reached at owen.osei@ironleaf.com. [D1.S5] Northwind Freight LLC employs Grace Petrov, who can be reached at gpetrov@northwind.com.
+
+[D1.S6] Owen Osei reports to Irene Banerjee. [D1.S7] Clara Lindqvist's manager is Irene Banerjee.
+
+[D1.S8] Ironleaf Freight LLC operates from 5288 Elm Street, Madison, WI 53703. [D1.S9] Northwind Freight LLC operates from 6460 Commerce Drive, Madison, WI 53703.
+
+[D1.S10] More detail will follow once records are pulled.

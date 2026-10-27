@@ -1,0 +1,394 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 121,
+  "text": "Oakhaven Industrial Co. employs Mei Osei, who can be reached at mosei@oakhaven.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t60",
+   "t61",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 122,
+  "end": 218,
+  "text": "Hannah Moreau is employed by Oakhaven Industrial Co.; their email is hannah.moreau@oakhaven.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t62",
+   "t63",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 219,
+  "end": 318,
+  "text": "Samuel Brennan is employed by Bluegate Consulting Inc.; their email is samuel.brennan@bluegate.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t64",
+   "t65",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 320,
+  "end": 394,
+  "text": "Oakhaven Industrial Co. is based at 6808 Lakeview Road, Raleigh, NC 27601.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 395,
+  "end": 481,
+  "text": "The offices of Bluegate Consulting Inc. are at 5887 Lakeview Road, Richmond, VA 23219.",
+  "tids": [
+   "t52",
+   "t48",
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 483,
+  "end": 571,
+  "text": "Granite Federal Credit Union account 2548405333 is registered to Oakhaven Industrial Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t66",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 572,
+  "end": 654,
+  "text": "Bluegate Consulting Inc. holds account 6197857922 at Granite Federal Credit Union.",
+  "tids": [
+   "t25",
+   "t26",
+   "t67",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 656,
+  "end": 704,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: hannah.moreau@oakhaven.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 64,
+  "text": "To: samuel.brennan@bluegate.com",
+  "tids": [
+   "t57",
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 65,
+  "end": 96,
+  "text": "Subject: Invoice 9216 follow-up",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 97,
+  "end": 134,
+  "text": "Date: Wed, 17 Sep 2025 13:00:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 146,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 148,
+  "end": 220,
+  "text": "Mei Osei started the contract amendment on August 13, 2025 at 13:00 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 221,
+  "end": 269,
+  "text": "Hannah Moreau authorized the contract amendment.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 270,
+  "end": 346,
+  "text": "On 18 August 2025, 14:45 UTC, Samuel Brennan initiated the payment approval.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 347,
+  "end": 401,
+  "text": "Mei Osei was involved in the payment approval as well.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 402,
+  "end": 468,
+  "text": "The payment approval happened at Oakhaven Industrial Co.'s office.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 469,
+  "end": 551,
+  "text": "The account reconciliation was initiated by Mei Osei on 22 August 2025, 15:50 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 552,
+  "end": 622,
+  "text": "Mei Osei started the refund request on September 1, 2025 at 16:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 623,
+  "end": 668,
+  "text": "Samuel Brennan authorized the refund request.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 669,
+  "end": 744,
+  "text": "Hannah Moreau started the vendor onboarding on 7 September 2025, 13:25 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 745,
+  "end": 806,
+  "text": "Samuel Brennan was involved in the vendor onboarding as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_4"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 807,
+  "end": 878,
+  "text": "The vendor onboarding took place at the Oakhaven Industrial Co. office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 879,
+  "end": 962,
+  "text": "Hannah Moreau started the expense reimbursement on September 17, 2025 at 11:00 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 964,
+  "end": 971,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S19": {
+  "doc_id": "D2",
+  "start": 972,
+  "end": 978,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ }
+}

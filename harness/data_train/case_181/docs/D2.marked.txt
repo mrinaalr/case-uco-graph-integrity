@@ -1,0 +1,11 @@
+[D2.S1] From: mei.haddad@northwind.com
+[D2.S2] To: lokafor@northwind.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Tue, 13 May 2025 15:45:00 +0000
+
+[D2.S5] Hi Luca,
+
+[D2.S6] The audit review was initiated by Mei Haddad on 5 May 2025, 10:00 UTC. [D2.S7] The account reconciliation was initiated by Mei Haddad on May 13, 2025 at 13:45 UTC.
+
+[D2.S8] Thanks,
+[D2.S9] Mei

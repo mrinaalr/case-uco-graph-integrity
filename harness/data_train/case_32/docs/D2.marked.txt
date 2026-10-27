@@ -1,0 +1,11 @@
+[D2.S1] From: wesley.mendes@northwind.com
+[D2.S2] To: luca.ashworth@northwind.com, ocastillo@westmark.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Sun, 01 Jun 2025 13:00:00 +0000
+
+[D2.S5] Hi Luca,
+
+[D2.S6] The refund request was initiated by Hector Banerjee on 18 May 2025, 11:10 UTC. [D2.S7] Approval for the refund request came from Elena Whitfield. [D2.S8] Oscar Castillo also took part in the refund request. [D2.S9] The contract amendment was initiated by Oscar Castillo on May 30, 2025 at 15:00 UTC. [D2.S10] Luca Ashworth authorized the contract amendment. [D2.S11] The contract amendment happened at Northwind Supply Co.'s office. [D2.S12] On 1 June 2025, 11:00 UTC, Wesley Mendes initiated the vendor onboarding.
+
+[D2.S13] Thanks,
+[D2.S14] Wesley

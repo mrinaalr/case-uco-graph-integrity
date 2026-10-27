@@ -1,0 +1,11 @@
+[D2.S1] From: kofi.novak@copperfield.com
+[D2.S2] To: nholloway@westmark.com, felix.haddad@westmark.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Fri, 25 Apr 2025 12:45:00 +0000
+
+[D2.S5] Hi Nadia,
+
+[D2.S6] On 25 March 2025, 14:45 UTC, Maya Okafor initiated the vendor onboarding. [D2.S7] On 30 March 2025, 15:00 UTC, Felix Haddad initiated the account reconciliation. [D2.S8] On 6 April 2025, 09:45 UTC, Maya Okafor initiated the payment approval. [D2.S9] The invoice submission was initiated by Maya Okafor on 18 April 2025, 09:00 UTC. [D2.S10] The contract amendment was initiated by Felix Haddad on 18 April 2025, 14:25 UTC. [D2.S11] On 20 April 2025, 16:25 UTC, Kofi Novak initiated the expense reimbursement. [D2.S12] On April 20, 2025 at 17:25 UTC, Kofi Novak initiated the audit review. [D2.S13] On 25 April 2025, 10:45 UTC, Nadia Holloway initiated the wire transfer.
+
+[D2.S14] Thanks,
+[D2.S15] Kofi

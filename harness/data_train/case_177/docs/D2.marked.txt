@@ -1,0 +1,11 @@
+[D2.S1] From: clara.lindqvist@clearpath.com
+[D2.S2] To: awhitfield@westmark.com, rosa.moreau@westmark.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Wed, 17 Sep 2025 11:50:00 +0000
+
+[D2.S5] Hi Andre,
+
+[D2.S6] The audit review was initiated by Luca Kowalski on August 24, 2025 at 16:30 UTC. [D2.S7] On 27 August 2025, 15:45 UTC, Clara Lindqvist initiated the contract amendment. [D2.S8] On 30 August 2025, 16:15 UTC, Rosa Moreau initiated the account reconciliation. [D2.S9] Clara Lindqvist started the vendor onboarding on 5 September 2025, 17:00 UTC. [D2.S10] On September 14, 2025 at 10:50 UTC, Clara Lindqvist initiated the expense reimbursement. [D2.S11] Rosa Moreau also took part in the expense reimbursement. [D2.S12] The payment approval was initiated by Clara Lindqvist on September 17, 2025 at 09:50 UTC.
+
+[D2.S13] Thanks,
+[D2.S14] Clara

@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oscar Okafor is employed by Copperfield Freight Inc.; their email is ookafor@copperfield.com. [D1.S3] Yara Vance is employed by Copperfield Freight Inc.; their email is yvance@copperfield.com. [D1.S4] Copperfield Freight Inc. employs Rosa Haddad, who can be reached at rhaddad@copperfield.com. [D1.S5] Ruth Whitfield works for Harborline Services LLC and uses the address ruth.whitfield@harborline.com.
+
+[D1.S6] Yara Vance's manager is Oscar Okafor.
+
+[D1.S7] Copperfield Freight Inc. operates from 708 Market Street, Tucson, AZ 85701.
+
+[D1.S8] Meridian Trust Bank account 4754703346 is registered to Copperfield Freight Inc. [D1.S9] Account 5297748478 at Meridian Trust Bank belongs to Harborline Services LLC. [D1.S10] Rosa Haddad holds account 2305389542 at Meridian Trust Bank.
+
+[D1.S11] Funds moved from account 4754703346 to account 2305389542.
+
+[D1.S12] This summary reflects records available to date.

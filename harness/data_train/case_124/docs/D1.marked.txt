@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Maya Fischer is employed by Ironleaf Logistics Group; their email is maya.fischer@ironleaf.com. [D1.S3] Hector Banerjee works for Ironleaf Logistics Group and uses the address hector.banerjee@ironleaf.com. [D1.S4] Luca Novak is employed by Redfern Analytics Inc.; their email is lnovak@redfern.com.
+
+[D1.S5] Hector Banerjee's manager is Maya Fischer.
+
+[D1.S6] Ironleaf Logistics Group operates from 5402 Harbor Avenue, Albany, NY 12207. [D1.S7] Redfern Analytics Inc. is based at 75 Lakeview Road, Tucson, AZ 85701.
+
+[D1.S8] Account 1537348256 at Meridian Trust Bank belongs to Ironleaf Logistics Group. [D1.S9] Meridian Trust Bank account 8344835766 is registered to Redfern Analytics Inc. [D1.S10] Maya Fischer holds account 4752236950 at Meridian Trust Bank.
+
+[D1.S11] Funds moved from account 1537348256 to account 8344835766. [D1.S12] Account 1537348256 sent a transfer to account 4752236950.
+
+[D1.S13] This summary reflects records available to date.

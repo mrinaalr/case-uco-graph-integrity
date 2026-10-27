@@ -1,0 +1,513 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: luca.fischer@redfern.com",
+  "tids": [
+   "t61",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 83,
+  "text": "To: rosa.quinn@ironleaf.com, maya.novak@ironleaf.com",
+  "tids": [
+   "t62",
+   "t63",
+   "t70",
+   "t71",
+   "t9",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 84,
+  "end": 117,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Wed, 02 Apr 2025 15:00:00 +0000",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 157,
+  "end": 165,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 167,
+  "end": 232,
+  "text": "Clara Moreau started the audit review on 5 March 2025, 12:45 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 311,
+  "text": "The contract amendment was initiated by Maya Novak on 2 April 2025, 13:00 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49",
+   "t6"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 313,
+  "end": 320,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 321,
+  "end": 325,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 126,
+  "text": "Ironleaf Freight Inc. employs Rosa Quinn, who can be reached at rosa.quinn@ironleaf.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t72",
+   "t73",
+   "t1",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 127,
+  "end": 214,
+  "text": "Ironleaf Freight Inc. employs Clara Moreau, who can be reached at cmoreau@ironleaf.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t74",
+   "t75",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 215,
+  "end": 303,
+  "text": "Maya Novak is employed by Ironleaf Freight Inc.; their email is maya.novak@ironleaf.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t76",
+   "t77"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 304,
+  "end": 395,
+  "text": "Tomas Osei is employed by Redfern Distribution Ltd.; their email is tomas.osei@redfern.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t78",
+   "t79",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 396,
+  "end": 491,
+  "text": "Luca Fischer works for Redfern Distribution Ltd. and uses the address luca.fischer@redfern.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t80",
+   "t81",
+   "t8"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 493,
+  "end": 563,
+  "text": "Ironleaf Freight Inc. is based at 8099 Market Street, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 565,
+  "end": 613,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 29,
+  "text": "From: maya.novak@ironleaf.com",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 30,
+  "end": 56,
+  "text": "To: tomas.osei@redfern.com",
+  "tids": [
+   "t67",
+   "t82"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 57,
+  "end": 88,
+  "text": "Subject: Invoice 6132 follow-up",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 89,
+  "end": 126,
+  "text": "Date: Tue, 08 Apr 2025 17:00:00 +0000",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 128,
+  "end": 137,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 139,
+  "end": 223,
+  "text": "The expense reimbursement was initiated by Clara Moreau on 19 March 2025, 12:50 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 224,
+  "end": 272,
+  "text": "Tomas Osei authorized the expense reimbursement.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 273,
+  "end": 334,
+  "text": "Maya Novak was involved in the expense reimbursement as well.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 335,
+  "end": 412,
+  "text": "The refund request was initiated by Tomas Osei on April 8, 2025 at 15:00 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 413,
+  "end": 471,
+  "text": "Rosa Quinn had been in contact with Tomas Osei throughout.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_0",
+   "person_3"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 473,
+  "end": 480,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 481,
+  "end": 485,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 90,
+  "text": "Account 1613606904 at Union Ledger Bank belongs to Ironleaf Freight Inc.",
+  "tids": [
+   "t30",
+   "t31",
+   "t83",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 91,
+  "end": 167,
+  "text": "Account 6717215547 at Union Ledger Bank belongs to Redfern Distribution Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t84",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 168,
+  "end": 230,
+  "text": "Account 7480374459 at Union Ledger Bank belongs to Rosa Quinn.",
+  "tids": [
+   "t36",
+   "t37",
+   "t85",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 232,
+  "end": 302,
+  "text": "Tomas Osei started the bank detail change on 26 March 2025, 12:00 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 303,
+  "end": 361,
+  "text": "Rosa Quinn was involved in the bank detail change as well.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 362,
+  "end": 438,
+  "text": "The wire transfer was initiated by Maya Novak on April 8, 2025 at 17:45 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 439,
+  "end": 493,
+  "text": "Approval for the wire transfer came from Clara Moreau.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 495,
+  "end": 543,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

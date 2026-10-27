@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oscar Okafor is employed by Summit Peak Tooling Co.; their email is oscar.okafor@summitpeak.com. [D1.S3] Summit Peak Tooling Co. employs Owen Reyes, who can be reached at owen.reyes@summitpeak.com. [D1.S4] Tomas Castillo works for Silverlake Consulting Group and uses the address tcastillo@silverlake.com.
+
+[D1.S5] Owen Reyes reports to Oscar Okafor.
+
+[D1.S6] The offices of Summit Peak Tooling Co. are at 6206 Market Street, Omaha, NE 68102. [D1.S7] Silverlake Consulting Group operates from 21 Industrial Parkway, Dayton, OH 45402.
+
+[D1.S8] First Harbor Bank account 6529928748 is registered to Summit Peak Tooling Co. [D1.S9] First Harbor Bank account 9457365592 is registered to Silverlake Consulting Group. [D1.S10] Account 3829488515 at First Harbor Bank belongs to Owen Reyes.
+
+[D1.S11] Funds moved from account 6529928748 to account 9457365592. [D1.S12] Oscar Okafor had been in contact with Owen Reyes throughout.
+
+[D1.S13] This summary reflects records available to date.

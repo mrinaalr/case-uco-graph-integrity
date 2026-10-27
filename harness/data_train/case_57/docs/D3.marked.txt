@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Bluegate Components Group holds account 9876755883 at Lakeshore Savings Bank. [D3.S3] Harborline Fabrication Ltd. holds account 3563767831 at Lakeshore Savings Bank. [D3.S4] Lakeshore Savings Bank account 3814228452 is registered to Ruth Brennan.
+
+[D3.S5] Grace Vance started the contract amendment on 6 October 2025, 14:50 UTC. [D3.S6] Ruth Brennan also took part in the contract amendment. [D3.S7] The contract amendment happened at Bluegate Components Group's office. [D3.S8] The invoice submission was initiated by Hector Fischer on 18 October 2025, 11:15 UTC. [D3.S9] On November 3, 2025 at 14:45 UTC, Hector Fischer initiated the refund request. [D3.S10] The refund request happened at Bluegate Components Group's office. [D3.S11] Hector Fischer started the account reconciliation on 13 November 2025, 11:00 UTC. [D3.S12] The account reconciliation took place at the Bluegate Components Group office. [D3.S13] Funds moved from account 9876755883 to account 3563767831.
+
+[D3.S14] Please treat this as confidential.

@@ -1,0 +1,393 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 123,
+  "text": "Wesley Vance is employed by Ironleaf Freight LLC; their email is wvance@ironleaf.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 124,
+  "end": 209,
+  "text": "Ruth Moreau works for Ironleaf Freight LLC and uses the address rmoreau@ironleaf.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 210,
+  "end": 299,
+  "text": "Rosa Mendes works for Ironleaf Freight LLC and uses the address rosa.mendes@ironleaf.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 300,
+  "end": 388,
+  "text": "Kofi Fischer is employed by Bluegate Freight Inc.; their email is kfischer@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 390,
+  "end": 477,
+  "text": "The offices of Ironleaf Freight LLC are at 4769 Riverside Boulevard, Spokane, WA 99201.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 479,
+  "end": 518,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 25,
+  "text": "From: wvance@ironleaf.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 26,
+  "end": 77,
+  "text": "To: rosa.mendes@ironleaf.com, kfischer@bluegate.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t70",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 78,
+  "end": 113,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 114,
+  "end": 151,
+  "text": "Date: Wed, 25 Jun 2025 16:10:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 153,
+  "end": 161,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 163,
+  "end": 240,
+  "text": "The refund request was initiated by Ruth Moreau on May 29, 2025 at 14:10 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 241,
+  "end": 323,
+  "text": "The invoice submission was initiated by Kofi Fischer on June 5, 2025 at 14:10 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 324,
+  "end": 395,
+  "text": "On 23 June 2025, 10:25 UTC, Ruth Moreau initiated the payment approval.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 396,
+  "end": 469,
+  "text": "Ruth Moreau started the contract amendment on June 25, 2025 at 14:10 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 470,
+  "end": 528,
+  "text": "Approval for the contract amendment came from Rosa Mendes.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_6"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 530,
+  "end": 537,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 538,
+  "end": 544,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 93,
+  "text": "First Harbor Bank account 1918864254 is registered to Ironleaf Freight LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t72",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 94,
+  "end": 162,
+  "text": "Bluegate Freight Inc. holds account 6145587460 at First Harbor Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t73",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 164,
+  "end": 228,
+  "text": "Wesley Vance started the audit review on 2 June 2025, 09:00 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 229,
+  "end": 307,
+  "text": "The wire transfer was initiated by Kofi Fischer on June 11, 2025 at 12:50 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 308,
+  "end": 372,
+  "text": "The wire transfer took place at the Ironleaf Freight LLC office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 373,
+  "end": 448,
+  "text": "Wesley Vance started the account reconciliation on 24 June 2025, 17:45 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 449,
+  "end": 520,
+  "text": "Wesley Vance started the bank detail change on 27 June 2025, 09:15 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_7",
+   "person_0"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 522,
+  "end": 570,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

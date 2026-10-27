@@ -1,0 +1,394 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 125,
+  "text": "Summit Peak Freight LLC employs Arjun Park, who can be reached at apark@summitpeak.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t63",
+   "t64",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 126,
+  "end": 222,
+  "text": "Summit Peak Freight LLC employs Sofia Haddad, who can be reached at sofia.haddad@summitpeak.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t65",
+   "t66",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 223,
+  "end": 322,
+  "text": "Samuel Reyes is employed by Stonebridge Packaging LLC; their email is samuel.reyes@stonebridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t67",
+   "t68",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 324,
+  "end": 405,
+  "text": "Summit Peak Freight LLC operates from 9269 Riverside Boulevard, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 407,
+  "end": 455,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: sofia.haddad@summitpeak.com",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 88,
+  "text": "To: samuel.reyes@stonebridge.com, apark@summitpeak.com",
+  "tids": [
+   "t47",
+   "t48",
+   "t69",
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 89,
+  "end": 114,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Tue, 04 Feb 2025 14:00:00 +0000",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 154,
+  "end": 164,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 244,
+  "text": "On January 12, 2025 at 17:00 UTC, Arjun Park initiated the invoice submission.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 245,
+  "end": 328,
+  "text": "On January 17, 2025 at 09:45 UTC, Sofia Haddad initiated the expense reimbursement.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 329,
+  "end": 414,
+  "text": "The vendor onboarding was initiated by Sofia Haddad on February 4, 2025 at 12:00 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 416,
+  "end": 423,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 424,
+  "end": 429,
+  "text": "Sofia",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t71"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@samuelr is Samuel Reyes.",
+  "tids": [
+   "t43",
+   "t42"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 74,
+  "text": "@arjunp is Arjun Park.",
+  "tids": [
+   "t45",
+   "t44"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 75,
+  "end": 159,
+  "text": "[2025-01-12 18:00 UTC] @samuelr to @arjunp: Let's keep this between us until Friday.",
+  "tids": [
+   "t51",
+   "t52",
+   "t53",
+   "t54",
+   "t72"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 160,
+  "end": 231,
+  "text": "[2025-01-12 18:07 UTC] @arjunp to @samuelr: Did the bank call back yet?",
+  "tids": [
+   "t55",
+   "t56",
+   "t57",
+   "t58",
+   "t73"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 232,
+  "end": 321,
+  "text": "[2025-01-12 18:14 UTC] @samuelr to @arjunp: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t59",
+   "t60",
+   "t61",
+   "t62"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 107,
+  "text": "Granite Federal Credit Union account 2274925054 is registered to Summit Peak Freight LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 108,
+  "end": 196,
+  "text": "Account 4271692387 at Granite Federal Credit Union belongs to Stonebridge Packaging LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t75",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 198,
+  "end": 269,
+  "text": "Samuel Reyes started the audit review on January 13, 2025 at 13:10 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 270,
+  "end": 340,
+  "text": "Arjun Park started the wire transfer on January 18, 2025 at 13:50 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 342,
+  "end": 390,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,453 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Elena Whitfield is employed by Northwind Supply Co.; their email is elena.whitfield@northwind.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t70",
+   "t71",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 231,
+  "text": "Luca Ashworth works for Northwind Supply Co. and uses the address luca.ashworth@northwind.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t72",
+   "t73",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 326,
+  "text": "Wesley Mendes is employed by Northwind Supply Co.; their email is wesley.mendes@northwind.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t74",
+   "t75",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 327,
+  "end": 422,
+  "text": "Oscar Castillo is employed by Westmark Distribution Co.; their email is ocastillo@westmark.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t76",
+   "t77",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 423,
+  "end": 525,
+  "text": "Westmark Distribution Co. employs Hector Banerjee, who can be reached at hector.banerjee@westmark.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t78",
+   "t79",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 527,
+  "end": 570,
+  "text": "Wesley Mendes's manager is Elena Whitfield.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 572,
+  "end": 655,
+  "text": "The offices of Northwind Supply Co. are at 4102 Commerce Drive, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 656,
+  "end": 730,
+  "text": "Westmark Distribution Co. is based at 8154 Harbor Avenue, Boise, ID 83702.",
+  "tids": [
+   "t60",
+   "t56",
+   "t57",
+   "t58",
+   "t59"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 732,
+  "end": 805,
+  "text": "Northwind Supply Co. holds account 4119013891 at Pinecrest National Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t80",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 806,
+  "end": 888,
+  "text": "Account 5911690665 at Pinecrest National Bank belongs to Westmark Distribution Co.",
+  "tids": [
+   "t33",
+   "t34",
+   "t81",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 889,
+  "end": 963,
+  "text": "Pinecrest National Bank account 2259187189 is registered to Wesley Mendes.",
+  "tids": [
+   "t36",
+   "t37",
+   "t82",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 965,
+  "end": 1013,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: wesley.mendes@northwind.com",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 89,
+  "text": "To: luca.ashworth@northwind.com, ocastillo@westmark.com",
+  "tids": [
+   "t62",
+   "t63",
+   "t83",
+   "t84"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 126,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 127,
+  "end": 164,
+  "text": "Date: Sun, 01 Jun 2025 13:00:00 +0000",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 174,
+  "text": "Hi Luca,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 176,
+  "end": 254,
+  "text": "The refund request was initiated by Hector Banerjee on 18 May 2025, 11:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 255,
+  "end": 313,
+  "text": "Approval for the refund request came from Elena Whitfield.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 314,
+  "end": 366,
+  "text": "Oscar Castillo also took part in the refund request.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_3",
+   "event_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 367,
+  "end": 451,
+  "text": "The contract amendment was initiated by Oscar Castillo on May 30, 2025 at 15:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 452,
+  "end": 500,
+  "text": "Luca Ashworth authorized the contract amendment.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 501,
+  "end": 566,
+  "text": "The contract amendment happened at Northwind Supply Co.'s office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 567,
+  "end": 640,
+  "text": "On 1 June 2025, 11:00 UTC, Wesley Mendes initiated the vendor onboarding.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 642,
+  "end": 649,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 650,
+  "end": 656,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t85"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 53,
+  "text": "@elenaw is Elena Whitfield.",
+  "tids": [
+   "t48",
+   "t47"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 54,
+  "end": 80,
+  "text": "@oscarc is Oscar Castillo.",
+  "tids": [
+   "t50",
+   "t49"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 81,
+  "end": 158,
+  "text": "[2025-05-18 12:10 UTC] @elenaw to @oscarc: Send me the new form when you can.",
+  "tids": [
+   "t66",
+   "t67",
+   "t68",
+   "t69",
+   "t86"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ }
+}

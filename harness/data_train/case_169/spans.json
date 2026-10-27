@@ -1,0 +1,355 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 138,
+  "text": "Brightwater Consulting LLC employs Victor Holloway, who can be reached at vholloway@brightwater.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t49",
+   "t50",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 235,
+  "text": "Kofi Vance is employed by Brightwater Consulting LLC; their email is kofi.vance@brightwater.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t51",
+   "t52",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 236,
+  "end": 332,
+  "text": "Clearpath Fabrication Ltd. employs Wesley Delgado, who can be reached at wdelgado@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t53",
+   "t54",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 334,
+  "end": 416,
+  "text": "The offices of Brightwater Consulting LLC are at 423 Elm Street, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 418,
+  "end": 466,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: wdelgado@clearpath.com",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 86,
+  "text": "To: vholloway@brightwater.com, kofi.vance@brightwater.com",
+  "tids": [
+   "t45",
+   "t46",
+   "t55",
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 87,
+  "end": 118,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 119,
+  "end": 156,
+  "text": "Date: Fri, 17 Oct 2025 17:30:00 +0000",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 158,
+  "end": 168,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 170,
+  "end": 252,
+  "text": "The vendor onboarding was initiated by Kofi Vance on 24 September 2025, 16:25 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 253,
+  "end": 309,
+  "text": "Victor Holloway also took part in the vendor onboarding.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 310,
+  "end": 380,
+  "text": "The vendor onboarding happened at Brightwater Consulting LLC's office.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 381,
+  "end": 461,
+  "text": "On 17 October 2025, 15:30 UTC, Victor Holloway initiated the bank detail change.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 462,
+  "end": 511,
+  "text": "Wesley Delgado authorized the bank detail change.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 512,
+  "end": 570,
+  "text": "Kofi Vance was involved in the bank detail change as well.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 571,
+  "end": 646,
+  "text": "The bank detail change took place at the Brightwater Consulting LLC office.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 648,
+  "end": 655,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 656,
+  "end": 662,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 98,
+  "text": "Account 6148153240 at Meridian Trust Bank belongs to Brightwater Consulting LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t57",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 99,
+  "end": 178,
+  "text": "Account 6113921335 at Meridian Trust Bank belongs to Clearpath Fabrication Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t58",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 179,
+  "end": 243,
+  "text": "Victor Holloway holds account 9132833719 at Meridian Trust Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t59",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 245,
+  "end": 330,
+  "text": "On October 6, 2025 at 14:45 UTC, Wesley Delgado initiated the account reconciliation.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 332,
+  "end": 380,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

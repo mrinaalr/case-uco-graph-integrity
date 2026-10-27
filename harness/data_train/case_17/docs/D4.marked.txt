@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Pinecrest National Bank account 2981110926 is registered to Redfern Logistics LLC. [D4.S3] Pinecrest National Bank account 4601368237 is registered to Stonebridge Consulting LLC.
+
+[D4.S4] The payment approval was initiated by Dana Brennan on 5 November 2025, 13:15 UTC. [D4.S5] The payment approval took place at the Redfern Logistics LLC office. [D4.S6] The audit review was initiated by Samuel Park on 16 November 2025, 15:15 UTC.
+
+[D4.S7] This summary reflects records available to date.

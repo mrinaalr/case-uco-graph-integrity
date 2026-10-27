@@ -1,0 +1,11 @@
+[D1.S1] From: desmond.castillo@northwind.com
+[D1.S2] To: arjun.okafor@copperfield.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Sun, 11 May 2025 15:30:00 +0000
+
+[D1.S5] Hi Arjun,
+
+[D1.S6] On 16 April 2025, 10:25 UTC, Tomas Ivanova initiated the account reconciliation. [D1.S7] On 26 April 2025, 13:50 UTC, Tomas Ivanova initiated the expense reimbursement. [D1.S8] Arjun Okafor started the audit review on May 4, 2025 at 11:25 UTC. [D1.S9] Tomas Ivanova started the invoice submission on May 11, 2025 at 13:30 UTC.
+
+[D1.S10] Thanks,
+[D1.S11] Desmond

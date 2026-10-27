@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Tomas Ivanova is employed by Brightwater Packaging Inc.; their email is tomas.ivanova@brightwater.com. [D1.S3] Andre Reyes is employed by Brightwater Packaging Inc.; their email is andre.reyes@brightwater.com. [D1.S4] Mei Sorensen works for Brightwater Packaging Inc. and uses the address mei.sorensen@brightwater.com. [D1.S5] Oscar Vance works for Clearpath Components LLC and uses the address ovance@clearpath.com.
+
+[D1.S6] Brightwater Packaging Inc. operates from 986 Harbor Avenue, Dayton, OH 45402.
+
+[D1.S7] Please treat this as confidential.

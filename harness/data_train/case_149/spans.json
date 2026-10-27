@@ -1,0 +1,468 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: andre.abara@bluegate.com",
+  "tids": [
+   "t54",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 80,
+  "text": "To: spark@brightwater.com, jcastillo@bluegate.com",
+  "tids": [
+   "t55",
+   "t56",
+   "t64",
+   "t10",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 81,
+  "end": 116,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 117,
+  "end": 154,
+  "text": "Date: Wed, 08 Oct 2025 12:50:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 156,
+  "end": 166,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 168,
+  "end": 258,
+  "text": "The bank detail change was initiated by Julian Castillo on September 6, 2025 at 15:10 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 259,
+  "end": 312,
+  "text": "Samuel Park also took part in the bank detail change.",
+  "tids": [
+   "t53",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 313,
+  "end": 396,
+  "text": "The vendor onboarding was initiated by Andre Abara on 19 September 2025, 15:30 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35",
+   "t4"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 397,
+  "end": 469,
+  "text": "On 25 September 2025, 16:25 UTC, Samuel Park initiated the audit review.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 470,
+  "end": 547,
+  "text": "Julian Castillo started the payment approval on October 8, 2025 at 10:50 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 548,
+  "end": 604,
+  "text": "Approval for the payment approval came from Samuel Park.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_2",
+   "event_6"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 606,
+  "end": 613,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 614,
+  "end": 619,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 129,
+  "text": "Bluegate Packaging LLC employs Andre Abara, who can be reached at andre.abara@bluegate.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t65",
+   "t66",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 223,
+  "text": "Julian Castillo is employed by Bluegate Packaging LLC; their email is jcastillo@bluegate.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t67",
+   "t68"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 224,
+  "end": 316,
+  "text": "Samuel Park is employed by Brightwater Components LLC; their email is spark@brightwater.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t69",
+   "t70",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 318,
+  "end": 357,
+  "text": "Julian Castillo reports to Andre Abara.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 359,
+  "end": 437,
+  "text": "The offices of Bluegate Packaging LLC are at 5940 Elm Street, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 439,
+  "end": 508,
+  "text": "Bluegate Packaging LLC holds account 1865859197 at First Harbor Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t71",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 509,
+  "end": 582,
+  "text": "Brightwater Components LLC holds account 2690936160 at First Harbor Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t72",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 584,
+  "end": 649,
+  "text": "Andre Abara communicated with Julian Castillo about the payments.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_0",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 651,
+  "end": 685,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 30,
+  "text": "From: andre.abara@bluegate.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 31,
+  "end": 80,
+  "text": "To: spark@brightwater.com, jcastillo@bluegate.com",
+  "tids": [
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 81,
+  "end": 116,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 117,
+  "end": 154,
+  "text": "Date: Tue, 07 Oct 2025 15:45:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 156,
+  "end": 166,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 168,
+  "end": 240,
+  "text": "On 7 September 2025, 09:10 UTC, Andre Abara initiated the wire transfer.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 241,
+  "end": 282,
+  "text": "Samuel Park authorized the wire transfer.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 283,
+  "end": 370,
+  "text": "The contract amendment was initiated by Andre Abara on September 24, 2025 at 13:30 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 371,
+  "end": 429,
+  "text": "Approval for the contract amendment came from Samuel Park.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 430,
+  "end": 513,
+  "text": "On 7 October 2025, 13:45 UTC, Julian Castillo initiated the account reconciliation.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 515,
+  "end": 522,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 523,
+  "end": 528,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ }
+}

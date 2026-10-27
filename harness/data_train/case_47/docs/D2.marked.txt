@@ -1,0 +1,11 @@
+[D2.S1] From: irene.moreau@westmark.com
+[D2.S2] To: dcastillo@ironleaf.com, rnovak@ironleaf.com
+[D2.S3] Subject: Invoice 2851 follow-up
+[D2.S4] Date: Thu, 04 Sep 2025 11:25:00 +0000
+
+[D2.S5] Hi Desmond,
+
+[D2.S6] Luca Brennan started the vendor onboarding on 15 August 2025, 09:10 UTC. [D2.S7] Ruth Novak was involved in the vendor onboarding as well. [D2.S8] Ruth Novak started the expense reimbursement on 24 August 2025, 15:50 UTC. [D2.S9] Desmond Castillo was involved in the expense reimbursement as well. [D2.S10] Luca Brennan started the wire transfer on September 4, 2025 at 09:25 UTC.
+
+[D2.S11] Thanks,
+[D2.S12] Irene

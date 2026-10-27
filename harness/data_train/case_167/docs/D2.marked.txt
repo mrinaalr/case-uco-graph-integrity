@@ -1,0 +1,11 @@
+[D2.S1] From: ruth.ivanova@clearpath.com
+[D2.S2] To: kofi.delgado@copperfield.com
+[D2.S3] Subject: Invoice 3501 follow-up
+[D2.S4] Date: Thu, 03 Jul 2025 12:00:00 +0000
+
+[D2.S5] Hi Kofi,
+
+[D2.S6] Ruth Ivanova started the contract amendment on June 4, 2025 at 12:50 UTC. [D2.S7] Approval for the contract amendment came from Owen Brennan. [D2.S8] Kofi Delgado was involved in the contract amendment as well. [D2.S9] The contract amendment happened at Clearpath Services LLC's office. [D2.S10] Ruth Ivanova started the wire transfer on 3 July 2025, 10:00 UTC. [D2.S11] Approval for the wire transfer came from Kofi Delgado. [D2.S12] Owen Brennan also took part in the wire transfer. [D2.S13] The wire transfer happened at Clearpath Services LLC's office.
+
+[D2.S14] Thanks,
+[D2.S15] Ruth

@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Desmond Sorensen is employed by Summit Peak Logistics Group; their email is dsorensen@summitpeak.com. [D2.S3] Summit Peak Logistics Group employs Priya Mendes, who can be reached at pmendes@summitpeak.com. [D2.S4] Samuel Petrov works for Summit Peak Logistics Group and uses the address spetrov@summitpeak.com. [D2.S5] Victor Abara is employed by Redfern Distribution Group; their email is vabara@redfern.com.
+
+[D2.S6] The offices of Summit Peak Logistics Group are at 4496 Lakeview Road, Raleigh, NC 27601.
+
+[D2.S7] Account 2981295938 at First Harbor Bank belongs to Summit Peak Logistics Group. [D2.S8] Redfern Distribution Group holds account 8326003702 at First Harbor Bank. [D2.S9] First Harbor Bank account 1397734638 is registered to Desmond Sorensen.
+
+[D2.S10] Let me know if anything here looks off.

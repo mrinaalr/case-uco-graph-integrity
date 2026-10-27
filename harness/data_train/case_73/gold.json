@@ -1,0 +1,834 @@
+{
+ "case_id": "case_73",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D2",
+    "D4"
+   ],
+   "label": "Oakhaven Freight Group"
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D4"
+   ],
+   "label": "Northwind Analytics Ltd."
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D4"
+   ],
+   "label": "Lakeshore Savings Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D4"
+   ],
+   "label": "Tomas Abara"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Marcus Petrov"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Priya Novak"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "tomas.abara@oakhaven.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "mpetrov@oakhaven.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "priya.novak@northwind.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "3669 Harbor Avenue, Dayton, OH 45402"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "9670108412"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "8593088184"
+  },
+  {
+   "eid": "acct_insider",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "1654869666"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "vendor onboarding"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "contract amendment"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "bank detail change"
+  },
+  {
+   "eid": "handle_person_2",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@priyan"
+  },
+  {
+   "eid": "handle_person_1",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@marcusp"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_0",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_thread",
+   "class": "MessageThread",
+   "docs": [
+    "D3"
+   ],
+   "label": "#finance-ops"
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Oakhaven Freight Group",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Northwind Analytics Ltd.",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Lakeshore Savings Bank",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Tomas Abara",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Marcus Petrov",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Priya Novak",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "tomas.abara@oakhaven.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t10",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "mpetrov@oakhaven.com",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t13",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "priya.novak@northwind.com",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t16",
+   "s": "loc_company",
+   "p": "street",
+   "o": "3669 Harbor Avenue",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t17",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Dayton",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "loc_company",
+   "p": "region",
+   "o": "OH",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t19",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "45402",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t20",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t21",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "9670108412",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t22",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t23",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t24",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "8593088184",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t25",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t26",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t27",
+   "s": "acct_insider",
+   "p": "accountIdentifier",
+   "o": "1654869666",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t28",
+   "s": "person_1",
+   "p": "Owns_Account",
+   "o": "acct_insider",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t29",
+   "s": "acct_insider",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t30",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "vendor onboarding",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t31",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-07-11T10:45:00Z",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t32",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t33",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "contract amendment",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t34",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-07-25T16:15:00Z",
+   "lit": true,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t35",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t36",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "bank detail change",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t37",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-07-31T14:25:00Z",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t38",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t39",
+   "s": "handle_person_2",
+   "p": "accountIdentifier",
+   "o": "@priyan",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t40",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "handle_person_2",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t41",
+   "s": "handle_person_1",
+   "p": "accountIdentifier",
+   "o": "@marcusp",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t42",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t43",
+   "s": "person_2",
+   "p": "Communicated_With",
+   "o": "person_1",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t44",
+   "s": "event_0",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t45",
+   "s": "acct_company",
+   "p": "Transferred_To",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S6",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t46",
+   "s": "event_2",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S11",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t47",
+   "s": "person_0",
+   "p": "Authorized",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t48",
+   "s": "person_1",
+   "p": "Participated_In",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t49",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S1",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t50",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t51",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t52",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Re: banking change request",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t53",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-07-31T16:25:00Z",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t54",
+   "s": "chat_msg_0",
+   "p": "from",
+   "o": "handle_person_2",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t55",
+   "s": "chat_msg_0",
+   "p": "to",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t56",
+   "s": "chat_msg_0",
+   "p": "sentTime",
+   "o": "2025-07-11T11:45:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t57",
+   "s": "chat_msg_0",
+   "p": "messageText",
+   "o": "Send me the new form when you can.",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t58",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t59",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t60",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t61",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t62",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t63",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t64",
+   "s": "person_2",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t65",
+   "s": "chat_thread",
+   "p": "name",
+   "o": "#finance-ops",
+   "lit": true,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t66",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t67",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t68",
+   "s": "acct_insider",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  }
+ ],
+ "relationship_count": 21,
+ "relationship_count_total": 25,
+ "documents": {
+  "D1": "memo",
+  "D2": "email",
+  "D3": "chat",
+  "D4": "report"
+ },
+ "seed": 20260202
+}

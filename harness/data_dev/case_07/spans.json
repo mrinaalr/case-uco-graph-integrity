@@ -1,0 +1,394 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 24,
+  "text": "From: vabara@redfern.com",
+  "tids": [
+   "t49",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 25,
+  "end": 53,
+  "text": "To: dsorensen@summitpeak.com",
+  "tids": [
+   "t50",
+   "t57",
+   "t8"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 54,
+  "end": 90,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 91,
+  "end": 128,
+  "text": "Date: Tue, 10 Jun 2025 12:00:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 141,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 143,
+  "end": 229,
+  "text": "The bank detail change was initiated by Desmond Sorensen on May 24, 2025 at 15:25 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 313,
+  "text": "The contract amendment was initiated by Desmond Sorensen on 30 May 2025, 11:10 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 314,
+  "end": 385,
+  "text": "Samuel Petrov started the refund request on June 10, 2025 at 10:00 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48",
+   "t6"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 387,
+  "end": 394,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 395,
+  "end": 401,
+  "text": "Victor",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 139,
+  "text": "Desmond Sorensen is employed by Summit Peak Logistics Group; their email is dsorensen@summitpeak.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t58",
+   "t59",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 140,
+  "end": 235,
+  "text": "Summit Peak Logistics Group employs Priya Mendes, who can be reached at pmendes@summitpeak.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t60",
+   "t61",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 236,
+  "end": 332,
+  "text": "Samuel Petrov works for Summit Peak Logistics Group and uses the address spetrov@summitpeak.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t62",
+   "t63",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 333,
+  "end": 423,
+  "text": "Victor Abara is employed by Redfern Distribution Group; their email is vabara@redfern.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t64",
+   "t65",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 425,
+  "end": 513,
+  "text": "The offices of Summit Peak Logistics Group are at 4496 Lakeview Road, Raleigh, NC 27601.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 515,
+  "end": 594,
+  "text": "Account 2981295938 at First Harbor Bank belongs to Summit Peak Logistics Group.",
+  "tids": [
+   "t26",
+   "t27",
+   "t66",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 595,
+  "end": 668,
+  "text": "Redfern Distribution Group holds account 8326003702 at First Harbor Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t67",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 669,
+  "end": 740,
+  "text": "First Harbor Bank account 1397734638 is registered to Desmond Sorensen.",
+  "tids": [
+   "t32",
+   "t33",
+   "t68",
+   "t31"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 742,
+  "end": 781,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 30,
+  "text": "From: dsorensen@summitpeak.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 31,
+  "end": 53,
+  "text": "To: vabara@redfern.com",
+  "tids": [
+   "t54",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 54,
+  "end": 85,
+  "text": "Subject: Invoice 3862 follow-up",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 86,
+  "end": 123,
+  "text": "Date: Thu, 05 Jun 2025 13:25:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 125,
+  "end": 135,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 137,
+  "end": 211,
+  "text": "Priya Mendes started the account reconciliation on 26 May 2025, 10:00 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 212,
+  "end": 284,
+  "text": "Desmond Sorensen started the payment approval on 5 June 2025, 11:25 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 286,
+  "end": 293,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 294,
+  "end": 301,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ }
+}

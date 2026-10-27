@@ -1,0 +1,392 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 138,
+  "text": "Victor Novak is employed by Cedar Ridge Fabrication Co.; their email is victor.novak@cedarridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t59",
+   "t60",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 232,
+  "text": "Cedar Ridge Fabrication Co. employs Desmond Park, who can be reached at dpark@cedarridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t61",
+   "t62",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 326,
+  "text": "Irene Abara works for Cedar Ridge Fabrication Co. and uses the address iabara@cedarridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t63",
+   "t64",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 327,
+  "end": 427,
+  "text": "Rosa Holloway is employed by Copperfield Industrial Group; their email is rholloway@copperfield.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t65",
+   "t66",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 428,
+  "end": 525,
+  "text": "Tomas Okafor works for Copperfield Industrial Group and uses the address tokafor@copperfield.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t67",
+   "t68",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 527,
+  "end": 612,
+  "text": "The offices of Cedar Ridge Fabrication Co. are at 1643 Elm Street, Spokane, WA 99201.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 614,
+  "end": 700,
+  "text": "Lakeshore Savings Bank account 7810898244 is registered to Cedar Ridge Fabrication Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t69",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 701,
+  "end": 789,
+  "text": "Lakeshore Savings Bank account 6199115192 is registered to Copperfield Industrial Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t70",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 790,
+  "end": 858,
+  "text": "Account 4395940707 at Lakeshore Savings Bank belongs to Irene Abara.",
+  "tids": [
+   "t36",
+   "t37",
+   "t71",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 860,
+  "end": 908,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: dpark@cedarridge.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 56,
+  "text": "To: rholloway@copperfield.com",
+  "tids": [
+   "t56",
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 57,
+  "end": 93,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Tue, 18 Feb 2025 17:45:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 141,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 143,
+  "end": 229,
+  "text": "The bank detail change was initiated by Victor Novak on January 31, 2025 at 14:45 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 230,
+  "end": 306,
+  "text": "The bank detail change took place at the Cedar Ridge Fabrication Co. office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 307,
+  "end": 384,
+  "text": "Desmond Park started the vendor onboarding on February 11, 2025 at 12:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 385,
+  "end": 444,
+  "text": "Tomas Okafor was involved in the vendor onboarding as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_4",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 445,
+  "end": 520,
+  "text": "The vendor onboarding took place at the Cedar Ridge Fabrication Co. office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 521,
+  "end": 598,
+  "text": "The audit review was initiated by Irene Abara on 11 February 2025, 12:30 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 599,
+  "end": 665,
+  "text": "The audit review happened at Cedar Ridge Fabrication Co.'s office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 666,
+  "end": 745,
+  "text": "Rosa Holloway started the contract amendment on February 18, 2025 at 15:45 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 746,
+  "end": 799,
+  "text": "Irene Abara also took part in the contract amendment.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 801,
+  "end": 808,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 809,
+  "end": 816,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ }
+}

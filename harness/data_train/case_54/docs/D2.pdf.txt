@@ -1,0 +1,9 @@
+INTERNAL MEMO: Vendor payment review
+Hector Vance works for Northwind Fabrication LLC and uses the address
+hector.vance@northwind.com. Clara Reyes is employed by Northwind Fabrication LLC; their email is
+creyes@northwind.com. Desmond Okafor works for Northwind Fabrication LLC and uses the address
+dokafor@northwind.com. Elena Kowalski is employed by Summit Peak Analytics Ltd.; their email is
+ekowalski@summitpeak.com.
+Desmond Okafor reports to Hector Vance.
+Northwind Fabrication LLC is based at 314 Maple Avenue, Boise, ID 83702.
+Please treat this as confidential.

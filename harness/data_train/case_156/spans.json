@@ -1,0 +1,452 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: hannah.fischer@redfern.com",
+  "tids": [
+   "t56",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 57,
+  "text": "To: tokafor@oakhaven.com",
+  "tids": [
+   "t57",
+   "t64",
+   "t12"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 58,
+  "end": 94,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Thu, 06 Feb 2025 15:00:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 143,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 145,
+  "end": 231,
+  "text": "On January 18, 2025 at 12:10 UTC, Clara Castillo initiated the account reconciliation.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 302,
+  "text": "Hannah Fischer started the audit review on 6 February 2025, 13:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43",
+   "t7"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 303,
+  "end": 357,
+  "text": "Tomas Okafor was involved in the audit review as well.",
+  "tids": [
+   "t55",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 358,
+  "end": 424,
+  "text": "The audit review took place at the Oakhaven Logistics Ltd. office.",
+  "tids": [
+   "t49",
+   "t1"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 426,
+  "end": 433,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 434,
+  "end": 440,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 128,
+  "text": "Lena Reyes is employed by Oakhaven Logistics Ltd.; their email is lena.reyes@oakhaven.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t65",
+   "t66",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 218,
+  "text": "Tomas Okafor is employed by Oakhaven Logistics Ltd.; their email is tokafor@oakhaven.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t67",
+   "t68"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 219,
+  "end": 312,
+  "text": "Clara Castillo works for Oakhaven Logistics Ltd. and uses the address ccastillo@oakhaven.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t69",
+   "t70",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 313,
+  "end": 407,
+  "text": "Hannah Fischer is employed by Redfern Supply Group; their email is hannah.fischer@redfern.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t71",
+   "t72",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 408,
+  "end": 494,
+  "text": "Rosa Ivanova works for Redfern Supply Group and uses the address rivanova@redfern.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t73",
+   "t74",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 496,
+  "end": 533,
+  "text": "Tomas Okafor's manager is Lena Reyes.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 535,
+  "end": 608,
+  "text": "Oakhaven Logistics Ltd. operates from 5473 Maple Avenue, Boise, ID 83702.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 609,
+  "end": 689,
+  "text": "The offices of Redfern Supply Group are at 7631 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t54",
+   "t50",
+   "t51",
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 691,
+  "end": 765,
+  "text": "Account 8406719249 at Union Ledger Bank belongs to Oakhaven Logistics Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t75",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 766,
+  "end": 841,
+  "text": "Union Ledger Bank account 9919764752 is registered to Redfern Supply Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t76",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 843,
+  "end": 882,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 32,
+  "text": "From: hannah.fischer@redfern.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 33,
+  "end": 57,
+  "text": "To: rivanova@redfern.com",
+  "tids": [
+   "t61",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 58,
+  "end": 83,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 84,
+  "end": 121,
+  "text": "Date: Sat, 15 Feb 2025 12:10:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 123,
+  "end": 131,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 133,
+  "end": 212,
+  "text": "Hannah Fischer started the contract amendment on January 28, 2025 at 10:30 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 213,
+  "end": 295,
+  "text": "On February 15, 2025 at 10:10 UTC, Clara Castillo initiated the vendor onboarding.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 296,
+  "end": 361,
+  "text": "Clara Castillo communicated with Rosa Ivanova about the payments.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "person_4"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 363,
+  "end": 370,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 371,
+  "end": 377,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ }
+}

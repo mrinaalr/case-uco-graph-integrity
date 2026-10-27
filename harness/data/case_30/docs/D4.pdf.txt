@@ -1,0 +1,9 @@
+Incident summary
+Account 9921622374 at Lakeshore Savings Bank belongs to Silverlake Analytics LLC. Westmark
+Fabrication LLC holds account 2386670109 at Lakeshore Savings Bank. Account 6775312648 at
+Lakeshore Savings Bank belongs to Tomas Okafor.
+On 5 August 2025, 17:15 UTC, Kofi Park initiated the invoice submission. The invoice submission took
+place at the Silverlake Analytics LLC office. On August 20, 2025 at 12:00 UTC, Arjun Moreau initiated
+the vendor onboarding. Tomas Okafor started the bank detail change on August 24, 2025 at 10:15
+UTC.
+This summary reflects records available to date.

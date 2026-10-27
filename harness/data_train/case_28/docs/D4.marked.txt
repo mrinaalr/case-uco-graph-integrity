@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Clearpath Logistics Inc. holds account 1558093918 at Pinecrest National Bank. [D4.S3] Account 9523002982 at Pinecrest National Bank belongs to Harborline Fabrication Inc. [D4.S4] Samuel Abara holds account 7683496356 at Pinecrest National Bank.
+
+[D4.S5] The bank detail change was initiated by Samuel Abara on 23 January 2025, 16:10 UTC. [D4.S6] On 2 February 2025, 12:15 UTC, Oscar Ivanova initiated the invoice submission. [D4.S7] The vendor onboarding was initiated by Yara Castillo on February 4, 2025 at 13:30 UTC.
+
+[D4.S8] More detail will follow once records are pulled.

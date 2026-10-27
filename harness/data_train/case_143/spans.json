@@ -1,0 +1,483 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 124,
+  "text": "Oakhaven Industrial Inc. employs Mei Reyes, who can be reached at mreyes@oakhaven.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t68",
+   "t69",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 125,
+  "end": 217,
+  "text": "Arjun Ivanova works for Oakhaven Industrial Inc. and uses the address aivanova@oakhaven.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t70",
+   "t71",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 218,
+  "end": 306,
+  "text": "Lena Delgado works for Ironleaf Tooling Ltd. and uses the address ldelgado@ironleaf.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t72",
+   "t73",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 308,
+  "end": 392,
+  "text": "The offices of Oakhaven Industrial Inc. are at 7525 Maple Avenue, Raleigh, NC 27601.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 394,
+  "end": 474,
+  "text": "Account 5986682606 at Lakeshore Savings Bank belongs to Oakhaven Industrial Inc.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 475,
+  "end": 555,
+  "text": "Lakeshore Savings Bank account 9465528044 is registered to Ironleaf Tooling Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t75",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 556,
+  "end": 626,
+  "text": "Account 6164331033 at Lakeshore Savings Bank belongs to Arjun Ivanova.",
+  "tids": [
+   "t28",
+   "t29",
+   "t76",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 628,
+  "end": 676,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: ldelgado@ironleaf.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 74,
+  "text": "To: mreyes@oakhaven.com, aivanova@oakhaven.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 75,
+  "end": 108,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 109,
+  "end": 146,
+  "text": "Date: Thu, 27 Mar 2025 18:50:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 148,
+  "end": 155,
+  "text": "Hi Mei,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 157,
+  "end": 240,
+  "text": "On 23 February 2025, 11:30 UTC, Arjun Ivanova initiated the account reconciliation.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 241,
+  "end": 296,
+  "text": "Mei Reyes also took part in the account reconciliation.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 297,
+  "end": 370,
+  "text": "The account reconciliation happened at Oakhaven Industrial Inc.'s office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 371,
+  "end": 440,
+  "text": "Mei Reyes started the contract amendment on 20 March 2025, 09:30 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 441,
+  "end": 500,
+  "text": "Approval for the contract amendment came from Lena Delgado.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 501,
+  "end": 562,
+  "text": "Arjun Ivanova was involved in the contract amendment as well.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 563,
+  "end": 637,
+  "text": "The refund request was initiated by Mei Reyes on 23 March 2025, 09:30 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 638,
+  "end": 681,
+  "text": "Lena Delgado authorized the refund request.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 682,
+  "end": 747,
+  "text": "The refund request happened at Oakhaven Industrial Inc.'s office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 748,
+  "end": 823,
+  "text": "On March 27, 2025 at 16:50 UTC, Mei Reyes initiated the bank detail change.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 824,
+  "end": 871,
+  "text": "Lena Delgado authorized the bank detail change.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 872,
+  "end": 927,
+  "text": "Arjun Ivanova also took part in the bank detail change.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 928,
+  "end": 1001,
+  "text": "The bank detail change took place at the Oakhaven Industrial Inc. office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S19": {
+  "doc_id": "D2",
+  "start": 1003,
+  "end": 1010,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S20": {
+  "doc_id": "D2",
+  "start": 1011,
+  "end": 1015,
+  "text": "Lena",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t79"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@arjuni is Arjun Ivanova.",
+  "tids": [
+   "t43",
+   "t42"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 71,
+  "text": "@meir is Mei Reyes.",
+  "tids": [
+   "t45",
+   "t44"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 72,
+  "end": 147,
+  "text": "[2025-02-23 12:30 UTC] @arjuni to @meir: Send me the new form when you can.",
+  "tids": [
+   "t60",
+   "t61",
+   "t62",
+   "t63",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 148,
+  "end": 223,
+  "text": "[2025-02-23 12:37 UTC] @meir to @arjuni: Finance is asking questions again.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67",
+   "t81"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ }
+}

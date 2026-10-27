@@ -1,0 +1,11 @@
+[D2.S1] From: vreyes@harborline.com
+[D2.S2] To: obanerjee@harborline.com, lquinn@cedarridge.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Sat, 29 Mar 2025 13:30:00 +0000
+
+[D2.S5] Hi Owen,
+
+[D2.S6] Lena Quinn started the account reconciliation on March 25, 2025 at 09:25 UTC. [D2.S7] Owen Banerjee also took part in the account reconciliation. [D2.S8] On 26 March 2025, 11:30 UTC, Owen Banerjee initiated the invoice submission. [D2.S9] Grace Okafor started the refund request on 29 March 2025, 11:30 UTC.
+
+[D2.S10] Thanks,
+[D2.S11] Victor

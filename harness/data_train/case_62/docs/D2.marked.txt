@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Wesley Novak works for Ironleaf Logistics Inc. and uses the address wesley.novak@ironleaf.com. [D2.S3] Kofi Holloway works for Ironleaf Logistics Inc. and uses the address kofi.holloway@ironleaf.com. [D2.S4] Ironleaf Logistics Inc. employs Andre Brennan, who can be reached at abrennan@ironleaf.com. [D2.S5] Northwind Supply LLC employs Priya Mendes, who can be reached at priya.mendes@northwind.com. [D2.S6] Northwind Supply LLC employs Samuel Haddad, who can be reached at shaddad@northwind.com.
+
+[D2.S7] The offices of Ironleaf Logistics Inc. are at 2896 Main Street, Boise, ID 83702. [D2.S8] Northwind Supply LLC operates from 2804 Maple Avenue, Richmond, VA 23219.
+
+[D2.S9] Ironleaf Logistics Inc. holds account 9402475341 at Union Ledger Bank. [D2.S10] Account 6008628505 at Union Ledger Bank belongs to Northwind Supply LLC.
+
+[D2.S11] Please treat this as confidential.

@@ -1,0 +1,415 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "From: hector.sorensen@summitpeak.com",
+  "tids": [
+   "t53",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 37,
+  "end": 90,
+  "text": "To: pkowalski@summitpeak.com, rosa.osei@northwind.com",
+  "tids": [
+   "t54",
+   "t55",
+   "t62",
+   "t63",
+   "t12",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_4"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 91,
+  "end": 126,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 127,
+  "end": 164,
+  "text": "Date: Sat, 30 Aug 2025 18:45:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 166,
+  "end": 175,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 177,
+  "end": 258,
+  "text": "The contract amendment was initiated by Nadia Abara on 11 August 2025, 14:00 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 259,
+  "end": 332,
+  "text": "On 25 August 2025, 11:50 UTC, Rosa Osei initiated the invoice submission.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43",
+   "t8"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 333,
+  "end": 419,
+  "text": "The payment approval was initiated by Hector Sorensen on August 30, 2025 at 16:45 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49",
+   "t6"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 421,
+  "end": 428,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 429,
+  "end": 435,
+  "text": "Hector",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 129,
+  "text": "Lena Quinn works for Summit Peak Analytics Inc. and uses the address lquinn@summitpeak.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t64",
+   "t65",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 228,
+  "text": "Priya Kowalski works for Summit Peak Analytics Inc. and uses the address pkowalski@summitpeak.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t66",
+   "t67",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 229,
+  "end": 334,
+  "text": "Summit Peak Analytics Inc. employs Hector Sorensen, who can be reached at hector.sorensen@summitpeak.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t68",
+   "t69"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 335,
+  "end": 421,
+  "text": "Nadia Abara works for Northwind Supply Inc. and uses the address nabara@northwind.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t70",
+   "t71",
+   "t2",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 422,
+  "end": 509,
+  "text": "Rosa Osei is employed by Northwind Supply Inc.; their email is rosa.osei@northwind.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t73"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 511,
+  "end": 585,
+  "text": "Summit Peak Analytics Inc. is based at 5953 Main Street, Dayton, OH 45402.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 587,
+  "end": 669,
+  "text": "Account 8842954746 at Lakeshore Savings Bank belongs to Summit Peak Analytics Inc.",
+  "tids": [
+   "t30",
+   "t31",
+   "t74",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 670,
+  "end": 750,
+  "text": "Lakeshore Savings Bank account 4948449284 is registered to Northwind Supply Inc.",
+  "tids": [
+   "t33",
+   "t34",
+   "t75",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 752,
+  "end": 800,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 26,
+  "text": "From: nabara@northwind.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 27,
+  "end": 54,
+  "text": "To: rosa.osei@northwind.com",
+  "tids": [
+   "t59",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 55,
+  "end": 95,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Wed, 10 Sep 2025 15:00:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 135,
+  "end": 143,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 222,
+  "text": "The audit review was initiated by Lena Quinn on August 12, 2025 at 11:25 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 223,
+  "end": 304,
+  "text": "Priya Kowalski started the expense reimbursement on August 27, 2025 at 10:00 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 305,
+  "end": 385,
+  "text": "The wire transfer was initiated by Rosa Osei on September 10, 2025 at 13:00 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_5",
+   "person_4"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 387,
+  "end": 394,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 395,
+  "end": 400,
+  "text": "Nadia",
+  "tids": [],
+  "mentions": []
+ }
+}

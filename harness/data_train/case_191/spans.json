@@ -1,0 +1,297 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Samuel Banerjee is employed by Cedar Ridge Analytics LLC; their email is sbanerjee@cedarridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t44",
+   "t45",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 237,
+  "text": "Ruth Castillo is employed by Cedar Ridge Analytics LLC; their email is ruth.castillo@cedarridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t46",
+   "t47",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 349,
+  "text": "Desmond Lindqvist works for Harborline Distribution Ltd. and uses the address desmond.lindqvist@harborline.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t48",
+   "t49",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 351,
+  "end": 438,
+  "text": "The offices of Cedar Ridge Analytics LLC are at 3431 Commerce Drive, Madison, WI 53703.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 440,
+  "end": 479,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 38,
+  "text": "From: desmond.lindqvist@harborline.com",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 39,
+  "end": 71,
+  "text": "To: ruth.castillo@cedarridge.com",
+  "tids": [
+   "t41",
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 72,
+  "end": 103,
+  "text": "Subject: Invoice 9396 follow-up",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 104,
+  "end": 141,
+  "text": "Date: Sat, 15 Mar 2025 15:15:00 +0000",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 143,
+  "end": 151,
+  "text": "Hi Ruth,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 153,
+  "end": 224,
+  "text": "Ruth Castillo started the wire transfer on 13 February 2025, 16:50 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 225,
+  "end": 290,
+  "text": "The wire transfer happened at Cedar Ridge Analytics LLC's office.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 291,
+  "end": 370,
+  "text": "The audit review was initiated by Ruth Castillo on March 15, 2025 at 13:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 372,
+  "end": 379,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 380,
+  "end": 387,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 100,
+  "text": "Account 5920726195 at Lakeshore Savings Bank belongs to Cedar Ridge Analytics LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t51",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 101,
+  "end": 181,
+  "text": "Harborline Distribution Ltd. holds account 7049709826 at Lakeshore Savings Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t52",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 183,
+  "end": 274,
+  "text": "The account reconciliation was initiated by Samuel Banerjee on 17 February 2025, 16:15 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 275,
+  "end": 351,
+  "text": "On 16 March 2025, 15:10 UTC, Ruth Castillo initiated the contract amendment.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 353,
+  "end": 392,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

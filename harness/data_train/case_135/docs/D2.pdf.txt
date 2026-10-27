@@ -1,0 +1,13 @@
+From: maya.abara@clearpath.com
+To: kofi.sorensen@clearpath.com, samuel.osei@stonebridge.com
+Subject: Re: banking change request
+Date: Thu, 11 Sep 2025 15:30:00 +0000
+Hi Kofi,
+On 4 August 2025, 16:15 UTC, Kofi Sorensen initiated the refund request. On 26 August 2025, 11:30
+UTC, Maya Abara initiated the expense reimbursement. On August 28, 2025 at 13:25 UTC, Kofi
+Sorensen initiated the wire transfer. On August 31, 2025 at 17:45 UTC, Samuel Osei initiated the
+vendor onboarding. Kofi Sorensen was involved in the vendor onboarding as well. On 10 September
+2025, 11:00 UTC, Samuel Osei initiated the account reconciliation. Maya Abara started the bank detail
+change on September 11, 2025 at 13:30 UTC.
+Thanks,
+Maya

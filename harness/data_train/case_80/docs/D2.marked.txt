@@ -1,0 +1,7 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Desmond Reyes works for Copperfield Fabrication Ltd. and uses the address dreyes@copperfield.com. [D2.S3] Marcus Fischer works for Copperfield Fabrication Ltd. and uses the address mfischer@copperfield.com. [D2.S4] Luca Park is employed by Northwind Distribution Co.; their email is luca.park@northwind.com.
+
+[D2.S5] Copperfield Fabrication Ltd. operates from 3562 Market Street, Tucson, AZ 85701.
+
+[D2.S6] This summary reflects records available to date.

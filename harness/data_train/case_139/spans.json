@@ -1,0 +1,479 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: tashworth@ironleaf.com",
+  "tids": [
+   "t54",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 57,
+  "text": "To: priya.vance@ironleaf.com",
+  "tids": [
+   "t55",
+   "t63",
+   "t12"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 58,
+  "end": 94,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Thu, 11 Sep 2025 17:25:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 143,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 145,
+  "end": 217,
+  "text": "On 26 August 2025, 16:30 UTC, Tomas Ashworth initiated the audit review.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 218,
+  "end": 271,
+  "text": "Priya Vance was involved in the audit review as well.",
+  "tids": [
+   "t48",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 272,
+  "end": 347,
+  "text": "On 11 September 2025, 15:25 UTC, Felix Park initiated the payment approval.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46",
+   "t7"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 348,
+  "end": 407,
+  "text": "Approval for the payment approval came from Tomas Ashworth.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 408,
+  "end": 477,
+  "text": "The payment approval took place at the Ironleaf Tooling Group office.",
+  "tids": [
+   "t50",
+   "t1"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 479,
+  "end": 486,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 487,
+  "end": 492,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 125,
+  "text": "Dana Tanaka is employed by Ironleaf Tooling Group; their email is dtanaka@ironleaf.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t64",
+   "t65",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 126,
+  "end": 217,
+  "text": "Priya Vance is employed by Ironleaf Tooling Group; their email is priya.vance@ironleaf.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t66",
+   "t67"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 310,
+  "text": "Tomas Ashworth is employed by Ironleaf Tooling Group; their email is tashworth@ironleaf.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t68",
+   "t69"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 311,
+  "end": 399,
+  "text": "Bluegate Freight Inc. employs Felix Park, who can be reached at felix.park@bluegate.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t70",
+   "t71",
+   "t2",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 400,
+  "end": 489,
+  "text": "Desmond Mendes works for Bluegate Freight Inc. and uses the address dmendes@bluegate.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t73",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 491,
+  "end": 531,
+  "text": "Tomas Ashworth's manager is Dana Tanaka.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 532,
+  "end": 569,
+  "text": "Priya Vance's manager is Dana Tanaka.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 571,
+  "end": 646,
+  "text": "Ironleaf Tooling Group operates from 3306 Harbor Avenue, Raleigh, NC 27601.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 648,
+  "end": 719,
+  "text": "Ironleaf Tooling Group holds account 5641484885 at Meridian Trust Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t74",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 720,
+  "end": 797,
+  "text": "Meridian Trust Bank account 7420064005 is registered to Bluegate Freight Inc.",
+  "tids": [
+   "t33",
+   "t34",
+   "t75",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 798,
+  "end": 858,
+  "text": "Priya Vance holds account 9189371618 at Meridian Trust Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t76",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 860,
+  "end": 899,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 26,
+  "text": "From: dmendes@bluegate.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 27,
+  "end": 79,
+  "text": "To: priya.vance@ironleaf.com, tashworth@ironleaf.com",
+  "tids": [
+   "t59",
+   "t60",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 80,
+  "end": 111,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 112,
+  "end": 149,
+  "text": "Date: Wed, 27 Aug 2025 14:45:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 151,
+  "end": 160,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 162,
+  "end": 239,
+  "text": "Felix Park started the expense reimbursement on August 27, 2025 at 12:45 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 240,
+  "end": 289,
+  "text": "Dana Tanaka authorized the expense reimbursement.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 290,
+  "end": 349,
+  "text": "Tomas Ashworth also took part in the expense reimbursement.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 351,
+  "end": 358,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 359,
+  "end": 366,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ }
+}

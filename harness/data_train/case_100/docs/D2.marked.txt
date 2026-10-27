@@ -1,0 +1,11 @@
+[D2.S1] From: irene.park@summitpeak.com
+[D2.S2] To: jbrennan@summitpeak.com, oscar.castillo@silverlake.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Mon, 17 Nov 2025 18:50:00 +0000
+
+[D2.S5] Hi Julian,
+
+[D2.S6] Oscar Castillo started the payment approval on 13 October 2025, 10:00 UTC. [D2.S7] On October 14, 2025 at 14:15 UTC, Julian Brennan initiated the invoice submission. [D2.S8] On October 23, 2025 at 11:10 UTC, Julian Brennan initiated the account reconciliation. [D2.S9] The bank detail change was initiated by Julian Brennan on 2 November 2025, 10:25 UTC. [D2.S10] Irene Park was involved in the bank detail change as well. [D2.S11] The audit review was initiated by Oscar Castillo on November 2, 2025 at 11:15 UTC. [D2.S12] On 7 November 2025, 09:45 UTC, Julian Brennan initiated the vendor onboarding. [D2.S13] On November 15, 2025 at 09:50 UTC, Oscar Castillo initiated the expense reimbursement. [D2.S14] On November 17, 2025 at 16:50 UTC, Irene Park initiated the wire transfer. [D2.S15] The wire transfer happened at Summit Peak Analytics Group's office.
+
+[D2.S16] Thanks,
+[D2.S17] Irene

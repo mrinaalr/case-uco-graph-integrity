@@ -1,0 +1,11 @@
+[D2.S1] From: luca.tanaka@harborline.com
+[D2.S2] To: clara.abara@westmark.com, sreyes@westmark.com
+[D2.S3] Subject: Invoice 8337 follow-up
+[D2.S4] Date: Sat, 10 May 2025 18:15:00 +0000
+
+[D2.S5] Hi Clara,
+
+[D2.S6] The bank detail change was initiated by Victor Mendes on April 29, 2025 at 15:15 UTC. [D2.S7] Samuel Reyes also took part in the bank detail change. [D2.S8] The bank detail change happened at Westmark Logistics LLC's office. [D2.S9] Samuel Reyes started the audit review on 2 May 2025, 15:25 UTC. [D2.S10] The invoice submission was initiated by Luca Tanaka on May 10, 2025 at 16:15 UTC. [D2.S11] The invoice submission took place at the Westmark Logistics LLC office.
+
+[D2.S12] Thanks,
+[D2.S13] Luca

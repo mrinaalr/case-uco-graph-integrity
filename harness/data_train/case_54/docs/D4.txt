@@ -1,0 +1,7 @@
+Incident summary
+
+Union Ledger Bank account 1803821251 is registered to Northwind Fabrication LLC. Account 7321112149 at Union Ledger Bank belongs to Summit Peak Analytics Ltd.
+
+Elena Kowalski started the bank detail change on January 29, 2025 at 11:25 UTC. On February 5, 2025 at 10:50 UTC, Desmond Okafor initiated the audit review. The audit review took place at the Northwind Fabrication LLC office. Funds moved from account 1803821251 to account 7321112149.
+
+Please treat this as confidential.

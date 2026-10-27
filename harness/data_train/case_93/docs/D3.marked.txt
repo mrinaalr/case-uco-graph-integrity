@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Account 9996147614 at Meridian Trust Bank belongs to Redfern Packaging LLC. [D3.S3] Account 2164120785 at Meridian Trust Bank belongs to Bluegate Consulting Ltd. [D3.S4] Arjun Quinn holds account 4921348184 at Meridian Trust Bank.
+
+[D3.S5] The audit review was initiated by Arjun Quinn on July 23, 2025 at 09:10 UTC. [D3.S6] On 27 July 2025, 13:45 UTC, Ruth Reyes initiated the vendor onboarding. [D3.S7] The vendor onboarding took place at the Redfern Packaging LLC office. [D3.S8] Ruth Reyes started the expense reimbursement on August 9, 2025 at 17:30 UTC.
+
+[D3.S9] Please treat this as confidential.

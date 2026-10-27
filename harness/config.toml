@@ -32,6 +32,14 @@ model = "thinkingmachines/Inkling"
 api_key_env = "TINKER_API_KEY"
 extra_body = { reasoning_effort = "none" }
 
+[models.trained]
+# B2/B4 placeholder: the LoRA of Qwen/Qwen3.5-9B fine-tuned on data_train (see train_lora.py). Fill in model
+# with the name Tinker serves the checkpoint under; until then the trained arms cannot run.
+base_url = "https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1"
+model = ""
+api_key_env = "TINKER_API_KEY"
+extra_body = { reasoning_effort = false }
+
 [models.cloud]
 base_url = ""
 model = ""
@@ -47,6 +55,12 @@ extensions = "legalproc,cryptoinv"
 [data]
 # What the methods under test read: "pdf" (docs/D*.pdf, text via pypdf) or "marked" (docs/D*.marked.txt with sentence ids).
 source = "pdf"
+
+[defenses]
+# B3/B4 (pipeline_defended.py): a fixed, documented set of guards on direct generation.
+parse_retries = 1            # re-ask once when the reply is not parseable JSON-LD
+repair_rounds = 2            # validate_graph report sent back for a rewrite, at most this many times
+critic_rounds = 1            # deterministic critic findings sent back for a rewrite
 
 [compiled]
 # Method C: one repair round per document for claims the verifier rejected.

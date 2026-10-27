@@ -1,0 +1,455 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Priya Park is employed by Summit Peak Distribution Inc.; their email is priya.park@summitpeak.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t75",
+   "t76",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 234,
+  "text": "Summit Peak Distribution Inc. employs Nadia Haddad, who can be reached at nhaddad@summitpeak.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t77",
+   "t78",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 235,
+  "end": 339,
+  "text": "Samuel Moreau works for Summit Peak Distribution Inc. and uses the address samuel.moreau@summitpeak.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t79",
+   "t80",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 340,
+  "end": 440,
+  "text": "Dana Sorensen works for Harborline Analytics Ltd. and uses the address dana.sorensen@harborline.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t81",
+   "t82",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 441,
+  "end": 537,
+  "text": "Hannah Fischer works for Harborline Analytics Ltd. and uses the address hfischer@harborline.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t83",
+   "t84",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 539,
+  "end": 627,
+  "text": "The offices of Summit Peak Distribution Inc. are at 1557 Main Street, Madison, WI 53703.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 629,
+  "end": 716,
+  "text": "Summit Peak Distribution Inc. holds account 2303564467 at Granite Federal Credit Union.",
+  "tids": [
+   "t30",
+   "t31",
+   "t85",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 717,
+  "end": 804,
+  "text": "Account 4909295932 at Granite Federal Credit Union belongs to Harborline Analytics Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t86",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 805,
+  "end": 881,
+  "text": "Account 8818818653 at Granite Federal Credit Union belongs to Samuel Moreau.",
+  "tids": [
+   "t36",
+   "t37",
+   "t87",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 883,
+  "end": 931,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: hfischer@harborline.com",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 56,
+  "text": "To: nhaddad@summitpeak.com",
+  "tids": [
+   "t68",
+   "t88"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 57,
+  "end": 82,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 83,
+  "end": 120,
+  "text": "Date: Wed, 20 Aug 2025 11:45:00 +0000",
+  "tids": [
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 122,
+  "end": 131,
+  "text": "Hi Nadia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 211,
+  "text": "Dana Sorensen started the expense reimbursement on July 13, 2025 at 14:25 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 212,
+  "end": 300,
+  "text": "The account reconciliation was initiated by Samuel Moreau on July 20, 2025 at 16:45 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 301,
+  "end": 382,
+  "text": "The refund request was initiated by Hannah Fischer on July 24, 2025 at 14:30 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 383,
+  "end": 452,
+  "text": "On July 28, 2025 at 09:30 UTC, Priya Park initiated the audit review.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 453,
+  "end": 525,
+  "text": "On 5 August 2025, 13:30 UTC, Hannah Fischer initiated the wire transfer.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_4"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 526,
+  "end": 603,
+  "text": "Hannah Fischer started the invoice submission on August 8, 2025 at 11:00 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_4"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 604,
+  "end": 662,
+  "text": "Priya Park was involved in the invoice submission as well.",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "person_0",
+   "event_5"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 663,
+  "end": 745,
+  "text": "The vendor onboarding was initiated by Priya Park on August 16, 2025 at 15:50 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 746,
+  "end": 827,
+  "text": "On August 20, 2025 at 09:45 UTC, Hannah Fischer initiated the bank detail change.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "event_7",
+   "person_4"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 829,
+  "end": 836,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 837,
+  "end": 843,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t89"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@nadiah is Nadia Haddad.",
+  "tids": [
+   "t63",
+   "t62"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 77,
+  "text": "@samuelm is Samuel Moreau.",
+  "tids": [
+   "t65",
+   "t64"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 156,
+  "text": "[2025-07-13 15:25 UTC] @nadiah to @samuelm: Finance is asking questions again.",
+  "tids": [
+   "t71",
+   "t72",
+   "t73",
+   "t74",
+   "t90"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_2"
+  ]
+ }
+}

@@ -1,0 +1,428 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Priya Novak works for Redfern Fabrication Co. and uses the address priya.novak@redfern.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 225,
+  "text": "Redfern Fabrication Co. employs Felix Brennan, who can be reached at felix.brennan@redfern.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 311,
+  "text": "Redfern Fabrication Co. employs Victor Park, who can be reached at vpark@redfern.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 312,
+  "end": 406,
+  "text": "Brightwater Distribution LLC employs Samuel Osei, who can be reached at sosei@brightwater.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 408,
+  "end": 447,
+  "text": "Felix Brennan's manager is Priya Novak.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 449,
+  "end": 518,
+  "text": "Redfern Fabrication Co. is based at 1138 Elm Street, Boise, ID 83702.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 519,
+  "end": 605,
+  "text": "Brightwater Distribution LLC operates from 7174 Industrial Parkway, Spokane, WA 99201.",
+  "tids": [
+   "t51",
+   "t47",
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 607,
+  "end": 655,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 23,
+  "text": "From: vpark@redfern.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 24,
+  "end": 49,
+  "text": "To: sosei@brightwater.com",
+  "tids": [
+   "t59",
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 50,
+  "end": 83,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 84,
+  "end": 121,
+  "text": "Date: Fri, 30 May 2025 18:10:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 123,
+  "end": 133,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 216,
+  "text": "The account reconciliation was initiated by Samuel Osei on 7 May 2025, 13:50 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 217,
+  "end": 287,
+  "text": "Felix Brennan started the refund request on May 10, 2025 at 17:50 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 288,
+  "end": 342,
+  "text": "Approval for the refund request came from Victor Park.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 343,
+  "end": 418,
+  "text": "On May 30, 2025 at 16:10 UTC, Priya Novak initiated the invoice submission.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 419,
+  "end": 472,
+  "text": "Samuel Osei also took part in the invoice submission.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_3",
+   "event_4"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 473,
+  "end": 545,
+  "text": "The invoice submission took place at the Redfern Fabrication Co. office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 547,
+  "end": 554,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 555,
+  "end": 561,
+  "text": "Victor",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 92,
+  "text": "Account 1807098087 at First Harbor Bank belongs to Redfern Fabrication Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t71",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 93,
+  "end": 176,
+  "text": "First Harbor Bank account 4213619790 is registered to Brightwater Distribution LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t72",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 178,
+  "end": 256,
+  "text": "The bank detail change was initiated by Priya Novak on 10 May 2025, 13:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 257,
+  "end": 321,
+  "text": "Priya Novak started the wire transfer on 14 May 2025, 10:00 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 322,
+  "end": 377,
+  "text": "Approval for the wire transfer came from Felix Brennan.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 378,
+  "end": 432,
+  "text": "Victor Park was involved in the wire transfer as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 433,
+  "end": 496,
+  "text": "The wire transfer happened at Redfern Fabrication Co.'s office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 498,
+  "end": 546,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

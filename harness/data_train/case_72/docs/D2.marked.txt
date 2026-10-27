@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Tomas Park is employed by Cedar Ridge Freight Co.; their email is tomas.park@cedarridge.com. [D2.S3] Cedar Ridge Freight Co. employs Desmond Osei, who can be reached at desmond.osei@cedarridge.com. [D2.S4] Cedar Ridge Freight Co. employs Felix Okafor, who can be reached at fokafor@cedarridge.com. [D2.S5] Oscar Vance is employed by Bluegate Freight Group; their email is ovance@bluegate.com. [D2.S6] Luca Whitfield is employed by Bluegate Freight Group; their email is lwhitfield@bluegate.com.
+
+[D2.S7] Cedar Ridge Freight Co. is based at 1711 Riverside Boulevard, Albany, NY 12207. [D2.S8] The offices of Bluegate Freight Group are at 3449 Elm Street, Boise, ID 83702.
+
+[D2.S9] First Harbor Bank account 7623194637 is registered to Cedar Ridge Freight Co. [D2.S10] Bluegate Freight Group holds account 5455719980 at First Harbor Bank. [D2.S11] Tomas Park holds account 6177353570 at First Harbor Bank.
+
+[D2.S12] More detail will follow once records are pulled.

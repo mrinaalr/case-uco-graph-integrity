@@ -1,0 +1,415 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Summit Peak Freight Ltd. employs Julian Quinn, who can be reached at julian.quinn@summitpeak.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 237,
+  "text": "Felix Sorensen works for Summit Peak Freight Ltd. and uses the address felix.sorensen@summitpeak.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 339,
+  "text": "Hector Delgado works for Summit Peak Freight Ltd. and uses the address hector.delgado@summitpeak.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 340,
+  "end": 438,
+  "text": "Hannah Ashworth works for Brightwater Freight Ltd. and uses the address hashworth@brightwater.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 440,
+  "end": 513,
+  "text": "Summit Peak Freight Ltd. is based at 294 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 515,
+  "end": 588,
+  "text": "Summit Peak Freight Ltd. holds account 7956912921 at Meridian Trust Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 589,
+  "end": 666,
+  "text": "Account 1279511699 at Meridian Trust Bank belongs to Brightwater Freight Ltd.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 667,
+  "end": 728,
+  "text": "Julian Quinn holds account 7011692318 at Meridian Trust Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 730,
+  "end": 769,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 35,
+  "text": "From: hector.delgado@summitpeak.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 36,
+  "end": 69,
+  "text": "To: felix.sorensen@summitpeak.com",
+  "tids": [
+   "t59",
+   "t73"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 70,
+  "end": 101,
+  "text": "Subject: Invoice 2296 follow-up",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 102,
+  "end": 139,
+  "text": "Date: Fri, 09 May 2025 18:30:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 141,
+  "end": 150,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 152,
+  "end": 227,
+  "text": "Hector Delgado started the vendor onboarding on April 2, 2025 at 10:15 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 228,
+  "end": 296,
+  "text": "The vendor onboarding happened at Summit Peak Freight Ltd.'s office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 297,
+  "end": 369,
+  "text": "On 7 April 2025, 13:25 UTC, Felix Sorensen initiated the refund request.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 370,
+  "end": 439,
+  "text": "The refund request took place at the Summit Peak Freight Ltd. office.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 440,
+  "end": 516,
+  "text": "On 22 April 2025, 11:30 UTC, Hannah Ashworth initiated the payment approval.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 517,
+  "end": 576,
+  "text": "Approval for the payment approval came from Hector Delgado.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 577,
+  "end": 637,
+  "text": "Felix Sorensen was involved in the payment approval as well.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 638,
+  "end": 727,
+  "text": "The expense reimbursement was initiated by Hector Delgado on April 26, 2025 at 15:10 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 728,
+  "end": 804,
+  "text": "On April 30, 2025 at 13:45 UTC, Hannah Ashworth initiated the wire transfer.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 805,
+  "end": 862,
+  "text": "Felix Sorensen was involved in the wire transfer as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_1",
+   "event_4"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 863,
+  "end": 931,
+  "text": "The wire transfer took place at the Summit Peak Freight Ltd. office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 932,
+  "end": 1001,
+  "text": "Julian Quinn started the contract amendment on 9 May 2025, 16:30 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 1003,
+  "end": 1010,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S19": {
+  "doc_id": "D2",
+  "start": 1011,
+  "end": 1017,
+  "text": "Hector",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D1.S1] From: plindqvist@harborline.com
+[D1.S2] To: lreyes@harborline.com, vnovak@stonebridge.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Tue, 16 Sep 2025 12:50:00 +0000
+
+[D1.S5] Hi Luca,
+
+[D1.S6] The expense reimbursement was initiated by Victor Novak on September 16, 2025 at 10:50 UTC. [D1.S7] Priya Lindqvist authorized the expense reimbursement. [D1.S8] Luca Reyes also took part in the expense reimbursement. [D1.S9] The expense reimbursement took place at the Harborline Industrial Group office. [D1.S10] Victor Novak had been in contact with Luca Reyes throughout.
+
+[D1.S11] Thanks,
+[D1.S12] Priya

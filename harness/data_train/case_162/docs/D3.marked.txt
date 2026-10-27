@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @owenr is Owen Reyes.
+[D3.S3] @samuelc is Samuel Castillo.
+[D3.S4] [2025-04-30 12:30 UTC] @owenr to @samuelc: Finance is asking questions again.
+[D3.S5] [2025-04-30 12:37 UTC] @samuelc to @owenr: I pushed it through, check your inbox.
+[D3.S6] [2025-04-30 12:44 UTC] @owenr to @samuelc: Let's keep this between us until Friday.

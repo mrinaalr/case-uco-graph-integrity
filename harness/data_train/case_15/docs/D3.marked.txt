@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @kofip is Kofi Petrov.
+[D3.S3] @samuelb is Samuel Brennan.
+[D3.S4] [2025-03-18 13:25 UTC] @kofip to @samuelb: I pushed it through, check your inbox.
+[D3.S5] [2025-03-18 13:32 UTC] @samuelb to @kofip: Let's keep this between us until Friday.
+[D3.S6] [2025-03-18 13:39 UTC] @kofip to @samuelb: Did the bank call back yet?

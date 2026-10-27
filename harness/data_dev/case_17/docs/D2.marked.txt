@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Desmond Petrov works for Copperfield Consulting Co. and uses the address desmond.petrov@copperfield.com. [D2.S3] Rosa Ashworth is employed by Copperfield Consulting Co.; their email is rosa.ashworth@copperfield.com. [D2.S4] Wesley Fischer is employed by Copperfield Consulting Co.; their email is wfischer@copperfield.com. [D2.S5] Redfern Distribution Co. employs Lena Brennan, who can be reached at lena.brennan@redfern.com. [D2.S6] Nadia Abara works for Redfern Distribution Co. and uses the address nadia.abara@redfern.com.
+
+[D2.S7] The offices of Copperfield Consulting Co. are at 2926 Industrial Parkway, Tucson, AZ 85701.
+
+[D2.S8] Meridian Trust Bank account 9323031667 is registered to Copperfield Consulting Co. [D2.S9] Account 7999104726 at Meridian Trust Bank belongs to Redfern Distribution Co. [D2.S10] Wesley Fischer holds account 3605989132 at Meridian Trust Bank.
+
+[D2.S11] This summary reflects records available to date.

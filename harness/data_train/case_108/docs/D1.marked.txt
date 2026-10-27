@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Northwind Tooling Group employs Owen Tanaka, who can be reached at owen.tanaka@northwind.com. [D1.S3] Wesley Novak is employed by Northwind Tooling Group; their email is wesley.novak@northwind.com. [D1.S4] Northwind Tooling Group employs Mei Abara, who can be reached at mabara@northwind.com. [D1.S5] Redfern Services LLC employs Hannah Moreau, who can be reached at hannah.moreau@redfern.com. [D1.S6] Redfern Services LLC employs Dana Vance, who can be reached at dvance@redfern.com.
+
+[D1.S7] Northwind Tooling Group is based at 3342 Lakeview Road, Raleigh, NC 27601.
+
+[D1.S8] Let me know if anything here looks off.

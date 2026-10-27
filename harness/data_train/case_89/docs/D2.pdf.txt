@@ -1,0 +1,13 @@
+From: wesley.petrov@brightwater.com
+To: ikowalski@silverlake.com
+Subject: Urgent: payment timing
+Date: Mon, 17 Feb 2025 12:25:00 +0000
+Hi Irene,
+On 20 January 2025, 15:15 UTC, Nadia Vance initiated the refund request. The payment approval was
+initiated by Nadia Vance on January 28, 2025 at 12:50 UTC. Irene Kowalski started the wire transfer on
+13 February 2025, 11:10 UTC. Nadia Vance also took part in the wire transfer. The wire transfer took
+place at the Brightwater Analytics Ltd. office. The account reconciliation was initiated by Wesley Petrov
+on February 17, 2025 at 09:50 UTC. The account reconciliation took place at the Brightwater Analytics
+Ltd. office. On February 17, 2025 at 10:25 UTC, Clara Ivanova initiated the bank detail change.
+Thanks,
+Wesley

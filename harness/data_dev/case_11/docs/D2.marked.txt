@@ -1,0 +1,11 @@
+[D2.S1] From: nvance@summitpeak.com
+[D2.S2] To: elena.tanaka@copperfield.com, irene.lindqvist@copperfield.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Wed, 22 Oct 2025 18:50:00 +0000
+
+[D2.S5] Hi Elena,
+
+[D2.S6] On September 13, 2025 at 14:25 UTC, Irene Lindqvist initiated the wire transfer. [D2.S7] Nadia Vance authorized the wire transfer. [D2.S8] The account reconciliation was initiated by Elena Tanaka on 8 October 2025, 16:25 UTC. [D2.S9] The account reconciliation happened at Copperfield Analytics Group's office. [D2.S10] The bank detail change was initiated by Irene Lindqvist on October 19, 2025 at 14:10 UTC. [D2.S11] The vendor onboarding was initiated by Nadia Vance on 22 October 2025, 16:50 UTC. [D2.S12] The vendor onboarding took place at the Copperfield Analytics Group office.
+
+[D2.S13] Thanks,
+[D2.S14] Nadia

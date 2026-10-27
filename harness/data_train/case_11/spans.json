@@ -1,0 +1,465 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 27,
+  "text": "From: dvance@harborline.com",
+  "tids": [
+   "t53",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 28,
+  "end": 54,
+  "text": "To: rsorensen@oakhaven.com",
+  "tids": [
+   "t54",
+   "t62",
+   "t11"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 55,
+  "end": 88,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 89,
+  "end": 126,
+  "text": "Date: Tue, 30 Sep 2025 12:25:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 128,
+  "end": 136,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 211,
+  "text": "Ruth Reyes started the bank detail change on 8 September 2025, 13:30 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 212,
+  "end": 291,
+  "text": "Desmond Vance started the vendor onboarding on September 30, 2025 at 10:25 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42",
+   "t7"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 293,
+  "end": 300,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 301,
+  "end": 308,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 136,
+  "text": "Priya Castillo is employed by Oakhaven Packaging Inc.; their email is priya.castillo@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t63",
+   "t64",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 229,
+  "text": "Oakhaven Packaging Inc. employs Rosa Sorensen, who can be reached at rsorensen@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t65",
+   "t66",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 230,
+  "end": 316,
+  "text": "Ruth Reyes works for Oakhaven Packaging Inc. and uses the address rreyes@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t67",
+   "t68",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 317,
+  "end": 409,
+  "text": "Harborline Analytics Co. employs Desmond Vance, who can be reached at dvance@harborline.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t69",
+   "t70",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 411,
+  "end": 482,
+  "text": "Oakhaven Packaging Inc. operates from 2587 Elm Street, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 484,
+  "end": 532,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "From: rreyes@oakhaven.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 80,
+  "text": "To: priya.castillo@oakhaven.com, dvance@harborline.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t71",
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 81,
+  "end": 114,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Fri, 10 Oct 2025 13:50:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 154,
+  "end": 163,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 165,
+  "end": 256,
+  "text": "The account reconciliation was initiated by Priya Castillo on 14 September 2025, 16:30 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 257,
+  "end": 335,
+  "text": "On October 10, 2025 at 11:50 UTC, Ruth Reyes initiated the contract amendment.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 336,
+  "end": 408,
+  "text": "The contract amendment took place at the Oakhaven Packaging Inc. office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 410,
+  "end": 417,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 418,
+  "end": 422,
+  "text": "Ruth",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 106,
+  "text": "Granite Federal Credit Union account 5710727020 is registered to Oakhaven Packaging Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t73",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 107,
+  "end": 189,
+  "text": "Harborline Analytics Co. holds account 3533221397 at Granite Federal Credit Union.",
+  "tids": [
+   "t29",
+   "t30",
+   "t74",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 191,
+  "end": 265,
+  "text": "On September 21, 2025 at 15:25 UTC, Ruth Reyes initiated the audit review.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 266,
+  "end": 315,
+  "text": "Desmond Vance also took part in the audit review.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_3",
+   "event_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 316,
+  "end": 382,
+  "text": "The audit review took place at the Oakhaven Packaging Inc. office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 383,
+  "end": 455,
+  "text": "Priya Castillo started the refund request on 14 October 2025, 13:50 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 456,
+  "end": 507,
+  "text": "Rosa Sorensen also took part in the refund request.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 509,
+  "end": 543,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

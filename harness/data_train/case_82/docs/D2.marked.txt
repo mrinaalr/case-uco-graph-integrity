@@ -1,0 +1,11 @@
+[D2.S1] From: mpetrov@ironleaf.com
+[D2.S2] To: mkowalski@summitpeak.com, hwhitfield@ironleaf.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Wed, 17 Sep 2025 19:25:00 +0000
+
+[D2.S5] Hi Maya,
+
+[D2.S6] On 11 August 2025, 17:15 UTC, Hector Whitfield initiated the refund request. [D2.S7] The refund request took place at the Ironleaf Distribution Co. office. [D2.S8] Hector Whitfield started the payment approval on 26 August 2025, 13:15 UTC. [D2.S9] The expense reimbursement was initiated by Arjun Banerjee on August 28, 2025 at 12:10 UTC. [D2.S10] The audit review was initiated by Mei Petrov on 28 August 2025, 16:30 UTC. [D2.S11] Maya Kowalski started the bank detail change on 30 August 2025, 15:25 UTC. [D2.S12] The bank detail change happened at Ironleaf Distribution Co.'s office. [D2.S13] The invoice submission was initiated by Mei Petrov on August 31, 2025 at 15:45 UTC. [D2.S14] The invoice submission took place at the Ironleaf Distribution Co. office. [D2.S15] The wire transfer was initiated by Arjun Banerjee on 17 September 2025, 15:30 UTC. [D2.S16] On September 17, 2025 at 17:25 UTC, Mei Petrov initiated the contract amendment. [D2.S17] The contract amendment happened at Ironleaf Distribution Co.'s office.
+
+[D2.S18] Thanks,
+[D2.S19] Mei

@@ -1,0 +1,12 @@
+INTERNAL MEMO: Vendor payment review
+Yara Sorensen works for Cedar Ridge Fabrication Group and uses the address
+yara.sorensen@cedarridge.com. Victor Quinn is employed by Cedar Ridge Fabrication Group; their
+email is victor.quinn@cedarridge.com. Sofia Moreau is employed by Cedar Ridge Fabrication Group;
+their email is smoreau@cedarridge.com. Priya Whitfield is employed by Bluegate Distribution Group;
+their email is priya.whitfield@bluegate.com. Arjun Park is employed by Bluegate Distribution Group;
+their email is apark@bluegate.com.
+Cedar Ridge Fabrication Group operates from 3198 Industrial Parkway, Tucson, AZ 85701.
+Cedar Ridge Fabrication Group holds account 4434380256 at Lakeshore Savings Bank. Account
+7731685155 at Lakeshore Savings Bank belongs to Bluegate Distribution Group. Yara Sorensen holds
+account 3919730712 at Lakeshore Savings Bank.
+Please treat this as confidential.

@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Hector Moreau is employed by Copperfield Distribution Group; their email is hmoreau@copperfield.com. [D1.S3] Andre Whitfield is employed by Copperfield Distribution Group; their email is awhitfield@copperfield.com. [D1.S4] Copperfield Distribution Group employs Luca Haddad, who can be reached at luca.haddad@copperfield.com. [D1.S5] Oscar Quinn is employed by Clearpath Tooling LLC; their email is oquinn@clearpath.com.
+
+[D1.S6] Andre Whitfield reports to Hector Moreau.
+
+[D1.S7] Copperfield Distribution Group is based at 7076 Market Street, Tucson, AZ 85701.
+
+[D1.S8] Account 8617788154 at Union Ledger Bank belongs to Copperfield Distribution Group. [D1.S9] Account 6144809874 at Union Ledger Bank belongs to Clearpath Tooling LLC.
+
+[D1.S10] More detail will follow once records are pulled.

@@ -1,0 +1,11 @@
+[D2.S1] From: sofia.tanaka@silverlake.com
+[D2.S2] To: irene.quinn@silverlake.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Sat, 09 Aug 2025 12:25:00 +0000
+
+[D2.S5] Hi Irene,
+
+[D2.S6] Sofia Tanaka started the payment approval on 8 July 2025, 12:15 UTC. [D2.S7] On July 8, 2025 at 14:10 UTC, Sofia Tanaka initiated the audit review. [D2.S8] On 12 July 2025, 15:30 UTC, Kofi Novak initiated the expense reimbursement. [D2.S9] Irene Quinn also took part in the expense reimbursement. [D2.S10] Kofi Novak started the account reconciliation on July 21, 2025 at 09:15 UTC. [D2.S11] Sofia Tanaka was involved in the account reconciliation as well. [D2.S12] The account reconciliation happened at Silverlake Industrial Group's office. [D2.S13] Sofia Tanaka started the bank detail change on 23 July 2025, 17:10 UTC. [D2.S14] Kofi Novak authorized the bank detail change. [D2.S15] Kofi Novak started the refund request on 26 July 2025, 14:25 UTC. [D2.S16] Approval for the refund request came from Sofia Tanaka. [D2.S17] The wire transfer was initiated by Irene Quinn on 7 August 2025, 10:45 UTC. [D2.S18] Irene Quinn started the invoice submission on August 9, 2025 at 10:25 UTC.
+
+[D2.S19] Thanks,
+[D2.S20] Sofia

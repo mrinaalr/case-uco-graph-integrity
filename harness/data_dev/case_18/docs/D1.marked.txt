@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Mei Tanaka is employed by Stonebridge Components Co.; their email is mei.tanaka@stonebridge.com. [D1.S3] Felix Sorensen works for Stonebridge Components Co. and uses the address felix.sorensen@stonebridge.com. [D1.S4] Grace Vance is employed by Stonebridge Components Co.; their email is grace.vance@stonebridge.com. [D1.S5] Victor Quinn is employed by Oakhaven Consulting Co.; their email is victor.quinn@oakhaven.com. [D1.S6] Oakhaven Consulting Co. employs Sofia Ivanova, who can be reached at sivanova@oakhaven.com.
+
+[D1.S7] Stonebridge Components Co. is based at 8973 Main Street, Madison, WI 53703.
+
+[D1.S8] Union Ledger Bank account 9481888281 is registered to Stonebridge Components Co. [D1.S9] Account 8851075868 at Union Ledger Bank belongs to Oakhaven Consulting Co. [D1.S10] Union Ledger Bank account 1808232540 is registered to Grace Vance.
+
+[D1.S11] More detail will follow once records are pulled.

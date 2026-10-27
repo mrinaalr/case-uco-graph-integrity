@@ -1,0 +1,12 @@
+From: anovak@clearpath.com
+To: owen.mendes@redfern.com
+Subject: Wire confirmation needed
+Date: Wed, 24 Sep 2025 17:15:00 +0000
+Hi Owen,
+The payment approval was initiated by Owen Mendes on August 23, 2025 at 10:10 UTC. The payment
+approval happened at Redfern Freight LLC's office. Andre Novak started the vendor onboarding on
+September 12, 2025 at 13:00 UTC. On September 21, 2025 at 11:50 UTC, Oscar Vance initiated the
+invoice submission. The refund request was initiated by Maya Whitfield on September 24, 2025 at
+15:15 UTC. Approval for the refund request came from Andre Novak.
+Thanks,
+Andre

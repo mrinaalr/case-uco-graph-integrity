@@ -1,0 +1,11 @@
+From: owen.vance@clearpath.com
+To: kofi.petrov@summitpeak.com
+Subject: Urgent: payment timing
+Date: Sun, 16 Mar 2025 14:25:00 +0000
+
+Hi Kofi,
+
+Elena Lindqvist started the invoice submission on 12 February 2025, 14:00 UTC. On February 18, 2025 at 10:30 UTC, Owen Vance initiated the vendor onboarding. Elena Lindqvist also took part in the vendor onboarding. On March 8, 2025 at 10:00 UTC, Kofi Petrov initiated the audit review. Kofi Petrov started the payment approval on 16 March 2025, 12:25 UTC.
+
+Thanks,
+Owen

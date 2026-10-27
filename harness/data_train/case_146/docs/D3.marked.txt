@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @hectorm is Hector Moreau.
+[D3.S3] @lucah is Luca Haddad.
+[D3.S4] [2025-03-18 10:50 UTC] @hectorm to @lucah: Can you look at the vendor file before lunch?
+[D3.S5] [2025-03-18 10:57 UTC] @lucah to @hectorm: Send me the new form when you can.

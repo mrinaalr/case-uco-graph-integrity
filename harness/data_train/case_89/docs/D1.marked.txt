@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Nadia Vance works for Brightwater Analytics Ltd. and uses the address nadia.vance@brightwater.com. [D1.S3] Brightwater Analytics Ltd. employs Wesley Petrov, who can be reached at wesley.petrov@brightwater.com. [D1.S4] Lena Tanaka works for Brightwater Analytics Ltd. and uses the address ltanaka@brightwater.com. [D1.S5] Silverlake Freight LLC employs Clara Ivanova, who can be reached at clara.ivanova@silverlake.com. [D1.S6] Irene Kowalski is employed by Silverlake Freight LLC; their email is ikowalski@silverlake.com.
+
+[D1.S7] Brightwater Analytics Ltd. is based at 4695 Harbor Avenue, Albany, NY 12207.
+
+[D1.S8] Granite Federal Credit Union account 2358357442 is registered to Brightwater Analytics Ltd. [D1.S9] Silverlake Freight LLC holds account 4944215022 at Granite Federal Credit Union.
+
+[D1.S10] More detail will follow once records are pulled.

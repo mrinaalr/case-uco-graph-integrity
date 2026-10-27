@@ -1,0 +1,4 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @ireneh is Irene Holloway.
+[D3.S3] @ruths is Ruth Sorensen.
+[D3.S4] [2025-04-23 12:25 UTC] @ireneh to @ruths: Can you look at the vendor file before lunch?

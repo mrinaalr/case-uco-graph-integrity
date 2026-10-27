@@ -1,0 +1,461 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Andre Park is employed by Harborline Fabrication Inc.; their email is apark@harborline.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t76",
+   "t77",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 234,
+  "text": "Dana Lindqvist works for Harborline Fabrication Inc. and uses the address dana.lindqvist@harborline.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t78",
+   "t79",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 235,
+  "end": 331,
+  "text": "Harborline Fabrication Inc. employs Mei Okafor, who can be reached at mei.okafor@harborline.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t80",
+   "t81",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 332,
+  "end": 432,
+  "text": "Yara Whitfield works for Clearpath Components Co. and uses the address yara.whitfield@clearpath.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t82",
+   "t83",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 434,
+  "end": 511,
+  "text": "Harborline Fabrication Inc. is based at 9636 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 513,
+  "end": 552,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: mei.okafor@harborline.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 86,
+  "text": "To: apark@harborline.com, yara.whitfield@clearpath.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t84",
+   "t85"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 87,
+  "end": 123,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 124,
+  "end": 161,
+  "text": "Date: Wed, 22 Oct 2025 14:10:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 163,
+  "end": 172,
+  "text": "Hi Andre,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 174,
+  "end": 250,
+  "text": "Mei Okafor started the vendor onboarding on September 18, 2025 at 15:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 251,
+  "end": 342,
+  "text": "The account reconciliation was initiated by Dana Lindqvist on October 9, 2025 at 09:45 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 343,
+  "end": 422,
+  "text": "Dana Lindqvist started the invoice submission on October 19, 2025 at 16:30 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 423,
+  "end": 508,
+  "text": "The contract amendment was initiated by Dana Lindqvist on 22 October 2025, 12:10 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 510,
+  "end": 517,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 518,
+  "end": 521,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t86"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@yaraw is Yara Whitfield.",
+  "tids": [
+   "t56",
+   "t55"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 74,
+  "text": "@andrep is Andre Park.",
+  "tids": [
+   "t58",
+   "t57"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 75,
+  "end": 155,
+  "text": "[2025-09-18 16:10 UTC] @yaraw to @andrep: I pushed it through, check your inbox.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67",
+   "t87"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 156,
+  "end": 238,
+  "text": "[2025-09-18 16:17 UTC] @andrep to @yaraw: Let's keep this between us until Friday.",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71",
+   "t88"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 239,
+  "end": 308,
+  "text": "[2025-09-18 16:24 UTC] @yaraw to @andrep: Did the bank call back yet?",
+  "tids": [
+   "t72",
+   "t73",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 96,
+  "text": "Account 2991928506 at Union Ledger Bank belongs to Harborline Fabrication Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t89",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 97,
+  "end": 172,
+  "text": "Account 2929924822 at Union Ledger Bank belongs to Clearpath Components Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t90",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 173,
+  "end": 235,
+  "text": "Account 6268101963 at Union Ledger Bank belongs to Mei Okafor.",
+  "tids": [
+   "t32",
+   "t33",
+   "t91",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 237,
+  "end": 320,
+  "text": "The refund request was initiated by Yara Whitfield on 30 September 2025, 11:50 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 321,
+  "end": 399,
+  "text": "The audit review was initiated by Mei Okafor on October 14, 2025 at 09:45 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 400,
+  "end": 474,
+  "text": "On 20 October 2025, 15:25 UTC, Yara Whitfield initiated the wire transfer.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 476,
+  "end": 515,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

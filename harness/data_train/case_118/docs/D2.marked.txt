@@ -1,0 +1,11 @@
+[D2.S1] From: maya.delgado@westmark.com
+[D2.S2] To: mbrennan@westmark.com, llindqvist@westmark.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Tue, 10 Jun 2025 14:15:00 +0000
+
+[D2.S5] Hi Mei,
+
+[D2.S6] The contract amendment was initiated by Nadia Reyes on June 2, 2025 at 17:30 UTC. [D2.S7] The contract amendment took place at the Westmark Packaging Inc. office. [D2.S8] Lena Lindqvist started the payment approval on 8 June 2025, 15:50 UTC. [D2.S9] Mei Brennan authorized the payment approval. [D2.S10] The payment approval happened at Westmark Packaging Inc.'s office. [D2.S11] Mei Brennan started the expense reimbursement on 10 June 2025, 12:15 UTC. [D2.S12] Approval for the expense reimbursement came from Nadia Reyes. [D2.S13] Lena Lindqvist was involved in the expense reimbursement as well. [D2.S14] The expense reimbursement took place at the Westmark Packaging Inc. office. [D2.S15] Mei Brennan communicated with Maya Delgado about the payments.
+
+[D2.S16] Thanks,
+[D2.S17] Maya

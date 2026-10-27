@@ -1,0 +1,11 @@
+[D1.S1] From: tbrennan@brightwater.com
+[D1.S2] To: lwhitfield@brightwater.com, irene.moreau@bluegate.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Fri, 14 Mar 2025 18:45:00 +0000
+
+[D1.S5] Hi Luca,
+
+[D1.S6] The bank detail change was initiated by Irene Moreau on February 8, 2025 at 12:00 UTC. [D1.S7] Irene Moreau started the account reconciliation on February 22, 2025 at 12:50 UTC. [D1.S8] Tomas Brennan started the payment approval on 1 March 2025, 09:30 UTC. [D1.S9] The contract amendment was initiated by Irene Moreau on March 14, 2025 at 16:45 UTC.
+
+[D1.S10] Thanks,
+[D1.S11] Tomas

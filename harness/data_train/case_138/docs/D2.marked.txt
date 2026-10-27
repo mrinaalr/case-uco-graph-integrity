@@ -1,0 +1,11 @@
+[D2.S1] From: dfischer@silverlake.com
+[D2.S2] To: pmoreau@bluegate.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Mon, 31 Mar 2025 16:00:00 +0000
+
+[D2.S5] Hi Priya,
+
+[D2.S6] Priya Moreau started the audit review on March 13, 2025 at 11:10 UTC. [D2.S7] Desmond Fischer started the wire transfer on 15 March 2025, 15:30 UTC. [D2.S8] The wire transfer happened at Silverlake Tooling Co.'s office. [D2.S9] Oscar Banerjee started the expense reimbursement on March 16, 2025 at 12:00 UTC. [D2.S10] The refund request was initiated by Priya Moreau on 19 March 2025, 17:10 UTC. [D2.S11] On 23 March 2025, 11:00 UTC, Desmond Fischer initiated the account reconciliation. [D2.S12] The account reconciliation happened at Silverlake Tooling Co.'s office. [D2.S13] Oscar Banerjee started the payment approval on 31 March 2025, 14:00 UTC. [D2.S14] The payment approval happened at Silverlake Tooling Co.'s office.
+
+[D2.S15] Thanks,
+[D2.S16] Desmond

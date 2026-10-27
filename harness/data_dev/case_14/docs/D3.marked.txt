@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @owenk is Owen Kowalski.
+[D3.S3] @felixm is Felix Moreau.
+[D3.S4] [2025-06-08 10:50 UTC] @owenk to @felixm: I pushed it through, check your inbox.
+[D3.S5] [2025-06-08 10:57 UTC] @felixm to @owenk: Let's keep this between us until Friday.

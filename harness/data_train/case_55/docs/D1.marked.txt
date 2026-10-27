@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Copperfield Supply Co. employs Irene Brennan, who can be reached at irene.brennan@copperfield.com. [D1.S3] Copperfield Supply Co. employs Wesley Sorensen, who can be reached at wesley.sorensen@copperfield.com. [D1.S4] Sofia Ashworth works for Copperfield Supply Co. and uses the address sashworth@copperfield.com. [D1.S5] Hannah Tanaka is employed by Oakhaven Components Group; their email is htanaka@oakhaven.com. [D1.S6] Priya Delgado is employed by Oakhaven Components Group; their email is pdelgado@oakhaven.com.
+
+[D1.S7] Copperfield Supply Co. operates from 923 Harbor Avenue, Omaha, NE 68102.
+
+[D1.S8] Account 1575452000 at Meridian Trust Bank belongs to Copperfield Supply Co. [D1.S9] Oakhaven Components Group holds account 1394084560 at Meridian Trust Bank. [D1.S10] Meridian Trust Bank account 1658622616 is registered to Irene Brennan.
+
+[D1.S11] Account 1575452000 sent a transfer to account 1658622616.
+
+[D1.S12] This summary reflects records available to date.

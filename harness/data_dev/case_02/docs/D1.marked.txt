@@ -1,0 +1,11 @@
+[D1.S1] From: grace.park@silverlake.com
+[D1.S2] To: ekowalski@oakhaven.com, owen.abara@oakhaven.com
+[D1.S3] Subject: Re: banking change request
+[D1.S4] Date: Tue, 25 Feb 2025 17:10:00 +0000
+
+[D1.S5] Hi Elena,
+
+[D1.S6] The audit review was initiated by Elena Kowalski on 25 February 2025, 15:10 UTC.
+
+[D1.S7] Thanks,
+[D1.S8] Grace

@@ -1,0 +1,338 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 126,
+  "text": "Wesley Mendes is employed by Ironleaf Services LLC; their email is wmendes@ironleaf.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t51",
+   "t52",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 127,
+  "end": 220,
+  "text": "Ironleaf Services LLC employs Sofia Whitfield, who can be reached at swhitfield@ironleaf.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t53",
+   "t54",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 221,
+  "end": 313,
+  "text": "Redfern Distribution LLC employs Lena Tanaka, who can be reached at lena.tanaka@redfern.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t55",
+   "t56",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 315,
+  "end": 385,
+  "text": "Ironleaf Services LLC is based at 1148 Lakeview Road, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 386,
+  "end": 459,
+  "text": "Redfern Distribution LLC is based at 9323 Main Street, Madison, WI 53703.",
+  "tids": [
+   "t44",
+   "t40",
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 461,
+  "end": 529,
+  "text": "Ironleaf Services LLC holds account 4518753295 at First Harbor Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t57",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 530,
+  "end": 606,
+  "text": "Account 3421994164 at First Harbor Bank belongs to Redfern Distribution LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t58",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 608,
+  "end": 665,
+  "text": "Account 4518753295 sent a transfer to account 3421994164.",
+  "tids": [
+   "t36"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 667,
+  "end": 715,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: wmendes@ironleaf.com",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 79,
+  "text": "To: lena.tanaka@redfern.com, swhitfield@ironleaf.com",
+  "tids": [
+   "t47",
+   "t48",
+   "t59",
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 80,
+  "end": 116,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 117,
+  "end": 154,
+  "text": "Date: Sun, 23 Feb 2025 14:10:00 +0000",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 156,
+  "end": 164,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 248,
+  "text": "On 9 February 2025, 14:25 UTC, Wesley Mendes initiated the account reconciliation.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 249,
+  "end": 339,
+  "text": "The invoice submission was initiated by Sofia Whitfield on February 16, 2025 at 16:25 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 340,
+  "end": 399,
+  "text": "Lena Tanaka was involved in the invoice submission as well.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 400,
+  "end": 484,
+  "text": "On February 23, 2025 at 12:10 UTC, Sofia Whitfield initiated the contract amendment.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 485,
+  "end": 531,
+  "text": "Lena Tanaka authorized the contract amendment.",
+  "tids": [
+   "t38"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 532,
+  "end": 587,
+  "text": "Wesley Mendes also took part in the contract amendment.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 588,
+  "end": 654,
+  "text": "The contract amendment happened at Ironleaf Services LLC's office.",
+  "tids": [
+   "t37"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 656,
+  "end": 663,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 664,
+  "end": 670,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D1.S1] From: kofi.tanaka@westmark.com
+[D1.S2] To: mashworth@stonebridge.com, clara.kowalski@stonebridge.com
+[D1.S3] Subject: Urgent: payment timing
+[D1.S4] Date: Sun, 21 Sep 2025 15:50:00 +0000
+
+[D1.S5] Hi Mei,
+
+[D1.S6] On 1 September 2025, 12:30 UTC, Rosa Abara initiated the vendor onboarding. [D1.S7] The expense reimbursement was initiated by Mei Ashworth on September 7, 2025 at 10:25 UTC. [D1.S8] Approval for the expense reimbursement came from Kofi Tanaka. [D1.S9] The audit review was initiated by Mei Ashworth on September 16, 2025 at 11:45 UTC. [D1.S10] Clara Kowalski started the refund request on September 21, 2025 at 13:50 UTC. [D1.S11] Marcus Lindqvist also took part in the refund request.
+
+[D1.S12] Thanks,
+[D1.S13] Kofi

@@ -1,0 +1,11 @@
+[D3.S1] From: mei.haddad@copperfield.com
+[D3.S2] To: tdelgado@northwind.com, yara.moreau@northwind.com
+[D3.S3] Subject: Updated remittance details
+[D3.S4] Date: Wed, 09 Apr 2025 19:10:00 +0000
+
+[D3.S5] Hi Tomas,
+
+[D3.S6] The vendor onboarding was initiated by Mei Haddad on March 20, 2025 at 11:30 UTC. [D3.S7] Yara Moreau started the refund request on 9 April 2025, 17:10 UTC. [D3.S8] The refund request happened at Northwind Components Inc.'s office.
+
+[D3.S9] Thanks,
+[D3.S10] Mei

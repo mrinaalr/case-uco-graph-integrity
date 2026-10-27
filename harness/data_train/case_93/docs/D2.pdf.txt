@@ -1,0 +1,10 @@
+From: irene.ivanova@redfern.com
+To: rreyes@bluegate.com
+Subject: Urgent: payment timing
+Date: Sun, 10 Aug 2025 13:30:00 +0000
+Hi Ruth,
+Arjun Quinn started the wire transfer on July 14, 2025 at 09:25 UTC. The refund request was initiated
+by Ruth Reyes on 27 July 2025, 12:50 UTC. Ruth Reyes started the bank detail change on August 6,
+2025 at 13:25 UTC. Irene Ivanova started the account reconciliation on August 10, 2025 at 11:30 UTC.
+Thanks,
+Irene

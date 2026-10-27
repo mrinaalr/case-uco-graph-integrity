@@ -1,0 +1,11 @@
+From: lena.kowalski@northwind.com
+To: hholloway@ironleaf.com, nnovak@northwind.com
+Subject: Urgent: payment timing
+Date: Thu, 25 Sep 2025 12:45:00 +0000
+Hi Hannah,
+The contract amendment was initiated by Nadia Novak on September 7, 2025 at 09:45 UTC. The
+invoice submission was initiated by Tomas Lindqvist on 23 September 2025, 10:30 UTC. Nadia Novak
+started the account reconciliation on 25 September 2025, 10:45 UTC. The account reconciliation
+happened at Northwind Industrial Inc.'s office.
+Thanks,
+Lena

@@ -1,0 +1,11 @@
+[D2.S1] From: acastillo@harborline.com
+[D2.S2] To: apark@harborline.com, lpetrov@harborline.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Tue, 11 Nov 2025 13:15:00 +0000
+
+[D2.S5] Hi Andre,
+
+[D2.S6] On 15 October 2025, 12:15 UTC, Arjun Castillo initiated the wire transfer. [D2.S7] The wire transfer took place at the Harborline Services Inc. office. [D2.S8] Lena Petrov started the expense reimbursement on October 23, 2025 at 17:00 UTC. [D2.S9] Arjun Castillo started the account reconciliation on 11 November 2025, 11:15 UTC.
+
+[D2.S10] Thanks,
+[D2.S11] Arjun

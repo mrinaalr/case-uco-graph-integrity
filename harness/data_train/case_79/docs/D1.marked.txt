@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Andre Sorensen works for Brightwater Tooling Ltd. and uses the address asorensen@brightwater.com. [D1.S3] Samuel Haddad works for Brightwater Tooling Ltd. and uses the address shaddad@brightwater.com. [D1.S4] Hannah Reyes works for Westmark Tooling Group and uses the address hannah.reyes@westmark.com.
+
+[D1.S5] Samuel Haddad reports to Andre Sorensen.
+
+[D1.S6] Brightwater Tooling Ltd. operates from 4772 Maple Avenue, Dayton, OH 45402.
+
+[D1.S7] This summary reflects records available to date.

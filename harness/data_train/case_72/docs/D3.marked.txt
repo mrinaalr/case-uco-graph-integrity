@@ -1,0 +1,11 @@
+[D3.S1] From: tomas.park@cedarridge.com
+[D3.S2] To: desmond.osei@cedarridge.com
+[D3.S3] Subject: Wire confirmation needed
+[D3.S4] Date: Sun, 06 Apr 2025 17:10:00 +0000
+
+[D3.S5] Hi Desmond,
+
+[D3.S6] The expense reimbursement was initiated by Tomas Park on 15 March 2025, 12:45 UTC. [D3.S7] Desmond Osei also took part in the expense reimbursement. [D3.S8] The wire transfer was initiated by Luca Whitfield on April 6, 2025 at 15:10 UTC. [D3.S9] Approval for the wire transfer came from Desmond Osei.
+
+[D3.S10] Thanks,
+[D3.S11] Tomas

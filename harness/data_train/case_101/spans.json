@@ -1,0 +1,450 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 138,
+  "text": "Nadia Kowalski works for Oakhaven Fabrication Ltd. and uses the address nadia.kowalski@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t69",
+   "t70",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 229,
+  "text": "Samuel Abara is employed by Oakhaven Fabrication Ltd.; their email is sabara@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t71",
+   "t72",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 316,
+  "text": "Owen Park is employed by Oakhaven Fabrication Ltd.; their email is opark@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t73",
+   "t74",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 317,
+  "end": 408,
+  "text": "Luca Brennan works for Bluegate Components Ltd. and uses the address lbrennan@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t75",
+   "t76",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 410,
+  "end": 451,
+  "text": "Samuel Abara's manager is Nadia Kowalski.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 452,
+  "end": 490,
+  "text": "Owen Park's manager is Nadia Kowalski.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 492,
+  "end": 566,
+  "text": "Oakhaven Fabrication Ltd. is based at 5188 Lakeview Road, Boise, ID 83702.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 568,
+  "end": 602,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 24,
+  "text": "From: opark@oakhaven.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 25,
+  "end": 50,
+  "text": "To: lbrennan@bluegate.com",
+  "tids": [
+   "t54",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 51,
+  "end": 76,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 77,
+  "end": 114,
+  "text": "Date: Sat, 29 Mar 2025 15:30:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 116,
+  "end": 124,
+  "text": "Hi Luca,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 126,
+  "end": 198,
+  "text": "Owen Park started the account reconciliation on 8 March 2025, 12:30 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 199,
+  "end": 273,
+  "text": "On March 17, 2025 at 11:25 UTC, Nadia Kowalski initiated the audit review.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 274,
+  "end": 341,
+  "text": "Owen Park started the wire transfer on March 29, 2025 at 13:30 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 342,
+  "end": 396,
+  "text": "Approval for the wire transfer came from Luca Brennan.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_3",
+   "event_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 398,
+  "end": 405,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 406,
+  "end": 410,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t78"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 49,
+  "text": "@lucab is Luca Brennan.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 50,
+  "end": 76,
+  "text": "@nadiak is Nadia Kowalski.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 77,
+  "end": 159,
+  "text": "[2025-03-08 13:30 UTC] @lucab to @nadiak: Let's keep this between us until Friday.",
+  "tids": [
+   "t57",
+   "t58",
+   "t59",
+   "t60",
+   "t79"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 160,
+  "end": 229,
+  "text": "[2025-03-08 13:37 UTC] @nadiak to @lucab: Did the bank call back yet?",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 230,
+  "end": 317,
+  "text": "[2025-03-08 13:44 UTC] @lucab to @nadiak: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t65",
+   "t66",
+   "t67",
+   "t68"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 99,
+  "text": "Account 4592085164 at Lakeshore Savings Bank belongs to Oakhaven Fabrication Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t81",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 100,
+  "end": 176,
+  "text": "Bluegate Components Ltd. holds account 2942741700 at Lakeshore Savings Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t82",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 178,
+  "end": 261,
+  "text": "The bank detail change was initiated by Samuel Abara on March 8, 2025 at 14:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 262,
+  "end": 337,
+  "text": "Samuel Abara started the contract amendment on March 18, 2025 at 16:10 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 339,
+  "end": 387,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Pinecrest National Bank account 3260963676 is registered to Ironleaf Industrial Inc. [D3.S3] Account 7584573610 at Pinecrest National Bank belongs to Westmark Services Co.
+
+[D3.S4] The payment approval was initiated by Ruth Novak on August 22, 2025 at 16:50 UTC. [D3.S5] Luca Brennan started the invoice submission on 29 August 2025, 11:50 UTC. [D3.S6] The audit review was initiated by Luca Brennan on 19 September 2025, 16:50 UTC.
+
+[D3.S7] More detail will follow once records are pulled.

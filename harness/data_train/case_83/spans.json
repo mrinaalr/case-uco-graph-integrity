@@ -1,0 +1,476 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: smendes@harborline.com",
+  "tids": [
+   "t53",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 55,
+  "text": "To: kofi.park@bluegate.com",
+  "tids": [
+   "t54",
+   "t62",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 56,
+  "end": 81,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 82,
+  "end": 119,
+  "text": "Date: Thu, 17 Jul 2025 12:15:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 121,
+  "end": 129,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 205,
+  "text": "On 11 July 2025, 09:10 UTC, Desmond Haddad initiated the payment approval.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 206,
+  "end": 265,
+  "text": "Samuel Mendes was involved in the payment approval as well.",
+  "tids": [
+   "t47",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 266,
+  "end": 334,
+  "text": "Desmond Haddad started the wire transfer on 17 July 2025, 10:15 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 335,
+  "end": 385,
+  "text": "Samuel Mendes also took part in the wire transfer.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 386,
+  "end": 452,
+  "text": "The wire transfer happened at Harborline Components Ltd.'s office.",
+  "tids": [
+   "t51",
+   "t1"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 453,
+  "end": 519,
+  "text": "Samuel Mendes communicated with Desmond Haddad about the payments.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 521,
+  "end": 528,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 529,
+  "end": 535,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Ruth Fischer works for Harborline Components Ltd. and uses the address rfischer@harborline.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t63",
+   "t64",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 237,
+  "text": "Desmond Haddad works for Harborline Components Ltd. and uses the address desmond.haddad@harborline.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t65",
+   "t66",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 238,
+  "end": 333,
+  "text": "Samuel Mendes works for Harborline Components Ltd. and uses the address smendes@harborline.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t67",
+   "t68"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 334,
+  "end": 418,
+  "text": "Bluegate Supply LLC employs Kofi Park, who can be reached at kofi.park@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t69",
+   "t70",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 420,
+  "end": 506,
+  "text": "The offices of Harborline Components Ltd. are at 5942 Harbor Avenue, Albany, NY 12207.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 508,
+  "end": 599,
+  "text": "Granite Federal Credit Union account 5890753001 is registered to Harborline Components Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t71",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 600,
+  "end": 682,
+  "text": "Account 6215249659 at Granite Federal Credit Union belongs to Bluegate Supply LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t72",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 683,
+  "end": 760,
+  "text": "Account 4310953223 at Granite Federal Credit Union belongs to Desmond Haddad.",
+  "tids": [
+   "t32",
+   "t33",
+   "t73",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 762,
+  "end": 810,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: kofi.park@bluegate.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 80,
+  "text": "To: rfischer@harborline.com, smendes@harborline.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 81,
+  "end": 117,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Mon, 28 Jul 2025 12:15:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 165,
+  "text": "Hi Ruth,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 167,
+  "end": 246,
+  "text": "The vendor onboarding was initiated by Kofi Park on July 16, 2025 at 17:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 247,
+  "end": 317,
+  "text": "The vendor onboarding happened at Harborline Components Ltd.'s office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 318,
+  "end": 404,
+  "text": "The account reconciliation was initiated by Desmond Haddad on 28 July 2025, 10:15 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 405,
+  "end": 469,
+  "text": "Ruth Fischer was involved in the account reconciliation as well.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 470,
+  "end": 549,
+  "text": "The account reconciliation took place at the Harborline Components Ltd. office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 551,
+  "end": 558,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 559,
+  "end": 563,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ }
+}

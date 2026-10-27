@@ -1,0 +1,11 @@
+[D2.S1] From: ldelgado@ironleaf.com
+[D2.S2] To: mreyes@oakhaven.com, aivanova@oakhaven.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Thu, 27 Mar 2025 18:50:00 +0000
+
+[D2.S5] Hi Mei,
+
+[D2.S6] On 23 February 2025, 11:30 UTC, Arjun Ivanova initiated the account reconciliation. [D2.S7] Mei Reyes also took part in the account reconciliation. [D2.S8] The account reconciliation happened at Oakhaven Industrial Inc.'s office. [D2.S9] Mei Reyes started the contract amendment on 20 March 2025, 09:30 UTC. [D2.S10] Approval for the contract amendment came from Lena Delgado. [D2.S11] Arjun Ivanova was involved in the contract amendment as well. [D2.S12] The refund request was initiated by Mei Reyes on 23 March 2025, 09:30 UTC. [D2.S13] Lena Delgado authorized the refund request. [D2.S14] The refund request happened at Oakhaven Industrial Inc.'s office. [D2.S15] On March 27, 2025 at 16:50 UTC, Mei Reyes initiated the bank detail change. [D2.S16] Lena Delgado authorized the bank detail change. [D2.S17] Arjun Ivanova also took part in the bank detail change. [D2.S18] The bank detail change took place at the Oakhaven Industrial Inc. office.
+
+[D2.S19] Thanks,
+[D2.S20] Lena

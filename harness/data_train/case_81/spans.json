@@ -1,0 +1,466 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: maya.reyes@brightwater.com",
+  "tids": [
+   "t60",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 56,
+  "text": "To: ivance@oakhaven.com",
+  "tids": [
+   "t61",
+   "t68",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 57,
+  "end": 92,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Thu, 15 May 2025 13:00:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 141,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 143,
+  "end": 215,
+  "text": "On April 7, 2025 at 10:15 UTC, Irene Vance initiated the refund request.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 216,
+  "end": 287,
+  "text": "On April 23, 2025 at 10:25 UTC, Rosa Mendes initiated the audit review.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42",
+   "t4"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 288,
+  "end": 375,
+  "text": "The account reconciliation was initiated by Rosa Mendes on April 24, 2025 at 16:00 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 376,
+  "end": 454,
+  "text": "The invoice submission was initiated by Irene Vance on 15 May 2025, 11:00 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 456,
+  "end": 463,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 464,
+  "end": 468,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 130,
+  "text": "Rosa Mendes is employed by Brightwater Freight Inc.; their email is rmendes@brightwater.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t69",
+   "t70",
+   "t1",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 131,
+  "end": 225,
+  "text": "Wesley Petrov is employed by Brightwater Freight Inc.; their email is wpetrov@brightwater.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t71",
+   "t72",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 320,
+  "text": "Maya Reyes works for Brightwater Freight Inc. and uses the address maya.reyes@brightwater.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t73",
+   "t74",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 321,
+  "end": 407,
+  "text": "Irene Vance is employed by Oakhaven Freight Group; their email is ivance@oakhaven.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t75",
+   "t76",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 409,
+  "end": 486,
+  "text": "Brightwater Freight Inc. is based at 8442 Commerce Drive, Richmond, VA 23219.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 488,
+  "end": 563,
+  "text": "Account 7969707148 at Union Ledger Bank belongs to Brightwater Freight Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t77",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 564,
+  "end": 641,
+  "text": "Union Ledger Bank account 7922458807 is registered to Oakhaven Freight Group.",
+  "tids": [
+   "t29",
+   "t30",
+   "t78",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 642,
+  "end": 705,
+  "text": "Account 5218751820 at Union Ledger Bank belongs to Rosa Mendes.",
+  "tids": [
+   "t32",
+   "t33",
+   "t79",
+   "t31"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 707,
+  "end": 755,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 29,
+  "text": "From: wpetrov@brightwater.com",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 30,
+  "end": 57,
+  "text": "To: rmendes@brightwater.com",
+  "tids": [
+   "t65",
+   "t80"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 58,
+  "end": 94,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Thu, 15 May 2025 18:10:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 134,
+  "end": 142,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 144,
+  "end": 216,
+  "text": "On 18 April 2025, 13:50 UTC, Rosa Mendes initiated the payment approval.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 217,
+  "end": 284,
+  "text": "The payment approval happened at Brightwater Freight Inc.'s office.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 285,
+  "end": 359,
+  "text": "Irene Vance started the bank detail change on April 23, 2025 at 15:45 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 360,
+  "end": 413,
+  "text": "Rosa Mendes also took part in the bank detail change.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 414,
+  "end": 497,
+  "text": "The expense reimbursement was initiated by Wesley Petrov on 12 May 2025, 14:15 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 498,
+  "end": 569,
+  "text": "Maya Reyes started the contract amendment on May 15, 2025 at 16:10 UTC.",
+  "tids": [
+   "t55",
+   "t56",
+   "t57"
+  ],
+  "mentions": [
+   "event_7",
+   "person_2"
+  ]
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 571,
+  "end": 578,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S13": {
+  "doc_id": "D3",
+  "start": 579,
+  "end": 585,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ }
+}
