@@ -17,21 +17,18 @@
 
 ## The problem
 
-Making graphs that represent concepts from data is hard. Making knowledge graphs that faithfully reflect digital evidence is even harder
+Making graphs that represent concepts from data is hard. Making knowledge graphs that faithfully reflect digital evidence is even harder.
 
-When a language model turns case documents into a [CASE/UCO](https://caseontology.org/) graph,
-the graph is usually *valid*: it passes the ontology's SHACL checks. It is much less often
-*true*: in our first runs the best method got about six in ten of its statements right against
-the documents it read. A valid graph that says the wrong things is worse than no graph, because
-it looks finished.
+When a language model turns case documents into [CASE]((https://caseontology.org/) )/[UCO](https://unifiedcyberontology.org/) graphs,
+constructed graphs can be *valid* (or pass ontology's SHACL checks) without being ***correct***. A graph can be well-formed in every way the ontology can check and still represent things the documents never said.
 
-We are experimenting with three implementations to find the best approach to producing
-reliable and faithful CASE/UCO representations from digital evidence. The methods are
-benchmarked the same way: the same PDF documents, the same base model, the same scorer, against
-gold graphs we author ourselves and therefore know completely.
+We are experimenting with three implementations to find the best approach for producing
+reliable and faithful CASE/UCO representations from digital evidence. Here those terms mean:
 
 - **Reliability**: does the method produce a graph at all, and does the graph validate?
 - **Fidelity**: of the statements in the graph, how many does the source support, and can the claims from graph be tied to the source?
+
+Every method is benchmarked the same way, using the same PDF documents, base model, and scorer against gold graphs we author ourselves, and therefore know completely.
 
 The SDK under test is Cory Hall's [CASE/UCO SDK](https://github.com/vulnmaster/CASE-UCO-SDK),
 pinned as a submodule at `sdk/` (v1.33.0).
