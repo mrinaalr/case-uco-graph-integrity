@@ -17,8 +17,7 @@
 
 ## The problem
 
-Making graphs represent concepts from data is hard. Making knowledge graphs that accurately
-represent source material from evidence is even harder.
+Making graphs that represent concepts from data is hard. Making knowledge graphs that faithfully reflect digital evidence is even harder
 
 When a language model turns case documents into a [CASE/UCO](https://caseontology.org/) graph,
 the graph is usually *valid*: it passes the ontology's SHACL checks. It is much less often
@@ -32,8 +31,7 @@ benchmarked the same way: the same PDF documents, the same base model, the same 
 gold graphs we author ourselves and therefore know completely.
 
 - **Reliability**: does the method produce a graph at all, and does the graph validate?
-- **Fidelity**: of the statements in the graph, how many does the source support, and how much of
-  the source made it into the graph?
+- **Fidelity**: of the statements in the graph, how many does the source support, and can the claims from graph be tied to the source?
 
 The SDK under test is Cory Hall's [CASE/UCO SDK](https://github.com/vulnmaster/CASE-UCO-SDK),
 pinned as a submodule at `sdk/` (v1.33.0).
@@ -42,7 +40,7 @@ pinned as a submodule at `sdk/` (v1.33.0).
 
 Every method gets the same task statement (model only what the documents state; the core
 classes; ten relation kinds), the same PDFs, and the same base model at temperature 0. They
-differ in one thing: **who writes the ontology.**
+differ in one thing: **how the graph is constructed.**
 
 | arm | name | who writes the ontology | status |
 |---|---|---|---|
