@@ -95,8 +95,13 @@ def value_in(value: str, quote: str, prop: str) -> bool:
         iso = iso_time(value)
         if not iso:
             return False
-        day = iso[:10]
-        return day[8:10].lstrip("0") in q or day in q  # the day number or the full date is in the quote
+        if iso[:10] in q:
+            return True
+        from datetime import date
+        d = date.fromisoformat(iso[:10])
+        tokens = set(re.findall(r"[a-z]+|\d+", q))
+        return str(d.day) in tokens and (d.strftime("%B").lower() in tokens or d.strftime("%b").lower() in tokens) \
+            and str(d.year) in tokens  # day, month name and year all spelled in the quote
     if prop in UNQUOTED:
         return True
     return v in q or " ".join(t for t in re.sub(r"[^\w\s@.]", " ", v).split()) in re.sub(r"[^\w\s@.]", " ", q)

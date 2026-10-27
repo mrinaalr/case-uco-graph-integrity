@@ -195,7 +195,6 @@ async def _run_all(arm: str, run_case, args) -> None:
     run_start = time.monotonic()
     for done, case_dir in enumerate(cases, 1):
         out = HARNESS / "results" / args.run_id / arm / case_dir.name
-        info = None
         out.mkdir(parents=True, exist_ok=True)
         start = time.monotonic()
         try:

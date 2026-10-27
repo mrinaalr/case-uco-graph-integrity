@@ -530,7 +530,9 @@ def main() -> None:
     ap.add_argument("--validate", action="store_true", help="run case_validate on every gold graph")
     ap.add_argument("--out", default="data", help="output folder under harness/ (data, data_dev, data_train)")
     args = ap.parse_args()
-    out = HARNESS / args.out
+    out = (HARNESS / args.out).resolve()
+    if out.parent != HARNESS.resolve() or not out.name.startswith("data"):
+        raise SystemExit("--out must name a data* folder directly under harness/")
     if out.exists():
         shutil.rmtree(out)
     out.mkdir(parents=True)

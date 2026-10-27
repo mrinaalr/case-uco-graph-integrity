@@ -393,6 +393,8 @@ def score_run(run_id: str) -> None:
     groups: dict[tuple[str, str], list[dict]] = {}
     for arm_dir in sorted(p for p in run_root.iterdir() if p.is_dir()):
         for run_dir in sorted(p for p in arm_dir.iterdir() if p.is_dir()):
+            if not (run_dir / "run.json").exists():  # a case still being run
+                continue
             meta = json.loads((run_dir / "run.json").read_text())
             data_dir = HARNESS / "data" / run_dir.name
             for label, graph_name, score_name, prov in variants(arm_dir.name, run_dir):

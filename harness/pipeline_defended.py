@@ -132,7 +132,7 @@ async def run_case(case_dir: Path, out: Path, cfg: dict, llm) -> dict:
             while conforms is False and rounds < int(d["repair_rounds"]):
                 rounds += 1
                 text, used = await ask(llm, cfg, [{"role": "user", "content": REPAIR.format(
-                    prompt=prompt, graph=json.dumps(doc, indent=1)[:60000], report=report[:6000])}])
+                    prompt=prompt, graph=json.dumps(doc, indent=1), report=report[:6000])}])
                 tokens.update(used)
                 (out / f"response_repair{rounds}.txt").write_text(text, encoding="utf-8")
                 candidate, error = parse_graph(text)
@@ -160,7 +160,7 @@ async def run_case(case_dir: Path, out: Path, cfg: dict, llm) -> dict:
                     if not findings:
                         break
                     text, used = await ask(llm, cfg, [{"role": "user", "content": REVISE.format(
-                        prompt=prompt, graph=json.dumps(doc, indent=1)[:60000], findings=render(findings))}])
+                        prompt=prompt, graph=json.dumps(doc, indent=1), findings=render(findings))}])
                     tokens.update(used)
                     (out / f"response_revise{i + 1}.txt").write_text(text, encoding="utf-8")
                     candidate, error = parse_graph(text)

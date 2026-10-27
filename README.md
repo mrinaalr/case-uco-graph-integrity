@@ -19,14 +19,13 @@
 
 Making graphs that represent concepts from data is hard. Making knowledge graphs that faithfully reflect digital evidence is even harder.
 
-When a language model turns case documents into [CASE]((https://caseontology.org/) )/[UCO](https://unifiedcyberontology.org/) graphs,
+When a language model turns case documents into [CASE](https://caseontology.org/)/[UCO](https://unifiedcyberontology.org/) graphs,
 constructed graphs can be *valid* (or pass ontology's SHACL checks) without being ***correct***. A graph can be well-formed in every way the ontology can check and still represent things the documents never said.
 
-We are experimenting with three implementations to find the best approach for producing
-reliable and faithful CASE/UCO representations from digital evidence. Here those terms mean:
+We are experimenting with three approaches to developing reliable, faithful CASE/UCO representations from digital evidence. Here those terms mean:
 
 - **Reliability**: does the method produce a graph at all, and does the graph validate?
-- **Fidelity**: of the statements in the graph, how many does the source support, and can the claims from graph be tied to the source?
+- **Fidelity**: of the statements in the graph, how many does the source support, and can each claim be traced back to the evidence it came from?
 
 Every method is benchmarked the same way, using the same PDF documents, base model, and scorer against gold graphs we author ourselves, and therefore know completely.
 
@@ -39,7 +38,7 @@ Every method gets the same task statement (model only what the documents state; 
 classes; ten relation kinds), the same PDFs, and the same base model at temperature 0. They
 differ in one thing: **how the graph is constructed.**
 
-| arm | name | who writes the ontology | status |
+| arm | name | how the graph is constructed | status |
 |---|---|---|---|
 | **A** | SDK as shipped | the model, through the SDK's own agent workflow | built |
 | **B1** | direct, raw | the model, in one reply | built |

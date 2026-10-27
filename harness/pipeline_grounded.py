@@ -29,7 +29,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-from graphkit import SCHEMA, RELATION_KINDS, BuildError, GraphWriter, case_validate, iso_time
+from graphkit import SCHEMA, RELATION_KINDS, BuildError, GraphWriter, case_validate, expand, iso_time, kb_id
 from llm import doc_ids, document_text, main
 from pipeline_compiled import KEY, REF_PROPS, REPAIR, TIME_PROPS, TYPES, ask, facet_for, norm_key, parse_claims, verify
 
@@ -130,11 +130,11 @@ def resolve_entities(per_doc: dict[str, dict], ledger: Ledger) -> tuple[dict[str
                 by_key[k] = nid
                 nodes[nid] = {"type": e["type"], "key": e["key"], "docs": set(), "rows": []}
             nid = by_key[k]
+            merged = bool(nodes[nid]["rows"])  # an earlier mention already created this node
             nodes[nid]["docs"].add(doc_id)
             mapping[f"{doc_id}:{e['id']}"] = nid
             row = ledger.add("entity", doc_id, {"id": e["id"], "type": e["type"], "key": e["key"]}, e["quote"],
-                             "resolved", mapping={"node": nid, "class": e["type"],
-                                                  "merged": nid in {r["mapping"]["node"] for r in ledger.rows[:-1] if r["kind"] == "entity"}},
+                             "resolved", mapping={"node": nid, "class": e["type"], "merged": merged},
                              checks=["quote_in_document", "key_in_quote"])
             nodes[nid]["rows"].append(row)
     people = {nid: n for nid, n in nodes.items() if n["type"] == "Person"}
@@ -260,10 +260,11 @@ def compile_graph(nodes: dict[str, dict], assertions: list[dict], quarantined: s
     return w, errors
 
 
-def focus_nodes(report: dict) -> set[str]:
-    """Node ids named by the validator's results, if the report carries any."""
+def focus_nodes(report: dict, nodes: dict[str, dict]) -> set[str]:
+    """Short ids of the graph nodes the validator's report names (case_validate reports text, not rows)."""
     text = json.dumps(report)
-    return {m.split("/")[-1] for m in re.findall(r"http://example\.org/kb/[\w-]+", text)}
+    named = set(re.findall(r"http://example\.org/kb/[\w-]+", text))
+    return {nid for nid in nodes if expand(kb_id(nid)) in named}
 
 
 async def run_case(case_dir: Path, out: Path, cfg: dict, llm) -> dict:
@@ -330,7 +331,7 @@ async def run_case(case_dir: Path, out: Path, cfg: dict, llm) -> dict:
     validation = case_validate(graph)
     gate.append({"conforms": validation["conforms"], "quarantined": 0})
     if validation["conforms"] is False:
-        bad = focus_nodes(validation)
+        bad = focus_nodes(validation, nodes)
         for a in assertions:
             if a.get("node") in bad or a.get("source") in bad or a.get("target") in bad:
                 quarantined.add(a["row"]["assertion_id"])
