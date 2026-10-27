@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@lucaq is Luca Quinn.
-@andrer is Andre Reyes.
-[2025-03-25 18:00 UTC] @lucaq to @andrer: I pushed it through, check your inbox.
-[2025-03-25 18:07 UTC] @andrer to @lucaq: Let's keep this between us until Friday.

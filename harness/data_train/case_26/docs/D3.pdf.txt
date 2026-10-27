@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@lenal is Lena Lindqvist.
-@felixa is Felix Abara.
-[2025-09-08 16:30 UTC] @lenal to @felixa: Let's keep this between us until Friday.
-[2025-09-08 16:37 UTC] @felixa to @lenal: Did the bank call back yet?

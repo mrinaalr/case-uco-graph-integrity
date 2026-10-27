@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@kofip is Kofi Petrov.
-@samuelb is Samuel Brennan.
-[2025-03-18 13:25 UTC] @kofip to @samuelb: I pushed it through, check your inbox.
-[2025-03-18 13:32 UTC] @samuelb to @kofip: Let's keep this between us until Friday.
-[2025-03-18 13:39 UTC] @kofip to @samuelb: Did the bank call back yet?

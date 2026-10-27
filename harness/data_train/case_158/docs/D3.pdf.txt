@@ -1,9 +1,0 @@
-Incident summary
-Account 3465541236 at Lakeshore Savings Bank belongs to Copperfield Services Ltd. Account
-3646130922 at Lakeshore Savings Bank belongs to Harborline Fabrication LLC. Lakeshore Savings
-Bank account 7143238253 is registered to Julian Osei.
-On 9 March 2025, 09:10 UTC, Hector Abara initiated the invoice submission. The invoice submission
-took place at the Copperfield Services Ltd. office. On 15 March 2025, 15:30 UTC, Hector Abara
-initiated the bank detail change. On March 23, 2025 at 10:25 UTC, Hector Abara initiated the expense
-reimbursement.
-Let me know if anything here looks off.

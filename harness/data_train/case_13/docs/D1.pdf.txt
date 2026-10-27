@@ -1,9 +1,0 @@
-INTERNAL MEMO: Vendor payment review
-Julian Lindqvist works for Northwind Fabrication LLC and uses the address
-julian.lindqvist@northwind.com. Marcus Whitfield is employed by Northwind Fabrication LLC; their
-email is mwhitfield@northwind.com. Nadia Vance works for Redfern Analytics LLC and uses the
-address nadia.vance@redfern.com.
-Marcus Whitfield's manager is Julian Lindqvist.
-The offices of Northwind Fabrication LLC are at 341 Maple Avenue, Boise, ID 83702.
-Julian Lindqvist communicated with Marcus Whitfield about the payments.
-Please treat this as confidential.

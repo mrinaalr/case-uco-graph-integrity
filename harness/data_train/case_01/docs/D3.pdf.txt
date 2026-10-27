@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@yaran is Yara Novak.
-@lucap is Luca Park.
-[2025-11-04 15:25 UTC] @yaran to @lucap: Send me the new form when you can.
-[2025-11-04 15:32 UTC] @lucap to @yaran: Finance is asking questions again.

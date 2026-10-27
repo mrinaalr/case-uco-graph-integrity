@@ -1,7 +1,0 @@
-Incident summary
-Account 8903518081 at Union Ledger Bank belongs to Cedar Ridge Components LLC. Union Ledger
-Bank account 7534335358 is registered to Westmark Fabrication Co. Union Ledger Bank account
-9690020980 is registered to Hannah Ivanova.
-The contract amendment was initiated by Hannah Ivanova on March 23, 2025 at 12:45 UTC. The wire
-transfer was initiated by Hannah Ivanova on 4 April 2025, 09:15 UTC.
-Please treat this as confidential.

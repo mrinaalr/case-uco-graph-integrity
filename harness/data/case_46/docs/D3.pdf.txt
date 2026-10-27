@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@julianr is Julian Reyes.
-@samuelo is Samuel Osei.
-[2025-02-05 14:00 UTC] @julianr to @samuelo: Can you look at the vendor file before lunch?
-[2025-02-05 14:07 UTC] @samuelo to @julianr: Send me the new form when you can.

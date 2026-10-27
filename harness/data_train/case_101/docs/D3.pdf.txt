@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@lucab is Luca Brennan.
-@nadiak is Nadia Kowalski.
-[2025-03-08 13:30 UTC] @lucab to @nadiak: Let's keep this between us until Friday.
-[2025-03-08 13:37 UTC] @nadiak to @lucab: Did the bank call back yet?
-[2025-03-08 13:44 UTC] @lucab to @nadiak: Can you look at the vendor file before lunch?

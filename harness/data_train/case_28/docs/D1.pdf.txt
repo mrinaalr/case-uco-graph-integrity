@@ -1,8 +1,0 @@
-INTERNAL MEMO: Vendor payment review
-Yara Castillo works for Clearpath Logistics Inc. and uses the address ycastillo@clearpath.com. Samuel
-Abara is employed by Clearpath Logistics Inc.; their email is sabara@clearpath.com. Oscar Ivanova
-works for Clearpath Logistics Inc. and uses the address oscar.ivanova@clearpath.com. Ruth Okafor
-works for Harborline Fabrication Inc. and uses the address rokafor@harborline.com.
-Oscar Ivanova's manager is Yara Castillo.
-Clearpath Logistics Inc. operates from 5029 Industrial Parkway, Dayton, OH 45402.
-This summary reflects records available to date.

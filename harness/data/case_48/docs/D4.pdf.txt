@@ -1,8 +1,0 @@
-Incident summary
-First Harbor Bank account 7710604421 is registered to Cedar Ridge Supply Co. First Harbor Bank
-account 5226630686 is registered to Clearpath Analytics Ltd.
-On August 18, 2025 at 17:45 UTC, Wesley Osei initiated the invoice submission. Priya Haddad also
-took part in the invoice submission. Wesley Osei started the refund request on 24 August 2025, 11:30
-UTC. Approval for the refund request came from Priya Haddad. Marcus Lindqvist was involved in the
-refund request as well. Funds moved from account 7710604421 to account 5226630686.
-This summary reflects records available to date.

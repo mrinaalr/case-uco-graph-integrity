@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@oscard is Oscar Delgado.
-@yarab is Yara Brennan.
-[2025-01-18 14:45 UTC] @oscard to @yarab: Send me the new form when you can.
-[2025-01-18 14:52 UTC] @yarab to @oscard: Finance is asking questions again.

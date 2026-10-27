@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@victorm is Victor Mendes.
-@irenea is Irene Abara.
-[2025-03-30 15:10 UTC] @victorm to @irenea: Finance is asking questions again.
-[2025-03-30 15:17 UTC] @irenea to @victorm: I pushed it through, check your inbox.
-[2025-03-30 15:24 UTC] @victorm to @irenea: Let's keep this between us until Friday.

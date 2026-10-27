@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@victora is Victor Abara.
-@desmondi is Desmond Ivanova.
-[2025-07-23 15:45 UTC] @victora to @desmondi: Can you look at the vendor file before lunch?
-[2025-07-23 15:52 UTC] @desmondi to @victora: Send me the new form when you can.
-[2025-07-23 15:59 UTC] @victora to @desmondi: Finance is asking questions again.

@@ -17,3 +17,5 @@ results/abc-v1/*
 !results/*/qa_delta.md
 !results/*/qa_delta.csv
 !results/*/rule_coverage.md
+# pypdf text caches written next to the PDFs at run time
+*.pdf.txt

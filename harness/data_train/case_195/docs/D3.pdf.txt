@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@meis is Mei Sorensen.
-@andrer is Andre Reyes.
-[2025-08-13 13:45 UTC] @meis to @andrer: I pushed it through, check your inbox.
-[2025-08-13 13:52 UTC] @andrer to @meis: Let's keep this between us until Friday.

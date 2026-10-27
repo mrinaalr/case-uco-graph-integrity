@@ -1,9 +1,0 @@
-From: lbrennan@ironleaf.com
-To: dtanaka@bluegate.com
-Subject: Wire confirmation needed
-Date: Sat, 14 Jun 2025 13:00:00 +0000
-Hi Desmond,
-On 21 May 2025, 17:30 UTC, Desmond Tanaka initiated the audit review. Julian Abara started the
-vendor onboarding on June 14, 2025 at 11:00 UTC.
-Thanks,
-Lena

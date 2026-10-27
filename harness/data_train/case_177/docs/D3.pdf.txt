@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@lucak is Luca Kowalski.
-@claral is Clara Lindqvist.
-[2025-08-24 17:30 UTC] @lucak to @claral: Let's keep this between us until Friday.
-[2025-08-24 17:37 UTC] @claral to @lucak: Did the bank call back yet?
-[2025-08-24 17:44 UTC] @lucak to @claral: Can you look at the vendor file before lunch?

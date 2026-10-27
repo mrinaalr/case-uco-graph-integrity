@@ -1,9 +1,0 @@
-From: lsorensen@clearpath.com
-To: smoreau@oakhaven.com, felix.abara@oakhaven.com
-Subject: Quarter-end vendor payments
-Date: Sun, 09 Feb 2025 15:45:00 +0000
-Hi Samuel,
-The payment approval was initiated by Owen Petrov on 18 January 2025, 13:00 UTC. The vendor
-onboarding was initiated by Felix Abara on February 9, 2025 at 13:45 UTC.
-Thanks,
-Lena

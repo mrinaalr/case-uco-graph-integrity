@@ -1,4 +1,0 @@
-Chat export: #finance-ops
-@desmondf is Desmond Fischer.
-@oscarb is Oscar Banerjee.
-[2025-03-13 12:10 UTC] @desmondf to @oscarb: Can you look at the vendor file before lunch?

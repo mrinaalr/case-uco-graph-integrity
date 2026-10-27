@@ -1,9 +1,0 @@
-Incident summary
-Northwind Supply Ltd. holds account 1608377909 at Lakeshore Savings Bank. Harborline Fabrication
-Co. holds account 5212796131 at Lakeshore Savings Bank. Oscar Ivanova holds account 3422626385
-at Lakeshore Savings Bank.
-Arjun Castillo started the wire transfer on 12 January 2025, 12:15 UTC. Arjun Castillo started the
-payment approval on January 18, 2025 at 10:15 UTC. Oscar Ivanova authorized the payment approval.
-The vendor onboarding was initiated by Arjun Castillo on January 21, 2025 at 11:50 UTC. The vendor
-onboarding took place at the Northwind Supply Ltd. office.
-This summary reflects records available to date.

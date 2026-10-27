@@ -1,6 +1,0 @@
-Incident summary
-Account 5968190608 at Union Ledger Bank belongs to Ironleaf Supply LLC. Account 7417148358 at
-Union Ledger Bank belongs to Copperfield Services Ltd.
-On 16 May 2025, 17:45 UTC, Felix Haddad initiated the expense reimbursement. The account
-reconciliation was initiated by Samuel Okafor on June 13, 2025 at 11:10 UTC.
-Let me know if anything here looks off.

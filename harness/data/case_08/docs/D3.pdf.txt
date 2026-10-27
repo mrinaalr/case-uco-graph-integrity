@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@felixh is Felix Haddad.
-@priyao is Priya Osei.
-[2025-04-17 10:50 UTC] @felixh to @priyao: Finance is asking questions again.
-[2025-04-17 10:57 UTC] @priyao to @felixh: I pushed it through, check your inbox.
-[2025-04-17 11:04 UTC] @felixh to @priyao: Let's keep this between us until Friday.

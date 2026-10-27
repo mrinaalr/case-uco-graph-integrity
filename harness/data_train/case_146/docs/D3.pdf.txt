@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@hectorm is Hector Moreau.
-@lucah is Luca Haddad.
-[2025-03-18 10:50 UTC] @hectorm to @lucah: Can you look at the vendor file before lunch?
-[2025-03-18 10:57 UTC] @lucah to @hectorm: Send me the new form when you can.

@@ -1,9 +1,0 @@
-INTERNAL MEMO: Vendor payment review
-Yara Abara works for Copperfield Fabrication LLC and uses the address yabara@copperfield.com.
-Dana Whitfield is employed by Copperfield Fabrication LLC; their email is dwhitfield@copperfield.com.
-Elena Vance is employed by Summit Peak Analytics LLC; their email is evance@summitpeak.com.
-Dana Whitfield reports to Yara Abara.
-Copperfield Fabrication LLC operates from 5437 Lakeview Road, Tucson, AZ 85701.
-Pinecrest National Bank account 6209814112 is registered to Copperfield Fabrication LLC. Account
-9902608315 at Pinecrest National Bank belongs to Summit Peak Analytics LLC.
-Please treat this as confidential.

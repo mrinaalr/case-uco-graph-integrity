@@ -1,8 +1,0 @@
-Incident summary
-Account 1613606904 at Union Ledger Bank belongs to Ironleaf Freight Inc. Account 6717215547 at
-Union Ledger Bank belongs to Redfern Distribution Ltd. Account 7480374459 at Union Ledger Bank
-belongs to Rosa Quinn.
-Tomas Osei started the bank detail change on 26 March 2025, 12:00 UTC. Rosa Quinn was involved in
-the bank detail change as well. The wire transfer was initiated by Maya Novak on April 8, 2025 at 17:45
-UTC. Approval for the wire transfer came from Clara Moreau.
-This summary reflects records available to date.

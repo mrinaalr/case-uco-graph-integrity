@@ -1,7 +1,0 @@
-INTERNAL MEMO: Vendor payment review
-Hannah Mendes works for Harborline Consulting Inc. and uses the address hmendes@harborline.com.
-Harborline Consulting Inc. employs Samuel Castillo, who can be reached at scastillo@harborline.com.
-Clara Reyes is employed by Northwind Components Ltd.; their email is clara.reyes@northwind.com.
-Samuel Castillo reports to Hannah Mendes.
-The offices of Harborline Consulting Inc. are at 1665 Maple Avenue, Dayton, OH 45402.
-Please treat this as confidential.

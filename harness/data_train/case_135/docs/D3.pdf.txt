@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@samuelo is Samuel Osei.
-@kofis is Kofi Sorensen.
-[2025-08-04 17:15 UTC] @samuelo to @kofis: Can you look at the vendor file before lunch?
-[2025-08-04 17:22 UTC] @kofis to @samuelo: Send me the new form when you can.
-[2025-08-04 17:29 UTC] @samuelo to @kofis: Finance is asking questions again.

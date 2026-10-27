@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@meib is Mei Banerjee.
-@kofir is Kofi Reyes.
-[2025-05-16 17:00 UTC] @meib to @kofir: Did the bank call back yet?
-[2025-05-16 17:07 UTC] @kofir to @meib: Can you look at the vendor file before lunch?

@@ -1,4 +1,0 @@
-Chat export: #finance-ops
-@ireneh is Irene Holloway.
-@ruths is Ruth Sorensen.
-[2025-04-23 12:25 UTC] @ireneh to @ruths: Can you look at the vendor file before lunch?

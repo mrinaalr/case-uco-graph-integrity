@@ -1,9 +1,0 @@
-From: tmendes@cedarridge.com
-To: desmond.novak@westmark.com
-Subject: Urgent: payment timing
-Date: Mon, 27 Oct 2025 11:10:00 +0000
-Hi Desmond,
-On October 11, 2025 at 13:00 UTC, Marcus Park initiated the wire transfer. The audit review was
-initiated by Marcus Park on 27 October 2025, 09:10 UTC.
-Thanks,
-Tomas

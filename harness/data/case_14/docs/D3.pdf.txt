@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@felixo is Felix Okafor.
-@lenap is Lena Petrov.
-[2025-06-21 12:30 UTC] @felixo to @lenap: Send me the new form when you can.
-[2025-06-21 12:37 UTC] @lenap to @felixo: Finance is asking questions again.
-[2025-06-21 12:44 UTC] @felixo to @lenap: I pushed it through, check your inbox.

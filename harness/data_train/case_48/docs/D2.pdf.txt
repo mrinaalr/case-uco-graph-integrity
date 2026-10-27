@@ -1,9 +1,0 @@
-INTERNAL MEMO: Vendor payment review
-Grace Park works for Northwind Consulting Co. and uses the address gpark@northwind.com. Julian
-Brennan works for Northwind Consulting Co. and uses the address jbrennan@northwind.com. Cedar
-Ridge Freight Inc. employs Hannah Ashworth, who can be reached at hashworth@cedarridge.com.
-Northwind Consulting Co. is based at 7751 Riverside Boulevard, Madison, WI 53703.
-Northwind Consulting Co. holds account 6422670659 at First Harbor Bank. First Harbor Bank account
-2780322700 is registered to Cedar Ridge Freight Inc. Account 2325546788 at First Harbor Bank
-belongs to Julian Brennan.
-More detail will follow once records are pulled.

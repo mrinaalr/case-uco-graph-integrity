@@ -1,4 +1,0 @@
-Chat export: #finance-ops
-@juliant is Julian Tanaka.
-@ireneb is Irene Banerjee.
-[2025-06-04 12:45 UTC] @juliant to @ireneb: Can you look at the vendor file before lunch?

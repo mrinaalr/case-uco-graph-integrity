@@ -1,8 +1,0 @@
-Incident summary
-Northwind Tooling LLC holds account 7390001654 at Pinecrest National Bank. Pinecrest National Bank
-account 2745401986 is registered to Ironleaf Fabrication LLC. Account 7288451245 at Pinecrest
-National Bank belongs to Owen Lindqvist.
-The payment approval was initiated by Irene Tanaka on 7 October 2025, 12:30 UTC. The wire transfer
-was initiated by Owen Lindqvist on October 19, 2025 at 09:25 UTC. Maya Novak also took part in the
-wire transfer. Funds moved from account 7390001654 to account 7288451245.
-Let me know if anything here looks off.

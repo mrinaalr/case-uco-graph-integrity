@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@marcusw is Marcus Whitfield.
-@danan is Dana Novak.
-[2025-02-17 10:45 UTC] @marcusw to @danan: I pushed it through, check your inbox.
-[2025-02-17 10:52 UTC] @danan to @marcusw: Let's keep this between us until Friday.

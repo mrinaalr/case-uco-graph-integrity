@@ -1,4 +1,0 @@
-Chat export: #finance-ops
-@julianh is Julian Haddad.
-@yarab is Yara Brennan.
-[2025-01-13 10:25 UTC] @julianh to @yarab: Did the bank call back yet?

@@ -1,5 +1,0 @@
-Chat export: #finance-ops
-@felixo is Felix Okafor.
-@elenah is Elena Haddad.
-[2025-05-24 14:15 UTC] @felixo to @elenah: Let's keep this between us until Friday.
-[2025-05-24 14:22 UTC] @elenah to @felixo: Did the bank call back yet?

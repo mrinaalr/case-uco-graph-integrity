@@ -1,8 +1,0 @@
-Incident summary
-Account 9576862085 at Union Ledger Bank belongs to Clearpath Fabrication LLC. Account
-3129057317 at Union Ledger Bank belongs to Oakhaven Industrial Group. Account 3720764444 at
-Union Ledger Bank belongs to Yara Reyes.
-On February 17, 2025 at 16:30 UTC, Desmond Ivanova initiated the account reconciliation. On
-February 28, 2025 at 10:25 UTC, Yara Reyes initiated the vendor onboarding. The audit review was
-initiated by Yara Reyes on 7 March 2025, 15:15 UTC.
-Please treat this as confidential.

@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@irenet is Irene Tanaka.
-@clarap is Clara Petrov.
-[2025-03-14 12:30 UTC] @irenet to @clarap: I pushed it through, check your inbox.
-[2025-03-14 12:37 UTC] @clarap to @irenet: Let's keep this between us until Friday.
-[2025-03-14 12:44 UTC] @irenet to @clarap: Did the bank call back yet?

@@ -1,4 +1,0 @@
-Chat export: #finance-ops
-@desmondb is Desmond Brennan.
-@oscari is Oscar Ivanova.
-[2025-06-03 18:50 UTC] @desmondb to @oscari: Did the bank call back yet?

@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@samuelr is Samuel Reyes.
-@arjunp is Arjun Park.
-[2025-01-12 18:00 UTC] @samuelr to @arjunp: Let's keep this between us until Friday.
-[2025-01-12 18:07 UTC] @arjunp to @samuelr: Did the bank call back yet?
-[2025-01-12 18:14 UTC] @samuelr to @arjunp: Can you look at the vendor file before lunch?

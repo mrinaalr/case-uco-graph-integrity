@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@lucam is Luca Mendes.
-@samuelh is Samuel Holloway.
-[2025-08-12 18:50 UTC] @lucam to @samuelh: Let's keep this between us until Friday.
-[2025-08-12 18:57 UTC] @samuelh to @lucam: Did the bank call back yet?
-[2025-08-12 19:04 UTC] @lucam to @samuelh: Can you look at the vendor file before lunch?

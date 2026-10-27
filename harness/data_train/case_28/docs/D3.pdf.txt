@@ -1,6 +1,0 @@
-Chat export: #finance-ops
-@yarac is Yara Castillo.
-@oscari is Oscar Ivanova.
-[2025-01-23 10:10 UTC] @yarac to @oscari: I pushed it through, check your inbox.
-[2025-01-23 10:17 UTC] @oscari to @yarac: Let's keep this between us until Friday.
-[2025-01-23 10:24 UTC] @yarac to @oscari: Did the bank call back yet?
