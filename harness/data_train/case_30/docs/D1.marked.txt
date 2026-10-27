@@ -1,0 +1,11 @@
+[D1.S1] From: tdelgado@northwind.com
+[D1.S2] To: yara.moreau@northwind.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Wed, 16 Apr 2025 11:30:00 +0000
+
+[D1.S5] Hi Yara,
+
+[D1.S6] Mei Haddad started the account reconciliation on March 9, 2025 at 16:50 UTC. [D1.S7] Tomas Delgado started the invoice submission on April 7, 2025 at 16:15 UTC. [D1.S8] The wire transfer was initiated by Yara Moreau on April 16, 2025 at 09:30 UTC. [D1.S9] Tomas Delgado had been in contact with Yara Moreau throughout.
+
+[D1.S10] Thanks,
+[D1.S11] Tomas

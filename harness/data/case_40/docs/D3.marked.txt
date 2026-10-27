@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Account 7422747950 at Lakeshore Savings Bank belongs to Summit Peak Consulting Co. [D3.S3] Lakeshore Savings Bank account 2917320653 is registered to Redfern Analytics LLC. [D3.S4] Account 7603916222 at Lakeshore Savings Bank belongs to Yara Park.
+
+[D3.S5] Andre Ashworth started the expense reimbursement on 20 June 2025, 13:30 UTC. [D3.S6] Nadia Holloway also took part in the expense reimbursement. [D3.S7] The expense reimbursement happened at Summit Peak Consulting Co.'s office. [D3.S8] On July 11, 2025 at 09:25 UTC, Nadia Holloway initiated the vendor onboarding. [D3.S9] The vendor onboarding took place at the Summit Peak Consulting Co. office. [D3.S10] Funds moved from account 7422747950 to account 7603916222.
+
+[D3.S11] Please treat this as confidential.

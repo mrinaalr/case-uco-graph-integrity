@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Kofi Ashworth works for Silverlake Industrial Group and uses the address kashworth@silverlake.com. [D1.S3] Hector Quinn works for Silverlake Industrial Group and uses the address hector.quinn@silverlake.com. [D1.S4] Priya Tanaka is employed by Silverlake Industrial Group; their email is ptanaka@silverlake.com. [D1.S5] Arjun Banerjee works for Bluegate Components LLC and uses the address abanerjee@bluegate.com.
+
+[D1.S6] Silverlake Industrial Group operates from 4424 Maple Avenue, Albany, NY 12207.
+
+[D1.S7] Let me know if anything here looks off.

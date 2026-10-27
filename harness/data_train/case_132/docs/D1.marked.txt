@@ -1,0 +1,11 @@
+[D1.S1] From: vokafor@bluegate.com
+[D1.S2] To: maya.abara@bluegate.com, priya.tanaka@clearpath.com
+[D1.S3] Subject: Audit prep items
+[D1.S4] Date: Sun, 20 Apr 2025 16:15:00 +0000
+
+[D1.S5] Hi Maya,
+
+[D1.S6] The refund request was initiated by Priya Tanaka on 20 March 2025, 11:00 UTC. [D1.S7] On 8 April 2025, 13:45 UTC, Priya Tanaka initiated the audit review. [D1.S8] On 20 April 2025, 14:15 UTC, Victor Okafor initiated the contract amendment. [D1.S9] Priya Tanaka was involved in the contract amendment as well.
+
+[D1.S10] Thanks,
+[D1.S11] Victor

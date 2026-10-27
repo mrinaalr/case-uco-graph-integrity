@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Priya Ivanova is employed by Summit Peak Distribution Inc.; their email is priya.ivanova@summitpeak.com. [D1.S3] Summit Peak Distribution Inc. employs Arjun Okafor, who can be reached at aokafor@summitpeak.com. [D1.S4] Maya Brennan is employed by Northwind Analytics Inc.; their email is mbrennan@northwind.com.
+
+[D1.S5] Summit Peak Distribution Inc. is based at 8054 Main Street, Dayton, OH 45402. [D1.S6] The offices of Northwind Analytics Inc. are at 4825 Market Street, Albany, NY 12207.
+
+[D1.S7] Summit Peak Distribution Inc. holds account 9075395481 at Union Ledger Bank. [D1.S8] Union Ledger Bank account 3883548903 is registered to Northwind Analytics Inc. [D1.S9] Union Ledger Bank account 6670388032 is registered to Arjun Okafor.
+
+[D1.S10] Funds moved from account 9075395481 to account 3883548903.
+
+[D1.S11] Let me know if anything here looks off.

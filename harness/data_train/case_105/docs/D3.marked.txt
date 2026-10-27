@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @felixo is Felix Okafor.
+[D3.S3] @elenah is Elena Haddad.
+[D3.S4] [2025-05-24 14:15 UTC] @felixo to @elenah: Let's keep this between us until Friday.
+[D3.S5] [2025-05-24 14:22 UTC] @elenah to @felixo: Did the bank call back yet?

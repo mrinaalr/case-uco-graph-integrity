@@ -1,0 +1,7 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Sofia Abara is employed by Ironleaf Services Group; their email is sofia.abara@ironleaf.com. [D2.S3] Ironleaf Services Group employs Hector Delgado, who can be reached at hdelgado@ironleaf.com. [D2.S4] Maya Mendes is employed by Northwind Supply Ltd.; their email is maya.mendes@northwind.com.
+
+[D2.S5] The offices of Ironleaf Services Group are at 6387 Industrial Parkway, Raleigh, NC 27601.
+
+[D2.S6] Please treat this as confidential.

@@ -1,0 +1,424 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 140,
+  "text": "Clearpath Packaging Ltd. employs Wesley Banerjee, who can be reached at wesley.banerjee@clearpath.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t67",
+   "t68",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 141,
+  "end": 233,
+  "text": "Elena Osei is employed by Clearpath Packaging Ltd.; their email is elena.osei@clearpath.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t69",
+   "t70",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 234,
+  "end": 334,
+  "text": "Hector Delgado is employed by Clearpath Packaging Ltd.; their email is hector.delgado@clearpath.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t71",
+   "t72",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 335,
+  "end": 434,
+  "text": "Mei Sorensen is employed by Brightwater Distribution LLC; their email is msorensen@brightwater.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t73",
+   "t74",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 436,
+  "end": 514,
+  "text": "Clearpath Packaging Ltd. operates from 3318 Commerce Drive, Madison, WI 53703.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 516,
+  "end": 592,
+  "text": "Clearpath Packaging Ltd. holds account 1161690696 at Lakeshore Savings Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t75",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 593,
+  "end": 681,
+  "text": "Lakeshore Savings Bank account 5610121572 is registered to Brightwater Distribution LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t76",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 683,
+  "end": 722,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: msorensen@brightwater.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 95,
+  "text": "To: wesley.banerjee@clearpath.com, hector.delgado@clearpath.com",
+  "tids": [
+   "t51",
+   "t52",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 96,
+  "end": 121,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 122,
+  "end": 159,
+  "text": "Date: Sun, 09 Nov 2025 16:15:00 +0000",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 161,
+  "end": 171,
+  "text": "Hi Wesley,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 173,
+  "end": 255,
+  "text": "On October 12, 2025 at 15:10 UTC, Hector Delgado initiated the invoice submission.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 256,
+  "end": 325,
+  "text": "The invoice submission happened at Clearpath Packaging Ltd.'s office.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 326,
+  "end": 394,
+  "text": "Mei Sorensen started the audit review on 22 October 2025, 16:30 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 395,
+  "end": 468,
+  "text": "Mei Sorensen started the refund request on November 1, 2025 at 14:15 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 469,
+  "end": 528,
+  "text": "Wesley Banerjee was involved in the refund request as well.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 529,
+  "end": 612,
+  "text": "The bank detail change was initiated by Mei Sorensen on 9 November 2025, 14:15 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 613,
+  "end": 686,
+  "text": "The bank detail change took place at the Clearpath Packaging Ltd. office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 688,
+  "end": 695,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 696,
+  "end": 699,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t79"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 48,
+  "text": "@elenao is Elena Osei.",
+  "tids": [
+   "t44",
+   "t43"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 49,
+  "end": 77,
+  "text": "@wesleyb is Wesley Banerjee.",
+  "tids": [
+   "t46",
+   "t45"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 167,
+  "text": "[2025-10-12 16:10 UTC] @elenao to @wesleyb: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t55",
+   "t56",
+   "t57",
+   "t58",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 168,
+  "end": 246,
+  "text": "[2025-10-12 16:17 UTC] @wesleyb to @elenao: Send me the new form when you can.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61",
+   "t62",
+   "t81"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 247,
+  "end": 325,
+  "text": "[2025-10-12 16:24 UTC] @elenao to @wesleyb: Finance is asking questions again.",
+  "tids": [
+   "t63",
+   "t64",
+   "t65",
+   "t66"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ }
+}

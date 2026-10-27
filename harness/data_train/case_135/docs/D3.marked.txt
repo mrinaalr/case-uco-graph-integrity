@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @samuelo is Samuel Osei.
+[D3.S3] @kofis is Kofi Sorensen.
+[D3.S4] [2025-08-04 17:15 UTC] @samuelo to @kofis: Can you look at the vendor file before lunch?
+[D3.S5] [2025-08-04 17:22 UTC] @kofis to @samuelo: Send me the new form when you can.
+[D3.S6] [2025-08-04 17:29 UTC] @samuelo to @kofis: Finance is asking questions again.

@@ -1,0 +1,11 @@
+[D2.S1] From: vlindqvist@brightwater.com
+[D2.S2] To: ruth.sorensen@cedarridge.com, iholloway@cedarridge.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Sat, 17 May 2025 18:30:00 +0000
+
+[D2.S5] Hi Ruth,
+
+[D2.S6] Victor Lindqvist started the wire transfer on 23 April 2025, 11:25 UTC. [D2.S7] Ruth Sorensen authorized the wire transfer. [D2.S8] Irene Holloway was involved in the wire transfer as well. [D2.S9] The wire transfer happened at Cedar Ridge Logistics LLC's office. [D2.S10] The invoice submission was initiated by Victor Lindqvist on May 3, 2025 at 09:50 UTC. [D2.S11] Irene Holloway also took part in the invoice submission. [D2.S12] The refund request was initiated by Irene Holloway on 17 May 2025, 16:30 UTC. [D2.S13] Victor Lindqvist authorized the refund request. [D2.S14] Ruth Sorensen was involved in the refund request as well. [D2.S15] The refund request took place at the Cedar Ridge Logistics LLC office.
+
+[D2.S16] Thanks,
+[D2.S17] Victor

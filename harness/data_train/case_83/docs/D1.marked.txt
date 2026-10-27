@@ -1,0 +1,11 @@
+[D1.S1] From: smendes@harborline.com
+[D1.S2] To: kofi.park@bluegate.com
+[D1.S3] Subject: Audit prep items
+[D1.S4] Date: Thu, 17 Jul 2025 12:15:00 +0000
+
+[D1.S5] Hi Kofi,
+
+[D1.S6] On 11 July 2025, 09:10 UTC, Desmond Haddad initiated the payment approval. [D1.S7] Samuel Mendes was involved in the payment approval as well. [D1.S8] Desmond Haddad started the wire transfer on 17 July 2025, 10:15 UTC. [D1.S9] Samuel Mendes also took part in the wire transfer. [D1.S10] The wire transfer happened at Harborline Components Ltd.'s office. [D1.S11] Samuel Mendes communicated with Desmond Haddad about the payments.
+
+[D1.S12] Thanks,
+[D1.S13] Samuel

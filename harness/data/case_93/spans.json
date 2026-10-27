@@ -1,0 +1,429 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 141,
+  "text": "Julian Castillo is employed by Brightwater Supply Ltd.; their email is julian.castillo@brightwater.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t68",
+   "t69",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 142,
+  "end": 241,
+  "text": "Brightwater Supply Ltd. employs Maya Sorensen, who can be reached at maya.sorensen@brightwater.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t70",
+   "t71",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 242,
+  "end": 334,
+  "text": "Elena Quinn works for Summit Peak Logistics Inc. and uses the address equinn@summitpeak.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t72",
+   "t73",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 336,
+  "end": 417,
+  "text": "The offices of Brightwater Supply Ltd. are at 68 Harbor Avenue, Albany, NY 12207.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 419,
+  "end": 498,
+  "text": "Account 4656675295 at Lakeshore Savings Bank belongs to Brightwater Supply Ltd.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 499,
+  "end": 584,
+  "text": "Lakeshore Savings Bank account 2287819914 is registered to Summit Peak Logistics Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t75",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 585,
+  "end": 652,
+  "text": "Julian Castillo holds account 7013175473 at Lakeshore Savings Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t76",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 654,
+  "end": 711,
+  "text": "Account 4656675295 sent a transfer to account 7013175473.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 713,
+  "end": 747,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: equinn@summitpeak.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 63,
+  "text": "To: julian.castillo@brightwater.com",
+  "tids": [
+   "t61",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 64,
+  "end": 104,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 105,
+  "end": 142,
+  "text": "Date: Tue, 24 Jun 2025 12:15:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 144,
+  "end": 154,
+  "text": "Hi Julian,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 156,
+  "end": 228,
+  "text": "Elena Quinn started the bank detail change on May 19, 2025 at 09:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 229,
+  "end": 313,
+  "text": "The account reconciliation was initiated by Maya Sorensen on 23 May 2025, 17:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 314,
+  "end": 386,
+  "text": "Julian Castillo started the refund request on May 26, 2025 at 13:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 387,
+  "end": 460,
+  "text": "On June 6, 2025 at 16:10 UTC, Julian Castillo initiated the audit review.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 461,
+  "end": 523,
+  "text": "The audit review happened at Brightwater Supply Ltd.'s office.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 524,
+  "end": 598,
+  "text": "On 7 June 2025, 16:15 UTC, Julian Castillo initiated the payment approval.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 599,
+  "end": 684,
+  "text": "The invoice submission was initiated by Julian Castillo on June 9, 2025 at 12:30 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 685,
+  "end": 774,
+  "text": "The expense reimbursement was initiated by Julian Castillo on June 11, 2025 at 14:15 UTC.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 775,
+  "end": 840,
+  "text": "Elena Quinn started the wire transfer on 24 June 2025, 10:15 UTC.",
+  "tids": [
+   "t51",
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "event_7",
+   "person_2"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 842,
+  "end": 849,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 850,
+  "end": 855,
+  "text": "Elena",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t78"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@mayas is Maya Sorensen.",
+  "tids": [
+   "t55",
+   "t54"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 79,
+  "text": "@julianc is Julian Castillo.",
+  "tids": [
+   "t57",
+   "t56"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 80,
+  "end": 161,
+  "text": "[2025-05-19 10:30 UTC] @mayas to @julianc: I pushed it through, check your inbox.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67",
+   "t79"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ }
+}

@@ -1,0 +1,281 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Andre Sorensen works for Brightwater Tooling Ltd. and uses the address asorensen@brightwater.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t41",
+   "t42",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 230,
+  "text": "Samuel Haddad works for Brightwater Tooling Ltd. and uses the address shaddad@brightwater.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t43",
+   "t44",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 231,
+  "end": 324,
+  "text": "Hannah Reyes works for Westmark Tooling Group and uses the address hannah.reyes@westmark.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t45",
+   "t46",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 326,
+  "end": 366,
+  "text": "Samuel Haddad reports to Andre Sorensen.",
+  "tids": [
+   "t36"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 368,
+  "end": 443,
+  "text": "Brightwater Tooling Ltd. operates from 4772 Maple Avenue, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 445,
+  "end": 493,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: asorensen@brightwater.com",
+  "tids": [
+   "t37"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 59,
+  "text": "To: shaddad@brightwater.com",
+  "tids": [
+   "t38",
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 60,
+  "end": 95,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Wed, 12 Feb 2025 14:30:00 +0000",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 145,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 147,
+  "end": 233,
+  "text": "The invoice submission was initiated by Hannah Reyes on February 1, 2025 at 12:50 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 234,
+  "end": 304,
+  "text": "Samuel Haddad started the audit review on 12 February 2025, 12:30 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 306,
+  "end": 313,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 314,
+  "end": 319,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 102,
+  "text": "Pinecrest National Bank account 6011544726 is registered to Brightwater Tooling Ltd.",
+  "tids": [
+   "t22",
+   "t23",
+   "t48",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 103,
+  "end": 178,
+  "text": "Westmark Tooling Group holds account 8945436224 at Pinecrest National Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t49",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 180,
+  "end": 262,
+  "text": "On 7 February 2025, 09:45 UTC, Samuel Haddad initiated the account reconciliation.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 264,
+  "end": 312,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

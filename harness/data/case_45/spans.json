@@ -1,0 +1,463 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Victor Banerjee is employed by Copperfield Tooling LLC; their email is vbanerjee@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t72",
+   "t73",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 232,
+  "text": "Irene Holloway is employed by Copperfield Tooling LLC; their email is iholloway@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t74",
+   "t75",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 332,
+  "text": "Copperfield Tooling LLC employs Wesley Whitfield, who can be reached at wwhitfield@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t76",
+   "t77",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 333,
+  "end": 431,
+  "text": "Grace Sorensen works for Harborline Logistics Group and uses the address gsorensen@harborline.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t78",
+   "t79",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 433,
+  "end": 479,
+  "text": "Wesley Whitfield's manager is Victor Banerjee.",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 481,
+  "end": 552,
+  "text": "Copperfield Tooling LLC is based at 5956 Main Street, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 554,
+  "end": 632,
+  "text": "First Harbor Bank account 1198668524 is registered to Copperfield Tooling LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t80",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 633,
+  "end": 706,
+  "text": "Harborline Logistics Group holds account 3864806891 at First Harbor Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t81",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 708,
+  "end": 756,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: wwhitfield@copperfield.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 88,
+  "text": "To: vbanerjee@copperfield.com, gsorensen@harborline.com",
+  "tids": [
+   "t64",
+   "t65",
+   "t82",
+   "t83"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 89,
+  "end": 124,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 125,
+  "end": 162,
+  "text": "Date: Sat, 18 Oct 2025 18:50:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 164,
+  "end": 174,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 176,
+  "end": 261,
+  "text": "On 20 September 2025, 10:10 UTC, Victor Banerjee initiated the expense reimbursement.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 262,
+  "end": 347,
+  "text": "On September 28, 2025 at 15:45 UTC, Victor Banerjee initiated the invoice submission.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 348,
+  "end": 429,
+  "text": "On October 11, 2025 at 11:30 UTC, Irene Holloway initiated the vendor onboarding.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 430,
+  "end": 512,
+  "text": "On October 13, 2025 at 14:50 UTC, Grace Sorensen initiated the bank detail change.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 513,
+  "end": 585,
+  "text": "The bank detail change took place at the Copperfield Tooling LLC office.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 586,
+  "end": 669,
+  "text": "The wire transfer was initiated by Grace Sorensen on October 13, 2025 at 17:30 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 670,
+  "end": 758,
+  "text": "On October 16, 2025 at 11:45 UTC, Wesley Whitfield initiated the account reconciliation.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 759,
+  "end": 835,
+  "text": "The account reconciliation took place at the Copperfield Tooling LLC office.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 836,
+  "end": 918,
+  "text": "The audit review was initiated by Irene Holloway on October 18, 2025 at 12:15 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 919,
+  "end": 1004,
+  "text": "The contract amendment was initiated by Irene Holloway on 18 October 2025, 16:50 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_7",
+   "person_1"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 1005,
+  "end": 1073,
+  "text": "The contract amendment happened at Copperfield Tooling LLC's office.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "event_7",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 1075,
+  "end": 1082,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 1083,
+  "end": 1089,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t84"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 52,
+  "text": "@graces is Grace Sorensen.",
+  "tids": [
+   "t56",
+   "t55"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 82,
+  "text": "@wesleyw is Wesley Whitfield.",
+  "tids": [
+   "t58",
+   "t57"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 83,
+  "end": 154,
+  "text": "[2025-09-20 11:10 UTC] @graces to @wesleyw: Did the bank call back yet?",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71",
+   "t85"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_2"
+  ]
+ }
+}

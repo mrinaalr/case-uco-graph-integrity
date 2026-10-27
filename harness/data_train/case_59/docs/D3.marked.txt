@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Ironleaf Packaging Co. holds account 1428204403 at First Harbor Bank. [D3.S3] Account 1147777168 at First Harbor Bank belongs to Bluegate Packaging Ltd.
+
+[D3.S4] On May 28, 2025 at 12:50 UTC, Priya Osei initiated the account reconciliation. [D3.S5] Tomas Holloway also took part in the account reconciliation. [D3.S6] The account reconciliation happened at Ironleaf Packaging Co.'s office. [D3.S7] On June 11, 2025 at 14:45 UTC, Hannah Delgado initiated the contract amendment. [D3.S8] Priya Osei authorized the contract amendment. [D3.S9] Account 1428204403 sent a transfer to account 1147777168.
+
+[D3.S10] More detail will follow once records are pulled.

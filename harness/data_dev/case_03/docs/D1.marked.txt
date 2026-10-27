@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Samuel Haddad is employed by Ironleaf Packaging Inc.; their email is shaddad@ironleaf.com. [D1.S3] Ironleaf Packaging Inc. employs Rosa Kowalski, who can be reached at rosa.kowalski@ironleaf.com. [D1.S4] Ruth Osei is employed by Ironleaf Packaging Inc.; their email is ruth.osei@ironleaf.com. [D1.S5] Wesley Ivanova works for Bluegate Analytics Co. and uses the address wesley.ivanova@bluegate.com.
+
+[D1.S6] The offices of Ironleaf Packaging Inc. are at 2530 Riverside Boulevard, Boise, ID 83702. [D1.S7] Bluegate Analytics Co. is based at 39 Maple Avenue, Dayton, OH 45402.
+
+[D1.S8] Ironleaf Packaging Inc. holds account 3478799698 at First Harbor Bank. [D1.S9] First Harbor Bank account 2735522067 is registered to Bluegate Analytics Co. [D1.S10] Rosa Kowalski holds account 2594796775 at First Harbor Bank.
+
+[D1.S11] Please treat this as confidential.

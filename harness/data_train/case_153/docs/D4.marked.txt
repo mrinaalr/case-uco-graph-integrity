@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Account 4259772132 at Meridian Trust Bank belongs to Westmark Components Ltd. [D4.S3] Meridian Trust Bank account 7436665836 is registered to Harborline Analytics Inc.
+
+[D4.S4] Nadia Quinn started the wire transfer on June 9, 2025 at 09:00 UTC. [D4.S5] The account reconciliation was initiated by Nadia Quinn on 15 June 2025, 16:50 UTC. [D4.S6] Hannah Kowalski also took part in the account reconciliation. [D4.S7] Funds moved from account 4259772132 to account 7436665836.
+
+[D4.S8] Let me know if anything here looks off.

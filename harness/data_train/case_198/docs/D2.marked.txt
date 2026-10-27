@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Felix Holloway works for Copperfield Industrial Group and uses the address fholloway@copperfield.com. [D2.S3] Dana Osei is employed by Copperfield Industrial Group; their email is dosei@copperfield.com. [D2.S4] Priya Quinn works for Copperfield Industrial Group and uses the address pquinn@copperfield.com. [D2.S5] Oakhaven Tooling Inc. employs Kofi Castillo, who can be reached at kcastillo@oakhaven.com.
+
+[D2.S6] Priya Quinn's manager is Felix Holloway.
+
+[D2.S7] The offices of Copperfield Industrial Group are at 4097 Market Street, Spokane, WA 99201. [D2.S8] Oakhaven Tooling Inc. is based at 8117 Market Street, Richmond, VA 23219.
+
+[D2.S9] This summary reflects records available to date.

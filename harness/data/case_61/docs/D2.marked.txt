@@ -1,0 +1,11 @@
+[D2.S1] From: dana.tanaka@brightwater.com
+[D2.S2] To: ycastillo@silverlake.com, sbanerjee@silverlake.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Thu, 06 Feb 2025 16:15:00 +0000
+
+[D2.S5] Hi Yara,
+
+[D2.S6] The payment approval was initiated by Yara Castillo on 18 January 2025, 13:00 UTC. [D2.S7] Kofi Haddad authorized the payment approval. [D2.S8] The payment approval happened at Silverlake Consulting Co.'s office. [D2.S9] The invoice submission was initiated by Sofia Banerjee on January 19, 2025 at 17:15 UTC. [D2.S10] Kofi Haddad was involved in the invoice submission as well. [D2.S11] The account reconciliation was initiated by Yara Castillo on 31 January 2025, 09:00 UTC. [D2.S12] Dana Tanaka also took part in the account reconciliation. [D2.S13] On February 6, 2025 at 14:15 UTC, Sofia Banerjee initiated the bank detail change. [D2.S14] Yara Castillo authorized the bank detail change. [D2.S15] Dana Tanaka communicated with Yara Castillo about the payments.
+
+[D2.S16] Thanks,
+[D2.S17] Dana

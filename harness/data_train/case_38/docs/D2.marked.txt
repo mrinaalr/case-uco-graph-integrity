@@ -1,0 +1,11 @@
+[D2.S1] From: fpark@cedarridge.com
+[D2.S2] To: tbanerjee@cedarridge.com, ppetrov@bluegate.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Fri, 27 Jun 2025 18:15:00 +0000
+
+[D2.S5] Hi Tomas,
+
+[D2.S6] Tomas Banerjee started the contract amendment on 10 June 2025, 12:25 UTC. [D2.S7] On 15 June 2025, 09:10 UTC, Felix Park initiated the audit review. [D2.S8] Rosa Haddad was involved in the audit review as well. [D2.S9] Rosa Haddad started the invoice submission on June 27, 2025 at 16:15 UTC.
+
+[D2.S10] Thanks,
+[D2.S11] Felix

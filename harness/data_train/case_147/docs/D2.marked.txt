@@ -1,0 +1,11 @@
+[D2.S1] From: spetrov@stonebridge.com
+[D2.S2] To: priya.quinn@cedarridge.com, washworth@stonebridge.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Sat, 15 Nov 2025 11:10:00 +0000
+
+[D2.S5] Hi Priya,
+
+[D2.S6] Priya Quinn started the refund request on 13 October 2025, 10:25 UTC. [D2.S7] Wesley Ashworth started the account reconciliation on 20 October 2025, 09:30 UTC. [D2.S8] Wesley Ashworth started the invoice submission on 23 October 2025, 15:50 UTC. [D2.S9] On 29 October 2025, 13:50 UTC, Priya Quinn initiated the vendor onboarding. [D2.S10] On November 1, 2025 at 10:10 UTC, Priya Quinn initiated the audit review. [D2.S11] Wesley Ashworth was involved in the audit review as well. [D2.S12] The audit review took place at the Stonebridge Supply Co. office. [D2.S13] The wire transfer was initiated by Wesley Ashworth on November 10, 2025 at 10:45 UTC. [D2.S14] The bank detail change was initiated by Priya Quinn on 14 November 2025, 11:25 UTC. [D2.S15] The bank detail change happened at Stonebridge Supply Co.'s office. [D2.S16] On 15 November 2025, 09:10 UTC, Priya Quinn initiated the expense reimbursement. [D2.S17] Sofia Petrov also took part in the expense reimbursement.
+
+[D2.S18] Thanks,
+[D2.S19] Sofia

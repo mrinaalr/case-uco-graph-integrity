@@ -1,0 +1,427 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 133,
+  "text": "Wesley Delgado works for Summit Peak Services Co. and uses the address wdelgado@summitpeak.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t58",
+   "t59",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 231,
+  "text": "Summit Peak Services Co. employs Samuel Vance, who can be reached at samuel.vance@summitpeak.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t60",
+   "t61",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 329,
+  "text": "Grace Haddad works for Summit Peak Services Co. and uses the address grace.haddad@summitpeak.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t62",
+   "t63",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 330,
+  "end": 418,
+  "text": "Arjun Tanaka is employed by Westmark Analytics Co.; their email is atanaka@westmark.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t64",
+   "t65",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 420,
+  "end": 459,
+  "text": "Samuel Vance reports to Wesley Delgado.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 460,
+  "end": 501,
+  "text": "Grace Haddad's manager is Wesley Delgado.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 503,
+  "end": 576,
+  "text": "Summit Peak Services Co. is based at 8066 Maple Avenue, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 578,
+  "end": 612,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: grace.haddad@summitpeak.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 65,
+  "text": "To: samuel.vance@summitpeak.com",
+  "tids": [
+   "t55",
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 66,
+  "end": 101,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 102,
+  "end": 139,
+  "text": "Date: Sat, 25 Oct 2025 12:45:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 141,
+  "end": 151,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 153,
+  "end": 230,
+  "text": "Wesley Delgado started the payment approval on October 13, 2025 at 12:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 231,
+  "end": 302,
+  "text": "The payment approval took place at the Summit Peak Services Co. office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 303,
+  "end": 375,
+  "text": "Grace Haddad started the wire transfer on October 25, 2025 at 10:45 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 376,
+  "end": 440,
+  "text": "The wire transfer happened at Summit Peak Services Co.'s office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 442,
+  "end": 449,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 450,
+  "end": 455,
+  "text": "Grace",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 91,
+  "text": "Summit Peak Services Co. holds account 4348013830 at Meridian Trust Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t67",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 92,
+  "end": 167,
+  "text": "Account 4963420577 at Meridian Trust Bank belongs to Westmark Analytics Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t68",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 168,
+  "end": 234,
+  "text": "Account 2714420342 at Meridian Trust Bank belongs to Grace Haddad.",
+  "tids": [
+   "t32",
+   "t33",
+   "t69",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 236,
+  "end": 320,
+  "text": "The refund request was initiated by Wesley Delgado on October 25, 2025 at 09:00 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 321,
+  "end": 376,
+  "text": "Approval for the refund request came from Samuel Vance.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 377,
+  "end": 427,
+  "text": "Arjun Tanaka also took part in the refund request.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 428,
+  "end": 493,
+  "text": "The refund request happened at Summit Peak Services Co.'s office.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 494,
+  "end": 574,
+  "text": "Arjun Tanaka started the expense reimbursement on October 26, 2025 at 14:50 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 575,
+  "end": 639,
+  "text": "Approval for the expense reimbursement came from Wesley Delgado.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 641,
+  "end": 680,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

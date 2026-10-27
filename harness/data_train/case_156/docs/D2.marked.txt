@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Lena Reyes is employed by Oakhaven Logistics Ltd.; their email is lena.reyes@oakhaven.com. [D2.S3] Tomas Okafor is employed by Oakhaven Logistics Ltd.; their email is tokafor@oakhaven.com. [D2.S4] Clara Castillo works for Oakhaven Logistics Ltd. and uses the address ccastillo@oakhaven.com. [D2.S5] Hannah Fischer is employed by Redfern Supply Group; their email is hannah.fischer@redfern.com. [D2.S6] Rosa Ivanova works for Redfern Supply Group and uses the address rivanova@redfern.com.
+
+[D2.S7] Tomas Okafor's manager is Lena Reyes.
+
+[D2.S8] Oakhaven Logistics Ltd. operates from 5473 Maple Avenue, Boise, ID 83702. [D2.S9] The offices of Redfern Supply Group are at 7631 Lakeview Road, Tucson, AZ 85701.
+
+[D2.S10] Account 8406719249 at Union Ledger Bank belongs to Oakhaven Logistics Ltd. [D2.S11] Union Ledger Bank account 9919764752 is registered to Redfern Supply Group.
+
+[D2.S12] Let me know if anything here looks off.

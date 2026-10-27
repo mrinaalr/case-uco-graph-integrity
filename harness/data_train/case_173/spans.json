@@ -1,0 +1,371 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 127,
+  "text": "Maya Tanaka is employed by Westmark Tooling Co.; their email is maya.tanaka@westmark.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t61",
+   "t62",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 128,
+  "end": 217,
+  "text": "Irene Novak is employed by Westmark Tooling Co.; their email is irene.novak@westmark.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t63",
+   "t64",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 218,
+  "end": 306,
+  "text": "Westmark Tooling Co. employs Andre Ivanova, who can be reached at aivanova@westmark.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t65",
+   "t66",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 307,
+  "end": 394,
+  "text": "Oakhaven Analytics Inc. employs Arjun Quinn, who can be reached at aquinn@oakhaven.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t67",
+   "t68",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 395,
+  "end": 481,
+  "text": "Oakhaven Analytics Inc. employs Wesley Park, who can be reached at wpark@oakhaven.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t69",
+   "t70",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 483,
+  "end": 564,
+  "text": "The offices of Westmark Tooling Co. are at 8106 Harbor Avenue, Spokane, WA 99201.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 566,
+  "end": 614,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 25,
+  "text": "From: aquinn@oakhaven.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 26,
+  "end": 74,
+  "text": "To: wpark@oakhaven.com, maya.tanaka@westmark.com",
+  "tids": [
+   "t57",
+   "t58",
+   "t71",
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 75,
+  "end": 106,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 107,
+  "end": 144,
+  "text": "Date: Sun, 08 Jun 2025 13:15:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 146,
+  "end": 156,
+  "text": "Hi Wesley,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 158,
+  "end": 230,
+  "text": "The wire transfer was initiated by Maya Tanaka on 4 May 2025, 12:30 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 231,
+  "end": 316,
+  "text": "The account reconciliation was initiated by Wesley Park on May 11, 2025 at 10:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 317,
+  "end": 386,
+  "text": "Arjun Quinn started the bank detail change on 25 May 2025, 15:45 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 387,
+  "end": 468,
+  "text": "The payment approval was initiated by Andre Ivanova on June 8, 2025 at 11:15 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 470,
+  "end": 477,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 478,
+  "end": 483,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 94,
+  "text": "Account 8067322112 at Lakeshore Savings Bank belongs to Westmark Tooling Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t73",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 95,
+  "end": 177,
+  "text": "Lakeshore Savings Bank account 7282412201 is registered to Oakhaven Analytics Inc.",
+  "tids": [
+   "t33",
+   "t34",
+   "t74",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 179,
+  "end": 253,
+  "text": "The audit review was initiated by Maya Tanaka on May 5, 2025 at 11:30 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 254,
+  "end": 319,
+  "text": "Irene Novak started the refund request on 25 May 2025, 10:45 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 320,
+  "end": 398,
+  "text": "The invoice submission was initiated by Arjun Quinn on 31 May 2025, 13:15 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 400,
+  "end": 448,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

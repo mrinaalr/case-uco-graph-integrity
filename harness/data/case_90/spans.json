@@ -1,0 +1,446 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 25,
+  "text": "From: cabara@oakhaven.com",
+  "tids": [
+   "t51",
+   "t11"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 26,
+  "end": 80,
+  "text": "To: hashworth@oakhaven.com, dana.vance@copperfield.com",
+  "tids": [
+   "t52",
+   "t53",
+   "t60",
+   "t61",
+   "t14",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 81,
+  "end": 112,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 113,
+  "end": 150,
+  "text": "Date: Tue, 13 May 2025 12:30:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 152,
+  "end": 162,
+  "text": "Hi Hannah,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 164,
+  "end": 247,
+  "text": "The account reconciliation was initiated by Dana Vance on 13 April 2025, 12:30 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 248,
+  "end": 305,
+  "text": "Tomas Reyes also took part in the account reconciliation.",
+  "tids": [
+   "t48",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 306,
+  "end": 380,
+  "text": "Tomas Reyes started the invoice submission on April 30, 2025 at 10:00 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 381,
+  "end": 438,
+  "text": "Hannah Ashworth also took part in the invoice submission.",
+  "tids": [
+   "t50",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 439,
+  "end": 509,
+  "text": "On May 13, 2025 at 10:30 UTC, Tomas Reyes initiated the wire transfer.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 511,
+  "end": 518,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 519,
+  "end": 524,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Tomas Reyes works for Oakhaven Fabrication Group and uses the address tomas.reyes@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 224,
+  "text": "Oakhaven Fabrication Group employs Clara Abara, who can be reached at cabara@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 225,
+  "end": 322,
+  "text": "Hannah Ashworth is employed by Oakhaven Fabrication Group; their email is hashworth@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 323,
+  "end": 423,
+  "text": "Copperfield Distribution Group employs Dana Vance, who can be reached at dana.vance@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 425,
+  "end": 462,
+  "text": "Clara Abara's manager is Tomas Reyes.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 464,
+  "end": 540,
+  "text": "Oakhaven Fabrication Group is based at 1243 Harbor Avenue, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 542,
+  "end": 620,
+  "text": "Account 2106070180 at First Harbor Bank belongs to Oakhaven Fabrication Group.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 621,
+  "end": 698,
+  "text": "Copperfield Distribution Group holds account 6208457177 at First Harbor Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 700,
+  "end": 748,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 32,
+  "text": "From: dana.vance@copperfield.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 33,
+  "end": 59,
+  "text": "To: hashworth@oakhaven.com",
+  "tids": [
+   "t57",
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 60,
+  "end": 96,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 97,
+  "end": 134,
+  "text": "Date: Sat, 03 May 2025 14:30:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 136,
+  "end": 146,
+  "text": "Hi Hannah,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 148,
+  "end": 225,
+  "text": "Hannah Ashworth started the vendor onboarding on April 28, 2025 at 16:00 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 226,
+  "end": 296,
+  "text": "The vendor onboarding happened at Oakhaven Fabrication Group's office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 297,
+  "end": 366,
+  "text": "On 3 May 2025, 12:30 UTC, Clara Abara initiated the payment approval.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 367,
+  "end": 422,
+  "text": "Hannah Ashworth also took part in the payment approval.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 424,
+  "end": 431,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 432,
+  "end": 436,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ }
+}

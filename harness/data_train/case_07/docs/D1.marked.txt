@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Owen Ashworth is employed by Copperfield Industrial Co.; their email is owen.ashworth@copperfield.com. [D1.S3] Copperfield Industrial Co. employs Samuel Reyes, who can be reached at sreyes@copperfield.com. [D1.S4] Clara Lindqvist is employed by Ironleaf Distribution Group; their email is clara.lindqvist@ironleaf.com.
+
+[D1.S5] The offices of Copperfield Industrial Co. are at 2844 Maple Avenue, Madison, WI 53703. [D1.S6] Ironleaf Distribution Group is based at 6684 Main Street, Albany, NY 12207.
+
+[D1.S7] Meridian Trust Bank account 5450507553 is registered to Copperfield Industrial Co. [D1.S8] Ironleaf Distribution Group holds account 1044971920 at Meridian Trust Bank. [D1.S9] Account 7008108568 at Meridian Trust Bank belongs to Samuel Reyes.
+
+[D1.S10] Account 5450507553 sent a transfer to account 1044971920.
+
+[D1.S11] This summary reflects records available to date.

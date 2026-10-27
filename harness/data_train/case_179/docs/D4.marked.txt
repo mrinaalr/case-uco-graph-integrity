@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Pinecrest National Bank account 2745432248 is registered to Ironleaf Analytics Group. [D4.S3] Account 2200832922 at Pinecrest National Bank belongs to Oakhaven Consulting LLC.
+
+[D4.S4] On October 22, 2025 at 12:30 UTC, Tomas Moreau initiated the audit review. [D4.S5] Julian Fischer also took part in the audit review. [D4.S6] The audit review happened at Ironleaf Analytics Group's office. [D4.S7] The refund request was initiated by Julian Fischer on November 3, 2025 at 11:10 UTC. [D4.S8] Approval for the refund request came from Tomas Moreau. [D4.S9] Account 2745432248 sent a transfer to account 2200832922.
+
+[D4.S10] Please treat this as confidential.

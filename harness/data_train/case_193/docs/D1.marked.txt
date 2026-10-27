@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Felix Park works for Bluegate Industrial Ltd. and uses the address felix.park@bluegate.com. [D1.S3] Yara Reyes is employed by Bluegate Industrial Ltd.; their email is yreyes@bluegate.com. [D1.S4] Hannah Quinn works for Bluegate Industrial Ltd. and uses the address hquinn@bluegate.com. [D1.S5] Tomas Whitfield is employed by Ironleaf Consulting Ltd.; their email is tomas.whitfield@ironleaf.com.
+
+[D1.S6] Yara Reyes reports to Felix Park.
+
+[D1.S7] Bluegate Industrial Ltd. operates from 3240 Main Street, Richmond, VA 23219.
+
+[D1.S8] Tomas Whitfield had been in contact with Felix Park throughout.
+
+[D1.S9] Please treat this as confidential.

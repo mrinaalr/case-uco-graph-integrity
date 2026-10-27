@@ -1,0 +1,11 @@
+[D3.S1] From: yvance@stonebridge.com
+[D3.S2] To: dana.sorensen@stonebridge.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Thu, 26 Jun 2025 12:25:00 +0000
+
+[D3.S5] Hi Dana,
+
+[D3.S6] On June 4, 2025 at 14:10 UTC, Sofia Lindqvist initiated the vendor onboarding. [D3.S7] Yara Vance also took part in the vendor onboarding. [D3.S8] The vendor onboarding took place at the Stonebridge Fabrication Group office. [D3.S9] On June 26, 2025 at 10:25 UTC, Dana Sorensen initiated the bank detail change. [D3.S10] Sofia Lindqvist authorized the bank detail change.
+
+[D3.S11] Thanks,
+[D3.S12] Yara

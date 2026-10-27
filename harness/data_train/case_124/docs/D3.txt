@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@lucan is Luca Novak.
+@mayaf is Maya Fischer.
+[2025-07-02 12:15 UTC] @lucan to @mayaf: Can you look at the vendor file before lunch?
+[2025-07-02 12:22 UTC] @mayaf to @lucan: Send me the new form when you can.
+[2025-07-02 12:29 UTC] @lucan to @mayaf: Finance is asking questions again.

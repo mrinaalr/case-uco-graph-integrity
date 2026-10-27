@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Sofia Delgado works for Westmark Industrial Group and uses the address sofia.delgado@westmark.com. [D2.S3] Hannah Banerjee is employed by Westmark Industrial Group; their email is hbanerjee@westmark.com. [D2.S4] Priya Moreau is employed by Westmark Industrial Group; their email is priya.moreau@westmark.com. [D2.S5] Yara Lindqvist works for Brightwater Consulting Inc. and uses the address ylindqvist@brightwater.com. [D2.S6] Brightwater Consulting Inc. employs Oscar Vance, who can be reached at oscar.vance@brightwater.com.
+
+[D2.S7] Hannah Banerjee's manager is Sofia Delgado.
+
+[D2.S8] Westmark Industrial Group operates from 8192 Industrial Parkway, Spokane, WA 99201.
+
+[D2.S9] Account 9831521144 at Granite Federal Credit Union belongs to Westmark Industrial Group. [D2.S10] Account 3969200115 at Granite Federal Credit Union belongs to Brightwater Consulting Inc. [D2.S11] Granite Federal Credit Union account 7076721517 is registered to Sofia Delgado.
+
+[D2.S12] Let me know if anything here looks off.

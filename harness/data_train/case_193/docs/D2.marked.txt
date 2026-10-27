@@ -1,0 +1,11 @@
+[D2.S1] From: yreyes@bluegate.com
+[D2.S2] To: felix.park@bluegate.com, tomas.whitfield@ironleaf.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Sat, 29 Mar 2025 13:50:00 +0000
+
+[D2.S5] Hi Felix,
+
+[D2.S6] On March 3, 2025 at 12:15 UTC, Yara Reyes initiated the refund request. [D2.S7] Approval for the refund request came from Felix Park. [D2.S8] Hannah Quinn was involved in the refund request as well. [D2.S9] The account reconciliation was initiated by Hannah Quinn on 19 March 2025, 16:50 UTC. [D2.S10] The account reconciliation happened at Bluegate Industrial Ltd.'s office. [D2.S11] The expense reimbursement was initiated by Felix Park on March 29, 2025 at 11:50 UTC.
+
+[D2.S12] Thanks,
+[D2.S13] Yara

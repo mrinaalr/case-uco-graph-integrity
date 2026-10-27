@@ -1,0 +1,11 @@
+[D1.S1] From: mkowalski@bluegate.com
+[D1.S2] To: irene.tanaka@bluegate.com, hbanerjee@bluegate.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Sun, 10 Aug 2025 11:25:00 +0000
+
+[D1.S5] Hi Irene,
+
+[D1.S6] Hector Banerjee started the audit review on 11 July 2025, 11:30 UTC. [D1.S7] Irene Tanaka started the invoice submission on 20 July 2025, 17:00 UTC. [D1.S8] Irene Tanaka started the contract amendment on 10 August 2025, 09:25 UTC.
+
+[D1.S9] Thanks,
+[D1.S10] Maya

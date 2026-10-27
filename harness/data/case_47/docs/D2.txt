@@ -1,0 +1,11 @@
+From: shaddad@stonebridge.com
+To: mmendes@summitpeak.com, hvance@stonebridge.com
+Subject: Quarter-end vendor payments
+Date: Sat, 07 Jun 2025 14:30:00 +0000
+
+Hi Mei,
+
+Mei Mendes started the payment approval on May 7, 2025 at 11:15 UTC. Hannah Vance authorized the payment approval. Samuel Haddad started the audit review on May 19, 2025 at 13:15 UTC. Hannah Vance was involved in the audit review as well. The refund request was initiated by Samuel Haddad on 20 May 2025, 15:25 UTC. Approval for the refund request came from Hannah Vance. On June 7, 2025 at 12:30 UTC, Hannah Vance initiated the wire transfer.
+
+Thanks,
+Samuel

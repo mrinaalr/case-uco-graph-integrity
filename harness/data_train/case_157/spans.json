@@ -1,0 +1,511 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: owen.mendes@silverlake.com",
+  "tids": [
+   "t61",
+   "t12"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 63,
+  "text": "To: irene.quinn@silverlake.com",
+  "tids": [
+   "t62",
+   "t69",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 64,
+  "end": 99,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 100,
+  "end": 137,
+  "text": "Date: Sun, 10 Aug 2025 17:10:00 +0000",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 148,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 150,
+  "end": 227,
+  "text": "Owen Mendes started the account reconciliation on July 27, 2025 at 13:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 311,
+  "text": "The contract amendment was initiated by Lena Kowalski on 10 August 2025, 15:10 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49",
+   "t8"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 312,
+  "end": 386,
+  "text": "The contract amendment took place at the Silverlake Logistics Ltd. office.",
+  "tids": [
+   "t56",
+   "t1"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 388,
+  "end": 395,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 396,
+  "end": 400,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 136,
+  "text": "Nadia Okafor works for Silverlake Logistics Ltd. and uses the address nadia.okafor@silverlake.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t70",
+   "t71",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 233,
+  "text": "Owen Mendes works for Silverlake Logistics Ltd. and uses the address owen.mendes@silverlake.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t72",
+   "t73"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 234,
+  "end": 330,
+  "text": "Irene Quinn is employed by Silverlake Logistics Ltd.; their email is irene.quinn@silverlake.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t74",
+   "t75",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 331,
+  "end": 429,
+  "text": "Arjun Delgado works for Copperfield Supply LLC and uses the address arjun.delgado@copperfield.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t76",
+   "t77",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 430,
+  "end": 528,
+  "text": "Lena Kowalski is employed by Copperfield Supply LLC; their email is lena.kowalski@copperfield.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t78",
+   "t79",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 530,
+  "end": 606,
+  "text": "Silverlake Logistics Ltd. operates from 4616 Harbor Avenue, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 608,
+  "end": 671,
+  "text": "Nadia Okafor had been in contact with Lena Kowalski throughout.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_0",
+   "person_4"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 673,
+  "end": 721,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 35,
+  "text": "From: arjun.delgado@copperfield.com",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 36,
+  "end": 69,
+  "text": "To: lena.kowalski@copperfield.com",
+  "tids": [
+   "t66",
+   "t80"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 70,
+  "end": 105,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 106,
+  "end": 143,
+  "text": "Date: Fri, 15 Aug 2025 14:30:00 +0000",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 153,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 155,
+  "end": 228,
+  "text": "On July 28, 2025 at 11:10 UTC, Arjun Delgado initiated the wire transfer.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 229,
+  "end": 279,
+  "text": "Lena Kowalski also took part in the wire transfer.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_4",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 280,
+  "end": 358,
+  "text": "On August 15, 2025 at 12:30 UTC, Owen Mendes initiated the bank detail change.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 359,
+  "end": 419,
+  "text": "Approval for the bank detail change came from Lena Kowalski.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "person_4",
+   "event_4"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 421,
+  "end": 428,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 429,
+  "end": 434,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 99,
+  "text": "Account 8721823724 at Lakeshore Savings Bank belongs to Silverlake Logistics Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t81",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 100,
+  "end": 179,
+  "text": "Account 9534741227 at Lakeshore Savings Bank belongs to Copperfield Supply LLC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t82",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 180,
+  "end": 251,
+  "text": "Lakeshore Savings Bank account 9642399091 is registered to Owen Mendes.",
+  "tids": [
+   "t36",
+   "t37",
+   "t83",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 253,
+  "end": 327,
+  "text": "On 8 August 2025, 14:25 UTC, Nadia Okafor initiated the vendor onboarding.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 328,
+  "end": 405,
+  "text": "The refund request was initiated by Owen Mendes on 25 August 2025, 14:45 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 406,
+  "end": 461,
+  "text": "Approval for the refund request came from Nadia Okafor.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_0",
+   "event_5"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 463,
+  "end": 497,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

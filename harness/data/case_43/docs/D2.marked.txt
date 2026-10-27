@@ -1,0 +1,11 @@
+[D2.S1] From: yashworth@westmark.com
+[D2.S2] To: julian.banerjee@westmark.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Wed, 23 Apr 2025 17:45:00 +0000
+
+[D2.S5] Hi Julian,
+
+[D2.S6] Rosa Park started the refund request on March 18, 2025 at 17:15 UTC. [D2.S7] On March 19, 2025 at 12:25 UTC, Julian Banerjee initiated the invoice submission. [D2.S8] The vendor onboarding was initiated by Rosa Park on March 23, 2025 at 10:10 UTC. [D2.S9] The audit review was initiated by Rosa Park on 26 March 2025, 11:10 UTC. [D2.S10] Rosa Park started the account reconciliation on 8 April 2025, 09:15 UTC. [D2.S11] On 19 April 2025, 11:15 UTC, Yara Ashworth initiated the expense reimbursement. [D2.S12] Rosa Park was involved in the expense reimbursement as well. [D2.S13] On April 20, 2025 at 12:00 UTC, Andre Novak initiated the bank detail change. [D2.S14] On 23 April 2025, 15:45 UTC, Andre Novak initiated the payment approval. [D2.S15] Julian Banerjee authorized the payment approval. [D2.S16] Rosa Park also took part in the payment approval.
+
+[D2.S17] Thanks,
+[D2.S18] Yara

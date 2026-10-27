@@ -1,0 +1,502 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Andre Reyes works for Cedar Ridge Fabrication Inc. and uses the address areyes@cedarridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t74",
+   "t75",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 231,
+  "text": "Cedar Ridge Fabrication Inc. employs Oscar Delgado, who can be reached at odelgado@cedarridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t76",
+   "t77",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 319,
+  "text": "Oakhaven Supply Ltd. employs Yara Brennan, who can be reached at ybrennan@oakhaven.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t78",
+   "t79",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 321,
+  "end": 399,
+  "text": "Cedar Ridge Fabrication Inc. is based at 4119 Commerce Drive, Omaha, NE 68102.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 400,
+  "end": 472,
+  "text": "Oakhaven Supply Ltd. operates from 5543 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t60",
+   "t56",
+   "t57",
+   "t58",
+   "t59"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 474,
+  "end": 513,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: ybrennan@oakhaven.com",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 78,
+  "text": "To: areyes@cedarridge.com, odelgado@cedarridge.com",
+  "tids": [
+   "t62",
+   "t63",
+   "t80",
+   "t81"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 79,
+  "end": 114,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Fri, 07 Feb 2025 15:45:00 +0000",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 154,
+  "end": 163,
+  "text": "Hi Andre,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 165,
+  "end": 246,
+  "text": "On January 18, 2025 at 13:45 UTC, Oscar Delgado initiated the bank detail change.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 247,
+  "end": 306,
+  "text": "Andre Reyes was involved in the bank detail change as well.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 307,
+  "end": 384,
+  "text": "The bank detail change took place at the Cedar Ridge Fabrication Inc. office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 385,
+  "end": 461,
+  "text": "On 25 January 2025, 13:10 UTC, Yara Brennan initiated the vendor onboarding.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 462,
+  "end": 514,
+  "text": "Andre Reyes also took part in the vendor onboarding.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 515,
+  "end": 589,
+  "text": "On 7 February 2025, 13:45 UTC, Andre Reyes initiated the payment approval.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 590,
+  "end": 635,
+  "text": "Yara Brennan authorized the payment approval.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_4"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 636,
+  "end": 711,
+  "text": "The payment approval took place at the Cedar Ridge Fabrication Inc. office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 713,
+  "end": 720,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 721,
+  "end": 725,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t82"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@oscard is Oscar Delgado.",
+  "tids": [
+   "t46",
+   "t45"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 75,
+  "text": "@yarab is Yara Brennan.",
+  "tids": [
+   "t48",
+   "t47"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 152,
+  "text": "[2025-01-18 14:45 UTC] @oscard to @yarab: Send me the new form when you can.",
+  "tids": [
+   "t66",
+   "t67",
+   "t68",
+   "t69",
+   "t83"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_2"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 153,
+  "end": 229,
+  "text": "[2025-01-18 14:52 UTC] @yarab to @oscard: Finance is asking questions again.",
+  "tids": [
+   "t70",
+   "t71",
+   "t72",
+   "t73"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_2",
+   "handle_person_1"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 104,
+  "text": "Cedar Ridge Fabrication Inc. holds account 1261673763 at Granite Federal Credit Union.",
+  "tids": [
+   "t22",
+   "t23",
+   "t84",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 105,
+  "end": 187,
+  "text": "Account 7528556502 at Granite Federal Credit Union belongs to Oakhaven Supply Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t85",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 189,
+  "end": 271,
+  "text": "On 22 January 2025, 14:45 UTC, Oscar Delgado initiated the account reconciliation.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 272,
+  "end": 349,
+  "text": "The account reconciliation happened at Cedar Ridge Fabrication Inc.'s office.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 350,
+  "end": 419,
+  "text": "Yara Brennan started the wire transfer on 25 January 2025, 13:50 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 420,
+  "end": 495,
+  "text": "On 25 February 2025, 14:00 UTC, Oscar Delgado initiated the refund request.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 496,
+  "end": 545,
+  "text": "Andre Reyes also took part in the refund request.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_0",
+   "event_5"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 547,
+  "end": 581,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D2.S1] From: maya.holloway@summitpeak.com
+[D2.S2] To: wnovak@clearpath.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Fri, 11 Jul 2025 17:30:00 +0000
+
+[D2.S5] Hi Wesley,
+
+[D2.S6] On June 8, 2025 at 09:50 UTC, Felix Moreau initiated the audit review. [D2.S7] The account reconciliation was initiated by Felix Moreau on June 15, 2025 at 10:30 UTC. [D2.S8] The refund request was initiated by Felix Moreau on June 15, 2025 at 17:15 UTC. [D2.S9] Hannah Abara started the bank detail change on 25 June 2025, 10:25 UTC. [D2.S10] Hannah Abara started the wire transfer on July 8, 2025 at 13:25 UTC. [D2.S11] Felix Moreau authorized the wire transfer. [D2.S12] On 11 July 2025, 15:30 UTC, Wesley Novak initiated the expense reimbursement.
+
+[D2.S13] Thanks,
+[D2.S14] Maya

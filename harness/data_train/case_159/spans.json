@@ -1,0 +1,379 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Samuel Delgado works for Silverlake Distribution Ltd. and uses the address sdelgado@silverlake.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 233,
+  "text": "Kofi Haddad is employed by Silverlake Distribution Ltd.; their email is khaddad@silverlake.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 234,
+  "end": 338,
+  "text": "Silverlake Distribution Ltd. employs Desmond Whitfield, who can be reached at dwhitfield@silverlake.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 339,
+  "end": 439,
+  "text": "Yara Kowalski is employed by Bluegate Distribution Group; their email is yara.kowalski@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 441,
+  "end": 518,
+  "text": "Silverlake Distribution Ltd. operates from 7134 Elm Street, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 520,
+  "end": 613,
+  "text": "Granite Federal Credit Union account 6576020634 is registered to Silverlake Distribution Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 614,
+  "end": 704,
+  "text": "Account 4741636908 at Granite Federal Credit Union belongs to Bluegate Distribution Group.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 705,
+  "end": 788,
+  "text": "Granite Federal Credit Union account 1570295814 is registered to Desmond Whitfield.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 790,
+  "end": 829,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: dwhitfield@silverlake.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 83,
+  "text": "To: khaddad@silverlake.com, sdelgado@silverlake.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t73",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 84,
+  "end": 119,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 120,
+  "end": 157,
+  "text": "Date: Mon, 17 Mar 2025 16:10:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 159,
+  "end": 167,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 169,
+  "end": 251,
+  "text": "Yara Kowalski started the expense reimbursement on February 15, 2025 at 11:25 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 252,
+  "end": 313,
+  "text": "Approval for the expense reimbursement came from Kofi Haddad.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 314,
+  "end": 400,
+  "text": "The bank detail change was initiated by Kofi Haddad on February 16, 2025 at 15:25 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 401,
+  "end": 487,
+  "text": "The invoice submission was initiated by Samuel Delgado on 16 February 2025, 16:25 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 488,
+  "end": 563,
+  "text": "Yara Kowalski started the refund request on February 27, 2025 at 11:50 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 564,
+  "end": 639,
+  "text": "On March 2, 2025 at 14:15 UTC, Kofi Haddad initiated the vendor onboarding.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 640,
+  "end": 729,
+  "text": "The account reconciliation was initiated by Desmond Whitfield on 3 March 2025, 15:15 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 730,
+  "end": 807,
+  "text": "The account reconciliation happened at Silverlake Distribution Ltd.'s office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 808,
+  "end": 886,
+  "text": "Desmond Whitfield started the payment approval on March 17, 2025 at 14:10 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 888,
+  "end": 895,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 896,
+  "end": 903,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ }
+}

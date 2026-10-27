@@ -1,0 +1,11 @@
+[D2.S1] From: areyes@brightwater.com
+[D2.S2] To: cvance@clearpath.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Wed, 30 Apr 2025 13:45:00 +0000
+
+[D2.S5] Hi Clara,
+
+[D2.S6] The audit review was initiated by Andre Reyes on 13 April 2025, 09:15 UTC. [D2.S7] Arjun Quinn started the account reconciliation on April 26, 2025 at 13:45 UTC. [D2.S8] Clara Vance was involved in the account reconciliation as well. [D2.S9] On 27 April 2025, 17:45 UTC, Arjun Quinn initiated the invoice submission. [D2.S10] The invoice submission took place at the Clearpath Tooling LLC office. [D2.S11] The wire transfer was initiated by Arjun Quinn on April 30, 2025 at 11:45 UTC.
+
+[D2.S12] Thanks,
+[D2.S13] Andre

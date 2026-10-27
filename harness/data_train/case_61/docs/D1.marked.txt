@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Dana Vance works for Clearpath Distribution Co. and uses the address dana.vance@clearpath.com. [D1.S3] Maya Park is employed by Clearpath Distribution Co.; their email is mpark@clearpath.com. [D1.S4] Yara Reyes is employed by Clearpath Distribution Co.; their email is yreyes@clearpath.com. [D1.S5] Mei Delgado is employed by Stonebridge Services LLC; their email is mei.delgado@stonebridge.com. [D1.S6] Stonebridge Services LLC employs Luca Abara, who can be reached at luca.abara@stonebridge.com.
+
+[D1.S7] The offices of Clearpath Distribution Co. are at 3528 Harbor Avenue, Raleigh, NC 27601.
+
+[D1.S8] Let me know if anything here looks off.

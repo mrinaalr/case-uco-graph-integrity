@@ -1,0 +1,11 @@
+[D1.S1] From: maya.okafor@oakhaven.com
+[D1.S2] To: ldelgado@clearpath.com
+[D1.S3] Subject: Updated remittance details
+[D1.S4] Date: Thu, 14 Aug 2025 15:10:00 +0000
+
+[D1.S5] Hi Lena,
+
+[D1.S6] Kofi Vance started the audit review on July 6, 2025 at 17:30 UTC. [D1.S7] Lena Delgado also took part in the audit review. [D1.S8] Lena Delgado started the vendor onboarding on July 31, 2025 at 09:10 UTC. [D1.S9] The expense reimbursement was initiated by Maya Okafor on 14 August 2025, 13:10 UTC. [D1.S10] Approval for the expense reimbursement came from Lena Delgado. [D1.S11] Kofi Vance was involved in the expense reimbursement as well.
+
+[D1.S12] Thanks,
+[D1.S13] Maya

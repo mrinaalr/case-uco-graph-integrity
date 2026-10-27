@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Cedar Ridge Logistics LLC employs Irene Holloway, who can be reached at iholloway@cedarridge.com. [D1.S3] Ruth Sorensen is employed by Cedar Ridge Logistics LLC; their email is ruth.sorensen@cedarridge.com. [D1.S4] Victor Lindqvist is employed by Brightwater Analytics Group; their email is vlindqvist@brightwater.com.
+
+[D1.S5] Cedar Ridge Logistics LLC operates from 320 Harbor Avenue, Boise, ID 83702. [D1.S6] Brightwater Analytics Group operates from 3484 Elm Street, Dayton, OH 45402.
+
+[D1.S7] Account 4205094714 at Union Ledger Bank belongs to Cedar Ridge Logistics LLC. [D1.S8] Account 8513097669 at Union Ledger Bank belongs to Brightwater Analytics Group. [D1.S9] Irene Holloway holds account 1716922597 at Union Ledger Bank.
+
+[D1.S10] Account 4205094714 sent a transfer to account 1716922597.
+
+[D1.S11] More detail will follow once records are pulled.

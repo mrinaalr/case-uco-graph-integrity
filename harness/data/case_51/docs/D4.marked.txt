@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Stonebridge Fabrication Ltd. holds account 6095404709 at First Harbor Bank. [D4.S3] Account 8667657233 at First Harbor Bank belongs to Ironleaf Industrial Ltd.
+
+[D4.S4] Irene Lindqvist started the account reconciliation on 18 February 2025, 17:45 UTC. [D4.S5] Hannah Holloway started the bank detail change on 25 February 2025, 11:30 UTC. [D4.S6] On 26 February 2025, 12:45 UTC, Sofia Okafor initiated the contract amendment. [D4.S7] The audit review was initiated by Owen Novak on March 15, 2025 at 17:00 UTC. [D4.S8] Irene Lindqvist communicated with Hannah Holloway about the payments.
+
+[D4.S9] This summary reflects records available to date.

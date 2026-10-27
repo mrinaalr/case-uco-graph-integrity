@@ -1,0 +1,303 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 134,
+  "text": "Redfern Packaging Inc. employs Priya Holloway, who can be reached at priya.holloway@redfern.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t47",
+   "t48",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 225,
+  "text": "Clara Vance is employed by Redfern Packaging Inc.; their email is clara.vance@redfern.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t49",
+   "t50",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 316,
+  "text": "Yara Ashworth works for Redfern Packaging Inc. and uses the address yashworth@redfern.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t51",
+   "t52",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 317,
+  "end": 411,
+  "text": "Ironleaf Services Group employs Felix Haddad, who can be reached at felix.haddad@ironleaf.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t53",
+   "t54",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 413,
+  "end": 483,
+  "text": "Redfern Packaging Inc. is based at 8821 Main Street, Albany, NY 12207.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 485,
+  "end": 533,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: priya.holloway@redfern.com",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 62,
+  "text": "To: felix.haddad@ironleaf.com",
+  "tids": [
+   "t44",
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 63,
+  "end": 98,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Sun, 26 Jan 2025 15:00:00 +0000",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 147,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 236,
+  "text": "The bank detail change was initiated by Yara Ashworth on January 16, 2025 at 10:50 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 237,
+  "end": 324,
+  "text": "The invoice submission was initiated by Yara Ashworth on January 26, 2025 at 13:00 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 326,
+  "end": 333,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 334,
+  "end": 339,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 96,
+  "text": "Account 3420961278 at Lakeshore Savings Bank belongs to Redfern Packaging Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t56",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 97,
+  "end": 172,
+  "text": "Ironleaf Services Group holds account 9391482075 at Lakeshore Savings Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t57",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 174,
+  "end": 245,
+  "text": "On 25 January 2025, 12:30 UTC, Felix Haddad initiated the audit review.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 246,
+  "end": 325,
+  "text": "The wire transfer was initiated by Yara Ashworth on 7 February 2025, 13:10 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 327,
+  "end": 375,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

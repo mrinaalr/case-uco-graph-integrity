@@ -1,0 +1,342 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 140,
+  "text": "Owen Ashworth is employed by Copperfield Industrial Co.; their email is owen.ashworth@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t56",
+   "t57",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 141,
+  "end": 235,
+  "text": "Copperfield Industrial Co. employs Samuel Reyes, who can be reached at sreyes@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t58",
+   "t59",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 236,
+  "end": 340,
+  "text": "Clara Lindqvist is employed by Ironleaf Distribution Group; their email is clara.lindqvist@ironleaf.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t60",
+   "t61",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 342,
+  "end": 428,
+  "text": "The offices of Copperfield Industrial Co. are at 2844 Maple Avenue, Madison, WI 53703.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 429,
+  "end": 504,
+  "text": "Ironleaf Distribution Group is based at 6684 Main Street, Albany, NY 12207.",
+  "tids": [
+   "t49",
+   "t45",
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 506,
+  "end": 588,
+  "text": "Meridian Trust Bank account 5450507553 is registered to Copperfield Industrial Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t62",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 589,
+  "end": 665,
+  "text": "Ironleaf Distribution Group holds account 1044971920 at Meridian Trust Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t63",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 666,
+  "end": 732,
+  "text": "Account 7008108568 at Meridian Trust Bank belongs to Samuel Reyes.",
+  "tids": [
+   "t28",
+   "t29",
+   "t64",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 734,
+  "end": 791,
+  "text": "Account 5450507553 sent a transfer to account 1044971920.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 793,
+  "end": 841,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: sreyes@copperfield.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 61,
+  "text": "To: clara.lindqvist@ironleaf.com",
+  "tids": [
+   "t53",
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 62,
+  "end": 93,
+  "text": "Subject: Invoice 4246 follow-up",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Tue, 25 Mar 2025 18:00:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 142,
+  "text": "Hi Clara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 144,
+  "end": 214,
+  "text": "Samuel Reyes started the wire transfer on 28 February 2025, 16:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 215,
+  "end": 297,
+  "text": "The vendor onboarding was initiated by Clara Lindqvist on 6 March 2025, 13:00 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 298,
+  "end": 389,
+  "text": "The account reconciliation was initiated by Clara Lindqvist on March 12, 2025 at 10:15 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 390,
+  "end": 454,
+  "text": "Samuel Reyes was involved in the account reconciliation as well.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 455,
+  "end": 524,
+  "text": "Owen Ashworth started the refund request on 24 March 2025, 13:15 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 525,
+  "end": 606,
+  "text": "Clara Lindqvist started the expense reimbursement on March 25, 2025 at 16:00 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 608,
+  "end": 615,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 616,
+  "end": 622,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ }
+}

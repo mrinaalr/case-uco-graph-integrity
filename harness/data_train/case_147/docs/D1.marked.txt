@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Sofia Petrov works for Stonebridge Supply Co. and uses the address spetrov@stonebridge.com. [D1.S3] Wesley Ashworth works for Stonebridge Supply Co. and uses the address washworth@stonebridge.com. [D1.S4] Cedar Ridge Industrial Ltd. employs Priya Quinn, who can be reached at priya.quinn@cedarridge.com.
+
+[D1.S5] Stonebridge Supply Co. is based at 2550 Harbor Avenue, Tucson, AZ 85701.
+
+[D1.S6] Stonebridge Supply Co. holds account 1108783063 at First Harbor Bank. [D1.S7] Account 3402932465 at First Harbor Bank belongs to Cedar Ridge Industrial Ltd. [D1.S8] First Harbor Bank account 6231853354 is registered to Sofia Petrov.
+
+[D1.S9] Please treat this as confidential.

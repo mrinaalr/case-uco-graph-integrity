@@ -1,0 +1,386 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Sofia Haddad works for Cedar Ridge Packaging Co. and uses the address shaddad@cedarridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t60",
+   "t61",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 227,
+  "text": "Cedar Ridge Packaging Co. employs Mei Ashworth, who can be reached at mashworth@cedarridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t62",
+   "t63",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 321,
+  "text": "Cedar Ridge Packaging Co. employs Nadia Moreau, who can be reached at nmoreau@cedarridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t64",
+   "t65",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 322,
+  "end": 412,
+  "text": "Owen Fischer is employed by Westmark Analytics Inc.; their email is ofischer@westmark.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t66",
+   "t67",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 413,
+  "end": 509,
+  "text": "Westmark Analytics Inc. employs Desmond Quinn, who can be reached at desmond.quinn@westmark.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t68",
+   "t69",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 511,
+  "end": 602,
+  "text": "The offices of Cedar Ridge Packaging Co. are at 2394 Riverside Boulevard, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 604,
+  "end": 652,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: ofischer@westmark.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 78,
+  "text": "To: nmoreau@cedarridge.com, shaddad@cedarridge.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t70",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 79,
+  "end": 110,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 111,
+  "end": 148,
+  "text": "Date: Sun, 12 Oct 2025 17:15:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 150,
+  "end": 159,
+  "text": "Hi Nadia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 161,
+  "end": 240,
+  "text": "On 16 September 2025, 09:25 UTC, Owen Fischer initiated the bank detail change.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 241,
+  "end": 311,
+  "text": "The bank detail change happened at Cedar Ridge Packaging Co.'s office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 312,
+  "end": 388,
+  "text": "The audit review was initiated by Sofia Haddad on 5 October 2025, 13:25 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 389,
+  "end": 468,
+  "text": "On October 12, 2025 at 15:15 UTC, Desmond Quinn initiated the payment approval.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 470,
+  "end": 477,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 478,
+  "end": 482,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 100,
+  "text": "Account 6816116030 at Pinecrest National Bank belongs to Cedar Ridge Packaging Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t72",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 101,
+  "end": 184,
+  "text": "Pinecrest National Bank account 6651231250 is registered to Westmark Analytics Inc.",
+  "tids": [
+   "t33",
+   "t34",
+   "t73",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 185,
+  "end": 255,
+  "text": "Account 2447459986 at Pinecrest National Bank belongs to Nadia Moreau.",
+  "tids": [
+   "t36",
+   "t37",
+   "t74",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 257,
+  "end": 329,
+  "text": "Nadia Moreau started the refund request on 16 September 2025, 15:10 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 330,
+  "end": 400,
+  "text": "The refund request took place at the Cedar Ridge Packaging Co. office.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 401,
+  "end": 485,
+  "text": "The vendor onboarding was initiated by Nadia Moreau on October 6, 2025 at 10:15 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 487,
+  "end": 521,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Sofia Novak works for Redfern Tooling Co. and uses the address snovak@redfern.com. [D1.S3] Dana Abara is employed by Redfern Tooling Co.; their email is dana.abara@redfern.com. [D1.S4] Maya Sorensen is employed by Redfern Tooling Co.; their email is maya.sorensen@redfern.com. [D1.S5] Desmond Park works for Harborline Logistics Co. and uses the address desmond.park@harborline.com.
+
+[D1.S6] Redfern Tooling Co. operates from 4728 Maple Avenue, Dayton, OH 45402.
+
+[D1.S7] This summary reflects records available to date.

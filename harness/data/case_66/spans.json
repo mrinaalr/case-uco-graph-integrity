@@ -1,0 +1,466 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Bluegate Services LLC employs Samuel Mendes, who can be reached at samuel.mendes@bluegate.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t63",
+   "t64",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 229,
+  "text": "Desmond Petrov works for Bluegate Services LLC and uses the address desmond.petrov@bluegate.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t65",
+   "t66",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 332,
+  "text": "Stonebridge Packaging Inc. employs Grace Fischer, who can be reached at grace.fischer@stonebridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t67",
+   "t68",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 334,
+  "end": 376,
+  "text": "Desmond Petrov's manager is Samuel Mendes.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 378,
+  "end": 447,
+  "text": "Bluegate Services LLC is based at 2357 Maple Avenue, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 448,
+  "end": 526,
+  "text": "Stonebridge Packaging Inc. operates from 7413 Lakeview Road, Albany, NY 12207.",
+  "tids": [
+   "t47",
+   "t43",
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 528,
+  "end": 567,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: desmond.petrov@bluegate.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 95,
+  "text": "To: samuel.mendes@bluegate.com, grace.fischer@stonebridge.com",
+  "tids": [
+   "t55",
+   "t56",
+   "t69",
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 96,
+  "end": 121,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 122,
+  "end": 159,
+  "text": "Date: Sat, 26 Apr 2025 12:15:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 161,
+  "end": 171,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 173,
+  "end": 253,
+  "text": "The wire transfer was initiated by Grace Fischer on April 12, 2025 at 15:15 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 254,
+  "end": 297,
+  "text": "Samuel Mendes authorized the wire transfer.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 298,
+  "end": 349,
+  "text": "Desmond Petrov also took part in the wire transfer.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 350,
+  "end": 411,
+  "text": "The wire transfer happened at Bluegate Services LLC's office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 412,
+  "end": 488,
+  "text": "Samuel Mendes started the invoice submission on April 26, 2025 at 10:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 489,
+  "end": 550,
+  "text": "Grace Fischer was involved in the invoice submission as well.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 551,
+  "end": 617,
+  "text": "The invoice submission happened at Bluegate Services LLC's office.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 618,
+  "end": 683,
+  "text": "Grace Fischer had been in contact with Desmond Petrov throughout.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 685,
+  "end": 692,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 693,
+  "end": 700,
+  "text": "Desmond",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t71"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@gracef is Grace Fischer.",
+  "tids": [
+   "t37",
+   "t36"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 78,
+  "text": "@samuelm is Samuel Mendes.",
+  "tids": [
+   "t39",
+   "t38"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 157,
+  "text": "[2025-04-12 16:15 UTC] @gracef to @samuelm: Finance is asking questions again.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61",
+   "t62",
+   "t72"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 91,
+  "text": "Account 6652244639 at Union Ledger Bank belongs to Bluegate Services LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t73",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 92,
+  "end": 172,
+  "text": "Union Ledger Bank account 2331499062 is registered to Stonebridge Packaging Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t74",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 174,
+  "end": 246,
+  "text": "Grace Fischer started the vendor onboarding on 14 April 2025, 17:45 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 247,
+  "end": 307,
+  "text": "Samuel Mendes was involved in the vendor onboarding as well.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 308,
+  "end": 377,
+  "text": "The vendor onboarding took place at the Bluegate Services LLC office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 379,
+  "end": 427,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

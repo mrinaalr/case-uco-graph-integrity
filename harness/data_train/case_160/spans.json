@@ -1,0 +1,423 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Cedar Ridge Services LLC employs Hannah Mendes, who can be reached at hannah.mendes@cedarridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t70",
+   "t71",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 231,
+  "text": "Felix Osei is employed by Cedar Ridge Services LLC; their email is felix.osei@cedarridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t72",
+   "t73",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 327,
+  "text": "Cedar Ridge Services LLC employs Owen Moreau, who can be reached at owen.moreau@cedarridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t74",
+   "t75",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 328,
+  "end": 424,
+  "text": "Mei Brennan works for Copperfield Tooling Inc. and uses the address mei.brennan@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t76",
+   "t77",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 426,
+  "end": 506,
+  "text": "The offices of Cedar Ridge Services LLC are at 9370 Elm Street, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 507,
+  "end": 591,
+  "text": "The offices of Copperfield Tooling Inc. are at 9527 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t61",
+   "t57",
+   "t58",
+   "t59",
+   "t60"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 593,
+  "end": 672,
+  "text": "Union Ledger Bank account 1263138163 is registered to Cedar Ridge Services LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t78",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 673,
+  "end": 744,
+  "text": "Copperfield Tooling Inc. holds account 3730899335 at Union Ledger Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t79",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 745,
+  "end": 802,
+  "text": "Felix Osei holds account 1784977869 at Union Ledger Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t80",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 804,
+  "end": 843,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: owen.moreau@cedarridge.com",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 65,
+  "text": "To: hannah.mendes@cedarridge.com",
+  "tids": [
+   "t63",
+   "t81"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 66,
+  "end": 97,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 98,
+  "end": 135,
+  "text": "Date: Sun, 09 Feb 2025 17:30:00 +0000",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 147,
+  "text": "Hi Hannah,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 230,
+  "text": "The invoice submission was initiated by Mei Brennan on 9 January 2025, 12:50 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 231,
+  "end": 300,
+  "text": "The invoice submission happened at Cedar Ridge Services LLC's office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 301,
+  "end": 386,
+  "text": "The contract amendment was initiated by Mei Brennan on January 12, 2025 at 12:45 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 387,
+  "end": 469,
+  "text": "On January 19, 2025 at 17:15 UTC, Mei Brennan initiated the expense reimbursement.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 470,
+  "end": 547,
+  "text": "The refund request was initiated by Felix Osei on 24 January 2025, 14:15 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 548,
+  "end": 631,
+  "text": "The vendor onboarding was initiated by Felix Osei on February 5, 2025 at 09:00 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 632,
+  "end": 712,
+  "text": "Mei Brennan started the account reconciliation on February 9, 2025 at 15:30 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 714,
+  "end": 721,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 722,
+  "end": 726,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t82"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 48,
+  "text": "@felixo is Felix Osei.",
+  "tids": [
+   "t53",
+   "t52"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 49,
+  "end": 71,
+  "text": "@owenm is Owen Moreau.",
+  "tids": [
+   "t55",
+   "t54"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 72,
+  "end": 148,
+  "text": "[2025-01-09 13:50 UTC] @felixo to @owenm: Send me the new form when you can.",
+  "tids": [
+   "t66",
+   "t67",
+   "t68",
+   "t69",
+   "t83"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_2"
+  ]
+ }
+}

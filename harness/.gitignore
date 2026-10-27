@@ -1,10 +1,21 @@
 __pycache__/
 .env
-# Run outputs stay local; only baseline-v1's summaries are tracked.
+# Run outputs stay local; only the summaries of tracked runs are kept.
 results/*
 !results/baseline-v1/
+!results/qa-det-v1/
+!results/qa-llm-v1/
+!results/abc-v1/
 results/baseline-v1/*
-!results/baseline-v1/summary.md
-!results/baseline-v1/summary.csv
-!results/baseline-v1/per_case.csv
-!results/baseline-v1/unsupported_edges_value.md
+results/qa-det-v1/*
+results/qa-llm-v1/*
+results/abc-v1/*
+!results/*/summary.md
+!results/*/summary.csv
+!results/*/per_case.csv
+!results/*/unsupported_edges_value.md
+!results/*/qa_delta.md
+!results/*/qa_delta.csv
+!results/*/rule_coverage.md
+# pypdf text caches written next to the PDFs at run time
+*.pdf.txt

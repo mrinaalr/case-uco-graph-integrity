@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Ruth Delgado is employed by Copperfield Logistics LLC; their email is rdelgado@copperfield.com. [D1.S3] Marcus Abara works for Copperfield Logistics LLC and uses the address mabara@copperfield.com. [D1.S4] Clara Brennan works for Oakhaven Analytics LLC and uses the address clara.brennan@oakhaven.com.
+
+[D1.S5] Marcus Abara reports to Ruth Delgado.
+
+[D1.S6] Copperfield Logistics LLC operates from 3409 Harbor Avenue, Dayton, OH 45402. [D1.S7] The offices of Oakhaven Analytics LLC are at 1846 Riverside Boulevard, Boise, ID 83702.
+
+[D1.S8] Please treat this as confidential.

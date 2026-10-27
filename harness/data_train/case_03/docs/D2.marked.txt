@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Sofia Whitfield works for Redfern Industrial Inc. and uses the address swhitfield@redfern.com. [D2.S3] Redfern Industrial Inc. employs Owen Brennan, who can be reached at owen.brennan@redfern.com. [D2.S4] Nadia Lindqvist works for Clearpath Fabrication Group and uses the address nlindqvist@clearpath.com.
+
+[D2.S5] Redfern Industrial Inc. is based at 3531 Maple Avenue, Raleigh, NC 27601.
+
+[D2.S6] Redfern Industrial Inc. holds account 5304471911 at Meridian Trust Bank. [D2.S7] Meridian Trust Bank account 1383272497 is registered to Clearpath Fabrication Group. [D2.S8] Sofia Whitfield holds account 2141124997 at Meridian Trust Bank.
+
+[D2.S9] Please treat this as confidential.

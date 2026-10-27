@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Lena Banerjee works for Ironleaf Components Inc. and uses the address lbanerjee@ironleaf.com. [D1.S3] Ironleaf Components Inc. employs Clara Abara, who can be reached at clara.abara@ironleaf.com. [D1.S4] Priya Castillo is employed by Ironleaf Components Inc.; their email is pcastillo@ironleaf.com. [D1.S5] Silverlake Packaging LLC employs Irene Ashworth, who can be reached at iashworth@silverlake.com.
+
+[D1.S6] Ironleaf Components Inc. operates from 134 Harbor Avenue, Richmond, VA 23219.
+
+[D1.S7] Ironleaf Components Inc. holds account 4971205345 at Union Ledger Bank. [D1.S8] Union Ledger Bank account 9039418874 is registered to Silverlake Packaging LLC. [D1.S9] Lena Banerjee holds account 6663310206 at Union Ledger Bank.
+
+[D1.S10] Account 4971205345 sent a transfer to account 6663310206.
+
+[D1.S11] Let me know if anything here looks off.

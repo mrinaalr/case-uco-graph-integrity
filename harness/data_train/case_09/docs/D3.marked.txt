@@ -1,0 +1,11 @@
+[D3.S1] From: maya.novak@ironleaf.com
+[D3.S2] To: tomas.osei@redfern.com
+[D3.S3] Subject: Invoice 6132 follow-up
+[D3.S4] Date: Tue, 08 Apr 2025 17:00:00 +0000
+
+[D3.S5] Hi Tomas,
+
+[D3.S6] The expense reimbursement was initiated by Clara Moreau on 19 March 2025, 12:50 UTC. [D3.S7] Tomas Osei authorized the expense reimbursement. [D3.S8] Maya Novak was involved in the expense reimbursement as well. [D3.S9] The refund request was initiated by Tomas Osei on April 8, 2025 at 15:00 UTC. [D3.S10] Rosa Quinn had been in contact with Tomas Osei throughout.
+
+[D3.S11] Thanks,
+[D3.S12] Maya

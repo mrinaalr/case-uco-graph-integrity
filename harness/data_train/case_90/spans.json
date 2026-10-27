@@ -1,0 +1,367 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 126,
+  "text": "Maya Okafor works for Westmark Components Co. and uses the address mokafor@westmark.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t63",
+   "t64",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 127,
+  "end": 221,
+  "text": "Felix Haddad is employed by Westmark Components Co.; their email is felix.haddad@westmark.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t65",
+   "t66",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 315,
+  "text": "Nadia Holloway works for Westmark Components Co. and uses the address nholloway@westmark.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t67",
+   "t68",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 316,
+  "end": 414,
+  "text": "Kofi Novak is employed by Copperfield Components Group; their email is kofi.novak@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t69",
+   "t70",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 416,
+  "end": 499,
+  "text": "The offices of Westmark Components Co. are at 2355 Maple Avenue, Raleigh, NC 27601.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 501,
+  "end": 578,
+  "text": "Union Ledger Bank account 2008552001 is registered to Westmark Components Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t71",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 579,
+  "end": 659,
+  "text": "Account 6897017292 at Union Ledger Bank belongs to Copperfield Components Group.",
+  "tids": [
+   "t29",
+   "t30",
+   "t72",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 660,
+  "end": 721,
+  "text": "Nadia Holloway holds account 4914145726 at Union Ledger Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t73",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 723,
+  "end": 771,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: kofi.novak@copperfield.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 86,
+  "text": "To: nholloway@westmark.com, felix.haddad@westmark.com",
+  "tids": [
+   "t59",
+   "t60",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 87,
+  "end": 118,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 119,
+  "end": 156,
+  "text": "Date: Fri, 25 Apr 2025 12:45:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 158,
+  "end": 167,
+  "text": "Hi Nadia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 169,
+  "end": 242,
+  "text": "On 25 March 2025, 14:45 UTC, Maya Okafor initiated the vendor onboarding.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 243,
+  "end": 322,
+  "text": "On 30 March 2025, 15:00 UTC, Felix Haddad initiated the account reconciliation.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 323,
+  "end": 394,
+  "text": "On 6 April 2025, 09:45 UTC, Maya Okafor initiated the payment approval.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 395,
+  "end": 475,
+  "text": "The invoice submission was initiated by Maya Okafor on 18 April 2025, 09:00 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 476,
+  "end": 557,
+  "text": "The contract amendment was initiated by Felix Haddad on 18 April 2025, 14:25 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 558,
+  "end": 634,
+  "text": "On 20 April 2025, 16:25 UTC, Kofi Novak initiated the expense reimbursement.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 635,
+  "end": 705,
+  "text": "On April 20, 2025 at 17:25 UTC, Kofi Novak initiated the audit review.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 706,
+  "end": 778,
+  "text": "On 25 April 2025, 10:45 UTC, Nadia Holloway initiated the wire transfer.",
+  "tids": [
+   "t55",
+   "t56",
+   "t57"
+  ],
+  "mentions": [
+   "event_7",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 780,
+  "end": 787,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 788,
+  "end": 792,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ }
+}

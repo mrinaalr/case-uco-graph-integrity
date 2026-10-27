@@ -1,0 +1,11 @@
+[D2.S1] From: clara.okafor@silverlake.com
+[D2.S2] To: owen.vance@oakhaven.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Sat, 11 Oct 2025 13:30:00 +0000
+
+[D2.S5] Hi Owen,
+
+[D2.S6] The vendor onboarding was initiated by Clara Okafor on 19 September 2025, 15:30 UTC. [D2.S7] The vendor onboarding took place at the Silverlake Supply Ltd. office. [D2.S8] On 25 September 2025, 15:30 UTC, Owen Vance initiated the bank detail change. [D2.S9] The bank detail change took place at the Silverlake Supply Ltd. office. [D2.S10] Clara Okafor started the payment approval on 4 October 2025, 15:10 UTC. [D2.S11] On October 11, 2025 at 11:30 UTC, Clara Okafor initiated the invoice submission.
+
+[D2.S12] Thanks,
+[D2.S13] Clara

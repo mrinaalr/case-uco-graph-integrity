@@ -1,0 +1,509 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: sofia.delgado@ironleaf.com",
+  "tids": [
+   "t59",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 60,
+  "text": "To: priya.osei@ironleaf.com",
+  "tids": [
+   "t60",
+   "t67",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 61,
+  "end": 97,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 98,
+  "end": 135,
+  "text": "Date: Sun, 18 May 2025 14:00:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 146,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 148,
+  "end": 222,
+  "text": "On May 18, 2025 at 12:00 UTC, Priya Osei initiated the bank detail change.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 223,
+  "end": 268,
+  "text": "Maya Vance authorized the bank detail change.",
+  "tids": [
+   "t58",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 269,
+  "end": 331,
+  "text": "Yara Lindqvist was involved in the bank detail change as well.",
+  "tids": [
+   "t48",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 332,
+  "end": 403,
+  "text": "The bank detail change took place at the Redfern Analytics Ltd. office.",
+  "tids": [
+   "t49",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 405,
+  "end": 412,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 413,
+  "end": 418,
+  "text": "Sofia",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 125,
+  "text": "Andre Moreau is employed by Redfern Analytics Ltd.; their email is amoreau@redfern.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t68",
+   "t69",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 126,
+  "end": 214,
+  "text": "Maya Vance works for Redfern Analytics Ltd. and uses the address maya.vance@redfern.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t70",
+   "t71",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 215,
+  "end": 307,
+  "text": "Yara Lindqvist is employed by Redfern Analytics Ltd.; their email is ylindqvist@redfern.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t72",
+   "t73",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 308,
+  "end": 399,
+  "text": "Ironleaf Consulting Inc. employs Priya Osei, who can be reached at priya.osei@ironleaf.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t74",
+   "t75",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 400,
+  "end": 497,
+  "text": "Sofia Delgado is employed by Ironleaf Consulting Inc.; their email is sofia.delgado@ironleaf.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t76",
+   "t77",
+   "t8"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 499,
+  "end": 536,
+  "text": "Maya Vance's manager is Andre Moreau.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 537,
+  "end": 576,
+  "text": "Yara Lindqvist reports to Andre Moreau.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 578,
+  "end": 661,
+  "text": "The offices of Redfern Analytics Ltd. are at 8854 Lakeview Road, Spokane, WA 99201.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 662,
+  "end": 739,
+  "text": "Ironleaf Consulting Inc. is based at 3057 Commerce Drive, Richmond, VA 23219.",
+  "tids": [
+   "t55",
+   "t51",
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 741,
+  "end": 780,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 29,
+  "text": "From: priya.osei@ironleaf.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 30,
+  "end": 53,
+  "text": "To: amoreau@redfern.com",
+  "tids": [
+   "t64",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 54,
+  "end": 85,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 86,
+  "end": 123,
+  "text": "Date: Tue, 03 Jun 2025 16:10:00 +0000",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 125,
+  "end": 134,
+  "text": "Hi Andre,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 136,
+  "end": 220,
+  "text": "The expense reimbursement was initiated by Yara Lindqvist on 3 June 2025, 14:10 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 222,
+  "end": 229,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 230,
+  "end": 235,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 91,
+  "text": "Account 8529618342 at First Harbor Bank belongs to Redfern Analytics Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t79",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 92,
+  "end": 163,
+  "text": "Ironleaf Consulting Inc. holds account 7368583635 at First Harbor Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t80",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 164,
+  "end": 225,
+  "text": "Yara Lindqvist holds account 5669286409 at First Harbor Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t81",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 227,
+  "end": 305,
+  "text": "The payment approval was initiated by Priya Osei on June 6, 2025 at 09:10 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 306,
+  "end": 363,
+  "text": "Account 8529618342 sent a transfer to account 7368583635.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 364,
+  "end": 423,
+  "text": "Priya Osei communicated with Maya Vance about the payments.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_3",
+   "person_1"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 425,
+  "end": 473,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

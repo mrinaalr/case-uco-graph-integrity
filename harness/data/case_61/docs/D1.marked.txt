@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Sofia Banerjee works for Silverlake Consulting Co. and uses the address sbanerjee@silverlake.com. [D1.S3] Kofi Haddad is employed by Silverlake Consulting Co.; their email is kofi.haddad@silverlake.com. [D1.S4] Yara Castillo is employed by Silverlake Consulting Co.; their email is ycastillo@silverlake.com. [D1.S5] Brightwater Distribution Co. employs Dana Tanaka, who can be reached at dana.tanaka@brightwater.com.
+
+[D1.S6] Kofi Haddad reports to Sofia Banerjee.
+
+[D1.S7] The offices of Silverlake Consulting Co. are at 7871 Riverside Boulevard, Raleigh, NC 27601.
+
+[D1.S8] Silverlake Consulting Co. holds account 7768046532 at Union Ledger Bank. [D1.S9] Brightwater Distribution Co. holds account 7957094499 at Union Ledger Bank. [D1.S10] Account 5516131658 at Union Ledger Bank belongs to Kofi Haddad.
+
+[D1.S11] Account 7768046532 sent a transfer to account 7957094499. [D1.S12] Funds moved from account 7768046532 to account 5516131658.
+
+[D1.S13] Please treat this as confidential.

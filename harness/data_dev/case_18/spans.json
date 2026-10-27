@@ -1,0 +1,426 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 134,
+  "text": "Mei Tanaka is employed by Stonebridge Components Co.; their email is mei.tanaka@stonebridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t68",
+   "t69",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 239,
+  "text": "Felix Sorensen works for Stonebridge Components Co. and uses the address felix.sorensen@stonebridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t70",
+   "t71",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 240,
+  "end": 338,
+  "text": "Grace Vance is employed by Stonebridge Components Co.; their email is grace.vance@stonebridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t72",
+   "t73",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 339,
+  "end": 433,
+  "text": "Victor Quinn is employed by Oakhaven Consulting Co.; their email is victor.quinn@oakhaven.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t74",
+   "t75",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 434,
+  "end": 525,
+  "text": "Oakhaven Consulting Co. employs Sofia Ivanova, who can be reached at sivanova@oakhaven.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t76",
+   "t77",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 527,
+  "end": 602,
+  "text": "Stonebridge Components Co. is based at 8973 Main Street, Madison, WI 53703.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 604,
+  "end": 684,
+  "text": "Union Ledger Bank account 9481888281 is registered to Stonebridge Components Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t78",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 685,
+  "end": 759,
+  "text": "Account 8851075868 at Union Ledger Bank belongs to Oakhaven Consulting Co.",
+  "tids": [
+   "t33",
+   "t34",
+   "t79",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 760,
+  "end": 826,
+  "text": "Union Ledger Bank account 1808232540 is registered to Grace Vance.",
+  "tids": [
+   "t36",
+   "t37",
+   "t80",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 828,
+  "end": 876,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: grace.vance@stonebridge.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 96,
+  "text": "To: felix.sorensen@stonebridge.com, mei.tanaka@stonebridge.com",
+  "tids": [
+   "t64",
+   "t65",
+   "t81",
+   "t82"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 97,
+  "end": 128,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 166,
+  "text": "Date: Tue, 13 May 2025 13:10:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 168,
+  "end": 177,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 179,
+  "end": 255,
+  "text": "The wire transfer was initiated by Mei Tanaka on April 8, 2025 at 11:25 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 256,
+  "end": 329,
+  "text": "On April 8, 2025 at 16:15 UTC, Victor Quinn initiated the refund request.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 330,
+  "end": 397,
+  "text": "The refund request happened at Stonebridge Components Co.'s office.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 398,
+  "end": 476,
+  "text": "On 12 April 2025, 14:50 UTC, Grace Vance initiated the account reconciliation.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 477,
+  "end": 551,
+  "text": "Felix Sorensen started the invoice submission on 15 April 2025, 10:30 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 552,
+  "end": 605,
+  "text": "Grace Vance also took part in the invoice submission.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 606,
+  "end": 676,
+  "text": "Mei Tanaka started the contract amendment on 21 April 2025, 09:25 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 677,
+  "end": 748,
+  "text": "Felix Sorensen started the audit review on April 26, 2025 at 10:10 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 749,
+  "end": 797,
+  "text": "Victor Quinn also took part in the audit review.",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "person_3",
+   "event_5"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 798,
+  "end": 867,
+  "text": "The audit review took place at the Stonebridge Components Co. office.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 868,
+  "end": 936,
+  "text": "Mei Tanaka started the bank detail change on 13 May 2025, 11:10 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 938,
+  "end": 945,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 946,
+  "end": 951,
+  "text": "Grace",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D3.S1] From: grace.brennan@harborline.com
+[D3.S2] To: sofia.abara@westmark.com
+[D3.S3] Subject: Urgent: payment timing
+[D3.S4] Date: Thu, 02 Oct 2025 11:30:00 +0000
+
+[D3.S5] Hi Sofia,
+
+[D3.S6] The refund request was initiated by Lena Castillo on 2 October 2025, 09:30 UTC. [D3.S7] Approval for the refund request came from Grace Brennan.
+
+[D3.S8] Thanks,
+[D3.S9] Grace

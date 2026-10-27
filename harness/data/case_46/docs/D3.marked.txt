@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @julianr is Julian Reyes.
+[D3.S3] @samuelo is Samuel Osei.
+[D3.S4] [2025-02-05 14:00 UTC] @julianr to @samuelo: Can you look at the vendor file before lunch?
+[D3.S5] [2025-02-05 14:07 UTC] @samuelo to @julianr: Send me the new form when you can.

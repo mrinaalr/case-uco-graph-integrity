@@ -1,0 +1,412 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Oscar Okafor is employed by Copperfield Freight Inc.; their email is ookafor@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t60",
+   "t61",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 222,
+  "text": "Yara Vance is employed by Copperfield Freight Inc.; their email is yvance@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t62",
+   "t63",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 223,
+  "end": 315,
+  "text": "Copperfield Freight Inc. employs Rosa Haddad, who can be reached at rhaddad@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t64",
+   "t65",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 316,
+  "end": 416,
+  "text": "Ruth Whitfield works for Harborline Services LLC and uses the address ruth.whitfield@harborline.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t66",
+   "t67",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 418,
+  "end": 455,
+  "text": "Yara Vance's manager is Oscar Okafor.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 457,
+  "end": 532,
+  "text": "Copperfield Freight Inc. operates from 708 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 534,
+  "end": 614,
+  "text": "Meridian Trust Bank account 4754703346 is registered to Copperfield Freight Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t68",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 615,
+  "end": 692,
+  "text": "Account 5297748478 at Meridian Trust Bank belongs to Harborline Services LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t69",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 693,
+  "end": 753,
+  "text": "Rosa Haddad holds account 2305389542 at Meridian Trust Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t70",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 755,
+  "end": 813,
+  "text": "Funds moved from account 4754703346 to account 2305389542.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 815,
+  "end": 863,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 35,
+  "text": "From: ruth.whitfield@harborline.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 36,
+  "end": 63,
+  "text": "To: rhaddad@copperfield.com",
+  "tids": [
+   "t57",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 64,
+  "end": 97,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 98,
+  "end": 135,
+  "text": "Date: Wed, 22 Oct 2025 18:15:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 145,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 147,
+  "end": 225,
+  "text": "Rosa Haddad started the expense reimbursement on October 1, 2025 at 09:50 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 289,
+  "text": "Oscar Okafor was involved in the expense reimbursement as well.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 290,
+  "end": 366,
+  "text": "The expense reimbursement took place at the Copperfield Freight Inc. office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 367,
+  "end": 439,
+  "text": "Yara Vance started the bank detail change on 11 October 2025, 12:25 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 440,
+  "end": 516,
+  "text": "Ruth Whitfield started the invoice submission on 13 October 2025, 09:30 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 517,
+  "end": 586,
+  "text": "The invoice submission happened at Copperfield Freight Inc.'s office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 587,
+  "end": 668,
+  "text": "The refund request was initiated by Rosa Haddad on October 13, 2025 at 11:50 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 669,
+  "end": 723,
+  "text": "Yara Vance was involved in the refund request as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 724,
+  "end": 795,
+  "text": "Oscar Okafor started the audit review on October 22, 2025 at 16:15 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 796,
+  "end": 843,
+  "text": "Rosa Haddad also took part in the audit review.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "event_4"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 845,
+  "end": 852,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 853,
+  "end": 857,
+  "text": "Ruth",
+  "tids": [],
+  "mentions": []
+ }
+}

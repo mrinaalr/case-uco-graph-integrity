@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Tomas Castillo works for Westmark Analytics Co. and uses the address tcastillo@westmark.com. [D1.S3] Westmark Analytics Co. employs Ruth Ivanova, who can be reached at rivanova@westmark.com. [D1.S4] Westmark Analytics Co. employs Luca Mendes, who can be reached at luca.mendes@westmark.com. [D1.S5] Clearpath Fabrication Group employs Samuel Holloway, who can be reached at sholloway@clearpath.com.
+
+[D1.S6] Luca Mendes reports to Tomas Castillo.
+
+[D1.S7] Westmark Analytics Co. is based at 6434 Main Street, Omaha, NE 68102. [D1.S8] Clearpath Fabrication Group operates from 7928 Maple Avenue, Boise, ID 83702.
+
+[D1.S9] This summary reflects records available to date.

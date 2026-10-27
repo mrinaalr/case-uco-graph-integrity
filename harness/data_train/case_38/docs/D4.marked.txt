@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] First Harbor Bank account 1181520774 is registered to Cedar Ridge Fabrication LLC. [D4.S3] Bluegate Services Group holds account 1309437181 at First Harbor Bank.
+
+[D4.S4] Priya Petrov started the refund request on June 10, 2025 at 14:15 UTC. [D4.S5] Approval for the refund request came from Felix Park. [D4.S6] The refund request happened at Cedar Ridge Fabrication LLC's office. [D4.S7] On 21 June 2025, 13:50 UTC, Tomas Banerjee initiated the bank detail change. [D4.S8] Felix Park started the account reconciliation on June 28, 2025 at 14:10 UTC.
+
+[D4.S9] More detail will follow once records are pulled.

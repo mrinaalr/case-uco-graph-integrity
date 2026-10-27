@@ -1,0 +1,364 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 31,
+  "text": "From: dana.abara@harborline.com",
+  "tids": [
+   "t43",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 32,
+  "end": 90,
+  "text": "To: rosa.brennan@stonebridge.com, edelgado@stonebridge.com",
+  "tids": [
+   "t44",
+   "t45",
+   "t52",
+   "t53",
+   "t8",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 91,
+  "end": 127,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 128,
+  "end": 165,
+  "text": "Date: Mon, 12 May 2025 15:25:00 +0000",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 167,
+  "end": 175,
+  "text": "Hi Rosa,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 177,
+  "end": 252,
+  "text": "The refund request was initiated by Dana Abara on 11 April 2025, 14:50 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 253,
+  "end": 328,
+  "text": "The wire transfer was initiated by Dana Abara on May 12, 2025 at 13:25 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 330,
+  "end": 337,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 338,
+  "end": 342,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 136,
+  "text": "Elena Delgado works for Stonebridge Components Ltd. and uses the address edelgado@stonebridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t54",
+   "t55",
+   "t1",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 236,
+  "text": "Yara Moreau is employed by Stonebridge Components Ltd.; their email is yara.moreau@stonebridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t56",
+   "t57",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 237,
+  "end": 338,
+  "text": "Rosa Brennan works for Stonebridge Components Ltd. and uses the address rosa.brennan@stonebridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t58",
+   "t59",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 339,
+  "end": 436,
+  "text": "Dana Abara works for Harborline Distribution Inc. and uses the address dana.abara@harborline.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t60",
+   "t61",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 438,
+  "end": 523,
+  "text": "Stonebridge Components Ltd. operates from 9255 Riverside Boulevard, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 525,
+  "end": 608,
+  "text": "Meridian Trust Bank account 8365040253 is registered to Stonebridge Components Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t62",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 609,
+  "end": 690,
+  "text": "Account 5900270051 at Meridian Trust Bank belongs to Harborline Distribution Inc.",
+  "tids": [
+   "t29",
+   "t30",
+   "t63",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 692,
+  "end": 731,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 31,
+  "text": "From: dana.abara@harborline.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 32,
+  "end": 60,
+  "text": "To: edelgado@stonebridge.com",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 61,
+  "end": 92,
+  "text": "Subject: Invoice 8036 follow-up",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Tue, 20 May 2025 12:50:00 +0000",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 132,
+  "end": 141,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 143,
+  "end": 215,
+  "text": "On May 7, 2025 at 09:25 UTC, Dana Abara initiated the vendor onboarding.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 216,
+  "end": 289,
+  "text": "Rosa Brennan started the invoice submission on May 20, 2025 at 10:50 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 291,
+  "end": 298,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 299,
+  "end": 303,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ }
+}

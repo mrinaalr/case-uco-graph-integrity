@@ -1,0 +1,287 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 139,
+  "text": "Northwind Tooling Group employs Samuel Kowalski, who can be reached at samuel.kowalski@northwind.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t47",
+   "t48",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 241,
+  "text": "Priya Lindqvist is employed by Northwind Tooling Group; their email is priya.lindqvist@northwind.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t49",
+   "t50",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 242,
+  "end": 329,
+  "text": "Clearpath Packaging LLC employs Wesley Park, who can be reached at wpark@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t51",
+   "t52",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 331,
+  "end": 403,
+  "text": "Northwind Tooling Group is based at 3697 Market Street, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 405,
+  "end": 488,
+  "text": "Lakeshore Savings Bank account 7117807180 is registered to Northwind Tooling Group.",
+  "tids": [
+   "t22",
+   "t23",
+   "t53",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 489,
+  "end": 572,
+  "text": "Lakeshore Savings Bank account 2340969474 is registered to Clearpath Packaging LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t54",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 573,
+  "end": 640,
+  "text": "Priya Lindqvist holds account 6720495784 at Lakeshore Savings Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t55",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 642,
+  "end": 690,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 25,
+  "text": "From: wpark@clearpath.com",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 26,
+  "end": 90,
+  "text": "To: priya.lindqvist@northwind.com, samuel.kowalski@northwind.com",
+  "tids": [
+   "t43",
+   "t44",
+   "t56",
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 91,
+  "end": 126,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 127,
+  "end": 164,
+  "text": "Date: Sun, 10 Aug 2025 15:15:00 +0000",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 175,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 177,
+  "end": 254,
+  "text": "On 20 July 2025, 12:45 UTC, Priya Lindqvist initiated the invoice submission.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 255,
+  "end": 325,
+  "text": "Priya Lindqvist started the refund request on 21 July 2025, 16:00 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 326,
+  "end": 399,
+  "text": "Samuel Kowalski started the payment approval on 2 August 2025, 14:10 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 400,
+  "end": 466,
+  "text": "Wesley Park started the audit review on 10 August 2025, 13:15 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 468,
+  "end": 475,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 476,
+  "end": 482,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ }
+}

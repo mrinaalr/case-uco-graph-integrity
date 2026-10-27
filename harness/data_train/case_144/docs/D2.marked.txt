@@ -1,0 +1,11 @@
+[D2.S1] From: ybrennan@oakhaven.com
+[D2.S2] To: areyes@cedarridge.com, odelgado@cedarridge.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Fri, 07 Feb 2025 15:45:00 +0000
+
+[D2.S5] Hi Andre,
+
+[D2.S6] On January 18, 2025 at 13:45 UTC, Oscar Delgado initiated the bank detail change. [D2.S7] Andre Reyes was involved in the bank detail change as well. [D2.S8] The bank detail change took place at the Cedar Ridge Fabrication Inc. office. [D2.S9] On 25 January 2025, 13:10 UTC, Yara Brennan initiated the vendor onboarding. [D2.S10] Andre Reyes also took part in the vendor onboarding. [D2.S11] On 7 February 2025, 13:45 UTC, Andre Reyes initiated the payment approval. [D2.S12] Yara Brennan authorized the payment approval. [D2.S13] The payment approval took place at the Cedar Ridge Fabrication Inc. office.
+
+[D2.S14] Thanks,
+[D2.S15] Yara

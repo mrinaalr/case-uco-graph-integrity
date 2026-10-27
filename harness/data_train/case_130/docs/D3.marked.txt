@@ -1,0 +1,11 @@
+[D3.S1] From: sokafor@bluegate.com
+[D3.S2] To: arjun.vance@westmark.com, mei.park@bluegate.com
+[D3.S3] Subject: Audit prep items
+[D3.S4] Date: Sun, 13 Apr 2025 16:50:00 +0000
+
+[D3.S5] Hi Arjun,
+
+[D3.S6] On 24 March 2025, 09:45 UTC, Clara Osei initiated the expense reimbursement. [D3.S7] On 13 April 2025, 14:50 UTC, Clara Osei initiated the wire transfer.
+
+[D3.S8] Thanks,
+[D3.S9] Samuel

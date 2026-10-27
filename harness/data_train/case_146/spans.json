@@ -1,0 +1,476 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 138,
+  "text": "Hector Moreau is employed by Copperfield Distribution Group; their email is hmoreau@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t75",
+   "t76",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 244,
+  "text": "Andre Whitfield is employed by Copperfield Distribution Group; their email is awhitfield@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t77",
+   "t78",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 245,
+  "end": 347,
+  "text": "Copperfield Distribution Group employs Luca Haddad, who can be reached at luca.haddad@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t79",
+   "t80",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 348,
+  "end": 434,
+  "text": "Oscar Quinn is employed by Clearpath Tooling LLC; their email is oquinn@clearpath.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t81",
+   "t82",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 436,
+  "end": 477,
+  "text": "Andre Whitfield reports to Hector Moreau.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 479,
+  "end": 559,
+  "text": "Copperfield Distribution Group is based at 7076 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 561,
+  "end": 643,
+  "text": "Account 8617788154 at Union Ledger Bank belongs to Copperfield Distribution Group.",
+  "tids": [
+   "t26",
+   "t27",
+   "t83",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 644,
+  "end": 717,
+  "text": "Account 6144809874 at Union Ledger Bank belongs to Clearpath Tooling LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t84",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 719,
+  "end": 767,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: oquinn@clearpath.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 57,
+  "text": "To: awhitfield@copperfield.com",
+  "tids": [
+   "t64",
+   "t85"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 58,
+  "end": 94,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Fri, 25 Apr 2025 11:25:00 +0000",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 143,
+  "text": "Hi Andre,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 145,
+  "end": 212,
+  "text": "Hector Moreau started the audit review on 18 March 2025, 09:50 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 213,
+  "end": 266,
+  "text": "Luca Haddad was involved in the audit review as well.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 267,
+  "end": 350,
+  "text": "The vendor onboarding was initiated by Andre Whitfield on 22 March 2025, 14:45 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 351,
+  "end": 428,
+  "text": "On 6 April 2025, 15:10 UTC, Andre Whitfield initiated the bank detail change.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 429,
+  "end": 506,
+  "text": "Andre Whitfield started the expense reimbursement on 7 April 2025, 11:00 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 507,
+  "end": 582,
+  "text": "Hector Moreau started the contract amendment on April 9, 2025 at 14:50 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 583,
+  "end": 666,
+  "text": "The invoice submission was initiated by Oscar Quinn on April 12, 2025 at 16:10 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 667,
+  "end": 746,
+  "text": "The refund request was initiated by Oscar Quinn on April 13, 2025 at 10:45 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 747,
+  "end": 793,
+  "text": "Andre Whitfield authorized the refund request.",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "person_1",
+   "event_6"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 794,
+  "end": 874,
+  "text": "On 25 April 2025, 09:25 UTC, Hector Moreau initiated the account reconciliation.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_7",
+   "person_0"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 875,
+  "end": 958,
+  "text": "The account reconciliation took place at the Copperfield Distribution Group office.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "event_7",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 960,
+  "end": 967,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 968,
+  "end": 973,
+  "text": "Oscar",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t86"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 52,
+  "text": "@hectorm is Hector Moreau.",
+  "tids": [
+   "t56",
+   "t55"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 75,
+  "text": "@lucah is Luca Haddad.",
+  "tids": [
+   "t58",
+   "t57"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 164,
+  "text": "[2025-03-18 10:50 UTC] @hectorm to @lucah: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t67",
+   "t68",
+   "t69",
+   "t70",
+   "t87"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 165,
+  "end": 242,
+  "text": "[2025-03-18 10:57 UTC] @lucah to @hectorm: Send me the new form when you can.",
+  "tids": [
+   "t71",
+   "t72",
+   "t73",
+   "t74",
+   "t88"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ }
+}

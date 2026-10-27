@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Lena Fischer is employed by Clearpath Packaging LLC; their email is lena.fischer@clearpath.com. [D1.S3] Ruth Holloway is employed by Clearpath Packaging LLC; their email is ruth.holloway@clearpath.com. [D1.S4] Mei Castillo is employed by Clearpath Packaging LLC; their email is mcastillo@clearpath.com. [D1.S5] Andre Moreau works for Stonebridge Consulting Group and uses the address andre.moreau@stonebridge.com. [D1.S6] Julian Quinn is employed by Stonebridge Consulting Group; their email is julian.quinn@stonebridge.com.
+
+[D1.S7] Mei Castillo's manager is Lena Fischer. [D1.S8] Ruth Holloway reports to Lena Fischer.
+
+[D1.S9] Clearpath Packaging LLC is based at 8120 Riverside Boulevard, Richmond, VA 23219.
+
+[D1.S10] Lena Fischer communicated with Andre Moreau about the payments.
+
+[D1.S11] More detail will follow once records are pulled.

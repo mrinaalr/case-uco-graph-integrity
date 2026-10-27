@@ -1,0 +1,13 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Harborline Distribution Co. employs Rosa Mendes, who can be reached at rmendes@harborline.com. [D2.S3] Harborline Distribution Co. employs Felix Whitfield, who can be reached at fwhitfield@harborline.com. [D2.S4] Westmark Industrial Group employs Desmond Ivanova, who can be reached at divanova@westmark.com.
+
+[D2.S5] Felix Whitfield's manager is Rosa Mendes.
+
+[D2.S6] The offices of Harborline Distribution Co. are at 4294 Commerce Drive, Albany, NY 12207. [D2.S7] The offices of Westmark Industrial Group are at 2371 Lakeview Road, Boise, ID 83702.
+
+[D2.S8] Meridian Trust Bank account 9685289577 is registered to Harborline Distribution Co. [D2.S9] Account 4812497372 at Meridian Trust Bank belongs to Westmark Industrial Group. [D2.S10] Felix Whitfield holds account 2459164496 at Meridian Trust Bank.
+
+[D2.S11] Account 9685289577 sent a transfer to account 4812497372. [D2.S12] Account 9685289577 sent a transfer to account 2459164496.
+
+[D2.S13] Please treat this as confidential.

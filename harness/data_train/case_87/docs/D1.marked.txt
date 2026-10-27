@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Owen Kowalski is employed by Stonebridge Distribution Group; their email is okowalski@stonebridge.com. [D1.S3] Rosa Mendes works for Stonebridge Distribution Group and uses the address rosa.mendes@stonebridge.com. [D1.S4] Luca Brennan is employed by Stonebridge Distribution Group; their email is lbrennan@stonebridge.com. [D1.S5] Victor Vance works for Northwind Packaging Inc. and uses the address victor.vance@northwind.com.
+
+[D1.S6] Rosa Mendes's manager is Owen Kowalski.
+
+[D1.S7] The offices of Stonebridge Distribution Group are at 8313 Elm Street, Richmond, VA 23219.
+
+[D1.S8] This summary reflects records available to date.

@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Granite Federal Credit Union account 5702670208 is registered to Harborline Distribution LLC. [D4.S3] Copperfield Freight Group holds account 9010077282 at Granite Federal Credit Union. [D4.S4] Victor Holloway holds account 4187188057 at Granite Federal Credit Union.
+
+[D4.S5] Felix Lindqvist started the wire transfer on May 23, 2025 at 14:50 UTC. [D4.S6] Victor Holloway authorized the wire transfer. [D4.S7] Felix Lindqvist started the payment approval on 13 June 2025, 15:30 UTC. [D4.S8] Account 5702670208 sent a transfer to account 9010077282.
+
+[D4.S9] Let me know if anything here looks off.

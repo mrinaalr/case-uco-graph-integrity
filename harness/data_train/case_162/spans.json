@@ -1,0 +1,449 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 144,
+  "text": "Samuel Castillo is employed by Copperfield Packaging Inc.; their email is samuel.castillo@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t71",
+   "t72",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 145,
+  "end": 237,
+  "text": "Owen Reyes is employed by Copperfield Packaging Inc.; their email is oreyes@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t73",
+   "t74",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 342,
+  "text": "Copperfield Packaging Inc. employs Elena Banerjee, who can be reached at elena.banerjee@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t75",
+   "t76",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 343,
+  "end": 432,
+  "text": "Nadia Mendes is employed by Bluegate Industrial LLC; their email is nmendes@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t77",
+   "t78",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 434,
+  "end": 510,
+  "text": "Copperfield Packaging Inc. is based at 1062 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 511,
+  "end": 587,
+  "text": "Bluegate Industrial LLC operates from 7793 Lakeview Road, Madison, WI 53703.",
+  "tids": [
+   "t52",
+   "t48",
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 589,
+  "end": 668,
+  "text": "Account 7709006838 at Meridian Trust Bank belongs to Copperfield Packaging Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t79",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 669,
+  "end": 746,
+  "text": "Account 3526845417 at Meridian Trust Bank belongs to Bluegate Industrial LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t80",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 748,
+  "end": 806,
+  "text": "Funds moved from account 7709006838 to account 3526845417.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 808,
+  "end": 847,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 37,
+  "text": "From: samuel.castillo@copperfield.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 96,
+  "text": "To: elena.banerjee@copperfield.com, oreyes@copperfield.com",
+  "tids": [
+   "t55",
+   "t56",
+   "t81",
+   "t82"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 97,
+  "end": 132,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 170,
+  "text": "Date: Tue, 20 May 2025 17:30:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 172,
+  "end": 181,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 183,
+  "end": 256,
+  "text": "Samuel Castillo started the payment approval on 30 April 2025, 11:30 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 257,
+  "end": 311,
+  "text": "Elena Banerjee also took part in the payment approval.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 312,
+  "end": 385,
+  "text": "Nadia Mendes started the contract amendment on May 14, 2025 at 15:25 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 386,
+  "end": 448,
+  "text": "Approval for the contract amendment came from Samuel Castillo.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 449,
+  "end": 511,
+  "text": "Elena Banerjee was involved in the contract amendment as well.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 512,
+  "end": 585,
+  "text": "On May 20, 2025 at 15:30 UTC, Elena Banerjee initiated the wire transfer.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 586,
+  "end": 626,
+  "text": "Owen Reyes authorized the wire transfer.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 628,
+  "end": 635,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 636,
+  "end": 642,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t83"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 47,
+  "text": "@owenr is Owen Reyes.",
+  "tids": [
+   "t41",
+   "t40"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 48,
+  "end": 76,
+  "text": "@samuelc is Samuel Castillo.",
+  "tids": [
+   "t43",
+   "t42"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 77,
+  "end": 154,
+  "text": "[2025-04-30 12:30 UTC] @owenr to @samuelc: Finance is asking questions again.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61",
+   "t62",
+   "t84"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 155,
+  "end": 236,
+  "text": "[2025-04-30 12:37 UTC] @samuelc to @owenr: I pushed it through, check your inbox.",
+  "tids": [
+   "t63",
+   "t64",
+   "t65",
+   "t66"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 237,
+  "end": 320,
+  "text": "[2025-04-30 12:44 UTC] @owenr to @samuelc: Let's keep this between us until Friday.",
+  "tids": [
+   "t67",
+   "t68",
+   "t69",
+   "t70"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ }
+}

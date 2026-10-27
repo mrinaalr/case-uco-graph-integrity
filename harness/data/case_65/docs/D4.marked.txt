@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Meridian Trust Bank account 5892096048 is registered to Stonebridge Fabrication Group. [D4.S3] Account 8209458231 at Meridian Trust Bank belongs to Ironleaf Fabrication Inc. [D4.S4] Dana Sorensen holds account 8624569036 at Meridian Trust Bank.
+
+[D4.S5] The invoice submission was initiated by Dana Sorensen on June 20, 2025 at 13:25 UTC.
+
+[D4.S6] More detail will follow once records are pulled.

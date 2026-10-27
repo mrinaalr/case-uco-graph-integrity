@@ -1,0 +1,478 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 133,
+  "text": "Clearpath Industrial LLC employs Grace Castillo, who can be reached at gcastillo@clearpath.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t79",
+   "t80",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 227,
+  "text": "Elena Brennan is employed by Clearpath Industrial LLC; their email is ebrennan@clearpath.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t81",
+   "t82",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 318,
+  "text": "Clearpath Industrial LLC employs Lena Haddad, who can be reached at lhaddad@clearpath.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t83",
+   "t84",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 319,
+  "end": 420,
+  "text": "Desmond Lindqvist works for Oakhaven Tooling Co. and uses the address desmond.lindqvist@oakhaven.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t85",
+   "t86",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 421,
+  "end": 511,
+  "text": "Oakhaven Tooling Co. employs Irene Banerjee, who can be reached at ibanerjee@oakhaven.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t87",
+   "t88",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 513,
+  "end": 596,
+  "text": "The offices of Clearpath Industrial LLC are at 4196 Lakeview Road, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 598,
+  "end": 646,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: lhaddad@clearpath.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 54,
+  "text": "To: ebrennan@clearpath.com",
+  "tids": [
+   "t64",
+   "t89"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 55,
+  "end": 95,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Sun, 16 Nov 2025 14:50:00 +0000",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 144,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 146,
+  "end": 220,
+  "text": "Irene Banerjee started the wire transfer on October 12, 2025 at 14:30 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 221,
+  "end": 299,
+  "text": "On 14 October 2025, 12:00 UTC, Elena Brennan initiated the invoice submission.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 300,
+  "end": 379,
+  "text": "Desmond Lindqvist started the bank detail change on 3 November 2025, 11:10 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 380,
+  "end": 463,
+  "text": "The audit review was initiated by Grace Castillo on November 16, 2025 at 12:50 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 465,
+  "end": 472,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 473,
+  "end": 477,
+  "text": "Lena",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t90"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 57,
+  "text": "@desmondl is Desmond Lindqvist.",
+  "tids": [
+   "t60",
+   "t59"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 58,
+  "end": 80,
+  "text": "@lenah is Lena Haddad.",
+  "tids": [
+   "t62",
+   "t61"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 81,
+  "end": 170,
+  "text": "[2025-10-12 15:30 UTC] @desmondl to @lenah: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t67",
+   "t68",
+   "t69",
+   "t70",
+   "t91"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_2"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 171,
+  "end": 249,
+  "text": "[2025-10-12 15:37 UTC] @lenah to @desmondl: Send me the new form when you can.",
+  "tids": [
+   "t71",
+   "t72",
+   "t73",
+   "t74",
+   "t92"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_2",
+   "handle_person_3"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 250,
+  "end": 328,
+  "text": "[2025-10-12 15:44 UTC] @desmondl to @lenah: Finance is asking questions again.",
+  "tids": [
+   "t75",
+   "t76",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_3",
+   "handle_person_2"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 105,
+  "text": "Account 1101945259 at Granite Federal Credit Union belongs to Clearpath Industrial LLC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t93",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 106,
+  "end": 191,
+  "text": "Granite Federal Credit Union account 6903832122 is registered to Oakhaven Tooling Co.",
+  "tids": [
+   "t33",
+   "t34",
+   "t94",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 192,
+  "end": 268,
+  "text": "Account 5512303847 at Granite Federal Credit Union belongs to Elena Brennan.",
+  "tids": [
+   "t36",
+   "t37",
+   "t95",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 270,
+  "end": 352,
+  "text": "On 13 October 2025, 10:50 UTC, Irene Banerjee initiated the expense reimbursement.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_4"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 353,
+  "end": 437,
+  "text": "The refund request was initiated by Desmond Lindqvist on 3 November 2025, 09:25 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 438,
+  "end": 521,
+  "text": "Desmond Lindqvist started the contract amendment on November 15, 2025 at 10:45 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 523,
+  "end": 562,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

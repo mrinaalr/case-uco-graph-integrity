@@ -1,0 +1,408 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Clearpath Logistics Group employs Hannah Okafor, who can be reached at hokafor@clearpath.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t64",
+   "t65",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 225,
+  "text": "Tomas Park is employed by Clearpath Logistics Group; their email is tomas.park@clearpath.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t66",
+   "t67",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 321,
+  "text": "Dana Moreau works for Clearpath Logistics Group and uses the address dana.moreau@clearpath.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t68",
+   "t69",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 322,
+  "end": 414,
+  "text": "Lena Haddad works for Stonebridge Freight Inc. and uses the address lhaddad@stonebridge.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t70",
+   "t71",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 415,
+  "end": 509,
+  "text": "Stonebridge Freight Inc. employs Kofi Reyes, who can be reached at kofi.reyes@stonebridge.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t73",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 511,
+  "end": 547,
+  "text": "Tomas Park reports to Hannah Okafor.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 549,
+  "end": 627,
+  "text": "Clearpath Logistics Group operates from 8268 Lakeview Road, Spokane, WA 99201.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 629,
+  "end": 707,
+  "text": "Clearpath Logistics Group holds account 2971830453 at Pinecrest National Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t74",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 708,
+  "end": 785,
+  "text": "Stonebridge Freight Inc. holds account 3225951039 at Pinecrest National Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t75",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 786,
+  "end": 857,
+  "text": "Account 3643229957 at Pinecrest National Bank belongs to Hannah Okafor.",
+  "tids": [
+   "t36",
+   "t37",
+   "t76",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 859,
+  "end": 898,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: kofi.reyes@stonebridge.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 60,
+  "text": "To: lhaddad@stonebridge.com",
+  "tids": [
+   "t61",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 61,
+  "end": 96,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 97,
+  "end": 134,
+  "text": "Date: Fri, 15 Aug 2025 15:00:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 144,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 146,
+  "end": 218,
+  "text": "Hannah Okafor started the invoice submission on 15 July 2025, 10:00 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 219,
+  "end": 288,
+  "text": "Lena Haddad started the vendor onboarding on 20 July 2025, 13:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 289,
+  "end": 371,
+  "text": "The expense reimbursement was initiated by Lena Haddad on 31 July 2025, 17:45 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 372,
+  "end": 454,
+  "text": "The refund request was initiated by Hannah Okafor on August 13, 2025 at 15:15 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 455,
+  "end": 528,
+  "text": "On 15 August 2025, 11:10 UTC, Dana Moreau initiated the payment approval.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 529,
+  "end": 601,
+  "text": "The payment approval took place at the Clearpath Logistics Group office.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 602,
+  "end": 674,
+  "text": "Dana Moreau started the contract amendment on 15 August 2025, 13:00 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 675,
+  "end": 720,
+  "text": "Kofi Reyes authorized the contract amendment.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_4",
+   "event_5"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 721,
+  "end": 791,
+  "text": "The contract amendment happened at Clearpath Logistics Group's office.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 793,
+  "end": 800,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 801,
+  "end": 805,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ }
+}

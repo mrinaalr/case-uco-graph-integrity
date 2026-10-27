@@ -1,0 +1,433 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 31,
+  "text": "From: grace.park@silverlake.com",
+  "tids": [
+   "t53",
+   "t12"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 32,
+  "end": 83,
+  "text": "To: ekowalski@oakhaven.com, owen.abara@oakhaven.com",
+  "tids": [
+   "t54",
+   "t55",
+   "t62",
+   "t63",
+   "t18",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 84,
+  "end": 119,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 120,
+  "end": 157,
+  "text": "Date: Tue, 25 Feb 2025 17:10:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 159,
+  "end": 168,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 170,
+  "end": 250,
+  "text": "The audit review was initiated by Elena Kowalski on 25 February 2025, 15:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t8"
+  ],
+  "mentions": [
+   "event_0",
+   "person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 252,
+  "end": 259,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 260,
+  "end": 265,
+  "text": "Grace",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 131,
+  "text": "Kofi Novak is employed by Silverlake Services Ltd.; their email is kofi.novak@silverlake.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t64",
+   "t65",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 225,
+  "text": "Grace Park is employed by Silverlake Services Ltd.; their email is grace.park@silverlake.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t66",
+   "t67",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 325,
+  "text": "Julian Haddad is employed by Silverlake Services Ltd.; their email is julian.haddad@silverlake.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t68",
+   "t69",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 326,
+  "end": 414,
+  "text": "Owen Abara works for Oakhaven Tooling Ltd. and uses the address owen.abara@oakhaven.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t70",
+   "t71",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 415,
+  "end": 506,
+  "text": "Elena Kowalski works for Oakhaven Tooling Ltd. and uses the address ekowalski@oakhaven.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t73"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 508,
+  "end": 581,
+  "text": "Silverlake Services Ltd. operates from 4032 Elm Street, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 582,
+  "end": 662,
+  "text": "The offices of Oakhaven Tooling Ltd. are at 5305 Harbor Avenue, Omaha, NE 68102.",
+  "tids": [
+   "t52",
+   "t48",
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 664,
+  "end": 703,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: ekowalski@oakhaven.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 58,
+  "text": "To: grace.park@silverlake.com",
+  "tids": [
+   "t59",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 59,
+  "end": 94,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Thu, 27 Feb 2025 14:30:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 134,
+  "end": 143,
+  "text": "Hi Grace,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 226,
+  "text": "The refund request was initiated by Grace Park on February 27, 2025 at 12:30 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 228,
+  "end": 235,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 236,
+  "end": 241,
+  "text": "Elena",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 89,
+  "text": "Silverlake Services Ltd. holds account 8121306165 at First Harbor Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t75",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 90,
+  "end": 158,
+  "text": "Oakhaven Tooling Ltd. holds account 8418398727 at First Harbor Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t76",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 159,
+  "end": 221,
+  "text": "Account 6600300384 at First Harbor Bank belongs to Kofi Novak.",
+  "tids": [
+   "t36",
+   "t37",
+   "t77",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 223,
+  "end": 294,
+  "text": "On March 11, 2025 at 15:30 UTC, Grace Park initiated the wire transfer.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 295,
+  "end": 353,
+  "text": "Funds moved from account 8121306165 to account 6600300384.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 355,
+  "end": 403,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

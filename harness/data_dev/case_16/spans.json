@@ -1,0 +1,457 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 139,
+  "text": "Copperfield Components Inc. employs Wesley Vance, who can be reached at wesley.vance@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t72",
+   "t73",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 241,
+  "text": "Copperfield Components Inc. employs Owen Lindqvist, who can be reached at olindqvist@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t74",
+   "t75",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 242,
+  "end": 333,
+  "text": "Irene Delgado is employed by Bluegate Consulting LLC; their email is idelgado@bluegate.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t76",
+   "t77",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 335,
+  "end": 411,
+  "text": "Copperfield Components Inc. is based at 3653 Market Street, Omaha, NE 68102.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 412,
+  "end": 486,
+  "text": "Bluegate Consulting LLC is based at 9193 Lakeview Road, Spokane, WA 99201.",
+  "tids": [
+   "t61",
+   "t57",
+   "t58",
+   "t59",
+   "t60"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 488,
+  "end": 566,
+  "text": "Account 8712048342 at Union Ledger Bank belongs to Copperfield Components Inc.",
+  "tids": [
+   "t22",
+   "t23",
+   "t78",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 567,
+  "end": 642,
+  "text": "Account 6126435796 at Union Ledger Bank belongs to Bluegate Consulting LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t79",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 643,
+  "end": 712,
+  "text": "Union Ledger Bank account 5199904067 is registered to Owen Lindqvist.",
+  "tids": [
+   "t28",
+   "t29",
+   "t80",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 714,
+  "end": 762,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: wesley.vance@copperfield.com",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 60,
+  "text": "To: idelgado@bluegate.com",
+  "tids": [
+   "t65",
+   "t81"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 61,
+  "end": 92,
+  "text": "Subject: Invoice 3861 follow-up",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Thu, 04 Sep 2025 13:50:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 141,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 143,
+  "end": 226,
+  "text": "The invoice submission was initiated by Irene Delgado on 12 August 2025, 12:25 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 227,
+  "end": 310,
+  "text": "The contract amendment was initiated by Irene Delgado on 13 August 2025, 16:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 311,
+  "end": 371,
+  "text": "Wesley Vance was involved in the contract amendment as well.",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 372,
+  "end": 449,
+  "text": "On 19 August 2025, 12:25 UTC, Owen Lindqvist initiated the vendor onboarding.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 450,
+  "end": 528,
+  "text": "On 26 August 2025, 15:30 UTC, Owen Lindqvist initiated the bank detail change.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 529,
+  "end": 612,
+  "text": "On August 29, 2025 at 15:10 UTC, Wesley Vance initiated the account reconciliation.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 613,
+  "end": 672,
+  "text": "Irene Delgado also took part in the account reconciliation.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_2",
+   "event_4"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 673,
+  "end": 746,
+  "text": "Wesley Vance started the payment approval on 3 September 2025, 15:15 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 747,
+  "end": 821,
+  "text": "The payment approval took place at the Copperfield Components Inc. office.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 822,
+  "end": 907,
+  "text": "On September 4, 2025 at 11:50 UTC, Irene Delgado initiated the expense reimbursement.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 908,
+  "end": 973,
+  "text": "Owen Lindqvist was involved in the expense reimbursement as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_1",
+   "event_6"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 975,
+  "end": 982,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 983,
+  "end": 989,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t82"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@irened is Irene Delgado.",
+  "tids": [
+   "t52",
+   "t51"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 77,
+  "text": "@owenl is Owen Lindqvist.",
+  "tids": [
+   "t54",
+   "t53"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 147,
+  "text": "[2025-08-12 13:25 UTC] @irened to @owenl: Did the bank call back yet?",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71",
+   "t83"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_1"
+  ]
+ }
+}

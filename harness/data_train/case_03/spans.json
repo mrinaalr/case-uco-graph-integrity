@@ -1,0 +1,387 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: nlindqvist@clearpath.com",
+  "tids": [
+   "t46",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 57,
+  "text": "To: swhitfield@redfern.com",
+  "tids": [
+   "t47",
+   "t54",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 58,
+  "end": 89,
+  "text": "Subject: Invoice 2491 follow-up",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 90,
+  "end": 127,
+  "text": "Date: Sun, 22 Jun 2025 16:30:00 +0000",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 138,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 215,
+  "text": "On 15 May 2025, 12:30 UTC, Sofia Whitfield initiated the vendor onboarding.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 216,
+  "end": 278,
+  "text": "Nadia Lindqvist was involved in the vendor onboarding as well.",
+  "tids": [
+   "t45",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 279,
+  "end": 352,
+  "text": "Sofia Whitfield started the invoice submission on 25 May 2025, 17:10 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 353,
+  "end": 423,
+  "text": "Sofia Whitfield started the refund request on 22 June 2025, 14:30 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 425,
+  "end": 432,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 433,
+  "end": 438,
+  "text": "Nadia",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 132,
+  "text": "Sofia Whitfield works for Redfern Industrial Inc. and uses the address swhitfield@redfern.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t55",
+   "t56",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 226,
+  "text": "Redfern Industrial Inc. employs Owen Brennan, who can be reached at owen.brennan@redfern.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t57",
+   "t58",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 227,
+  "end": 327,
+  "text": "Nadia Lindqvist works for Clearpath Fabrication Group and uses the address nlindqvist@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t59",
+   "t60",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 329,
+  "end": 402,
+  "text": "Redfern Industrial Inc. is based at 3531 Maple Avenue, Raleigh, NC 27601.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 404,
+  "end": 476,
+  "text": "Redfern Industrial Inc. holds account 5304471911 at Meridian Trust Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t61",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 477,
+  "end": 561,
+  "text": "Meridian Trust Bank account 1383272497 is registered to Clearpath Fabrication Group.",
+  "tids": [
+   "t25",
+   "t26",
+   "t62",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 562,
+  "end": 626,
+  "text": "Sofia Whitfield holds account 2141124997 at Meridian Trust Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t63",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 628,
+  "end": 662,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 30,
+  "text": "From: owen.brennan@redfern.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 31,
+  "end": 57,
+  "text": "To: swhitfield@redfern.com",
+  "tids": [
+   "t51",
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 58,
+  "end": 83,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 84,
+  "end": 121,
+  "text": "Date: Wed, 04 Jun 2025 13:25:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 123,
+  "end": 132,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 134,
+  "end": 217,
+  "text": "The payment approval was initiated by Sofia Whitfield on May 21, 2025 at 13:10 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 218,
+  "end": 301,
+  "text": "The account reconciliation was initiated by Owen Brennan on 4 June 2025, 11:25 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 303,
+  "end": 310,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 311,
+  "end": 315,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ }
+}

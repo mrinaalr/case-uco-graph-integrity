@@ -1,0 +1,11 @@
+[D2.S1] From: ypark@summitpeak.com
+[D2.S2] To: aashworth@redfern.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Wed, 09 Jul 2025 15:45:00 +0000
+
+[D2.S5] Hi Andre,
+
+[D2.S6] The invoice submission was initiated by Andre Ashworth on 7 June 2025, 10:50 UTC. [D2.S7] Nadia Holloway was involved in the invoice submission as well. [D2.S8] The invoice submission took place at the Summit Peak Consulting Co. office. [D2.S9] The payment approval was initiated by Andre Ashworth on 9 July 2025, 13:45 UTC. [D2.S10] The payment approval took place at the Summit Peak Consulting Co. office.
+
+[D2.S11] Thanks,
+[D2.S12] Yara

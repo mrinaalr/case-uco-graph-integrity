@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Samuel Brennan works for Northwind Freight LLC and uses the address samuel.brennan@northwind.com. [D1.S3] Kofi Petrov is employed by Northwind Freight LLC; their email is kpetrov@northwind.com. [D1.S4] Luca Holloway works for Northwind Freight LLC and uses the address lholloway@northwind.com. [D1.S5] Priya Quinn is employed by Copperfield Industrial Inc.; their email is pquinn@copperfield.com.
+
+[D1.S6] The offices of Northwind Freight LLC are at 9519 Harbor Avenue, Omaha, NE 68102.
+
+[D1.S7] Northwind Freight LLC holds account 4411586859 at Pinecrest National Bank. [D1.S8] Account 6917279053 at Pinecrest National Bank belongs to Copperfield Industrial Inc.
+
+[D1.S9] Please treat this as confidential.

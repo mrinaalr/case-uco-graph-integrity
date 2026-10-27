@@ -1,0 +1,466 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 27,
+  "text": "From: mbrennan@westmark.com",
+  "tids": [
+   "t50",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 28,
+  "end": 62,
+  "text": "To: sofia.lindqvist@summitpeak.com",
+  "tids": [
+   "t51",
+   "t59",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 63,
+  "end": 98,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Tue, 14 Jan 2025 13:15:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 147,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 149,
+  "end": 221,
+  "text": "Sofia Lindqvist started the wire transfer on 14 January 2025, 11:15 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 223,
+  "end": 230,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 231,
+  "end": 234,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Maya Banerjee works for Summit Peak Tooling Ltd. and uses the address mbanerjee@summitpeak.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t60",
+   "t61",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 223,
+  "text": "Summit Peak Tooling Ltd. employs Luca Reyes, who can be reached at lreyes@summitpeak.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t62",
+   "t63",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 224,
+  "end": 327,
+  "text": "Sofia Lindqvist works for Summit Peak Tooling Ltd. and uses the address sofia.lindqvist@summitpeak.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t64",
+   "t65"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 328,
+  "end": 420,
+  "text": "Mei Brennan works for Westmark Fabrication Group and uses the address mbrennan@westmark.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t66",
+   "t67",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 421,
+  "end": 518,
+  "text": "Westmark Fabrication Group employs Felix Tanaka, who can be reached at felix.tanaka@westmark.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t68",
+   "t69",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 520,
+  "end": 563,
+  "text": "Sofia Lindqvist's manager is Maya Banerjee.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 565,
+  "end": 640,
+  "text": "Summit Peak Tooling Ltd. operates from 3094 Maple Avenue, Dayton, OH 45402.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 642,
+  "end": 690,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 36,
+  "text": "From: sofia.lindqvist@summitpeak.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 37,
+  "end": 92,
+  "text": "To: felix.tanaka@westmark.com, mbanerjee@summitpeak.com",
+  "tids": [
+   "t55",
+   "t56",
+   "t70",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 93,
+  "end": 128,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 129,
+  "end": 166,
+  "text": "Date: Sat, 18 Jan 2025 14:00:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 168,
+  "end": 177,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 179,
+  "end": 262,
+  "text": "On January 18, 2025 at 12:00 UTC, Sofia Lindqvist initiated the bank detail change.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 263,
+  "end": 310,
+  "text": "Felix Tanaka authorized the bank detail change.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_4",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 311,
+  "end": 384,
+  "text": "The bank detail change took place at the Summit Peak Tooling Ltd. office.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 385,
+  "end": 449,
+  "text": "Felix Tanaka communicated with Maya Banerjee about the payments.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_4",
+   "person_0"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 451,
+  "end": 458,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 459,
+  "end": 464,
+  "text": "Sofia",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 89,
+  "text": "Summit Peak Tooling Ltd. holds account 2314076727 at First Harbor Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t72",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 90,
+  "end": 163,
+  "text": "Westmark Fabrication Group holds account 9962441511 at First Harbor Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t73",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 165,
+  "end": 242,
+  "text": "Maya Banerjee started the payment approval on February 14, 2025 at 11:10 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 243,
+  "end": 298,
+  "text": "Approval for the payment approval came from Luca Reyes.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 299,
+  "end": 366,
+  "text": "The payment approval happened at Summit Peak Tooling Ltd.'s office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 368,
+  "end": 416,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

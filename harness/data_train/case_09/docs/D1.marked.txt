@@ -1,0 +1,11 @@
+[D1.S1] From: luca.fischer@redfern.com
+[D1.S2] To: rosa.quinn@ironleaf.com, maya.novak@ironleaf.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Wed, 02 Apr 2025 15:00:00 +0000
+
+[D1.S5] Hi Rosa,
+
+[D1.S6] Clara Moreau started the audit review on 5 March 2025, 12:45 UTC. [D1.S7] The contract amendment was initiated by Maya Novak on 2 April 2025, 13:00 UTC.
+
+[D1.S8] Thanks,
+[D1.S9] Luca

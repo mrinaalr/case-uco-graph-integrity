@@ -1,0 +1,4 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @priyam is Priya Moreau.
+[D3.S3] @marcusv is Marcus Vance.
+[D3.S4] [2025-06-26 14:30 UTC] @priyam to @marcusv: Did the bank call back yet?

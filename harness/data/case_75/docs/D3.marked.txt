@@ -1,0 +1,11 @@
+[D3.S1] From: andre.novak@redfern.com
+[D3.S2] To: fwhitfield@redfern.com, oashworth@northwind.com
+[D3.S3] Subject: Audit prep items
+[D3.S4] Date: Tue, 14 Oct 2025 16:45:00 +0000
+
+[D3.S5] Hi Felix,
+
+[D3.S6] The expense reimbursement was initiated by Felix Whitfield on September 19, 2025 at 12:30 UTC. [D3.S7] The wire transfer was initiated by Samuel Lindqvist on September 29, 2025 at 17:10 UTC. [D3.S8] Andre Novak was involved in the wire transfer as well. [D3.S9] The wire transfer took place at the Redfern Services Group office. [D3.S10] Andre Novak started the refund request on 14 October 2025, 14:45 UTC.
+
+[D3.S11] Thanks,
+[D3.S12] Andre

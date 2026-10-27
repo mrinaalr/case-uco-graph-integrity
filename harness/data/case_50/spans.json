@@ -1,0 +1,341 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 134,
+  "text": "Silverlake Logistics LLC employs Felix Banerjee, who can be reached at fbanerjee@silverlake.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t54",
+   "t55",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 230,
+  "text": "Grace Vance works for Silverlake Logistics LLC and uses the address grace.vance@silverlake.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t56",
+   "t57",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 231,
+  "end": 321,
+  "text": "Marcus Park works for Cedar Ridge Freight Group and uses the address mpark@cedarridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t58",
+   "t59",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 323,
+  "end": 408,
+  "text": "The offices of Silverlake Logistics LLC are at 2513 Lakeview Road, Raleigh, NC 27601.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 410,
+  "end": 481,
+  "text": "Silverlake Logistics LLC holds account 3392323562 at First Harbor Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t60",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 482,
+  "end": 554,
+  "text": "Cedar Ridge Freight Group holds account 6943693275 at First Harbor Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t61",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 555,
+  "end": 618,
+  "text": "Account 9389983215 at First Harbor Bank belongs to Grace Vance.",
+  "tids": [
+   "t28",
+   "t29",
+   "t62",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 620,
+  "end": 668,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: mpark@cedarridge.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 57,
+  "text": "To: grace.vance@silverlake.com",
+  "tids": [
+   "t51",
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 58,
+  "end": 83,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 84,
+  "end": 121,
+  "text": "Date: Mon, 18 Aug 2025 11:10:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 123,
+  "end": 132,
+  "text": "Hi Grace,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 207,
+  "text": "Marcus Park started the vendor onboarding on August 1, 2025 at 13:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 208,
+  "end": 276,
+  "text": "The vendor onboarding happened at Silverlake Logistics LLC's office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 277,
+  "end": 358,
+  "text": "The contract amendment was initiated by Grace Vance on 10 August 2025, 11:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 359,
+  "end": 447,
+  "text": "The account reconciliation was initiated by Grace Vance on August 12, 2025 at 16:45 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 448,
+  "end": 521,
+  "text": "On August 13, 2025 at 10:15 UTC, Grace Vance initiated the wire transfer.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 522,
+  "end": 603,
+  "text": "On August 14, 2025 at 13:50 UTC, Felix Banerjee initiated the bank detail change.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 604,
+  "end": 662,
+  "text": "Approval for the bank detail change came from Grace Vance.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_1",
+   "event_4"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 663,
+  "end": 741,
+  "text": "The audit review was initiated by Felix Banerjee on 18 August 2025, 09:10 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 743,
+  "end": 750,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 751,
+  "end": 757,
+  "text": "Marcus",
+  "tids": [],
+  "mentions": []
+ }
+}

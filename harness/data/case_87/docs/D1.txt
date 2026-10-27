@@ -1,0 +1,11 @@
+INTERNAL MEMO: Vendor payment review
+
+Sofia Fischer works for Northwind Logistics Group and uses the address sfischer@northwind.com. Tomas Park is employed by Northwind Logistics Group; their email is tomas.park@northwind.com. Andre Haddad is employed by Northwind Logistics Group; their email is andre.haddad@northwind.com. Westmark Tooling LLC employs Arjun Novak, who can be reached at anovak@westmark.com. Hannah Osei works for Westmark Tooling LLC and uses the address hosei@westmark.com.
+
+Tomas Park's manager is Sofia Fischer.
+
+The offices of Northwind Logistics Group are at 7137 Riverside Boulevard, Tucson, AZ 85701.
+
+Union Ledger Bank account 7592627724 is registered to Northwind Logistics Group. Westmark Tooling LLC holds account 3350772033 at Union Ledger Bank.
+
+Let me know if anything here looks off.

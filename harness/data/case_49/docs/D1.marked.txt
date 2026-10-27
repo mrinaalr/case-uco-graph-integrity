@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Victor Castillo is employed by Brightwater Freight LLC; their email is vcastillo@brightwater.com. [D1.S3] Maya Reyes works for Brightwater Freight LLC and uses the address maya.reyes@brightwater.com. [D1.S4] Grace Brennan works for Brightwater Freight LLC and uses the address gbrennan@brightwater.com. [D1.S5] Ruth Mendes is employed by Silverlake Packaging Group; their email is rmendes@silverlake.com. [D1.S6] Irene Okafor is employed by Silverlake Packaging Group; their email is irene.okafor@silverlake.com.
+
+[D1.S7] Grace Brennan reports to Victor Castillo. [D1.S8] Maya Reyes's manager is Victor Castillo.
+
+[D1.S9] Brightwater Freight LLC operates from 9163 Commerce Drive, Spokane, WA 99201. [D1.S10] The offices of Silverlake Packaging Group are at 9586 Harbor Avenue, Madison, WI 53703.
+
+[D1.S11] Account 6449746234 at Pinecrest National Bank belongs to Brightwater Freight LLC. [D1.S12] Silverlake Packaging Group holds account 6959418234 at Pinecrest National Bank.
+
+[D1.S13] Funds moved from account 6449746234 to account 6959418234.
+
+[D1.S14] Please treat this as confidential.

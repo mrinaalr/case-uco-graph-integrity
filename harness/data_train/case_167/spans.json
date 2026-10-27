@@ -1,0 +1,447 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Ruth Ivanova works for Clearpath Services LLC and uses the address ruth.ivanova@clearpath.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t59",
+   "t60",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 227,
+  "text": "Owen Brennan is employed by Clearpath Services LLC; their email is owen.brennan@clearpath.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t61",
+   "t62",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 326,
+  "text": "Copperfield Freight Inc. employs Kofi Delgado, who can be reached at kofi.delgado@copperfield.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t63",
+   "t64",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 328,
+  "end": 410,
+  "text": "The offices of Clearpath Services LLC are at 4303 Maple Avenue, Raleigh, NC 27601.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 411,
+  "end": 488,
+  "text": "Copperfield Freight Inc. operates from 7276 Lakeview Road, Madison, WI 53703.",
+  "tids": [
+   "t54",
+   "t50",
+   "t51",
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 490,
+  "end": 538,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: ruth.ivanova@clearpath.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 65,
+  "text": "To: kofi.delgado@copperfield.com",
+  "tids": [
+   "t56",
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 66,
+  "end": 97,
+  "text": "Subject: Invoice 3501 follow-up",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 98,
+  "end": 135,
+  "text": "Date: Thu, 03 Jul 2025 12:00:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 145,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 147,
+  "end": 220,
+  "text": "Ruth Ivanova started the contract amendment on June 4, 2025 at 12:50 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 221,
+  "end": 280,
+  "text": "Approval for the contract amendment came from Owen Brennan.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 281,
+  "end": 341,
+  "text": "Kofi Delgado was involved in the contract amendment as well.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 342,
+  "end": 409,
+  "text": "The contract amendment happened at Clearpath Services LLC's office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 410,
+  "end": 475,
+  "text": "Ruth Ivanova started the wire transfer on 3 July 2025, 10:00 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 476,
+  "end": 530,
+  "text": "Approval for the wire transfer came from Kofi Delgado.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 531,
+  "end": 580,
+  "text": "Owen Brennan also took part in the wire transfer.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 581,
+  "end": 643,
+  "text": "The wire transfer happened at Clearpath Services LLC's office.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 645,
+  "end": 652,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 653,
+  "end": 657,
+  "text": "Ruth",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 95,
+  "text": "Union Ledger Bank account 1881589011 is registered to Clearpath Services LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t66",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 96,
+  "end": 167,
+  "text": "Copperfield Freight Inc. holds account 2258298822 at Union Ledger Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t67",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 169,
+  "end": 239,
+  "text": "Ruth Ivanova started the refund request on June 26, 2025 at 17:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 240,
+  "end": 290,
+  "text": "Owen Brennan also took part in the refund request.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 291,
+  "end": 354,
+  "text": "The refund request happened at Clearpath Services LLC's office.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 355,
+  "end": 428,
+  "text": "Ruth Ivanova started the vendor onboarding on July 13, 2025 at 11:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 429,
+  "end": 482,
+  "text": "Owen Brennan also took part in the vendor onboarding.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 483,
+  "end": 553,
+  "text": "The vendor onboarding took place at the Clearpath Services LLC office.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 554,
+  "end": 611,
+  "text": "Account 1881589011 sent a transfer to account 2258298822.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 613,
+  "end": 661,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

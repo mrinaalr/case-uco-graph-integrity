@@ -1,0 +1,13 @@
+INTERNAL MEMO: Vendor payment review
+
+Summit Peak Consulting Co. employs Mei Sorensen, who can be reached at msorensen@summitpeak.com. Summit Peak Consulting Co. employs Tomas Haddad, who can be reached at thaddad@summitpeak.com. Northwind Consulting Group employs Felix Ivanova, who can be reached at fivanova@northwind.com.
+
+Tomas Haddad's manager is Mei Sorensen.
+
+Summit Peak Consulting Co. operates from 6030 Market Street, Madison, WI 53703.
+
+Account 1581311278 at Union Ledger Bank belongs to Summit Peak Consulting Co. Account 9880711161 at Union Ledger Bank belongs to Northwind Consulting Group. Account 5771080673 at Union Ledger Bank belongs to Mei Sorensen.
+
+Account 1581311278 sent a transfer to account 5771080673.
+
+More detail will follow once records are pulled.

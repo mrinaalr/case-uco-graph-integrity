@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Nadia Kowalski works for Oakhaven Fabrication Ltd. and uses the address nadia.kowalski@oakhaven.com. [D1.S3] Samuel Abara is employed by Oakhaven Fabrication Ltd.; their email is sabara@oakhaven.com. [D1.S4] Owen Park is employed by Oakhaven Fabrication Ltd.; their email is opark@oakhaven.com. [D1.S5] Luca Brennan works for Bluegate Components Ltd. and uses the address lbrennan@bluegate.com.
+
+[D1.S6] Samuel Abara's manager is Nadia Kowalski. [D1.S7] Owen Park's manager is Nadia Kowalski.
+
+[D1.S8] Oakhaven Fabrication Ltd. is based at 5188 Lakeview Road, Boise, ID 83702.
+
+[D1.S9] Please treat this as confidential.

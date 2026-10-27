@@ -1,0 +1,280 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Yara Abara works for Copperfield Fabrication LLC and uses the address yabara@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t44",
+   "t45",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 233,
+  "text": "Dana Whitfield is employed by Copperfield Fabrication LLC; their email is dwhitfield@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t46",
+   "t47",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 234,
+  "end": 325,
+  "text": "Elena Vance is employed by Summit Peak Analytics LLC; their email is evance@summitpeak.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t48",
+   "t49",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 327,
+  "end": 364,
+  "text": "Dana Whitfield reports to Yara Abara.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 366,
+  "end": 445,
+  "text": "Copperfield Fabrication LLC operates from 5437 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 447,
+  "end": 535,
+  "text": "Pinecrest National Bank account 6209814112 is registered to Copperfield Fabrication LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t50",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 536,
+  "end": 619,
+  "text": "Account 9902608315 at Pinecrest National Bank belongs to Summit Peak Analytics LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t51",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 621,
+  "end": 655,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: evance@summitpeak.com",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 54,
+  "text": "To: yabara@copperfield.com",
+  "tids": [
+   "t41",
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 55,
+  "end": 80,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 81,
+  "end": 118,
+  "text": "Date: Wed, 12 Mar 2025 14:25:00 +0000",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 120,
+  "end": 128,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 202,
+  "text": "Dana Whitfield started the wire transfer on 15 February 2025, 15:00 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 203,
+  "end": 282,
+  "text": "On March 6, 2025 at 14:00 UTC, Dana Whitfield initiated the invoice submission.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 283,
+  "end": 357,
+  "text": "On 10 March 2025, 13:25 UTC, Elena Vance initiated the contract amendment.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 358,
+  "end": 430,
+  "text": "On 12 March 2025, 12:25 UTC, Yara Abara initiated the vendor onboarding.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 432,
+  "end": 439,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 440,
+  "end": 445,
+  "text": "Elena",
+  "tids": [],
+  "mentions": []
+ }
+}

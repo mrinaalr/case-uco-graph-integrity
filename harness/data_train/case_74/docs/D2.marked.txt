@@ -1,0 +1,11 @@
+[D2.S1] From: cashworth@oakhaven.com
+[D2.S2] To: kofi.quinn@harborline.com, lena.brennan@oakhaven.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Tue, 17 Jun 2025 18:15:00 +0000
+
+[D2.S5] Hi Kofi,
+
+[D2.S6] On 27 May 2025, 14:45 UTC, Lena Brennan initiated the contract amendment. [D2.S7] The payment approval was initiated by Clara Ashworth on 31 May 2025, 13:45 UTC. [D2.S8] Julian Haddad started the expense reimbursement on 2 June 2025, 11:15 UTC. [D2.S9] The expense reimbursement took place at the Harborline Tooling Inc. office. [D2.S10] The bank detail change was initiated by Felix Okafor on 3 June 2025, 10:25 UTC. [D2.S11] The audit review was initiated by Julian Haddad on June 5, 2025 at 13:00 UTC. [D2.S12] Felix Okafor also took part in the audit review. [D2.S13] On 15 June 2025, 12:25 UTC, Clara Ashworth initiated the invoice submission. [D2.S14] Julian Haddad was involved in the invoice submission as well. [D2.S15] Felix Okafor started the vendor onboarding on 17 June 2025, 16:15 UTC.
+
+[D2.S16] Thanks,
+[D2.S17] Clara

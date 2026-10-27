@@ -1,0 +1,11 @@
+[D1.S1] From: fosei@brightwater.com
+[D1.S2] To: dana.tanaka@ironleaf.com
+[D1.S3] Subject: Urgent: payment timing
+[D1.S4] Date: Thu, 17 Apr 2025 12:50:00 +0000
+
+[D1.S5] Hi Dana,
+
+[D1.S6] The wire transfer was initiated by Ruth Vance on 28 March 2025, 15:15 UTC. [D1.S7] On April 17, 2025 at 10:50 UTC, Ruth Vance initiated the payment approval.
+
+[D1.S8] Thanks,
+[D1.S9] Felix

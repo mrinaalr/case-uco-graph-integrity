@@ -1,0 +1,427 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Wesley Delgado is employed by Northwind Analytics Co.; their email is wdelgado@northwind.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t69",
+   "t70",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 224,
+  "text": "Irene Ivanova works for Northwind Analytics Co. and uses the address iivanova@northwind.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t71",
+   "t72",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 225,
+  "end": 316,
+  "text": "Clara Osei is employed by Northwind Analytics Co.; their email is clara.osei@northwind.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t73",
+   "t74",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 317,
+  "end": 419,
+  "text": "Stonebridge Services Group employs Yara Castillo, who can be reached at yara.castillo@stonebridge.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t75",
+   "t76",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 421,
+  "end": 494,
+  "text": "Northwind Analytics Co. is based at 4340 Market Street, Albany, NY 12207.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 495,
+  "end": 571,
+  "text": "Stonebridge Services Group is based at 5466 Market Street, Dayton, OH 45402.",
+  "tids": [
+   "t54",
+   "t50",
+   "t51",
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 573,
+  "end": 621,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: iivanova@northwind.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 88,
+  "text": "To: yara.castillo@stonebridge.com, clara.osei@northwind.com",
+  "tids": [
+   "t57",
+   "t58",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 89,
+  "end": 124,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 125,
+  "end": 162,
+  "text": "Date: Mon, 28 Apr 2025 15:45:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 164,
+  "end": 172,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 174,
+  "end": 258,
+  "text": "The vendor onboarding was initiated by Yara Castillo on March 22, 2025 at 09:50 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 259,
+  "end": 339,
+  "text": "The wire transfer was initiated by Yara Castillo on April 15, 2025 at 09:45 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 340,
+  "end": 416,
+  "text": "Irene Ivanova started the bank detail change on April 28, 2025 at 13:45 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 418,
+  "end": 425,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 426,
+  "end": 431,
+  "text": "Irene",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t79"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 48,
+  "text": "@clarao is Clara Osei.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 49,
+  "end": 76,
+  "text": "@wesleyd is Wesley Delgado.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 77,
+  "end": 166,
+  "text": "[2025-03-22 10:50 UTC] @clarao to @wesleyd: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 167,
+  "end": 245,
+  "text": "[2025-03-22 10:57 UTC] @wesleyd to @clarao: Send me the new form when you can.",
+  "tids": [
+   "t65",
+   "t66",
+   "t67",
+   "t68",
+   "t81"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 97,
+  "text": "Meridian Trust Bank account 2964755816 is registered to Northwind Analytics Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t82",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 98,
+  "end": 181,
+  "text": "Meridian Trust Bank account 1630977068 is registered to Stonebridge Services Group.",
+  "tids": [
+   "t29",
+   "t30",
+   "t83",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 183,
+  "end": 260,
+  "text": "Wesley Delgado started the expense reimbursement on 10 April 2025, 09:30 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 261,
+  "end": 324,
+  "text": "Approval for the expense reimbursement came from Yara Castillo.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 325,
+  "end": 405,
+  "text": "The audit review was initiated by Wesley Delgado on April 26, 2025 at 10:45 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 407,
+  "end": 455,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

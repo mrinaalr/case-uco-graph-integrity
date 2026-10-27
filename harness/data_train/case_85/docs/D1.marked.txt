@@ -1,0 +1,11 @@
+[D1.S1] From: marcus.park@cedarridge.com
+[D1.S2] To: desmond.novak@westmark.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Wed, 12 Nov 2025 16:50:00 +0000
+
+[D1.S5] Hi Desmond,
+
+[D1.S6] On 7 October 2025, 14:25 UTC, Tomas Mendes initiated the contract amendment. [D1.S7] Marcus Park started the payment approval on October 18, 2025 at 11:00 UTC. [D1.S8] Desmond Novak started the refund request on 12 November 2025, 14:50 UTC.
+
+[D1.S9] Thanks,
+[D1.S10] Marcus

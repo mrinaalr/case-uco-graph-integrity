@@ -1,0 +1,483 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: owen.vance@clearpath.com",
+  "tids": [
+   "t59",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 61,
+  "text": "To: kofi.petrov@summitpeak.com",
+  "tids": [
+   "t60",
+   "t67",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 62,
+  "end": 93,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Wed, 12 Mar 2025 13:10:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 141,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 143,
+  "end": 224,
+  "text": "On 11 February 2025, 14:00 UTC, Elena Lindqvist initiated the bank detail change.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 225,
+  "end": 307,
+  "text": "The refund request was initiated by Kofi Petrov on February 14, 2025 at 16:50 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38",
+   "t5"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 308,
+  "end": 366,
+  "text": "Approval for the refund request came from Elena Lindqvist.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 367,
+  "end": 415,
+  "text": "Owen Vance also took part in the refund request.",
+  "tids": [
+   "t55",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 416,
+  "end": 497,
+  "text": "The wire transfer was initiated by Elena Lindqvist on March 6, 2025 at 14:00 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 498,
+  "end": 552,
+  "text": "Kofi Petrov was involved in the wire transfer as well.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_1",
+   "event_4"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 553,
+  "end": 631,
+  "text": "Elena Lindqvist started the contract amendment on March 12, 2025 at 11:10 UTC.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 633,
+  "end": 640,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S14": {
+  "doc_id": "D1",
+  "start": 641,
+  "end": 645,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 143,
+  "text": "Summit Peak Packaging Inc. employs Elena Lindqvist, who can be reached at elena.lindqvist@summitpeak.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t68",
+   "t69",
+   "t1",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 144,
+  "end": 241,
+  "text": "Summit Peak Packaging Inc. employs Kofi Petrov, who can be reached at kofi.petrov@summitpeak.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t70",
+   "t71"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 242,
+  "end": 335,
+  "text": "Owen Vance works for Clearpath Industrial Inc. and uses the address owen.vance@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t72",
+   "t73",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 337,
+  "end": 413,
+  "text": "Summit Peak Packaging Inc. is based at 4392 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 415,
+  "end": 497,
+  "text": "Meridian Trust Bank account 2974961618 is registered to Summit Peak Packaging Inc.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 498,
+  "end": 576,
+  "text": "Account 9481542188 at Meridian Trust Bank belongs to Clearpath Industrial Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t75",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 577,
+  "end": 642,
+  "text": "Account 8755132678 at Meridian Trust Bank belongs to Kofi Petrov.",
+  "tids": [
+   "t28",
+   "t29",
+   "t76",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 644,
+  "end": 702,
+  "text": "Funds moved from account 2974961618 to account 9481542188.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 704,
+  "end": 752,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 30,
+  "text": "From: owen.vance@clearpath.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 31,
+  "end": 61,
+  "text": "To: kofi.petrov@summitpeak.com",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 62,
+  "end": 93,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Sun, 16 Mar 2025 14:25:00 +0000",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 133,
+  "end": 141,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 143,
+  "end": 221,
+  "text": "Elena Lindqvist started the invoice submission on 12 February 2025, 14:00 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 222,
+  "end": 300,
+  "text": "On February 18, 2025 at 10:30 UTC, Owen Vance initiated the vendor onboarding.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 301,
+  "end": 357,
+  "text": "Elena Lindqvist also took part in the vendor onboarding.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 358,
+  "end": 428,
+  "text": "On March 8, 2025 at 10:00 UTC, Kofi Petrov initiated the audit review.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 429,
+  "end": 498,
+  "text": "Kofi Petrov started the payment approval on 16 March 2025, 12:25 UTC.",
+  "tids": [
+   "t51",
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "event_7",
+   "person_1"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 500,
+  "end": 507,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 508,
+  "end": 512,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,4 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @juliant is Julian Tanaka.
+[D3.S3] @ireneb is Irene Banerjee.
+[D3.S4] [2025-06-04 12:45 UTC] @juliant to @ireneb: Can you look at the vendor file before lunch?

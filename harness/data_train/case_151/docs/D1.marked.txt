@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oakhaven Distribution Group employs Samuel Kowalski, who can be reached at skowalski@oakhaven.com. [D1.S3] Dana Osei is employed by Oakhaven Distribution Group; their email is dana.osei@oakhaven.com. [D1.S4] Grace Fischer works for Oakhaven Distribution Group and uses the address grace.fischer@oakhaven.com. [D1.S5] Brightwater Tooling Inc. employs Julian Vance, who can be reached at julian.vance@brightwater.com. [D1.S6] Brightwater Tooling Inc. employs Priya Ivanova, who can be reached at priya.ivanova@brightwater.com.
+
+[D1.S7] The offices of Oakhaven Distribution Group are at 7361 Industrial Parkway, Dayton, OH 45402. [D1.S8] Brightwater Tooling Inc. is based at 1077 Main Street, Dayton, OH 45402.
+
+[D1.S9] Account 8663783335 at Meridian Trust Bank belongs to Oakhaven Distribution Group. [D1.S10] Brightwater Tooling Inc. holds account 8884859552 at Meridian Trust Bank. [D1.S11] Account 1077962844 at Meridian Trust Bank belongs to Grace Fischer.
+
+[D1.S12] Account 8663783335 sent a transfer to account 8884859552.
+
+[D1.S13] This summary reflects records available to date.

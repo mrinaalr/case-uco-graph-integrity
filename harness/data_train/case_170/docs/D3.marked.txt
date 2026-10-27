@@ -1,0 +1,11 @@
+[D3.S1] From: mashworth@stonebridge.com
+[D3.S2] To: mlindqvist@stonebridge.com, kofi.tanaka@westmark.com
+[D3.S3] Subject: Re: banking change request
+[D3.S4] Date: Sun, 21 Sep 2025 17:30:00 +0000
+
+[D3.S5] Hi Marcus,
+
+[D3.S6] Kofi Tanaka started the invoice submission on 7 September 2025, 09:10 UTC. [D3.S7] On 16 September 2025, 09:00 UTC, Kofi Tanaka initiated the account reconciliation. [D3.S8] Kofi Tanaka started the wire transfer on September 18, 2025 at 09:50 UTC. [D3.S9] Kofi Tanaka started the contract amendment on September 21, 2025 at 15:30 UTC. [D3.S10] Clara Kowalski was involved in the contract amendment as well.
+
+[D3.S11] Thanks,
+[D3.S12] Mei

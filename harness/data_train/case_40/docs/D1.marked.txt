@@ -1,0 +1,11 @@
+[D1.S1] From: marcus.sorensen@westmark.com
+[D1.S2] To: rosei@redfern.com, jdelgado@westmark.com
+[D1.S3] Subject: Re: banking change request
+[D1.S4] Date: Tue, 11 Feb 2025 14:00:00 +0000
+
+[D1.S5] Hi Rosa,
+
+[D1.S6] On January 11, 2025 at 13:30 UTC, Rosa Osei initiated the expense reimbursement. [D1.S7] Julian Delgado authorized the expense reimbursement. [D1.S8] The expense reimbursement took place at the Westmark Freight Inc. office. [D1.S9] Julian Delgado started the contract amendment on February 11, 2025 at 12:00 UTC. [D1.S10] Approval for the contract amendment came from Marcus Sorensen. [D1.S11] Rosa Osei was involved in the contract amendment as well.
+
+[D1.S12] Thanks,
+[D1.S13] Marcus

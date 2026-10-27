@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Northwind Supply Ltd. employs Victor Vance, who can be reached at vvance@northwind.com. [D1.S3] Oscar Ivanova works for Northwind Supply Ltd. and uses the address oscar.ivanova@northwind.com. [D1.S4] Arjun Castillo is employed by Northwind Supply Ltd.; their email is arjun.castillo@northwind.com. [D1.S5] Andre Lindqvist works for Harborline Fabrication Co. and uses the address alindqvist@harborline.com. [D1.S6] Rosa Whitfield works for Harborline Fabrication Co. and uses the address rwhitfield@harborline.com.
+
+[D1.S7] The offices of Northwind Supply Ltd. are at 9587 Market Street, Albany, NY 12207.
+
+[D1.S8] Oscar Ivanova communicated with Victor Vance about the payments.
+
+[D1.S9] This summary reflects records available to date.

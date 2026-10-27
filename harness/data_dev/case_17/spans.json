@@ -1,0 +1,489 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 29,
+  "text": "From: nadia.abara@redfern.com",
+  "tids": [
+   "t64",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 30,
+  "end": 90,
+  "text": "To: desmond.petrov@copperfield.com, lena.brennan@redfern.com",
+  "tids": [
+   "t65",
+   "t66",
+   "t73",
+   "t74",
+   "t9",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 91,
+  "end": 131,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 169,
+  "text": "Date: Mon, 09 Jun 2025 12:00:00 +0000",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 171,
+  "end": 182,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 184,
+  "end": 261,
+  "text": "The payment approval was initiated by Lena Brennan on 10 May 2025, 13:50 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 262,
+  "end": 329,
+  "text": "Desmond Petrov started the wire transfer on 23 May 2025, 11:50 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46",
+   "t4"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 330,
+  "end": 414,
+  "text": "The invoice submission was initiated by Wesley Fischer on June 4, 2025 at 16:30 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52",
+   "t6"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 415,
+  "end": 486,
+  "text": "The invoice submission happened at Copperfield Consulting Co.'s office.",
+  "tids": [
+   "t62",
+   "t1"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 487,
+  "end": 568,
+  "text": "The bank detail change was initiated by Desmond Petrov on 9 June 2025, 10:00 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 570,
+  "end": 577,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 578,
+  "end": 583,
+  "text": "Nadia",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 142,
+  "text": "Desmond Petrov works for Copperfield Consulting Co. and uses the address desmond.petrov@copperfield.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t75",
+   "t76"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 143,
+  "end": 245,
+  "text": "Rosa Ashworth is employed by Copperfield Consulting Co.; their email is rosa.ashworth@copperfield.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t77",
+   "t78",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 246,
+  "end": 344,
+  "text": "Wesley Fischer is employed by Copperfield Consulting Co.; their email is wfischer@copperfield.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t79",
+   "t80",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 345,
+  "end": 439,
+  "text": "Redfern Distribution Co. employs Lena Brennan, who can be reached at lena.brennan@redfern.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t81",
+   "t82",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 440,
+  "end": 532,
+  "text": "Nadia Abara works for Redfern Distribution Co. and uses the address nadia.abara@redfern.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t83",
+   "t84",
+   "t8"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 534,
+  "end": 625,
+  "text": "The offices of Copperfield Consulting Co. are at 2926 Industrial Parkway, Tucson, AZ 85701.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 627,
+  "end": 709,
+  "text": "Meridian Trust Bank account 9323031667 is registered to Copperfield Consulting Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t85",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 710,
+  "end": 787,
+  "text": "Account 7999104726 at Meridian Trust Bank belongs to Redfern Distribution Co.",
+  "tids": [
+   "t33",
+   "t34",
+   "t86",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 788,
+  "end": 851,
+  "text": "Wesley Fischer holds account 3605989132 at Meridian Trust Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t87",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 853,
+  "end": 901,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 35,
+  "text": "From: rosa.ashworth@copperfield.com",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 36,
+  "end": 64,
+  "text": "To: lena.brennan@redfern.com",
+  "tids": [
+   "t70",
+   "t88"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 65,
+  "end": 90,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 91,
+  "end": 128,
+  "text": "Date: Sat, 14 Jun 2025 12:50:00 +0000",
+  "tids": [
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 130,
+  "end": 138,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 140,
+  "end": 221,
+  "text": "On May 22, 2025 at 17:50 UTC, Wesley Fischer initiated the expense reimbursement.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 222,
+  "end": 280,
+  "text": "Rosa Ashworth also took part in the expense reimbursement.",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 281,
+  "end": 345,
+  "text": "Lena Brennan started the audit review on 28 May 2025, 14:25 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 346,
+  "end": 424,
+  "text": "On June 8, 2025 at 11:50 UTC, Wesley Fischer initiated the contract amendment.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 425,
+  "end": 503,
+  "text": "On June 14, 2025 at 10:50 UTC, Desmond Petrov initiated the vendor onboarding.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "event_7",
+   "person_0"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 505,
+  "end": 512,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 513,
+  "end": 517,
+  "text": "Rosa",
+  "tids": [],
+  "mentions": []
+ }
+}

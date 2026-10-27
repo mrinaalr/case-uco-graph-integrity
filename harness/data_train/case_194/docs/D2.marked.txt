@@ -1,0 +1,7 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Hector Kowalski works for Summit Peak Tooling LLC and uses the address hector.kowalski@summitpeak.com. [D2.S3] Elena Lindqvist works for Summit Peak Tooling LLC and uses the address elindqvist@summitpeak.com. [D2.S4] Dana Reyes works for Bluegate Packaging LLC and uses the address dreyes@bluegate.com.
+
+[D2.S5] Summit Peak Tooling LLC is based at 5251 Maple Avenue, Raleigh, NC 27601.
+
+[D2.S6] More detail will follow once records are pulled.

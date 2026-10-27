@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Desmond Petrov works for Northwind Services Group and uses the address dpetrov@northwind.com. [D2.S3] Northwind Services Group employs Dana Ivanova, who can be reached at divanova@northwind.com. [D2.S4] Lena Quinn works for Northwind Services Group and uses the address lquinn@northwind.com. [D2.S5] Samuel Castillo works for Redfern Packaging Inc. and uses the address samuel.castillo@redfern.com. [D2.S6] Priya Kowalski is employed by Redfern Packaging Inc.; their email is pkowalski@redfern.com.
+
+[D2.S7] Northwind Services Group is based at 2024 Elm Street, Boise, ID 83702. [D2.S8] Redfern Packaging Inc. is based at 7091 Maple Avenue, Albany, NY 12207.
+
+[D2.S9] Northwind Services Group holds account 2543147923 at First Harbor Bank. [D2.S10] Redfern Packaging Inc. holds account 5252092867 at First Harbor Bank.
+
+[D2.S11] More detail will follow once records are pulled.

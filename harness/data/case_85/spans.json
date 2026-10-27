@@ -1,0 +1,456 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 31,
+  "text": "From: csorensen@stonebridge.com",
+  "tids": [
+   "t48",
+   "t11"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 32,
+  "end": 84,
+  "text": "To: gquinn@bluegate.com, arjun.reyes@stonebridge.com",
+  "tids": [
+   "t49",
+   "t50",
+   "t57",
+   "t58",
+   "t14",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 85,
+  "end": 120,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 121,
+  "end": 158,
+  "text": "Date: Wed, 09 Jul 2025 17:10:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 160,
+  "end": 169,
+  "text": "Hi Grace,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 171,
+  "end": 255,
+  "text": "The contract amendment was initiated by Clara Sorensen on July 6, 2025 at 15:10 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 256,
+  "end": 302,
+  "text": "Grace Quinn authorized the contract amendment.",
+  "tids": [
+   "t43",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 303,
+  "end": 356,
+  "text": "Dana Haddad also took part in the contract amendment.",
+  "tids": [
+   "t47",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 357,
+  "end": 425,
+  "text": "The contract amendment happened at Stonebridge Tooling LLC's office.",
+  "tids": [
+   "t42",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 426,
+  "end": 498,
+  "text": "On 9 July 2025, 15:10 UTC, Dana Haddad initiated the invoice submission.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 499,
+  "end": 571,
+  "text": "The invoice submission took place at the Stonebridge Tooling LLC office.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 573,
+  "end": 580,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 581,
+  "end": 586,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Dana Haddad works for Stonebridge Tooling LLC and uses the address dana.haddad@stonebridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t59",
+   "t60",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 230,
+  "text": "Stonebridge Tooling LLC employs Clara Sorensen, who can be reached at csorensen@stonebridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t61",
+   "t62"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 231,
+  "end": 326,
+  "text": "Arjun Reyes is employed by Stonebridge Tooling LLC; their email is arjun.reyes@stonebridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t63",
+   "t64",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 327,
+  "end": 412,
+  "text": "Grace Quinn works for Bluegate Services LLC and uses the address gquinn@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t65",
+   "t66",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 414,
+  "end": 454,
+  "text": "Clara Sorensen's manager is Dana Haddad.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 455,
+  "end": 490,
+  "text": "Arjun Reyes reports to Dana Haddad.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 492,
+  "end": 571,
+  "text": "Stonebridge Tooling LLC operates from 35 Industrial Parkway, Madison, WI 53703.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 573,
+  "end": 662,
+  "text": "Granite Federal Credit Union account 9270003620 is registered to Stonebridge Tooling LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t67",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 663,
+  "end": 750,
+  "text": "Granite Federal Credit Union account 7833910504 is registered to Bluegate Services LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t68",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 752,
+  "end": 791,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 31,
+  "text": "From: csorensen@stonebridge.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 32,
+  "end": 55,
+  "text": "To: gquinn@bluegate.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 56,
+  "end": 91,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 92,
+  "end": 129,
+  "text": "Date: Wed, 09 Jul 2025 17:00:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 131,
+  "end": 140,
+  "text": "Hi Grace,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 142,
+  "end": 218,
+  "text": "Arjun Reyes started the account reconciliation on July 9, 2025 at 15:00 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 219,
+  "end": 276,
+  "text": "Grace Quinn also took part in the account reconciliation.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 277,
+  "end": 353,
+  "text": "The account reconciliation took place at the Stonebridge Tooling LLC office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 355,
+  "end": 362,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 363,
+  "end": 368,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ }
+}

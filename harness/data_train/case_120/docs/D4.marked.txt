@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Union Ledger Bank account 6628402987 is registered to Copperfield Logistics Ltd. [D4.S3] Account 5778423111 at Union Ledger Bank belongs to Redfern Services Group.
+
+[D4.S4] On 28 April 2025, 16:15 UTC, Hector Osei initiated the bank detail change. [D4.S5] The contract amendment was initiated by Hannah Kowalski on 3 May 2025, 15:00 UTC. [D4.S6] On May 7, 2025 at 14:25 UTC, Hannah Kowalski initiated the vendor onboarding.
+
+[D4.S7] This summary reflects records available to date.

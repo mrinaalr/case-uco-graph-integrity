@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@marcusl is Marcus Lindqvist.
+@kofip is Kofi Petrov.
+[2025-09-07 10:15 UTC] @marcusl to @kofip: Let's keep this between us until Friday.
+[2025-09-07 10:22 UTC] @kofip to @marcusl: Did the bank call back yet?
+[2025-09-07 10:29 UTC] @marcusl to @kofip: Can you look at the vendor file before lunch?

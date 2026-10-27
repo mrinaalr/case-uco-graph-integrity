@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @arjunq is Arjun Quinn.
+[D3.S3] @sofiai is Sofia Ivanova.
+[D3.S4] [2025-04-26 10:25 UTC] @arjunq to @sofiai: Did the bank call back yet?
+[D3.S5] [2025-04-26 10:32 UTC] @sofiai to @arjunq: Can you look at the vendor file before lunch?

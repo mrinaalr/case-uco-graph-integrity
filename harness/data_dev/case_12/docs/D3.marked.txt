@@ -1,0 +1,11 @@
+[D3.S1] From: irene.sorensen@bluegate.com
+[D3.S2] To: priya.fischer@oakhaven.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Sun, 12 Oct 2025 11:25:00 +0000
+
+[D3.S5] Hi Priya,
+
+[D3.S6] On September 12, 2025 at 13:25 UTC, Priya Fischer initiated the invoice submission. [D3.S7] The refund request was initiated by Priya Fischer on September 21, 2025 at 14:25 UTC. [D3.S8] On October 3, 2025 at 12:30 UTC, Priya Fischer initiated the audit review. [D3.S9] Priya Fischer started the expense reimbursement on 12 October 2025, 09:25 UTC. [D3.S10] Irene Sorensen communicated with Priya Fischer about the payments.
+
+[D3.S11] Thanks,
+[D3.S12] Irene

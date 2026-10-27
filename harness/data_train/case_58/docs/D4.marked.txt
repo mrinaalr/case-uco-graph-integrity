@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Account 8529618342 at First Harbor Bank belongs to Redfern Analytics Ltd. [D4.S3] Ironleaf Consulting Inc. holds account 7368583635 at First Harbor Bank. [D4.S4] Yara Lindqvist holds account 5669286409 at First Harbor Bank.
+
+[D4.S5] The payment approval was initiated by Priya Osei on June 6, 2025 at 09:10 UTC. [D4.S6] Account 8529618342 sent a transfer to account 7368583635. [D4.S7] Priya Osei communicated with Maya Vance about the payments.
+
+[D4.S8] More detail will follow once records are pulled.

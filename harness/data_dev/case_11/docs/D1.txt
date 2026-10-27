@@ -1,0 +1,11 @@
+INTERNAL MEMO: Vendor payment review
+
+Yara Quinn is employed by Copperfield Analytics Group; their email is yquinn@copperfield.com. Elena Tanaka is employed by Copperfield Analytics Group; their email is elena.tanaka@copperfield.com. Irene Lindqvist is employed by Copperfield Analytics Group; their email is irene.lindqvist@copperfield.com. Summit Peak Industrial Inc. employs Nadia Vance, who can be reached at nvance@summitpeak.com.
+
+Copperfield Analytics Group operates from 3512 Industrial Parkway, Albany, NY 12207. The offices of Summit Peak Industrial Inc. are at 3463 Harbor Avenue, Spokane, WA 99201.
+
+Account 2793689154 at Meridian Trust Bank belongs to Copperfield Analytics Group. Summit Peak Industrial Inc. holds account 7680134988 at Meridian Trust Bank. Meridian Trust Bank account 6775679614 is registered to Elena Tanaka.
+
+Funds moved from account 2793689154 to account 6775679614.
+
+Let me know if anything here looks off.

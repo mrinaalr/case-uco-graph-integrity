@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Cedar Ridge Logistics LLC holds account 1410036666 at Pinecrest National Bank. [D4.S3] Pinecrest National Bank account 7619565512 is registered to Redfern Packaging Group. [D4.S4] Pinecrest National Bank account 1267206852 is registered to Rosa Moreau.
+
+[D4.S5] On 18 July 2025, 12:25 UTC, Priya Whitfield initiated the account reconciliation. [D4.S6] Rosa Moreau started the invoice submission on 1 August 2025, 17:30 UTC. [D4.S7] The vendor onboarding was initiated by Rosa Moreau on 11 August 2025, 12:00 UTC.
+
+[D4.S8] Let me know if anything here looks off.

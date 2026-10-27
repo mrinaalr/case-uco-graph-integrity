@@ -1,0 +1,457 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: ruth.moreau@bluegate.com",
+  "tids": [
+   "t51",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 83,
+  "text": "To: lpetrov@oakhaven.com, dana.ashworth@oakhaven.com",
+  "tids": [
+   "t52",
+   "t53",
+   "t60",
+   "t61",
+   "t7",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 84,
+  "end": 120,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 121,
+  "end": 158,
+  "text": "Date: Fri, 31 Oct 2025 19:25:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 160,
+  "end": 168,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 170,
+  "end": 241,
+  "text": "Dana Ashworth started the audit review on October 7, 2025 at 16:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 242,
+  "end": 305,
+  "text": "The audit review happened at Oakhaven Industrial Inc.'s office.",
+  "tids": [
+   "t40",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 306,
+  "end": 393,
+  "text": "The invoice submission was initiated by Dana Ashworth on October 31, 2025 at 17:25 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 394,
+  "end": 467,
+  "text": "The invoice submission took place at the Oakhaven Industrial Inc. office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 469,
+  "end": 476,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 477,
+  "end": 481,
+  "text": "Ruth",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 127,
+  "text": "Oakhaven Industrial Inc. employs Lena Petrov, who can be reached at lpetrov@oakhaven.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t62",
+   "t63",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 128,
+  "end": 225,
+  "text": "Dana Ashworth is employed by Oakhaven Industrial Inc.; their email is dana.ashworth@oakhaven.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t64",
+   "t65"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 317,
+  "text": "Bluegate Analytics LLC employs Ruth Moreau, who can be reached at ruth.moreau@bluegate.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t66",
+   "t67",
+   "t2",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 319,
+  "end": 356,
+  "text": "Dana Ashworth reports to Lena Petrov.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 358,
+  "end": 436,
+  "text": "Oakhaven Industrial Inc. operates from 5718 Commerce Drive, Spokane, WA 99201.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 437,
+  "end": 517,
+  "text": "The offices of Bluegate Analytics LLC are at 572 Elm Street, Richmond, VA 23219.",
+  "tids": [
+   "t45",
+   "t41",
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 519,
+  "end": 596,
+  "text": "Oakhaven Industrial Inc. holds account 2291812725 at Pinecrest National Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t68",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 597,
+  "end": 680,
+  "text": "Pinecrest National Bank account 7493327669 is registered to Bluegate Analytics LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t69",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 681,
+  "end": 755,
+  "text": "Pinecrest National Bank account 6204600720 is registered to Dana Ashworth.",
+  "tids": [
+   "t28",
+   "t29",
+   "t70",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 757,
+  "end": 814,
+  "text": "Account 2291812725 sent a transfer to account 7493327669.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 815,
+  "end": 878,
+  "text": "Dana Ashworth communicated with Lena Petrov about the payments.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 880,
+  "end": 928,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 30,
+  "text": "From: ruth.moreau@bluegate.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 31,
+  "end": 55,
+  "text": "To: lpetrov@oakhaven.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 56,
+  "end": 81,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 82,
+  "end": 119,
+  "text": "Date: Mon, 13 Oct 2025 13:50:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 121,
+  "end": 129,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 131,
+  "end": 209,
+  "text": "On October 13, 2025 at 11:50 UTC, Ruth Moreau initiated the vendor onboarding.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 210,
+  "end": 264,
+  "text": "Dana Ashworth also took part in the vendor onboarding.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 265,
+  "end": 333,
+  "text": "The vendor onboarding happened at Oakhaven Industrial Inc.'s office.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 335,
+  "end": 342,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 343,
+  "end": 347,
+  "text": "Ruth",
+  "tids": [],
+  "mentions": []
+ }
+}

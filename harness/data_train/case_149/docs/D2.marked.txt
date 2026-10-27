@@ -1,0 +1,13 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Bluegate Packaging LLC employs Andre Abara, who can be reached at andre.abara@bluegate.com. [D2.S3] Julian Castillo is employed by Bluegate Packaging LLC; their email is jcastillo@bluegate.com. [D2.S4] Samuel Park is employed by Brightwater Components LLC; their email is spark@brightwater.com.
+
+[D2.S5] Julian Castillo reports to Andre Abara.
+
+[D2.S6] The offices of Bluegate Packaging LLC are at 5940 Elm Street, Boise, ID 83702.
+
+[D2.S7] Bluegate Packaging LLC holds account 1865859197 at First Harbor Bank. [D2.S8] Brightwater Components LLC holds account 2690936160 at First Harbor Bank.
+
+[D2.S9] Andre Abara communicated with Julian Castillo about the payments.
+
+[D2.S10] Please treat this as confidential.

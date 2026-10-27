@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Dana Haddad works for Stonebridge Tooling LLC and uses the address dana.haddad@stonebridge.com. [D2.S3] Stonebridge Tooling LLC employs Clara Sorensen, who can be reached at csorensen@stonebridge.com. [D2.S4] Arjun Reyes is employed by Stonebridge Tooling LLC; their email is arjun.reyes@stonebridge.com. [D2.S5] Grace Quinn works for Bluegate Services LLC and uses the address gquinn@bluegate.com.
+
+[D2.S6] Clara Sorensen's manager is Dana Haddad. [D2.S7] Arjun Reyes reports to Dana Haddad.
+
+[D2.S8] Stonebridge Tooling LLC operates from 35 Industrial Parkway, Madison, WI 53703.
+
+[D2.S9] Granite Federal Credit Union account 9270003620 is registered to Stonebridge Tooling LLC. [D2.S10] Granite Federal Credit Union account 7833910504 is registered to Bluegate Services LLC.
+
+[D2.S11] Let me know if anything here looks off.

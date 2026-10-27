@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Silverlake Supply Ltd. holds account 9570118664 at Lakeshore Savings Bank. [D3.S3] Account 1760596988 at Lakeshore Savings Bank belongs to Oakhaven Freight LLC.
+
+[D3.S4] Owen Vance started the refund request on September 24, 2025 at 09:10 UTC. [D3.S5] Maya Tanaka authorized the refund request. [D3.S6] The audit review was initiated by Clara Okafor on September 26, 2025 at 11:15 UTC. [D3.S7] On 9 October 2025, 09:45 UTC, Owen Vance initiated the contract amendment. [D3.S8] The wire transfer was initiated by Clara Okafor on October 23, 2025 at 14:00 UTC. [D3.S9] Maya Tanaka was involved in the wire transfer as well.
+
+[D3.S10] More detail will follow once records are pulled.

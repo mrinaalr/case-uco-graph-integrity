@@ -1,0 +1,11 @@
+[D2.S1] From: wmendes@ironleaf.com
+[D2.S2] To: lena.tanaka@redfern.com, swhitfield@ironleaf.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Sun, 23 Feb 2025 14:10:00 +0000
+
+[D2.S5] Hi Lena,
+
+[D2.S6] On 9 February 2025, 14:25 UTC, Wesley Mendes initiated the account reconciliation. [D2.S7] The invoice submission was initiated by Sofia Whitfield on February 16, 2025 at 16:25 UTC. [D2.S8] Lena Tanaka was involved in the invoice submission as well. [D2.S9] On February 23, 2025 at 12:10 UTC, Sofia Whitfield initiated the contract amendment. [D2.S10] Lena Tanaka authorized the contract amendment. [D2.S11] Wesley Mendes also took part in the contract amendment. [D2.S12] The contract amendment happened at Ironleaf Services LLC's office.
+
+[D2.S13] Thanks,
+[D2.S14] Wesley

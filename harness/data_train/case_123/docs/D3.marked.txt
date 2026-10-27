@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Union Ledger Bank account 7829292716 is registered to Ironleaf Freight LLC. [D3.S3] Northwind Freight LLC holds account 4379794430 at Union Ledger Bank. [D3.S4] Owen Osei holds account 6145317925 at Union Ledger Bank.
+
+[D3.S5] Grace Petrov started the vendor onboarding on 6 April 2025, 11:10 UTC. [D3.S6] Owen Osei was involved in the vendor onboarding as well. [D3.S7] Account 7829292716 sent a transfer to account 4379794430. [D3.S8] Clara Lindqvist communicated with Owen Osei about the payments.
+
+[D3.S9] Please treat this as confidential.

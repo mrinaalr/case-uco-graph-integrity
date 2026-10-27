@@ -1,0 +1,11 @@
+[D1.S1] From: wreyes@copperfield.com
+[D1.S2] To: nnovak@copperfield.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Sat, 15 Mar 2025 15:50:00 +0000
+
+[D1.S5] Hi Nadia,
+
+[D1.S6] The vendor onboarding was initiated by Samuel Brennan on 20 February 2025, 09:30 UTC. [D1.S7] On 9 March 2025, 09:00 UTC, Wesley Reyes initiated the invoice submission. [D1.S8] On March 15, 2025 at 13:50 UTC, Wesley Reyes initiated the audit review. [D1.S9] Nadia Novak was involved in the audit review as well.
+
+[D1.S10] Thanks,
+[D1.S11] Wesley

@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Stonebridge Consulting Ltd. employs Clara Quinn, who can be reached at clara.quinn@stonebridge.com. [D1.S3] Desmond Moreau works for Stonebridge Consulting Ltd. and uses the address dmoreau@stonebridge.com. [D1.S4] Hannah Whitfield is employed by Redfern Distribution Group; their email is hwhitfield@redfern.com.
+
+[D1.S5] Desmond Moreau's manager is Clara Quinn.
+
+[D1.S6] Stonebridge Consulting Ltd. is based at 3686 Harbor Avenue, Dayton, OH 45402.
+
+[D1.S7] First Harbor Bank account 2124162418 is registered to Stonebridge Consulting Ltd. [D1.S8] Redfern Distribution Group holds account 8796782345 at First Harbor Bank. [D1.S9] First Harbor Bank account 5619321138 is registered to Clara Quinn.
+
+[D1.S10] Desmond Moreau communicated with Hannah Whitfield about the payments.
+
+[D1.S11] Let me know if anything here looks off.

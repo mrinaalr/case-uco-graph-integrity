@@ -1,0 +1,465 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Stonebridge Consulting Ltd. employs Clara Quinn, who can be reached at clara.quinn@stonebridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 236,
+  "text": "Desmond Moreau works for Stonebridge Consulting Ltd. and uses the address dmoreau@stonebridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t68",
+   "t69",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 237,
+  "end": 335,
+  "text": "Hannah Whitfield is employed by Redfern Distribution Group; their email is hwhitfield@redfern.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t70",
+   "t71",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 337,
+  "end": 377,
+  "text": "Desmond Moreau's manager is Clara Quinn.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 379,
+  "end": 456,
+  "text": "Stonebridge Consulting Ltd. is based at 3686 Harbor Avenue, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 458,
+  "end": 539,
+  "text": "First Harbor Bank account 2124162418 is registered to Stonebridge Consulting Ltd.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 540,
+  "end": 613,
+  "text": "Redfern Distribution Group holds account 8796782345 at First Harbor Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t73",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 614,
+  "end": 680,
+  "text": "First Harbor Bank account 5619321138 is registered to Clara Quinn.",
+  "tids": [
+   "t28",
+   "t29",
+   "t74",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 682,
+  "end": 751,
+  "text": "Desmond Moreau communicated with Hannah Whitfield about the payments.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_1",
+   "person_2"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 753,
+  "end": 792,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: hwhitfield@redfern.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 85,
+  "text": "To: clara.quinn@stonebridge.com, dmoreau@stonebridge.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t75",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 117,
+  "text": "Subject: Invoice 1523 follow-up",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Sat, 29 Mar 2025 15:00:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 157,
+  "end": 166,
+  "text": "Hi Clara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 168,
+  "end": 244,
+  "text": "Desmond Moreau started the refund request on February 22, 2025 at 12:25 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 245,
+  "end": 299,
+  "text": "Hannah Whitfield also took part in the refund request.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 300,
+  "end": 376,
+  "text": "Hannah Whitfield started the contract amendment on 17 March 2025, 15:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 377,
+  "end": 423,
+  "text": "Clara Quinn authorized the contract amendment.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 424,
+  "end": 486,
+  "text": "Desmond Moreau was involved in the contract amendment as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 487,
+  "end": 563,
+  "text": "The contract amendment took place at the Stonebridge Consulting Ltd. office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 564,
+  "end": 638,
+  "text": "The audit review was initiated by Clara Quinn on 24 March 2025, 17:10 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 639,
+  "end": 697,
+  "text": "Hannah Whitfield was involved in the audit review as well.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 698,
+  "end": 782,
+  "text": "The account reconciliation was initiated by Clara Quinn on 29 March 2025, 09:45 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 783,
+  "end": 843,
+  "text": "Desmond Moreau also took part in the account reconciliation.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 844,
+  "end": 929,
+  "text": "The bank detail change was initiated by Hannah Whitfield on 29 March 2025, 13:00 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 931,
+  "end": 938,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 939,
+  "end": 945,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t77"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 49,
+  "text": "@claraq is Clara Quinn.",
+  "tids": [
+   "t46",
+   "t45"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 50,
+  "end": 78,
+  "text": "@desmondm is Desmond Moreau.",
+  "tids": [
+   "t48",
+   "t47"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 151,
+  "text": "[2025-02-22 13:25 UTC] @claraq to @desmondm: Did the bank call back yet?",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65",
+   "t78"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ }
+}

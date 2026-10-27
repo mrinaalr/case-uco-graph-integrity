@@ -1,0 +1,11 @@
+[D1.S1] From: nlindqvist@clearpath.com
+[D1.S2] To: swhitfield@redfern.com
+[D1.S3] Subject: Invoice 2491 follow-up
+[D1.S4] Date: Sun, 22 Jun 2025 16:30:00 +0000
+
+[D1.S5] Hi Sofia,
+
+[D1.S6] On 15 May 2025, 12:30 UTC, Sofia Whitfield initiated the vendor onboarding. [D1.S7] Nadia Lindqvist was involved in the vendor onboarding as well. [D1.S8] Sofia Whitfield started the invoice submission on 25 May 2025, 17:10 UTC. [D1.S9] Sofia Whitfield started the refund request on 22 June 2025, 14:30 UTC.
+
+[D1.S10] Thanks,
+[D1.S11] Nadia

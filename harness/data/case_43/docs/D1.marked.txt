@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Rosa Park is employed by Westmark Components Group; their email is rpark@westmark.com. [D1.S3] Yara Ashworth works for Westmark Components Group and uses the address yashworth@westmark.com. [D1.S4] Julian Banerjee is employed by Westmark Components Group; their email is julian.banerjee@westmark.com. [D1.S5] Andre Novak works for Redfern Services Inc. and uses the address andre.novak@redfern.com.
+
+[D1.S6] Westmark Components Group is based at 6341 Harbor Avenue, Albany, NY 12207.
+
+[D1.S7] Account 5722300537 at Pinecrest National Bank belongs to Westmark Components Group. [D1.S8] Pinecrest National Bank account 3321884483 is registered to Redfern Services Inc.
+
+[D1.S9] Please treat this as confidential.

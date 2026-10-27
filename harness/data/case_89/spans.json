@@ -1,0 +1,447 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: givanova@northwind.com",
+  "tids": [
+   "t55",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 88,
+  "text": "To: desmond.banerjee@summitpeak.com, lmendes@summitpeak.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t65",
+   "t66",
+   "t9",
+   "t12"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 89,
+  "end": 120,
+  "text": "Subject: Invoice 6175 follow-up",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 121,
+  "end": 158,
+  "text": "Date: Fri, 28 Feb 2025 18:10:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 160,
+  "end": 171,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 173,
+  "end": 255,
+  "text": "On February 20, 2025 at 10:25 UTC, Grace Ivanova initiated the invoice submission.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 256,
+  "end": 338,
+  "text": "Desmond Banerjee started the expense reimbursement on 24 February 2025, 10:30 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46",
+   "t5"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 339,
+  "end": 416,
+  "text": "The expense reimbursement happened at Summit Peak Fabrication Group's office.",
+  "tids": [
+   "t54",
+   "t1"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 417,
+  "end": 498,
+  "text": "The payment approval was initiated by Sofia Reyes on 28 February 2025, 16:10 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52",
+   "t8"
+  ],
+  "mentions": [
+   "event_4",
+   "person_4"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 499,
+  "end": 571,
+  "text": "The payment approval happened at Summit Peak Fabrication Group's office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 573,
+  "end": 580,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 581,
+  "end": 586,
+  "text": "Grace",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 134,
+  "text": "Lena Mendes works for Summit Peak Fabrication Group and uses the address lmendes@summitpeak.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t67",
+   "t68",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 245,
+  "text": "Desmond Banerjee works for Summit Peak Fabrication Group and uses the address desmond.banerjee@summitpeak.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t69",
+   "t70"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 246,
+  "end": 348,
+  "text": "Hector Ashworth works for Summit Peak Fabrication Group and uses the address hashworth@summitpeak.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t71",
+   "t72",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 349,
+  "end": 442,
+  "text": "Grace Ivanova works for Northwind Industrial Co. and uses the address givanova@northwind.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t73",
+   "t74",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 443,
+  "end": 537,
+  "text": "Sofia Reyes works for Northwind Industrial Co. and uses the address sofia.reyes@northwind.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t75",
+   "t76",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 539,
+  "end": 628,
+  "text": "Summit Peak Fabrication Group operates from 2411 Riverside Boulevard, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 630,
+  "end": 714,
+  "text": "Union Ledger Bank account 6787125499 is registered to Summit Peak Fabrication Group.",
+  "tids": [
+   "t30",
+   "t31",
+   "t77",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 715,
+  "end": 786,
+  "text": "Northwind Industrial Co. holds account 7854570071 at Union Ledger Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t78",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 787,
+  "end": 858,
+  "text": "Union Ledger Bank account 4524925306 is registered to Desmond Banerjee.",
+  "tids": [
+   "t36",
+   "t37",
+   "t79",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 860,
+  "end": 894,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: givanova@northwind.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 81,
+  "text": "To: hashworth@summitpeak.com, lmendes@summitpeak.com",
+  "tids": [
+   "t61",
+   "t62",
+   "t80"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 82,
+  "end": 117,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Mon, 24 Feb 2025 19:30:00 +0000",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 167,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 169,
+  "end": 246,
+  "text": "Desmond Banerjee started the wire transfer on February 21, 2025 at 09:50 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 247,
+  "end": 327,
+  "text": "On February 24, 2025 at 17:30 UTC, Sofia Reyes initiated the contract amendment.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 329,
+  "end": 336,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 337,
+  "end": 342,
+  "text": "Grace",
+  "tids": [],
+  "mentions": []
+ }
+}

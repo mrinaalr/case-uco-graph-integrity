@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Hannah Vance is employed by Clearpath Components Group; their email is hvance@clearpath.com. [D1.S3] Mei Haddad is employed by Clearpath Components Group; their email is mhaddad@clearpath.com. [D1.S4] Redfern Packaging Group employs Arjun Lindqvist, who can be reached at alindqvist@redfern.com.
+
+[D1.S5] The offices of Clearpath Components Group are at 7684 Elm Street, Dayton, OH 45402.
+
+[D1.S6] First Harbor Bank account 2900901353 is registered to Clearpath Components Group. [D1.S7] First Harbor Bank account 8084214928 is registered to Redfern Packaging Group. [D1.S8] Hannah Vance holds account 3788270002 at First Harbor Bank.
+
+[D1.S9] Please treat this as confidential.

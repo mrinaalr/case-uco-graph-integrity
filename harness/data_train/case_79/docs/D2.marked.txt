@@ -1,0 +1,11 @@
+[D2.S1] From: asorensen@brightwater.com
+[D2.S2] To: shaddad@brightwater.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Wed, 12 Feb 2025 14:30:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] The invoice submission was initiated by Hannah Reyes on February 1, 2025 at 12:50 UTC. [D2.S7] Samuel Haddad started the audit review on 12 February 2025, 12:30 UTC.
+
+[D2.S8] Thanks,
+[D2.S9] Andre

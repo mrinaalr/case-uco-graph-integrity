@@ -1,0 +1,6 @@
+Chat export: #finance-ops
+@arjunt is Arjun Tanaka.
+@hectoro is Hector Osei.
+[2025-04-24 13:30 UTC] @arjunt to @hectoro: Did the bank call back yet?
+[2025-04-24 13:37 UTC] @hectoro to @arjunt: Can you look at the vendor file before lunch?
+[2025-04-24 13:44 UTC] @arjunt to @hectoro: Send me the new form when you can.

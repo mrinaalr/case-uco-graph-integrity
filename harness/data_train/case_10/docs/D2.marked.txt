@@ -1,0 +1,11 @@
+[D2.S1] From: hmendes@harborline.com
+[D2.S2] To: scastillo@harborline.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Wed, 08 Oct 2025 16:45:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] Hannah Mendes started the expense reimbursement on 18 September 2025, 11:00 UTC. [D2.S7] Hannah Mendes started the audit review on October 8, 2025 at 14:45 UTC. [D2.S8] The audit review took place at the Harborline Consulting Inc. office.
+
+[D2.S9] Thanks,
+[D2.S10] Hannah

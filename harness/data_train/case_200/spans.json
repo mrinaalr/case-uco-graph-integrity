@@ -1,0 +1,336 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Elena Tanaka works for Silverlake Analytics Co. and uses the address elena.tanaka@silverlake.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t50",
+   "t51",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 229,
+  "text": "Luca Reyes is employed by Silverlake Analytics Co.; their email is luca.reyes@silverlake.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t52",
+   "t53",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 328,
+  "text": "Wesley Mendes works for Cedar Ridge Tooling Co. and uses the address wesley.mendes@cedarridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t54",
+   "t55",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 330,
+  "end": 365,
+  "text": "Luca Reyes reports to Elena Tanaka.",
+  "tids": [
+   "t37"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 367,
+  "end": 448,
+  "text": "The offices of Silverlake Analytics Co. are at 6110 Main Street, Omaha, NE 68102.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 449,
+  "end": 529,
+  "text": "Cedar Ridge Tooling Co. operates from 6597 Riverside Boulevard, Boise, ID 83702.",
+  "tids": [
+   "t42",
+   "t38",
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 531,
+  "end": 614,
+  "text": "Lakeshore Savings Bank account 9606887046 is registered to Silverlake Analytics Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t56",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 615,
+  "end": 694,
+  "text": "Account 7033519889 at Lakeshore Savings Bank belongs to Cedar Ridge Tooling Co.",
+  "tids": [
+   "t25",
+   "t26",
+   "t57",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 696,
+  "end": 744,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: elena.tanaka@silverlake.com",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 66,
+  "text": "To: wesley.mendes@cedarridge.com",
+  "tids": [
+   "t47",
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 67,
+  "end": 102,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 103,
+  "end": 140,
+  "text": "Date: Thu, 01 May 2025 16:15:00 +0000",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 142,
+  "end": 152,
+  "text": "Hi Wesley,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 154,
+  "end": 223,
+  "text": "Luca Reyes started the refund request on April 26, 2025 at 10:25 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 224,
+  "end": 280,
+  "text": "Approval for the refund request came from Wesley Mendes.",
+  "tids": [
+   "t36"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 281,
+  "end": 346,
+  "text": "The refund request happened at Silverlake Analytics Co.'s office.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 347,
+  "end": 427,
+  "text": "The vendor onboarding was initiated by Elena Tanaka on May 1, 2025 at 12:10 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 428,
+  "end": 482,
+  "text": "Wesley Mendes also took part in the vendor onboarding.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 483,
+  "end": 555,
+  "text": "The vendor onboarding took place at the Silverlake Analytics Co. office.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 556,
+  "end": 632,
+  "text": "The contract amendment was initiated by Luca Reyes on 1 May 2025, 14:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 634,
+  "end": 641,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 642,
+  "end": 647,
+  "text": "Elena",
+  "tids": [],
+  "mentions": []
+ }
+}

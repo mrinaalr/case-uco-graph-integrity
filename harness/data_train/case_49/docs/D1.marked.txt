@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Owen Ivanova works for Northwind Analytics Inc. and uses the address oivanova@northwind.com. [D1.S3] Arjun Reyes is employed by Northwind Analytics Inc.; their email is areyes@northwind.com. [D1.S4] Yara Abara works for Northwind Analytics Inc. and uses the address yabara@northwind.com. [D1.S5] Stonebridge Distribution Co. employs Hector Brennan, who can be reached at hbrennan@stonebridge.com. [D1.S6] Victor Haddad is employed by Stonebridge Distribution Co.; their email is vhaddad@stonebridge.com.
+
+[D1.S7] Northwind Analytics Inc. is based at 6492 Commerce Drive, Spokane, WA 99201.
+
+[D1.S8] Northwind Analytics Inc. holds account 6300054573 at Meridian Trust Bank. [D1.S9] Account 1761379886 at Meridian Trust Bank belongs to Stonebridge Distribution Co.
+
+[D1.S10] Let me know if anything here looks off.

@@ -1,0 +1,11 @@
+[D2.S1] From: aokafor@summitpeak.com
+[D2.S2] To: priya.ivanova@summitpeak.com, mbrennan@northwind.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Sun, 10 Aug 2025 18:45:00 +0000
+
+[D2.S5] Hi Priya,
+
+[D2.S6] Maya Brennan started the refund request on July 17, 2025 at 11:00 UTC. [D2.S7] Approval for the refund request came from Priya Ivanova. [D2.S8] The refund request happened at Summit Peak Distribution Inc.'s office. [D2.S9] Maya Brennan started the audit review on 10 August 2025, 09:50 UTC. [D2.S10] Maya Brennan started the invoice submission on 10 August 2025, 16:45 UTC. [D2.S11] Arjun Okafor also took part in the invoice submission. [D2.S12] The invoice submission happened at Summit Peak Distribution Inc.'s office.
+
+[D2.S13] Thanks,
+[D2.S14] Arjun

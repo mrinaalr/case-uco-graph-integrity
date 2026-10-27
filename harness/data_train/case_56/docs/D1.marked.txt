@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Harborline Consulting Ltd. employs Yara Banerjee, who can be reached at yara.banerjee@harborline.com. [D1.S3] Harborline Consulting Ltd. employs Julian Ivanova, who can be reached at julian.ivanova@harborline.com. [D1.S4] Dana Osei is employed by Harborline Consulting Ltd.; their email is dosei@harborline.com. [D1.S5] Victor Castillo is employed by Westmark Distribution Inc.; their email is victor.castillo@westmark.com. [D1.S6] Sofia Whitfield works for Westmark Distribution Inc. and uses the address sofia.whitfield@westmark.com.
+
+[D1.S7] Harborline Consulting Ltd. is based at 2825 Industrial Parkway, Omaha, NE 68102.
+
+[D1.S8] Account 8750944603 at Meridian Trust Bank belongs to Harborline Consulting Ltd. [D1.S9] Account 7969353875 at Meridian Trust Bank belongs to Westmark Distribution Inc. [D1.S10] Account 3456658343 at Meridian Trust Bank belongs to Dana Osei.
+
+[D1.S11] Let me know if anything here looks off.

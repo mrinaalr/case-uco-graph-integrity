@@ -1,0 +1,408 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Rosa Whitfield is employed by Ironleaf Analytics Co.; their email is rwhitfield@ironleaf.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t65",
+   "t66",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 220,
+  "text": "Ironleaf Analytics Co. employs Elena Haddad, who can be reached at ehaddad@ironleaf.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t67",
+   "t68",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 221,
+  "end": 318,
+  "text": "Grace Holloway is employed by Ironleaf Analytics Co.; their email is grace.holloway@ironleaf.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t69",
+   "t70",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 319,
+  "end": 415,
+  "text": "Felix Okafor works for Copperfield Consulting Inc. and uses the address fokafor@copperfield.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t71",
+   "t72",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 417,
+  "end": 486,
+  "text": "Ironleaf Analytics Co. is based at 1967 Elm Street, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 488,
+  "end": 566,
+  "text": "Account 5508012415 at Lakeshore Savings Bank belongs to Ironleaf Analytics Co.",
+  "tids": [
+   "t26",
+   "t27",
+   "t73",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 567,
+  "end": 646,
+  "text": "Copperfield Consulting Inc. holds account 6300084532 at Lakeshore Savings Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t74",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 647,
+  "end": 711,
+  "text": "Elena Haddad holds account 5604097080 at Lakeshore Savings Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t75",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 713,
+  "end": 747,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: fokafor@copperfield.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 83,
+  "text": "To: ehaddad@ironleaf.com, grace.holloway@ironleaf.com",
+  "tids": [
+   "t53",
+   "t54",
+   "t76",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 84,
+  "end": 115,
+  "text": "Subject: Invoice 9689 follow-up",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 116,
+  "end": 153,
+  "text": "Date: Thu, 12 Jun 2025 16:25:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 155,
+  "end": 164,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 239,
+  "text": "On 24 May 2025, 13:15 UTC, Felix Okafor initiated the invoice submission.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 240,
+  "end": 319,
+  "text": "The contract amendment was initiated by Elena Haddad on 30 May 2025, 09:45 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 320,
+  "end": 369,
+  "text": "Grace Holloway authorized the contract amendment.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 370,
+  "end": 439,
+  "text": "Elena Haddad started the wire transfer on June 10, 2025 at 09:45 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 440,
+  "end": 529,
+  "text": "The account reconciliation was initiated by Grace Holloway on June 12, 2025 at 14:25 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 530,
+  "end": 594,
+  "text": "Elena Haddad was involved in the account reconciliation as well.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 596,
+  "end": 603,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 604,
+  "end": 609,
+  "text": "Felix",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t78"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@felixo is Felix Okafor.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@elenah is Elena Haddad.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 159,
+  "text": "[2025-05-24 14:15 UTC] @felixo to @elenah: Let's keep this between us until Friday.",
+  "tids": [
+   "t57",
+   "t58",
+   "t59",
+   "t60"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 160,
+  "end": 230,
+  "text": "[2025-05-24 14:22 UTC] @elenah to @felixo: Did the bank call back yet?",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64",
+   "t79"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_3"
+  ]
+ }
+}

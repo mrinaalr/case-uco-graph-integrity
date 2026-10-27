@@ -1,0 +1,493 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: divanova@northwind.com",
+  "tids": [
+   "t66",
+   "t12"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 82,
+  "text": "To: lquinn@northwind.com, samuel.castillo@redfern.com",
+  "tids": [
+   "t67",
+   "t68",
+   "t76",
+   "t77",
+   "t15",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 83,
+  "end": 118,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 119,
+  "end": 156,
+  "text": "Date: Mon, 07 Jul 2025 19:10:00 +0000",
+  "tids": [
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 158,
+  "end": 166,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 168,
+  "end": 240,
+  "text": "On 11 June 2025, 11:25 UTC, Desmond Petrov initiated the refund request.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 241,
+  "end": 318,
+  "text": "On June 14, 2025 at 15:25 UTC, Priya Kowalski initiated the payment approval.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43",
+   "t8"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 319,
+  "end": 386,
+  "text": "The payment approval happened at Northwind Services Group's office.",
+  "tids": [
+   "t65",
+   "t1"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 387,
+  "end": 459,
+  "text": "Desmond Petrov started the contract amendment on 2 July 2025, 13:10 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 460,
+  "end": 535,
+  "text": "On 7 July 2025, 17:10 UTC, Desmond Petrov initiated the invoice submission.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 537,
+  "end": 544,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 545,
+  "end": 549,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 131,
+  "text": "Desmond Petrov works for Northwind Services Group and uses the address dpetrov@northwind.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t78",
+   "t79",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 224,
+  "text": "Northwind Services Group employs Dana Ivanova, who can be reached at divanova@northwind.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t80",
+   "t81",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 225,
+  "end": 313,
+  "text": "Lena Quinn works for Northwind Services Group and uses the address lquinn@northwind.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t82",
+   "t83",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 314,
+  "end": 412,
+  "text": "Samuel Castillo works for Redfern Packaging Inc. and uses the address samuel.castillo@redfern.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t84",
+   "t85",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 413,
+  "end": 504,
+  "text": "Priya Kowalski is employed by Redfern Packaging Inc.; their email is pkowalski@redfern.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t86",
+   "t87",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 506,
+  "end": 576,
+  "text": "Northwind Services Group is based at 2024 Elm Street, Boise, ID 83702.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 577,
+  "end": 648,
+  "text": "Redfern Packaging Inc. is based at 7091 Maple Avenue, Albany, NY 12207.",
+  "tids": [
+   "t64",
+   "t60",
+   "t61",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 650,
+  "end": 721,
+  "text": "Northwind Services Group holds account 2543147923 at First Harbor Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t88",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 722,
+  "end": 791,
+  "text": "Redfern Packaging Inc. holds account 5252092867 at First Harbor Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t89",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 793,
+  "end": 841,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: pkowalski@redfern.com",
+  "tids": [
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 81,
+  "text": "To: lquinn@northwind.com, samuel.castillo@redfern.com",
+  "tids": [
+   "t72",
+   "t73",
+   "t90",
+   "t91"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 82,
+  "end": 118,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 119,
+  "end": 156,
+  "text": "Date: Sun, 13 Jul 2025 17:15:00 +0000",
+  "tids": [
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 158,
+  "end": 166,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 168,
+  "end": 252,
+  "text": "The expense reimbursement was initiated by Lena Quinn on June 11, 2025 at 13:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 253,
+  "end": 323,
+  "text": "On 18 June 2025, 13:15 UTC, Priya Kowalski initiated the audit review.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 324,
+  "end": 399,
+  "text": "Desmond Petrov started the bank detail change on July 4, 2025 at 14:15 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 400,
+  "end": 469,
+  "text": "The bank detail change happened at Northwind Services Group's office.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 470,
+  "end": 550,
+  "text": "On 13 July 2025, 15:15 UTC, Priya Kowalski initiated the account reconciliation.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_7",
+   "person_4"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 552,
+  "end": 559,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 560,
+  "end": 565,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ }
+}

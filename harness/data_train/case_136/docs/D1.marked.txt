@@ -1,0 +1,11 @@
+[D1.S1] From: ookafor@copperfield.com
+[D1.S2] To: owen.tanaka@copperfield.com
+[D1.S3] Subject: Updated remittance details
+[D1.S4] Date: Thu, 24 Apr 2025 12:30:00 +0000
+
+[D1.S5] Hi Owen,
+
+[D1.S6] On April 24, 2025 at 10:30 UTC, Marcus Osei initiated the wire transfer. [D1.S7] Julian Delgado authorized the wire transfer.
+
+[D1.S8] Thanks,
+[D1.S9] Oscar

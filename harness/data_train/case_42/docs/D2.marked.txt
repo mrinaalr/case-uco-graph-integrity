@@ -1,0 +1,11 @@
+[D2.S1] From: yholloway@bluegate.com
+[D2.S2] To: spark@redfern.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Sun, 20 Jul 2025 13:45:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] The expense reimbursement was initiated by Samuel Park on 21 June 2025, 12:50 UTC. [D2.S7] Yara Holloway was involved in the expense reimbursement as well. [D2.S8] Hannah Okafor started the audit review on 25 June 2025, 17:00 UTC. [D2.S9] Samuel Park started the vendor onboarding on July 14, 2025 at 11:00 UTC. [D2.S10] On July 20, 2025 at 11:45 UTC, Yara Holloway initiated the payment approval. [D2.S11] Approval for the payment approval came from Victor Quinn. [D2.S12] Hannah Okafor was involved in the payment approval as well.
+
+[D2.S13] Thanks,
+[D2.S14] Yara

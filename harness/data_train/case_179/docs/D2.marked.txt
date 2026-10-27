@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Julian Fischer is employed by Ironleaf Analytics Group; their email is jfischer@ironleaf.com. [D2.S3] Tomas Moreau works for Ironleaf Analytics Group and uses the address tmoreau@ironleaf.com. [D2.S4] Wesley Novak works for Oakhaven Consulting LLC and uses the address wesley.novak@oakhaven.com.
+
+[D2.S5] Tomas Moreau reports to Julian Fischer.
+
+[D2.S6] Ironleaf Analytics Group is based at 2887 Commerce Drive, Richmond, VA 23219.
+
+[D2.S7] This summary reflects records available to date.

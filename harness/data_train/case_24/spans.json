@@ -1,0 +1,440 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: hbanerjee@westmark.com",
+  "tids": [
+   "t51",
+   "t12"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 59,
+  "text": "To: ylindqvist@brightwater.com",
+  "tids": [
+   "t52",
+   "t60",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 60,
+  "end": 96,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 97,
+  "end": 134,
+  "text": "Date: Sat, 01 Feb 2025 14:00:00 +0000",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 144,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 146,
+  "end": 235,
+  "text": "The expense reimbursement was initiated by Priya Moreau on January 13, 2025 at 09:25 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 236,
+  "end": 301,
+  "text": "Approval for the expense reimbursement came from Hannah Banerjee.",
+  "tids": [
+   "t50",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 302,
+  "end": 366,
+  "text": "Sofia Delgado was involved in the expense reimbursement as well.",
+  "tids": [
+   "t48",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 367,
+  "end": 440,
+  "text": "The expense reimbursement happened at Westmark Industrial Group's office.",
+  "tids": [
+   "t49",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 441,
+  "end": 519,
+  "text": "On 1 February 2025, 12:00 UTC, Hannah Banerjee initiated the payment approval.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 521,
+  "end": 528,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 529,
+  "end": 535,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 136,
+  "text": "Sofia Delgado works for Westmark Industrial Group and uses the address sofia.delgado@westmark.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t61",
+   "t62",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 233,
+  "text": "Hannah Banerjee is employed by Westmark Industrial Group; their email is hbanerjee@westmark.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t63",
+   "t64"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 234,
+  "end": 330,
+  "text": "Priya Moreau is employed by Westmark Industrial Group; their email is priya.moreau@westmark.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t65",
+   "t66",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 331,
+  "end": 432,
+  "text": "Yara Lindqvist works for Brightwater Consulting Inc. and uses the address ylindqvist@brightwater.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t67",
+   "t68",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 433,
+  "end": 532,
+  "text": "Brightwater Consulting Inc. employs Oscar Vance, who can be reached at oscar.vance@brightwater.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t69",
+   "t70",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 534,
+  "end": 577,
+  "text": "Hannah Banerjee's manager is Sofia Delgado.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 579,
+  "end": 662,
+  "text": "Westmark Industrial Group operates from 8192 Industrial Parkway, Spokane, WA 99201.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 664,
+  "end": 752,
+  "text": "Account 9831521144 at Granite Federal Credit Union belongs to Westmark Industrial Group.",
+  "tids": [
+   "t30",
+   "t31",
+   "t71",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 753,
+  "end": 842,
+  "text": "Account 3969200115 at Granite Federal Credit Union belongs to Brightwater Consulting Inc.",
+  "tids": [
+   "t33",
+   "t34",
+   "t72",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 843,
+  "end": 922,
+  "text": "Granite Federal Credit Union account 7076721517 is registered to Sofia Delgado.",
+  "tids": [
+   "t36",
+   "t37",
+   "t73",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 924,
+  "end": 963,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 32,
+  "text": "From: sofia.delgado@westmark.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 33,
+  "end": 88,
+  "text": "To: hbanerjee@westmark.com, oscar.vance@brightwater.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1",
+   "email_person_4"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 89,
+  "end": 120,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 121,
+  "end": 158,
+  "text": "Date: Fri, 31 Jan 2025 12:15:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 160,
+  "end": 170,
+  "text": "Hi Hannah,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 172,
+  "end": 256,
+  "text": "The wire transfer was initiated by Hannah Banerjee on January 31, 2025 at 10:15 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 258,
+  "end": 265,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 266,
+  "end": 271,
+  "text": "Sofia",
+  "tids": [],
+  "mentions": []
+ }
+}

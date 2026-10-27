@@ -1,0 +1,468 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Ironleaf Components Co. employs Marcus Vance, who can be reached at marcus.vance@ironleaf.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 228,
+  "text": "Ironleaf Components Co. employs Andre Lindqvist, who can be reached at alindqvist@ironleaf.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t68",
+   "t69",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 229,
+  "end": 320,
+  "text": "Priya Moreau works for Westmark Freight LLC and uses the address priya.moreau@westmark.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t70",
+   "t71",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 322,
+  "end": 402,
+  "text": "Ironleaf Components Co. operates from 2566 Industrial Parkway, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 404,
+  "end": 480,
+  "text": "Ironleaf Components Co. holds account 2792241837 at Pinecrest National Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 481,
+  "end": 554,
+  "text": "Westmark Freight LLC holds account 6683923934 at Pinecrest National Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t73",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 555,
+  "end": 628,
+  "text": "Pinecrest National Bank account 1021430100 is registered to Marcus Vance.",
+  "tids": [
+   "t28",
+   "t29",
+   "t74",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 630,
+  "end": 687,
+  "text": "Account 2792241837 sent a transfer to account 6683923934.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 689,
+  "end": 737,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: marcus.vance@ironleaf.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 86,
+  "text": "To: priya.moreau@westmark.com, alindqvist@ironleaf.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t75",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 87,
+  "end": 112,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 113,
+  "end": 150,
+  "text": "Date: Fri, 11 Jul 2025 19:00:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 152,
+  "end": 161,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 163,
+  "end": 241,
+  "text": "The payment approval was initiated by Marcus Vance on 26 June 2025, 13:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 242,
+  "end": 302,
+  "text": "Approval for the payment approval came from Andre Lindqvist.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 303,
+  "end": 373,
+  "text": "The payment approval took place at the Ironleaf Components Co. office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 374,
+  "end": 457,
+  "text": "The account reconciliation was initiated by Priya Moreau on 4 July 2025, 09:00 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 458,
+  "end": 519,
+  "text": "Andre Lindqvist also took part in the account reconciliation.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 520,
+  "end": 596,
+  "text": "The account reconciliation took place at the Ironleaf Components Co. office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 597,
+  "end": 679,
+  "text": "The bank detail change was initiated by Marcus Vance on July 5, 2025 at 10:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 680,
+  "end": 739,
+  "text": "Approval for the bank detail change came from Priya Moreau.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 740,
+  "end": 808,
+  "text": "The bank detail change happened at Ironleaf Components Co.'s office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 809,
+  "end": 879,
+  "text": "Priya Moreau started the vendor onboarding on 11 July 2025, 11:00 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 880,
+  "end": 951,
+  "text": "The vendor onboarding took place at the Ironleaf Components Co. office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 952,
+  "end": 1023,
+  "text": "Marcus Vance started the contract amendment on 11 July 2025, 17:00 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 1025,
+  "end": 1032,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S19": {
+  "doc_id": "D2",
+  "start": 1033,
+  "end": 1039,
+  "text": "Marcus",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t77"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@priyam is Priya Moreau.",
+  "tids": [
+   "t46",
+   "t45"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 76,
+  "text": "@marcusv is Marcus Vance.",
+  "tids": [
+   "t48",
+   "t47"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 77,
+  "end": 148,
+  "text": "[2025-06-26 14:30 UTC] @priyam to @marcusv: Did the bank call back yet?",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65",
+   "t78"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ }
+}

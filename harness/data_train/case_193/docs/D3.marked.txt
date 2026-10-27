@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Account 6172480657 at Granite Federal Credit Union belongs to Bluegate Industrial Ltd. [D3.S3] Ironleaf Consulting Ltd. holds account 2566804456 at Granite Federal Credit Union. [D3.S4] Granite Federal Credit Union account 1162104789 is registered to Yara Reyes.
+
+[D3.S5] The bank detail change was initiated by Yara Reyes on 15 March 2025, 10:50 UTC. [D3.S6] The bank detail change took place at the Bluegate Industrial Ltd. office. [D3.S7] On March 26, 2025 at 09:15 UTC, Felix Park initiated the vendor onboarding.
+
+[D3.S8] This summary reflects records available to date.

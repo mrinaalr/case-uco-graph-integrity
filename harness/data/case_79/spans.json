@@ -1,0 +1,448 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: wreyes@copperfield.com",
+  "tids": [
+   "t53",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 55,
+  "text": "To: nnovak@copperfield.com",
+  "tids": [
+   "t54",
+   "t62",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 56,
+  "end": 89,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 90,
+  "end": 127,
+  "text": "Date: Sat, 15 Mar 2025 15:50:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 138,
+  "text": "Hi Nadia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 225,
+  "text": "The vendor onboarding was initiated by Samuel Brennan on 20 February 2025, 09:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 300,
+  "text": "On 9 March 2025, 09:00 UTC, Wesley Reyes initiated the invoice submission.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41",
+   "t4"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 301,
+  "end": 373,
+  "text": "On March 15, 2025 at 13:50 UTC, Wesley Reyes initiated the audit review.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 374,
+  "end": 427,
+  "text": "Nadia Novak was involved in the audit review as well.",
+  "tids": [
+   "t51",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_6"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 429,
+  "end": 436,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 437,
+  "end": 443,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 131,
+  "text": "Wesley Reyes is employed by Copperfield Freight Group; their email is wreyes@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t63",
+   "t64",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 224,
+  "text": "Nadia Novak is employed by Copperfield Freight Group; their email is nnovak@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t65",
+   "t66"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 225,
+  "end": 321,
+  "text": "Samuel Brennan is employed by Bluegate Freight Ltd.; their email is samuel.brennan@bluegate.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t67",
+   "t68",
+   "t2",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 323,
+  "end": 408,
+  "text": "The offices of Copperfield Freight Group are at 2032 Lakeview Road, Albany, NY 12207.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 410,
+  "end": 458,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: wreyes@copperfield.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 84,
+  "text": "To: samuel.brennan@bluegate.com, nnovak@copperfield.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 85,
+  "end": 121,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 122,
+  "end": 159,
+  "text": "Date: Mon, 10 Mar 2025 11:45:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 161,
+  "end": 171,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 173,
+  "end": 264,
+  "text": "The account reconciliation was initiated by Wesley Reyes on February 26, 2025 at 14:50 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 265,
+  "end": 339,
+  "text": "On March 10, 2025 at 09:45 UTC, Wesley Reyes initiated the refund request.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 341,
+  "end": 348,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 349,
+  "end": 355,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 106,
+  "text": "Account 4874779824 at Granite Federal Credit Union belongs to Copperfield Freight Group.",
+  "tids": [
+   "t22",
+   "t23",
+   "t70",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 107,
+  "end": 186,
+  "text": "Bluegate Freight Ltd. holds account 9674236234 at Granite Federal Credit Union.",
+  "tids": [
+   "t25",
+   "t26",
+   "t71",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 187,
+  "end": 264,
+  "text": "Granite Federal Credit Union account 9163062803 is registered to Nadia Novak.",
+  "tids": [
+   "t28",
+   "t29",
+   "t72",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 266,
+  "end": 345,
+  "text": "The wire transfer was initiated by Wesley Reyes on 26 February 2025, 17:50 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 346,
+  "end": 432,
+  "text": "The expense reimbursement was initiated by Nadia Novak on March 13, 2025 at 14:25 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 433,
+  "end": 490,
+  "text": "Account 4874779824 sent a transfer to account 9163062803.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 492,
+  "end": 526,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

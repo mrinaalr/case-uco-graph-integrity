@@ -1,0 +1,11 @@
+[D2.S1] From: luca.park@oakhaven.com
+[D2.S2] To: ynovak@oakhaven.com, desmond.abara@stonebridge.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Fri, 21 Nov 2025 17:45:00 +0000
+
+[D2.S5] Hi Yara,
+
+[D2.S6] On November 4, 2025 at 14:25 UTC, Desmond Abara initiated the contract amendment. [D2.S7] Yara Novak was involved in the contract amendment as well. [D2.S8] The contract amendment took place at the Oakhaven Logistics Ltd. office. [D2.S9] Desmond Abara started the audit review on 15 November 2025, 11:50 UTC. [D2.S10] Yara Novak was involved in the audit review as well. [D2.S11] On November 16, 2025 at 12:50 UTC, Desmond Abara initiated the invoice submission. [D2.S12] Yara Novak also took part in the invoice submission. [D2.S13] On 20 November 2025, 15:15 UTC, Luca Park initiated the vendor onboarding. [D2.S14] Luca Park started the account reconciliation on 21 November 2025, 15:45 UTC. [D2.S15] The account reconciliation took place at the Oakhaven Logistics Ltd. office. [D2.S16] Yara Novak communicated with Luca Park about the payments.
+
+[D2.S17] Thanks,
+[D2.S18] Luca

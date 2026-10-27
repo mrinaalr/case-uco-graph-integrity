@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Marcus Kowalski is employed by Oakhaven Supply LLC; their email is marcus.kowalski@oakhaven.com. [D1.S3] Desmond Brennan is employed by Oakhaven Supply LLC; their email is dbrennan@oakhaven.com. [D1.S4] Oscar Ivanova is employed by Oakhaven Supply LLC; their email is oivanova@oakhaven.com. [D1.S5] Arjun Haddad works for Copperfield Packaging Group and uses the address arjun.haddad@copperfield.com.
+
+[D1.S6] Oscar Ivanova reports to Marcus Kowalski.
+
+[D1.S7] Oakhaven Supply LLC operates from 8029 Lakeview Road, Omaha, NE 68102.
+
+[D1.S8] Account 9902781821 at Meridian Trust Bank belongs to Oakhaven Supply LLC. [D1.S9] Meridian Trust Bank account 9033561083 is registered to Copperfield Packaging Group.
+
+[D1.S10] Funds moved from account 9902781821 to account 9033561083.
+
+[D1.S11] Please treat this as confidential.

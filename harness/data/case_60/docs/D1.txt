@@ -1,0 +1,11 @@
+From: luca.haddad@silverlake.com
+To: julian.moreau@clearpath.com
+Subject: Updated remittance details
+Date: Fri, 27 Jun 2025 18:15:00 +0000
+
+Hi Julian,
+
+On 7 June 2025, 09:45 UTC, Owen Park initiated the wire transfer. Julian Moreau authorized the wire transfer. On June 10, 2025 at 13:30 UTC, Julian Moreau initiated the expense reimbursement. The bank detail change was initiated by Owen Park on June 14, 2025 at 12:30 UTC. On June 27, 2025 at 16:15 UTC, Luca Haddad initiated the invoice submission.
+
+Thanks,
+Luca

@@ -1,0 +1,11 @@
+[D3.S1] From: luca.haddad@silverlake.com
+[D3.S2] To: julian.moreau@clearpath.com, owen.park@silverlake.com
+[D3.S3] Subject: Updated remittance details
+[D3.S4] Date: Sat, 21 Jun 2025 17:50:00 +0000
+
+[D3.S5] Hi Julian,
+
+[D3.S6] Julian Moreau started the audit review on 9 June 2025, 16:45 UTC. [D3.S7] The refund request was initiated by Luca Haddad on 12 June 2025, 13:45 UTC. [D3.S8] On June 21, 2025 at 15:50 UTC, Luca Haddad initiated the vendor onboarding.
+
+[D3.S9] Thanks,
+[D3.S10] Luca

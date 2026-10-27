@@ -1,0 +1,11 @@
+INTERNAL MEMO: Vendor payment review
+
+Elena Whitfield is employed by Northwind Supply Co.; their email is elena.whitfield@northwind.com. Luca Ashworth works for Northwind Supply Co. and uses the address luca.ashworth@northwind.com. Wesley Mendes is employed by Northwind Supply Co.; their email is wesley.mendes@northwind.com. Oscar Castillo is employed by Westmark Distribution Co.; their email is ocastillo@westmark.com. Westmark Distribution Co. employs Hector Banerjee, who can be reached at hector.banerjee@westmark.com.
+
+Wesley Mendes's manager is Elena Whitfield.
+
+The offices of Northwind Supply Co. are at 4102 Commerce Drive, Richmond, VA 23219. Westmark Distribution Co. is based at 8154 Harbor Avenue, Boise, ID 83702.
+
+Northwind Supply Co. holds account 4119013891 at Pinecrest National Bank. Account 5911690665 at Pinecrest National Bank belongs to Westmark Distribution Co. Pinecrest National Bank account 2259187189 is registered to Wesley Mendes.
+
+This summary reflects records available to date.

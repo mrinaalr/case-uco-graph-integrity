@@ -1,0 +1,324 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Tomas Abara works for Summit Peak Packaging Inc. and uses the address tomas.abara@summitpeak.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t46",
+   "t47",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 231,
+  "text": "Summit Peak Packaging Inc. employs Hannah Petrov, who can be reached at hpetrov@summitpeak.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t48",
+   "t49",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 339,
+  "text": "Copperfield Packaging Group employs Oscar Lindqvist, who can be reached at oscar.lindqvist@copperfield.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t50",
+   "t51",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 341,
+  "end": 417,
+  "text": "Summit Peak Packaging Inc. is based at 4155 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 419,
+  "end": 467,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: hpetrov@summitpeak.com",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 64,
+  "text": "To: oscar.lindqvist@copperfield.com",
+  "tids": [
+   "t43",
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 65,
+  "end": 98,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Thu, 03 Apr 2025 12:50:00 +0000",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 147,
+  "text": "Hi Oscar,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 233,
+  "text": "On March 16, 2025 at 17:25 UTC, Oscar Lindqvist initiated the expense reimbursement.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 234,
+  "end": 290,
+  "text": "Tomas Abara also took part in the expense reimbursement.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 291,
+  "end": 369,
+  "text": "On April 3, 2025 at 10:50 UTC, Hannah Petrov initiated the contract amendment.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 370,
+  "end": 445,
+  "text": "The contract amendment took place at the Summit Peak Packaging Inc. office.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 447,
+  "end": 454,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 455,
+  "end": 461,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 109,
+  "text": "Granite Federal Credit Union account 4814144228 is registered to Summit Peak Packaging Inc.",
+  "tids": [
+   "t22",
+   "t23",
+   "t53",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 110,
+  "end": 195,
+  "text": "Copperfield Packaging Group holds account 9910480056 at Granite Federal Credit Union.",
+  "tids": [
+   "t25",
+   "t26",
+   "t54",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 197,
+  "end": 273,
+  "text": "Oscar Lindqvist started the vendor onboarding on April 2, 2025 at 09:50 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 274,
+  "end": 354,
+  "text": "The bank detail change was initiated by Tomas Abara on 10 April 2025, 17:30 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 355,
+  "end": 426,
+  "text": "The bank detail change happened at Summit Peak Packaging Inc.'s office.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 428,
+  "end": 476,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

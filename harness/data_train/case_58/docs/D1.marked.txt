@@ -1,0 +1,11 @@
+[D1.S1] From: sofia.delgado@ironleaf.com
+[D1.S2] To: priya.osei@ironleaf.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Sun, 18 May 2025 14:00:00 +0000
+
+[D1.S5] Hi Priya,
+
+[D1.S6] On May 18, 2025 at 12:00 UTC, Priya Osei initiated the bank detail change. [D1.S7] Maya Vance authorized the bank detail change. [D1.S8] Yara Lindqvist was involved in the bank detail change as well. [D1.S9] The bank detail change took place at the Redfern Analytics Ltd. office.
+
+[D1.S10] Thanks,
+[D1.S11] Sofia

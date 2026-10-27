@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Pinecrest National Bank account 6011544726 is registered to Brightwater Tooling Ltd. [D3.S3] Westmark Tooling Group holds account 8945436224 at Pinecrest National Bank.
+
+[D3.S4] On 7 February 2025, 09:45 UTC, Samuel Haddad initiated the account reconciliation.
+
+[D3.S5] This summary reflects records available to date.

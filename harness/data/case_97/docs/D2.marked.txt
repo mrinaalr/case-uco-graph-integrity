@@ -1,0 +1,11 @@
+[D2.S1] From: wesley.okafor@silverlake.com
+[D2.S2] To: luca.moreau@silverlake.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Sat, 01 Mar 2025 17:25:00 +0000
+
+[D2.S5] Hi Luca,
+
+[D2.S6] On January 28, 2025 at 15:15 UTC, Wesley Okafor initiated the contract amendment. [D2.S7] On March 1, 2025 at 15:25 UTC, Andre Tanaka initiated the wire transfer. [D2.S8] Approval for the wire transfer came from Luca Moreau. [D2.S9] The wire transfer happened at Silverlake Analytics Group's office.
+
+[D2.S10] Thanks,
+[D2.S11] Wesley

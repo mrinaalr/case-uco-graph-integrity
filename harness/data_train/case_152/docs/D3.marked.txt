@@ -1,0 +1,11 @@
+[D3.S1] From: maya.ashworth@cedarridge.com
+[D3.S2] To: marcus.lindqvist@westmark.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Fri, 28 Mar 2025 11:50:00 +0000
+
+[D3.S5] Hi Marcus,
+
+[D3.S6] The bank detail change was initiated by Hannah Ivanova on 18 March 2025, 16:10 UTC. [D3.S7] The audit review was initiated by Marcus Lindqvist on 28 March 2025, 09:50 UTC.
+
+[D3.S8] Thanks,
+[D3.S9] Maya

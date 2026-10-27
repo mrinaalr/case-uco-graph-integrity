@@ -1,0 +1,341 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 133,
+  "text": "Grace Banerjee works for Ironleaf Components Group and uses the address gbanerjee@ironleaf.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t54",
+   "t55",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 232,
+  "text": "Ironleaf Components Group employs Hannah Whitfield, who can be reached at hwhitfield@ironleaf.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t56",
+   "t57",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 320,
+  "text": "Redfern Logistics Ltd. employs Irene Petrov, who can be reached at ipetrov@redfern.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t58",
+   "t59",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 322,
+  "end": 398,
+  "text": "Ironleaf Components Group operates from 3208 Main Street, Raleigh, NC 27601.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 400,
+  "end": 480,
+  "text": "First Harbor Bank account 9199427000 is registered to Ironleaf Components Group.",
+  "tids": [
+   "t22",
+   "t23",
+   "t60",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 481,
+  "end": 557,
+  "text": "First Harbor Bank account 7372320661 is registered to Redfern Logistics Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t61",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 558,
+  "end": 629,
+  "text": "First Harbor Bank account 1617344046 is registered to Hannah Whitfield.",
+  "tids": [
+   "t28",
+   "t29",
+   "t62",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 631,
+  "end": 679,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: hwhitfield@ironleaf.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 53,
+  "text": "To: ipetrov@redfern.com",
+  "tids": [
+   "t51",
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 54,
+  "end": 79,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 80,
+  "end": 117,
+  "text": "Date: Sun, 20 Jul 2025 11:25:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 119,
+  "end": 128,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 199,
+  "text": "Irene Petrov started the wire transfer on June 16, 2025 at 13:15 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 200,
+  "end": 280,
+  "text": "The bank detail change was initiated by Irene Petrov on 24 June 2025, 10:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 281,
+  "end": 355,
+  "text": "The bank detail change took place at the Ironleaf Components Group office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 356,
+  "end": 440,
+  "text": "On June 29, 2025 at 12:10 UTC, Hannah Whitfield initiated the expense reimbursement.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 441,
+  "end": 515,
+  "text": "On 8 July 2025, 10:45 UTC, Grace Banerjee initiated the vendor onboarding.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 516,
+  "end": 584,
+  "text": "Irene Petrov started the payment approval on 9 July 2025, 10:50 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 585,
+  "end": 664,
+  "text": "The refund request was initiated by Irene Petrov on July 20, 2025 at 09:25 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 665,
+  "end": 712,
+  "text": "Hannah Whitfield authorized the refund request.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 714,
+  "end": 721,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 722,
+  "end": 728,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ }
+}

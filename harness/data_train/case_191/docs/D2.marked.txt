@@ -1,0 +1,11 @@
+[D2.S1] From: desmond.lindqvist@harborline.com
+[D2.S2] To: ruth.castillo@cedarridge.com
+[D2.S3] Subject: Invoice 9396 follow-up
+[D2.S4] Date: Sat, 15 Mar 2025 15:15:00 +0000
+
+[D2.S5] Hi Ruth,
+
+[D2.S6] Ruth Castillo started the wire transfer on 13 February 2025, 16:50 UTC. [D2.S7] The wire transfer happened at Cedar Ridge Analytics LLC's office. [D2.S8] The audit review was initiated by Ruth Castillo on March 15, 2025 at 13:15 UTC.
+
+[D2.S9] Thanks,
+[D2.S10] Desmond

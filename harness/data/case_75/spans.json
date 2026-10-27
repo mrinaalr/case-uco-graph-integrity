@@ -1,0 +1,505 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 29,
+  "text": "From: andre.novak@redfern.com",
+  "tids": [
+   "t63",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 30,
+  "end": 57,
+  "text": "To: oashworth@northwind.com",
+  "tids": [
+   "t64",
+   "t72",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 58,
+  "end": 89,
+  "text": "Subject: Invoice 1677 follow-up",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 90,
+  "end": 127,
+  "text": "Date: Sat, 18 Oct 2025 12:15:00 +0000",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 137,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 221,
+  "text": "The vendor onboarding was initiated by Andre Novak on 8 September 2025, 14:10 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 311,
+  "text": "The invoice submission was initiated by Owen Ashworth on September 24, 2025 at 14:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39",
+   "t7"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 312,
+  "end": 392,
+  "text": "On 4 October 2025, 17:50 UTC, Samuel Lindqvist initiated the bank detail change.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45",
+   "t5"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 393,
+  "end": 450,
+  "text": "Felix Whitfield also took part in the bank detail change.",
+  "tids": [
+   "t52",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_4"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 451,
+  "end": 538,
+  "text": "On October 18, 2025 at 10:15 UTC, Felix Whitfield initiated the account reconciliation.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 539,
+  "end": 596,
+  "text": "Andre Novak also took part in the account reconciliation.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_6"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 598,
+  "end": 605,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 606,
+  "end": 611,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 131,
+  "text": "Felix Whitfield works for Redfern Services Group and uses the address fwhitfield@redfern.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t73",
+   "t74",
+   "t1",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 232,
+  "text": "Samuel Lindqvist works for Redfern Services Group and uses the address samuel.lindqvist@redfern.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t75",
+   "t76",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 233,
+  "end": 323,
+  "text": "Andre Novak is employed by Redfern Services Group; their email is andre.novak@redfern.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 324,
+  "end": 419,
+  "text": "Owen Ashworth works for Northwind Industrial Inc. and uses the address oashworth@northwind.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t79",
+   "t80",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 421,
+  "end": 460,
+  "text": "Andre Novak reports to Felix Whitfield.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 462,
+  "end": 540,
+  "text": "The offices of Redfern Services Group are at 476 Main Street, Boise, ID 83702.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 541,
+  "end": 617,
+  "text": "Northwind Industrial Inc. operates from 4569 Lakeview Road, Omaha, NE 68102.",
+  "tids": [
+   "t62",
+   "t58",
+   "t59",
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 619,
+  "end": 688,
+  "text": "Redfern Services Group holds account 2328361089 at First Harbor Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t81",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 689,
+  "end": 768,
+  "text": "First Harbor Bank account 4480974485 is registered to Northwind Industrial Inc.",
+  "tids": [
+   "t29",
+   "t30",
+   "t82",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 770,
+  "end": 840,
+  "text": "Felix Whitfield communicated with Samuel Lindqvist about the payments.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_0",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 842,
+  "end": 881,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 29,
+  "text": "From: andre.novak@redfern.com",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 30,
+  "end": 81,
+  "text": "To: fwhitfield@redfern.com, oashworth@northwind.com",
+  "tids": [
+   "t68",
+   "t69",
+   "t83"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 82,
+  "end": 107,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 108,
+  "end": 145,
+  "text": "Date: Tue, 14 Oct 2025 16:45:00 +0000",
+  "tids": [
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 147,
+  "end": 156,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 158,
+  "end": 252,
+  "text": "The expense reimbursement was initiated by Felix Whitfield on September 19, 2025 at 12:30 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 253,
+  "end": 340,
+  "text": "The wire transfer was initiated by Samuel Lindqvist on September 29, 2025 at 17:10 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 341,
+  "end": 395,
+  "text": "Andre Novak was involved in the wire transfer as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 396,
+  "end": 462,
+  "text": "The wire transfer took place at the Redfern Services Group office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 463,
+  "end": 532,
+  "text": "Andre Novak started the refund request on 14 October 2025, 14:45 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 534,
+  "end": 541,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 542,
+  "end": 547,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ }
+}

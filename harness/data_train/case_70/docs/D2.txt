@@ -1,0 +1,11 @@
+From: priya.ivanova@westmark.com
+To: ivance@westmark.com, fabara@clearpath.com
+Subject: Updated remittance details
+Date: Wed, 20 Aug 2025 11:10:00 +0000
+
+Hi Irene,
+
+The invoice submission was initiated by Irene Vance on August 2, 2025 at 11:30 UTC. Felix Abara was involved in the invoice submission as well. The invoice submission happened at Westmark Supply Co.'s office. Irene Vance started the expense reimbursement on 2 August 2025, 17:10 UTC. Approval for the expense reimbursement came from Felix Abara. The expense reimbursement happened at Westmark Supply Co.'s office. On 19 August 2025, 09:10 UTC, Felix Abara initiated the vendor onboarding. Priya Ivanova also took part in the vendor onboarding. On 20 August 2025, 09:10 UTC, Felix Abara initiated the account reconciliation. Irene Vance also took part in the account reconciliation.
+
+Thanks,
+Priya

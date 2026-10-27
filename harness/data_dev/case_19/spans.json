@@ -1,0 +1,430 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Ruth Abara works for Bluegate Packaging Group and uses the address ruth.abara@bluegate.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t65",
+   "t66",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 220,
+  "text": "Nadia Okafor works for Bluegate Packaging Group and uses the address nokafor@bluegate.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t67",
+   "t68",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 221,
+  "end": 312,
+  "text": "Northwind Supply Inc. employs Wesley Fischer, who can be reached at wfischer@northwind.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t69",
+   "t70",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 314,
+  "end": 351,
+  "text": "Nadia Okafor's manager is Ruth Abara.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 353,
+  "end": 428,
+  "text": "Bluegate Packaging Group operates from 7048 Main Street, Madison, WI 53703.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 430,
+  "end": 501,
+  "text": "Bluegate Packaging Group holds account 1767259990 at First Harbor Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t71",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 502,
+  "end": 574,
+  "text": "Account 3201677702 at First Harbor Bank belongs to Northwind Supply Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t72",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 575,
+  "end": 640,
+  "text": "First Harbor Bank account 7308269702 is registered to Ruth Abara.",
+  "tids": [
+   "t28",
+   "t29",
+   "t73",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 642,
+  "end": 676,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: nokafor@bluegate.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 78,
+  "text": "To: ruth.abara@bluegate.com, wfischer@northwind.com",
+  "tids": [
+   "t49",
+   "t50",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 79,
+  "end": 110,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 111,
+  "end": 148,
+  "text": "Date: Mon, 25 Aug 2025 19:15:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 150,
+  "end": 158,
+  "text": "Hi Ruth,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 160,
+  "end": 248,
+  "text": "The expense reimbursement was initiated by Wesley Fischer on July 29, 2025 at 15:25 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 249,
+  "end": 336,
+  "text": "The invoice submission was initiated by Wesley Fischer on August 11, 2025 at 13:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 337,
+  "end": 410,
+  "text": "The invoice submission took place at the Bluegate Packaging Group office.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 411,
+  "end": 481,
+  "text": "On 25 August 2025, 17:15 UTC, Ruth Abara initiated the refund request.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 482,
+  "end": 539,
+  "text": "Approval for the refund request came from Wesley Fischer.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 540,
+  "end": 590,
+  "text": "Nadia Okafor also took part in the refund request.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 591,
+  "end": 655,
+  "text": "Nadia Okafor had been in contact with Wesley Fischer throughout.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_1",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 657,
+  "end": 664,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 665,
+  "end": 670,
+  "text": "Nadia",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t75"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 47,
+  "text": "@rutha is Ruth Abara.",
+  "tids": [
+   "t40",
+   "t39"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 48,
+  "end": 75,
+  "text": "@wesleyf is Wesley Fischer.",
+  "tids": [
+   "t42",
+   "t41"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 153,
+  "text": "[2025-07-29 16:25 UTC] @rutha to @wesleyf: Finance is asking questions again.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55",
+   "t56",
+   "t76"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 154,
+  "end": 235,
+  "text": "[2025-07-29 16:32 UTC] @wesleyf to @rutha: I pushed it through, check your inbox.",
+  "tids": [
+   "t57",
+   "t58",
+   "t59",
+   "t60",
+   "t77"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 236,
+  "end": 319,
+  "text": "[2025-07-29 16:39 UTC] @rutha to @wesleyf: Let's keep this between us until Friday.",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ }
+}

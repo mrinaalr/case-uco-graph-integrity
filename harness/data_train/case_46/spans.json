@@ -1,0 +1,503 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 133,
+  "text": "Arjun Okafor works for Brightwater Components LLC and uses the address aokafor@brightwater.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t81",
+   "t82",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 230,
+  "text": "Lena Novak works for Brightwater Components LLC and uses the address lena.novak@brightwater.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t83",
+   "t84",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 231,
+  "end": 329,
+  "text": "Kofi Mendes is employed by Brightwater Components LLC; their email is kofi.mendes@brightwater.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t85",
+   "t86",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 330,
+  "end": 429,
+  "text": "Clearpath Fabrication LLC employs Wesley Whitfield, who can be reached at wwhitfield@clearpath.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t87",
+   "t88",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 430,
+  "end": 526,
+  "text": "Andre Kowalski works for Clearpath Fabrication LLC and uses the address akowalski@clearpath.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t89",
+   "t90",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 528,
+  "end": 603,
+  "text": "Brightwater Components LLC is based at 2265 Market Street, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 605,
+  "end": 653,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: lena.novak@brightwater.com",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 60,
+  "text": "To: aokafor@brightwater.com",
+  "tids": [
+   "t66",
+   "t91"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 61,
+  "end": 101,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 102,
+  "end": 139,
+  "text": "Date: Sat, 01 Mar 2025 19:15:00 +0000",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 141,
+  "end": 150,
+  "text": "Hi Arjun,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 152,
+  "end": 223,
+  "text": "Arjun Okafor started the audit review on February 2, 2025 at 13:45 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 224,
+  "end": 311,
+  "text": "The payment approval was initiated by Andre Kowalski on February 16, 2025 at 09:30 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 312,
+  "end": 384,
+  "text": "On 20 February 2025, 13:45 UTC, Kofi Mendes initiated the wire transfer.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 385,
+  "end": 466,
+  "text": "The invoice submission was initiated by Lena Novak on March 1, 2025 at 17:15 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 467,
+  "end": 538,
+  "text": "The invoice submission happened at Brightwater Components LLC's office.",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "event_6",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 540,
+  "end": 547,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 548,
+  "end": 552,
+  "text": "Lena",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t92"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 55,
+  "text": "@wesleyw is Wesley Whitfield.",
+  "tids": [
+   "t60",
+   "t59"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 56,
+  "end": 77,
+  "text": "@lenan is Lena Novak.",
+  "tids": [
+   "t62",
+   "t61"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 161,
+  "text": "[2025-02-02 14:45 UTC] @wesleyw to @lenan: Let's keep this between us until Friday.",
+  "tids": [
+   "t69",
+   "t70",
+   "t71",
+   "t72",
+   "t93"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 162,
+  "end": 232,
+  "text": "[2025-02-02 14:52 UTC] @lenan to @wesleyw: Did the bank call back yet?",
+  "tids": [
+   "t73",
+   "t74",
+   "t75",
+   "t76",
+   "t94"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_3"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 233,
+  "end": 321,
+  "text": "[2025-02-02 14:59 UTC] @wesleyw to @lenan: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t77",
+   "t78",
+   "t79",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_3",
+   "handle_person_1"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 91,
+  "text": "Brightwater Components LLC holds account 7193246434 at Union Ledger Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t95",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 92,
+  "end": 169,
+  "text": "Account 4957962313 at Union Ledger Bank belongs to Clearpath Fabrication LLC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t96",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 171,
+  "end": 246,
+  "text": "Lena Novak started the vendor onboarding on February 15, 2025 at 17:00 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 247,
+  "end": 332,
+  "text": "On 18 February 2025, 11:15 UTC, Wesley Whitfield initiated the expense reimbursement.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 333,
+  "end": 418,
+  "text": "On February 23, 2025 at 14:25 UTC, Wesley Whitfield initiated the contract amendment.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 419,
+  "end": 496,
+  "text": "On March 14, 2025 at 11:50 UTC, Kofi Mendes initiated the bank detail change.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_7",
+   "person_2"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 497,
+  "end": 554,
+  "text": "Account 7193246434 sent a transfer to account 4957962313.",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 556,
+  "end": 590,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

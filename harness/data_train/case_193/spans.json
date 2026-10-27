@@ -1,0 +1,418 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Felix Park works for Bluegate Industrial Ltd. and uses the address felix.park@bluegate.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t60",
+   "t61",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 217,
+  "text": "Yara Reyes is employed by Bluegate Industrial Ltd.; their email is yreyes@bluegate.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t62",
+   "t63",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 218,
+  "end": 307,
+  "text": "Hannah Quinn works for Bluegate Industrial Ltd. and uses the address hquinn@bluegate.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t64",
+   "t65",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 308,
+  "end": 409,
+  "text": "Tomas Whitfield is employed by Ironleaf Consulting Ltd.; their email is tomas.whitfield@ironleaf.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t66",
+   "t67",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 411,
+  "end": 444,
+  "text": "Yara Reyes reports to Felix Park.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 446,
+  "end": 522,
+  "text": "Bluegate Industrial Ltd. operates from 3240 Main Street, Richmond, VA 23219.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 524,
+  "end": 587,
+  "text": "Tomas Whitfield had been in contact with Felix Park throughout.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_3",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 589,
+  "end": 623,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 25,
+  "text": "From: yreyes@bluegate.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 26,
+  "end": 83,
+  "text": "To: felix.park@bluegate.com, tomas.whitfield@ironleaf.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t68",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 84,
+  "end": 115,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 116,
+  "end": 153,
+  "text": "Date: Sat, 29 Mar 2025 13:50:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 155,
+  "end": 164,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 237,
+  "text": "On March 3, 2025 at 12:15 UTC, Yara Reyes initiated the refund request.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 238,
+  "end": 291,
+  "text": "Approval for the refund request came from Felix Park.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 292,
+  "end": 348,
+  "text": "Hannah Quinn was involved in the refund request as well.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 349,
+  "end": 434,
+  "text": "The account reconciliation was initiated by Hannah Quinn on 19 March 2025, 16:50 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 435,
+  "end": 508,
+  "text": "The account reconciliation happened at Bluegate Industrial Ltd.'s office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 509,
+  "end": 594,
+  "text": "The expense reimbursement was initiated by Felix Park on March 29, 2025 at 11:50 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 596,
+  "end": 603,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 604,
+  "end": 608,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 104,
+  "text": "Account 6172480657 at Granite Federal Credit Union belongs to Bluegate Industrial Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 105,
+  "end": 187,
+  "text": "Ironleaf Consulting Ltd. holds account 2566804456 at Granite Federal Credit Union.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 188,
+  "end": 264,
+  "text": "Granite Federal Credit Union account 1162104789 is registered to Yara Reyes.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 266,
+  "end": 345,
+  "text": "The bank detail change was initiated by Yara Reyes on 15 March 2025, 10:50 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 346,
+  "end": 419,
+  "text": "The bank detail change took place at the Bluegate Industrial Ltd. office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 420,
+  "end": 495,
+  "text": "On March 26, 2025 at 09:15 UTC, Felix Park initiated the vendor onboarding.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 497,
+  "end": 545,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

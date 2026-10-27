@@ -1,0 +1,385 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Copperfield Services Ltd. employs Julian Osei, who can be reached at julian.osei@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t58",
+   "t59",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 235,
+  "text": "Hector Abara is employed by Copperfield Services Ltd.; their email is hector.abara@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t60",
+   "t61",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 236,
+  "end": 333,
+  "text": "Harborline Fabrication LLC employs Andre Vance, who can be reached at andre.vance@harborline.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t62",
+   "t63",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 335,
+  "end": 415,
+  "text": "Copperfield Services Ltd. is based at 486 Industrial Parkway, Spokane, WA 99201.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 417,
+  "end": 478,
+  "text": "Julian Osei had been in contact with Hector Abara throughout.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 480,
+  "end": 514,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: julian.osei@copperfield.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 64,
+  "text": "To: andre.vance@harborline.com",
+  "tids": [
+   "t55",
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 65,
+  "end": 100,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 101,
+  "end": 138,
+  "text": "Date: Fri, 28 Mar 2025 11:25:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 140,
+  "end": 149,
+  "text": "Hi Andre,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 151,
+  "end": 230,
+  "text": "The refund request was initiated by Hector Abara on March 1, 2025 at 15:25 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 231,
+  "end": 285,
+  "text": "Approval for the refund request came from Julian Osei.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 286,
+  "end": 360,
+  "text": "The audit review was initiated by Julian Osei on 11 March 2025, 09:25 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 361,
+  "end": 439,
+  "text": "The wire transfer was initiated by Andre Vance on March 19, 2025 at 15:30 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 440,
+  "end": 524,
+  "text": "The contract amendment was initiated by Hector Abara on March 28, 2025 at 09:25 UTC.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 526,
+  "end": 533,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 534,
+  "end": 540,
+  "text": "Julian",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 99,
+  "text": "Account 3465541236 at Lakeshore Savings Bank belongs to Copperfield Services Ltd.",
+  "tids": [
+   "t22",
+   "t23",
+   "t65",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 100,
+  "end": 183,
+  "text": "Account 3646130922 at Lakeshore Savings Bank belongs to Harborline Fabrication LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t66",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 184,
+  "end": 255,
+  "text": "Lakeshore Savings Bank account 7143238253 is registered to Julian Osei.",
+  "tids": [
+   "t28",
+   "t29",
+   "t67",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 257,
+  "end": 331,
+  "text": "On 9 March 2025, 09:10 UTC, Hector Abara initiated the invoice submission.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 332,
+  "end": 406,
+  "text": "The invoice submission took place at the Copperfield Services Ltd. office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 407,
+  "end": 482,
+  "text": "On 15 March 2025, 15:30 UTC, Hector Abara initiated the bank detail change.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 483,
+  "end": 564,
+  "text": "On March 23, 2025 at 10:25 UTC, Hector Abara initiated the expense reimbursement.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 566,
+  "end": 605,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

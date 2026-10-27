@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Maya Banerjee works for Summit Peak Tooling Ltd. and uses the address mbanerjee@summitpeak.com. [D2.S3] Summit Peak Tooling Ltd. employs Luca Reyes, who can be reached at lreyes@summitpeak.com. [D2.S4] Sofia Lindqvist works for Summit Peak Tooling Ltd. and uses the address sofia.lindqvist@summitpeak.com. [D2.S5] Mei Brennan works for Westmark Fabrication Group and uses the address mbrennan@westmark.com. [D2.S6] Westmark Fabrication Group employs Felix Tanaka, who can be reached at felix.tanaka@westmark.com.
+
+[D2.S7] Sofia Lindqvist's manager is Maya Banerjee.
+
+[D2.S8] Summit Peak Tooling Ltd. operates from 3094 Maple Avenue, Dayton, OH 45402.
+
+[D2.S9] More detail will follow once records are pulled.

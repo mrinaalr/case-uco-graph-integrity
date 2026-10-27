@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Account 6148153240 at Meridian Trust Bank belongs to Brightwater Consulting LLC. [D3.S3] Account 6113921335 at Meridian Trust Bank belongs to Clearpath Fabrication Ltd. [D3.S4] Victor Holloway holds account 9132833719 at Meridian Trust Bank.
+
+[D3.S5] On October 6, 2025 at 14:45 UTC, Wesley Delgado initiated the account reconciliation.
+
+[D3.S6] This summary reflects records available to date.

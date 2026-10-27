@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Kofi Moreau works for Westmark Components LLC and uses the address kofi.moreau@westmark.com. [D1.S3] Desmond Mendes is employed by Westmark Components LLC; their email is dmendes@westmark.com. [D1.S4] Clara Fischer works for Cedar Ridge Services LLC and uses the address clara.fischer@cedarridge.com.
+
+[D1.S5] The offices of Westmark Components LLC are at 6732 Maple Avenue, Madison, WI 53703.
+
+[D1.S6] Westmark Components LLC holds account 6653929183 at Pinecrest National Bank. [D1.S7] Pinecrest National Bank account 6744334932 is registered to Cedar Ridge Services LLC. [D1.S8] Pinecrest National Bank account 8967213416 is registered to Kofi Moreau.
+
+[D1.S9] Clara Fischer had been in contact with Desmond Mendes throughout.
+
+[D1.S10] Please treat this as confidential.

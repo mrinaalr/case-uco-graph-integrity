@@ -1,0 +1,11 @@
+[D1.S1] From: arjun.banerjee@clearpath.com
+[D1.S2] To: owen.castillo@clearpath.com, vpark@ironleaf.com
+[D1.S3] Subject: Contract terms for next quarter
+[D1.S4] Date: Fri, 18 Jul 2025 13:45:00 +0000
+
+[D1.S5] Hi Owen,
+
+[D1.S6] The invoice submission was initiated by Victor Park on 16 June 2025, 10:30 UTC. [D1.S7] The invoice submission took place at the Clearpath Packaging Inc. office. [D1.S8] The refund request was initiated by Victor Park on June 21, 2025 at 13:30 UTC. [D1.S9] Owen Castillo also took part in the refund request. [D1.S10] The account reconciliation was initiated by Owen Castillo on July 18, 2025 at 11:45 UTC. [D1.S11] Victor Park was involved in the account reconciliation as well.
+
+[D1.S12] Thanks,
+[D1.S13] Arjun

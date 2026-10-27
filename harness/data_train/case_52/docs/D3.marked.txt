@@ -1,0 +1,11 @@
+[D3.S1] From: ruth.moreau@bluegate.com
+[D3.S2] To: lpetrov@oakhaven.com
+[D3.S3] Subject: Audit prep items
+[D3.S4] Date: Mon, 13 Oct 2025 13:50:00 +0000
+
+[D3.S5] Hi Lena,
+
+[D3.S6] On October 13, 2025 at 11:50 UTC, Ruth Moreau initiated the vendor onboarding. [D3.S7] Dana Ashworth also took part in the vendor onboarding. [D3.S8] The vendor onboarding happened at Oakhaven Industrial Inc.'s office.
+
+[D3.S9] Thanks,
+[D3.S10] Ruth

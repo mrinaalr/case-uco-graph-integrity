@@ -1,0 +1,11 @@
+[D3.S1] From: rosa.ashworth@copperfield.com
+[D3.S2] To: lena.brennan@redfern.com
+[D3.S3] Subject: Audit prep items
+[D3.S4] Date: Sat, 14 Jun 2025 12:50:00 +0000
+
+[D3.S5] Hi Lena,
+
+[D3.S6] On May 22, 2025 at 17:50 UTC, Wesley Fischer initiated the expense reimbursement. [D3.S7] Rosa Ashworth also took part in the expense reimbursement. [D3.S8] Lena Brennan started the audit review on 28 May 2025, 14:25 UTC. [D3.S9] On June 8, 2025 at 11:50 UTC, Wesley Fischer initiated the contract amendment. [D3.S10] On June 14, 2025 at 10:50 UTC, Desmond Petrov initiated the vendor onboarding.
+
+[D3.S11] Thanks,
+[D3.S12] Rosa

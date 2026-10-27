@@ -1,0 +1,453 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Cedar Ridge Logistics LLC employs Irene Holloway, who can be reached at iholloway@cedarridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t65",
+   "t66",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 236,
+  "text": "Ruth Sorensen is employed by Cedar Ridge Logistics LLC; their email is ruth.sorensen@cedarridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t67",
+   "t68",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 237,
+  "end": 340,
+  "text": "Victor Lindqvist is employed by Brightwater Analytics Group; their email is vlindqvist@brightwater.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t69",
+   "t70",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 342,
+  "end": 417,
+  "text": "Cedar Ridge Logistics LLC operates from 320 Harbor Avenue, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 418,
+  "end": 494,
+  "text": "Brightwater Analytics Group operates from 3484 Elm Street, Dayton, OH 45402.",
+  "tids": [
+   "t53",
+   "t49",
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 496,
+  "end": 573,
+  "text": "Account 4205094714 at Union Ledger Bank belongs to Cedar Ridge Logistics LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t71",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 574,
+  "end": 653,
+  "text": "Account 8513097669 at Union Ledger Bank belongs to Brightwater Analytics Group.",
+  "tids": [
+   "t25",
+   "t26",
+   "t72",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 654,
+  "end": 715,
+  "text": "Irene Holloway holds account 1716922597 at Union Ledger Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t73",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 717,
+  "end": 774,
+  "text": "Account 4205094714 sent a transfer to account 1716922597.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 776,
+  "end": 824,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: vlindqvist@brightwater.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 91,
+  "text": "To: ruth.sorensen@cedarridge.com, iholloway@cedarridge.com",
+  "tids": [
+   "t57",
+   "t58",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 92,
+  "end": 128,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 166,
+  "text": "Date: Sat, 17 May 2025 18:30:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 168,
+  "end": 176,
+  "text": "Hi Ruth,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 178,
+  "end": 249,
+  "text": "Victor Lindqvist started the wire transfer on 23 April 2025, 11:25 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 250,
+  "end": 293,
+  "text": "Ruth Sorensen authorized the wire transfer.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 294,
+  "end": 351,
+  "text": "Irene Holloway was involved in the wire transfer as well.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 352,
+  "end": 417,
+  "text": "The wire transfer happened at Cedar Ridge Logistics LLC's office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 418,
+  "end": 503,
+  "text": "The invoice submission was initiated by Victor Lindqvist on May 3, 2025 at 09:50 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 504,
+  "end": 560,
+  "text": "Irene Holloway also took part in the invoice submission.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 561,
+  "end": 638,
+  "text": "The refund request was initiated by Irene Holloway on 17 May 2025, 16:30 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 639,
+  "end": 686,
+  "text": "Victor Lindqvist authorized the refund request.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 687,
+  "end": 744,
+  "text": "Ruth Sorensen was involved in the refund request as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 745,
+  "end": 815,
+  "text": "The refund request took place at the Cedar Ridge Logistics LLC office.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 817,
+  "end": 824,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 825,
+  "end": 831,
+  "text": "Victor",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t76"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 52,
+  "text": "@ireneh is Irene Holloway.",
+  "tids": [
+   "t40",
+   "t39"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 77,
+  "text": "@ruths is Ruth Sorensen.",
+  "tids": [
+   "t42",
+   "t41"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 165,
+  "text": "[2025-04-23 12:25 UTC] @ireneh to @ruths: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64",
+   "t77"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ }
+}

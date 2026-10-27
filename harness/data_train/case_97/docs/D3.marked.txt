@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @arjunr is Arjun Reyes.
+[D3.S3] @victori is Victor Ivanova.
+[D3.S4] [2025-06-07 12:45 UTC] @arjunr to @victori: Finance is asking questions again.
+[D3.S5] [2025-06-07 12:52 UTC] @victori to @arjunr: I pushed it through, check your inbox.

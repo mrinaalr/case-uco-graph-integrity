@@ -1,0 +1,11 @@
+[D2.S1] From: irene.lindqvist@stonebridge.com
+[D2.S2] To: sofia.okafor@ironleaf.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Fri, 07 Mar 2025 12:10:00 +0000
+
+[D2.S5] Hi Sofia,
+
+[D2.S6] Sofia Okafor started the invoice submission on 13 February 2025, 16:30 UTC. [D2.S7] Sofia Okafor started the payment approval on February 20, 2025 at 15:10 UTC. [D2.S8] Irene Lindqvist started the refund request on February 26, 2025 at 11:25 UTC. [D2.S9] The refund request took place at the Stonebridge Fabrication Ltd. office. [D2.S10] Sofia Okafor started the wire transfer on March 7, 2025 at 10:10 UTC.
+
+[D2.S11] Thanks,
+[D2.S12] Irene

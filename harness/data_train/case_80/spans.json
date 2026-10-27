@@ -1,0 +1,418 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: mfischer@copperfield.com",
+  "tids": [
+   "t43",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 82,
+  "text": "To: dreyes@copperfield.com, luca.park@northwind.com",
+  "tids": [
+   "t44",
+   "t45",
+   "t53",
+   "t54",
+   "t7",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 83,
+  "end": 116,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 117,
+  "end": 154,
+  "text": "Date: Thu, 21 Aug 2025 14:45:00 +0000",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 156,
+  "end": 167,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 169,
+  "end": 237,
+  "text": "Desmond Reyes started the wire transfer on 3 August 2025, 09:30 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 294,
+  "text": "Approval for the wire transfer came from Marcus Fischer.",
+  "tids": [
+   "t42",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 295,
+  "end": 367,
+  "text": "The wire transfer took place at the Copperfield Fabrication Ltd. office.",
+  "tids": [
+   "t41",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 368,
+  "end": 449,
+  "text": "Marcus Fischer started the expense reimbursement on August 21, 2025 at 12:45 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 450,
+  "end": 513,
+  "text": "Approval for the expense reimbursement came from Desmond Reyes.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 515,
+  "end": 522,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 523,
+  "end": 529,
+  "text": "Marcus",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 135,
+  "text": "Desmond Reyes works for Copperfield Fabrication Ltd. and uses the address dreyes@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t55",
+   "t56"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 236,
+  "text": "Marcus Fischer works for Copperfield Fabrication Ltd. and uses the address mfischer@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 237,
+  "end": 329,
+  "text": "Luca Park is employed by Northwind Distribution Co.; their email is luca.park@northwind.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t59",
+   "t60",
+   "t2",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 331,
+  "end": 411,
+  "text": "Copperfield Fabrication Ltd. operates from 3562 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 413,
+  "end": 461,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 29,
+  "text": "From: luca.park@northwind.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 30,
+  "end": 82,
+  "text": "To: mfischer@copperfield.com, dreyes@copperfield.com",
+  "tids": [
+   "t49",
+   "t50",
+   "t61",
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 83,
+  "end": 118,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 119,
+  "end": 156,
+  "text": "Date: Thu, 07 Aug 2025 13:45:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 158,
+  "end": 168,
+  "text": "Hi Marcus,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 170,
+  "end": 247,
+  "text": "Desmond Reyes started the account reconciliation on 7 August 2025, 11:45 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 249,
+  "end": 256,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 257,
+  "end": 261,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 111,
+  "text": "Granite Federal Credit Union account 3686355211 is registered to Copperfield Fabrication Ltd.",
+  "tids": [
+   "t22",
+   "t23",
+   "t63",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 112,
+  "end": 200,
+  "text": "Account 3855223553 at Granite Federal Credit Union belongs to Northwind Distribution Co.",
+  "tids": [
+   "t25",
+   "t26",
+   "t64",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 202,
+  "end": 281,
+  "text": "The invoice submission was initiated by Luca Park on 20 August 2025, 14:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 282,
+  "end": 355,
+  "text": "The invoice submission happened at Copperfield Fabrication Ltd.'s office.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 357,
+  "end": 405,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

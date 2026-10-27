@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Samuel Fischer works for Brightwater Consulting Group and uses the address sfischer@brightwater.com. [D1.S3] Rosa Moreau works for Brightwater Consulting Group and uses the address rmoreau@brightwater.com. [D1.S4] Brightwater Consulting Group employs Desmond Osei, who can be reached at desmond.osei@brightwater.com. [D1.S5] Arjun Delgado is employed by Redfern Tooling LLC; their email is arjun.delgado@redfern.com. [D1.S6] Felix Sorensen is employed by Redfern Tooling LLC; their email is fsorensen@redfern.com.
+
+[D1.S7] Rosa Moreau reports to Samuel Fischer.
+
+[D1.S8] Brightwater Consulting Group is based at 7301 Industrial Parkway, Tucson, AZ 85701.
+
+[D1.S9] Let me know if anything here looks off.

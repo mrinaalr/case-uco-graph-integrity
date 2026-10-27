@@ -1,0 +1,11 @@
+[D2.S1] From: luca.abara@stonebridge.com
+[D2.S2] To: yreyes@clearpath.com
+[D2.S3] Subject: Invoice 2158 follow-up
+[D2.S4] Date: Sun, 20 Apr 2025 13:50:00 +0000
+
+[D2.S5] Hi Yara,
+
+[D2.S6] The vendor onboarding was initiated by Yara Reyes on March 28, 2025 at 14:15 UTC. [D2.S7] Dana Vance started the expense reimbursement on April 6, 2025 at 09:50 UTC. [D2.S8] On 20 April 2025, 11:50 UTC, Mei Delgado initiated the bank detail change.
+
+[D2.S9] Thanks,
+[D2.S10] Luca

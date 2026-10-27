@@ -1,0 +1,11 @@
+[D2.S1] From: hpetrov@summitpeak.com
+[D2.S2] To: oscar.lindqvist@copperfield.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Thu, 03 Apr 2025 12:50:00 +0000
+
+[D2.S5] Hi Oscar,
+
+[D2.S6] On March 16, 2025 at 17:25 UTC, Oscar Lindqvist initiated the expense reimbursement. [D2.S7] Tomas Abara also took part in the expense reimbursement. [D2.S8] On April 3, 2025 at 10:50 UTC, Hannah Petrov initiated the contract amendment. [D2.S9] The contract amendment took place at the Summit Peak Packaging Inc. office.
+
+[D2.S10] Thanks,
+[D2.S11] Hannah

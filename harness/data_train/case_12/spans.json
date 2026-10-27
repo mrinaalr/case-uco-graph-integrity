@@ -1,0 +1,404 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 138,
+  "text": "Maya Lindqvist is employed by Silverlake Consulting Group; their email is mlindqvist@silverlake.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t61",
+   "t62",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 238,
+  "text": "Oscar Holloway works for Silverlake Consulting Group and uses the address oholloway@silverlake.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t63",
+   "t64",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 239,
+  "end": 332,
+  "text": "Irene Reyes is employed by Silverlake Consulting Group; their email is ireyes@silverlake.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t65",
+   "t66",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 333,
+  "end": 414,
+  "text": "Lena Park works for Westmark Freight LLC and uses the address lpark@westmark.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t67",
+   "t68",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 416,
+  "end": 502,
+  "text": "The offices of Silverlake Consulting Group are at 3404 Main Street, Madison, WI 53703.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 504,
+  "end": 578,
+  "text": "Silverlake Consulting Group holds account 7574215267 at Union Ledger Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t69",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 579,
+  "end": 646,
+  "text": "Westmark Freight LLC holds account 9857450027 at Union Ledger Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t70",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 648,
+  "end": 706,
+  "text": "Funds moved from account 7574215267 to account 9857450027.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 708,
+  "end": 756,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: oholloway@silverlake.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 76,
+  "text": "To: lpark@westmark.com, ireyes@silverlake.com",
+  "tids": [
+   "t49",
+   "t50",
+   "t71",
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 77,
+  "end": 117,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Fri, 01 Aug 2025 17:10:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 157,
+  "end": 165,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 167,
+  "end": 241,
+  "text": "Oscar Holloway started the payment approval on July 17, 2025 at 09:25 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 242,
+  "end": 296,
+  "text": "Maya Lindqvist also took part in the payment approval.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 297,
+  "end": 368,
+  "text": "Lena Park started the bank detail change on July 28, 2025 at 11:00 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 369,
+  "end": 441,
+  "text": "The bank detail change happened at Silverlake Consulting Group's office.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 442,
+  "end": 528,
+  "text": "The contract amendment was initiated by Oscar Holloway on August 1, 2025 at 15:10 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 529,
+  "end": 585,
+  "text": "Maya Lindqvist also took part in the contract amendment.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 587,
+  "end": 594,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 595,
+  "end": 600,
+  "text": "Oscar",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t73"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@mayal is Maya Lindqvist.",
+  "tids": [
+   "t41",
+   "t40"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 78,
+  "text": "@oscarh is Oscar Holloway.",
+  "tids": [
+   "t43",
+   "t42"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 155,
+  "text": "[2025-07-17 10:25 UTC] @mayal to @oscarh: Finance is asking questions again.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55",
+   "t56",
+   "t74"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 156,
+  "end": 236,
+  "text": "[2025-07-17 10:32 UTC] @oscarh to @mayal: I pushed it through, check your inbox.",
+  "tids": [
+   "t57",
+   "t58",
+   "t59",
+   "t60",
+   "t75"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ }
+}

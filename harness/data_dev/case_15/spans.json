@@ -1,0 +1,342 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Kofi Petrov works for Bluegate Fabrication Ltd. and uses the address kofi.petrov@bluegate.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t58",
+   "t59",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 229,
+  "text": "Samuel Banerjee is employed by Bluegate Fabrication Ltd.; their email is sbanerjee@bluegate.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t60",
+   "t61",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 326,
+  "text": "Nadia Haddad is employed by Bluegate Fabrication Ltd.; their email is nadia.haddad@bluegate.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t62",
+   "t63",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 327,
+  "end": 423,
+  "text": "Elena Okafor is employed by Clearpath Industrial LLC; their email is elena.okafor@clearpath.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t64",
+   "t65",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 424,
+  "end": 517,
+  "text": "Arjun Ivanova is employed by Clearpath Industrial LLC; their email is aivanova@clearpath.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t66",
+   "t67",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 519,
+  "end": 598,
+  "text": "Bluegate Fabrication Ltd. operates from 702 Commerce Drive, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 600,
+  "end": 676,
+  "text": "Account 8887387116 at Union Ledger Bank belongs to Bluegate Fabrication Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t68",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 677,
+  "end": 753,
+  "text": "Account 7131540908 at Union Ledger Bank belongs to Clearpath Industrial LLC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t69",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 754,
+  "end": 824,
+  "text": "Union Ledger Bank account 5897335669 is registered to Samuel Banerjee.",
+  "tids": [
+   "t36",
+   "t37",
+   "t70",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 826,
+  "end": 874,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: elena.okafor@clearpath.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 83,
+  "text": "To: sbanerjee@bluegate.com, aivanova@clearpath.com",
+  "tids": [
+   "t54",
+   "t55",
+   "t71",
+   "t72"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_4"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 84,
+  "end": 119,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 120,
+  "end": 157,
+  "text": "Date: Sun, 19 Oct 2025 11:25:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 159,
+  "end": 169,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 171,
+  "end": 262,
+  "text": "The expense reimbursement was initiated by Samuel Banerjee on October 6, 2025 at 09:45 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 263,
+  "end": 335,
+  "text": "Elena Okafor started the vendor onboarding on 6 October 2025, 10:10 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 336,
+  "end": 419,
+  "text": "On October 7, 2025 at 15:30 UTC, Elena Okafor initiated the account reconciliation.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 420,
+  "end": 494,
+  "text": "Nadia Haddad started the invoice submission on 11 October 2025, 13:15 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 495,
+  "end": 572,
+  "text": "On October 19, 2025 at 09:25 UTC, Samuel Banerjee initiated the audit review.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 574,
+  "end": 581,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 582,
+  "end": 587,
+  "text": "Elena",
+  "tids": [],
+  "mentions": []
+ }
+}

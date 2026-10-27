@@ -1,0 +1,433 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Kofi Ashworth works for Silverlake Industrial Group and uses the address kashworth@silverlake.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t65",
+   "t66",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 237,
+  "text": "Hector Quinn works for Silverlake Industrial Group and uses the address hector.quinn@silverlake.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t67",
+   "t68",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 333,
+  "text": "Priya Tanaka is employed by Silverlake Industrial Group; their email is ptanaka@silverlake.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t69",
+   "t70",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 334,
+  "end": 427,
+  "text": "Arjun Banerjee works for Bluegate Components LLC and uses the address abanerjee@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t71",
+   "t72",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 429,
+  "end": 507,
+  "text": "Silverlake Industrial Group operates from 4424 Maple Avenue, Albany, NY 12207.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 509,
+  "end": 548,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: abanerjee@bluegate.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 86,
+  "text": "To: hector.quinn@silverlake.com, kashworth@silverlake.com",
+  "tids": [
+   "t57",
+   "t58",
+   "t73",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 87,
+  "end": 127,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 128,
+  "end": 165,
+  "text": "Date: Fri, 27 Jun 2025 15:00:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 167,
+  "end": 177,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 179,
+  "end": 259,
+  "text": "The wire transfer was initiated by Arjun Banerjee on June 10, 2025 at 13:00 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 260,
+  "end": 302,
+  "text": "Hector Quinn authorized the wire transfer.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 303,
+  "end": 384,
+  "text": "The contract amendment was initiated by Kofi Ashworth on 18 June 2025, 13:00 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 385,
+  "end": 445,
+  "text": "Priya Tanaka was involved in the contract amendment as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 446,
+  "end": 521,
+  "text": "On 27 June 2025, 13:00 UTC, Kofi Ashworth initiated the invoice submission.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 523,
+  "end": 530,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 531,
+  "end": 536,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t75"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@kofia is Kofi Ashworth.",
+  "tids": [
+   "t50",
+   "t49"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 77,
+  "text": "@arjunb is Arjun Banerjee.",
+  "tids": [
+   "t52",
+   "t51"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 165,
+  "text": "[2025-06-10 14:00 UTC] @kofia to @arjunb: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64",
+   "t76"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 97,
+  "text": "Account 1020339962 at First Harbor Bank belongs to Silverlake Industrial Group.",
+  "tids": [
+   "t26",
+   "t27",
+   "t77",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 98,
+  "end": 176,
+  "text": "First Harbor Bank account 6287866213 is registered to Bluegate Components LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t78",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 178,
+  "end": 254,
+  "text": "The audit review was initiated by Arjun Banerjee on 12 June 2025, 16:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 255,
+  "end": 327,
+  "text": "Arjun Banerjee started the refund request on June 24, 2025 at 16:30 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 328,
+  "end": 371,
+  "text": "Hector Quinn authorized the refund request.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 372,
+  "end": 447,
+  "text": "Arjun Banerjee started the vendor onboarding on June 29, 2025 at 17:10 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 449,
+  "end": 497,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

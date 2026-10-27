@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Account 6181910179 at Union Ledger Bank belongs to Harborline Services Inc. [D3.S3] Union Ledger Bank account 6727017825 is registered to Westmark Tooling Inc. [D3.S4] Lena Petrov holds account 8298784074 at Union Ledger Bank.
+
+[D3.S5] The refund request was initiated by Samuel Tanaka on 19 October 2025, 12:45 UTC. [D3.S6] Andre Park also took part in the refund request. [D3.S7] On 6 November 2025, 10:45 UTC, Samuel Tanaka initiated the payment approval. [D3.S8] Lena Petrov also took part in the payment approval.
+
+[D3.S9] More detail will follow once records are pulled.

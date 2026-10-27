@@ -1,0 +1,386 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Silverlake Analytics Group employs Luca Moreau, who can be reached at luca.moreau@silverlake.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t55",
+   "t56",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 237,
+  "text": "Wesley Okafor works for Silverlake Analytics Group and uses the address wesley.okafor@silverlake.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t57",
+   "t58",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 337,
+  "text": "Andre Tanaka works for Silverlake Analytics Group and uses the address andre.tanaka@silverlake.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t59",
+   "t60",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 338,
+  "end": 433,
+  "text": "Maya Ashworth is employed by Oakhaven Packaging LLC; their email is maya.ashworth@oakhaven.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t61",
+   "t62",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 435,
+  "end": 509,
+  "text": "Silverlake Analytics Group is based at 3545 Elm Street, Spokane, WA 99201.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 511,
+  "end": 550,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: wesley.okafor@silverlake.com",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 65,
+  "text": "To: luca.moreau@silverlake.com",
+  "tids": [
+   "t48",
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 66,
+  "end": 99,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 100,
+  "end": 137,
+  "text": "Date: Sat, 01 Mar 2025 17:25:00 +0000",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 139,
+  "end": 147,
+  "text": "Hi Luca,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 230,
+  "text": "On January 28, 2025 at 15:15 UTC, Wesley Okafor initiated the contract amendment.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 231,
+  "end": 303,
+  "text": "On March 1, 2025 at 15:25 UTC, Andre Tanaka initiated the wire transfer.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 304,
+  "end": 357,
+  "text": "Approval for the wire transfer came from Luca Moreau.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 358,
+  "end": 424,
+  "text": "The wire transfer happened at Silverlake Analytics Group's office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 426,
+  "end": 433,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 434,
+  "end": 440,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@mayaa is Maya Ashworth.",
+  "tids": [
+   "t41",
+   "t40"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 73,
+  "text": "@lucam is Luca Moreau.",
+  "tids": [
+   "t43",
+   "t42"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 74,
+  "end": 155,
+  "text": "[2025-01-28 16:15 UTC] @mayaa to @lucam: Let's keep this between us until Friday.",
+  "tids": [
+   "t51",
+   "t52",
+   "t53",
+   "t54",
+   "t65"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 91,
+  "text": "Silverlake Analytics Group holds account 9161564103 at Union Ledger Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t66",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 92,
+  "end": 169,
+  "text": "Union Ledger Bank account 7033769260 is registered to Oakhaven Packaging LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t67",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 171,
+  "end": 255,
+  "text": "On February 12, 2025 at 15:50 UTC, Luca Moreau initiated the account reconciliation.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 256,
+  "end": 320,
+  "text": "Andre Tanaka was involved in the account reconciliation as well.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 322,
+  "end": 356,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

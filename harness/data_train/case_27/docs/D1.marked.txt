@@ -1,0 +1,11 @@
+[D1.S1] From: andre.tanaka@silverlake.com
+[D1.S2] To: priya.vance@harborline.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Tue, 28 Oct 2025 12:45:00 +0000
+
+[D1.S5] Hi Priya,
+
+[D1.S6] On October 13, 2025 at 11:15 UTC, Wesley Okafor initiated the account reconciliation. [D1.S7] The bank detail change was initiated by Wesley Okafor on 28 October 2025, 10:45 UTC. [D1.S8] Yara Brennan had been in contact with Wesley Okafor throughout.
+
+[D1.S9] Thanks,
+[D1.S10] Andre

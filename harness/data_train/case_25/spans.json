@@ -1,0 +1,408 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 134,
+  "text": "Harborline Distribution Inc. employs Sofia Tanaka, who can be reached at stanaka@harborline.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t58",
+   "t59",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 226,
+  "text": "Owen Osei works for Harborline Distribution Inc. and uses the address oosei@harborline.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t60",
+   "t61",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 227,
+  "end": 328,
+  "text": "Brightwater Components Ltd. employs Wesley Ashworth, who can be reached at washworth@brightwater.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t62",
+   "t63",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 330,
+  "end": 366,
+  "text": "Owen Osei's manager is Sofia Tanaka.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 368,
+  "end": 445,
+  "text": "Harborline Distribution Inc. is based at 5736 Main Street, Madison, WI 53703.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 446,
+  "end": 534,
+  "text": "The offices of Brightwater Components Ltd. are at 5647 Lakeview Road, Madison, WI 53703.",
+  "tids": [
+   "t52",
+   "t48",
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 536,
+  "end": 618,
+  "text": "Union Ledger Bank account 5297510831 is registered to Harborline Distribution Inc.",
+  "tids": [
+   "t22",
+   "t23",
+   "t64",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 619,
+  "end": 693,
+  "text": "Brightwater Components Ltd. holds account 5301987562 at Union Ledger Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t65",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 694,
+  "end": 753,
+  "text": "Sofia Tanaka holds account 1442523049 at Union Ledger Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t66",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 755,
+  "end": 812,
+  "text": "Account 5297510831 sent a transfer to account 1442523049.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 813,
+  "end": 871,
+  "text": "Funds moved from account 5297510831 to account 5301987562.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 873,
+  "end": 907,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: stanaka@harborline.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 80,
+  "text": "To: washworth@brightwater.com, oosei@harborline.com",
+  "tids": [
+   "t54",
+   "t55",
+   "t67",
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 81,
+  "end": 117,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Fri, 18 Apr 2025 13:00:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 157,
+  "end": 167,
+  "text": "Hi Wesley,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 169,
+  "end": 251,
+  "text": "The payment approval was initiated by Sofia Tanaka on March 30, 2025 at 13:45 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 252,
+  "end": 318,
+  "text": "Owen Osei started the wire transfer on April 9, 2025 at 15:30 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 319,
+  "end": 361,
+  "text": "Sofia Tanaka authorized the wire transfer.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 362,
+  "end": 420,
+  "text": "Wesley Ashworth was involved in the wire transfer as well.",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 421,
+  "end": 493,
+  "text": "The wire transfer took place at the Harborline Distribution Inc. office.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 494,
+  "end": 569,
+  "text": "Sofia Tanaka started the contract amendment on April 18, 2025 at 11:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 570,
+  "end": 620,
+  "text": "Wesley Ashworth authorized the contract amendment.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 621,
+  "end": 698,
+  "text": "The contract amendment took place at the Harborline Distribution Inc. office.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 699,
+  "end": 762,
+  "text": "Owen Osei communicated with Wesley Ashworth about the payments.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_1",
+   "person_2"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 764,
+  "end": 771,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 772,
+  "end": 777,
+  "text": "Sofia",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+From: shaddad@brightwater.com
+To: oosei@harborline.com
+Subject: Quarter-end vendor payments
+Date: Wed, 26 Mar 2025 12:10:00 +0000
+
+Hi Owen,
+
+Owen Osei started the audit review on February 19, 2025 at 09:10 UTC. The audit review took place at the Harborline Components Co. office. Grace Petrov started the payment approval on March 17, 2025 at 12:50 UTC. On March 26, 2025 at 10:10 UTC, Grace Petrov initiated the wire transfer. Owen Osei authorized the wire transfer.
+
+Thanks,
+Samuel

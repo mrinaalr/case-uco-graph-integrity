@@ -1,0 +1,11 @@
+From: clara.fischer@cedarridge.com
+To: dmendes@westmark.com, kofi.moreau@westmark.com
+Subject: Re: banking change request
+Date: Mon, 10 Feb 2025 18:50:00 +0000
+
+Hi Desmond,
+
+Clara Fischer started the account reconciliation on 8 January 2025, 12:00 UTC. Kofi Moreau was involved in the account reconciliation as well. On January 8, 2025 at 16:25 UTC, Desmond Mendes initiated the bank detail change. Kofi Moreau authorized the bank detail change. The bank detail change took place at the Westmark Components LLC office. Clara Fischer started the audit review on January 12, 2025 at 15:00 UTC. The invoice submission was initiated by Clara Fischer on 12 January 2025, 16:25 UTC. The invoice submission happened at Westmark Components LLC's office. The vendor onboarding was initiated by Desmond Mendes on 16 January 2025, 16:50 UTC. On 8 February 2025, 14:15 UTC, Kofi Moreau initiated the payment approval. Desmond Mendes authorized the payment approval. The refund request was initiated by Desmond Mendes on February 10, 2025 at 16:50 UTC. Approval for the refund request came from Kofi Moreau. The refund request took place at the Westmark Components LLC office.
+
+Thanks,
+Clara

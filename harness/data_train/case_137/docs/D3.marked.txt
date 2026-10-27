@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Oakhaven Packaging Ltd. holds account 4161588493 at First Harbor Bank. [D3.S3] Account 3491716875 at First Harbor Bank belongs to Westmark Freight Ltd. [D3.S4] Rosa Quinn holds account 9140624390 at First Harbor Bank.
+
+[D3.S5] Sofia Holloway started the account reconciliation on October 16, 2025 at 15:15 UTC. [D3.S6] On 1 November 2025, 10:15 UTC, Sofia Holloway initiated the bank detail change. [D3.S7] Kofi Abara started the audit review on November 6, 2025 at 10:15 UTC.
+
+[D3.S8] Please treat this as confidential.

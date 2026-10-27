@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Kofi Castillo is employed by Harborline Logistics Co.; their email is kofi.castillo@harborline.com. [D1.S3] Wesley Novak is employed by Harborline Logistics Co.; their email is wesley.novak@harborline.com. [D1.S4] Irene Fischer is employed by Harborline Logistics Co.; their email is ifischer@harborline.com. [D1.S5] Clara Okafor is employed by Silverlake Logistics Ltd.; their email is clara.okafor@silverlake.com. [D1.S6] Felix Moreau works for Silverlake Logistics Ltd. and uses the address felix.moreau@silverlake.com.
+
+[D1.S7] Harborline Logistics Co. operates from 4672 Market Street, Raleigh, NC 27601.
+
+[D1.S8] Account 4175076294 at Union Ledger Bank belongs to Harborline Logistics Co. [D1.S9] Account 4622296393 at Union Ledger Bank belongs to Silverlake Logistics Ltd.
+
+[D1.S10] More detail will follow once records are pulled.

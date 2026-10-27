@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Summit Peak Analytics Group employs Julian Brennan, who can be reached at jbrennan@summitpeak.com. [D1.S3] Priya Moreau is employed by Summit Peak Analytics Group; their email is priya.moreau@summitpeak.com. [D1.S4] Irene Park is employed by Summit Peak Analytics Group; their email is irene.park@summitpeak.com. [D1.S5] Oscar Castillo works for Silverlake Fabrication Ltd. and uses the address oscar.castillo@silverlake.com.
+
+[D1.S6] Summit Peak Analytics Group is based at 8777 Lakeview Road, Albany, NY 12207. [D1.S7] The offices of Silverlake Fabrication Ltd. are at 9607 Commerce Drive, Raleigh, NC 27601.
+
+[D1.S8] Account 7030943233 at Pinecrest National Bank belongs to Summit Peak Analytics Group. [D1.S9] Account 4933343649 at Pinecrest National Bank belongs to Silverlake Fabrication Ltd.
+
+[D1.S10] Account 7030943233 sent a transfer to account 4933343649.
+
+[D1.S11] Please treat this as confidential.

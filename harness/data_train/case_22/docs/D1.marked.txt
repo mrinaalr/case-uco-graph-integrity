@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Harborline Services Inc. employs Lena Petrov, who can be reached at lpetrov@harborline.com. [D1.S3] Harborline Services Inc. employs Andre Park, who can be reached at apark@harborline.com. [D1.S4] Arjun Castillo works for Harborline Services Inc. and uses the address acastillo@harborline.com. [D1.S5] Samuel Tanaka works for Westmark Tooling Inc. and uses the address samuel.tanaka@westmark.com.
+
+[D1.S6] Harborline Services Inc. operates from 8312 Main Street, Richmond, VA 23219. [D1.S7] Westmark Tooling Inc. operates from 9601 Elm Street, Omaha, NE 68102.
+
+[D1.S8] Lena Petrov communicated with Samuel Tanaka about the payments.
+
+[D1.S9] This summary reflects records available to date.

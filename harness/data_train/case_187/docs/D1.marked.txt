@@ -1,0 +1,11 @@
+[D1.S1] From: hreyes@brightwater.com
+[D1.S2] To: ecastillo@cedarridge.com, kosei@brightwater.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Thu, 13 Mar 2025 15:00:00 +0000
+
+[D1.S5] Hi Elena,
+
+[D1.S6] The refund request was initiated by Kofi Osei on 11 February 2025, 17:30 UTC. [D1.S7] Elena Castillo authorized the refund request. [D1.S8] On 13 March 2025, 13:00 UTC, Elena Castillo initiated the expense reimbursement.
+
+[D1.S9] Thanks,
+[D1.S10] Hannah

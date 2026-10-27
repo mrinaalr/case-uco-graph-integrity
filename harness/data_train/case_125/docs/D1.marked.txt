@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Redfern Components Inc. employs Tomas Mendes, who can be reached at tmendes@redfern.com. [D1.S3] Yara Tanaka works for Redfern Components Inc. and uses the address yara.tanaka@redfern.com. [D1.S4] Copperfield Distribution Co. employs Dana Haddad, who can be reached at dhaddad@copperfield.com.
+
+[D1.S5] Redfern Components Inc. is based at 71 Maple Avenue, Madison, WI 53703.
+
+[D1.S6] Redfern Components Inc. holds account 9711117287 at Union Ledger Bank. [D1.S7] Copperfield Distribution Co. holds account 6101624698 at Union Ledger Bank.
+
+[D1.S8] This summary reflects records available to date.

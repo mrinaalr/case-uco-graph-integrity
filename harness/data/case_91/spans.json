@@ -1,0 +1,326 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 130,
+  "text": "Bluegate Analytics LLC employs Clara Sorensen, who can be reached at csorensen@bluegate.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t52",
+   "t53",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 217,
+  "text": "Desmond Park works for Bluegate Analytics LLC and uses the address dpark@bluegate.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t54",
+   "t55",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 218,
+  "end": 316,
+  "text": "Marcus Petrov works for Copperfield Fabrication Ltd. and uses the address mpetrov@copperfield.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t56",
+   "t57",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 404,
+  "text": "The offices of Bluegate Analytics LLC are at 902 Riverside Boulevard, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 406,
+  "end": 480,
+  "text": "Bluegate Analytics LLC holds account 4247726842 at Lakeshore Savings Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t58",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 481,
+  "end": 565,
+  "text": "Account 4675332904 at Lakeshore Savings Bank belongs to Copperfield Fabrication Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t59",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 567,
+  "end": 615,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: csorensen@bluegate.com",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 76,
+  "text": "To: dpark@bluegate.com, mpetrov@copperfield.com",
+  "tids": [
+   "t48",
+   "t49",
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 77,
+  "end": 108,
+  "text": "Subject: Invoice 6806 follow-up",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 109,
+  "end": 146,
+  "text": "Date: Mon, 24 Nov 2025 19:00:00 +0000",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 148,
+  "end": 159,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 161,
+  "end": 246,
+  "text": "The contract amendment was initiated by Clara Sorensen on 22 October 2025, 13:30 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 247,
+  "end": 320,
+  "text": "Desmond Park started the refund request on October 25, 2025 at 15:10 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 321,
+  "end": 378,
+  "text": "Marcus Petrov was involved in the refund request as well.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 379,
+  "end": 464,
+  "text": "The payment approval was initiated by Marcus Petrov on November 1, 2025 at 16:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 465,
+  "end": 519,
+  "text": "Clara Sorensen also took part in the payment approval.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 520,
+  "end": 599,
+  "text": "On 3 November 2025, 14:30 UTC, Clara Sorensen initiated the invoice submission.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 600,
+  "end": 689,
+  "text": "The account reconciliation was initiated by Clara Sorensen on 6 November 2025, 09:45 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 690,
+  "end": 769,
+  "text": "On 24 November 2025, 17:00 UTC, Clara Sorensen initiated the vendor onboarding.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 771,
+  "end": 778,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 779,
+  "end": 784,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D2.S1] From: tomas.ivanova@brightwater.com
+[D2.S2] To: mei.sorensen@brightwater.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Fri, 12 Sep 2025 13:10:00 +0000
+
+[D2.S5] Hi Mei,
+
+[D2.S6] On August 13, 2025 at 12:45 UTC, Andre Reyes initiated the bank detail change. [D2.S7] Oscar Vance also took part in the bank detail change. [D2.S8] The bank detail change took place at the Brightwater Packaging Inc. office. [D2.S9] The audit review was initiated by Oscar Vance on September 12, 2025 at 11:10 UTC.
+
+[D2.S10] Thanks,
+[D2.S11] Tomas

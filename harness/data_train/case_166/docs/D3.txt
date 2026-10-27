@@ -1,0 +1,5 @@
+Chat export: #finance-ops
+@arjunq is Arjun Quinn.
+@sofiai is Sofia Ivanova.
+[2025-04-26 10:25 UTC] @arjunq to @sofiai: Did the bank call back yet?
+[2025-04-26 10:32 UTC] @sofiai to @arjunq: Can you look at the vendor file before lunch?

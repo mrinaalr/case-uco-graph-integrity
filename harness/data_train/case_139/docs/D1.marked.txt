@@ -1,0 +1,11 @@
+[D1.S1] From: tashworth@ironleaf.com
+[D1.S2] To: priya.vance@ironleaf.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Thu, 11 Sep 2025 17:25:00 +0000
+
+[D1.S5] Hi Priya,
+
+[D1.S6] On 26 August 2025, 16:30 UTC, Tomas Ashworth initiated the audit review. [D1.S7] Priya Vance was involved in the audit review as well. [D1.S8] On 11 September 2025, 15:25 UTC, Felix Park initiated the payment approval. [D1.S9] Approval for the payment approval came from Tomas Ashworth. [D1.S10] The payment approval took place at the Ironleaf Tooling Group office.
+
+[D1.S11] Thanks,
+[D1.S12] Tomas

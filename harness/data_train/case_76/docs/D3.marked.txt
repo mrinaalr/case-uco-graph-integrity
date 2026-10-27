@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Silverlake Components LLC holds account 3750203943 at Union Ledger Bank. [D3.S3] Account 4123827172 at Union Ledger Bank belongs to Westmark Industrial LLC. [D3.S4] Union Ledger Bank account 5778923351 is registered to Arjun Moreau.
+
+[D3.S5] On 21 January 2025, 13:15 UTC, Arjun Moreau initiated the account reconciliation. [D3.S6] The account reconciliation took place at the Silverlake Components LLC office. [D3.S7] On 7 February 2025, 09:50 UTC, Ruth Park initiated the contract amendment. [D3.S8] On 14 February 2025, 14:50 UTC, Arjun Moreau initiated the refund request. [D3.S9] The refund request happened at Silverlake Components LLC's office.
+
+[D3.S10] Let me know if anything here looks off.

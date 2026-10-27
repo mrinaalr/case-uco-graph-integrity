@@ -1,0 +1,408 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Felix Novak is employed by Bluegate Packaging Co.; their email is felix.novak@bluegate.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t61",
+   "t62",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 222,
+  "text": "Sofia Kowalski is employed by Bluegate Packaging Co.; their email is skowalski@bluegate.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t63",
+   "t64",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 223,
+  "end": 318,
+  "text": "Kofi Castillo is employed by Bluegate Packaging Co.; their email is kofi.castillo@bluegate.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t65",
+   "t66",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 319,
+  "end": 410,
+  "text": "Dana Brennan is employed by Clearpath Freight Group; their email is dbrennan@clearpath.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t67",
+   "t68",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 411,
+  "end": 506,
+  "text": "Andre Haddad works for Clearpath Freight Group and uses the address andre.haddad@clearpath.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t69",
+   "t70",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 508,
+  "end": 545,
+  "text": "Kofi Castillo reports to Felix Novak.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 546,
+  "end": 586,
+  "text": "Sofia Kowalski's manager is Felix Novak.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 588,
+  "end": 660,
+  "text": "Bluegate Packaging Co. operates from 850 Harbor Avenue, Boise, ID 83702.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 662,
+  "end": 740,
+  "text": "Account 1953833833 at Lakeshore Savings Bank belongs to Bluegate Packaging Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t71",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 741,
+  "end": 821,
+  "text": "Account 8755214573 at Lakeshore Savings Bank belongs to Clearpath Freight Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t72",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 822,
+  "end": 896,
+  "text": "Lakeshore Savings Bank account 1861867402 is registered to Sofia Kowalski.",
+  "tids": [
+   "t36",
+   "t37",
+   "t73",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 898,
+  "end": 932,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: kofi.castillo@bluegate.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 89,
+  "text": "To: felix.novak@bluegate.com, andre.haddad@clearpath.com",
+  "tids": [
+   "t57",
+   "t58",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 130,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 131,
+  "end": 168,
+  "text": "Date: Tue, 18 Nov 2025 14:50:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 170,
+  "end": 179,
+  "text": "Hi Felix,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 181,
+  "end": 264,
+  "text": "Sofia Kowalski started the account reconciliation on October 11, 2025 at 11:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 265,
+  "end": 340,
+  "text": "The account reconciliation took place at the Bluegate Packaging Co. office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 341,
+  "end": 413,
+  "text": "Felix Novak started the refund request on October 31, 2025 at 16:25 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 414,
+  "end": 477,
+  "text": "The refund request happened at Bluegate Packaging Co.'s office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 478,
+  "end": 553,
+  "text": "On 8 November 2025, 11:30 UTC, Felix Novak initiated the vendor onboarding.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 554,
+  "end": 607,
+  "text": "Dana Brennan also took part in the vendor onboarding.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_3",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 608,
+  "end": 678,
+  "text": "The vendor onboarding took place at the Bluegate Packaging Co. office.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 679,
+  "end": 761,
+  "text": "On November 18, 2025 at 12:50 UTC, Kofi Castillo initiated the contract amendment.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 763,
+  "end": 770,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 771,
+  "end": 775,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ }
+}

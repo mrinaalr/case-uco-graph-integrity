@@ -1,0 +1,11 @@
+[D2.S1] From: ofischer@westmark.com
+[D2.S2] To: nmoreau@cedarridge.com, shaddad@cedarridge.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Sun, 12 Oct 2025 17:15:00 +0000
+
+[D2.S5] Hi Nadia,
+
+[D2.S6] On 16 September 2025, 09:25 UTC, Owen Fischer initiated the bank detail change. [D2.S7] The bank detail change happened at Cedar Ridge Packaging Co.'s office. [D2.S8] The audit review was initiated by Sofia Haddad on 5 October 2025, 13:25 UTC. [D2.S9] On October 12, 2025 at 15:15 UTC, Desmond Quinn initiated the payment approval.
+
+[D2.S10] Thanks,
+[D2.S11] Owen

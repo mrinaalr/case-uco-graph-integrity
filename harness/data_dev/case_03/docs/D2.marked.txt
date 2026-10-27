@@ -1,0 +1,11 @@
+[D2.S1] From: rosa.kowalski@ironleaf.com
+[D2.S2] To: wesley.ivanova@bluegate.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Tue, 15 Jul 2025 13:10:00 +0000
+
+[D2.S5] Hi Wesley,
+
+[D2.S6] Ruth Osei started the bank detail change on 16 June 2025, 13:45 UTC. [D2.S7] Samuel Haddad started the refund request on June 17, 2025 at 17:10 UTC. [D2.S8] Samuel Haddad started the expense reimbursement on 18 June 2025, 09:15 UTC. [D2.S9] The expense reimbursement took place at the Ironleaf Packaging Inc. office. [D2.S10] On June 25, 2025 at 09:25 UTC, Samuel Haddad initiated the invoice submission. [D2.S11] The invoice submission happened at Ironleaf Packaging Inc.'s office. [D2.S12] Rosa Kowalski started the vendor onboarding on 8 July 2025, 11:45 UTC. [D2.S13] Wesley Ivanova was involved in the vendor onboarding as well. [D2.S14] Samuel Haddad started the wire transfer on July 15, 2025 at 11:10 UTC. [D2.S15] Approval for the wire transfer came from Rosa Kowalski. [D2.S16] Samuel Haddad communicated with Wesley Ivanova about the payments.
+
+[D2.S17] Thanks,
+[D2.S18] Rosa

@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Tomas Ivanova works for Copperfield Supply Co. and uses the address tomas.ivanova@copperfield.com. [D2.S3] Arjun Okafor is employed by Copperfield Supply Co.; their email is arjun.okafor@copperfield.com. [D2.S4] Northwind Distribution Ltd. employs Desmond Castillo, who can be reached at desmond.castillo@northwind.com.
+
+[D2.S5] The offices of Copperfield Supply Co. are at 7126 Main Street, Boise, ID 83702.
+
+[D2.S6] Copperfield Supply Co. holds account 8705653285 at Pinecrest National Bank. [D2.S7] Pinecrest National Bank account 2231092003 is registered to Northwind Distribution Ltd.
+
+[D2.S8] More detail will follow once records are pulled.

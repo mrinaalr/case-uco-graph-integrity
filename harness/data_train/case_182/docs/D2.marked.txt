@@ -1,0 +1,11 @@
+[D2.S1] From: lsorensen@silverlake.com
+[D2.S2] To: aholloway@silverlake.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Wed, 12 Mar 2025 17:10:00 +0000
+
+[D2.S5] Hi Arjun,
+
+[D2.S6] Marcus Quinn started the expense reimbursement on February 14, 2025 at 09:15 UTC. [D2.S7] The expense reimbursement took place at the Silverlake Freight Co. office. [D2.S8] The payment approval was initiated by Arjun Holloway on March 5, 2025 at 11:15 UTC. [D2.S9] Marcus Quinn was involved in the payment approval as well. [D2.S10] On March 8, 2025 at 11:10 UTC, Arjun Holloway initiated the wire transfer. [D2.S11] Marcus Quinn was involved in the wire transfer as well. [D2.S12] The contract amendment was initiated by Arjun Holloway on March 9, 2025 at 12:00 UTC. [D2.S13] The bank detail change was initiated by Marcus Quinn on 12 March 2025, 15:10 UTC. [D2.S14] Approval for the bank detail change came from Arjun Holloway. [D2.S15] Maya Haddad was involved in the bank detail change as well. [D2.S16] The bank detail change happened at Silverlake Freight Co.'s office.
+
+[D2.S17] Thanks,
+[D2.S18] Lena

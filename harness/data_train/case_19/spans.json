@@ -1,0 +1,422 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Ruth Banerjee is employed by Clearpath Analytics Ltd.; their email is rbanerjee@clearpath.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 228,
+  "text": "Elena Kowalski is employed by Clearpath Analytics Ltd.; their email is ekowalski@clearpath.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t68",
+   "t69",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 229,
+  "end": 323,
+  "text": "Maya Holloway works for Clearpath Analytics Ltd. and uses the address mholloway@clearpath.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t70",
+   "t71",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 324,
+  "end": 417,
+  "text": "Bluegate Tooling Co. employs Andre Fischer, who can be reached at andre.fischer@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 419,
+  "end": 504,
+  "text": "The offices of Clearpath Analytics Ltd. are at 4792 Harbor Avenue, Raleigh, NC 27601.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 506,
+  "end": 554,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: andre.fischer@bluegate.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 85,
+  "text": "To: ekowalski@clearpath.com, rbanerjee@clearpath.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 111,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 112,
+  "end": 149,
+  "text": "Date: Tue, 19 Aug 2025 19:25:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 151,
+  "end": 160,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 162,
+  "end": 230,
+  "text": "Elena Kowalski started the wire transfer on 16 July 2025, 15:50 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 231,
+  "end": 319,
+  "text": "The account reconciliation was initiated by Maya Holloway on July 24, 2025 at 17:50 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 320,
+  "end": 407,
+  "text": "The invoice submission was initiated by Elena Kowalski on August 16, 2025 at 17:25 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 408,
+  "end": 469,
+  "text": "Andre Fischer was involved in the invoice submission as well.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_3",
+   "event_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 470,
+  "end": 554,
+  "text": "The payment approval was initiated by Maya Holloway on August 19, 2025 at 17:25 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 556,
+  "end": 563,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 564,
+  "end": 569,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t76"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@ruthb is Ruth Banerjee.",
+  "tids": [
+   "t53",
+   "t52"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 77,
+  "text": "@elenak is Elena Kowalski.",
+  "tids": [
+   "t55",
+   "t54"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 147,
+  "text": "[2025-07-16 16:50 UTC] @ruthb to @elenak: Did the bank call back yet?",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65",
+   "t77"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 102,
+  "text": "Pinecrest National Bank account 1338487092 is registered to Clearpath Analytics Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t78",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 103,
+  "end": 180,
+  "text": "Account 7104595047 at Pinecrest National Bank belongs to Bluegate Tooling Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t79",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 182,
+  "end": 251,
+  "text": "On 20 July 2025, 10:30 UTC, Ruth Banerjee initiated the audit review.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 252,
+  "end": 330,
+  "text": "Maya Holloway started the expense reimbursement on July 29, 2025 at 13:15 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 331,
+  "end": 408,
+  "text": "Ruth Banerjee started the bank detail change on August 19, 2025 at 14:30 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 410,
+  "end": 444,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

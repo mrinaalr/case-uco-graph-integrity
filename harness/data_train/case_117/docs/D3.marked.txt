@@ -1,0 +1,11 @@
+[D3.S1] From: vpark@ironleaf.com
+[D3.S2] To: arjun.banerjee@clearpath.com, owen.castillo@clearpath.com
+[D3.S3] Subject: Contract terms for next quarter
+[D3.S4] Date: Sun, 22 Jun 2025 14:25:00 +0000
+
+[D3.S5] Hi Arjun,
+
+[D3.S6] Arjun Banerjee started the expense reimbursement on 17 June 2025, 17:10 UTC. [D3.S7] Approval for the expense reimbursement came from Owen Castillo. [D3.S8] On 22 June 2025, 12:25 UTC, Arjun Banerjee initiated the audit review. [D3.S9] The audit review happened at Clearpath Packaging Inc.'s office.
+
+[D3.S10] Thanks,
+[D3.S11] Victor

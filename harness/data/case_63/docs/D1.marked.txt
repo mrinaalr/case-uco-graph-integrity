@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Andre Osei is employed by Summit Peak Supply Co.; their email is aosei@summitpeak.com. [D1.S3] Sofia Fischer is employed by Summit Peak Supply Co.; their email is sfischer@summitpeak.com. [D1.S4] Lena Whitfield is employed by Summit Peak Supply Co.; their email is lena.whitfield@summitpeak.com. [D1.S5] Yara Kowalski works for Clearpath Services Co. and uses the address yara.kowalski@clearpath.com. [D1.S6] Victor Petrov is employed by Clearpath Services Co.; their email is vpetrov@clearpath.com.
+
+[D1.S7] Sofia Fischer's manager is Andre Osei.
+
+[D1.S8] Summit Peak Supply Co. is based at 8916 Lakeview Road, Raleigh, NC 27601.
+
+[D1.S9] Account 1694935183 at Granite Federal Credit Union belongs to Summit Peak Supply Co. [D1.S10] Granite Federal Credit Union account 1406272228 is registered to Clearpath Services Co. [D1.S11] Granite Federal Credit Union account 3898738417 is registered to Andre Osei.
+
+[D1.S12] Let me know if anything here looks off.

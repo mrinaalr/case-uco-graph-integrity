@@ -1,0 +1,11 @@
+[D2.S1] From: htanaka@oakhaven.com
+[D2.S2] To: pdelgado@oakhaven.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Mon, 14 Apr 2025 15:30:00 +0000
+
+[D2.S5] Hi Priya,
+
+[D2.S6] On March 10, 2025 at 09:50 UTC, Sofia Ashworth initiated the refund request. [D2.S7] The expense reimbursement was initiated by Irene Brennan on 16 March 2025, 12:25 UTC. [D2.S8] The payment approval was initiated by Hannah Tanaka on March 22, 2025 at 15:30 UTC. [D2.S9] On 26 March 2025, 09:30 UTC, Wesley Sorensen initiated the bank detail change. [D2.S10] Approval for the bank detail change came from Hannah Tanaka. [D2.S11] The contract amendment was initiated by Priya Delgado on 6 April 2025, 13:45 UTC. [D2.S12] The account reconciliation was initiated by Sofia Ashworth on April 14, 2025 at 09:15 UTC. [D2.S13] On 14 April 2025, 13:30 UTC, Priya Delgado initiated the vendor onboarding.
+
+[D2.S14] Thanks,
+[D2.S15] Hannah

@@ -1,0 +1,11 @@
+[D2.S1] From: arjun.ivanova@harborline.com
+[D2.S2] To: rosa.holloway@oakhaven.com, inovak@harborline.com
+[D2.S3] Subject: Invoice 6818 follow-up
+[D2.S4] Date: Sun, 25 May 2025 13:50:00 +0000
+
+[D2.S5] Hi Rosa,
+
+[D2.S6] On May 4, 2025 at 13:00 UTC, Rosa Holloway initiated the bank detail change. [D2.S7] Irene Novak started the invoice submission on May 5, 2025 at 17:50 UTC. [D2.S8] On May 21, 2025 at 10:50 UTC, Rosa Holloway initiated the audit review. [D2.S9] On May 25, 2025 at 11:50 UTC, Irene Novak initiated the refund request.
+
+[D2.S10] Thanks,
+[D2.S11] Arjun

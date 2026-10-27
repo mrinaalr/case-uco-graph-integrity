@@ -1,0 +1,11 @@
+[D2.S1] From: wesley.novak@harborline.com
+[D2.S2] To: ifischer@harborline.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Tue, 18 Mar 2025 12:15:00 +0000
+
+[D2.S5] Hi Irene,
+
+[D2.S6] The vendor onboarding was initiated by Irene Fischer on 16 February 2025, 15:50 UTC. [D2.S7] Clara Okafor started the audit review on 24 February 2025, 12:10 UTC. [D2.S8] The audit review happened at Harborline Logistics Co.'s office. [D2.S9] On 25 February 2025, 15:50 UTC, Irene Fischer initiated the refund request. [D2.S10] Felix Moreau was involved in the refund request as well. [D2.S11] On 18 March 2025, 10:15 UTC, Clara Okafor initiated the expense reimbursement. [D2.S12] The expense reimbursement took place at the Harborline Logistics Co. office.
+
+[D2.S13] Thanks,
+[D2.S14] Wesley

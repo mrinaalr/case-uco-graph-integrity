@@ -1,0 +1,319 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 134,
+  "text": "Luca Vance is employed by Cedar Ridge Industrial Ltd.; their email is luca.vance@cedarridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t48",
+   "t49",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 235,
+  "text": "Clara Okafor works for Cedar Ridge Industrial Ltd. and uses the address clara.okafor@cedarridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t50",
+   "t51",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 236,
+  "end": 332,
+  "text": "Kofi Delgado is employed by Cedar Ridge Industrial Ltd.; their email is kdelgado@cedarridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t52",
+   "t53",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 333,
+  "end": 424,
+  "text": "Andre Mendes works for Bluegate Fabrication Ltd. and uses the address amendes@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t54",
+   "t55",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 426,
+  "end": 502,
+  "text": "Cedar Ridge Industrial Ltd. is based at 9796 Harbor Avenue, Boise, ID 83702.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 504,
+  "end": 552,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: luca.vance@cedarridge.com",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 59,
+  "text": "To: kdelgado@cedarridge.com",
+  "tids": [
+   "t45",
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 60,
+  "end": 85,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 123,
+  "text": "Date: Sat, 22 Feb 2025 12:50:00 +0000",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 125,
+  "end": 133,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 203,
+  "text": "Andre Mendes started the audit review on 5 February 2025, 14:45 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 204,
+  "end": 286,
+  "text": "On 22 February 2025, 10:50 UTC, Clara Okafor initiated the account reconciliation.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 287,
+  "end": 363,
+  "text": "The account reconciliation happened at Cedar Ridge Industrial Ltd.'s office.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 365,
+  "end": 372,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 373,
+  "end": 377,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 99,
+  "text": "First Harbor Bank account 8015872041 is registered to Cedar Ridge Industrial Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t57",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 100,
+  "end": 179,
+  "text": "First Harbor Bank account 2360228119 is registered to Bluegate Fabrication Ltd.",
+  "tids": [
+   "t29",
+   "t30",
+   "t58",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 180,
+  "end": 244,
+  "text": "Account 1447184060 at First Harbor Bank belongs to Clara Okafor.",
+  "tids": [
+   "t32",
+   "t33",
+   "t59",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 246,
+  "end": 326,
+  "text": "On February 6, 2025 at 14:45 UTC, Kofi Delgado initiated the bank detail change.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 328,
+  "end": 376,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+From: rosa.reyes@northwind.com
+To: mei.kowalski@harborline.com
+Subject: Updated remittance details
+Date: Thu, 13 Nov 2025 16:25:00 +0000
+
+Hi Mei,
+
+The expense reimbursement was initiated by Priya Tanaka on 22 October 2025, 12:45 UTC. The wire transfer was initiated by Mei Kowalski on 7 November 2025, 14:45 UTC. The vendor onboarding was initiated by Rosa Reyes on 13 November 2025, 14:25 UTC.
+
+Thanks,
+Rosa

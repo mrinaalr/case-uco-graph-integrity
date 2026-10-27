@@ -1,0 +1,501 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 133,
+  "text": "Lena Fischer is employed by Clearpath Packaging LLC; their email is lena.fischer@clearpath.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t76",
+   "t77",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 231,
+  "text": "Ruth Holloway is employed by Clearpath Packaging LLC; their email is ruth.holloway@clearpath.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t78",
+   "t79",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 324,
+  "text": "Mei Castillo is employed by Clearpath Packaging LLC; their email is mcastillo@clearpath.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t80",
+   "t81",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 325,
+  "end": 427,
+  "text": "Andre Moreau works for Stonebridge Consulting Group and uses the address andre.moreau@stonebridge.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t82",
+   "t83",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 428,
+  "end": 530,
+  "text": "Julian Quinn is employed by Stonebridge Consulting Group; their email is julian.quinn@stonebridge.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t84",
+   "t85",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 532,
+  "end": 571,
+  "text": "Mei Castillo's manager is Lena Fischer.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 572,
+  "end": 610,
+  "text": "Ruth Holloway reports to Lena Fischer.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 612,
+  "end": 693,
+  "text": "Clearpath Packaging LLC is based at 8120 Riverside Boulevard, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 695,
+  "end": 758,
+  "text": "Lena Fischer communicated with Andre Moreau about the payments.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_0",
+   "person_3"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 760,
+  "end": 808,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: mcastillo@clearpath.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 89,
+  "text": "To: ruth.holloway@clearpath.com, lena.fischer@clearpath.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t86",
+   "t87"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 121,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 122,
+  "end": 159,
+  "text": "Date: Mon, 14 Apr 2025 19:15:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 161,
+  "end": 169,
+  "text": "Hi Ruth,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 171,
+  "end": 250,
+  "text": "The payment approval was initiated by Julian Quinn on 26 March 2025, 16:00 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 251,
+  "end": 303,
+  "text": "Lena Fischer also took part in the payment approval.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 304,
+  "end": 375,
+  "text": "Mei Castillo started the vendor onboarding on 14 April 2025, 17:15 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 377,
+  "end": 384,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 385,
+  "end": 388,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t88"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@ruthh is Ruth Holloway.",
+  "tids": [
+   "t51",
+   "t50"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@andrem is Andre Moreau.",
+  "tids": [
+   "t53",
+   "t52"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 156,
+  "text": "[2025-03-26 17:00 UTC] @ruthh to @andrem: I pushed it through, check your inbox.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67",
+   "t89"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_3"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 239,
+  "text": "[2025-03-26 17:07 UTC] @andrem to @ruthh: Let's keep this between us until Friday.",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71",
+   "t90"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_3",
+   "handle_person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 240,
+  "end": 309,
+  "text": "[2025-03-26 17:14 UTC] @ruthh to @andrem: Did the bank call back yet?",
+  "tids": [
+   "t72",
+   "t73",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_1",
+   "handle_person_3"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 88,
+  "text": "Clearpath Packaging LLC holds account 7263829043 at First Harbor Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t91",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 89,
+  "end": 172,
+  "text": "First Harbor Bank account 9989650821 is registered to Stonebridge Consulting Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t92",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 173,
+  "end": 233,
+  "text": "Ruth Holloway holds account 2990142376 at First Harbor Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t93",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 235,
+  "end": 319,
+  "text": "The bank detail change was initiated by Julian Quinn on April 11, 2025 at 11:25 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_4"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 320,
+  "end": 379,
+  "text": "Approval for the bank detail change came from Andre Moreau.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 380,
+  "end": 461,
+  "text": "The contract amendment was initiated by Andre Moreau on 17 April 2025, 15:15 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 463,
+  "end": 511,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

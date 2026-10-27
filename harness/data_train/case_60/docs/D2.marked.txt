@@ -1,0 +1,11 @@
+[D2.S1] From: livanova@clearpath.com
+[D2.S2] To: cashworth@clearpath.com, kofi.reyes@oakhaven.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Mon, 31 Mar 2025 19:50:00 +0000
+
+[D2.S5] Hi Clara,
+
+[D2.S6] Lena Ivanova started the account reconciliation on 22 February 2025, 14:50 UTC. [D2.S7] Clara Ashworth also took part in the account reconciliation. [D2.S8] The account reconciliation took place at the Clearpath Analytics Ltd. office. [D2.S9] On March 28, 2025 at 16:45 UTC, Mei Vance initiated the audit review. [D2.S10] Kofi Reyes also took part in the audit review. [D2.S11] On 31 March 2025, 17:50 UTC, Clara Ashworth initiated the bank detail change. [D2.S12] Kofi Reyes authorized the bank detail change. [D2.S13] Lena Ivanova also took part in the bank detail change. [D2.S14] The bank detail change happened at Clearpath Analytics Ltd.'s office. [D2.S15] Clara Ashworth communicated with Lena Ivanova about the payments.
+
+[D2.S16] Thanks,
+[D2.S17] Lena

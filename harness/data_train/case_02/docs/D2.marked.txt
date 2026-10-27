@@ -1,0 +1,11 @@
+[D2.S1] From: arjun.reyes@redfern.com
+[D2.S2] To: yara.tanaka@redfern.com, cosei@stonebridge.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Tue, 11 Nov 2025 16:45:00 +0000
+
+[D2.S5] Hi Yara,
+
+[D2.S6] On 12 October 2025, 10:00 UTC, Arjun Reyes initiated the wire transfer. [D2.S7] The wire transfer happened at Redfern Distribution Co.'s office. [D2.S8] The account reconciliation was initiated by Yara Tanaka on October 13, 2025 at 10:25 UTC. [D2.S9] On October 13, 2025 at 12:25 UTC, Clara Osei initiated the invoice submission. [D2.S10] The expense reimbursement was initiated by Yara Tanaka on 23 October 2025, 12:15 UTC. [D2.S11] Arjun Reyes was involved in the expense reimbursement as well. [D2.S12] The vendor onboarding was initiated by Clara Osei on November 10, 2025 at 10:10 UTC. [D2.S13] Arjun Reyes also took part in the vendor onboarding. [D2.S14] On 11 November 2025, 09:25 UTC, Clara Osei initiated the refund request. [D2.S15] Arjun Reyes was involved in the refund request as well. [D2.S16] On 11 November 2025, 14:45 UTC, Arjun Reyes initiated the bank detail change. [D2.S17] Approval for the bank detail change came from Clara Osei. [D2.S18] The bank detail change happened at Redfern Distribution Co.'s office.
+
+[D2.S19] Thanks,
+[D2.S20] Arjun

@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oakhaven Fabrication Inc. employs Yara Brennan, who can be reached at yara.brennan@oakhaven.com. [D1.S3] Andre Mendes works for Oakhaven Fabrication Inc. and uses the address amendes@oakhaven.com. [D1.S4] Redfern Components Group employs Julian Haddad, who can be reached at julian.haddad@redfern.com.
+
+[D1.S5] Oakhaven Fabrication Inc. operates from 90 Market Street, Albany, NY 12207.
+
+[D1.S6] Oakhaven Fabrication Inc. holds account 5928462519 at Granite Federal Credit Union. [D1.S7] Account 8642597035 at Granite Federal Credit Union belongs to Redfern Components Group. [D1.S8] Granite Federal Credit Union account 3271988133 is registered to Andre Mendes.
+
+[D1.S9] Account 5928462519 sent a transfer to account 3271988133.
+
+[D1.S10] More detail will follow once records are pulled.

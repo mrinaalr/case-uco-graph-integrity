@@ -1,0 +1,11 @@
+[D1.S1] From: givanova@northwind.com
+[D1.S2] To: desmond.banerjee@summitpeak.com, lmendes@summitpeak.com
+[D1.S3] Subject: Invoice 6175 follow-up
+[D1.S4] Date: Fri, 28 Feb 2025 18:10:00 +0000
+
+[D1.S5] Hi Desmond,
+
+[D1.S6] On February 20, 2025 at 10:25 UTC, Grace Ivanova initiated the invoice submission. [D1.S7] Desmond Banerjee started the expense reimbursement on 24 February 2025, 10:30 UTC. [D1.S8] The expense reimbursement happened at Summit Peak Fabrication Group's office. [D1.S9] The payment approval was initiated by Sofia Reyes on 28 February 2025, 16:10 UTC. [D1.S10] The payment approval happened at Summit Peak Fabrication Group's office.
+
+[D1.S11] Thanks,
+[D1.S12] Grace

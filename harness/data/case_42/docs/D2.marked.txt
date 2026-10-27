@@ -1,0 +1,11 @@
+[D2.S1] From: arjun.petrov@westmark.com
+[D2.S2] To: lena.quinn@brightwater.com, victor.ivanova@brightwater.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Tue, 12 Aug 2025 14:50:00 +0000
+
+[D2.S5] Hi Lena,
+
+[D2.S6] The bank detail change was initiated by Lena Quinn on July 10, 2025 at 14:10 UTC. [D2.S7] Victor Ivanova started the account reconciliation on July 12, 2025 at 15:00 UTC. [D2.S8] On 15 July 2025, 11:00 UTC, Arjun Petrov initiated the audit review. [D2.S9] The vendor onboarding was initiated by Lena Quinn on August 2, 2025 at 14:00 UTC. [D2.S10] Victor Ivanova started the refund request on 8 August 2025, 16:50 UTC. [D2.S11] On August 10, 2025 at 15:10 UTC, Arjun Petrov initiated the payment approval. [D2.S12] The expense reimbursement was initiated by Victor Ivanova on 12 August 2025, 12:50 UTC.
+
+[D2.S13] Thanks,
+[D2.S14] Arjun

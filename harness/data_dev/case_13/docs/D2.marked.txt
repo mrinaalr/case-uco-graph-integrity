@@ -1,0 +1,11 @@
+[D2.S1] From: hwhitfield@redfern.com
+[D2.S2] To: clara.quinn@stonebridge.com, dmoreau@stonebridge.com
+[D2.S3] Subject: Invoice 1523 follow-up
+[D2.S4] Date: Sat, 29 Mar 2025 15:00:00 +0000
+
+[D2.S5] Hi Clara,
+
+[D2.S6] Desmond Moreau started the refund request on February 22, 2025 at 12:25 UTC. [D2.S7] Hannah Whitfield also took part in the refund request. [D2.S8] Hannah Whitfield started the contract amendment on 17 March 2025, 15:25 UTC. [D2.S9] Clara Quinn authorized the contract amendment. [D2.S10] Desmond Moreau was involved in the contract amendment as well. [D2.S11] The contract amendment took place at the Stonebridge Consulting Ltd. office. [D2.S12] The audit review was initiated by Clara Quinn on 24 March 2025, 17:10 UTC. [D2.S13] Hannah Whitfield was involved in the audit review as well. [D2.S14] The account reconciliation was initiated by Clara Quinn on 29 March 2025, 09:45 UTC. [D2.S15] Desmond Moreau also took part in the account reconciliation. [D2.S16] The bank detail change was initiated by Hannah Whitfield on 29 March 2025, 13:00 UTC.
+
+[D2.S17] Thanks,
+[D2.S18] Hannah

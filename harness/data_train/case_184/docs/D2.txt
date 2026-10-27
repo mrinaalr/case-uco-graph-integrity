@@ -1,0 +1,11 @@
+From: hector.abara@westmark.com
+To: luca.quinn@stonebridge.com
+Subject: Updated remittance details
+Date: Sun, 13 Apr 2025 13:50:00 +0000
+
+Hi Luca,
+
+Elena Tanaka started the bank detail change on 25 March 2025, 17:00 UTC. Andre Reyes also took part in the bank detail change. The bank detail change happened at Westmark Packaging Inc.'s office. The account reconciliation was initiated by Elena Tanaka on 26 March 2025, 13:10 UTC. On April 3, 2025 at 12:25 UTC, Elena Tanaka initiated the refund request. Hector Abara authorized the refund request. On April 5, 2025 at 13:30 UTC, Luca Quinn initiated the contract amendment. Approval for the contract amendment came from Elena Tanaka. On April 13, 2025 at 11:50 UTC, Andre Reyes initiated the audit review.
+
+Thanks,
+Hector

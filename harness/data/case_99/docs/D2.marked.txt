@@ -1,0 +1,11 @@
+[D2.S1] From: mcastillo@clearpath.com
+[D2.S2] To: ruth.holloway@clearpath.com, lena.fischer@clearpath.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Mon, 14 Apr 2025 19:15:00 +0000
+
+[D2.S5] Hi Ruth,
+
+[D2.S6] The payment approval was initiated by Julian Quinn on 26 March 2025, 16:00 UTC. [D2.S7] Lena Fischer also took part in the payment approval. [D2.S8] Mei Castillo started the vendor onboarding on 14 April 2025, 17:15 UTC.
+
+[D2.S9] Thanks,
+[D2.S10] Mei

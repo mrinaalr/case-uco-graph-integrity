@@ -1,0 +1,9 @@
+INTERNAL MEMO: Vendor payment review
+
+Andre Kowalski works for Brightwater Fabrication Group and uses the address akowalski@brightwater.com. Samuel Okafor works for Brightwater Fabrication Group and uses the address sokafor@brightwater.com. Brightwater Fabrication Group employs Grace Castillo, who can be reached at grace.castillo@brightwater.com. Westmark Supply Ltd. employs Felix Park, who can be reached at felix.park@westmark.com.
+
+Samuel Okafor reports to Andre Kowalski. Grace Castillo reports to Andre Kowalski.
+
+Brightwater Fabrication Group operates from 3848 Industrial Parkway, Madison, WI 53703.
+
+Let me know if anything here looks off.

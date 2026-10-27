@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @kofic is Kofi Castillo.
+[D3.S3] @clarao is Clara Okafor.
+[D3.S4] [2025-02-16 16:50 UTC] @kofic to @clarao: I pushed it through, check your inbox.
+[D3.S5] [2025-02-16 16:57 UTC] @clarao to @kofic: Let's keep this between us until Friday.
+[D3.S6] [2025-02-16 17:04 UTC] @kofic to @clarao: Did the bank call back yet?

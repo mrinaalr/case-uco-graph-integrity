@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Samuel Novak works for Brightwater Logistics Co. and uses the address samuel.novak@brightwater.com. [D1.S3] Brightwater Logistics Co. employs Arjun Lindqvist, who can be reached at alindqvist@brightwater.com. [D1.S4] Lena Fischer works for Brightwater Logistics Co. and uses the address lena.fischer@brightwater.com. [D1.S5] Yara Vance works for Oakhaven Fabrication Ltd. and uses the address yvance@oakhaven.com.
+
+[D1.S6] Brightwater Logistics Co. operates from 3948 Maple Avenue, Dayton, OH 45402.
+
+[D1.S7] Account 8498755300 at Pinecrest National Bank belongs to Brightwater Logistics Co. [D1.S8] Oakhaven Fabrication Ltd. holds account 7192766029 at Pinecrest National Bank.
+
+[D1.S9] More detail will follow once records are pulled.

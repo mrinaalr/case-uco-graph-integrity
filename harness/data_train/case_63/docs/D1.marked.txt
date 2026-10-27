@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Owen Petrov works for Ironleaf Analytics Ltd. and uses the address opetrov@ironleaf.com. [D1.S3] Ironleaf Analytics Ltd. employs Samuel Kowalski, who can be reached at skowalski@ironleaf.com. [D1.S4] Priya Holloway is employed by Ironleaf Analytics Ltd.; their email is pholloway@ironleaf.com. [D1.S5] Arjun Moreau works for Copperfield Distribution Co. and uses the address amoreau@copperfield.com.
+
+[D1.S6] Samuel Kowalski's manager is Owen Petrov. [D1.S7] Priya Holloway's manager is Owen Petrov.
+
+[D1.S8] Ironleaf Analytics Ltd. operates from 5458 Commerce Drive, Dayton, OH 45402.
+
+[D1.S9] Pinecrest National Bank account 4029657027 is registered to Ironleaf Analytics Ltd. [D1.S10] Account 2904626061 at Pinecrest National Bank belongs to Copperfield Distribution Co.
+
+[D1.S11] Let me know if anything here looks off.

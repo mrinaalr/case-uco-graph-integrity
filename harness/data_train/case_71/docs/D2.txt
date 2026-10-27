@@ -1,0 +1,11 @@
+From: htanaka@cedarridge.com
+To: priya.reyes@cedarridge.com, maya.brennan@brightwater.com
+Subject: Contract terms for next quarter
+Date: Tue, 18 Feb 2025 12:25:00 +0000
+
+Hi Priya,
+
+On 20 January 2025, 14:25 UTC, Hannah Tanaka initiated the bank detail change. The contract amendment was initiated by Kofi Vance on 23 January 2025, 10:25 UTC. The payment approval was initiated by Kofi Vance on 25 January 2025, 09:50 UTC. On 25 January 2025, 12:15 UTC, Luca Banerjee initiated the vendor onboarding. On 1 February 2025, 13:10 UTC, Maya Brennan initiated the refund request. The refund request happened at Brightwater Supply Inc.'s office. On February 7, 2025 at 14:50 UTC, Luca Banerjee initiated the expense reimbursement. Hannah Tanaka was involved in the expense reimbursement as well. The expense reimbursement took place at the Brightwater Supply Inc. office. Luca Banerjee started the audit review on 8 February 2025, 14:45 UTC. Hannah Tanaka started the invoice submission on February 18, 2025 at 10:25 UTC.
+
+Thanks,
+Hannah

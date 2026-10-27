@@ -1,0 +1,413 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 27,
+  "text": "From: mei.park@bluegate.com",
+  "tids": [
+   "t49",
+   "t8"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 28,
+  "end": 56,
+  "text": "To: arjun.vance@westmark.com",
+  "tids": [
+   "t50",
+   "t58",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 57,
+  "end": 88,
+  "text": "Subject: Invoice 5958 follow-up",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 89,
+  "end": 126,
+  "text": "Date: Mon, 31 Mar 2025 16:00:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 128,
+  "end": 137,
+  "text": "Hi Arjun,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 139,
+  "end": 218,
+  "text": "On March 23, 2025 at 15:45 UTC, Samuel Okafor initiated the invoice submission.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 219,
+  "end": 296,
+  "text": "Samuel Okafor started the account reconciliation on 31 March 2025, 14:00 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 298,
+  "end": 305,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 306,
+  "end": 309,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 125,
+  "text": "Bluegate Industrial Inc. employs Mei Park, who can be reached at mei.park@bluegate.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t59",
+   "t60",
+   "t1",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 126,
+  "end": 217,
+  "text": "Samuel Okafor works for Bluegate Industrial Inc. and uses the address sokafor@bluegate.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t61",
+   "t62",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 304,
+  "text": "Clara Osei is employed by Bluegate Industrial Inc.; their email is cosei@bluegate.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t63",
+   "t64",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 305,
+  "end": 400,
+  "text": "Westmark Distribution Inc. employs Arjun Vance, who can be reached at arjun.vance@westmark.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t65",
+   "t66",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 402,
+  "end": 476,
+  "text": "Bluegate Industrial Inc. is based at 1908 Lakeview Road, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 478,
+  "end": 512,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 26,
+  "text": "From: sokafor@bluegate.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 27,
+  "end": 78,
+  "text": "To: arjun.vance@westmark.com, mei.park@bluegate.com",
+  "tids": [
+   "t54",
+   "t55",
+   "t67",
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 104,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 105,
+  "end": 142,
+  "text": "Date: Sun, 13 Apr 2025 16:50:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 144,
+  "end": 153,
+  "text": "Hi Arjun,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 155,
+  "end": 231,
+  "text": "On 24 March 2025, 09:45 UTC, Clara Osei initiated the expense reimbursement.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 232,
+  "end": 300,
+  "text": "On 13 April 2025, 14:50 UTC, Clara Osei initiated the wire transfer.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 302,
+  "end": 309,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 310,
+  "end": 316,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 98,
+  "text": "Meridian Trust Bank account 4990437010 is registered to Bluegate Industrial Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t69",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 99,
+  "end": 174,
+  "text": "Westmark Distribution Inc. holds account 5092828834 at Meridian Trust Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t70",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 175,
+  "end": 245,
+  "text": "Meridian Trust Bank account 8049410070 is registered to Samuel Okafor.",
+  "tids": [
+   "t32",
+   "t33",
+   "t71",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 247,
+  "end": 317,
+  "text": "On 25 March 2025, 15:25 UTC, Arjun Vance initiated the refund request.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 319,
+  "end": 367,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,409 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Oscar Moreau works for Northwind Services Group and uses the address omoreau@northwind.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t61",
+   "t62",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 222,
+  "text": "Mei Haddad is employed by Northwind Services Group; their email is mei.haddad@northwind.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t63",
+   "t64",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 223,
+  "end": 313,
+  "text": "Luca Okafor is employed by Northwind Services Group; their email is lokafor@northwind.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t65",
+   "t66",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 314,
+  "end": 408,
+  "text": "Westmark Distribution LLC employs Dana Sorensen, who can be reached at dsorensen@westmark.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t67",
+   "t68",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 409,
+  "end": 507,
+  "text": "Yara Holloway is employed by Westmark Distribution LLC; their email is yara.holloway@westmark.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t69",
+   "t70",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 509,
+  "end": 547,
+  "text": "Luca Okafor's manager is Oscar Moreau.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 549,
+  "end": 630,
+  "text": "Northwind Services Group operates from 3006 Industrial Parkway, Dayton, OH 45402.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 632,
+  "end": 680,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: mei.haddad@northwind.com",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 56,
+  "text": "To: lokafor@northwind.com",
+  "tids": [
+   "t54",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 57,
+  "end": 82,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 83,
+  "end": 120,
+  "text": "Date: Tue, 13 May 2025 15:45:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 122,
+  "end": 130,
+  "text": "Hi Luca,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 202,
+  "text": "The audit review was initiated by Mei Haddad on 5 May 2025, 10:00 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 203,
+  "end": 287,
+  "text": "The account reconciliation was initiated by Mei Haddad on May 13, 2025 at 13:45 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 289,
+  "end": 296,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 297,
+  "end": 300,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t72"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@oscarm is Oscar Moreau.",
+  "tids": [
+   "t48",
+   "t47"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@yarah is Yara Holloway.",
+  "tids": [
+   "t50",
+   "t49"
+  ],
+  "mentions": [
+   "handle_person_4",
+   "person_4"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 158,
+  "text": "[2025-05-05 11:00 UTC] @oscarm to @yarah: Let's keep this between us until Friday.",
+  "tids": [
+   "t57",
+   "t58",
+   "t59",
+   "t60",
+   "t73"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_4"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 96,
+  "text": "Account 1891850290 at Meridian Trust Bank belongs to Northwind Services Group.",
+  "tids": [
+   "t30",
+   "t31",
+   "t74",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 97,
+  "end": 171,
+  "text": "Westmark Distribution LLC holds account 5339456655 at Meridian Trust Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t75",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 172,
+  "end": 237,
+  "text": "Account 6313594835 at Meridian Trust Bank belongs to Luca Okafor.",
+  "tids": [
+   "t36",
+   "t37",
+   "t76",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 239,
+  "end": 313,
+  "text": "On May 9, 2025 at 15:15 UTC, Luca Okafor initiated the contract amendment.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 314,
+  "end": 371,
+  "text": "Account 1891850290 sent a transfer to account 5339456655.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 373,
+  "end": 407,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

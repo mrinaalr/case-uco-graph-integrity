@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oscar Tanaka is employed by Brightwater Distribution Group; their email is otanaka@brightwater.com. [D1.S3] Lena Delgado is employed by Brightwater Distribution Group; their email is lena.delgado@brightwater.com. [D1.S4] Desmond Castillo works for Brightwater Distribution Group and uses the address desmond.castillo@brightwater.com. [D1.S5] Maya Lindqvist is employed by Stonebridge Tooling Inc.; their email is mlindqvist@stonebridge.com. [D1.S6] Mei Osei works for Stonebridge Tooling Inc. and uses the address mei.osei@stonebridge.com.
+
+[D1.S7] Desmond Castillo's manager is Oscar Tanaka.
+
+[D1.S8] The offices of Brightwater Distribution Group are at 8990 Riverside Boulevard, Boise, ID 83702.
+
+[D1.S9] Please treat this as confidential.

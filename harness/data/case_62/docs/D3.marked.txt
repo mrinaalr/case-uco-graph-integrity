@@ -1,0 +1,11 @@
+[D3.S1] From: fmendes@copperfield.com
+[D3.S2] To: phaddad@copperfield.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Thu, 17 Apr 2025 13:25:00 +0000
+
+[D3.S5] Hi Priya,
+
+[D3.S6] The wire transfer was initiated by Julian Novak on April 17, 2025 at 11:25 UTC. [D3.S7] Tomas Kowalski also took part in the wire transfer.
+
+[D3.S8] Thanks,
+[D3.S9] Felix

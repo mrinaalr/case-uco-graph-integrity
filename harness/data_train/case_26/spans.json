@@ -1,0 +1,450 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Felix Abara is employed by Redfern Industrial Inc.; their email is felix.abara@redfern.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t71",
+   "t72",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 223,
+  "text": "Lena Lindqvist is employed by Redfern Industrial Inc.; their email is llindqvist@redfern.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t73",
+   "t74",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 224,
+  "end": 311,
+  "text": "Kofi Haddad works for Redfern Industrial Inc. and uses the address khaddad@redfern.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t75",
+   "t76",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 312,
+  "end": 406,
+  "text": "Yara Banerjee works for Northwind Supply Co. and uses the address yara.banerjee@northwind.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t77",
+   "t78",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 408,
+  "end": 445,
+  "text": "Kofi Haddad's manager is Felix Abara.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 447,
+  "end": 530,
+  "text": "The offices of Redfern Industrial Inc. are at 9357 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 532,
+  "end": 620,
+  "text": "Granite Federal Credit Union account 8866280486 is registered to Redfern Industrial Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t79",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 621,
+  "end": 703,
+  "text": "Account 8184649325 at Granite Federal Credit Union belongs to Northwind Supply Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t80",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 704,
+  "end": 781,
+  "text": "Granite Federal Credit Union account 3497394206 is registered to Kofi Haddad.",
+  "tids": [
+   "t32",
+   "t33",
+   "t81",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 783,
+  "end": 831,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: felix.abara@redfern.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 53,
+  "text": "To: khaddad@redfern.com",
+  "tids": [
+   "t60",
+   "t82"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 54,
+  "end": 89,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 127,
+  "text": "Date: Sun, 05 Oct 2025 12:00:00 +0000",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 137,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 139,
+  "end": 214,
+  "text": "On 8 September 2025, 15:30 UTC, Lena Lindqvist initiated the wire transfer.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 215,
+  "end": 293,
+  "text": "Lena Lindqvist started the invoice submission on 15 September 2025, 09:15 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 294,
+  "end": 377,
+  "text": "The refund request was initiated by Lena Lindqvist on 27 September 2025, 10:50 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 378,
+  "end": 442,
+  "text": "The refund request happened at Redfern Industrial Inc.'s office.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 443,
+  "end": 518,
+  "text": "On 2 October 2025, 17:00 UTC, Yara Banerjee initiated the payment approval.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 519,
+  "end": 563,
+  "text": "Kofi Haddad authorized the payment approval.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 564,
+  "end": 638,
+  "text": "On 4 October 2025, 17:50 UTC, Kofi Haddad initiated the vendor onboarding.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 639,
+  "end": 711,
+  "text": "Kofi Haddad started the contract amendment on 5 October 2025, 10:00 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 713,
+  "end": 720,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 721,
+  "end": 726,
+  "text": "Felix",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t83"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 51,
+  "text": "@lenal is Lena Lindqvist.",
+  "tids": [
+   "t53",
+   "t52"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 52,
+  "end": 75,
+  "text": "@felixa is Felix Abara.",
+  "tids": [
+   "t55",
+   "t54"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 158,
+  "text": "[2025-09-08 16:30 UTC] @lenal to @felixa: Let's keep this between us until Friday.",
+  "tids": [
+   "t63",
+   "t64",
+   "t65",
+   "t66",
+   "t84"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 159,
+  "end": 228,
+  "text": "[2025-09-08 16:37 UTC] @felixa to @lenal: Did the bank call back yet?",
+  "tids": [
+   "t67",
+   "t68",
+   "t69",
+   "t70",
+   "t85"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ }
+}

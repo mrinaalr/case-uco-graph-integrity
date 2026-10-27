@@ -1,0 +1,11 @@
+[D2.S1] From: ttanaka@harborline.com
+[D2.S2] To: awhitfield@harborline.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Wed, 29 Jan 2025 19:45:00 +0000
+
+[D2.S5] Hi Arjun,
+
+[D2.S6] Arjun Whitfield started the bank detail change on January 4, 2025 at 17:30 UTC. [D2.S7] Approval for the bank detail change came from Owen Brennan. [D2.S8] The bank detail change happened at Harborline Packaging LLC's office. [D2.S9] Owen Brennan started the payment approval on January 10, 2025 at 17:50 UTC. [D2.S10] Tomas Tanaka authorized the payment approval. [D2.S11] Arjun Whitfield was involved in the payment approval as well. [D2.S12] The payment approval took place at the Harborline Packaging LLC office. [D2.S13] Arjun Whitfield started the expense reimbursement on January 11, 2025 at 14:25 UTC. [D2.S14] The contract amendment was initiated by Lena Quinn on 24 January 2025, 13:30 UTC. [D2.S15] Approval for the contract amendment came from Tomas Tanaka. [D2.S16] Arjun Whitfield was involved in the contract amendment as well. [D2.S17] On January 29, 2025 at 17:45 UTC, Owen Brennan initiated the audit review. [D2.S18] The audit review happened at Harborline Packaging LLC's office. [D2.S19] Lena Quinn had been in contact with Owen Brennan throughout.
+
+[D2.S20] Thanks,
+[D2.S21] Tomas

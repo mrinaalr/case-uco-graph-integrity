@@ -1,0 +1,11 @@
+[D2.S1] From: mfischer@ironleaf.com
+[D2.S2] To: irene.haddad@clearpath.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Thu, 22 May 2025 14:25:00 +0000
+
+[D2.S5] Hi Irene,
+
+[D2.S6] The audit review was initiated by Desmond Ashworth on May 2, 2025 at 15:15 UTC. [D2.S7] Priya Castillo started the vendor onboarding on 11 May 2025, 17:45 UTC. [D2.S8] Desmond Ashworth also took part in the vendor onboarding. [D2.S9] The payment approval was initiated by Priya Castillo on 22 May 2025, 12:25 UTC. [D2.S10] Mei Fischer authorized the payment approval. [D2.S11] Irene Haddad also took part in the payment approval.
+
+[D2.S12] Thanks,
+[D2.S13] Mei

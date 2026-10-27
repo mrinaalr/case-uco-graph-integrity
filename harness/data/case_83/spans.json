@@ -1,0 +1,446 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 133,
+  "text": "Ruth Delgado is employed by Copperfield Logistics LLC; their email is rdelgado@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t61",
+   "t62",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 227,
+  "text": "Marcus Abara works for Copperfield Logistics LLC and uses the address mabara@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t63",
+   "t64",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 323,
+  "text": "Clara Brennan works for Oakhaven Analytics LLC and uses the address clara.brennan@oakhaven.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t65",
+   "t66",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 325,
+  "end": 362,
+  "text": "Marcus Abara reports to Ruth Delgado.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 364,
+  "end": 441,
+  "text": "Copperfield Logistics LLC operates from 3409 Harbor Avenue, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 442,
+  "end": 529,
+  "text": "The offices of Oakhaven Analytics LLC are at 1846 Riverside Boulevard, Boise, ID 83702.",
+  "tids": [
+   "t47",
+   "t43",
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 531,
+  "end": 565,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: rdelgado@copperfield.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 61,
+  "text": "To: clara.brennan@oakhaven.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 62,
+  "end": 93,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Tue, 08 Jul 2025 17:30:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 142,
+  "text": "Hi Clara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 144,
+  "end": 225,
+  "text": "The payment approval was initiated by Ruth Delgado on June 11, 2025 at 13:10 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 279,
+  "text": "Clara Brennan also took part in the payment approval.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 280,
+  "end": 348,
+  "text": "The payment approval happened at Copperfield Logistics LLC's office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 349,
+  "end": 420,
+  "text": "On June 13, 2025 at 13:10 UTC, Ruth Delgado initiated the audit review.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 421,
+  "end": 475,
+  "text": "Marcus Abara was involved in the audit review as well.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 476,
+  "end": 556,
+  "text": "On July 8, 2025 at 15:30 UTC, Marcus Abara initiated the account reconciliation.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 557,
+  "end": 616,
+  "text": "Clara Brennan also took part in the account reconciliation.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_2",
+   "event_4"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 618,
+  "end": 625,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 626,
+  "end": 630,
+  "text": "Ruth",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 98,
+  "text": "First Harbor Bank account 7624477634 is registered to Copperfield Logistics LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t67",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 99,
+  "end": 168,
+  "text": "Oakhaven Analytics LLC holds account 7334007319 at First Harbor Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t68",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 170,
+  "end": 247,
+  "text": "On June 12, 2025 at 12:10 UTC, Marcus Abara initiated the contract amendment.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 248,
+  "end": 308,
+  "text": "Ruth Delgado was involved in the contract amendment as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 309,
+  "end": 379,
+  "text": "The contract amendment happened at Copperfield Logistics LLC's office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 380,
+  "end": 454,
+  "text": "Clara Brennan started the vendor onboarding on June 24, 2025 at 09:10 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 455,
+  "end": 508,
+  "text": "Ruth Delgado also took part in the vendor onboarding.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 509,
+  "end": 566,
+  "text": "Account 7624477634 sent a transfer to account 7334007319.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 567,
+  "end": 631,
+  "text": "Ruth Delgado communicated with Clara Brennan about the payments.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_0",
+   "person_2"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 633,
+  "end": 681,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

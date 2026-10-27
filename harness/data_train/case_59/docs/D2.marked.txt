@@ -1,0 +1,11 @@
+[D2.S1] From: oscar.reyes@bluegate.com
+[D2.S2] To: hsorensen@ironleaf.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Thu, 05 Jun 2025 15:15:00 +0000
+
+[D2.S5] Hi Hector,
+
+[D2.S6] On May 27, 2025 at 16:10 UTC, Hector Sorensen initiated the vendor onboarding. [D2.S7] The vendor onboarding took place at the Ironleaf Packaging Co. office. [D2.S8] Tomas Holloway started the bank detail change on June 5, 2025 at 13:15 UTC. [D2.S9] Oscar Reyes authorized the bank detail change. [D2.S10] Hector Sorensen was involved in the bank detail change as well.
+
+[D2.S11] Thanks,
+[D2.S12] Oscar

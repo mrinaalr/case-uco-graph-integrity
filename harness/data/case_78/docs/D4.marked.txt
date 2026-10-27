@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Pinecrest National Bank account 4094072243 is registered to Harborline Services Group. [D4.S3] Pinecrest National Bank account 4278602237 is registered to Brightwater Logistics Group.
+
+[D4.S4] The expense reimbursement was initiated by Kofi Petrov on 14 September 2025, 10:10 UTC. [D4.S5] On 15 September 2025, 13:50 UTC, Andre Osei initiated the audit review. [D4.S6] The account reconciliation was initiated by Andre Osei on 1 October 2025, 11:10 UTC. [D4.S7] The wire transfer was initiated by Marcus Lindqvist on October 11, 2025 at 16:45 UTC.
+
+[D4.S8] More detail will follow once records are pulled.

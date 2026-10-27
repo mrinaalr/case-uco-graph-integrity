@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Silverlake Analytics Group holds account 9161564103 at Union Ledger Bank. [D4.S3] Union Ledger Bank account 7033769260 is registered to Oakhaven Packaging LLC.
+
+[D4.S4] On February 12, 2025 at 15:50 UTC, Luca Moreau initiated the account reconciliation. [D4.S5] Andre Tanaka was involved in the account reconciliation as well.
+
+[D4.S6] Please treat this as confidential.

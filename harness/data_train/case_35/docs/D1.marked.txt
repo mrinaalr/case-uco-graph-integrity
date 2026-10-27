@@ -1,0 +1,11 @@
+[D1.S1] From: owen.vance@clearpath.com
+[D1.S2] To: kofi.petrov@summitpeak.com
+[D1.S3] Subject: Urgent: payment timing
+[D1.S4] Date: Wed, 12 Mar 2025 13:10:00 +0000
+
+[D1.S5] Hi Kofi,
+
+[D1.S6] On 11 February 2025, 14:00 UTC, Elena Lindqvist initiated the bank detail change. [D1.S7] The refund request was initiated by Kofi Petrov on February 14, 2025 at 16:50 UTC. [D1.S8] Approval for the refund request came from Elena Lindqvist. [D1.S9] Owen Vance also took part in the refund request. [D1.S10] The wire transfer was initiated by Elena Lindqvist on March 6, 2025 at 14:00 UTC. [D1.S11] Kofi Petrov was involved in the wire transfer as well. [D1.S12] Elena Lindqvist started the contract amendment on March 12, 2025 at 11:10 UTC.
+
+[D1.S13] Thanks,
+[D1.S14] Owen

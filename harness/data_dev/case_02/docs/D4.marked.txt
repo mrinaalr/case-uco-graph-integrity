@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Silverlake Services Ltd. holds account 8121306165 at First Harbor Bank. [D4.S3] Oakhaven Tooling Ltd. holds account 8418398727 at First Harbor Bank. [D4.S4] Account 6600300384 at First Harbor Bank belongs to Kofi Novak.
+
+[D4.S5] On March 11, 2025 at 15:30 UTC, Grace Park initiated the wire transfer. [D4.S6] Funds moved from account 8121306165 to account 6600300384.
+
+[D4.S7] More detail will follow once records are pulled.

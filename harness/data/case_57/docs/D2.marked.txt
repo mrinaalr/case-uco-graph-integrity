@@ -1,0 +1,11 @@
+[D2.S1] From: yara.mendes@westmark.com
+[D2.S2] To: nokafor@copperfield.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Tue, 11 Nov 2025 19:50:00 +0000
+
+[D2.S5] Hi Nadia,
+
+[D2.S6] Yara Mendes started the payment approval on 9 October 2025, 09:15 UTC. [D2.S7] The audit review was initiated by Nadia Okafor on 13 October 2025, 11:00 UTC. [D2.S8] Clara Lindqvist was involved in the audit review as well. [D2.S9] Owen Abara started the wire transfer on 13 October 2025, 16:10 UTC. [D2.S10] Clara Lindqvist started the vendor onboarding on 20 October 2025, 13:50 UTC. [D2.S11] Nadia Okafor also took part in the vendor onboarding. [D2.S12] On November 6, 2025 at 15:10 UTC, Yara Mendes initiated the invoice submission. [D2.S13] The invoice submission happened at Westmark Industrial Inc.'s office. [D2.S14] The expense reimbursement was initiated by Clara Lindqvist on 9 November 2025, 12:25 UTC. [D2.S15] On 11 November 2025, 17:50 UTC, Clara Lindqvist initiated the refund request.
+
+[D2.S16] Thanks,
+[D2.S17] Yara

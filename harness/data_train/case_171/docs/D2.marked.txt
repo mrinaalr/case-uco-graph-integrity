@@ -1,0 +1,11 @@
+[D2.S1] From: priya.holloway@redfern.com
+[D2.S2] To: felix.haddad@ironleaf.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Sun, 26 Jan 2025 15:00:00 +0000
+
+[D2.S5] Hi Felix,
+
+[D2.S6] The bank detail change was initiated by Yara Ashworth on January 16, 2025 at 10:50 UTC. [D2.S7] The invoice submission was initiated by Yara Ashworth on January 26, 2025 at 13:00 UTC.
+
+[D2.S8] Thanks,
+[D2.S9] Priya

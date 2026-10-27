@@ -1,0 +1,459 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Clara Osei works for Brightwater Fabrication Inc. and uses the address cosei@brightwater.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t69",
+   "t70",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 234,
+  "text": "Brightwater Fabrication Inc. employs Hector Abara, who can be reached at hector.abara@brightwater.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t71",
+   "t72",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 235,
+  "end": 326,
+  "text": "Redfern Analytics Co. employs Kofi Lindqvist, who can be reached at klindqvist@redfern.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t73",
+   "t74",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 328,
+  "end": 409,
+  "text": "Brightwater Fabrication Inc. operates from 1148 Commerce Drive, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 411,
+  "end": 459,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: klindqvist@redfern.com",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 61,
+  "text": "To: hector.abara@brightwater.com",
+  "tids": [
+   "t62",
+   "t75"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 62,
+  "end": 97,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 98,
+  "end": 135,
+  "text": "Date: Sat, 19 Jul 2025 11:30:00 +0000",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 137,
+  "end": 147,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 149,
+  "end": 220,
+  "text": "On 12 June 2025, 11:50 UTC, Clara Osei initiated the vendor onboarding.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 221,
+  "end": 307,
+  "text": "The account reconciliation was initiated by Kofi Lindqvist on 12 June 2025, 16:25 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 308,
+  "end": 388,
+  "text": "The invoice submission was initiated by Hector Abara on 19 June 2025, 10:10 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 389,
+  "end": 451,
+  "text": "Kofi Lindqvist was involved in the invoice submission as well.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "person_2",
+   "event_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 452,
+  "end": 525,
+  "text": "The invoice submission happened at Brightwater Fabrication Inc.'s office.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 526,
+  "end": 599,
+  "text": "On July 19, 2025 at 09:30 UTC, Clara Osei initiated the payment approval.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 601,
+  "end": 608,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 609,
+  "end": 613,
+  "text": "Kofi",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t76"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 48,
+  "text": "@clarao is Clara Osei.",
+  "tids": [
+   "t55",
+   "t54"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 49,
+  "end": 74,
+  "text": "@kofil is Kofi Lindqvist.",
+  "tids": [
+   "t57",
+   "t56"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 75,
+  "end": 151,
+  "text": "[2025-06-12 12:50 UTC] @clarao to @kofil: Finance is asking questions again.",
+  "tids": [
+   "t65",
+   "t66",
+   "t67",
+   "t68",
+   "t77"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 102,
+  "text": "Account 3565692895 at Lakeshore Savings Bank belongs to Brightwater Fabrication Inc.",
+  "tids": [
+   "t22",
+   "t23",
+   "t78",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 103,
+  "end": 176,
+  "text": "Redfern Analytics Co. holds account 4427368583 at Lakeshore Savings Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t79",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 177,
+  "end": 244,
+  "text": "Account 7066314098 at Lakeshore Savings Bank belongs to Clara Osei.",
+  "tids": [
+   "t28",
+   "t29",
+   "t80",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 246,
+  "end": 318,
+  "text": "Kofi Lindqvist started the refund request on June 12, 2025 at 12:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 319,
+  "end": 390,
+  "text": "Hector Abara started the bank detail change on 17 June 2025, 16:30 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 391,
+  "end": 468,
+  "text": "The bank detail change took place at the Brightwater Fabrication Inc. office.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 469,
+  "end": 553,
+  "text": "The expense reimbursement was initiated by Clara Osei on June 20, 2025 at 15:15 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 554,
+  "end": 617,
+  "text": "Clara Osei started the audit review on 21 July 2025, 10:15 UTC.",
+  "tids": [
+   "t51",
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "event_7",
+   "person_0"
+  ]
+ },
+ "D4.S10": {
+  "doc_id": "D4",
+  "start": 619,
+  "end": 667,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

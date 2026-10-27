@@ -1,0 +1,11 @@
+[D1.S1] From: victor.quinn@cedarridge.com
+[D1.S2] To: apark@bluegate.com, priya.whitfield@bluegate.com
+[D1.S3] Subject: Invoice 9549 follow-up
+[D1.S4] Date: Mon, 23 Jun 2025 16:15:00 +0000
+
+[D1.S5] Hi Arjun,
+
+[D1.S6] The wire transfer was initiated by Priya Whitfield on May 28, 2025 at 17:30 UTC. [D1.S7] Sofia Moreau was involved in the wire transfer as well. [D1.S8] Yara Sorensen started the refund request on 3 June 2025, 10:25 UTC. [D1.S9] The expense reimbursement was initiated by Priya Whitfield on June 16, 2025 at 13:10 UTC. [D1.S10] Priya Whitfield started the invoice submission on June 23, 2025 at 14:15 UTC.
+
+[D1.S11] Thanks,
+[D1.S12] Victor

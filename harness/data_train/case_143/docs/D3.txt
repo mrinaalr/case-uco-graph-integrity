@@ -1,0 +1,5 @@
+Chat export: #finance-ops
+@arjuni is Arjun Ivanova.
+@meir is Mei Reyes.
+[2025-02-23 12:30 UTC] @arjuni to @meir: Send me the new form when you can.
+[2025-02-23 12:37 UTC] @meir to @arjuni: Finance is asking questions again.

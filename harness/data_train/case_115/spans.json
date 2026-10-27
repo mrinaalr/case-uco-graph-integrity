@@ -1,0 +1,404 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 130,
+  "text": "Julian Fischer is employed by Silverlake Supply Co.; their email is jfischer@silverlake.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t56",
+   "t57",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 227,
+  "text": "Silverlake Supply Co. employs Irene Ivanova, who can be reached at irene.ivanova@silverlake.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t58",
+   "t59",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 322,
+  "text": "Silverlake Supply Co. employs Maya Delgado, who can be reached at maya.delgado@silverlake.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t60",
+   "t61",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 323,
+  "end": 416,
+  "text": "Yara Tanaka is employed by Bluegate Consulting Ltd.; their email is yara.tanaka@bluegate.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t62",
+   "t63",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 417,
+  "end": 510,
+  "text": "Owen Petrov works for Bluegate Consulting Ltd. and uses the address owen.petrov@bluegate.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t64",
+   "t65",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 512,
+  "end": 551,
+  "text": "Maya Delgado reports to Julian Fischer.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 552,
+  "end": 592,
+  "text": "Irene Ivanova reports to Julian Fischer.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 594,
+  "end": 665,
+  "text": "Silverlake Supply Co. is based at 737 Maple Avenue, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 667,
+  "end": 715,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: yara.tanaka@bluegate.com",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 92,
+  "text": "To: irene.ivanova@silverlake.com, maya.delgado@silverlake.com",
+  "tids": [
+   "t52",
+   "t53",
+   "t66",
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 133,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 171,
+  "text": "Date: Mon, 23 Jun 2025 17:10:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 173,
+  "end": 182,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 184,
+  "end": 259,
+  "text": "On May 22, 2025 at 13:25 UTC, Irene Ivanova initiated the payment approval.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 260,
+  "end": 317,
+  "text": "Approval for the payment approval came from Maya Delgado.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 318,
+  "end": 375,
+  "text": "Owen Petrov was involved in the payment approval as well.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_4",
+   "event_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 376,
+  "end": 449,
+  "text": "Yara Tanaka started the invoice submission on June 23, 2025 at 15:10 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 450,
+  "end": 506,
+  "text": "Julian Fischer also took part in the invoice submission.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 507,
+  "end": 573,
+  "text": "The invoice submission happened at Silverlake Supply Co.'s office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 575,
+  "end": 582,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 583,
+  "end": 587,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 88,
+  "text": "Silverlake Supply Co. holds account 1194753811 at Meridian Trust Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t68",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 89,
+  "end": 166,
+  "text": "Account 2839036756 at Meridian Trust Bank belongs to Bluegate Consulting Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t69",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 168,
+  "end": 242,
+  "text": "The audit review was initiated by Maya Delgado on 15 June 2025, 11:00 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 243,
+  "end": 303,
+  "text": "The audit review happened at Silverlake Supply Co.'s office.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 305,
+  "end": 353,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

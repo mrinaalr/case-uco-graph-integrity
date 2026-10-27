@@ -1,0 +1,11 @@
+[D1.S1] From: mdelgado@stonebridge.com
+[D1.S2] To: spark@redfern.com, dana.brennan@redfern.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Tue, 11 Nov 2025 16:30:00 +0000
+
+[D1.S5] Hi Samuel,
+
+[D1.S6] The invoice submission was initiated by Arjun Lindqvist on October 21, 2025 at 13:25 UTC. [D1.S7] Marcus Delgado also took part in the invoice submission. [D1.S8] The vendor onboarding was initiated by Marcus Delgado on 11 November 2025, 14:30 UTC.
+
+[D1.S9] Thanks,
+[D1.S10] Marcus

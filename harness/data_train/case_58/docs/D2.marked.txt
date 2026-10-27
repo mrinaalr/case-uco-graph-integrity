@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Andre Moreau is employed by Redfern Analytics Ltd.; their email is amoreau@redfern.com. [D2.S3] Maya Vance works for Redfern Analytics Ltd. and uses the address maya.vance@redfern.com. [D2.S4] Yara Lindqvist is employed by Redfern Analytics Ltd.; their email is ylindqvist@redfern.com. [D2.S5] Ironleaf Consulting Inc. employs Priya Osei, who can be reached at priya.osei@ironleaf.com. [D2.S6] Sofia Delgado is employed by Ironleaf Consulting Inc.; their email is sofia.delgado@ironleaf.com.
+
+[D2.S7] Maya Vance's manager is Andre Moreau. [D2.S8] Yara Lindqvist reports to Andre Moreau.
+
+[D2.S9] The offices of Redfern Analytics Ltd. are at 8854 Lakeview Road, Spokane, WA 99201. [D2.S10] Ironleaf Consulting Inc. is based at 3057 Commerce Drive, Richmond, VA 23219.
+
+[D2.S11] Let me know if anything here looks off.

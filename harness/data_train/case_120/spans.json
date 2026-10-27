@@ -1,0 +1,421 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Hector Osei is employed by Copperfield Logistics Ltd.; their email is hector.osei@copperfield.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t68",
+   "t69",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 237,
+  "text": "Hannah Kowalski is employed by Copperfield Logistics Ltd.; their email is hkowalski@copperfield.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t70",
+   "t71",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 238,
+  "end": 325,
+  "text": "Redfern Services Group employs Arjun Tanaka, who can be reached at atanaka@redfern.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t72",
+   "t73",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 327,
+  "end": 419,
+  "text": "The offices of Copperfield Logistics Ltd. are at 8892 Riverside Boulevard, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 421,
+  "end": 469,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 25,
+  "text": "From: atanaka@redfern.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 26,
+  "end": 55,
+  "text": "To: hkowalski@copperfield.com",
+  "tids": [
+   "t53",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 56,
+  "end": 96,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 97,
+  "end": 134,
+  "text": "Date: Thu, 15 May 2025 15:15:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 146,
+  "text": "Hi Hannah,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 148,
+  "end": 222,
+  "text": "Hannah Kowalski started the refund request on April 24, 2025 at 12:30 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 223,
+  "end": 307,
+  "text": "The invoice submission was initiated by Hannah Kowalski on May 1, 2025 at 12:00 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 308,
+  "end": 395,
+  "text": "The expense reimbursement was initiated by Hannah Kowalski on May 6, 2025 at 16:50 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 396,
+  "end": 475,
+  "text": "On May 15, 2025 at 13:15 UTC, Hector Osei initiated the account reconciliation.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 477,
+  "end": 484,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 485,
+  "end": 490,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t75"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@arjunt is Arjun Tanaka.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@hectoro is Hector Osei.",
+  "tids": [
+   "t51",
+   "t50"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 147,
+  "text": "[2025-04-24 13:30 UTC] @arjunt to @hectoro: Did the bank call back yet?",
+  "tids": [
+   "t56",
+   "t57",
+   "t58",
+   "t59",
+   "t76"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 148,
+  "end": 237,
+  "text": "[2025-04-24 13:37 UTC] @hectoro to @arjunt: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t60",
+   "t61",
+   "t62",
+   "t63",
+   "t77"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 238,
+  "end": 316,
+  "text": "[2025-04-24 13:44 UTC] @arjunt to @hectoro: Send me the new form when you can.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 98,
+  "text": "Union Ledger Bank account 6628402987 is registered to Copperfield Logistics Ltd.",
+  "tids": [
+   "t22",
+   "t23",
+   "t78",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 99,
+  "end": 173,
+  "text": "Account 5778423111 at Union Ledger Bank belongs to Redfern Services Group.",
+  "tids": [
+   "t25",
+   "t26",
+   "t79",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 175,
+  "end": 249,
+  "text": "On 28 April 2025, 16:15 UTC, Hector Osei initiated the bank detail change.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 250,
+  "end": 331,
+  "text": "The contract amendment was initiated by Hannah Kowalski on 3 May 2025, 15:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 332,
+  "end": 409,
+  "text": "On May 7, 2025 at 14:25 UTC, Hannah Kowalski initiated the vendor onboarding.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 411,
+  "end": 459,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

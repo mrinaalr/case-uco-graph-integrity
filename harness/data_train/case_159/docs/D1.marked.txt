@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Samuel Delgado works for Silverlake Distribution Ltd. and uses the address sdelgado@silverlake.com. [D1.S3] Kofi Haddad is employed by Silverlake Distribution Ltd.; their email is khaddad@silverlake.com. [D1.S4] Silverlake Distribution Ltd. employs Desmond Whitfield, who can be reached at dwhitfield@silverlake.com. [D1.S5] Yara Kowalski is employed by Bluegate Distribution Group; their email is yara.kowalski@bluegate.com.
+
+[D1.S6] Silverlake Distribution Ltd. operates from 7134 Elm Street, Dayton, OH 45402.
+
+[D1.S7] Granite Federal Credit Union account 6576020634 is registered to Silverlake Distribution Ltd. [D1.S8] Account 4741636908 at Granite Federal Credit Union belongs to Bluegate Distribution Group. [D1.S9] Granite Federal Credit Union account 1570295814 is registered to Desmond Whitfield.
+
+[D1.S10] Let me know if anything here looks off.

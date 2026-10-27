@@ -1,0 +1,11 @@
+[D2.S1] From: clara.abara@ironleaf.com
+[D2.S2] To: pcastillo@ironleaf.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Fri, 17 Oct 2025 12:15:00 +0000
+
+[D2.S5] Hi Priya,
+
+[D2.S6] The invoice submission was initiated by Clara Abara on September 12, 2025 at 12:45 UTC. [D2.S7] The bank detail change was initiated by Lena Banerjee on 19 September 2025, 16:30 UTC. [D2.S8] The expense reimbursement was initiated by Irene Ashworth on 30 September 2025, 16:45 UTC. [D2.S9] On 6 October 2025, 09:30 UTC, Lena Banerjee initiated the wire transfer. [D2.S10] Lena Banerjee started the account reconciliation on October 8, 2025 at 13:30 UTC. [D2.S11] Priya Castillo also took part in the account reconciliation. [D2.S12] The contract amendment was initiated by Irene Ashworth on October 17, 2025 at 09:25 UTC. [D2.S13] The contract amendment happened at Ironleaf Components Inc.'s office. [D2.S14] The vendor onboarding was initiated by Irene Ashworth on October 17, 2025 at 10:15 UTC.
+
+[D2.S15] Thanks,
+[D2.S16] Clara

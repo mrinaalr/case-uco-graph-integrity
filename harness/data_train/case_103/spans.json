@@ -1,0 +1,422 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Arjun Whitfield is employed by Harborline Packaging LLC; their email is awhitfield@harborline.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t59",
+   "t60",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 234,
+  "text": "Harborline Packaging LLC employs Owen Brennan, who can be reached at owen.brennan@harborline.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t61",
+   "t62",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 235,
+  "end": 327,
+  "text": "Tomas Tanaka is employed by Harborline Packaging LLC; their email is ttanaka@harborline.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t63",
+   "t64",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 328,
+  "end": 419,
+  "text": "Lena Quinn works for Summit Peak Packaging Inc. and uses the address lquinn@summitpeak.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t65",
+   "t66",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 421,
+  "end": 504,
+  "text": "The offices of Harborline Packaging LLC are at 7408 Lakeview Road, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 506,
+  "end": 584,
+  "text": "Account 4384611987 at Meridian Trust Bank belongs to Harborline Packaging LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t67",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 585,
+  "end": 667,
+  "text": "Meridian Trust Bank account 3589278775 is registered to Summit Peak Packaging Inc.",
+  "tids": [
+   "t29",
+   "t30",
+   "t68",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 669,
+  "end": 717,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: ttanaka@harborline.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 58,
+  "text": "To: awhitfield@harborline.com",
+  "tids": [
+   "t56",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 59,
+  "end": 94,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Wed, 29 Jan 2025 19:45:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 143,
+  "text": "Hi Arjun,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 145,
+  "end": 224,
+  "text": "Arjun Whitfield started the bank detail change on January 4, 2025 at 17:30 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 225,
+  "end": 284,
+  "text": "Approval for the bank detail change came from Owen Brennan.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 285,
+  "end": 354,
+  "text": "The bank detail change happened at Harborline Packaging LLC's office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 355,
+  "end": 430,
+  "text": "Owen Brennan started the payment approval on January 10, 2025 at 17:50 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 431,
+  "end": 476,
+  "text": "Tomas Tanaka authorized the payment approval.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 477,
+  "end": 538,
+  "text": "Arjun Whitfield was involved in the payment approval as well.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 539,
+  "end": 610,
+  "text": "The payment approval took place at the Harborline Packaging LLC office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 611,
+  "end": 694,
+  "text": "Arjun Whitfield started the expense reimbursement on January 11, 2025 at 14:25 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 695,
+  "end": 776,
+  "text": "The contract amendment was initiated by Lena Quinn on 24 January 2025, 13:30 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 777,
+  "end": 836,
+  "text": "Approval for the contract amendment came from Tomas Tanaka.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 837,
+  "end": 900,
+  "text": "Arjun Whitfield was involved in the contract amendment as well.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 901,
+  "end": 975,
+  "text": "On January 29, 2025 at 17:45 UTC, Owen Brennan initiated the audit review.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 976,
+  "end": 1039,
+  "text": "The audit review happened at Harborline Packaging LLC's office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S19": {
+  "doc_id": "D2",
+  "start": 1040,
+  "end": 1100,
+  "text": "Lena Quinn had been in contact with Owen Brennan throughout.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_3",
+   "person_1"
+  ]
+ },
+ "D2.S20": {
+  "doc_id": "D2",
+  "start": 1102,
+  "end": 1109,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S21": {
+  "doc_id": "D2",
+  "start": 1110,
+  "end": 1115,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ }
+}

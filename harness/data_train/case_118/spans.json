@@ -1,0 +1,458 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Maya Delgado is employed by Westmark Packaging Inc.; their email is maya.delgado@westmark.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t65",
+   "t66",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 222,
+  "text": "Mei Brennan works for Westmark Packaging Inc. and uses the address mbrennan@westmark.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t67",
+   "t68",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 223,
+  "end": 317,
+  "text": "Lena Lindqvist is employed by Westmark Packaging Inc.; their email is llindqvist@westmark.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t69",
+   "t70",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 416,
+  "text": "Harborline Distribution Co. employs Nadia Reyes, who can be reached at nadia.reyes@harborline.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t71",
+   "t72",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 418,
+  "end": 459,
+  "text": "Lena Lindqvist's manager is Maya Delgado.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 461,
+  "end": 532,
+  "text": "Westmark Packaging Inc. operates from 6617 Elm Street, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 534,
+  "end": 610,
+  "text": "Westmark Packaging Inc. holds account 7608283525 at Pinecrest National Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t73",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 611,
+  "end": 695,
+  "text": "Account 4376920746 at Pinecrest National Bank belongs to Harborline Distribution Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t74",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 697,
+  "end": 736,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: maya.delgado@westmark.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 82,
+  "text": "To: mbrennan@westmark.com, llindqvist@westmark.com",
+  "tids": [
+   "t53",
+   "t54",
+   "t75",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 83,
+  "end": 118,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 119,
+  "end": 156,
+  "text": "Date: Tue, 10 Jun 2025 14:15:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 158,
+  "end": 165,
+  "text": "Hi Mei,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 167,
+  "end": 248,
+  "text": "The contract amendment was initiated by Nadia Reyes on June 2, 2025 at 17:30 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 249,
+  "end": 321,
+  "text": "The contract amendment took place at the Westmark Packaging Inc. office.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 322,
+  "end": 392,
+  "text": "Lena Lindqvist started the payment approval on 8 June 2025, 15:50 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 393,
+  "end": 437,
+  "text": "Mei Brennan authorized the payment approval.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 438,
+  "end": 504,
+  "text": "The payment approval happened at Westmark Packaging Inc.'s office.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 505,
+  "end": 578,
+  "text": "Mei Brennan started the expense reimbursement on 10 June 2025, 12:15 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 579,
+  "end": 640,
+  "text": "Approval for the expense reimbursement came from Nadia Reyes.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_3",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 641,
+  "end": 706,
+  "text": "Lena Lindqvist was involved in the expense reimbursement as well.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 707,
+  "end": 782,
+  "text": "The expense reimbursement took place at the Westmark Packaging Inc. office.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 783,
+  "end": 845,
+  "text": "Mei Brennan communicated with Maya Delgado about the payments.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 847,
+  "end": 854,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 855,
+  "end": 859,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t77"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 49,
+  "text": "@nadiar is Nadia Reyes.",
+  "tids": [
+   "t41",
+   "t40"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 50,
+  "end": 73,
+  "text": "@mayad is Maya Delgado.",
+  "tids": [
+   "t43",
+   "t42"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 74,
+  "end": 156,
+  "text": "[2025-06-02 18:30 UTC] @nadiar to @mayad: Let's keep this between us until Friday.",
+  "tids": [
+   "t57",
+   "t58",
+   "t59",
+   "t60",
+   "t78"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 226,
+  "text": "[2025-06-02 18:37 UTC] @mayad to @nadiar: Did the bank call back yet?",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64",
+   "t79"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ }
+}

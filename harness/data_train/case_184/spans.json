@@ -1,0 +1,431 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 125,
+  "text": "Westmark Packaging Inc. employs Andre Reyes, who can be reached at areyes@westmark.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 126,
+  "end": 215,
+  "text": "Elena Tanaka is employed by Westmark Packaging Inc.; their email is etanaka@westmark.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t68",
+   "t69",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 216,
+  "end": 310,
+  "text": "Westmark Packaging Inc. employs Hector Abara, who can be reached at hector.abara@westmark.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t70",
+   "t71",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 311,
+  "end": 405,
+  "text": "Stonebridge Services LLC employs Luca Quinn, who can be reached at luca.quinn@stonebridge.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 407,
+  "end": 477,
+  "text": "Westmark Packaging Inc. is based at 9072 Elm Street, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 479,
+  "end": 556,
+  "text": "Union Ledger Bank account 2699620760 is registered to Westmark Packaging Inc.",
+  "tids": [
+   "t26",
+   "t27",
+   "t74",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 557,
+  "end": 636,
+  "text": "Union Ledger Bank account 5005345014 is registered to Stonebridge Services LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t75",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 638,
+  "end": 672,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: hector.abara@westmark.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 62,
+  "text": "To: luca.quinn@stonebridge.com",
+  "tids": [
+   "t55",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 63,
+  "end": 98,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Sun, 13 Apr 2025 13:50:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 146,
+  "text": "Hi Luca,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 148,
+  "end": 220,
+  "text": "Elena Tanaka started the bank detail change on 25 March 2025, 17:00 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 221,
+  "end": 274,
+  "text": "Andre Reyes also took part in the bank detail change.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 275,
+  "end": 343,
+  "text": "The bank detail change happened at Westmark Packaging Inc.'s office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 344,
+  "end": 429,
+  "text": "The account reconciliation was initiated by Elena Tanaka on 26 March 2025, 13:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 430,
+  "end": 503,
+  "text": "On April 3, 2025 at 12:25 UTC, Elena Tanaka initiated the refund request.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 504,
+  "end": 547,
+  "text": "Hector Abara authorized the refund request.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 548,
+  "end": 623,
+  "text": "On April 5, 2025 at 13:30 UTC, Luca Quinn initiated the contract amendment.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 624,
+  "end": 683,
+  "text": "Approval for the contract amendment came from Elena Tanaka.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 684,
+  "end": 755,
+  "text": "On April 13, 2025 at 11:50 UTC, Andre Reyes initiated the audit review.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 757,
+  "end": 764,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 765,
+  "end": 771,
+  "text": "Hector",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t77"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 47,
+  "text": "@lucaq is Luca Quinn.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 48,
+  "end": 71,
+  "text": "@andrer is Andre Reyes.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 72,
+  "end": 152,
+  "text": "[2025-03-25 18:00 UTC] @lucaq to @andrer: I pushed it through, check your inbox.",
+  "tids": [
+   "t58",
+   "t59",
+   "t60",
+   "t61",
+   "t78"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 153,
+  "end": 235,
+  "text": "[2025-03-25 18:07 UTC] @andrer to @lucaq: Let's keep this between us until Friday.",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65",
+   "t79"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_3"
+  ]
+ }
+}

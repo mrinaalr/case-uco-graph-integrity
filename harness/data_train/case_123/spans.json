@@ -1,0 +1,441 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 128,
+  "text": "Ironleaf Freight LLC employs Irene Banerjee, who can be reached at ibanerjee@ironleaf.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t61",
+   "t62",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 221,
+  "text": "Ironleaf Freight LLC employs Clara Lindqvist, who can be reached at clindqvist@ironleaf.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t63",
+   "t64",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 307,
+  "text": "Ironleaf Freight LLC employs Owen Osei, who can be reached at owen.osei@ironleaf.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t65",
+   "t66",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 308,
+  "end": 396,
+  "text": "Northwind Freight LLC employs Grace Petrov, who can be reached at gpetrov@northwind.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t67",
+   "t68",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 398,
+  "end": 434,
+  "text": "Owen Osei reports to Irene Banerjee.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 435,
+  "end": 479,
+  "text": "Clara Lindqvist's manager is Irene Banerjee.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 481,
+  "end": 551,
+  "text": "Ironleaf Freight LLC operates from 5288 Elm Street, Madison, WI 53703.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 552,
+  "end": 627,
+  "text": "Northwind Freight LLC operates from 6460 Commerce Drive, Madison, WI 53703.",
+  "tids": [
+   "t51",
+   "t47",
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 629,
+  "end": 677,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: gpetrov@northwind.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 55,
+  "text": "To: clindqvist@ironleaf.com",
+  "tids": [
+   "t58",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 56,
+  "end": 91,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 92,
+  "end": 129,
+  "text": "Date: Sat, 12 Apr 2025 15:25:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 131,
+  "end": 140,
+  "text": "Hi Clara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 142,
+  "end": 211,
+  "text": "On April 5, 2025 at 13:25 UTC, Owen Osei initiated the wire transfer.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 212,
+  "end": 264,
+  "text": "Clara Lindqvist also took part in the wire transfer.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 265,
+  "end": 329,
+  "text": "The wire transfer took place at the Ironleaf Freight LLC office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 330,
+  "end": 402,
+  "text": "Owen Osei started the contract amendment on April 12, 2025 at 13:25 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 403,
+  "end": 453,
+  "text": "Clara Lindqvist authorized the contract amendment.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 454,
+  "end": 523,
+  "text": "The contract amendment took place at the Ironleaf Freight LLC office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 525,
+  "end": 532,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 533,
+  "end": 538,
+  "text": "Grace",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 93,
+  "text": "Union Ledger Bank account 7829292716 is registered to Ironleaf Freight LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 94,
+  "end": 162,
+  "text": "Northwind Freight LLC holds account 4379794430 at Union Ledger Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 163,
+  "end": 219,
+  "text": "Owen Osei holds account 6145317925 at Union Ledger Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 221,
+  "end": 291,
+  "text": "Grace Petrov started the vendor onboarding on 6 April 2025, 11:10 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 292,
+  "end": 348,
+  "text": "Owen Osei was involved in the vendor onboarding as well.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 349,
+  "end": 406,
+  "text": "Account 7829292716 sent a transfer to account 4379794430.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 407,
+  "end": 470,
+  "text": "Clara Lindqvist communicated with Owen Osei about the payments.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_1",
+   "person_2"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 472,
+  "end": 506,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

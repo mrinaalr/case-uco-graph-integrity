@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Dana Sorensen is employed by Stonebridge Fabrication Group; their email is dana.sorensen@stonebridge.com. [D2.S3] Sofia Lindqvist works for Stonebridge Fabrication Group and uses the address slindqvist@stonebridge.com. [D2.S4] Yara Vance works for Stonebridge Fabrication Group and uses the address yvance@stonebridge.com. [D2.S5] Hector Haddad is employed by Ironleaf Fabrication Inc.; their email is hector.haddad@ironleaf.com.
+
+[D2.S6] Yara Vance reports to Dana Sorensen.
+
+[D2.S7] Stonebridge Fabrication Group operates from 5062 Elm Street, Madison, WI 53703.
+
+[D2.S8] More detail will follow once records are pulled.

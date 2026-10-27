@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Yara Novak is employed by Oakhaven Logistics Ltd.; their email is ynovak@oakhaven.com. [D1.S3] Oakhaven Logistics Ltd. employs Luca Park, who can be reached at luca.park@oakhaven.com. [D1.S4] Stonebridge Components Ltd. employs Desmond Abara, who can be reached at desmond.abara@stonebridge.com.
+
+[D1.S5] Oakhaven Logistics Ltd. is based at 1710 Industrial Parkway, Madison, WI 53703.
+
+[D1.S6] Oakhaven Logistics Ltd. holds account 4922199874 at Pinecrest National Bank. [D1.S7] Pinecrest National Bank account 3338571130 is registered to Stonebridge Components Ltd. [D1.S8] Luca Park holds account 3119720420 at Pinecrest National Bank.
+
+[D1.S9] This summary reflects records available to date.

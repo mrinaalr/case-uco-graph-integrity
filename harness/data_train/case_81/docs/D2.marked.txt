@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Rosa Mendes is employed by Brightwater Freight Inc.; their email is rmendes@brightwater.com. [D2.S3] Wesley Petrov is employed by Brightwater Freight Inc.; their email is wpetrov@brightwater.com. [D2.S4] Maya Reyes works for Brightwater Freight Inc. and uses the address maya.reyes@brightwater.com. [D2.S5] Irene Vance is employed by Oakhaven Freight Group; their email is ivance@oakhaven.com.
+
+[D2.S6] Brightwater Freight Inc. is based at 8442 Commerce Drive, Richmond, VA 23219.
+
+[D2.S7] Account 7969707148 at Union Ledger Bank belongs to Brightwater Freight Inc. [D2.S8] Union Ledger Bank account 7922458807 is registered to Oakhaven Freight Group. [D2.S9] Account 5218751820 at Union Ledger Bank belongs to Rosa Mendes.
+
+[D2.S10] This summary reflects records available to date.

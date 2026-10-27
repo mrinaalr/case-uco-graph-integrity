@@ -1,0 +1,11 @@
+From: wvance@ironleaf.com
+To: rosa.mendes@ironleaf.com, kfischer@bluegate.com
+Subject: Updated remittance details
+Date: Wed, 25 Jun 2025 16:10:00 +0000
+
+Hi Rosa,
+
+The refund request was initiated by Ruth Moreau on May 29, 2025 at 14:10 UTC. The invoice submission was initiated by Kofi Fischer on June 5, 2025 at 14:10 UTC. On 23 June 2025, 10:25 UTC, Ruth Moreau initiated the payment approval. Ruth Moreau started the contract amendment on June 25, 2025 at 14:10 UTC. Approval for the contract amendment came from Rosa Mendes.
+
+Thanks,
+Wesley

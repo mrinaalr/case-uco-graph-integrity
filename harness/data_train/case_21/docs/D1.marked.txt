@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Kofi Vance is employed by Clearpath Fabrication Group; their email is kvance@clearpath.com. [D1.S3] Irene Banerjee works for Clearpath Fabrication Group and uses the address ibanerjee@clearpath.com. [D1.S4] Westmark Services Ltd. employs Julian Tanaka, who can be reached at julian.tanaka@westmark.com.
+
+[D1.S5] Clearpath Fabrication Group is based at 5072 Main Street, Dayton, OH 45402.
+
+[D1.S6] Clearpath Fabrication Group holds account 1649172596 at Union Ledger Bank. [D1.S7] Union Ledger Bank account 3247928758 is registered to Westmark Services Ltd. [D1.S8] Account 4149820415 at Union Ledger Bank belongs to Kofi Vance.
+
+[D1.S9] This summary reflects records available to date.

@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Yara Tanaka works for Redfern Distribution Co. and uses the address yara.tanaka@redfern.com. [D1.S3] Arjun Reyes is employed by Redfern Distribution Co.; their email is arjun.reyes@redfern.com. [D1.S4] Stonebridge Freight Inc. employs Clara Osei, who can be reached at cosei@stonebridge.com.
+
+[D1.S5] Redfern Distribution Co. operates from 5724 Main Street, Tucson, AZ 85701.
+
+[D1.S6] Granite Federal Credit Union account 6365123032 is registered to Redfern Distribution Co. [D1.S7] Stonebridge Freight Inc. holds account 7889697376 at Granite Federal Credit Union. [D1.S8] Granite Federal Credit Union account 3281410614 is registered to Yara Tanaka.
+
+[D1.S9] Account 6365123032 sent a transfer to account 7889697376.
+
+[D1.S10] Please treat this as confidential.

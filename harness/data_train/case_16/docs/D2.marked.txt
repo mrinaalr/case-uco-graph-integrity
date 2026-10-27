@@ -1,0 +1,11 @@
+[D2.S1] From: sholloway@clearpath.com
+[D2.S2] To: luca.mendes@westmark.com, tcastillo@westmark.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Sat, 23 Aug 2025 14:15:00 +0000
+
+[D2.S5] Hi Luca,
+
+[D2.S6] On August 12, 2025 at 17:50 UTC, Samuel Holloway initiated the contract amendment. [D2.S7] Ruth Ivanova also took part in the contract amendment. [D2.S8] Luca Mendes started the refund request on August 23, 2025 at 12:15 UTC. [D2.S9] Samuel Holloway was involved in the refund request as well. [D2.S10] The refund request happened at Westmark Analytics Co.'s office.
+
+[D2.S11] Thanks,
+[D2.S12] Samuel

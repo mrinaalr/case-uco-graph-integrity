@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Union Ledger Bank account 1881589011 is registered to Clearpath Services LLC. [D3.S3] Copperfield Freight Inc. holds account 2258298822 at Union Ledger Bank.
+
+[D3.S4] Ruth Ivanova started the refund request on June 26, 2025 at 17:30 UTC. [D3.S5] Owen Brennan also took part in the refund request. [D3.S6] The refund request happened at Clearpath Services LLC's office. [D3.S7] Ruth Ivanova started the vendor onboarding on July 13, 2025 at 11:00 UTC. [D3.S8] Owen Brennan also took part in the vendor onboarding. [D3.S9] The vendor onboarding took place at the Clearpath Services LLC office. [D3.S10] Account 1881589011 sent a transfer to account 2258298822.
+
+[D3.S11] More detail will follow once records are pulled.

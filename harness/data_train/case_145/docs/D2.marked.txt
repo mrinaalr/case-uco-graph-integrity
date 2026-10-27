@@ -1,0 +1,11 @@
+[D2.S1] From: clara.holloway@harborline.com
+[D2.S2] To: vpark@cedarridge.com, rmendes@cedarridge.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Sat, 15 Mar 2025 18:45:00 +0000
+
+[D2.S5] Hi Victor,
+
+[D2.S6] The vendor onboarding was initiated by Clara Holloway on 15 February 2025, 16:25 UTC. [D2.S7] Ruth Mendes started the payment approval on 2 March 2025, 11:00 UTC. [D2.S8] Clara Holloway started the invoice submission on 10 March 2025, 09:15 UTC. [D2.S9] The bank detail change was initiated by Clara Holloway on 15 March 2025, 16:45 UTC.
+
+[D2.S10] Thanks,
+[D2.S11] Clara

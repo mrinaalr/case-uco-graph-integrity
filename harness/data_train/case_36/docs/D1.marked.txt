@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Irene Banerjee works for Bluegate Services Ltd. and uses the address ibanerjee@bluegate.com. [D1.S3] Yara Vance works for Bluegate Services Ltd. and uses the address yvance@bluegate.com. [D1.S4] Wesley Abara works for Bluegate Services Ltd. and uses the address wesley.abara@bluegate.com. [D1.S5] Marcus Brennan is employed by Brightwater Analytics Ltd.; their email is marcus.brennan@brightwater.com. [D1.S6] Brightwater Analytics Ltd. employs Hannah Park, who can be reached at hannah.park@brightwater.com.
+
+[D1.S7] Yara Vance's manager is Irene Banerjee.
+
+[D1.S8] Bluegate Services Ltd. operates from 6484 Riverside Boulevard, Albany, NY 12207.
+
+[D1.S9] Meridian Trust Bank account 8208806267 is registered to Bluegate Services Ltd. [D1.S10] Meridian Trust Bank account 1807841684 is registered to Brightwater Analytics Ltd. [D1.S11] Account 4876377186 at Meridian Trust Bank belongs to Yara Vance.
+
+[D1.S12] Please treat this as confidential.

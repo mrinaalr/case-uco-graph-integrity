@@ -1,0 +1,11 @@
+[D2.S1] From: sofia.haddad@summitpeak.com
+[D2.S2] To: samuel.reyes@stonebridge.com, apark@summitpeak.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Tue, 04 Feb 2025 14:00:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] On January 12, 2025 at 17:00 UTC, Arjun Park initiated the invoice submission. [D2.S7] On January 17, 2025 at 09:45 UTC, Sofia Haddad initiated the expense reimbursement. [D2.S8] The vendor onboarding was initiated by Sofia Haddad on February 4, 2025 at 12:00 UTC.
+
+[D2.S9] Thanks,
+[D2.S10] Sofia

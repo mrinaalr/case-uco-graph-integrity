@@ -1,0 +1,501 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Westmark Supply Ltd. employs Irene Tanaka, who can be reached at irene.tanaka@westmark.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t76",
+   "t77",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 221,
+  "text": "Westmark Supply Ltd. employs Clara Petrov, who can be reached at clara.petrov@westmark.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t78",
+   "t79",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 309,
+  "text": "Kofi Reyes works for Westmark Supply Ltd. and uses the address kofi.reyes@westmark.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t80",
+   "t81",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 310,
+  "end": 412,
+  "text": "Silverlake Distribution Ltd. employs Desmond Kowalski, who can be reached at dkowalski@silverlake.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t82",
+   "t83",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 413,
+  "end": 514,
+  "text": "Hannah Ashworth works for Silverlake Distribution Ltd. and uses the address hashworth@silverlake.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t84",
+   "t85",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 516,
+  "end": 553,
+  "text": "Kofi Reyes's manager is Irene Tanaka.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 554,
+  "end": 591,
+  "text": "Clara Petrov reports to Irene Tanaka.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 593,
+  "end": 673,
+  "text": "The offices of Westmark Supply Ltd. are at 2708 Commerce Drive, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 675,
+  "end": 739,
+  "text": "Desmond Kowalski had been in contact with Kofi Reyes throughout.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_3",
+   "person_2"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 741,
+  "end": 789,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: clara.petrov@westmark.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 86,
+  "text": "To: kofi.reyes@westmark.com, irene.tanaka@westmark.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t86",
+   "t87"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 87,
+  "end": 123,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 124,
+  "end": 161,
+  "text": "Date: Wed, 09 Apr 2025 15:45:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 163,
+  "end": 171,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 173,
+  "end": 248,
+  "text": "The audit review was initiated by Irene Tanaka on 14 March 2025, 11:30 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 249,
+  "end": 323,
+  "text": "Clara Petrov started the invoice submission on April 9, 2025 at 13:45 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 324,
+  "end": 389,
+  "text": "The invoice submission happened at Westmark Supply Ltd.'s office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 391,
+  "end": 398,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 399,
+  "end": 404,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t88"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@irenet is Irene Tanaka.",
+  "tids": [
+   "t51",
+   "t50"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@clarap is Clara Petrov.",
+  "tids": [
+   "t53",
+   "t52"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 157,
+  "text": "[2025-03-14 12:30 UTC] @irenet to @clarap: I pushed it through, check your inbox.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67",
+   "t89"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 158,
+  "end": 241,
+  "text": "[2025-03-14 12:37 UTC] @clarap to @irenet: Let's keep this between us until Friday.",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 242,
+  "end": 312,
+  "text": "[2025-03-14 12:44 UTC] @irenet to @clarap: Did the bank call back yet?",
+  "tids": [
+   "t72",
+   "t73",
+   "t74",
+   "t75"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 90,
+  "text": "Westmark Supply Ltd. holds account 4828160316 at Lakeshore Savings Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t90",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 91,
+  "end": 178,
+  "text": "Lakeshore Savings Bank account 8043914307 is registered to Silverlake Distribution Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t91",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 179,
+  "end": 251,
+  "text": "Lakeshore Savings Bank account 1985396733 is registered to Clara Petrov.",
+  "tids": [
+   "t36",
+   "t37",
+   "t92",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 253,
+  "end": 330,
+  "text": "On March 16, 2025 at 16:15 UTC, Irene Tanaka initiated the vendor onboarding.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 331,
+  "end": 394,
+  "text": "Desmond Kowalski was involved in the vendor onboarding as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 395,
+  "end": 474,
+  "text": "Desmond Kowalski started the bank detail change on April 18, 2025 at 14:50 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 476,
+  "end": 515,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

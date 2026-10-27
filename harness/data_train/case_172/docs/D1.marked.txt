@@ -1,0 +1,11 @@
+[D1.S1] From: dreyes@stonebridge.com
+[D1.S2] To: nadia.park@redfern.com, arjun.lindqvist@redfern.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Sun, 23 Mar 2025 16:10:00 +0000
+
+[D1.S5] Hi Nadia,
+
+[D1.S6] On 19 February 2025, 15:25 UTC, Kofi Castillo initiated the audit review. [D1.S7] Desmond Reyes started the refund request on 23 February 2025, 17:45 UTC. [D1.S8] The vendor onboarding was initiated by Kofi Castillo on 23 March 2025, 14:10 UTC.
+
+[D1.S9] Thanks,
+[D1.S10] Desmond

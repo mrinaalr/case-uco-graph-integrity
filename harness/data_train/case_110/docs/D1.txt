@@ -1,0 +1,13 @@
+INTERNAL MEMO: Vendor payment review
+
+Yara Ashworth works for Northwind Analytics LLC and uses the address yara.ashworth@northwind.com. Julian Mendes works for Northwind Analytics LLC and uses the address julian.mendes@northwind.com. Brightwater Distribution Inc. employs Nadia Okafor, who can be reached at nokafor@brightwater.com.
+
+Julian Mendes reports to Yara Ashworth.
+
+The offices of Northwind Analytics LLC are at 2551 Main Street, Albany, NY 12207.
+
+First Harbor Bank account 9020194544 is registered to Northwind Analytics LLC. Brightwater Distribution Inc. holds account 1147156672 at First Harbor Bank. Account 1695617830 at First Harbor Bank belongs to Yara Ashworth.
+
+Account 9020194544 sent a transfer to account 1147156672.
+
+Please treat this as confidential.

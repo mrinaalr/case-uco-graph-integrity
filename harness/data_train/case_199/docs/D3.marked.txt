@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Brightwater Supply Ltd. holds account 4455474085 at Meridian Trust Bank. [D3.S3] Meridian Trust Bank account 9577972606 is registered to Summit Peak Services Co.
+
+[D3.S4] On 16 July 2025, 17:30 UTC, Lena Osei initiated the wire transfer. [D3.S5] Approval for the wire transfer came from Priya Quinn. [D3.S6] The wire transfer happened at Brightwater Supply Ltd.'s office. [D3.S7] The audit review was initiated by Clara Reyes on July 29, 2025 at 14:00 UTC. [D3.S8] Lena Osei also took part in the audit review. [D3.S9] The audit review took place at the Brightwater Supply Ltd. office. [D3.S10] Funds moved from account 4455474085 to account 9577972606.
+
+[D3.S11] Let me know if anything here looks off.

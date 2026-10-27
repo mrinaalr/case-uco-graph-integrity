@@ -1,0 +1,13 @@
+INTERNAL MEMO: Vendor payment review
+
+Wesley Quinn works for Bluegate Freight Ltd. and uses the address wquinn@bluegate.com. Bluegate Freight Ltd. employs Felix Lindqvist, who can be reached at flindqvist@bluegate.com. Dana Haddad is employed by Bluegate Freight Ltd.; their email is dhaddad@bluegate.com. Julian Moreau works for Clearpath Packaging Group and uses the address jmoreau@clearpath.com.
+
+Felix Lindqvist's manager is Wesley Quinn.
+
+Bluegate Freight Ltd. operates from 3680 Industrial Parkway, Boise, ID 83702. Clearpath Packaging Group is based at 1737 Harbor Avenue, Tucson, AZ 85701.
+
+Bluegate Freight Ltd. holds account 1339575871 at Union Ledger Bank. Clearpath Packaging Group holds account 8263441755 at Union Ledger Bank. Union Ledger Bank account 6581344337 is registered to Felix Lindqvist.
+
+Account 1339575871 sent a transfer to account 6581344337.
+
+Please treat this as confidential.

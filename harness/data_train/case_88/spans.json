@@ -1,0 +1,434 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: tbrennan@brightwater.com",
+  "tids": [
+   "t55",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 88,
+  "text": "To: lwhitfield@brightwater.com, irene.moreau@bluegate.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t64",
+   "t65",
+   "t10",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 89,
+  "end": 122,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 123,
+  "end": 160,
+  "text": "Date: Fri, 14 Mar 2025 18:45:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 162,
+  "end": 170,
+  "text": "Hi Luca,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 172,
+  "end": 258,
+  "text": "The bank detail change was initiated by Irene Moreau on February 8, 2025 at 12:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 259,
+  "end": 341,
+  "text": "Irene Moreau started the account reconciliation on February 22, 2025 at 12:50 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 342,
+  "end": 412,
+  "text": "Tomas Brennan started the payment approval on 1 March 2025, 09:30 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44",
+   "t4"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 413,
+  "end": 497,
+  "text": "The contract amendment was initiated by Irene Moreau on March 14, 2025 at 16:45 UTC.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 499,
+  "end": 506,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 507,
+  "end": 512,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 137,
+  "text": "Tomas Brennan is employed by Brightwater Fabrication Ltd.; their email is tbrennan@brightwater.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t66",
+   "t67",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 240,
+  "text": "Luca Whitfield is employed by Brightwater Fabrication Ltd.; their email is lwhitfield@brightwater.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t68",
+   "t69",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 241,
+  "end": 334,
+  "text": "Bluegate Services Ltd. employs Irene Moreau, who can be reached at irene.moreau@bluegate.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t70",
+   "t71",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 336,
+  "end": 416,
+  "text": "Brightwater Fabrication Ltd. operates from 8908 Lakeview Road, Albany, NY 12207.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 418,
+  "end": 493,
+  "text": "Brightwater Fabrication Ltd. holds account 6722710057 at First Harbor Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 494,
+  "end": 567,
+  "text": "Account 1731173219 at First Harbor Bank belongs to Bluegate Services Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t73",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 568,
+  "end": 629,
+  "text": "Luca Whitfield holds account 7710361841 at First Harbor Bank.",
+  "tids": [
+   "t28",
+   "t29",
+   "t74",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 631,
+  "end": 688,
+  "text": "Account 6722710057 sent a transfer to account 7710361841.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 690,
+  "end": 738,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 30,
+  "text": "From: tbrennan@brightwater.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 31,
+  "end": 60,
+  "text": "To: irene.moreau@bluegate.com",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 61,
+  "end": 92,
+  "text": "Subject: Invoice 8402 follow-up",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Mon, 17 Mar 2025 13:15:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 132,
+  "end": 141,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 143,
+  "end": 232,
+  "text": "The invoice submission was initiated by Luca Whitfield on February 13, 2025 at 11:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 233,
+  "end": 321,
+  "text": "The vendor onboarding was initiated by Luca Whitfield on February 23, 2025 at 09:45 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 322,
+  "end": 401,
+  "text": "Tomas Brennan started the expense reimbursement on March 11, 2025 at 12:45 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 402,
+  "end": 472,
+  "text": "On 17 March 2025, 11:15 UTC, Tomas Brennan initiated the audit review.",
+  "tids": [
+   "t51",
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "event_7",
+   "person_0"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 474,
+  "end": 481,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 482,
+  "end": 487,
+  "text": "Tomas",
+  "tids": [],
+  "mentions": []
+ }
+}

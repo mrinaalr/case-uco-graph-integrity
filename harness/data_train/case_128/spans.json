@@ -1,0 +1,393 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 30,
+  "text": "From: andre.vance@westmark.com",
+  "tids": [
+   "t45",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 31,
+  "end": 89,
+  "text": "To: grace.brennan@harborline.com, sofia.abara@westmark.com",
+  "tids": [
+   "t46",
+   "t47",
+   "t54",
+   "t55",
+   "t11",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 90,
+  "end": 123,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 124,
+  "end": 161,
+  "text": "Date: Fri, 17 Oct 2025 13:00:00 +0000",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 163,
+  "end": 172,
+  "text": "Hi Grace,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 174,
+  "end": 243,
+  "text": "Andre Vance started the audit review on 28 September 2025, 17:10 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 244,
+  "end": 326,
+  "text": "The contract amendment was initiated by Sofia Abara on 17 October 2025, 11:00 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42",
+   "t5"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 328,
+  "end": 335,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 336,
+  "end": 341,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 132,
+  "text": "Lena Castillo is employed by Westmark Freight Inc.; their email is lena.castillo@westmark.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t56",
+   "t57",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 223,
+  "text": "Sofia Abara works for Westmark Freight Inc. and uses the address sofia.abara@westmark.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t58",
+   "t59"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 224,
+  "end": 314,
+  "text": "Westmark Freight Inc. employs Andre Vance, who can be reached at andre.vance@westmark.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 315,
+  "end": 418,
+  "text": "Grace Brennan works for Harborline Fabrication Group and uses the address grace.brennan@harborline.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t62",
+   "t63",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 420,
+  "end": 459,
+  "text": "Sofia Abara's manager is Lena Castillo.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 461,
+  "end": 532,
+  "text": "Westmark Freight Inc. operates from 5576 Maple Avenue, Boise, ID 83702.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 534,
+  "end": 608,
+  "text": "Westmark Freight Inc. holds account 2278408256 at Pinecrest National Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t64",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 609,
+  "end": 698,
+  "text": "Pinecrest National Bank account 2062046786 is registered to Harborline Fabrication Group.",
+  "tids": [
+   "t29",
+   "t30",
+   "t65",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 699,
+  "end": 763,
+  "text": "Sofia Abara holds account 9906343982 at Pinecrest National Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t66",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 765,
+  "end": 804,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 34,
+  "text": "From: grace.brennan@harborline.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 35,
+  "end": 63,
+  "text": "To: sofia.abara@westmark.com",
+  "tids": [
+   "t51",
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 64,
+  "end": 95,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 96,
+  "end": 133,
+  "text": "Date: Thu, 02 Oct 2025 11:30:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 135,
+  "end": 144,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 146,
+  "end": 225,
+  "text": "The refund request was initiated by Lena Castillo on 2 October 2025, 09:30 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 226,
+  "end": 282,
+  "text": "Approval for the refund request came from Grace Brennan.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 284,
+  "end": 291,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 292,
+  "end": 297,
+  "text": "Grace",
+  "tids": [],
+  "mentions": []
+ }
+}

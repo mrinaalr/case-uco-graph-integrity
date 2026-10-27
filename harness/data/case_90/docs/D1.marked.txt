@@ -1,0 +1,11 @@
+[D1.S1] From: cabara@oakhaven.com
+[D1.S2] To: hashworth@oakhaven.com, dana.vance@copperfield.com
+[D1.S3] Subject: Urgent: payment timing
+[D1.S4] Date: Tue, 13 May 2025 12:30:00 +0000
+
+[D1.S5] Hi Hannah,
+
+[D1.S6] The account reconciliation was initiated by Dana Vance on 13 April 2025, 12:30 UTC. [D1.S7] Tomas Reyes also took part in the account reconciliation. [D1.S8] Tomas Reyes started the invoice submission on April 30, 2025 at 10:00 UTC. [D1.S9] Hannah Ashworth also took part in the invoice submission. [D1.S10] On May 13, 2025 at 10:30 UTC, Tomas Reyes initiated the wire transfer.
+
+[D1.S11] Thanks,
+[D1.S12] Clara

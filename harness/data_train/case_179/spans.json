@@ -1,0 +1,509 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 31,
+  "text": "From: wesley.novak@oakhaven.com",
+  "tids": [
+   "t56",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 32,
+  "end": 57,
+  "text": "To: jfischer@ironleaf.com",
+  "tids": [
+   "t57",
+   "t64",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 58,
+  "end": 93,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Tue, 04 Nov 2025 14:10:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 143,
+  "text": "Hi Julian,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 145,
+  "end": 231,
+  "text": "The invoice submission was initiated by Wesley Novak on October 21, 2025 at 09:00 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 232,
+  "end": 288,
+  "text": "Julian Fischer also took part in the invoice submission.",
+  "tids": [
+   "t54",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 289,
+  "end": 369,
+  "text": "On October 25, 2025 at 14:45 UTC, Wesley Novak initiated the bank detail change.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 370,
+  "end": 442,
+  "text": "Tomas Moreau started the wire transfer on November 4, 2025 at 12:10 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47",
+   "t5"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 443,
+  "end": 492,
+  "text": "Wesley Novak also took part in the wire transfer.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "event_6"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 493,
+  "end": 557,
+  "text": "The wire transfer happened at Ironleaf Analytics Group's office.",
+  "tids": [
+   "t50",
+   "t1"
+  ],
+  "mentions": [
+   "event_6",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 559,
+  "end": 566,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 567,
+  "end": 573,
+  "text": "Wesley",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 131,
+  "text": "Julian Fischer is employed by Ironleaf Analytics Group; their email is jfischer@ironleaf.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t65",
+   "t66"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 222,
+  "text": "Tomas Moreau works for Ironleaf Analytics Group and uses the address tmoreau@ironleaf.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t67",
+   "t68",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 223,
+  "end": 317,
+  "text": "Wesley Novak works for Oakhaven Consulting LLC and uses the address wesley.novak@oakhaven.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t69",
+   "t70",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 319,
+  "end": 358,
+  "text": "Tomas Moreau reports to Julian Fischer.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 360,
+  "end": 437,
+  "text": "Ironleaf Analytics Group is based at 2887 Commerce Drive, Richmond, VA 23219.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 439,
+  "end": 487,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: jfischer@ironleaf.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 52,
+  "text": "To: tmoreau@ironleaf.com",
+  "tids": [
+   "t61",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 93,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Mon, 03 Nov 2025 13:00:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 133,
+  "end": 142,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 144,
+  "end": 221,
+  "text": "On 21 October 2025, 11:30 UTC, Tomas Moreau initiated the contract amendment.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 222,
+  "end": 303,
+  "text": "On November 3, 2025 at 11:00 UTC, Julian Fischer initiated the vendor onboarding.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 305,
+  "end": 312,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 313,
+  "end": 319,
+  "text": "Julian",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 103,
+  "text": "Pinecrest National Bank account 2745432248 is registered to Ironleaf Analytics Group.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 104,
+  "end": 185,
+  "text": "Account 2200832922 at Pinecrest National Bank belongs to Oakhaven Consulting LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t73",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 187,
+  "end": 261,
+  "text": "On October 22, 2025 at 12:30 UTC, Tomas Moreau initiated the audit review.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 262,
+  "end": 312,
+  "text": "Julian Fischer also took part in the audit review.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 313,
+  "end": 376,
+  "text": "The audit review happened at Ironleaf Analytics Group's office.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 377,
+  "end": 461,
+  "text": "The refund request was initiated by Julian Fischer on November 3, 2025 at 11:10 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 462,
+  "end": 517,
+  "text": "Approval for the refund request came from Tomas Moreau.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 518,
+  "end": 575,
+  "text": "Account 2745432248 sent a transfer to account 2200832922.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D4.S10": {
+  "doc_id": "D4",
+  "start": 577,
+  "end": 611,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+From: owen.moreau@cedarridge.com
+To: hannah.mendes@cedarridge.com
+Subject: Urgent: payment timing
+Date: Sun, 09 Feb 2025 17:30:00 +0000
+
+Hi Hannah,
+
+The invoice submission was initiated by Mei Brennan on 9 January 2025, 12:50 UTC. The invoice submission happened at Cedar Ridge Services LLC's office. The contract amendment was initiated by Mei Brennan on January 12, 2025 at 12:45 UTC. On January 19, 2025 at 17:15 UTC, Mei Brennan initiated the expense reimbursement. The refund request was initiated by Felix Osei on 24 January 2025, 14:15 UTC. The vendor onboarding was initiated by Felix Osei on February 5, 2025 at 09:00 UTC. Mei Brennan started the account reconciliation on February 9, 2025 at 15:30 UTC.
+
+Thanks,
+Owen

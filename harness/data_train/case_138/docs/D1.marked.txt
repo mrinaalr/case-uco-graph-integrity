@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oscar Banerjee works for Silverlake Tooling Co. and uses the address oscar.banerjee@silverlake.com. [D1.S3] Silverlake Tooling Co. employs Desmond Fischer, who can be reached at dfischer@silverlake.com. [D1.S4] Bluegate Packaging Group employs Priya Moreau, who can be reached at pmoreau@bluegate.com.
+
+[D1.S5] Silverlake Tooling Co. operates from 766 Industrial Parkway, Dayton, OH 45402.
+
+[D1.S6] Union Ledger Bank account 7049168576 is registered to Silverlake Tooling Co. [D1.S7] Union Ledger Bank account 6939958336 is registered to Bluegate Packaging Group. [D1.S8] Account 1484232533 at Union Ledger Bank belongs to Desmond Fischer.
+
+[D1.S9] Account 7049168576 sent a transfer to account 6939958336. [D1.S10] Desmond Fischer had been in contact with Oscar Banerjee throughout.
+
+[D1.S11] This summary reflects records available to date.

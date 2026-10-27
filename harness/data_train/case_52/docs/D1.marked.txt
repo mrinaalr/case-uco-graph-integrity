@@ -1,0 +1,11 @@
+[D1.S1] From: ruth.moreau@bluegate.com
+[D1.S2] To: lpetrov@oakhaven.com, dana.ashworth@oakhaven.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Fri, 31 Oct 2025 19:25:00 +0000
+
+[D1.S5] Hi Lena,
+
+[D1.S6] Dana Ashworth started the audit review on October 7, 2025 at 16:00 UTC. [D1.S7] The audit review happened at Oakhaven Industrial Inc.'s office. [D1.S8] The invoice submission was initiated by Dana Ashworth on October 31, 2025 at 17:25 UTC. [D1.S9] The invoice submission took place at the Oakhaven Industrial Inc. office.
+
+[D1.S10] Thanks,
+[D1.S11] Ruth

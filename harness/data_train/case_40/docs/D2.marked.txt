@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Westmark Freight Inc. employs Marcus Sorensen, who can be reached at marcus.sorensen@westmark.com. [D2.S3] Westmark Freight Inc. employs Julian Delgado, who can be reached at jdelgado@westmark.com. [D2.S4] Rosa Osei works for Redfern Components Co. and uses the address rosei@redfern.com.
+
+[D2.S5] Julian Delgado reports to Marcus Sorensen.
+
+[D2.S6] Westmark Freight Inc. operates from 8324 Commerce Drive, Madison, WI 53703.
+
+[D2.S7] Please treat this as confidential.

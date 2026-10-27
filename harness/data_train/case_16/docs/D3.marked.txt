@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @lucam is Luca Mendes.
+[D3.S3] @samuelh is Samuel Holloway.
+[D3.S4] [2025-08-12 18:50 UTC] @lucam to @samuelh: Let's keep this between us until Friday.
+[D3.S5] [2025-08-12 18:57 UTC] @samuelh to @lucam: Did the bank call back yet?
+[D3.S6] [2025-08-12 19:04 UTC] @lucam to @samuelh: Can you look at the vendor file before lunch?

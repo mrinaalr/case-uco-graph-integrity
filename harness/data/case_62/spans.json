@@ -1,0 +1,465 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 29,
+  "text": "From: phaddad@copperfield.com",
+  "tids": [
+   "t53",
+   "t9"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 30,
+  "end": 91,
+  "text": "To: tomas.kowalski@bluegate.com, julian.novak@copperfield.com",
+  "tids": [
+   "t54",
+   "t55",
+   "t62",
+   "t63",
+   "t15",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 92,
+  "end": 132,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 170,
+  "text": "Date: Tue, 22 Apr 2025 17:45:00 +0000",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 172,
+  "end": 181,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 183,
+  "end": 256,
+  "text": "On 13 April 2025, 15:00 UTC, Tomas Kowalski initiated the refund request.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 257,
+  "end": 300,
+  "text": "Priya Haddad authorized the refund request.",
+  "tids": [
+   "t47",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 301,
+  "end": 351,
+  "text": "Julian Novak also took part in the refund request.",
+  "tids": [
+   "t50",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 352,
+  "end": 430,
+  "text": "On April 22, 2025 at 15:45 UTC, Julian Novak initiated the bank detail change.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 431,
+  "end": 492,
+  "text": "Approval for the bank detail change came from Marcus Ivanova.",
+  "tids": [
+   "t52",
+   "t8"
+  ],
+  "mentions": [
+   "person_4",
+   "event_2"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 494,
+  "end": 501,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 502,
+  "end": 507,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Copperfield Services Group employs Priya Haddad, who can be reached at phaddad@copperfield.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t64",
+   "t65",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 229,
+  "text": "Copperfield Services Group employs Felix Mendes, who can be reached at fmendes@copperfield.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t66",
+   "t67",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 230,
+  "end": 330,
+  "text": "Julian Novak works for Copperfield Services Group and uses the address julian.novak@copperfield.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t68",
+   "t69"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 331,
+  "end": 429,
+  "text": "Bluegate Services Group employs Tomas Kowalski, who can be reached at tomas.kowalski@bluegate.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t70",
+   "t71",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 430,
+  "end": 522,
+  "text": "Marcus Ivanova is employed by Bluegate Services Group; their email is mivanova@bluegate.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t73",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 524,
+  "end": 563,
+  "text": "Julian Novak's manager is Priya Haddad.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 565,
+  "end": 643,
+  "text": "Copperfield Services Group is based at 8877 Lakeview Road, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 645,
+  "end": 737,
+  "text": "Granite Federal Credit Union account 7684420089 is registered to Copperfield Services Group.",
+  "tids": [
+   "t30",
+   "t31",
+   "t74",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 738,
+  "end": 827,
+  "text": "Granite Federal Credit Union account 8957815063 is registered to Bluegate Services Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t75",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 828,
+  "end": 898,
+  "text": "Priya Haddad holds account 6072275949 at Granite Federal Credit Union.",
+  "tids": [
+   "t36",
+   "t37",
+   "t76",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 900,
+  "end": 965,
+  "text": "Julian Novak communicated with Tomas Kowalski about the payments.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_2",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 967,
+  "end": 1015,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 29,
+  "text": "From: fmendes@copperfield.com",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 30,
+  "end": 57,
+  "text": "To: phaddad@copperfield.com",
+  "tids": [
+   "t59",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 58,
+  "end": 94,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Thu, 17 Apr 2025 13:25:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 134,
+  "end": 143,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 224,
+  "text": "The wire transfer was initiated by Julian Novak on April 17, 2025 at 11:25 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 225,
+  "end": 276,
+  "text": "Tomas Kowalski also took part in the wire transfer.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 278,
+  "end": 285,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 286,
+  "end": 291,
+  "text": "Felix",
+  "tids": [],
+  "mentions": []
+ }
+}

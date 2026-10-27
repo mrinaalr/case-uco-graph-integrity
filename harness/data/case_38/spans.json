@@ -1,0 +1,382 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 141,
+  "text": "Harborline Tooling Group employs Hector Castillo, who can be reached at hector.castillo@harborline.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t54",
+   "t55",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 142,
+  "end": 239,
+  "text": "Marcus Abara is employed by Harborline Tooling Group; their email is marcus.abara@harborline.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t56",
+   "t57",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 240,
+  "end": 337,
+  "text": "Priya Petrov works for Harborline Tooling Group and uses the address priya.petrov@harborline.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t58",
+   "t59",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 338,
+  "end": 433,
+  "text": "Luca Brennan works for Clearpath Logistics LLC and uses the address luca.brennan@clearpath.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t60",
+   "t61",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 435,
+  "end": 475,
+  "text": "Priya Petrov reports to Hector Castillo.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 477,
+  "end": 555,
+  "text": "Harborline Tooling Group operates from 4492 Lakeview Road, Richmond, VA 23219.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 557,
+  "end": 638,
+  "text": "Account 1954282715 at Lakeshore Savings Bank belongs to Harborline Tooling Group.",
+  "tids": [
+   "t26",
+   "t27",
+   "t62",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 639,
+  "end": 719,
+  "text": "Account 3533521886 at Lakeshore Savings Bank belongs to Clearpath Logistics LLC.",
+  "tids": [
+   "t29",
+   "t30",
+   "t63",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 720,
+  "end": 784,
+  "text": "Priya Petrov holds account 1044690614 at Lakeshore Savings Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t64",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 786,
+  "end": 844,
+  "text": "Funds moved from account 1954282715 to account 1044690614.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 846,
+  "end": 894,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 32,
+  "text": "From: luca.brennan@clearpath.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 33,
+  "end": 64,
+  "text": "To: marcus.abara@harborline.com",
+  "tids": [
+   "t51",
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 65,
+  "end": 100,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 101,
+  "end": 138,
+  "text": "Date: Mon, 18 Aug 2025 17:50:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 140,
+  "end": 150,
+  "text": "Hi Marcus,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 152,
+  "end": 225,
+  "text": "Hector Castillo started the vendor onboarding on 21 July 2025, 12:30 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 307,
+  "text": "On August 9, 2025 at 10:00 UTC, Marcus Abara initiated the expense reimbursement.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 308,
+  "end": 371,
+  "text": "Luca Brennan was involved in the expense reimbursement as well.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 372,
+  "end": 448,
+  "text": "The expense reimbursement took place at the Harborline Tooling Group office.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 449,
+  "end": 528,
+  "text": "On 18 August 2025, 15:50 UTC, Hector Castillo initiated the bank detail change.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 529,
+  "end": 576,
+  "text": "Luca Brennan authorized the bank detail change.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_3",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 577,
+  "end": 646,
+  "text": "The bank detail change happened at Harborline Tooling Group's office.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 647,
+  "end": 709,
+  "text": "Luca Brennan had been in contact with Priya Petrov throughout.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_3",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 711,
+  "end": 718,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 719,
+  "end": 723,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ }
+}

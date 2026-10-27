@@ -1,0 +1,459 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Victor Ivanova is employed by Copperfield Logistics LLC; their email is vivanova@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t67",
+   "t68",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 233,
+  "text": "Dana Mendes works for Copperfield Logistics LLC and uses the address dana.mendes@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t69",
+   "t70",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 234,
+  "end": 331,
+  "text": "Arjun Reyes works for Copperfield Logistics LLC and uses the address arjun.reyes@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t71",
+   "t72",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 332,
+  "end": 423,
+  "text": "Rosa Castillo is employed by Redfern Consulting Inc.; their email is rcastillo@redfern.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t73",
+   "t74",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 425,
+  "end": 502,
+  "text": "Copperfield Logistics LLC operates from 4737 Lakeview Road, Dayton, OH 45402.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 504,
+  "end": 578,
+  "text": "Copperfield Logistics LLC holds account 5931991227 at Meridian Trust Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t75",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 579,
+  "end": 655,
+  "text": "Account 7324176502 at Meridian Trust Bank belongs to Redfern Consulting Inc.",
+  "tids": [
+   "t29",
+   "t30",
+   "t76",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 657,
+  "end": 714,
+  "text": "Account 5931991227 sent a transfer to account 7324176502.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 716,
+  "end": 755,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: arjun.reyes@copperfield.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 91,
+  "text": "To: vivanova@copperfield.com, dana.mendes@copperfield.com",
+  "tids": [
+   "t55",
+   "t56",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 92,
+  "end": 132,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 170,
+  "text": "Date: Wed, 09 Jul 2025 18:10:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 172,
+  "end": 182,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 184,
+  "end": 257,
+  "text": "The wire transfer was initiated by Arjun Reyes on 7 June 2025, 11:45 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 258,
+  "end": 311,
+  "text": "Approval for the wire transfer came from Dana Mendes.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 312,
+  "end": 377,
+  "text": "The wire transfer happened at Copperfield Logistics LLC's office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 378,
+  "end": 460,
+  "text": "On June 25, 2025 at 16:45 UTC, Victor Ivanova initiated the expense reimbursement.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 461,
+  "end": 525,
+  "text": "Rosa Castillo was involved in the expense reimbursement as well.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 526,
+  "end": 599,
+  "text": "The expense reimbursement happened at Copperfield Logistics LLC's office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 600,
+  "end": 675,
+  "text": "On 26 June 2025, 12:30 UTC, Rosa Castillo initiated the contract amendment.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 676,
+  "end": 754,
+  "text": "The bank detail change was initiated by Arjun Reyes on 9 July 2025, 16:10 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 755,
+  "end": 825,
+  "text": "The bank detail change happened at Copperfield Logistics LLC's office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 826,
+  "end": 889,
+  "text": "Victor Ivanova had been in contact with Dana Mendes throughout.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_0",
+   "person_1"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 891,
+  "end": 898,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 899,
+  "end": 904,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t79"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 49,
+  "text": "@arjunr is Arjun Reyes.",
+  "tids": [
+   "t44",
+   "t43"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 50,
+  "end": 77,
+  "text": "@victori is Victor Ivanova.",
+  "tids": [
+   "t46",
+   "t45"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 78,
+  "end": 156,
+  "text": "[2025-06-07 12:45 UTC] @arjunr to @victori: Finance is asking questions again.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61",
+   "t62"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_2",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 239,
+  "text": "[2025-06-07 12:52 UTC] @victori to @arjunr: I pushed it through, check your inbox.",
+  "tids": [
+   "t63",
+   "t64",
+   "t65",
+   "t66",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ }
+}

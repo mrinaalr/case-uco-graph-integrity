@@ -1,0 +1,11 @@
+From: oquinn@clearpath.com
+To: awhitfield@copperfield.com
+Subject: Quarter-end vendor payments
+Date: Fri, 25 Apr 2025 11:25:00 +0000
+
+Hi Andre,
+
+Hector Moreau started the audit review on 18 March 2025, 09:50 UTC. Luca Haddad was involved in the audit review as well. The vendor onboarding was initiated by Andre Whitfield on 22 March 2025, 14:45 UTC. On 6 April 2025, 15:10 UTC, Andre Whitfield initiated the bank detail change. Andre Whitfield started the expense reimbursement on 7 April 2025, 11:00 UTC. Hector Moreau started the contract amendment on April 9, 2025 at 14:50 UTC. The invoice submission was initiated by Oscar Quinn on April 12, 2025 at 16:10 UTC. The refund request was initiated by Oscar Quinn on April 13, 2025 at 10:45 UTC. Andre Whitfield authorized the refund request. On 25 April 2025, 09:25 UTC, Hector Moreau initiated the account reconciliation. The account reconciliation took place at the Copperfield Distribution Group office.
+
+Thanks,
+Oscar

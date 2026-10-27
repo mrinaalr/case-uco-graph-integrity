@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Tomas Reyes works for Oakhaven Fabrication Group and uses the address tomas.reyes@oakhaven.com. [D2.S3] Oakhaven Fabrication Group employs Clara Abara, who can be reached at cabara@oakhaven.com. [D2.S4] Hannah Ashworth is employed by Oakhaven Fabrication Group; their email is hashworth@oakhaven.com. [D2.S5] Copperfield Distribution Group employs Dana Vance, who can be reached at dana.vance@copperfield.com.
+
+[D2.S6] Clara Abara's manager is Tomas Reyes.
+
+[D2.S7] Oakhaven Fabrication Group is based at 1243 Harbor Avenue, Tucson, AZ 85701.
+
+[D2.S8] Account 2106070180 at First Harbor Bank belongs to Oakhaven Fabrication Group. [D2.S9] Copperfield Distribution Group holds account 6208457177 at First Harbor Bank.
+
+[D2.S10] More detail will follow once records are pulled.

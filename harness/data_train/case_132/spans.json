@@ -1,0 +1,444 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 26,
+  "text": "From: vokafor@bluegate.com",
+  "tids": [
+   "t51",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 27,
+  "end": 82,
+  "text": "To: maya.abara@bluegate.com, priya.tanaka@clearpath.com",
+  "tids": [
+   "t52",
+   "t53",
+   "t60",
+   "t10",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 83,
+  "end": 108,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 109,
+  "end": 146,
+  "text": "Date: Sun, 20 Apr 2025 16:15:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 148,
+  "end": 156,
+  "text": "Hi Maya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 158,
+  "end": 235,
+  "text": "The refund request was initiated by Priya Tanaka on 20 March 2025, 11:00 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 236,
+  "end": 304,
+  "text": "On 8 April 2025, 13:45 UTC, Priya Tanaka initiated the audit review.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 305,
+  "end": 381,
+  "text": "On 20 April 2025, 14:15 UTC, Victor Okafor initiated the contract amendment.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47",
+   "t4"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 382,
+  "end": 442,
+  "text": "Priya Tanaka was involved in the contract amendment as well.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_2",
+   "event_6"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 444,
+  "end": 451,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 452,
+  "end": 458,
+  "text": "Victor",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 127,
+  "text": "Victor Okafor is employed by Bluegate Services Inc.; their email is vokafor@bluegate.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t61",
+   "t62",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 128,
+  "end": 217,
+  "text": "Maya Abara is employed by Bluegate Services Inc.; their email is maya.abara@bluegate.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t63",
+   "t64",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 314,
+  "text": "Priya Tanaka is employed by Clearpath Industrial Co.; their email is priya.tanaka@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t65",
+   "t66",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 316,
+  "end": 394,
+  "text": "Bluegate Services Inc. is based at 8992 Riverside Boulevard, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 396,
+  "end": 444,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 26,
+  "text": "From: vokafor@bluegate.com",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 27,
+  "end": 57,
+  "text": "To: priya.tanaka@clearpath.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 58,
+  "end": 94,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Sat, 12 Apr 2025 11:00:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 134,
+  "end": 143,
+  "text": "Hi Priya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 145,
+  "end": 230,
+  "text": "The invoice submission was initiated by Victor Okafor on March 30, 2025 at 12:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 231,
+  "end": 302,
+  "text": "The invoice submission took place at the Bluegate Services Inc. office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 303,
+  "end": 387,
+  "text": "The expense reimbursement was initiated by Priya Tanaka on 12 April 2025, 09:00 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 389,
+  "end": 396,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 397,
+  "end": 403,
+  "text": "Victor",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 87,
+  "text": "Bluegate Services Inc. holds account 7881972299 at Union Ledger Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t67",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 88,
+  "end": 163,
+  "text": "Account 9822282470 at Union Ledger Bank belongs to Clearpath Industrial Co.",
+  "tids": [
+   "t25",
+   "t26",
+   "t68",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 165,
+  "end": 243,
+  "text": "Priya Tanaka started the account reconciliation on April 4, 2025 at 09:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 244,
+  "end": 315,
+  "text": "On April 19, 2025 at 15:25 UTC, Maya Abara initiated the wire transfer.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 316,
+  "end": 379,
+  "text": "Victor Okafor had been in contact with Priya Tanaka throughout.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_0",
+   "person_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 381,
+  "end": 429,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D3.S1] From: rmendes@harborline.com
+[D3.S2] To: divanova@westmark.com, fwhitfield@harborline.com
+[D3.S3] Subject: Urgent: payment timing
+[D3.S4] Date: Sun, 14 Sep 2025 13:10:00 +0000
+
+[D3.S5] Hi Desmond,
+
+[D3.S6] The vendor onboarding was initiated by Desmond Ivanova on 14 September 2025, 11:10 UTC. [D3.S7] Felix Whitfield also took part in the vendor onboarding. [D3.S8] The vendor onboarding happened at Harborline Distribution Co.'s office.
+
+[D3.S9] Thanks,
+[D3.S10] Rosa

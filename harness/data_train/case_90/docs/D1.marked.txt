@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Maya Okafor works for Westmark Components Co. and uses the address mokafor@westmark.com. [D1.S3] Felix Haddad is employed by Westmark Components Co.; their email is felix.haddad@westmark.com. [D1.S4] Nadia Holloway works for Westmark Components Co. and uses the address nholloway@westmark.com. [D1.S5] Kofi Novak is employed by Copperfield Components Group; their email is kofi.novak@copperfield.com.
+
+[D1.S6] The offices of Westmark Components Co. are at 2355 Maple Avenue, Raleigh, NC 27601.
+
+[D1.S7] Union Ledger Bank account 2008552001 is registered to Westmark Components Co. [D1.S8] Account 6897017292 at Union Ledger Bank belongs to Copperfield Components Group. [D1.S9] Nadia Holloway holds account 4914145726 at Union Ledger Bank.
+
+[D1.S10] This summary reflects records available to date.

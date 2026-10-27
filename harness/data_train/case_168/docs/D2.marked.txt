@@ -1,0 +1,11 @@
+[D2.S1] From: samuel.holloway@ironleaf.com
+[D2.S2] To: sdelgado@ironleaf.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Fri, 07 Mar 2025 15:30:00 +0000
+
+[D2.S5] Hi Sofia,
+
+[D2.S6] On 14 February 2025, 13:50 UTC, Wesley Quinn initiated the payment approval. [D2.S7] Wesley Quinn started the bank detail change on February 21, 2025 at 12:30 UTC. [D2.S8] Samuel Holloway started the account reconciliation on 2 March 2025, 10:00 UTC. [D2.S9] Oscar Okafor started the vendor onboarding on March 7, 2025 at 13:30 UTC.
+
+[D2.S10] Thanks,
+[D2.S11] Samuel

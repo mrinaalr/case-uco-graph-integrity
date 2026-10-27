@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Cedar Ridge Services LLC employs Hannah Mendes, who can be reached at hannah.mendes@cedarridge.com. [D1.S3] Felix Osei is employed by Cedar Ridge Services LLC; their email is felix.osei@cedarridge.com. [D1.S4] Cedar Ridge Services LLC employs Owen Moreau, who can be reached at owen.moreau@cedarridge.com. [D1.S5] Mei Brennan works for Copperfield Tooling Inc. and uses the address mei.brennan@copperfield.com.
+
+[D1.S6] The offices of Cedar Ridge Services LLC are at 9370 Elm Street, Omaha, NE 68102. [D1.S7] The offices of Copperfield Tooling Inc. are at 9527 Lakeview Road, Tucson, AZ 85701.
+
+[D1.S8] Union Ledger Bank account 1263138163 is registered to Cedar Ridge Services LLC. [D1.S9] Copperfield Tooling Inc. holds account 3730899335 at Union Ledger Bank. [D1.S10] Felix Osei holds account 1784977869 at Union Ledger Bank.
+
+[D1.S11] Let me know if anything here looks off.

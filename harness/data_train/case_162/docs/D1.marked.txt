@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Samuel Castillo is employed by Copperfield Packaging Inc.; their email is samuel.castillo@copperfield.com. [D1.S3] Owen Reyes is employed by Copperfield Packaging Inc.; their email is oreyes@copperfield.com. [D1.S4] Copperfield Packaging Inc. employs Elena Banerjee, who can be reached at elena.banerjee@copperfield.com. [D1.S5] Nadia Mendes is employed by Bluegate Industrial LLC; their email is nmendes@bluegate.com.
+
+[D1.S6] Copperfield Packaging Inc. is based at 1062 Lakeview Road, Tucson, AZ 85701. [D1.S7] Bluegate Industrial LLC operates from 7793 Lakeview Road, Madison, WI 53703.
+
+[D1.S8] Account 7709006838 at Meridian Trust Bank belongs to Copperfield Packaging Inc. [D1.S9] Account 3526845417 at Meridian Trust Bank belongs to Bluegate Industrial LLC.
+
+[D1.S10] Funds moved from account 7709006838 to account 3526845417.
+
+[D1.S11] Let me know if anything here looks off.

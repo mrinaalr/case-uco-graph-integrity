@@ -1,0 +1,360 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 140,
+  "text": "Owen Kowalski is employed by Stonebridge Distribution Group; their email is okowalski@stonebridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t53",
+   "t54",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 141,
+  "end": 243,
+  "text": "Rosa Mendes works for Stonebridge Distribution Group and uses the address rosa.mendes@stonebridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t55",
+   "t56",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 244,
+  "end": 344,
+  "text": "Luca Brennan is employed by Stonebridge Distribution Group; their email is lbrennan@stonebridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t57",
+   "t58",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 345,
+  "end": 441,
+  "text": "Victor Vance works for Northwind Packaging Inc. and uses the address victor.vance@northwind.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t59",
+   "t60",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 443,
+  "end": 482,
+  "text": "Rosa Mendes's manager is Owen Kowalski.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 484,
+  "end": 573,
+  "text": "The offices of Stonebridge Distribution Group are at 8313 Elm Street, Richmond, VA 23219.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 575,
+  "end": 623,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: lbrennan@stonebridge.com",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 61,
+  "text": "To: victor.vance@northwind.com",
+  "tids": [
+   "t50",
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 62,
+  "end": 98,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 99,
+  "end": 136,
+  "text": "Date: Sat, 23 Aug 2025 13:50:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 138,
+  "end": 148,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 150,
+  "end": 222,
+  "text": "On 14 August 2025, 12:45 UTC, Luca Brennan initiated the refund request.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 223,
+  "end": 307,
+  "text": "On August 23, 2025 at 11:50 UTC, Owen Kowalski initiated the account reconciliation.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 308,
+  "end": 387,
+  "text": "The account reconciliation happened at Stonebridge Distribution Group's office.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 389,
+  "end": 396,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 397,
+  "end": 401,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 111,
+  "text": "Account 3573504094 at Granite Federal Credit Union belongs to Stonebridge Distribution Group.",
+  "tids": [
+   "t26",
+   "t27",
+   "t62",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 112,
+  "end": 194,
+  "text": "Northwind Packaging Inc. holds account 5359033916 at Granite Federal Credit Union.",
+  "tids": [
+   "t29",
+   "t30",
+   "t63",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 195,
+  "end": 273,
+  "text": "Granite Federal Credit Union account 2388540717 is registered to Luca Brennan.",
+  "tids": [
+   "t32",
+   "t33",
+   "t64",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 275,
+  "end": 352,
+  "text": "On 21 August 2025, 12:25 UTC, Owen Kowalski initiated the contract amendment.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 353,
+  "end": 413,
+  "text": "Victor Vance was involved in the contract amendment as well.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 414,
+  "end": 495,
+  "text": "The bank detail change was initiated by Rosa Mendes on 23 August 2025, 13:45 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 497,
+  "end": 545,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

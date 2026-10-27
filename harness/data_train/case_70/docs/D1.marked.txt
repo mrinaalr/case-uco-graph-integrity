@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Irene Vance is employed by Westmark Supply Co.; their email is ivance@westmark.com. [D1.S3] Priya Ivanova works for Westmark Supply Co. and uses the address priya.ivanova@westmark.com. [D1.S4] Felix Abara works for Clearpath Supply Co. and uses the address fabara@clearpath.com.
+
+[D1.S5] Westmark Supply Co. operates from 3291 Market Street, Richmond, VA 23219. [D1.S6] Clearpath Supply Co. is based at 3870 Main Street, Madison, WI 53703.
+
+[D1.S7] Westmark Supply Co. holds account 9316384119 at Granite Federal Credit Union. [D1.S8] Granite Federal Credit Union account 6893854038 is registered to Clearpath Supply Co. [D1.S9] Priya Ivanova holds account 3480085333 at Granite Federal Credit Union.
+
+[D1.S10] Account 9316384119 sent a transfer to account 3480085333. [D1.S11] Felix Abara had been in contact with Priya Ivanova throughout.
+
+[D1.S12] More detail will follow once records are pulled.

@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Summit Peak Services Ltd. employs Marcus Osei, who can be reached at marcus.osei@summitpeak.com. [D1.S3] Summit Peak Services Ltd. employs Kofi Moreau, who can be reached at kmoreau@summitpeak.com. [D1.S4] Samuel Sorensen works for Summit Peak Services Ltd. and uses the address samuel.sorensen@summitpeak.com. [D1.S5] Redfern Consulting Ltd. employs Dana Fischer, who can be reached at dana.fischer@redfern.com.
+
+[D1.S6] Summit Peak Services Ltd. is based at 2575 Commerce Drive, Richmond, VA 23219.
+
+[D1.S7] Account 4879614920 at First Harbor Bank belongs to Summit Peak Services Ltd. [D1.S8] Account 9749778424 at First Harbor Bank belongs to Redfern Consulting Ltd. [D1.S9] First Harbor Bank account 4675198061 is registered to Kofi Moreau.
+
+[D1.S10] Account 4879614920 sent a transfer to account 4675198061.
+
+[D1.S11] Let me know if anything here looks off.

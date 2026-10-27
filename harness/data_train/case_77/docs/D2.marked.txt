@@ -1,0 +1,11 @@
+[D2.S1] From: samuel.mendes@redfern.com
+[D2.S2] To: clara.sorensen@redfern.com, victor.abara@redfern.com
+[D2.S3] Subject: Invoice 8099 follow-up
+[D2.S4] Date: Fri, 15 Aug 2025 18:50:00 +0000
+
+[D2.S5] Hi Clara,
+
+[D2.S6] On July 23, 2025 at 14:45 UTC, Victor Abara initiated the audit review. [D2.S7] Clara Sorensen started the invoice submission on July 25, 2025 at 09:15 UTC. [D2.S8] Victor Abara also took part in the invoice submission. [D2.S9] On 25 July 2025, 16:30 UTC, Desmond Ivanova initiated the contract amendment. [D2.S10] On July 28, 2025 at 13:10 UTC, Desmond Ivanova initiated the vendor onboarding. [D2.S11] Samuel Mendes also took part in the vendor onboarding. [D2.S12] The wire transfer was initiated by Samuel Mendes on August 9, 2025 at 10:50 UTC. [D2.S13] On August 15, 2025 at 16:50 UTC, Samuel Mendes initiated the bank detail change.
+
+[D2.S14] Thanks,
+[D2.S15] Samuel

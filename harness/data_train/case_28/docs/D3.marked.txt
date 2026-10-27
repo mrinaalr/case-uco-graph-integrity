@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @yarac is Yara Castillo.
+[D3.S3] @oscari is Oscar Ivanova.
+[D3.S4] [2025-01-23 10:10 UTC] @yarac to @oscari: I pushed it through, check your inbox.
+[D3.S5] [2025-01-23 10:17 UTC] @oscari to @yarac: Let's keep this between us until Friday.
+[D3.S6] [2025-01-23 10:24 UTC] @yarac to @oscari: Did the bank call back yet?

@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Yara Mendes works for Westmark Industrial Inc. and uses the address yara.mendes@westmark.com. [D1.S3] Westmark Industrial Inc. employs Julian Sorensen, who can be reached at julian.sorensen@westmark.com. [D1.S4] Westmark Industrial Inc. employs Owen Abara, who can be reached at owen.abara@westmark.com. [D1.S5] Nadia Okafor works for Copperfield Analytics Inc. and uses the address nokafor@copperfield.com. [D1.S6] Copperfield Analytics Inc. employs Clara Lindqvist, who can be reached at clara.lindqvist@copperfield.com.
+
+[D1.S7] The offices of Westmark Industrial Inc. are at 9013 Main Street, Omaha, NE 68102.
+
+[D1.S8] Account 8639218453 at First Harbor Bank belongs to Westmark Industrial Inc. [D1.S9] Copperfield Analytics Inc. holds account 1270877455 at First Harbor Bank. [D1.S10] Account 2023441192 at First Harbor Bank belongs to Yara Mendes.
+
+[D1.S11] This summary reflects records available to date.

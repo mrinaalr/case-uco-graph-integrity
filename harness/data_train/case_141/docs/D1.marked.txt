@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Felix Quinn works for Northwind Fabrication Inc. and uses the address felix.quinn@northwind.com. [D1.S3] Yara Banerjee works for Northwind Fabrication Inc. and uses the address yara.banerjee@northwind.com. [D1.S4] Elena Holloway is employed by Northwind Fabrication Inc.; their email is eholloway@northwind.com. [D1.S5] Ironleaf Freight Co. employs Arjun Abara, who can be reached at aabara@ironleaf.com.
+
+[D1.S6] Northwind Fabrication Inc. operates from 198 Commerce Drive, Boise, ID 83702. [D1.S7] Ironleaf Freight Co. is based at 8503 Industrial Parkway, Madison, WI 53703.
+
+[D1.S8] More detail will follow once records are pulled.

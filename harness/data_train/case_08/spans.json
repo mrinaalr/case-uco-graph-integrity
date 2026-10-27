@@ -1,0 +1,308 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 133,
+  "text": "Irene Petrov works for Stonebridge Logistics Ltd. and uses the address ipetrov@stonebridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t50",
+   "t51",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 134,
+  "end": 228,
+  "text": "Owen Tanaka is employed by Stonebridge Logistics Ltd.; their email is otanaka@stonebridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t52",
+   "t53",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 229,
+  "end": 333,
+  "text": "Stonebridge Logistics Ltd. employs Priya Ashworth, who can be reached at priya.ashworth@stonebridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t54",
+   "t55",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 334,
+  "end": 433,
+  "text": "Tomas Sorensen is employed by Summit Peak Analytics Group; their email is tsorensen@summitpeak.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t56",
+   "t57",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 434,
+  "end": 536,
+  "text": "Marcus Lindqvist is employed by Summit Peak Analytics Group; their email is mlindqvist@summitpeak.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t58",
+   "t59",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 538,
+  "end": 619,
+  "text": "Stonebridge Logistics Ltd. is based at 7783 Riverside Boulevard, Boise, ID 83702.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 621,
+  "end": 694,
+  "text": "Stonebridge Logistics Ltd. holds account 1744807959 at First Harbor Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t60",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 695,
+  "end": 769,
+  "text": "Summit Peak Analytics Group holds account 4994146161 at First Harbor Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t61",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 771,
+  "end": 819,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: otanaka@stonebridge.com",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 89,
+  "text": "To: ipetrov@stonebridge.com, priya.ashworth@stonebridge.com",
+  "tids": [
+   "t46",
+   "t47",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 130,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 131,
+  "end": 168,
+  "text": "Date: Thu, 28 Aug 2025 11:50:00 +0000",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 170,
+  "end": 179,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 181,
+  "end": 255,
+  "text": "On 5 August 2025, 10:15 UTC, Owen Tanaka initiated the contract amendment.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 256,
+  "end": 336,
+  "text": "The vendor onboarding was initiated by Owen Tanaka on 21 August 2025, 09:45 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 337,
+  "end": 413,
+  "text": "On 28 August 2025, 09:50 UTC, Priya Ashworth initiated the payment approval.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 414,
+  "end": 470,
+  "text": "Approval for the payment approval came from Owen Tanaka.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 472,
+  "end": 479,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 480,
+  "end": 484,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ }
+}

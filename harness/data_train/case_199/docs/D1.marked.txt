@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Grace Okafor is employed by Brightwater Supply Ltd.; their email is gokafor@brightwater.com. [D1.S3] Lena Osei is employed by Brightwater Supply Ltd.; their email is lena.osei@brightwater.com. [D1.S4] Brightwater Supply Ltd. employs Desmond Moreau, who can be reached at desmond.moreau@brightwater.com. [D1.S5] Clara Reyes works for Summit Peak Services Co. and uses the address clara.reyes@summitpeak.com. [D1.S6] Priya Quinn works for Summit Peak Services Co. and uses the address priya.quinn@summitpeak.com.
+
+[D1.S7] Lena Osei reports to Grace Okafor.
+
+[D1.S8] Brightwater Supply Ltd. is based at 8760 Main Street, Boise, ID 83702.
+
+[D1.S9] This summary reflects records available to date.

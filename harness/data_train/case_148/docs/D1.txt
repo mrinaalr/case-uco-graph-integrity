@@ -1,0 +1,13 @@
+INTERNAL MEMO: Vendor payment review
+
+Yara Fischer works for Copperfield Consulting Co. and uses the address yfischer@copperfield.com. Desmond Osei works for Copperfield Consulting Co. and uses the address dosei@copperfield.com. Silverlake Analytics Group employs Irene Sorensen, who can be reached at irene.sorensen@silverlake.com.
+
+Desmond Osei reports to Yara Fischer.
+
+Copperfield Consulting Co. operates from 6817 Harbor Avenue, Dayton, OH 45402. The offices of Silverlake Analytics Group are at 4428 Lakeview Road, Boise, ID 83702.
+
+Account 7839703654 at Lakeshore Savings Bank belongs to Copperfield Consulting Co. Lakeshore Savings Bank account 2507590631 is registered to Silverlake Analytics Group.
+
+Account 7839703654 sent a transfer to account 2507590631.
+
+More detail will follow once records are pulled.

@@ -1,0 +1,353 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 128,
+  "text": "Kofi Abara is employed by Oakhaven Packaging Ltd.; their email is kofi.abara@oakhaven.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t57",
+   "t58",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 227,
+  "text": "Sofia Holloway works for Oakhaven Packaging Ltd. and uses the address sofia.holloway@oakhaven.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t59",
+   "t60",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 314,
+  "text": "Rosa Quinn is employed by Oakhaven Packaging Ltd.; their email is rquinn@oakhaven.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t61",
+   "t62",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 315,
+  "end": 406,
+  "text": "Andre Castillo works for Westmark Freight Ltd. and uses the address acastillo@westmark.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t63",
+   "t64",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 408,
+  "end": 491,
+  "text": "The offices of Oakhaven Packaging Ltd. are at 4623 Lakeview Road, Albany, NY 12207.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 493,
+  "end": 541,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: sofia.holloway@oakhaven.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 81,
+  "text": "To: acastillo@westmark.com, rquinn@oakhaven.com",
+  "tids": [
+   "t53",
+   "t54",
+   "t65",
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 82,
+  "end": 118,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 119,
+  "end": 156,
+  "text": "Date: Sun, 02 Nov 2025 12:30:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 158,
+  "end": 167,
+  "text": "Hi Andre,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 169,
+  "end": 246,
+  "text": "On 3 October 2025, 12:15 UTC, Sofia Holloway initiated the vendor onboarding.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 247,
+  "end": 321,
+  "text": "On 19 October 2025, 13:30 UTC, Andre Castillo initiated the wire transfer.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 322,
+  "end": 403,
+  "text": "The contract amendment was initiated by Rosa Quinn on 2 November 2025, 10:30 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 405,
+  "end": 412,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 413,
+  "end": 418,
+  "text": "Sofia",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 88,
+  "text": "Oakhaven Packaging Ltd. holds account 4161588493 at First Harbor Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t67",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 89,
+  "end": 161,
+  "text": "Account 3491716875 at First Harbor Bank belongs to Westmark Freight Ltd.",
+  "tids": [
+   "t29",
+   "t30",
+   "t68",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 162,
+  "end": 219,
+  "text": "Rosa Quinn holds account 9140624390 at First Harbor Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t69",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 221,
+  "end": 304,
+  "text": "Sofia Holloway started the account reconciliation on October 16, 2025 at 15:15 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 305,
+  "end": 384,
+  "text": "On 1 November 2025, 10:15 UTC, Sofia Holloway initiated the bank detail change.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 385,
+  "end": 454,
+  "text": "Kofi Abara started the audit review on November 6, 2025 at 10:15 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 456,
+  "end": 490,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

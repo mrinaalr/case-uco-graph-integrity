@@ -1,0 +1,424 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 127,
+  "text": "Hannah Okafor is employed by Bluegate Analytics Co.; their email is hokafor@bluegate.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 128,
+  "end": 221,
+  "text": "Victor Quinn works for Bluegate Analytics Co. and uses the address victor.quinn@bluegate.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t68",
+   "t69",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 313,
+  "text": "Yara Holloway works for Bluegate Analytics Co. and uses the address yholloway@bluegate.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t70",
+   "t71",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 314,
+  "end": 399,
+  "text": "Samuel Park works for Redfern Industrial Ltd. and uses the address spark@redfern.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 400,
+  "end": 495,
+  "text": "Clara Brennan is employed by Redfern Industrial Ltd.; their email is clara.brennan@redfern.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t75",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 497,
+  "end": 572,
+  "text": "Bluegate Analytics Co. operates from 7857 Commerce Drive, Tucson, AZ 85701.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 574,
+  "end": 622,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: yholloway@bluegate.com",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 50,
+  "text": "To: spark@redfern.com",
+  "tids": [
+   "t63",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 51,
+  "end": 84,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 85,
+  "end": 122,
+  "text": "Date: Sun, 20 Jul 2025 13:45:00 +0000",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 124,
+  "end": 134,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 218,
+  "text": "The expense reimbursement was initiated by Samuel Park on 21 June 2025, 12:50 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 219,
+  "end": 283,
+  "text": "Yara Holloway was involved in the expense reimbursement as well.",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 284,
+  "end": 350,
+  "text": "Hannah Okafor started the audit review on 25 June 2025, 17:00 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 351,
+  "end": 423,
+  "text": "Samuel Park started the vendor onboarding on July 14, 2025 at 11:00 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 424,
+  "end": 500,
+  "text": "On July 20, 2025 at 11:45 UTC, Yara Holloway initiated the payment approval.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 501,
+  "end": 558,
+  "text": "Approval for the payment approval came from Victor Quinn.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_1",
+   "event_6"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 559,
+  "end": 618,
+  "text": "Hannah Okafor was involved in the payment approval as well.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "person_0",
+   "event_6"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 620,
+  "end": 627,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 628,
+  "end": 632,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 96,
+  "text": "Account 8282340975 at Lakeshore Savings Bank belongs to Bluegate Analytics Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t77",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 97,
+  "end": 176,
+  "text": "Account 8230954224 at Lakeshore Savings Bank belongs to Redfern Industrial Ltd.",
+  "tids": [
+   "t33",
+   "t34",
+   "t78",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 177,
+  "end": 246,
+  "text": "Account 9320045866 at Lakeshore Savings Bank belongs to Victor Quinn.",
+  "tids": [
+   "t36",
+   "t37",
+   "t79",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 248,
+  "end": 332,
+  "text": "The contract amendment was initiated by Yara Holloway on June 23, 2025 at 17:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 333,
+  "end": 403,
+  "text": "On July 8, 2025 at 13:25 UTC, Samuel Park initiated the wire transfer.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 404,
+  "end": 489,
+  "text": "The account reconciliation was initiated by Clara Brennan on 17 July 2025, 15:50 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_4"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 491,
+  "end": 539,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

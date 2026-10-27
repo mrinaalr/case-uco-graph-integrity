@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Nadia Holloway is employed by Summit Peak Consulting Co.; their email is nholloway@summitpeak.com. [D1.S3] Yara Park works for Summit Peak Consulting Co. and uses the address ypark@summitpeak.com. [D1.S4] Redfern Analytics LLC employs Andre Ashworth, who can be reached at aashworth@redfern.com.
+
+[D1.S5] Yara Park's manager is Nadia Holloway.
+
+[D1.S6] Summit Peak Consulting Co. operates from 6483 Commerce Drive, Richmond, VA 23219. [D1.S7] The offices of Redfern Analytics LLC are at 8116 Maple Avenue, Boise, ID 83702.
+
+[D1.S8] Yara Park had been in contact with Andre Ashworth throughout.
+
+[D1.S9] This summary reflects records available to date.

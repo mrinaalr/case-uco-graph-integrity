@@ -1,0 +1,11 @@
+[D3.S1] From: iquinn@ironleaf.com
+[D3.S2] To: hector.okafor@copperfield.com
+[D3.S3] Subject: Audit prep items
+[D3.S4] Date: Sun, 09 Nov 2025 14:25:00 +0000
+
+[D3.S5] Hi Hector,
+
+[D3.S6] The vendor onboarding was initiated by Hector Okafor on 17 October 2025, 10:50 UTC. [D3.S7] Irene Quinn started the expense reimbursement on 9 November 2025, 12:25 UTC.
+
+[D3.S8] Thanks,
+[D3.S9] Irene

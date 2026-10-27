@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @owenb is Owen Banerjee.
+[D3.S3] @claraw is Clara Whitfield.
+[D3.S4] [2025-10-21 15:50 UTC] @owenb to @claraw: I pushed it through, check your inbox.
+[D3.S5] [2025-10-21 15:57 UTC] @claraw to @owenb: Let's keep this between us until Friday.
+[D3.S6] [2025-10-21 16:04 UTC] @owenb to @claraw: Did the bank call back yet?

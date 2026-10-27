@@ -1,0 +1,11 @@
+[D2.S1] From: evance@summitpeak.com
+[D2.S2] To: yabara@copperfield.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Wed, 12 Mar 2025 14:25:00 +0000
+
+[D2.S5] Hi Yara,
+
+[D2.S6] Dana Whitfield started the wire transfer on 15 February 2025, 15:00 UTC. [D2.S7] On March 6, 2025 at 14:00 UTC, Dana Whitfield initiated the invoice submission. [D2.S8] On 10 March 2025, 13:25 UTC, Elena Vance initiated the contract amendment. [D2.S9] On 12 March 2025, 12:25 UTC, Yara Abara initiated the vendor onboarding.
+
+[D2.S10] Thanks,
+[D2.S11] Elena

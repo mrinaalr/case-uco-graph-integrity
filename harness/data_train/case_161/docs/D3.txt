@@ -1,0 +1,11 @@
+From: yara.novak@clearpath.com
+To: hector.banerjee@harborline.com, rvance@harborline.com
+Subject: Wire confirmation needed
+Date: Fri, 08 Aug 2025 18:50:00 +0000
+
+Hi Hector,
+
+Rosa Vance started the payment approval on July 19, 2025 at 09:50 UTC. On August 3, 2025 at 13:30 UTC, Rosa Vance initiated the account reconciliation. The wire transfer was initiated by Elena Petrov on August 8, 2025 at 16:50 UTC.
+
+Thanks,
+Yara

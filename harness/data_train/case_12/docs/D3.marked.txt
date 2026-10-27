@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @mayal is Maya Lindqvist.
+[D3.S3] @oscarh is Oscar Holloway.
+[D3.S4] [2025-07-17 10:25 UTC] @mayal to @oscarh: Finance is asking questions again.
+[D3.S5] [2025-07-17 10:32 UTC] @oscarh to @mayal: I pushed it through, check your inbox.

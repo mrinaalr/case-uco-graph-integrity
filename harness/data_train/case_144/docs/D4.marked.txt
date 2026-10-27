@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Cedar Ridge Fabrication Inc. holds account 1261673763 at Granite Federal Credit Union. [D4.S3] Account 7528556502 at Granite Federal Credit Union belongs to Oakhaven Supply Ltd.
+
+[D4.S4] On 22 January 2025, 14:45 UTC, Oscar Delgado initiated the account reconciliation. [D4.S5] The account reconciliation happened at Cedar Ridge Fabrication Inc.'s office. [D4.S6] Yara Brennan started the wire transfer on 25 January 2025, 13:50 UTC. [D4.S7] On 25 February 2025, 14:00 UTC, Oscar Delgado initiated the refund request. [D4.S8] Andre Reyes also took part in the refund request.
+
+[D4.S9] Please treat this as confidential.

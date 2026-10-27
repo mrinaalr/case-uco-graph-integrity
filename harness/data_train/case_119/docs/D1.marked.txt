@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Grace Petrov is employed by Harborline Components Co.; their email is gpetrov@harborline.com. [D1.S3] Felix Moreau works for Harborline Components Co. and uses the address fmoreau@harborline.com. [D1.S4] Owen Osei works for Harborline Components Co. and uses the address oosei@harborline.com. [D1.S5] Samuel Haddad is employed by Brightwater Industrial Group; their email is shaddad@brightwater.com.
+
+[D1.S6] The offices of Harborline Components Co. are at 190 Industrial Parkway, Raleigh, NC 27601.
+
+[D1.S7] Grace Petrov communicated with Owen Osei about the payments.
+
+[D1.S8] This summary reflects records available to date.

@@ -1,0 +1,11 @@
+[D3.S1] From: ekowalski@oakhaven.com
+[D3.S2] To: grace.park@silverlake.com
+[D3.S3] Subject: Re: banking change request
+[D3.S4] Date: Thu, 27 Feb 2025 14:30:00 +0000
+
+[D3.S5] Hi Grace,
+
+[D3.S6] The refund request was initiated by Grace Park on February 27, 2025 at 12:30 UTC.
+
+[D3.S7] Thanks,
+[D3.S8] Elena

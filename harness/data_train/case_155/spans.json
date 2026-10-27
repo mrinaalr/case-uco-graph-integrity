@@ -1,0 +1,400 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 134,
+  "text": "Cedar Ridge Services Ltd. employs Dana Mendes, who can be reached at dana.mendes@cedarridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 228,
+  "text": "Cedar Ridge Services Ltd. employs Grace Okafor, who can be reached at gokafor@cedarridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t68",
+   "t69",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 229,
+  "end": 319,
+  "text": "Lena Quinn is employed by Cedar Ridge Services Ltd.; their email is lquinn@cedarridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t70",
+   "t71",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 320,
+  "end": 417,
+  "text": "Owen Banerjee is employed by Harborline Fabrication LLC; their email is obanerjee@harborline.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 418,
+  "end": 511,
+  "text": "Victor Reyes is employed by Harborline Fabrication LLC; their email is vreyes@harborline.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t75",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 513,
+  "end": 588,
+  "text": "Cedar Ridge Services Ltd. is based at 3404 Commerce Drive, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 589,
+  "end": 675,
+  "text": "The offices of Harborline Fabrication LLC are at 9739 Lakeview Road, Albany, NY 12207.",
+  "tids": [
+   "t55",
+   "t51",
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 677,
+  "end": 758,
+  "text": "Meridian Trust Bank account 9582230195 is registered to Cedar Ridge Services Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t76",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 759,
+  "end": 834,
+  "text": "Harborline Fabrication LLC holds account 6726436617 at Meridian Trust Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t77",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 835,
+  "end": 902,
+  "text": "Meridian Trust Bank account 4364159216 is registered to Lena Quinn.",
+  "tids": [
+   "t36",
+   "t37",
+   "t78",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 904,
+  "end": 952,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: vreyes@harborline.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 79,
+  "text": "To: obanerjee@harborline.com, lquinn@cedarridge.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t79",
+   "t80"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 80,
+  "end": 115,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 116,
+  "end": 153,
+  "text": "Date: Sat, 29 Mar 2025 13:30:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 155,
+  "end": 163,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 165,
+  "end": 242,
+  "text": "Lena Quinn started the account reconciliation on March 25, 2025 at 09:25 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 243,
+  "end": 302,
+  "text": "Owen Banerjee also took part in the account reconciliation.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_3",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 303,
+  "end": 379,
+  "text": "On 26 March 2025, 11:30 UTC, Owen Banerjee initiated the invoice submission.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 380,
+  "end": 448,
+  "text": "Grace Okafor started the refund request on 29 March 2025, 11:30 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 450,
+  "end": 457,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 458,
+  "end": 464,
+  "text": "Victor",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t81"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@owenb is Owen Banerjee.",
+  "tids": [
+   "t48",
+   "t47"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 76,
+  "text": "@victorr is Victor Reyes.",
+  "tids": [
+   "t50",
+   "t49"
+  ],
+  "mentions": [
+   "handle_person_4",
+   "person_4"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 77,
+  "end": 147,
+  "text": "[2025-03-25 10:25 UTC] @owenb to @victorr: Did the bank call back yet?",
+  "tids": [
+   "t62",
+   "t63",
+   "t64",
+   "t65",
+   "t82"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_4"
+  ]
+ }
+}

@@ -1,0 +1,424 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 125,
+  "text": "Mei Vance is employed by Clearpath Analytics Ltd.; their email is mvance@clearpath.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t60",
+   "t61",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 126,
+  "end": 218,
+  "text": "Clearpath Analytics Ltd. employs Lena Ivanova, who can be reached at livanova@clearpath.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t62",
+   "t63",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 219,
+  "end": 314,
+  "text": "Clearpath Analytics Ltd. employs Clara Ashworth, who can be reached at cashworth@clearpath.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t64",
+   "t65",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 315,
+  "end": 405,
+  "text": "Kofi Reyes works for Oakhaven Packaging Ltd. and uses the address kofi.reyes@oakhaven.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t66",
+   "t67",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 407,
+  "end": 443,
+  "text": "Lena Ivanova's manager is Mei Vance.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 444,
+  "end": 482,
+  "text": "Clara Ashworth's manager is Mei Vance.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 484,
+  "end": 568,
+  "text": "The offices of Clearpath Analytics Ltd. are at 4564 Market Street, Tucson, AZ 85701.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 569,
+  "end": 639,
+  "text": "Oakhaven Packaging Ltd. is based at 7253 Elm Street, Albany, NY 12207.",
+  "tids": [
+   "t52",
+   "t48",
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 641,
+  "end": 727,
+  "text": "Account 4387741515 at Granite Federal Credit Union belongs to Clearpath Analytics Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t68",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 728,
+  "end": 813,
+  "text": "Account 1275320113 at Granite Federal Credit Union belongs to Oakhaven Packaging Ltd.",
+  "tids": [
+   "t29",
+   "t30",
+   "t69",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 815,
+  "end": 873,
+  "text": "Funds moved from account 4387741515 to account 1275320113.",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 875,
+  "end": 909,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: livanova@clearpath.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 81,
+  "text": "To: cashworth@clearpath.com, kofi.reyes@oakhaven.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t70",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 82,
+  "end": 117,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Mon, 31 Mar 2025 19:50:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 157,
+  "end": 166,
+  "text": "Hi Clara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 168,
+  "end": 247,
+  "text": "Lena Ivanova started the account reconciliation on 22 February 2025, 14:50 UTC.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 248,
+  "end": 308,
+  "text": "Clara Ashworth also took part in the account reconciliation.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 309,
+  "end": 386,
+  "text": "The account reconciliation took place at the Clearpath Analytics Ltd. office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 387,
+  "end": 456,
+  "text": "On March 28, 2025 at 16:45 UTC, Mei Vance initiated the audit review.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 457,
+  "end": 503,
+  "text": "Kofi Reyes also took part in the audit review.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 504,
+  "end": 581,
+  "text": "On 31 March 2025, 17:50 UTC, Clara Ashworth initiated the bank detail change.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 582,
+  "end": 627,
+  "text": "Kofi Reyes authorized the bank detail change.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "person_3",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 628,
+  "end": 682,
+  "text": "Lena Ivanova also took part in the bank detail change.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 683,
+  "end": 752,
+  "text": "The bank detail change happened at Clearpath Analytics Ltd.'s office.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 753,
+  "end": 818,
+  "text": "Clara Ashworth communicated with Lena Ivanova about the payments.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 820,
+  "end": 827,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 828,
+  "end": 832,
+  "text": "Lena",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,407 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: hreyes@brightwater.com",
+  "tids": [
+   "t46",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 80,
+  "text": "To: ecastillo@cedarridge.com, kosei@brightwater.com",
+  "tids": [
+   "t47",
+   "t48",
+   "t56",
+   "t57",
+   "t7",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 81,
+  "end": 117,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Thu, 13 Mar 2025 15:00:00 +0000",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 157,
+  "end": 166,
+  "text": "Hi Elena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 168,
+  "end": 245,
+  "text": "The refund request was initiated by Kofi Osei on 11 February 2025, 17:30 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 246,
+  "end": 291,
+  "text": "Elena Castillo authorized the refund request.",
+  "tids": [
+   "t45",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 292,
+  "end": 372,
+  "text": "On 13 March 2025, 13:00 UTC, Elena Castillo initiated the expense reimbursement.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 374,
+  "end": 381,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 382,
+  "end": 388,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 125,
+  "text": "Kofi Osei is employed by Brightwater Freight Co.; their email is kosei@brightwater.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t58",
+   "t59",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 126,
+  "end": 217,
+  "text": "Brightwater Freight Co. employs Hannah Reyes, who can be reached at hreyes@brightwater.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t60",
+   "t61",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 218,
+  "end": 320,
+  "text": "Elena Castillo works for Cedar Ridge Distribution Group and uses the address ecastillo@cedarridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t62",
+   "t63",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 322,
+  "end": 395,
+  "text": "Brightwater Freight Co. is based at 1684 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 397,
+  "end": 445,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: hreyes@brightwater.com",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 80,
+  "text": "To: kosei@brightwater.com, ecastillo@cedarridge.com",
+  "tids": [
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 81,
+  "end": 121,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 122,
+  "end": 159,
+  "text": "Date: Sun, 16 Mar 2025 13:00:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 161,
+  "end": 169,
+  "text": "Hi Kofi,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 171,
+  "end": 255,
+  "text": "On 16 February 2025, 14:50 UTC, Elena Castillo initiated the account reconciliation.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 256,
+  "end": 325,
+  "text": "Hannah Reyes started the audit review on March 16, 2025 at 11:00 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 327,
+  "end": 334,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 335,
+  "end": 341,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 95,
+  "text": "Union Ledger Bank account 7801690059 is registered to Brightwater Freight Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t64",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 96,
+  "end": 178,
+  "text": "Account 2037012935 at Union Ledger Bank belongs to Cedar Ridge Distribution Group.",
+  "tids": [
+   "t25",
+   "t26",
+   "t65",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 179,
+  "end": 243,
+  "text": "Union Ledger Bank account 5714633077 is registered to Kofi Osei.",
+  "tids": [
+   "t28",
+   "t29",
+   "t66",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 245,
+  "end": 314,
+  "text": "Hannah Reyes started the payment approval on 8 March 2025, 09:15 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 316,
+  "end": 364,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

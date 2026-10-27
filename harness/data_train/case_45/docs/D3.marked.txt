@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] Westmark Fabrication LLC holds account 8953746689 at First Harbor Bank. [D3.S3] First Harbor Bank account 6272094327 is registered to Silverlake Packaging Co.
+
+[D3.S4] The wire transfer was initiated by Dana Park on February 23, 2025 at 17:45 UTC. [D3.S5] On March 7, 2025 at 13:10 UTC, Dana Park initiated the contract amendment. [D3.S6] On March 25, 2025 at 10:15 UTC, Dana Park initiated the bank detail change. [D3.S7] Account 8953746689 sent a transfer to account 6272094327.
+
+[D3.S8] More detail will follow once records are pulled.

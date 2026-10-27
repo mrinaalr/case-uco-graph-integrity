@@ -1,0 +1,11 @@
+[D2.S1] From: rivanova@brightwater.com
+[D2.S2] To: wvance@bluegate.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Sat, 31 May 2025 16:15:00 +0000
+
+[D2.S5] Hi Wesley,
+
+[D2.S6] On May 20, 2025 at 17:00 UTC, Rosa Ivanova initiated the vendor onboarding. [D2.S7] On May 31, 2025 at 14:15 UTC, Kofi Abara initiated the audit review. [D2.S8] Rosa Ivanova also took part in the audit review. [D2.S9] The audit review took place at the Brightwater Tooling Group office.
+
+[D2.S10] Thanks,
+[D2.S11] Rosa

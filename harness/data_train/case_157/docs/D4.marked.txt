@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Account 8721823724 at Lakeshore Savings Bank belongs to Silverlake Logistics Ltd. [D4.S3] Account 9534741227 at Lakeshore Savings Bank belongs to Copperfield Supply LLC. [D4.S4] Lakeshore Savings Bank account 9642399091 is registered to Owen Mendes.
+
+[D4.S5] On 8 August 2025, 14:25 UTC, Nadia Okafor initiated the vendor onboarding. [D4.S6] The refund request was initiated by Owen Mendes on 25 August 2025, 14:45 UTC. [D4.S7] Approval for the refund request came from Nadia Okafor.
+
+[D4.S8] Please treat this as confidential.

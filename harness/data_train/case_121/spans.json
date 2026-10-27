@@ -1,0 +1,438 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 125,
+  "text": "Northwind Supply Ltd. employs Victor Vance, who can be reached at vvance@northwind.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t67",
+   "t68",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 126,
+  "end": 221,
+  "text": "Oscar Ivanova works for Northwind Supply Ltd. and uses the address oscar.ivanova@northwind.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t69",
+   "t70",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 319,
+  "text": "Arjun Castillo is employed by Northwind Supply Ltd.; their email is arjun.castillo@northwind.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t71",
+   "t72",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 320,
+  "end": 420,
+  "text": "Andre Lindqvist works for Harborline Fabrication Co. and uses the address alindqvist@harborline.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t73",
+   "t74",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 421,
+  "end": 520,
+  "text": "Rosa Whitfield works for Harborline Fabrication Co. and uses the address rwhitfield@harborline.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t75",
+   "t76",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 522,
+  "end": 603,
+  "text": "The offices of Northwind Supply Ltd. are at 9587 Market Street, Albany, NY 12207.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 605,
+  "end": 669,
+  "text": "Oscar Ivanova communicated with Victor Vance about the payments.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 671,
+  "end": 719,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: rwhitfield@harborline.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 64,
+  "text": "To: arjun.castillo@northwind.com",
+  "tids": [
+   "t64",
+   "t77"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 65,
+  "end": 105,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 106,
+  "end": 143,
+  "text": "Date: Sat, 01 Feb 2025 15:25:00 +0000",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 145,
+  "end": 154,
+  "text": "Hi Arjun,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 156,
+  "end": 244,
+  "text": "The bank detail change was initiated by Andre Lindqvist on January 9, 2025 at 11:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 245,
+  "end": 301,
+  "text": "Arjun Castillo also took part in the bank detail change.",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 302,
+  "end": 388,
+  "text": "The invoice submission was initiated by Victor Vance on January 14, 2025 at 13:30 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 389,
+  "end": 470,
+  "text": "On 18 January 2025, 13:25 UTC, Victor Vance initiated the account reconciliation.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 471,
+  "end": 550,
+  "text": "On 1 February 2025, 13:25 UTC, Rosa Whitfield initiated the contract amendment.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_4"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 552,
+  "end": 559,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 560,
+  "end": 564,
+  "text": "Rosa",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 91,
+  "text": "Northwind Supply Ltd. holds account 1608377909 at Lakeshore Savings Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t78",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 92,
+  "end": 170,
+  "text": "Harborline Fabrication Co. holds account 5212796131 at Lakeshore Savings Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t79",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 171,
+  "end": 236,
+  "text": "Oscar Ivanova holds account 3422626385 at Lakeshore Savings Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t80",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 238,
+  "end": 309,
+  "text": "Arjun Castillo started the wire transfer on 12 January 2025, 12:15 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 310,
+  "end": 387,
+  "text": "Arjun Castillo started the payment approval on January 18, 2025 at 10:15 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 388,
+  "end": 434,
+  "text": "Oscar Ivanova authorized the payment approval.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 435,
+  "end": 522,
+  "text": "The vendor onboarding was initiated by Arjun Castillo on January 21, 2025 at 11:50 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 523,
+  "end": 592,
+  "text": "The vendor onboarding took place at the Northwind Supply Ltd. office.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "event_5",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 594,
+  "end": 642,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

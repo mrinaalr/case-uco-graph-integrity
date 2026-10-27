@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Ruth Abara works for Bluegate Packaging Group and uses the address ruth.abara@bluegate.com. [D1.S3] Nadia Okafor works for Bluegate Packaging Group and uses the address nokafor@bluegate.com. [D1.S4] Northwind Supply Inc. employs Wesley Fischer, who can be reached at wfischer@northwind.com.
+
+[D1.S5] Nadia Okafor's manager is Ruth Abara.
+
+[D1.S6] Bluegate Packaging Group operates from 7048 Main Street, Madison, WI 53703.
+
+[D1.S7] Bluegate Packaging Group holds account 1767259990 at First Harbor Bank. [D1.S8] Account 3201677702 at First Harbor Bank belongs to Northwind Supply Inc. [D1.S9] First Harbor Bank account 7308269702 is registered to Ruth Abara.
+
+[D1.S10] Please treat this as confidential.

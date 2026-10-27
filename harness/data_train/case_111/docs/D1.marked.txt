@@ -1,0 +1,11 @@
+[D1.S1] From: julian.abara@bluegate.com
+[D1.S2] To: dtanaka@bluegate.com, tnovak@ironleaf.com
+[D1.S3] Subject: Re: banking change request
+[D1.S4] Date: Fri, 13 Jun 2025 13:30:00 +0000
+
+[D1.S5] Hi Desmond,
+
+[D1.S6] Luca Park started the refund request on May 20, 2025 at 13:10 UTC. [D1.S7] The refund request happened at Bluegate Packaging Inc.'s office. [D1.S8] Luca Park started the expense reimbursement on June 13, 2025 at 11:30 UTC.
+
+[D1.S9] Thanks,
+[D1.S10] Julian

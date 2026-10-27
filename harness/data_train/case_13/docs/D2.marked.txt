@@ -1,0 +1,11 @@
+[D2.S1] From: nadia.vance@redfern.com
+[D2.S2] To: julian.lindqvist@northwind.com, mwhitfield@northwind.com
+[D2.S3] Subject: Quarter-end vendor payments
+[D2.S4] Date: Wed, 16 Jul 2025 11:15:00 +0000
+
+[D2.S5] Hi Julian,
+
+[D2.S6] On June 20, 2025 at 10:25 UTC, Marcus Whitfield initiated the contract amendment. [D2.S7] Nadia Vance was involved in the contract amendment as well. [D2.S8] The wire transfer was initiated by Nadia Vance on 16 July 2025, 09:15 UTC. [D2.S9] Marcus Whitfield also took part in the wire transfer. [D2.S10] The wire transfer happened at Northwind Fabrication LLC's office.
+
+[D2.S11] Thanks,
+[D2.S12] Nadia

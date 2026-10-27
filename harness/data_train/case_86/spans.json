@@ -1,0 +1,396 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: julian.quinn@northwind.com",
+  "tids": [
+   "t46",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 61,
+  "text": "To: marcus.park@bluegate.com",
+  "tids": [
+   "t47",
+   "t55",
+   "t17"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 62,
+  "end": 93,
+  "text": "Subject: Invoice 4228 follow-up",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Mon, 14 Jul 2025 19:15:00 +0000",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 143,
+  "text": "Hi Marcus,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 145,
+  "end": 215,
+  "text": "On June 27, 2025 at 13:15 UTC, Marcus Park initiated the audit review.",
+  "tids": [
+   "t31",
+   "t32",
+   "t33",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 216,
+  "end": 294,
+  "text": "The wire transfer was initiated by Julian Quinn on July 14, 2025 at 17:15 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42",
+   "t6"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 296,
+  "end": 303,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 304,
+  "end": 310,
+  "text": "Julian",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 132,
+  "text": "Northwind Distribution Ltd. employs Grace Moreau, who can be reached at gmoreau@northwind.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t56",
+   "t57",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 227,
+  "text": "Northwind Distribution Ltd. employs Andre Mendes, who can be reached at amendes@northwind.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t58",
+   "t59",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 228,
+  "end": 327,
+  "text": "Northwind Distribution Ltd. employs Julian Quinn, who can be reached at julian.quinn@northwind.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 328,
+  "end": 417,
+  "text": "Marcus Park works for Bluegate Tooling Co. and uses the address marcus.park@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t62",
+   "t63",
+   "t2"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 419,
+  "end": 496,
+  "text": "Northwind Distribution Ltd. operates from 2093 Maple Avenue, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 498,
+  "end": 537,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: amendes@northwind.com",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 79,
+  "text": "To: marcus.park@bluegate.com, gmoreau@northwind.com",
+  "tids": [
+   "t51",
+   "t52",
+   "t64",
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 80,
+  "end": 116,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 117,
+  "end": 154,
+  "text": "Date: Tue, 22 Jul 2025 14:30:00 +0000",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 156,
+  "end": 166,
+  "text": "Hi Marcus,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 168,
+  "end": 250,
+  "text": "The invoice submission was initiated by Grace Moreau on July 1, 2025 at 09:45 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 251,
+  "end": 318,
+  "text": "Grace Moreau started the refund request on 22 July 2025, 12:30 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 320,
+  "end": 327,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 328,
+  "end": 333,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 102,
+  "text": "Account 9339233949 at Pinecrest National Bank belongs to Northwind Distribution Ltd.",
+  "tids": [
+   "t26",
+   "t27",
+   "t66",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 103,
+  "end": 183,
+  "text": "Pinecrest National Bank account 1514605657 is registered to Bluegate Tooling Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t67",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 185,
+  "end": 264,
+  "text": "The contract amendment was initiated by Marcus Park on 14 July 2025, 10:00 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 266,
+  "end": 305,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

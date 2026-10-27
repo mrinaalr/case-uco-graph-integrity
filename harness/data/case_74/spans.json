@@ -1,0 +1,384 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 27,
+  "text": "From: fosei@brightwater.com",
+  "tids": [
+   "t47",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 28,
+  "end": 56,
+  "text": "To: dana.tanaka@ironleaf.com",
+  "tids": [
+   "t48",
+   "t56",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 57,
+  "end": 88,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 89,
+  "end": 126,
+  "text": "Date: Thu, 17 Apr 2025 12:50:00 +0000",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 128,
+  "end": 136,
+  "text": "Hi Dana,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 212,
+  "text": "The wire transfer was initiated by Ruth Vance on 28 March 2025, 15:15 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 213,
+  "end": 287,
+  "text": "On April 17, 2025 at 10:50 UTC, Ruth Vance initiated the payment approval.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 289,
+  "end": 296,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 297,
+  "end": 302,
+  "text": "Felix",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 134,
+  "text": "Tomas Brennan is employed by Ironleaf Components LLC; their email is tomas.brennan@ironleaf.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t57",
+   "t58",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 135,
+  "end": 225,
+  "text": "Ironleaf Components LLC employs Ruth Vance, who can be reached at ruth.vance@ironleaf.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t59",
+   "t60",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 226,
+  "end": 318,
+  "text": "Dana Tanaka works for Ironleaf Components LLC and uses the address dana.tanaka@ironleaf.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t61",
+   "t62",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 319,
+  "end": 410,
+  "text": "Brightwater Consulting LLC employs Felix Osei, who can be reached at fosei@brightwater.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t63",
+   "t64",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 411,
+  "end": 511,
+  "text": "Kofi Delgado is employed by Brightwater Consulting LLC; their email is kofi.delgado@brightwater.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t65",
+   "t66",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 513,
+  "end": 596,
+  "text": "Ironleaf Components LLC operates from 6171 Riverside Boulevard, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 598,
+  "end": 674,
+  "text": "Ironleaf Components LLC holds account 3211970531 at Pinecrest National Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t67",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 675,
+  "end": 762,
+  "text": "Pinecrest National Bank account 3567757641 is registered to Brightwater Consulting LLC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t68",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 764,
+  "end": 798,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: fosei@brightwater.com",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 81,
+  "text": "To: ruth.vance@ironleaf.com, dana.tanaka@ironleaf.com",
+  "tids": [
+   "t52",
+   "t53",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 82,
+  "end": 117,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Mon, 28 Apr 2025 19:00:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 157,
+  "end": 165,
+  "text": "Hi Ruth,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 167,
+  "end": 249,
+  "text": "The bank detail change was initiated by Felix Osei on March 29, 2025 at 12:50 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 250,
+  "end": 324,
+  "text": "On 28 April 2025, 17:00 UTC, Dana Tanaka initiated the invoice submission.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 326,
+  "end": 333,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 334,
+  "end": 339,
+  "text": "Felix",
+  "tids": [],
+  "mentions": []
+ }
+}

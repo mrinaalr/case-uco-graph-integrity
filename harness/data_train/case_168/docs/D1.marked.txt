@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Oscar Okafor is employed by Ironleaf Freight Group; their email is ookafor@ironleaf.com. [D1.S3] Samuel Holloway works for Ironleaf Freight Group and uses the address samuel.holloway@ironleaf.com. [D1.S4] Sofia Delgado is employed by Ironleaf Freight Group; their email is sdelgado@ironleaf.com. [D1.S5] Wesley Quinn is employed by Brightwater Components LLC; their email is wesley.quinn@brightwater.com.
+
+[D1.S6] Ironleaf Freight Group is based at 1920 Industrial Parkway, Spokane, WA 99201.
+
+[D1.S7] Ironleaf Freight Group holds account 9081689743 at First Harbor Bank. [D1.S8] Brightwater Components LLC holds account 6473864620 at First Harbor Bank. [D1.S9] First Harbor Bank account 2880885598 is registered to Sofia Delgado.
+
+[D1.S10] Let me know if anything here looks off.

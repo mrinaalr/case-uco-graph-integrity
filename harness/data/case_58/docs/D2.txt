@@ -1,0 +1,11 @@
+From: lashworth@summitpeak.com
+To: wreyes@ironleaf.com, grace.moreau@ironleaf.com
+Subject: Urgent: payment timing
+Date: Tue, 10 Jun 2025 19:00:00 +0000
+
+Hi Wesley,
+
+On 13 May 2025, 14:10 UTC, Wesley Reyes initiated the invoice submission. Grace Moreau started the vendor onboarding on 29 May 2025, 14:10 UTC. On May 31, 2025 at 16:30 UTC, Grace Moreau initiated the audit review. Kofi Tanaka started the account reconciliation on 10 June 2025, 17:00 UTC.
+
+Thanks,
+Lena

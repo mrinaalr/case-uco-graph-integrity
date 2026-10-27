@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Account 1020339962 at First Harbor Bank belongs to Silverlake Industrial Group. [D4.S3] First Harbor Bank account 6287866213 is registered to Bluegate Components LLC.
+
+[D4.S4] The audit review was initiated by Arjun Banerjee on 12 June 2025, 16:10 UTC. [D4.S5] Arjun Banerjee started the refund request on June 24, 2025 at 16:30 UTC. [D4.S6] Hector Quinn authorized the refund request. [D4.S7] Arjun Banerjee started the vendor onboarding on June 29, 2025 at 17:10 UTC.
+
+[D4.S8] More detail will follow once records are pulled.

@@ -1,0 +1,409 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 29,
+  "text": "From: ookafor@copperfield.com",
+  "tids": [
+   "t45",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 30,
+  "end": 61,
+  "text": "To: owen.tanaka@copperfield.com",
+  "tids": [
+   "t46",
+   "t54",
+   "t8"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 62,
+  "end": 97,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 98,
+  "end": 135,
+  "text": "Date: Thu, 24 Apr 2025 12:30:00 +0000",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 145,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 147,
+  "end": 219,
+  "text": "On April 24, 2025 at 10:30 UTC, Marcus Osei initiated the wire transfer.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t7"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 220,
+  "end": 264,
+  "text": "Julian Delgado authorized the wire transfer.",
+  "tids": [
+   "t44",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 266,
+  "end": 273,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 274,
+  "end": 279,
+  "text": "Oscar",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 135,
+  "text": "Owen Tanaka is employed by Copperfield Packaging LLC; their email is owen.tanaka@copperfield.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t55",
+   "t56",
+   "t1",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 233,
+  "text": "Julian Delgado works for Copperfield Packaging LLC and uses the address jdelgado@copperfield.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t57",
+   "t58",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 234,
+  "end": 328,
+  "text": "Copperfield Packaging LLC employs Oscar Okafor, who can be reached at ookafor@copperfield.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t59",
+   "t60",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 329,
+  "end": 415,
+  "text": "Marcus Osei works for Bluegate Consulting Co. and uses the address mosei@bluegate.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t61",
+   "t62",
+   "t2",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 417,
+  "end": 489,
+  "text": "Copperfield Packaging LLC is based at 3397 Main Street, Omaha, NE 68102.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 491,
+  "end": 539,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 33,
+  "text": "From: owen.tanaka@copperfield.com",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 34,
+  "end": 81,
+  "text": "To: mosei@bluegate.com, ookafor@copperfield.com",
+  "tids": [
+   "t50",
+   "t51",
+   "t63",
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 82,
+  "end": 122,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 123,
+  "end": 160,
+  "text": "Date: Fri, 02 May 2025 14:30:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 162,
+  "end": 172,
+  "text": "Hi Marcus,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 174,
+  "end": 252,
+  "text": "On May 2, 2025 at 12:30 UTC, Marcus Osei initiated the account reconciliation.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 254,
+  "end": 261,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 262,
+  "end": 266,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 90,
+  "text": "Copperfield Packaging LLC holds account 7820001234 at Union Ledger Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t65",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 91,
+  "end": 165,
+  "text": "Account 1603925100 at Union Ledger Bank belongs to Bluegate Consulting Co.",
+  "tids": [
+   "t29",
+   "t30",
+   "t66",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 166,
+  "end": 232,
+  "text": "Account 8513200807 at Union Ledger Bank belongs to Julian Delgado.",
+  "tids": [
+   "t32",
+   "t33",
+   "t67",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 234,
+  "end": 300,
+  "text": "Oscar Okafor started the refund request on 15 May 2025, 17:30 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 301,
+  "end": 343,
+  "text": "Owen Tanaka authorized the refund request.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 345,
+  "end": 384,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

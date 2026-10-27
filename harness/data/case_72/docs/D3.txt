@@ -1,0 +1,4 @@
+Chat export: #finance-ops
+@kofia is Kofi Ashworth.
+@arjunb is Arjun Banerjee.
+[2025-06-10 14:00 UTC] @kofia to @arjunb: Can you look at the vendor file before lunch?

@@ -1,0 +1,416 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Irene Reyes works for Harborline Freight Ltd. and uses the address irene.reyes@harborline.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t68",
+   "t69",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 229,
+  "text": "Arjun Haddad works for Harborline Freight Ltd. and uses the address arjun.haddad@harborline.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t70",
+   "t71",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 324,
+  "text": "Mei Fischer is employed by Harborline Freight Ltd.; their email is mei.fischer@harborline.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t72",
+   "t73",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 325,
+  "end": 416,
+  "text": "Dana Osei works for Silverlake Distribution Ltd. and uses the address dosei@silverlake.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t74",
+   "t75",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 417,
+  "end": 524,
+  "text": "Desmond Delgado works for Silverlake Distribution Ltd. and uses the address desmond.delgado@silverlake.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t76",
+   "t77",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 526,
+  "end": 598,
+  "text": "Harborline Freight Ltd. is based at 2769 Harbor Avenue, Boise, ID 83702.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 600,
+  "end": 639,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: dosei@silverlake.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 85,
+  "text": "To: mei.fischer@harborline.com, irene.reyes@harborline.com",
+  "tids": [
+   "t64",
+   "t65",
+   "t78",
+   "t79"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 126,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 127,
+  "end": 164,
+  "text": "Date: Tue, 11 Feb 2025 18:50:00 +0000",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 173,
+  "text": "Hi Mei,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 175,
+  "end": 251,
+  "text": "On 13 January 2025, 10:30 UTC, Irene Reyes initiated the contract amendment.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 252,
+  "end": 329,
+  "text": "Arjun Haddad started the expense reimbursement on 20 January 2025, 09:00 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 330,
+  "end": 406,
+  "text": "Irene Reyes started the invoice submission on January 31, 2025 at 09:45 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 407,
+  "end": 470,
+  "text": "Desmond Delgado was involved in the invoice submission as well.",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "person_4",
+   "event_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 471,
+  "end": 552,
+  "text": "Desmond Delgado started the bank detail change on February 11, 2025 at 16:50 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_4"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 554,
+  "end": 561,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 562,
+  "end": 566,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 95,
+  "text": "Union Ledger Bank account 2344884247 is registered to Harborline Freight Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t80",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 96,
+  "end": 171,
+  "text": "Silverlake Distribution Ltd. holds account 2310676562 at Union Ledger Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t81",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 172,
+  "end": 239,
+  "text": "Union Ledger Bank account 5147835550 is registered to Arjun Haddad.",
+  "tids": [
+   "t36",
+   "t37",
+   "t82",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 241,
+  "end": 331,
+  "text": "The account reconciliation was initiated by Arjun Haddad on January 19, 2025 at 10:45 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 332,
+  "end": 404,
+  "text": "Arjun Haddad started the payment approval on 27 January 2025, 13:10 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 405,
+  "end": 486,
+  "text": "The vendor onboarding was initiated by Irene Reyes on 31 January 2025, 12:10 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 487,
+  "end": 560,
+  "text": "On 16 February 2025, 17:50 UTC, Arjun Haddad initiated the wire transfer.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61"
+  ],
+  "mentions": [
+   "event_7",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 562,
+  "end": 610,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

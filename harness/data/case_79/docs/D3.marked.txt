@@ -1,0 +1,11 @@
+[D3.S1] From: wreyes@copperfield.com
+[D3.S2] To: samuel.brennan@bluegate.com, nnovak@copperfield.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Mon, 10 Mar 2025 11:45:00 +0000
+
+[D3.S5] Hi Samuel,
+
+[D3.S6] The account reconciliation was initiated by Wesley Reyes on February 26, 2025 at 14:50 UTC. [D3.S7] On March 10, 2025 at 09:45 UTC, Wesley Reyes initiated the refund request.
+
+[D3.S8] Thanks,
+[D3.S9] Wesley

@@ -1,0 +1,11 @@
+[D2.S1] From: maya.sorensen@redfern.com
+[D2.S2] To: snovak@redfern.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Mon, 07 Jul 2025 14:50:00 +0000
+
+[D2.S5] Hi Sofia,
+
+[D2.S6] On 16 June 2025, 09:30 UTC, Sofia Novak initiated the payment approval. [D2.S7] On June 20, 2025 at 11:10 UTC, Desmond Park initiated the audit review. [D2.S8] On June 30, 2025 at 15:15 UTC, Desmond Park initiated the bank detail change. [D2.S9] The expense reimbursement was initiated by Dana Abara on 7 July 2025, 12:50 UTC. [D2.S10] Sofia Novak also took part in the expense reimbursement.
+
+[D2.S11] Thanks,
+[D2.S12] Maya

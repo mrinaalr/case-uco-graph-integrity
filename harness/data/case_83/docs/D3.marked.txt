@@ -1,0 +1,7 @@
+[D3.S1] Incident summary
+
+[D3.S2] First Harbor Bank account 7624477634 is registered to Copperfield Logistics LLC. [D3.S3] Oakhaven Analytics LLC holds account 7334007319 at First Harbor Bank.
+
+[D3.S4] On June 12, 2025 at 12:10 UTC, Marcus Abara initiated the contract amendment. [D3.S5] Ruth Delgado was involved in the contract amendment as well. [D3.S6] The contract amendment happened at Copperfield Logistics LLC's office. [D3.S7] Clara Brennan started the vendor onboarding on June 24, 2025 at 09:10 UTC. [D3.S8] Ruth Delgado also took part in the vendor onboarding. [D3.S9] Account 7624477634 sent a transfer to account 7334007319. [D3.S10] Ruth Delgado communicated with Clara Brennan about the payments.
+
+[D3.S11] More detail will follow once records are pulled.

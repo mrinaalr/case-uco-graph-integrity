@@ -1,0 +1,11 @@
+[D2.S1] From: yfischer@copperfield.com
+[D2.S2] To: dosei@copperfield.com, irene.sorensen@silverlake.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Sat, 08 Nov 2025 17:10:00 +0000
+
+[D2.S5] Hi Desmond,
+
+[D2.S6] The audit review was initiated by Desmond Osei on October 15, 2025 at 17:25 UTC. [D2.S7] Irene Sorensen also took part in the audit review. [D2.S8] The audit review took place at the Copperfield Consulting Co. office. [D2.S9] The bank detail change was initiated by Irene Sorensen on 25 October 2025, 10:10 UTC. [D2.S10] Approval for the bank detail change came from Desmond Osei. [D2.S11] Yara Fischer started the payment approval on November 8, 2025 at 15:10 UTC. [D2.S12] Approval for the payment approval came from Desmond Osei. [D2.S13] Irene Sorensen was involved in the payment approval as well. [D2.S14] The payment approval took place at the Copperfield Consulting Co. office.
+
+[D2.S15] Thanks,
+[D2.S16] Yara

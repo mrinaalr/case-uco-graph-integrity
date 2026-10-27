@@ -1,0 +1,416 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Ruth Brennan works for Stonebridge Logistics Co. and uses the address ruth.brennan@stonebridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t55",
+   "t56",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 241,
+  "text": "Stonebridge Logistics Co. employs Andre Sorensen, who can be reached at andre.sorensen@stonebridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t57",
+   "t58",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 242,
+  "end": 336,
+  "text": "Rosa Whitfield works for Oakhaven Industrial LLC and uses the address rwhitfield@oakhaven.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t59",
+   "t60",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 338,
+  "end": 379,
+  "text": "Andre Sorensen's manager is Ruth Brennan.",
+  "tids": [
+   "t41"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 381,
+  "end": 454,
+  "text": "Stonebridge Logistics Co. is based at 3050 Main Street, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 455,
+  "end": 527,
+  "text": "Oakhaven Industrial LLC is based at 625 Harbor Avenue, Albany, NY 12207.",
+  "tids": [
+   "t40",
+   "t36",
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 529,
+  "end": 595,
+  "text": "Rosa Whitfield had been in contact with Andre Sorensen throughout.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 597,
+  "end": 645,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: rwhitfield@oakhaven.com",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 64,
+  "text": "To: andre.sorensen@stonebridge.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 65,
+  "end": 100,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 101,
+  "end": 138,
+  "text": "Date: Sat, 15 Mar 2025 15:25:00 +0000",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 140,
+  "end": 149,
+  "text": "Hi Andre,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 151,
+  "end": 236,
+  "text": "The invoice submission was initiated by Andre Sorensen on March 4, 2025 at 15:15 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 237,
+  "end": 291,
+  "text": "Ruth Brennan also took part in the invoice submission.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 292,
+  "end": 366,
+  "text": "The invoice submission took place at the Stonebridge Logistics Co. office.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 367,
+  "end": 453,
+  "text": "The expense reimbursement was initiated by Andre Sorensen on 15 March 2025, 13:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 454,
+  "end": 506,
+  "text": "Rosa Whitfield authorized the expense reimbursement.",
+  "tids": [
+   "t42"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 507,
+  "end": 564,
+  "text": "Ruth Brennan also took part in the expense reimbursement.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 566,
+  "end": 573,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 574,
+  "end": 578,
+  "text": "Rosa",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 105,
+  "text": "Account 6795579738 at Granite Federal Credit Union belongs to Stonebridge Logistics Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t61",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 106,
+  "end": 195,
+  "text": "Granite Federal Credit Union account 2112953229 is registered to Oakhaven Industrial LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t62",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 197,
+  "end": 273,
+  "text": "The refund request was initiated by Ruth Brennan on 9 March 2025, 14:50 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 274,
+  "end": 319,
+  "text": "Rosa Whitfield authorized the refund request.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 320,
+  "end": 372,
+  "text": "Andre Sorensen also took part in the refund request.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 373,
+  "end": 443,
+  "text": "The refund request took place at the Stonebridge Logistics Co. office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 444,
+  "end": 501,
+  "text": "Account 6795579738 sent a transfer to account 2112953229.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 503,
+  "end": 537,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

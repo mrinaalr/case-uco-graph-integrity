@@ -1,0 +1,338 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 148,
+  "text": "Cedar Ridge Distribution Inc. employs Marcus Whitfield, who can be reached at marcus.whitfield@cedarridge.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t55",
+   "t56",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 149,
+  "end": 245,
+  "text": "Lena Petrov works for Cedar Ridge Distribution Inc. and uses the address lpetrov@cedarridge.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t57",
+   "t58",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 246,
+  "end": 356,
+  "text": "Cedar Ridge Distribution Inc. employs Victor Lindqvist, who can be reached at victor.lindqvist@cedarridge.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t59",
+   "t60",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 357,
+  "end": 438,
+  "text": "Owen Osei works for Redfern Tooling Group and uses the address oosei@redfern.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t61",
+   "t62",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 439,
+  "end": 526,
+  "text": "Redfern Tooling Group employs Kofi Vance, who can be reached at kofi.vance@redfern.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t63",
+   "t64",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 528,
+  "end": 615,
+  "text": "Cedar Ridge Distribution Inc. operates from 2577 Industrial Parkway, Spokane, WA 99201.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 617,
+  "end": 699,
+  "text": "Cedar Ridge Distribution Inc. holds account 1507855327 at Pinecrest National Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t65",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 700,
+  "end": 782,
+  "text": "Pinecrest National Bank account 2842380021 is registered to Redfern Tooling Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t66",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 783,
+  "end": 847,
+  "text": "Lena Petrov holds account 3646657323 at Pinecrest National Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t67",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 849,
+  "end": 897,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 23,
+  "text": "From: oosei@redfern.com",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 24,
+  "end": 59,
+  "text": "To: victor.lindqvist@cedarridge.com",
+  "tids": [
+   "t52",
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 60,
+  "end": 93,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Sat, 30 Aug 2025 18:10:00 +0000",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 143,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 145,
+  "end": 219,
+  "text": "On August 8, 2025 at 11:10 UTC, Kofi Vance initiated the payment approval.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 220,
+  "end": 292,
+  "text": "Kofi Vance started the vendor onboarding on August 9, 2025 at 11:45 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_4"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 293,
+  "end": 370,
+  "text": "The vendor onboarding took place at the Cedar Ridge Distribution Inc. office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 371,
+  "end": 447,
+  "text": "The wire transfer was initiated by Lena Petrov on 11 August 2025, 17:00 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 448,
+  "end": 534,
+  "text": "The invoice submission was initiated by Victor Lindqvist on 30 August 2025, 16:10 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 536,
+  "end": 543,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 544,
+  "end": 548,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ }
+}

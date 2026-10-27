@@ -1,0 +1,11 @@
+[D3.S1] From: wesley.okafor@silverlake.com
+[D3.S2] To: ybrennan@silverlake.com
+[D3.S3] Subject: Updated remittance details
+[D3.S4] Date: Thu, 30 Oct 2025 16:10:00 +0000
+
+[D3.S5] Hi Yara,
+
+[D3.S6] The vendor onboarding was initiated by Wesley Okafor on October 24, 2025 at 15:10 UTC. [D3.S7] Priya Vance was involved in the vendor onboarding as well. [D3.S8] The expense reimbursement was initiated by Andre Tanaka on October 30, 2025 at 14:10 UTC.
+
+[D3.S9] Thanks,
+[D3.S10] Wesley

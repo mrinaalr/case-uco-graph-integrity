@@ -1,0 +1,400 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 128,
+  "text": "Copperfield Supply Co. employs Marcus Novak, who can be reached at mnovak@copperfield.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 223,
+  "text": "Copperfield Supply Co. employs Tomas Abara, who can be reached at tomas.abara@copperfield.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t68",
+   "t69",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 224,
+  "end": 316,
+  "text": "Hannah Moreau is employed by Copperfield Supply Co.; their email is hmoreau@copperfield.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t70",
+   "t71",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 317,
+  "end": 421,
+  "text": "Silverlake Consulting Group employs Andre Sorensen, who can be reached at andre.sorensen@silverlake.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 422,
+  "end": 518,
+  "text": "Luca Delgado is employed by Silverlake Consulting Group; their email is ldelgado@silverlake.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t75",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 520,
+  "end": 599,
+  "text": "Copperfield Supply Co. operates from 7152 Riverside Boulevard, Boise, ID 83702.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 601,
+  "end": 679,
+  "text": "Account 6669779042 at Lakeshore Savings Bank belongs to Copperfield Supply Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t76",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 680,
+  "end": 767,
+  "text": "Lakeshore Savings Bank account 3941662208 is registered to Silverlake Consulting Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t77",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 768,
+  "end": 831,
+  "text": "Tomas Abara holds account 3892554972 at Lakeshore Savings Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t78",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 833,
+  "end": 867,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: hmoreau@copperfield.com",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 92,
+  "text": "To: tomas.abara@copperfield.com, andre.sorensen@silverlake.com",
+  "tids": [
+   "t62",
+   "t63",
+   "t79",
+   "t80"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 133,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 171,
+  "text": "Date: Sun, 13 Apr 2025 13:50:00 +0000",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 173,
+  "end": 182,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 184,
+  "end": 261,
+  "text": "The wire transfer was initiated by Andre Sorensen on 9 March 2025, 09:30 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 262,
+  "end": 337,
+  "text": "On 14 March 2025, 12:15 UTC, Hannah Moreau initiated the vendor onboarding.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 338,
+  "end": 404,
+  "text": "The vendor onboarding happened at Copperfield Supply Co.'s office.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 405,
+  "end": 478,
+  "text": "Hannah Moreau started the bank detail change on 23 March 2025, 11:30 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 479,
+  "end": 546,
+  "text": "The bank detail change happened at Copperfield Supply Co.'s office.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 547,
+  "end": 618,
+  "text": "Luca Delgado started the refund request on March 25, 2025 at 17:50 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 619,
+  "end": 695,
+  "text": "Andre Sorensen started the expense reimbursement on 3 April 2025, 11:30 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_3"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 696,
+  "end": 777,
+  "text": "The contract amendment was initiated by Hannah Moreau on 7 April 2025, 17:45 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 778,
+  "end": 864,
+  "text": "The invoice submission was initiated by Andre Sorensen on April 13, 2025 at 11:50 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 866,
+  "end": 873,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 874,
+  "end": 880,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ }
+}

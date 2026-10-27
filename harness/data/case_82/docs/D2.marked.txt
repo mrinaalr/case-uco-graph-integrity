@@ -1,0 +1,11 @@
+[D2.S1] From: mhaddad@clearpath.com
+[D2.S2] To: alindqvist@redfern.com, hvance@clearpath.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Tue, 26 Aug 2025 13:25:00 +0000
+
+[D2.S5] Hi Arjun,
+
+[D2.S6] On July 21, 2025 at 17:00 UTC, Arjun Lindqvist initiated the expense reimbursement. [D2.S7] The invoice submission was initiated by Arjun Lindqvist on July 23, 2025 at 10:45 UTC. [D2.S8] Mei Haddad started the contract amendment on July 23, 2025 at 16:50 UTC. [D2.S9] The bank detail change was initiated by Arjun Lindqvist on 26 July 2025, 09:50 UTC. [D2.S10] The bank detail change took place at the Clearpath Components Group office. [D2.S11] Arjun Lindqvist started the wire transfer on 10 August 2025, 16:45 UTC. [D2.S12] The wire transfer took place at the Clearpath Components Group office. [D2.S13] The payment approval was initiated by Hannah Vance on August 11, 2025 at 11:25 UTC. [D2.S14] Arjun Lindqvist also took part in the payment approval. [D2.S15] The payment approval happened at Clearpath Components Group's office. [D2.S16] The account reconciliation was initiated by Mei Haddad on August 12, 2025 at 11:15 UTC. [D2.S17] The audit review was initiated by Arjun Lindqvist on August 26, 2025 at 11:25 UTC.
+
+[D2.S18] Thanks,
+[D2.S19] Mei

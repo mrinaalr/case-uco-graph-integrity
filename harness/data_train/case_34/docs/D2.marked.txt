@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Priya Brennan is employed by Bluegate Analytics Ltd.; their email is pbrennan@bluegate.com. [D2.S3] Bluegate Analytics Ltd. employs Hector Reyes, who can be reached at hreyes@bluegate.com. [D2.S4] Bluegate Analytics Ltd. employs Arjun Novak, who can be reached at anovak@bluegate.com. [D2.S5] Copperfield Freight Ltd. employs Andre Osei, who can be reached at andre.osei@copperfield.com.
+
+[D2.S6] The offices of Bluegate Analytics Ltd. are at 5071 Lakeview Road, Spokane, WA 99201.
+
+[D2.S7] Account 2377476882 at Meridian Trust Bank belongs to Bluegate Analytics Ltd. [D2.S8] Meridian Trust Bank account 5258634124 is registered to Copperfield Freight Ltd. [D2.S9] Meridian Trust Bank account 9559267538 is registered to Priya Brennan.
+
+[D2.S10] This summary reflects records available to date.

@@ -1,0 +1,11 @@
+[D1.S1] From: nadia.abara@redfern.com
+[D1.S2] To: desmond.petrov@copperfield.com, lena.brennan@redfern.com
+[D1.S3] Subject: Contract terms for next quarter
+[D1.S4] Date: Mon, 09 Jun 2025 12:00:00 +0000
+
+[D1.S5] Hi Desmond,
+
+[D1.S6] The payment approval was initiated by Lena Brennan on 10 May 2025, 13:50 UTC. [D1.S7] Desmond Petrov started the wire transfer on 23 May 2025, 11:50 UTC. [D1.S8] The invoice submission was initiated by Wesley Fischer on June 4, 2025 at 16:30 UTC. [D1.S9] The invoice submission happened at Copperfield Consulting Co.'s office. [D1.S10] The bank detail change was initiated by Desmond Petrov on 9 June 2025, 10:00 UTC.
+
+[D1.S11] Thanks,
+[D1.S12] Nadia

@@ -1,0 +1,443 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 31,
+  "text": "From: julian.abara@bluegate.com",
+  "tids": [
+   "t52",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 32,
+  "end": 77,
+  "text": "To: dtanaka@bluegate.com, tnovak@ironleaf.com",
+  "tids": [
+   "t53",
+   "t54",
+   "t61",
+   "t62",
+   "t12",
+   "t18"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_3"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 78,
+  "end": 113,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 114,
+  "end": 151,
+  "text": "Date: Fri, 13 Jun 2025 13:30:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 153,
+  "end": 164,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 166,
+  "end": 232,
+  "text": "Luca Park started the refund request on May 20, 2025 at 13:10 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 297,
+  "text": "The refund request happened at Bluegate Packaging Inc.'s office.",
+  "tids": [
+   "t50",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 298,
+  "end": 372,
+  "text": "Luca Park started the expense reimbursement on June 13, 2025 at 11:30 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 374,
+  "end": 381,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 382,
+  "end": 388,
+  "text": "Julian",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 126,
+  "text": "Luca Park works for Bluegate Packaging Inc. and uses the address luca.park@bluegate.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t63",
+   "t64",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 127,
+  "end": 218,
+  "text": "Bluegate Packaging Inc. employs Desmond Tanaka, who can be reached at dtanaka@bluegate.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t65",
+   "t66",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 219,
+  "end": 313,
+  "text": "Julian Abara is employed by Bluegate Packaging Inc.; their email is julian.abara@bluegate.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t67",
+   "t68",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 314,
+  "end": 401,
+  "text": "Ironleaf Consulting LLC employs Tomas Novak, who can be reached at tnovak@ironleaf.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t69",
+   "t70",
+   "t2",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 402,
+  "end": 492,
+  "text": "Lena Brennan is employed by Ironleaf Consulting LLC; their email is lbrennan@ironleaf.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t71",
+   "t72",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 494,
+  "end": 530,
+  "text": "Julian Abara's manager is Luca Park.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 532,
+  "end": 603,
+  "text": "Bluegate Packaging Inc. is based at 1473 Main Street, Dayton, OH 45402.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 605,
+  "end": 639,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 27,
+  "text": "From: lbrennan@ironleaf.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 28,
+  "end": 52,
+  "text": "To: dtanaka@bluegate.com",
+  "tids": [
+   "t58",
+   "t73"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 86,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 87,
+  "end": 124,
+  "text": "Date: Sat, 14 Jun 2025 13:00:00 +0000",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 126,
+  "end": 137,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 139,
+  "end": 208,
+  "text": "On 21 May 2025, 17:30 UTC, Desmond Tanaka initiated the audit review.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 209,
+  "end": 282,
+  "text": "Julian Abara started the vendor onboarding on June 14, 2025 at 11:00 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 284,
+  "end": 291,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 292,
+  "end": 296,
+  "text": "Lena",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 92,
+  "text": "Account 3079440686 at Union Ledger Bank belongs to Bluegate Packaging Inc.",
+  "tids": [
+   "t30",
+   "t31",
+   "t74",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 93,
+  "end": 171,
+  "text": "Union Ledger Bank account 5072147935 is registered to Ironleaf Consulting LLC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t75",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 173,
+  "end": 252,
+  "text": "The payment approval was initiated by Desmond Tanaka on 7 June 2025, 12:45 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 254,
+  "end": 288,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ }
+}

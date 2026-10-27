@@ -42,6 +42,7 @@ from scipy.optimize import linear_sum_assignment
 from graphkit import HARNESS, graph_triples, iso_time
 
 SCORERS = ("strict", "value")
+STAGE_ORDER = ["raw", "pass1", "first_validate", "validated", "pass2", "pass3", "pass4", "compiled"]
 CLASSES = ["wrong_value", "wrong_relation", "wrong_entity", "cross_document_conflation", "misplaced_property",
            "duplicate_entity", "invented"]
 TIME_PROPS = {"startTime", "endTime", "sentTime", "receivedTime"}
@@ -372,12 +373,19 @@ def markdown(summaries: list[dict], stage_counts: dict[str, Counter]) -> str:
 
 def variants(arm: str, run_dir: Path) -> list[tuple[str, str, str, str | None]]:
     """(label, graph file, score file, prov file) to score for one case run."""
-    if arm != "a2_tools":
-        return [(arm, "graph.jsonld", "score.json", None)]
-    early = "graph_first_validate.jsonld" if (run_dir / "graph_first_validate.jsonld").exists() else "graph.jsonld"
-    early_prov = "prov_first_validate.json" if early != "graph.jsonld" else "prov.json"  # never validated: same graph
-    return [(f"{arm}@first_validate", early, "score_first_validate.json", early_prov),
-            (arm, "graph.jsonld", "score.json", "prov.json")]
+    if arm == "a2_tools":
+        early = "graph_first_validate.jsonld" if (run_dir / "graph_first_validate.jsonld").exists() else "graph.jsonld"
+        early_prov = "prov_first_validate.json" if early != "graph.jsonld" else "prov.json"  # never validated: same graph
+        return [(f"{arm}@first_validate", early, "score_first_validate.json", early_prov),
+                (arm, "graph.jsonld", "score.json", "prov.json")]
+    # Any graph_<stage>.jsonld snapshot is scored as <arm>@<stage>: critic passes, the graph before QA, B3's raw reply.
+    def order(p: Path):
+        stage = p.stem[len("graph_"):]
+        return (STAGE_ORDER.index(stage) if stage in STAGE_ORDER else len(STAGE_ORDER),
+                int(stage.rsplit("pass", 1)[1]) if stage.startswith("pass") and stage[4:].isdigit() else 0, stage)
+    snaps = sorted(run_dir.glob("graph_*.jsonld"), key=order)
+    return [(f"{arm}@{p.stem[len('graph_'):]}", p.name, f"score_{p.stem[len('graph_'):]}.json", None) for p in snaps] + [
+        (arm, "graph.jsonld", "score.json", None)]
 
 
 def score_run(run_id: str) -> None:
@@ -385,6 +393,8 @@ def score_run(run_id: str) -> None:
     groups: dict[tuple[str, str], list[dict]] = {}
     for arm_dir in sorted(p for p in run_root.iterdir() if p.is_dir()):
         for run_dir in sorted(p for p in arm_dir.iterdir() if p.is_dir()):
+            if not (run_dir / "run.json").exists():  # a case still being run
+                continue
             meta = json.loads((run_dir / "run.json").read_text())
             data_dir = HARNESS / "data" / run_dir.name
             for label, graph_name, score_name, prov in variants(arm_dir.name, run_dir):
@@ -392,6 +402,11 @@ def score_run(run_id: str) -> None:
                     row = dict(meta, arm=label, scorer=scorer)
                     if label.endswith("@first_validate") and meta.get("server_validations"):
                         row["final_validation"] = meta["server_validations"][0]
+                    if "@pass" in label and meta.get("pass_validations"):
+                        n = int(label.rsplit("pass", 1)[1])
+                        row["final_validation"] = (meta["pass_validations"] + [None] * n)[n - 1]
+                    elif "@" in label and meta.get("stage_validations"):
+                        row["final_validation"] = meta["stage_validations"].get(label.split("@", 1)[1])
                     graph = run_dir / graph_name if meta["status"] not in ("error", "empty") else None
                     try:
                         result = score_case(data_dir, graph, run_dir, prov, scorer)

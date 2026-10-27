@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Nadia Quinn is employed by Westmark Components Ltd.; their email is nquinn@westmark.com. [D1.S3] Westmark Components Ltd. employs Hannah Kowalski, who can be reached at hkowalski@westmark.com. [D1.S4] Westmark Components Ltd. employs Mei Ivanova, who can be reached at mei.ivanova@westmark.com. [D1.S5] Samuel Lindqvist is employed by Harborline Analytics Inc.; their email is samuel.lindqvist@harborline.com.
+
+[D1.S6] Westmark Components Ltd. is based at 4500 Industrial Parkway, Spokane, WA 99201. [D1.S7] The offices of Harborline Analytics Inc. are at 196 Main Street, Madison, WI 53703.
+
+[D1.S8] More detail will follow once records are pulled.

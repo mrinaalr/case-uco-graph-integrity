@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Tomas Okafor is employed by Oakhaven Packaging Group; their email is tokafor@oakhaven.com. [D1.S3] Oakhaven Packaging Group employs Irene Fischer, who can be reached at ifischer@oakhaven.com. [D1.S4] Oakhaven Packaging Group employs Oscar Moreau, who can be reached at oscar.moreau@oakhaven.com. [D1.S5] Priya Abara is employed by Silverlake Services Group; their email is pabara@silverlake.com. [D1.S6] Felix Castillo works for Silverlake Services Group and uses the address fcastillo@silverlake.com.
+
+[D1.S7] Irene Fischer's manager is Tomas Okafor. [D1.S8] Oscar Moreau's manager is Tomas Okafor.
+
+[D1.S9] Oakhaven Packaging Group is based at 5421 Main Street, Richmond, VA 23219.
+
+[D1.S10] This summary reflects records available to date.

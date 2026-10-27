@@ -1,0 +1,398 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Northwind Tooling Group employs Owen Tanaka, who can be reached at owen.tanaka@northwind.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t64",
+   "t65",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 227,
+  "text": "Wesley Novak is employed by Northwind Tooling Group; their email is wesley.novak@northwind.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t66",
+   "t67",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 228,
+  "end": 314,
+  "text": "Northwind Tooling Group employs Mei Abara, who can be reached at mabara@northwind.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t68",
+   "t69",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 315,
+  "end": 407,
+  "text": "Redfern Services LLC employs Hannah Moreau, who can be reached at hannah.moreau@redfern.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t70",
+   "t71",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 408,
+  "end": 490,
+  "text": "Redfern Services LLC employs Dana Vance, who can be reached at dvance@redfern.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t73",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 492,
+  "end": 566,
+  "text": "Northwind Tooling Group is based at 3342 Lakeview Road, Raleigh, NC 27601.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 568,
+  "end": 607,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: hannah.moreau@redfern.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 54,
+  "text": "To: dvance@redfern.com",
+  "tids": [
+   "t61",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 55,
+  "end": 86,
+  "text": "Subject: Invoice 1633 follow-up",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 87,
+  "end": 124,
+  "text": "Date: Thu, 17 Apr 2025 11:25:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 126,
+  "end": 134,
+  "text": "Hi Dana,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 212,
+  "text": "The audit review was initiated by Hannah Moreau on 13 March 2025, 15:50 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 213,
+  "end": 284,
+  "text": "Hannah Moreau started the wire transfer on March 20, 2025 at 10:25 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 285,
+  "end": 324,
+  "text": "Mei Abara authorized the wire transfer.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_2",
+   "event_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 325,
+  "end": 397,
+  "text": "Dana Vance started the contract amendment on April 4, 2025 at 12:15 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 398,
+  "end": 476,
+  "text": "The payment approval was initiated by Owen Tanaka on 17 April 2025, 09:25 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 478,
+  "end": 485,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 486,
+  "end": 492,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 93,
+  "text": "Northwind Tooling Group holds account 1491531788 at Lakeshore Savings Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t75",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 94,
+  "end": 174,
+  "text": "Lakeshore Savings Bank account 5480732855 is registered to Redfern Services LLC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t76",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 175,
+  "end": 241,
+  "text": "Account 1917141128 at Lakeshore Savings Bank belongs to Mei Abara.",
+  "tids": [
+   "t36",
+   "t37",
+   "t77",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 243,
+  "end": 320,
+  "text": "The vendor onboarding was initiated by Mei Abara on 14 March 2025, 15:45 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 321,
+  "end": 404,
+  "text": "The invoice submission was initiated by Owen Tanaka on March 24, 2025 at 15:10 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 405,
+  "end": 482,
+  "text": "Owen Tanaka started the expense reimbursement on April 13, 2025 at 11:50 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 484,
+  "end": 523,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

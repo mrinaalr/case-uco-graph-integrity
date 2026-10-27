@@ -1,0 +1,317 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 130,
+  "text": "Silverlake Services LLC employs Owen Ivanova, who can be reached at oivanova@silverlake.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t53",
+   "t54",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 225,
+  "text": "Silverlake Services LLC employs Dana Kowalski, who can be reached at dkowalski@silverlake.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t55",
+   "t56",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 226,
+  "end": 316,
+  "text": "Clearpath Components Group employs Wesley Osei, who can be reached at wosei@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t57",
+   "t58",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 387,
+  "text": "Silverlake Services LLC is based at 8548 Elm Street, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 389,
+  "end": 475,
+  "text": "Account 3481795363 at Granite Federal Credit Union belongs to Silverlake Services LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t59",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 476,
+  "end": 568,
+  "text": "Granite Federal Credit Union account 9421230937 is registered to Clearpath Components Group.",
+  "tids": [
+   "t25",
+   "t26",
+   "t60",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 569,
+  "end": 648,
+  "text": "Granite Federal Credit Union account 3439873169 is registered to Dana Kowalski.",
+  "tids": [
+   "t28",
+   "t29",
+   "t61",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 650,
+  "end": 698,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: dkowalski@silverlake.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 79,
+  "text": "To: oivanova@silverlake.com, wosei@clearpath.com",
+  "tids": [
+   "t49",
+   "t50",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 80,
+  "end": 111,
+  "text": "Subject: Invoice 3917 follow-up",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 112,
+  "end": 149,
+  "text": "Date: Thu, 06 Nov 2025 13:15:00 +0000",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 151,
+  "end": 159,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 161,
+  "end": 239,
+  "text": "On October 8, 2025 at 16:50 UTC, Wesley Osei initiated the bank detail change.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 240,
+  "end": 319,
+  "text": "On October 24, 2025 at 15:15 UTC, Owen Ivanova initiated the vendor onboarding.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 320,
+  "end": 402,
+  "text": "The refund request was initiated by Owen Ivanova on October 31, 2025 at 16:30 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 403,
+  "end": 476,
+  "text": "On November 1, 2025 at 09:00 UTC, Wesley Osei initiated the audit review.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 477,
+  "end": 562,
+  "text": "On November 4, 2025 at 12:30 UTC, Dana Kowalski initiated the account reconciliation.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 563,
+  "end": 645,
+  "text": "On November 6, 2025 at 11:15 UTC, Wesley Osei initiated the expense reimbursement.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 647,
+  "end": 654,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 655,
+  "end": 659,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ }
+}

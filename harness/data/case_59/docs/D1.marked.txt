@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Sofia Sorensen works for Brightwater Components Co. and uses the address ssorensen@brightwater.com. [D1.S3] Irene Tanaka is employed by Brightwater Components Co.; their email is irene.tanaka@brightwater.com. [D1.S4] Brightwater Components Co. employs Priya Okafor, who can be reached at pokafor@brightwater.com. [D1.S5] Samuel Petrov works for Westmark Tooling Inc. and uses the address spetrov@westmark.com. [D1.S6] Yara Moreau works for Westmark Tooling Inc. and uses the address yara.moreau@westmark.com.
+
+[D1.S7] Brightwater Components Co. operates from 9660 Maple Avenue, Richmond, VA 23219.
+
+[D1.S8] Union Ledger Bank account 4588960508 is registered to Brightwater Components Co. [D1.S9] Union Ledger Bank account 6578774098 is registered to Westmark Tooling Inc. [D1.S10] Irene Tanaka holds account 6797732860 at Union Ledger Bank.
+
+[D1.S11] Please treat this as confidential.
