@@ -1,0 +1,351 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Sofia Sorensen works for Brightwater Components Co. and uses the address ssorensen@brightwater.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t56",
+   "t57",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 238,
+  "text": "Irene Tanaka is employed by Brightwater Components Co.; their email is irene.tanaka@brightwater.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t58",
+   "t59",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 239,
+  "end": 334,
+  "text": "Brightwater Components Co. employs Priya Okafor, who can be reached at pokafor@brightwater.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t60",
+   "t61",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 335,
+  "end": 423,
+  "text": "Samuel Petrov works for Westmark Tooling Inc. and uses the address spetrov@westmark.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t62",
+   "t63",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 424,
+  "end": 514,
+  "text": "Yara Moreau works for Westmark Tooling Inc. and uses the address yara.moreau@westmark.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t64",
+   "t65",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 516,
+  "end": 595,
+  "text": "Brightwater Components Co. operates from 9660 Maple Avenue, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 597,
+  "end": 677,
+  "text": "Union Ledger Bank account 4588960508 is registered to Brightwater Components Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t66",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 678,
+  "end": 753,
+  "text": "Union Ledger Bank account 6578774098 is registered to Westmark Tooling Inc.",
+  "tids": [
+   "t33",
+   "t34",
+   "t67",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 754,
+  "end": 813,
+  "text": "Irene Tanaka holds account 6797732860 at Union Ledger Bank.",
+  "tids": [
+   "t36",
+   "t37",
+   "t68",
+   "t35"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 815,
+  "end": 849,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: spetrov@westmark.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 56,
+  "text": "To: ssorensen@brightwater.com",
+  "tids": [
+   "t53",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 57,
+  "end": 88,
+  "text": "Subject: Invoice 7137 follow-up",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 89,
+  "end": 126,
+  "text": "Date: Thu, 15 May 2025 18:30:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 128,
+  "end": 137,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 139,
+  "end": 210,
+  "text": "Samuel Petrov started the payment approval on 12 April 2025, 11:45 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 211,
+  "end": 293,
+  "text": "On April 14, 2025 at 15:00 UTC, Samuel Petrov initiated the expense reimbursement.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 294,
+  "end": 359,
+  "text": "Sofia Sorensen was involved in the expense reimbursement as well.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 360,
+  "end": 441,
+  "text": "The account reconciliation was initiated by Yara Moreau on 9 May 2025, 16:10 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 442,
+  "end": 521,
+  "text": "The account reconciliation took place at the Brightwater Components Co. office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 522,
+  "end": 600,
+  "text": "The refund request was initiated by Irene Tanaka on May 15, 2025 at 16:30 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 602,
+  "end": 609,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 610,
+  "end": 616,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ }
+}

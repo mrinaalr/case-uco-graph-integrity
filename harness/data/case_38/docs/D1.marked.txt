@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Harborline Tooling Group employs Hector Castillo, who can be reached at hector.castillo@harborline.com. [D1.S3] Marcus Abara is employed by Harborline Tooling Group; their email is marcus.abara@harborline.com. [D1.S4] Priya Petrov works for Harborline Tooling Group and uses the address priya.petrov@harborline.com. [D1.S5] Luca Brennan works for Clearpath Logistics LLC and uses the address luca.brennan@clearpath.com.
+
+[D1.S6] Priya Petrov reports to Hector Castillo.
+
+[D1.S7] Harborline Tooling Group operates from 4492 Lakeview Road, Richmond, VA 23219.
+
+[D1.S8] Account 1954282715 at Lakeshore Savings Bank belongs to Harborline Tooling Group. [D1.S9] Account 3533521886 at Lakeshore Savings Bank belongs to Clearpath Logistics LLC. [D1.S10] Priya Petrov holds account 1044690614 at Lakeshore Savings Bank.
+
+[D1.S11] Funds moved from account 1954282715 to account 1044690614.
+
+[D1.S12] This summary reflects records available to date.

@@ -1,0 +1,11 @@
+[D3.S1] From: vosei@silverlake.com
+[D3.S2] To: kofi.ivanova@clearpath.com
+[D3.S3] Subject: Contract terms for next quarter
+[D3.S4] Date: Thu, 09 Oct 2025 14:00:00 +0000
+
+[D3.S5] Hi Kofi,
+
+[D3.S6] The refund request was initiated by Victor Osei on September 17, 2025 at 14:30 UTC. [D3.S7] Ruth Okafor also took part in the refund request. [D3.S8] On 26 September 2025, 14:45 UTC, Ruth Okafor initiated the invoice submission. [D3.S9] On October 9, 2025 at 12:00 UTC, Victor Osei initiated the wire transfer. [D3.S10] Kofi Ivanova was involved in the wire transfer as well.
+
+[D3.S11] Thanks,
+[D3.S12] Victor

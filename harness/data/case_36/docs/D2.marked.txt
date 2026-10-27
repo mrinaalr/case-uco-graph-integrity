@@ -1,0 +1,11 @@
+[D2.S1] From: yara.brennan@oakhaven.com
+[D2.S2] To: amendes@oakhaven.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Mon, 17 Feb 2025 13:45:00 +0000
+
+[D2.S5] Hi Andre,
+
+[D2.S6] Andre Mendes started the refund request on January 13, 2025 at 09:25 UTC. [D2.S7] Yara Brennan authorized the refund request. [D2.S8] On January 14, 2025 at 16:15 UTC, Andre Mendes initiated the vendor onboarding. [D2.S9] On 16 January 2025, 09:50 UTC, Julian Haddad initiated the wire transfer. [D2.S10] The contract amendment was initiated by Andre Mendes on 23 January 2025, 11:15 UTC. [D2.S11] The invoice submission was initiated by Andre Mendes on February 2, 2025 at 09:10 UTC. [D2.S12] The audit review was initiated by Julian Haddad on 8 February 2025, 17:25 UTC. [D2.S13] Yara Brennan also took part in the audit review. [D2.S14] On 17 February 2025, 11:45 UTC, Andre Mendes initiated the payment approval.
+
+[D2.S15] Thanks,
+[D2.S16] Yara

@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Maya Petrov works for Westmark Tooling Ltd. and uses the address mpetrov@westmark.com. [D1.S3] Tomas Brennan is employed by Westmark Tooling Ltd.; their email is tbrennan@westmark.com. [D1.S4] Hector Castillo works for Westmark Tooling Ltd. and uses the address hector.castillo@westmark.com. [D1.S5] Arjun Sorensen is employed by Summit Peak Analytics Co.; their email is asorensen@summitpeak.com. [D1.S6] Summit Peak Analytics Co. employs Irene Vance, who can be reached at irene.vance@summitpeak.com.
+
+[D1.S7] Westmark Tooling Ltd. is based at 522 Lakeview Road, Tucson, AZ 85701.
+
+[D1.S8] Account 9367154671 at Pinecrest National Bank belongs to Westmark Tooling Ltd. [D1.S9] Pinecrest National Bank account 8628564963 is registered to Summit Peak Analytics Co.
+
+[D1.S10] Let me know if anything here looks off.

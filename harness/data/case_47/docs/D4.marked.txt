@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Account 9316236729 at Lakeshore Savings Bank belongs to Stonebridge Industrial LLC. [D4.S3] Account 7070571284 at Lakeshore Savings Bank belongs to Summit Peak Fabrication Inc.
+
+[D4.S4] Hannah Vance started the vendor onboarding on 16 May 2025, 10:50 UTC. [D4.S5] Samuel Haddad also took part in the vendor onboarding. [D4.S6] Mei Mendes started the invoice submission on May 19, 2025 at 17:50 UTC. [D4.S7] Hannah Vance also took part in the invoice submission. [D4.S8] The bank detail change was initiated by Mei Mendes on May 24, 2025 at 09:10 UTC. [D4.S9] Approval for the bank detail change came from Samuel Haddad. [D4.S10] Account 9316236729 sent a transfer to account 7070571284.
+
+[D4.S11] This summary reflects records available to date.

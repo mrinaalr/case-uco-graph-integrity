@@ -1,0 +1,14 @@
+From: kofi.reyes@stonebridge.com
+To: lhaddad@stonebridge.com
+Subject: Updated remittance details
+Date: Fri, 15 Aug 2025 15:00:00 +0000
+Hi Lena,
+Hannah Okafor started the invoice submission on 15 July 2025, 10:00 UTC. Lena Haddad started the
+vendor onboarding on 20 July 2025, 13:00 UTC. The expense reimbursement was initiated by Lena
+Haddad on 31 July 2025, 17:45 UTC. The refund request was initiated by Hannah Okafor on August
+13, 2025 at 15:15 UTC. On 15 August 2025, 11:10 UTC, Dana Moreau initiated the payment approval.
+The payment approval took place at the Clearpath Logistics Group office. Dana Moreau started the
+contract amendment on 15 August 2025, 13:00 UTC. Kofi Reyes authorized the contract amendment.
+The contract amendment happened at Clearpath Logistics Group's office.
+Thanks,
+Kofi

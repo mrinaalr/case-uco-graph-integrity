@@ -1,0 +1,11 @@
+[D2.S1] From: fivanova@northwind.com
+[D2.S2] To: msorensen@summitpeak.com, thaddad@summitpeak.com
+[D2.S3] Subject: Re: banking change request
+[D2.S4] Date: Fri, 06 Jun 2025 17:45:00 +0000
+
+[D2.S5] Hi Mei,
+
+[D2.S6] The audit review was initiated by Mei Sorensen on May 23, 2025 at 15:30 UTC. [D2.S7] Felix Ivanova also took part in the audit review. [D2.S8] The audit review took place at the Summit Peak Consulting Co. office. [D2.S9] The wire transfer was initiated by Felix Ivanova on 25 May 2025, 14:50 UTC. [D2.S10] Approval for the wire transfer came from Mei Sorensen. [D2.S11] Tomas Haddad also took part in the wire transfer. [D2.S12] The wire transfer took place at the Summit Peak Consulting Co. office. [D2.S13] On June 6, 2025 at 15:45 UTC, Mei Sorensen initiated the contract amendment. [D2.S14] Tomas Haddad authorized the contract amendment. [D2.S15] Felix Ivanova also took part in the contract amendment. [D2.S16] Mei Sorensen communicated with Tomas Haddad about the payments.
+
+[D2.S17] Thanks,
+[D2.S18] Felix

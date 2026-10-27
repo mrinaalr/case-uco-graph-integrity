@@ -1,0 +1,519 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: yvance@stonebridge.com",
+  "tids": [
+   "t57",
+   "t14"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 90,
+  "text": "To: slindqvist@stonebridge.com, dana.sorensen@stonebridge.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t66",
+   "t67",
+   "t8",
+   "t11"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 91,
+  "end": 124,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 125,
+  "end": 162,
+  "text": "Date: Sun, 22 Jun 2025 15:50:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 164,
+  "end": 173,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 175,
+  "end": 243,
+  "text": "Sofia Lindqvist started the wire transfer on 1 June 2025, 13:15 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36",
+   "t5"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 244,
+  "end": 317,
+  "text": "The wire transfer took place at the Stonebridge Fabrication Group office.",
+  "tids": [
+   "t54",
+   "t1"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 383,
+  "text": "Yara Vance started the refund request on 22 June 2025, 13:50 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45",
+   "t6"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 384,
+  "end": 430,
+  "text": "Sofia Lindqvist authorized the refund request.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_1",
+   "event_3"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 431,
+  "end": 482,
+  "text": "Hector Haddad also took part in the refund request.",
+  "tids": [
+   "t49",
+   "t7"
+  ],
+  "mentions": [
+   "person_3",
+   "event_3"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 483,
+  "end": 553,
+  "text": "The refund request happened at Stonebridge Fabrication Group's office.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 555,
+  "end": 562,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 563,
+  "end": 567,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 143,
+  "text": "Dana Sorensen is employed by Stonebridge Fabrication Group; their email is dana.sorensen@stonebridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t68",
+   "t69",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 144,
+  "end": 248,
+  "text": "Sofia Lindqvist works for Stonebridge Fabrication Group and uses the address slindqvist@stonebridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t70",
+   "t71"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 249,
+  "end": 344,
+  "text": "Yara Vance works for Stonebridge Fabrication Group and uses the address yvance@stonebridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t72",
+   "t73"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 345,
+  "end": 443,
+  "text": "Hector Haddad is employed by Ironleaf Fabrication Inc.; their email is hector.haddad@ironleaf.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t74",
+   "t75",
+   "t2",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 445,
+  "end": 481,
+  "text": "Yara Vance reports to Dana Sorensen.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 483,
+  "end": 562,
+  "text": "Stonebridge Fabrication Group operates from 5062 Elm Street, Madison, WI 53703.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 564,
+  "end": 612,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 28,
+  "text": "From: yvance@stonebridge.com",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 29,
+  "end": 62,
+  "text": "To: dana.sorensen@stonebridge.com",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 63,
+  "end": 99,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 100,
+  "end": 137,
+  "text": "Date: Thu, 26 Jun 2025 12:25:00 +0000",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 139,
+  "end": 147,
+  "text": "Hi Dana,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 149,
+  "end": 227,
+  "text": "On June 4, 2025 at 14:10 UTC, Sofia Lindqvist initiated the vendor onboarding.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 228,
+  "end": 279,
+  "text": "Yara Vance also took part in the vendor onboarding.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 280,
+  "end": 357,
+  "text": "The vendor onboarding took place at the Stonebridge Fabrication Group office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 358,
+  "end": 436,
+  "text": "On June 26, 2025 at 10:25 UTC, Dana Sorensen initiated the bank detail change.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 437,
+  "end": 487,
+  "text": "Sofia Lindqvist authorized the bank detail change.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_1",
+   "event_4"
+  ]
+ },
+ "D3.S11": {
+  "doc_id": "D3",
+  "start": 489,
+  "end": 496,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S12": {
+  "doc_id": "D3",
+  "start": 497,
+  "end": 501,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 104,
+  "text": "Meridian Trust Bank account 5892096048 is registered to Stonebridge Fabrication Group.",
+  "tids": [
+   "t26",
+   "t27",
+   "t76",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 105,
+  "end": 183,
+  "text": "Account 8209458231 at Meridian Trust Bank belongs to Ironleaf Fabrication Inc.",
+  "tids": [
+   "t29",
+   "t30",
+   "t77",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 184,
+  "end": 246,
+  "text": "Dana Sorensen holds account 8624569036 at Meridian Trust Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t78",
+   "t31"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 248,
+  "end": 332,
+  "text": "The invoice submission was initiated by Dana Sorensen on June 20, 2025 at 13:25 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 334,
+  "end": 382,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

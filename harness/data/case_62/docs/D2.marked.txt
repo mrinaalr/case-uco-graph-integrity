@@ -1,0 +1,13 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Copperfield Services Group employs Priya Haddad, who can be reached at phaddad@copperfield.com. [D2.S3] Copperfield Services Group employs Felix Mendes, who can be reached at fmendes@copperfield.com. [D2.S4] Julian Novak works for Copperfield Services Group and uses the address julian.novak@copperfield.com. [D2.S5] Bluegate Services Group employs Tomas Kowalski, who can be reached at tomas.kowalski@bluegate.com. [D2.S6] Marcus Ivanova is employed by Bluegate Services Group; their email is mivanova@bluegate.com.
+
+[D2.S7] Julian Novak's manager is Priya Haddad.
+
+[D2.S8] Copperfield Services Group is based at 8877 Lakeview Road, Richmond, VA 23219.
+
+[D2.S9] Granite Federal Credit Union account 7684420089 is registered to Copperfield Services Group. [D2.S10] Granite Federal Credit Union account 8957815063 is registered to Bluegate Services Group. [D2.S11] Priya Haddad holds account 6072275949 at Granite Federal Credit Union.
+
+[D2.S12] Julian Novak communicated with Tomas Kowalski about the payments.
+
+[D2.S13] More detail will follow once records are pulled.

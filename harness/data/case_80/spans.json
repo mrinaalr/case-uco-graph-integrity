@@ -1,0 +1,438 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 130,
+  "text": "Kofi Moreau works for Westmark Components LLC and uses the address kofi.moreau@westmark.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t64",
+   "t65",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 131,
+  "end": 222,
+  "text": "Desmond Mendes is employed by Westmark Components LLC; their email is dmendes@westmark.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t66",
+   "t67",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 223,
+  "end": 322,
+  "text": "Clara Fischer works for Cedar Ridge Services LLC and uses the address clara.fischer@cedarridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t68",
+   "t69",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 324,
+  "end": 407,
+  "text": "The offices of Westmark Components LLC are at 6732 Maple Avenue, Madison, WI 53703.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 409,
+  "end": 485,
+  "text": "Westmark Components LLC holds account 6653929183 at Pinecrest National Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t70",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 486,
+  "end": 571,
+  "text": "Pinecrest National Bank account 6744334932 is registered to Cedar Ridge Services LLC.",
+  "tids": [
+   "t25",
+   "t26",
+   "t71",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 572,
+  "end": 644,
+  "text": "Pinecrest National Bank account 8967213416 is registered to Kofi Moreau.",
+  "tids": [
+   "t28",
+   "t29",
+   "t72",
+   "t27"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 646,
+  "end": 711,
+  "text": "Clara Fischer had been in contact with Desmond Mendes throughout.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 713,
+  "end": 747,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 34,
+  "text": "From: clara.fischer@cedarridge.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 35,
+  "end": 85,
+  "text": "To: dmendes@westmark.com, kofi.moreau@westmark.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t73"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 121,
+  "text": "Subject: Re: banking change request",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 122,
+  "end": 159,
+  "text": "Date: Mon, 10 Feb 2025 18:50:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 161,
+  "end": 172,
+  "text": "Hi Desmond,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 174,
+  "end": 252,
+  "text": "Clara Fischer started the account reconciliation on 8 January 2025, 12:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 253,
+  "end": 316,
+  "text": "Kofi Moreau was involved in the account reconciliation as well.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 317,
+  "end": 398,
+  "text": "On January 8, 2025 at 16:25 UTC, Desmond Mendes initiated the bank detail change.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 399,
+  "end": 445,
+  "text": "Kofi Moreau authorized the bank detail change.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_0",
+   "event_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 446,
+  "end": 518,
+  "text": "The bank detail change took place at the Westmark Components LLC office.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 519,
+  "end": 591,
+  "text": "Clara Fischer started the audit review on January 12, 2025 at 15:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 592,
+  "end": 676,
+  "text": "The invoice submission was initiated by Clara Fischer on 12 January 2025, 16:25 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 677,
+  "end": 745,
+  "text": "The invoice submission happened at Westmark Components LLC's office.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "event_3",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 746,
+  "end": 830,
+  "text": "The vendor onboarding was initiated by Desmond Mendes on 16 January 2025, 16:50 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 831,
+  "end": 905,
+  "text": "On 8 February 2025, 14:15 UTC, Kofi Moreau initiated the payment approval.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 906,
+  "end": 953,
+  "text": "Desmond Mendes authorized the payment approval.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 954,
+  "end": 1039,
+  "text": "The refund request was initiated by Desmond Mendes on February 10, 2025 at 16:50 UTC.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S18": {
+  "doc_id": "D2",
+  "start": 1040,
+  "end": 1094,
+  "text": "Approval for the refund request came from Kofi Moreau.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_0",
+   "event_6"
+  ]
+ },
+ "D2.S19": {
+  "doc_id": "D2",
+  "start": 1095,
+  "end": 1163,
+  "text": "The refund request took place at the Westmark Components LLC office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_6",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S20": {
+  "doc_id": "D2",
+  "start": 1165,
+  "end": 1172,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S21": {
+  "doc_id": "D2",
+  "start": 1173,
+  "end": 1178,
+  "text": "Clara",
+  "tids": [],
+  "mentions": []
+ }
+}

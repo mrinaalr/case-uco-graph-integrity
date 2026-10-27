@@ -1,0 +1,11 @@
+[D2.S1] From: clara.tanaka@ironleaf.com
+[D2.S2] To: sosei@oakhaven.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Fri, 14 Mar 2025 17:00:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] Julian Reyes started the vendor onboarding on February 5, 2025 at 13:00 UTC. [D2.S7] The vendor onboarding took place at the Oakhaven Supply Co. office. [D2.S8] On February 23, 2025 at 13:15 UTC, Samuel Osei initiated the bank detail change. [D2.S9] Clara Tanaka was involved in the bank detail change as well. [D2.S10] On March 5, 2025 at 16:45 UTC, Clara Tanaka initiated the contract amendment. [D2.S11] The contract amendment happened at Oakhaven Supply Co.'s office. [D2.S12] On 14 March 2025, 15:00 UTC, Julian Reyes initiated the invoice submission.
+
+[D2.S13] Thanks,
+[D2.S14] Clara

@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Clearpath Tooling LLC employs Arjun Quinn, who can be reached at arjun.quinn@clearpath.com. [D1.S3] Clara Vance works for Clearpath Tooling LLC and uses the address cvance@clearpath.com. [D1.S4] Andre Reyes works for Brightwater Distribution Inc. and uses the address areyes@brightwater.com.
+
+[D1.S5] Clara Vance reports to Arjun Quinn.
+
+[D1.S6] The offices of Clearpath Tooling LLC are at 5391 Elm Street, Dayton, OH 45402. [D1.S7] Brightwater Distribution Inc. is based at 5710 Commerce Drive, Dayton, OH 45402.
+
+[D1.S8] Please treat this as confidential.

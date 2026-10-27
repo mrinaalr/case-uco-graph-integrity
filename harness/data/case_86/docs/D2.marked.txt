@@ -1,0 +1,11 @@
+[D2.S1] From: yara.whitfield@ironleaf.com
+[D2.S2] To: irene.mendes@ironleaf.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Sun, 09 Mar 2025 11:25:00 +0000
+
+[D2.S5] Hi Irene,
+
+[D2.S6] The bank detail change was initiated by Kofi Quinn on 11 February 2025, 09:15 UTC. [D2.S7] The bank detail change took place at the Bluegate Packaging LLC office. [D2.S8] On 17 February 2025, 12:30 UTC, Irene Mendes initiated the expense reimbursement. [D2.S9] Kofi Quinn also took part in the expense reimbursement. [D2.S10] On 17 February 2025, 15:15 UTC, Kofi Quinn initiated the contract amendment. [D2.S11] Approval for the contract amendment came from Irene Mendes. [D2.S12] The account reconciliation was initiated by Kofi Quinn on 8 March 2025, 14:25 UTC. [D2.S13] Irene Mendes started the audit review on 9 March 2025, 09:25 UTC.
+
+[D2.S14] Thanks,
+[D2.S15] Yara

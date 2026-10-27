@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Lena Quinn works for Brightwater Fabrication Co. and uses the address lena.quinn@brightwater.com. [D1.S3] Victor Ivanova is employed by Brightwater Fabrication Co.; their email is victor.ivanova@brightwater.com. [D1.S4] Westmark Industrial Inc. employs Arjun Petrov, who can be reached at arjun.petrov@westmark.com.
+
+[D1.S5] The offices of Brightwater Fabrication Co. are at 7330 Riverside Boulevard, Albany, NY 12207.
+
+[D1.S6] Account 3386054395 at Union Ledger Bank belongs to Brightwater Fabrication Co. [D1.S7] Account 4007806154 at Union Ledger Bank belongs to Westmark Industrial Inc.
+
+[D1.S8] Please treat this as confidential.

@@ -1,0 +1,6 @@
+Incident summary
+Account 5656063669 at First Harbor Bank belongs to Northwind Analytics LLC. Account 5413632543
+at First Harbor Bank belongs to Harborline Fabrication LLC. First Harbor Bank account 7421022350 is
+registered to Yara Ivanova.
+On June 27, 2025 at 09:45 UTC, Yara Ivanova initiated the bank detail change.
+More detail will follow once records are pulled.

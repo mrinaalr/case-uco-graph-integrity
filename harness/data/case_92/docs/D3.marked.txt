@@ -1,0 +1,11 @@
+[D3.S1] From: rpetrov@harborline.com
+[D3.S2] To: flindqvist@copperfield.com, vholloway@harborline.com
+[D3.S3] Subject: Contract terms for next quarter
+[D3.S4] Date: Mon, 09 Jun 2025 11:50:00 +0000
+
+[D3.S5] Hi Felix,
+
+[D3.S6] The expense reimbursement was initiated by Felix Lindqvist on May 23, 2025 at 09:50 UTC. [D3.S7] The expense reimbursement happened at Harborline Distribution LLC's office. [D3.S8] The invoice submission was initiated by Felix Lindqvist on 9 June 2025, 09:50 UTC. [D3.S9] The invoice submission took place at the Harborline Distribution LLC office.
+
+[D3.S10] Thanks,
+[D3.S11] Rosa

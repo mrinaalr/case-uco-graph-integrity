@@ -1,0 +1,415 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 32,
+  "text": "From: luca.haddad@silverlake.com",
+  "tids": [
+   "t50",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 33,
+  "end": 64,
+  "text": "To: julian.moreau@clearpath.com",
+  "tids": [
+   "t51",
+   "t59",
+   "t13"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 65,
+  "end": 100,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 101,
+  "end": 138,
+  "text": "Date: Fri, 27 Jun 2025 18:15:00 +0000",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 140,
+  "end": 150,
+  "text": "Hi Julian,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 152,
+  "end": 217,
+  "text": "On 7 June 2025, 09:45 UTC, Owen Park initiated the wire transfer.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 218,
+  "end": 261,
+  "text": "Julian Moreau authorized the wire transfer.",
+  "tids": [
+   "t49",
+   "t6"
+  ],
+  "mentions": [
+   "person_2",
+   "event_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 262,
+  "end": 343,
+  "text": "On June 10, 2025 at 13:30 UTC, Julian Moreau initiated the expense reimbursement.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 344,
+  "end": 424,
+  "text": "The bank detail change was initiated by Owen Park on June 14, 2025 at 12:30 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 425,
+  "end": 501,
+  "text": "On June 27, 2025 at 16:15 UTC, Luca Haddad initiated the invoice submission.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47",
+   "t5"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 503,
+  "end": 510,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 511,
+  "end": 515,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 131,
+  "text": "Owen Park works for Silverlake Consulting Inc. and uses the address owen.park@silverlake.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t60",
+   "t61",
+   "t1",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 229,
+  "text": "Luca Haddad works for Silverlake Consulting Inc. and uses the address luca.haddad@silverlake.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 230,
+  "end": 329,
+  "text": "Clearpath Industrial Ltd. employs Julian Moreau, who can be reached at julian.moreau@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t64",
+   "t65",
+   "t2"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 331,
+  "end": 364,
+  "text": "Luca Haddad reports to Owen Park.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 366,
+  "end": 442,
+  "text": "Silverlake Consulting Inc. operates from 3582 Maple Avenue, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 444,
+  "end": 526,
+  "text": "Meridian Trust Bank account 7818724034 is registered to Silverlake Consulting Inc.",
+  "tids": [
+   "t22",
+   "t23",
+   "t66",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 527,
+  "end": 608,
+  "text": "Meridian Trust Bank account 7087155678 is registered to Clearpath Industrial Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t67",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 610,
+  "end": 644,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 32,
+  "text": "From: luca.haddad@silverlake.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_1"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 33,
+  "end": 90,
+  "text": "To: julian.moreau@clearpath.com, owen.park@silverlake.com",
+  "tids": [
+   "t55",
+   "t56",
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 91,
+  "end": 126,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 127,
+  "end": 164,
+  "text": "Date: Sat, 21 Jun 2025 17:50:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 166,
+  "end": 176,
+  "text": "Hi Julian,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 178,
+  "end": 243,
+  "text": "Julian Moreau started the audit review on 9 June 2025, 16:45 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_2"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 244,
+  "end": 319,
+  "text": "The refund request was initiated by Luca Haddad on 12 June 2025, 13:45 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 320,
+  "end": 395,
+  "text": "On June 21, 2025 at 15:50 UTC, Luca Haddad initiated the vendor onboarding.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 397,
+  "end": 404,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S10": {
+  "doc_id": "D3",
+  "start": 405,
+  "end": 409,
+  "text": "Luca",
+  "tids": [],
+  "mentions": []
+ }
+}

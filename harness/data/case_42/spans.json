@@ -1,0 +1,407 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Lena Quinn works for Brightwater Fabrication Co. and uses the address lena.quinn@brightwater.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t69",
+   "t70",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 241,
+  "text": "Victor Ivanova is employed by Brightwater Fabrication Co.; their email is victor.ivanova@brightwater.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t71",
+   "t72",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 242,
+  "end": 337,
+  "text": "Westmark Industrial Inc. employs Arjun Petrov, who can be reached at arjun.petrov@westmark.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t73",
+   "t74",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 339,
+  "end": 432,
+  "text": "The offices of Brightwater Fabrication Co. are at 7330 Riverside Boulevard, Albany, NY 12207.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 434,
+  "end": 512,
+  "text": "Account 3386054395 at Union Ledger Bank belongs to Brightwater Fabrication Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t75",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 513,
+  "end": 588,
+  "text": "Account 4007806154 at Union Ledger Bank belongs to Westmark Industrial Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t76",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 590,
+  "end": 624,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 31,
+  "text": "From: arjun.petrov@westmark.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 32,
+  "end": 94,
+  "text": "To: lena.quinn@brightwater.com, victor.ivanova@brightwater.com",
+  "tids": [
+   "t53",
+   "t54",
+   "t77",
+   "t78"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 95,
+  "end": 120,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 121,
+  "end": 158,
+  "text": "Date: Tue, 12 Aug 2025 14:50:00 +0000",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 160,
+  "end": 168,
+  "text": "Hi Lena,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 170,
+  "end": 251,
+  "text": "The bank detail change was initiated by Lena Quinn on July 10, 2025 at 14:10 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 252,
+  "end": 332,
+  "text": "Victor Ivanova started the account reconciliation on July 12, 2025 at 15:00 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 333,
+  "end": 401,
+  "text": "On 15 July 2025, 11:00 UTC, Arjun Petrov initiated the audit review.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 402,
+  "end": 483,
+  "text": "The vendor onboarding was initiated by Lena Quinn on August 2, 2025 at 14:00 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 484,
+  "end": 554,
+  "text": "Victor Ivanova started the refund request on 8 August 2025, 16:50 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 555,
+  "end": 632,
+  "text": "On August 10, 2025 at 15:10 UTC, Arjun Petrov initiated the payment approval.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 633,
+  "end": 720,
+  "text": "The expense reimbursement was initiated by Victor Ivanova on 12 August 2025, 12:50 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 722,
+  "end": 729,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 730,
+  "end": 735,
+  "text": "Arjun",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t79"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 53,
+  "text": "@victori is Victor Ivanova.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 54,
+  "end": 78,
+  "text": "@arjunp is Arjun Petrov.",
+  "tids": [
+   "t51",
+   "t50"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 163,
+  "text": "[2025-07-10 15:10 UTC] @victori to @arjunp: Let's keep this between us until Friday.",
+  "tids": [
+   "t57",
+   "t58",
+   "t59",
+   "t60",
+   "t80"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_2"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 164,
+  "end": 235,
+  "text": "[2025-07-10 15:17 UTC] @arjunp to @victori: Did the bank call back yet?",
+  "tids": [
+   "t61",
+   "t62",
+   "t63",
+   "t64"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_2",
+   "handle_person_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 236,
+  "end": 325,
+  "text": "[2025-07-10 15:24 UTC] @victori to @arjunp: Can you look at the vendor file before lunch?",
+  "tids": [
+   "t65",
+   "t66",
+   "t67",
+   "t68"
+  ],
+  "mentions": [
+   "chat_msg_2",
+   "handle_person_1",
+   "handle_person_2"
+  ]
+ }
+}

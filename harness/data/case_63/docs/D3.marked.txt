@@ -1,0 +1,5 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @victorp is Victor Petrov.
+[D3.S3] @sofiaf is Sofia Fischer.
+[D3.S4] [2025-02-26 12:15 UTC] @victorp to @sofiaf: Let's keep this between us until Friday.
+[D3.S5] [2025-02-26 12:22 UTC] @sofiaf to @victorp: Did the bank call back yet?

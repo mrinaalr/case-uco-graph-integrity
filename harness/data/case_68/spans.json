@@ -1,0 +1,449 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 128,
+  "text": "Tomas Okafor is employed by Oakhaven Packaging Group; their email is tokafor@oakhaven.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t63",
+   "t64",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 129,
+  "end": 221,
+  "text": "Oakhaven Packaging Group employs Irene Fischer, who can be reached at ifischer@oakhaven.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t65",
+   "t66",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 222,
+  "end": 317,
+  "text": "Oakhaven Packaging Group employs Oscar Moreau, who can be reached at oscar.moreau@oakhaven.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t67",
+   "t68",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 409,
+  "text": "Priya Abara is employed by Silverlake Services Group; their email is pabara@silverlake.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t69",
+   "t70",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 410,
+  "end": 507,
+  "text": "Felix Castillo works for Silverlake Services Group and uses the address fcastillo@silverlake.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t71",
+   "t72",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 509,
+  "end": 549,
+  "text": "Irene Fischer's manager is Tomas Okafor.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 550,
+  "end": 589,
+  "text": "Oscar Moreau's manager is Tomas Okafor.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "person_0"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 591,
+  "end": 665,
+  "text": "Oakhaven Packaging Group is based at 5421 Main Street, Richmond, VA 23219.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 667,
+  "end": 715,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: fcastillo@silverlake.com",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 79,
+  "text": "To: ifischer@oakhaven.com, pabara@silverlake.com",
+  "tids": [
+   "t55",
+   "t56",
+   "t73",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 80,
+  "end": 120,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 121,
+  "end": 158,
+  "text": "Date: Fri, 07 Feb 2025 12:15:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 160,
+  "end": 169,
+  "text": "Hi Irene,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 171,
+  "end": 247,
+  "text": "Oscar Moreau started the vendor onboarding on January 15, 2025 at 15:50 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 248,
+  "end": 306,
+  "text": "Priya Abara was involved in the vendor onboarding as well.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_3",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 307,
+  "end": 392,
+  "text": "The payment approval was initiated by Irene Fischer on February 7, 2025 at 10:15 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 393,
+  "end": 464,
+  "text": "The payment approval took place at the Oakhaven Packaging Group office.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 466,
+  "end": 473,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 474,
+  "end": 479,
+  "text": "Felix",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t75"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 49,
+  "text": "@priyaa is Priya Abara.",
+  "tids": [
+   "t45",
+   "t44"
+  ],
+  "mentions": [
+   "handle_person_3",
+   "person_3"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 50,
+  "end": 74,
+  "text": "@tomaso is Tomas Okafor.",
+  "tids": [
+   "t47",
+   "t46"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 75,
+  "end": 152,
+  "text": "[2025-01-15 16:50 UTC] @priyaa to @tomaso: Finance is asking questions again.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61",
+   "t62",
+   "t76"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_3",
+   "handle_person_0"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 95,
+  "text": "Oakhaven Packaging Group holds account 6920369806 at Pinecrest National Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t77",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 96,
+  "end": 174,
+  "text": "Silverlake Services Group holds account 1420832158 at Pinecrest National Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t78",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 176,
+  "end": 254,
+  "text": "The audit review was initiated by Irene Fischer on 22 January 2025, 17:25 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 255,
+  "end": 311,
+  "text": "Felix Castillo was involved in the audit review as well.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_4",
+   "event_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 312,
+  "end": 375,
+  "text": "The audit review happened at Oakhaven Packaging Group's office.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "event_1",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 377,
+  "end": 425,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ }
+}

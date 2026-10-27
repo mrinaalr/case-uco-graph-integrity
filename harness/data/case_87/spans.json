@@ -1,0 +1,380 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Sofia Fischer works for Northwind Logistics Group and uses the address sfischer@northwind.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t64",
+   "t65",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 226,
+  "text": "Tomas Park is employed by Northwind Logistics Group; their email is tomas.park@northwind.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t66",
+   "t67",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 227,
+  "end": 324,
+  "text": "Andre Haddad is employed by Northwind Logistics Group; their email is andre.haddad@northwind.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t68",
+   "t69",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 325,
+  "end": 409,
+  "text": "Westmark Tooling LLC employs Arjun Novak, who can be reached at anovak@westmark.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t70",
+   "t71",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 410,
+  "end": 493,
+  "text": "Hannah Osei works for Westmark Tooling LLC and uses the address hosei@westmark.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t73",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 495,
+  "end": 533,
+  "text": "Tomas Park's manager is Sofia Fischer.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 535,
+  "end": 626,
+  "text": "The offices of Northwind Logistics Group are at 7137 Riverside Boulevard, Tucson, AZ 85701.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 628,
+  "end": 708,
+  "text": "Union Ledger Bank account 7592627724 is registered to Northwind Logistics Group.",
+  "tids": [
+   "t30",
+   "t31",
+   "t74",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 709,
+  "end": 776,
+  "text": "Westmark Tooling LLC holds account 3350772033 at Union Ledger Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t75",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 778,
+  "end": 817,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 24,
+  "text": "From: hosei@westmark.com",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 25,
+  "end": 53,
+  "text": "To: tomas.park@northwind.com",
+  "tids": [
+   "t61",
+   "t76"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 54,
+  "end": 89,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 90,
+  "end": 127,
+  "text": "Date: Sat, 25 Oct 2025 18:25:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 129,
+  "end": 138,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 140,
+  "end": 220,
+  "text": "Sofia Fischer started the invoice submission on September 18, 2025 at 16:10 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 221,
+  "end": 304,
+  "text": "On 20 September 2025, 15:25 UTC, Sofia Fischer initiated the expense reimbursement.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 305,
+  "end": 382,
+  "text": "On October 2, 2025 at 14:25 UTC, Hannah Osei initiated the vendor onboarding.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_4"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 383,
+  "end": 462,
+  "text": "Arjun Novak started the account reconciliation on October 5, 2025 at 15:00 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 463,
+  "end": 533,
+  "text": "On 9 October 2025, 10:15 UTC, Andre Haddad initiated the audit review.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 534,
+  "end": 621,
+  "text": "The bank detail change was initiated by Sofia Fischer on October 11, 2025 at 10:30 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 622,
+  "end": 692,
+  "text": "Tomas Park started the payment approval on 12 October 2025, 10:15 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 693,
+  "end": 772,
+  "text": "On October 25, 2025 at 16:25 UTC, Hannah Osei initiated the contract amendment.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_7",
+   "person_4"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 774,
+  "end": 781,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 782,
+  "end": 788,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ }
+}

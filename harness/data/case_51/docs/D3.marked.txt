@@ -1,0 +1,6 @@
+[D3.S1] Chat export: #finance-ops
+[D3.S2] @sofiao is Sofia Okafor.
+[D3.S3] @irenel is Irene Lindqvist.
+[D3.S4] [2025-02-13 17:30 UTC] @sofiao to @irenel: Finance is asking questions again.
+[D3.S5] [2025-02-13 17:37 UTC] @irenel to @sofiao: I pushed it through, check your inbox.
+[D3.S6] [2025-02-13 17:44 UTC] @sofiao to @irenel: Let's keep this between us until Friday.

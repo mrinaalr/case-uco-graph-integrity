@@ -1,0 +1,11 @@
+[D2.S1] From: iivanova@northwind.com
+[D2.S2] To: yara.castillo@stonebridge.com, clara.osei@northwind.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Mon, 28 Apr 2025 15:45:00 +0000
+
+[D2.S5] Hi Yara,
+
+[D2.S6] The vendor onboarding was initiated by Yara Castillo on March 22, 2025 at 09:50 UTC. [D2.S7] The wire transfer was initiated by Yara Castillo on April 15, 2025 at 09:45 UTC. [D2.S8] Irene Ivanova started the bank detail change on April 28, 2025 at 13:45 UTC.
+
+[D2.S9] Thanks,
+[D2.S10] Irene

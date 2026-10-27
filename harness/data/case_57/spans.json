@@ -1,0 +1,409 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 131,
+  "text": "Yara Mendes works for Westmark Industrial Inc. and uses the address yara.mendes@westmark.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t66",
+   "t67",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 132,
+  "end": 233,
+  "text": "Westmark Industrial Inc. employs Julian Sorensen, who can be reached at julian.sorensen@westmark.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t68",
+   "t69",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 234,
+  "end": 325,
+  "text": "Westmark Industrial Inc. employs Owen Abara, who can be reached at owen.abara@westmark.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t70",
+   "t71",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 326,
+  "end": 421,
+  "text": "Nadia Okafor works for Copperfield Analytics Inc. and uses the address nokafor@copperfield.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t72",
+   "t73",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 422,
+  "end": 528,
+  "text": "Copperfield Analytics Inc. employs Clara Lindqvist, who can be reached at clara.lindqvist@copperfield.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t74",
+   "t75",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 530,
+  "end": 611,
+  "text": "The offices of Westmark Industrial Inc. are at 9013 Main Street, Omaha, NE 68102.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 613,
+  "end": 688,
+  "text": "Account 8639218453 at First Harbor Bank belongs to Westmark Industrial Inc.",
+  "tids": [
+   "t30",
+   "t31",
+   "t76",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 689,
+  "end": 762,
+  "text": "Copperfield Analytics Inc. holds account 1270877455 at First Harbor Bank.",
+  "tids": [
+   "t33",
+   "t34",
+   "t77",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 763,
+  "end": 826,
+  "text": "Account 2023441192 at First Harbor Bank belongs to Yara Mendes.",
+  "tids": [
+   "t36",
+   "t37",
+   "t78",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 828,
+  "end": 876,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 30,
+  "text": "From: yara.mendes@westmark.com",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 31,
+  "end": 58,
+  "text": "To: nokafor@copperfield.com",
+  "tids": [
+   "t63",
+   "t79"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 59,
+  "end": 92,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 130,
+  "text": "Date: Tue, 11 Nov 2025 19:50:00 +0000",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 132,
+  "end": 141,
+  "text": "Hi Nadia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 143,
+  "end": 213,
+  "text": "Yara Mendes started the payment approval on 9 October 2025, 09:15 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 214,
+  "end": 291,
+  "text": "The audit review was initiated by Nadia Okafor on 13 October 2025, 11:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_3"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 292,
+  "end": 349,
+  "text": "Clara Lindqvist was involved in the audit review as well.",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "person_4",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 350,
+  "end": 417,
+  "text": "Owen Abara started the wire transfer on 13 October 2025, 16:10 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 418,
+  "end": 494,
+  "text": "Clara Lindqvist started the vendor onboarding on 20 October 2025, 13:50 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_4"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 495,
+  "end": 548,
+  "text": "Nadia Okafor also took part in the vendor onboarding.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_3",
+   "event_3"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 549,
+  "end": 628,
+  "text": "On November 6, 2025 at 15:10 UTC, Yara Mendes initiated the invoice submission.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 629,
+  "end": 698,
+  "text": "The invoice submission happened at Westmark Industrial Inc.'s office.",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 699,
+  "end": 788,
+  "text": "The expense reimbursement was initiated by Clara Lindqvist on 9 November 2025, 12:25 UTC.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_4"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 789,
+  "end": 866,
+  "text": "On 11 November 2025, 17:50 UTC, Clara Lindqvist initiated the refund request.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_4"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 868,
+  "end": 875,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 876,
+  "end": 880,
+  "text": "Yara",
+  "tids": [],
+  "mentions": []
+ }
+}

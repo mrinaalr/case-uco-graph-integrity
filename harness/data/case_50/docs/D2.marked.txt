@@ -1,0 +1,11 @@
+[D2.S1] From: mpark@cedarridge.com
+[D2.S2] To: grace.vance@silverlake.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Mon, 18 Aug 2025 11:10:00 +0000
+
+[D2.S5] Hi Grace,
+
+[D2.S6] Marcus Park started the vendor onboarding on August 1, 2025 at 13:00 UTC. [D2.S7] The vendor onboarding happened at Silverlake Logistics LLC's office. [D2.S8] The contract amendment was initiated by Grace Vance on 10 August 2025, 11:25 UTC. [D2.S9] The account reconciliation was initiated by Grace Vance on August 12, 2025 at 16:45 UTC. [D2.S10] On August 13, 2025 at 10:15 UTC, Grace Vance initiated the wire transfer. [D2.S11] On August 14, 2025 at 13:50 UTC, Felix Banerjee initiated the bank detail change. [D2.S12] Approval for the bank detail change came from Grace Vance. [D2.S13] The audit review was initiated by Felix Banerjee on 18 August 2025, 09:10 UTC.
+
+[D2.S14] Thanks,
+[D2.S15] Marcus

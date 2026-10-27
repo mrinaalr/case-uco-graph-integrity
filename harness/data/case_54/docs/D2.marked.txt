@@ -1,0 +1,11 @@
+[D2.S1] From: oosei@redfern.com
+[D2.S2] To: victor.lindqvist@cedarridge.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Sat, 30 Aug 2025 18:10:00 +0000
+
+[D2.S5] Hi Victor,
+
+[D2.S6] On August 8, 2025 at 11:10 UTC, Kofi Vance initiated the payment approval. [D2.S7] Kofi Vance started the vendor onboarding on August 9, 2025 at 11:45 UTC. [D2.S8] The vendor onboarding took place at the Cedar Ridge Distribution Inc. office. [D2.S9] The wire transfer was initiated by Lena Petrov on 11 August 2025, 17:00 UTC. [D2.S10] The invoice submission was initiated by Victor Lindqvist on 30 August 2025, 16:10 UTC.
+
+[D2.S11] Thanks,
+[D2.S12] Owen

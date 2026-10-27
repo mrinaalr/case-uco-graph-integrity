@@ -1,0 +1,11 @@
+From: fosei@brightwater.com
+To: ruth.vance@ironleaf.com, dana.tanaka@ironleaf.com
+Subject: Updated remittance details
+Date: Mon, 28 Apr 2025 19:00:00 +0000
+
+Hi Ruth,
+
+The bank detail change was initiated by Felix Osei on March 29, 2025 at 12:50 UTC. On 28 April 2025, 17:00 UTC, Dana Tanaka initiated the invoice submission.
+
+Thanks,
+Felix

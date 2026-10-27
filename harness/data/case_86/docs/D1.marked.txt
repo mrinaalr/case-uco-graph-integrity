@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Bluegate Packaging LLC employs Kofi Quinn, who can be reached at kofi.quinn@bluegate.com. [D1.S3] Bluegate Packaging LLC employs Victor Haddad, who can be reached at victor.haddad@bluegate.com. [D1.S4] Felix Novak is employed by Bluegate Packaging LLC; their email is fnovak@bluegate.com. [D1.S5] Yara Whitfield is employed by Ironleaf Industrial Group; their email is yara.whitfield@ironleaf.com. [D1.S6] Irene Mendes works for Ironleaf Industrial Group and uses the address irene.mendes@ironleaf.com.
+
+[D1.S7] The offices of Bluegate Packaging LLC are at 5723 Market Street, Spokane, WA 99201.
+
+[D1.S8] First Harbor Bank account 7006202390 is registered to Bluegate Packaging LLC. [D1.S9] First Harbor Bank account 4156727933 is registered to Ironleaf Industrial Group. [D1.S10] First Harbor Bank account 9533946091 is registered to Felix Novak.
+
+[D1.S11] Account 7006202390 sent a transfer to account 9533946091. [D1.S12] Victor Haddad had been in contact with Kofi Quinn throughout.
+
+[D1.S13] More detail will follow once records are pulled.

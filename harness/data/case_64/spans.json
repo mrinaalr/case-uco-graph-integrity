@@ -1,0 +1,383 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 38,
+  "text": "From: hannah.lindqvist@stonebridge.com",
+  "tids": [
+   "t44",
+   "t7"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 39,
+  "end": 65,
+  "text": "To: oabara@stonebridge.com",
+  "tids": [
+   "t45",
+   "t52",
+   "t10"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 66,
+  "end": 97,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 98,
+  "end": 135,
+  "text": "Date: Sat, 01 Mar 2025 13:50:00 +0000",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 145,
+  "text": "Hi Owen,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 147,
+  "end": 235,
+  "text": "On January 21, 2025 at 09:00 UTC, Hannah Lindqvist initiated the account reconciliation.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29",
+   "t4"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 236,
+  "end": 318,
+  "text": "The audit review was initiated by Irene Ivanova on February 21, 2025 at 10:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35",
+   "t6"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 319,
+  "end": 371,
+  "text": "Owen Abara was involved in the audit review as well.",
+  "tids": [
+   "t42",
+   "t5"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 372,
+  "end": 450,
+  "text": "Hannah Lindqvist started the contract amendment on March 1, 2025 at 11:50 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 452,
+  "end": 459,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 460,
+  "end": 466,
+  "text": "Hannah",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 149,
+  "text": "Hannah Lindqvist works for Stonebridge Distribution Ltd. and uses the address hannah.lindqvist@stonebridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t53",
+   "t54",
+   "t1"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 150,
+  "end": 245,
+  "text": "Owen Abara is employed by Stonebridge Distribution Ltd.; their email is oabara@stonebridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t55",
+   "t56"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 246,
+  "end": 344,
+  "text": "Irene Ivanova works for Summit Peak Supply Inc. and uses the address irene.ivanova@summitpeak.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t57",
+   "t58",
+   "t2",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 346,
+  "end": 431,
+  "text": "Stonebridge Distribution Ltd. operates from 4307 Industrial Parkway, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 433,
+  "end": 521,
+  "text": "Lakeshore Savings Bank account 1461088853 is registered to Stonebridge Distribution Ltd.",
+  "tids": [
+   "t22",
+   "t23",
+   "t59",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 522,
+  "end": 601,
+  "text": "Account 3738377596 at Lakeshore Savings Bank belongs to Summit Peak Supply Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t60",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 603,
+  "end": 664,
+  "text": "Irene Ivanova had been in contact with Owen Abara throughout.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 666,
+  "end": 705,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 34,
+  "text": "From: irene.ivanova@summitpeak.com",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_2"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 35,
+  "end": 71,
+  "text": "To: hannah.lindqvist@stonebridge.com",
+  "tids": [
+   "t49",
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 72,
+  "end": 108,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 109,
+  "end": 146,
+  "text": "Date: Sun, 23 Feb 2025 15:25:00 +0000",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 148,
+  "end": 158,
+  "text": "Hi Hannah,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 160,
+  "end": 248,
+  "text": "The payment approval was initiated by Hannah Lindqvist on January 24, 2025 at 11:15 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 249,
+  "end": 331,
+  "text": "Hannah Lindqvist started the expense reimbursement on 23 February 2025, 13:25 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 333,
+  "end": 340,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 341,
+  "end": 346,
+  "text": "Irene",
+  "tids": [],
+  "mentions": []
+ }
+}

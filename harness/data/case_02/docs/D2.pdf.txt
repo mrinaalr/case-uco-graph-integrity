@@ -1,0 +1,13 @@
+From: lfischer@summitpeak.com
+To: wesley.park@oakhaven.com, sivanova@oakhaven.com
+Subject: Contract terms for next quarter
+Date: Mon, 28 Jul 2025 11:50:00 +0000
+Hi Wesley,
+Luca Fischer started the refund request on June 20, 2025 at 17:00 UTC. The invoice submission was
+initiated by Sofia Ivanova on June 22, 2025 at 09:30 UTC. Luca Fischer started the payment approval
+on 2 July 2025, 13:30 UTC. Sofia Ivanova started the bank detail change on July 22, 2025 at 14:50
+UTC. Luca Fischer started the expense reimbursement on July 24, 2025 at 10:10 UTC. Sofia Ivanova
+started the vendor onboarding on July 24, 2025 at 12:00 UTC. On July 28, 2025 at 09:50 UTC, Luca
+Fischer initiated the wire transfer. Wesley Park also took part in the wire transfer.
+Thanks,
+Luca

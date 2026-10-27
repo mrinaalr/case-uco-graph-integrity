@@ -1,0 +1,11 @@
+[D1.S1] From: dana.abara@harborline.com
+[D1.S2] To: rosa.brennan@stonebridge.com, edelgado@stonebridge.com
+[D1.S3] Subject: Quarter-end vendor payments
+[D1.S4] Date: Mon, 12 May 2025 15:25:00 +0000
+
+[D1.S5] Hi Rosa,
+
+[D1.S6] The refund request was initiated by Dana Abara on 11 April 2025, 14:50 UTC. [D1.S7] The wire transfer was initiated by Dana Abara on May 12, 2025 at 13:25 UTC.
+
+[D1.S8] Thanks,
+[D1.S9] Dana

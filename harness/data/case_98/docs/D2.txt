@@ -1,0 +1,11 @@
+From: dhaddad@bluegate.com
+To: jmoreau@clearpath.com
+Subject: Quarter-end vendor payments
+Date: Wed, 19 Mar 2025 13:30:00 +0000
+
+Hi Julian,
+
+The expense reimbursement was initiated by Dana Haddad on February 20, 2025 at 11:50 UTC. On 4 March 2025, 11:50 UTC, Wesley Quinn initiated the account reconciliation. The account reconciliation happened at Bluegate Freight Ltd.'s office. The invoice submission was initiated by Dana Haddad on March 4, 2025 at 14:30 UTC. Julian Moreau also took part in the invoice submission. On 4 March 2025, 15:30 UTC, Felix Lindqvist initiated the refund request. The wire transfer was initiated by Dana Haddad on 7 March 2025, 12:10 UTC. The payment approval was initiated by Felix Lindqvist on March 19, 2025 at 11:30 UTC. Dana Haddad also took part in the payment approval.
+
+Thanks,
+Dana

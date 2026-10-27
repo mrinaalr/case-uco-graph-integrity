@@ -1,0 +1,11 @@
+[D1.S1] From: andre.novak@redfern.com
+[D1.S2] To: oashworth@northwind.com
+[D1.S3] Subject: Invoice 1677 follow-up
+[D1.S4] Date: Sat, 18 Oct 2025 12:15:00 +0000
+
+[D1.S5] Hi Owen,
+
+[D1.S6] The vendor onboarding was initiated by Andre Novak on 8 September 2025, 14:10 UTC. [D1.S7] The invoice submission was initiated by Owen Ashworth on September 24, 2025 at 14:30 UTC. [D1.S8] On 4 October 2025, 17:50 UTC, Samuel Lindqvist initiated the bank detail change. [D1.S9] Felix Whitfield also took part in the bank detail change. [D1.S10] On October 18, 2025 at 10:15 UTC, Felix Whitfield initiated the account reconciliation. [D1.S11] Andre Novak also took part in the account reconciliation.
+
+[D1.S12] Thanks,
+[D1.S13] Andre

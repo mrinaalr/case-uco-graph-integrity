@@ -1,0 +1,268 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 140,
+  "text": "Brightwater Fabrication Ltd. employs Hector Novak, who can be reached at hector.novak@brightwater.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t40",
+   "t41",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 141,
+  "end": 245,
+  "text": "Brightwater Fabrication Ltd. employs Owen Ashworth, who can be reached at owen.ashworth@brightwater.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t42",
+   "t43",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 246,
+  "end": 352,
+  "text": "Marcus Holloway works for Cedar Ridge Logistics Group and uses the address marcus.holloway@cedarridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t44",
+   "t45",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 354,
+  "end": 450,
+  "text": "The offices of Brightwater Fabrication Ltd. are at 2604 Riverside Boulevard, Richmond, VA 23219.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 452,
+  "end": 500,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 35,
+  "text": "From: owen.ashworth@brightwater.com",
+  "tids": [
+   "t36"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 36,
+  "end": 68,
+  "text": "To: hector.novak@brightwater.com",
+  "tids": [
+   "t37",
+   "t46"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 69,
+  "end": 94,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t38"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 95,
+  "end": 132,
+  "text": "Date: Thu, 08 May 2025 18:30:00 +0000",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 144,
+  "text": "Hi Hector,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 146,
+  "end": 218,
+  "text": "Hector Novak started the contract amendment on May 4, 2025 at 11:30 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_0"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 219,
+  "end": 288,
+  "text": "Owen Ashworth started the refund request on May 8, 2025 at 16:30 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 290,
+  "end": 297,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 298,
+  "end": 302,
+  "text": "Owen",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 95,
+  "text": "Brightwater Fabrication Ltd. holds account 7555285187 at Meridian Trust Bank.",
+  "tids": [
+   "t22",
+   "t23",
+   "t47",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 96,
+  "end": 172,
+  "text": "Cedar Ridge Logistics Group holds account 6742188929 at Meridian Trust Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t48",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 174,
+  "end": 250,
+  "text": "Hector Novak started the account reconciliation on May 8, 2025 at 14:15 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 252,
+  "end": 291,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Westmark Supply Ltd. employs Irene Tanaka, who can be reached at irene.tanaka@westmark.com. [D1.S3] Westmark Supply Ltd. employs Clara Petrov, who can be reached at clara.petrov@westmark.com. [D1.S4] Kofi Reyes works for Westmark Supply Ltd. and uses the address kofi.reyes@westmark.com. [D1.S5] Silverlake Distribution Ltd. employs Desmond Kowalski, who can be reached at dkowalski@silverlake.com. [D1.S6] Hannah Ashworth works for Silverlake Distribution Ltd. and uses the address hashworth@silverlake.com.
+
+[D1.S7] Kofi Reyes's manager is Irene Tanaka. [D1.S8] Clara Petrov reports to Irene Tanaka.
+
+[D1.S9] The offices of Westmark Supply Ltd. are at 2708 Commerce Drive, Omaha, NE 68102.
+
+[D1.S10] Desmond Kowalski had been in contact with Kofi Reyes throughout.
+
+[D1.S11] This summary reflects records available to date.

@@ -1,0 +1,11 @@
+[D1.S1] From: csorensen@stonebridge.com
+[D1.S2] To: gquinn@bluegate.com, arjun.reyes@stonebridge.com
+[D1.S3] Subject: Updated remittance details
+[D1.S4] Date: Wed, 09 Jul 2025 17:10:00 +0000
+
+[D1.S5] Hi Grace,
+
+[D1.S6] The contract amendment was initiated by Clara Sorensen on July 6, 2025 at 15:10 UTC. [D1.S7] Grace Quinn authorized the contract amendment. [D1.S8] Dana Haddad also took part in the contract amendment. [D1.S9] The contract amendment happened at Stonebridge Tooling LLC's office. [D1.S10] On 9 July 2025, 15:10 UTC, Dana Haddad initiated the invoice submission. [D1.S11] The invoice submission took place at the Stonebridge Tooling LLC office.
+
+[D1.S12] Thanks,
+[D1.S13] Clara

@@ -1,0 +1,13 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Westmark Packaging Ltd. employs Hector Fischer, who can be reached at hector.fischer@westmark.com. [D1.S3] Rosa Quinn works for Westmark Packaging Ltd. and uses the address rquinn@westmark.com. [D1.S4] Westmark Packaging Ltd. employs Tomas Abara, who can be reached at tomas.abara@westmark.com. [D1.S5] Julian Mendes is employed by Northwind Services Inc.; their email is jmendes@northwind.com. [D1.S6] Mei Reyes is employed by Northwind Services Inc.; their email is mreyes@northwind.com.
+
+[D1.S7] Rosa Quinn's manager is Hector Fischer.
+
+[D1.S8] The offices of Westmark Packaging Ltd. are at 994 Lakeview Road, Boise, ID 83702.
+
+[D1.S9] Westmark Packaging Ltd. holds account 6336980370 at Union Ledger Bank. [D1.S10] Northwind Services Inc. holds account 8399934839 at Union Ledger Bank.
+
+[D1.S11] Account 6336980370 sent a transfer to account 8399934839.
+
+[D1.S12] Let me know if anything here looks off.

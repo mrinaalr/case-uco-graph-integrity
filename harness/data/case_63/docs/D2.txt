@@ -1,0 +1,11 @@
+From: aosei@summitpeak.com
+To: vpetrov@clearpath.com
+Subject: Contract terms for next quarter
+Date: Tue, 01 Apr 2025 15:50:00 +0000
+
+Hi Victor,
+
+On February 26, 2025 at 11:15 UTC, Yara Kowalski initiated the expense reimbursement. Sofia Fischer started the bank detail change on March 1, 2025 at 09:00 UTC. Approval for the bank detail change came from Yara Kowalski. Sofia Fischer started the account reconciliation on March 8, 2025 at 11:50 UTC. Sofia Fischer started the contract amendment on 17 March 2025, 15:30 UTC. On March 17, 2025 at 16:15 UTC, Andre Osei initiated the payment approval. On March 30, 2025 at 12:00 UTC, Andre Osei initiated the invoice submission. On 1 April 2025, 13:50 UTC, Yara Kowalski initiated the wire transfer.
+
+Thanks,
+Andre

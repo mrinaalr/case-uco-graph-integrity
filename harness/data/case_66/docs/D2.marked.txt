@@ -1,0 +1,11 @@
+[D2.S1] From: desmond.petrov@bluegate.com
+[D2.S2] To: samuel.mendes@bluegate.com, grace.fischer@stonebridge.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Sat, 26 Apr 2025 12:15:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] The wire transfer was initiated by Grace Fischer on April 12, 2025 at 15:15 UTC. [D2.S7] Samuel Mendes authorized the wire transfer. [D2.S8] Desmond Petrov also took part in the wire transfer. [D2.S9] The wire transfer happened at Bluegate Services LLC's office. [D2.S10] Samuel Mendes started the invoice submission on April 26, 2025 at 10:15 UTC. [D2.S11] Grace Fischer was involved in the invoice submission as well. [D2.S12] The invoice submission happened at Bluegate Services LLC's office. [D2.S13] Grace Fischer had been in contact with Desmond Petrov throughout.
+
+[D2.S14] Thanks,
+[D2.S15] Desmond

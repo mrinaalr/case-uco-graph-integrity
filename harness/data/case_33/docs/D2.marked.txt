@@ -1,0 +1,11 @@
+[D2.S1] From: rquinn@westmark.com
+[D2.S2] To: mreyes@northwind.com
+[D2.S3] Subject: Wire confirmation needed
+[D2.S4] Date: Mon, 10 Feb 2025 18:45:00 +0000
+
+[D2.S5] Hi Mei,
+
+[D2.S6] On 14 January 2025, 11:30 UTC, Hector Fischer initiated the vendor onboarding. [D2.S7] The account reconciliation was initiated by Rosa Quinn on January 19, 2025 at 09:15 UTC. [D2.S8] The account reconciliation took place at the Westmark Packaging Ltd. office. [D2.S9] The wire transfer was initiated by Rosa Quinn on 20 January 2025, 09:25 UTC. [D2.S10] Rosa Quinn started the contract amendment on January 23, 2025 at 17:00 UTC. [D2.S11] On 24 January 2025, 15:10 UTC, Mei Reyes initiated the audit review. [D2.S12] The audit review happened at Westmark Packaging Ltd.'s office. [D2.S13] On February 10, 2025 at 10:00 UTC, Tomas Abara initiated the invoice submission. [D2.S14] On 10 February 2025, 16:45 UTC, Hector Fischer initiated the expense reimbursement. [D2.S15] The expense reimbursement took place at the Westmark Packaging Ltd. office.
+
+[D2.S16] Thanks,
+[D2.S17] Rosa

@@ -1,0 +1,11 @@
+[D2.S1] From: mtanaka@copperfield.com
+[D2.S2] To: sokafor@ironleaf.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Fri, 13 Jun 2025 13:50:00 +0000
+
+[D2.S5] Hi Samuel,
+
+[D2.S6] On 9 May 2025, 15:10 UTC, Desmond Brennan initiated the bank detail change. [D2.S7] On 11 June 2025, 17:45 UTC, Maya Tanaka initiated the wire transfer. [D2.S8] On 13 June 2025, 11:50 UTC, Felix Haddad initiated the payment approval.
+
+[D2.S9] Thanks,
+[D2.S10] Maya

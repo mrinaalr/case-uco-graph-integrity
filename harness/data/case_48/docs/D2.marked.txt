@@ -1,0 +1,11 @@
+[D2.S1] From: phaddad@clearpath.com
+[D2.S2] To: wosei@cedarridge.com
+[D2.S3] Subject: Audit prep items
+[D2.S4] Date: Tue, 19 Aug 2025 16:25:00 +0000
+
+[D2.S5] Hi Wesley,
+
+[D2.S6] Priya Haddad started the payment approval on July 30, 2025 at 09:25 UTC. [D2.S7] Marcus Lindqvist authorized the payment approval. [D2.S8] The wire transfer was initiated by Priya Haddad on August 19, 2025 at 14:25 UTC. [D2.S9] The wire transfer happened at Cedar Ridge Supply Co.'s office.
+
+[D2.S10] Thanks,
+[D2.S11] Priya

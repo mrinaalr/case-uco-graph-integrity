@@ -10,32 +10,35 @@ harness, backed by the SDK's `case_uco.graph.CASEGraph`.
 
 ## Arms
 
-Every arm gets the same documents with sentence ids, class list, JSON-LD
-example, 10-relation vocabulary with directions, and temperature 0
-(`llm.SHARED`). The arms differ only in how the graph gets written and which
-tools are available.
+Every arm gets the same task statement (`llm.SHARED`: model only what the documents state, the
+core classes, the ten relation kinds), the same PDFs (`[data] source` in `config.toml`; "marked"
+switches back to the text files with sentence ids) and temperature 0. They differ in who writes
+the ontology. The A/B/C design is in [../EXPERIMENT.md](../EXPERIMENT.md).
 
-- **A1 script** (`pipeline_script.py`): the model writes a Python script that
-  uses `CASEGraph`. The harness runs it with a timeout, then calls the server's
-  `validate_graph` (no repair). This executes model-written code locally.
-- **A2 tools** (`pipeline_sdk.py`): `add_node`, `add_facet`,
-  `add_relationship` and `finish` are backed by `CASEGraph`, alongside the
-  server's lookup tools and `validate_graph`, with up to 2 repair rounds. A2 is
-  scored at its first validation (`a2_tools@first_validate`) and at the end.
-- **B control** (`pipeline_monolith.py`): one prompt and raw JSON-LD back, with
-  no tools and no repair.
+- **A, SDK agent** (`pipeline_sdk_agent.py`, arm `a_sdk_agent`): a coding agent with the server's
+  tools plus `read_file`, `write_serializer` (saves and runs the script) and `finish`, asked to
+  follow the SDK's workflow including the critic loop (deterministic policy). The graph at the
+  first `validate_graph` call is scored as `@first_validate`.
+- **B, direct** (`pipeline_monolith.py`, arm `b_control`): one prompt, raw JSON-LD back.
+- **C, compiled** (`pipeline_compiled.py`, arm `c_compiled`): per-document claim extraction with
+  quotes, a deterministic verifier with one repair round (`[compiled] repair_rounds`), cross-document
+  entity resolution by key, and a compiler that writes the graph with `GraphWriter`. `claims.json`
+  keeps every admitted claim and the entity mapping; `run.json` counts claims, rejections and repairs.
 
-Every arm's final graph is checked with `case_validate --allow-info`. The
-harness starts its own server copy with `CASE_UCO_EXTENSIONS=legalproc,cryptoinv`.
-Endpoints are defined under `[models]` in `config.toml`; pick one per run with
-`--model` (default `ollama`). API keys go in `harness/.env` (gitignored), named
-by each entry's `api_key_env`; an entry's `extra_body` is sent with every request.
+Earlier arms, still runnable:
+
+- **A1 script** (`pipeline_script.py`): the model writes one `CASEGraph` script, run with a timeout.
+- **A1+QA** (`pipeline_critic.py`, arm `a1_critic`): A1, then the server's critic session with the
+  findings fed back for `critic.rounds` revisions (`CRITIC_POLICY=disabled|manual`); every pass is
+  scored as `a1_critic@passN`.
+- **A2 tools** (`pipeline_sdk.py`): harness write tools `add_node`, `add_facet`, `add_relationship`,
+  `finish` with the server's lookup tools and up to 2 repair rounds.
 
 ## Data
 
-`generate_data.py` writes 30 seeded fraud / business-communication cases to
+`generate_data.py` writes 100 seeded fraud / business-communication cases to
 `data/case_NN/`: `gold.json`, `gold.jsonld`, `docs/D*.txt`,
-`docs/D*.marked.txt` and `spans.json`.
+`docs/D*.marked.txt`, `docs/D*.pdf` and `spans.json`.
 
 - The gold graph is authored first, then rendered to 2-4 documents from
   templates with paraphrase pools.
@@ -71,12 +74,23 @@ From the repo root, using the SDK venv with `openai` and `scipy` installed:
 ```
 
 ```bash
+CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id baseline --model ollama
+```
+
+```bash
 .venv/bin/python harness/score.py --run-id baseline
+```
+
+```bash
+.venv/bin/python harness/qa_delta.py --run-id baseline
 ```
 
 - `--cases case_01,case_02` runs a subset.
 - Per-case outputs go to `results/<run_id>/<arm>/<case>/` (gitignored).
 - `results/<run_id>/` gets `summary.md`, `summary.csv` and `per_case.csv`.
+- `qa_delta.py` compares consecutive critic passes of `a1_critic`: gold
+  triples fixed and regressed by each revision, unsupported triples by class,
+  attributed to the rules the model was asked to address (`qa_delta.md`, `qa_delta.csv`).
 - `score.py --self-test` scores each gold graph against itself and expects
   precision and recall of 1.0.
 
@@ -101,6 +115,9 @@ From the repo root, using the SDK venv with `openai` and `scipy` installed:
 - **Stages (A2):** `write_node`, `write_facet`, `write_relationship`, `repair`
   (written after a failed validation) and `final_only`. A1 and B are
   `generation`.
+- **Passes (A1+QA):** `a1_critic@pass1` is the graph before any QA, `@passN`
+  the graph after revision N-1, and `a1_critic` the final graph. The per-pass
+  `valid` column is the critic's SHACL result for that pass.
 - **Failures:** `error` and `empty` runs count as zero recall and are listed
   separately. `incomplete` runs are scored but flagged.
 - **wall_s** includes the final validation. A2's first-validation row reuses

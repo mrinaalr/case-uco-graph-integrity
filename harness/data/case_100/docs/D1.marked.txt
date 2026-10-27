@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Clearpath Logistics Group employs Hannah Okafor, who can be reached at hokafor@clearpath.com. [D1.S3] Tomas Park is employed by Clearpath Logistics Group; their email is tomas.park@clearpath.com. [D1.S4] Dana Moreau works for Clearpath Logistics Group and uses the address dana.moreau@clearpath.com. [D1.S5] Lena Haddad works for Stonebridge Freight Inc. and uses the address lhaddad@stonebridge.com. [D1.S6] Stonebridge Freight Inc. employs Kofi Reyes, who can be reached at kofi.reyes@stonebridge.com.
+
+[D1.S7] Tomas Park reports to Hannah Okafor.
+
+[D1.S8] Clearpath Logistics Group operates from 8268 Lakeview Road, Spokane, WA 99201.
+
+[D1.S9] Clearpath Logistics Group holds account 2971830453 at Pinecrest National Bank. [D1.S10] Stonebridge Freight Inc. holds account 3225951039 at Pinecrest National Bank. [D1.S11] Account 3643229957 at Pinecrest National Bank belongs to Hannah Okafor.
+
+[D1.S12] Let me know if anything here looks off.

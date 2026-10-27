@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Bluegate Services LLC employs Samuel Mendes, who can be reached at samuel.mendes@bluegate.com. [D1.S3] Desmond Petrov works for Bluegate Services LLC and uses the address desmond.petrov@bluegate.com. [D1.S4] Stonebridge Packaging Inc. employs Grace Fischer, who can be reached at grace.fischer@stonebridge.com.
+
+[D1.S5] Desmond Petrov's manager is Samuel Mendes.
+
+[D1.S6] Bluegate Services LLC is based at 2357 Maple Avenue, Boise, ID 83702. [D1.S7] Stonebridge Packaging Inc. operates from 7413 Lakeview Road, Albany, NY 12207.
+
+[D1.S8] Let me know if anything here looks off.

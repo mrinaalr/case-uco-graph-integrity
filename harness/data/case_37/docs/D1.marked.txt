@@ -1,0 +1,11 @@
+[D1.S1] From: clara.osei@clearpath.com
+[D1.S2] To: kabara@clearpath.com, andre.quinn@clearpath.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Mon, 19 May 2025 15:15:00 +0000
+
+[D1.S5] Hi Kofi,
+
+[D1.S6] On April 17, 2025 at 10:45 UTC, Clara Osei initiated the vendor onboarding. [D1.S7] The vendor onboarding took place at the Clearpath Distribution Ltd. office. [D1.S8] The contract amendment was initiated by Hannah Banerjee on April 27, 2025 at 15:50 UTC. [D1.S9] On 9 May 2025, 17:30 UTC, Kofi Abara initiated the bank detail change. [D1.S10] Approval for the bank detail change came from Hannah Banerjee. [D1.S11] On 19 May 2025, 13:15 UTC, Hannah Banerjee initiated the account reconciliation.
+
+[D1.S12] Thanks,
+[D1.S13] Clara

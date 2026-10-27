@@ -372,12 +372,19 @@ def markdown(summaries: list[dict], stage_counts: dict[str, Counter]) -> str:
 
 def variants(arm: str, run_dir: Path) -> list[tuple[str, str, str, str | None]]:
     """(label, graph file, score file, prov file) to score for one case run."""
-    if arm != "a2_tools":
-        return [(arm, "graph.jsonld", "score.json", None)]
-    early = "graph_first_validate.jsonld" if (run_dir / "graph_first_validate.jsonld").exists() else "graph.jsonld"
-    early_prov = "prov_first_validate.json" if early != "graph.jsonld" else "prov.json"  # never validated: same graph
-    return [(f"{arm}@first_validate", early, "score_first_validate.json", early_prov),
-            (arm, "graph.jsonld", "score.json", "prov.json")]
+    if arm == "a1_critic":  # one row per critic pass (pass 1 is the bare A1 graph), then the final graph
+        snaps = sorted(run_dir.glob("graph_pass*.jsonld"), key=lambda p: int(p.stem.rsplit("pass", 1)[1]))
+        return [(f"{arm}@pass{p.stem.rsplit('pass', 1)[1]}", p.name, f"score_pass{p.stem.rsplit('pass', 1)[1]}.json", None)
+                for p in snaps] + [(arm, "graph.jsonld", "score.json", None)]
+    if arm == "a2_tools":
+        early = "graph_first_validate.jsonld" if (run_dir / "graph_first_validate.jsonld").exists() else "graph.jsonld"
+        early_prov = "prov_first_validate.json" if early != "graph.jsonld" else "prov.json"  # never validated: same graph
+        return [(f"{arm}@first_validate", early, "score_first_validate.json", early_prov),
+                (arm, "graph.jsonld", "score.json", "prov.json")]
+    if (run_dir / "graph_first_validate.jsonld").exists():  # agent arms snapshot the graph before any QA
+        return [(f"{arm}@first_validate", "graph_first_validate.jsonld", "score_first_validate.json", None),
+                (arm, "graph.jsonld", "score.json", None)]
+    return [(arm, "graph.jsonld", "score.json", None)]
 
 
 def score_run(run_id: str) -> None:
@@ -392,6 +399,9 @@ def score_run(run_id: str) -> None:
                     row = dict(meta, arm=label, scorer=scorer)
                     if label.endswith("@first_validate") and meta.get("server_validations"):
                         row["final_validation"] = meta["server_validations"][0]
+                    if "@pass" in label and meta.get("pass_validations"):
+                        n = int(label.rsplit("pass", 1)[1])
+                        row["final_validation"] = (meta["pass_validations"] + [None] * n)[n - 1]
                     graph = run_dir / graph_name if meta["status"] not in ("error", "empty") else None
                     try:
                         result = score_case(data_dir, graph, run_dir, prov, scorer)

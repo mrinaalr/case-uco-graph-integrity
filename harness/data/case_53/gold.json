@@ -1,0 +1,782 @@
+{
+ "case_id": "case_53",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D2"
+   ],
+   "label": "Stonebridge Components Ltd."
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D2"
+   ],
+   "label": "Harborline Distribution Inc."
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D2"
+   ],
+   "label": "Meridian Trust Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D2"
+   ],
+   "label": "Elena Delgado"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D2"
+   ],
+   "label": "Yara Moreau"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D2",
+    "D3"
+   ],
+   "label": "Rosa Brennan"
+  },
+  {
+   "eid": "person_3",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "Dana Abara"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "edelgado@stonebridge.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D2"
+   ],
+   "label": "yara.moreau@stonebridge.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "rosa.brennan@stonebridge.com"
+  },
+  {
+   "eid": "email_person_3",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "label": "dana.abara@harborline.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D2"
+   ],
+   "label": "9255 Riverside Boulevard, Dayton, OH 45402"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D2"
+   ],
+   "label": "8365040253"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D2"
+   ],
+   "label": "5900270051"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "refund request"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "vendor onboarding"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D1"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D3"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_msg_1",
+   "class": "EmailMessage",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_3",
+   "class": "EmailAccount",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Stonebridge Components Ltd.",
+   "lit": true,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Harborline Distribution Inc.",
+   "lit": true,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Meridian Trust Bank",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Elena Delgado",
+   "lit": true,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Yara Moreau",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Rosa Brennan",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t7",
+   "s": "person_3",
+   "p": "name",
+   "o": "Dana Abara",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "edelgado@stonebridge.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t10",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t11",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "yara.moreau@stonebridge.com",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t13",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t14",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "rosa.brennan@stonebridge.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t16",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t17",
+   "s": "email_person_3",
+   "p": "addressValue",
+   "o": "dana.abara@harborline.com",
+   "lit": true,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "person_3",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t19",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t20",
+   "s": "loc_company",
+   "p": "street",
+   "o": "9255 Riverside Boulevard",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t21",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Dayton",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t22",
+   "s": "loc_company",
+   "p": "region",
+   "o": "OH",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t23",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "45402",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t24",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t25",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "8365040253",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t26",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t27",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t28",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "5900270051",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t29",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t30",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t31",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "refund request",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t32",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-04-11T14:50:00Z",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t33",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t34",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "vendor onboarding",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t35",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-05-07T09:25:00Z",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t36",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t37",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t38",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-05-12T13:25:00Z",
+   "lit": true,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t39",
+   "s": "person_3",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D1.S7",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t40",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t41",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-05-20T10:50:00Z",
+   "lit": true,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t42",
+   "s": "person_2",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D3.S7",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t43",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D1.S1",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t44",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t45",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t46",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Quarter-end vendor payments",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t47",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-05-12T15:25:00Z",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t48",
+   "s": "email_msg_1",
+   "p": "from",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t49",
+   "s": "email_msg_1",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t50",
+   "s": "email_msg_1",
+   "p": "subject",
+   "o": "Invoice 8036 follow-up",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t51",
+   "s": "email_msg_1",
+   "p": "sentTime",
+   "o": "2025-05-20T12:50:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t52",
+   "s": "person_3",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t53",
+   "s": "person_3",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t54",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t55",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t56",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t57",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t58",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t59",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t60",
+   "s": "email_account_person_3",
+   "p": "emailAddress",
+   "o": "email_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t61",
+   "s": "person_3",
+   "p": "Holds_Account",
+   "o": "email_account_person_3",
+   "lit": false,
+   "span_id": "D2.S5",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t62",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t63",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  }
+ ],
+ "relationship_count": 15,
+ "relationship_count_total": 21,
+ "documents": {
+  "D1": "email",
+  "D2": "memo",
+  "D3": "email"
+ },
+ "seed": 20251025
+}

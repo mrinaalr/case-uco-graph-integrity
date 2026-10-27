@@ -1,0 +1,11 @@
+From: cabara@oakhaven.com
+To: hashworth@oakhaven.com, dana.vance@copperfield.com
+Subject: Urgent: payment timing
+Date: Tue, 13 May 2025 12:30:00 +0000
+
+Hi Hannah,
+
+The account reconciliation was initiated by Dana Vance on 13 April 2025, 12:30 UTC. Tomas Reyes also took part in the account reconciliation. Tomas Reyes started the invoice submission on April 30, 2025 at 10:00 UTC. Hannah Ashworth also took part in the invoice submission. On May 13, 2025 at 10:30 UTC, Tomas Reyes initiated the wire transfer.
+
+Thanks,
+Clara

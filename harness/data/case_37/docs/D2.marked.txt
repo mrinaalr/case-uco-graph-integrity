@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Kofi Abara is employed by Clearpath Distribution Ltd.; their email is kabara@clearpath.com. [D2.S3] Clearpath Distribution Ltd. employs Clara Osei, who can be reached at clara.osei@clearpath.com. [D2.S4] Andre Quinn is employed by Clearpath Distribution Ltd.; their email is andre.quinn@clearpath.com. [D2.S5] Hannah Banerjee works for Oakhaven Tooling Ltd. and uses the address hbanerjee@oakhaven.com.
+
+[D2.S6] Clearpath Distribution Ltd. is based at 5639 Maple Avenue, Spokane, WA 99201.
+
+[D2.S7] Clearpath Distribution Ltd. holds account 8135919549 at First Harbor Bank. [D2.S8] First Harbor Bank account 1206074955 is registered to Oakhaven Tooling Ltd.
+
+[D2.S9] Account 8135919549 sent a transfer to account 1206074955.
+
+[D2.S10] More detail will follow once records are pulled.

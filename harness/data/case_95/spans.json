@@ -1,0 +1,348 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 124,
+  "text": "Maya Petrov works for Westmark Tooling Ltd. and uses the address mpetrov@westmark.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t56",
+   "t57",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 125,
+  "end": 214,
+  "text": "Tomas Brennan is employed by Westmark Tooling Ltd.; their email is tbrennan@westmark.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t58",
+   "t59",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 215,
+  "end": 313,
+  "text": "Hector Castillo works for Westmark Tooling Ltd. and uses the address hector.castillo@westmark.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t60",
+   "t61",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 314,
+  "end": 411,
+  "text": "Arjun Sorensen is employed by Summit Peak Analytics Co.; their email is asorensen@summitpeak.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t62",
+   "t63",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 412,
+  "end": 508,
+  "text": "Summit Peak Analytics Co. employs Irene Vance, who can be reached at irene.vance@summitpeak.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t64",
+   "t65",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 510,
+  "end": 580,
+  "text": "Westmark Tooling Ltd. is based at 522 Lakeview Road, Tucson, AZ 85701.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 582,
+  "end": 660,
+  "text": "Account 9367154671 at Pinecrest National Bank belongs to Westmark Tooling Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t66",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 661,
+  "end": 746,
+  "text": "Pinecrest National Bank account 8628564963 is registered to Summit Peak Analytics Co.",
+  "tids": [
+   "t33",
+   "t34",
+   "t67",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 748,
+  "end": 787,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: mpetrov@westmark.com",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 55,
+  "text": "To: asorensen@summitpeak.com",
+  "tids": [
+   "t53",
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 56,
+  "end": 91,
+  "text": "Subject: Updated remittance details",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 92,
+  "end": 129,
+  "text": "Date: Wed, 16 Apr 2025 16:25:00 +0000",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 131,
+  "end": 140,
+  "text": "Hi Arjun,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 142,
+  "end": 223,
+  "text": "Hector Castillo started the expense reimbursement on March 20, 2025 at 10:25 UTC.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 224,
+  "end": 297,
+  "text": "Maya Petrov started the vendor onboarding on March 22, 2025 at 17:10 UTC.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 298,
+  "end": 358,
+  "text": "Tomas Brennan was involved in the vendor onboarding as well.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 359,
+  "end": 433,
+  "text": "On 12 April 2025, 11:00 UTC, Hector Castillo initiated the refund request.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 434,
+  "end": 513,
+  "text": "On April 12, 2025 at 15:00 UTC, Tomas Brennan initiated the invoice submission.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 514,
+  "end": 586,
+  "text": "Irene Vance started the payment approval on April 16, 2025 at 14:25 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_4",
+   "person_4"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 587,
+  "end": 653,
+  "text": "Hector Castillo had been in contact with Tomas Brennan throughout.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "person_2",
+   "person_1"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 655,
+  "end": 662,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 663,
+  "end": 667,
+  "text": "Maya",
+  "tids": [],
+  "mentions": []
+ }
+}

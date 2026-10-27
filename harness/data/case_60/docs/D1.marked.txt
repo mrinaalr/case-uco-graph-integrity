@@ -1,0 +1,11 @@
+[D1.S1] From: luca.haddad@silverlake.com
+[D1.S2] To: julian.moreau@clearpath.com
+[D1.S3] Subject: Updated remittance details
+[D1.S4] Date: Fri, 27 Jun 2025 18:15:00 +0000
+
+[D1.S5] Hi Julian,
+
+[D1.S6] On 7 June 2025, 09:45 UTC, Owen Park initiated the wire transfer. [D1.S7] Julian Moreau authorized the wire transfer. [D1.S8] On June 10, 2025 at 13:30 UTC, Julian Moreau initiated the expense reimbursement. [D1.S9] The bank detail change was initiated by Owen Park on June 14, 2025 at 12:30 UTC. [D1.S10] On June 27, 2025 at 16:15 UTC, Luca Haddad initiated the invoice submission.
+
+[D1.S11] Thanks,
+[D1.S12] Luca

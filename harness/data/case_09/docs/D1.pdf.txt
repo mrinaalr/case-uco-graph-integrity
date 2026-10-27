@@ -1,0 +1,14 @@
+INTERNAL MEMO: Vendor payment review
+Julian Osei is employed by Oakhaven Fabrication Co.; their email is julian.osei@oakhaven.com.
+Oakhaven Fabrication Co. employs Dana Ashworth, who can be reached at
+dashworth@oakhaven.com. Oakhaven Fabrication Co. employs Andre Whitfield, who can be reached
+at awhitfield@oakhaven.com. Clearpath Industrial LLC employs Felix Sorensen, who can be reached at
+felix.sorensen@clearpath.com.
+Dana Ashworth's manager is Julian Osei. Andre Whitfield reports to Julian Osei.
+Oakhaven Fabrication Co. operates from 14 Market Street, Omaha, NE 68102. Clearpath Industrial
+LLC operates from 2499 Market Street, Omaha, NE 68102.
+Account 8677543219 at Pinecrest National Bank belongs to Oakhaven Fabrication Co. Clearpath
+Industrial LLC holds account 4921747255 at Pinecrest National Bank.
+Funds moved from account 8677543219 to account 4921747255. Felix Sorensen communicated with
+Julian Osei about the payments.
+Please treat this as confidential.

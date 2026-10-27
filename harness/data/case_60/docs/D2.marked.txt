@@ -1,0 +1,11 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Owen Park works for Silverlake Consulting Inc. and uses the address owen.park@silverlake.com. [D2.S3] Luca Haddad works for Silverlake Consulting Inc. and uses the address luca.haddad@silverlake.com. [D2.S4] Clearpath Industrial Ltd. employs Julian Moreau, who can be reached at julian.moreau@clearpath.com.
+
+[D2.S5] Luca Haddad reports to Owen Park.
+
+[D2.S6] Silverlake Consulting Inc. operates from 3582 Maple Avenue, Boise, ID 83702.
+
+[D2.S7] Meridian Trust Bank account 7818724034 is registered to Silverlake Consulting Inc. [D2.S8] Meridian Trust Bank account 7087155678 is registered to Clearpath Industrial Ltd.
+
+[D2.S9] Please treat this as confidential.

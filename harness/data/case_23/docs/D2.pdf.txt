@@ -1,0 +1,11 @@
+INTERNAL MEMO: Vendor payment review
+Yara Banerjee works for Clearpath Freight Co. and uses the address yara.banerjee@clearpath.com.
+Hector Quinn is employed by Clearpath Freight Co.; their email is hector.quinn@clearpath.com. Tomas
+Kowalski is employed by Redfern Analytics Group; their email is tkowalski@redfern.com.
+Hector Quinn reports to Yara Banerjee.
+Clearpath Freight Co. operates from 513 Elm Street, Boise, ID 83702.
+Pinecrest National Bank account 8453395788 is registered to Clearpath Freight Co. Account
+8858108822 at Pinecrest National Bank belongs to Redfern Analytics Group. Pinecrest National Bank
+account 1484775689 is registered to Yara Banerjee.
+Funds moved from account 8453395788 to account 8858108822.
+Please treat this as confidential.

@@ -1,0 +1,7 @@
+Incident summary
+
+Union Ledger Bank account 2344884247 is registered to Harborline Freight Ltd. Silverlake Distribution Ltd. holds account 2310676562 at Union Ledger Bank. Union Ledger Bank account 5147835550 is registered to Arjun Haddad.
+
+The account reconciliation was initiated by Arjun Haddad on January 19, 2025 at 10:45 UTC. Arjun Haddad started the payment approval on 27 January 2025, 13:10 UTC. The vendor onboarding was initiated by Irene Reyes on 31 January 2025, 12:10 UTC. On 16 February 2025, 17:50 UTC, Arjun Haddad initiated the wire transfer.
+
+More detail will follow once records are pulled.

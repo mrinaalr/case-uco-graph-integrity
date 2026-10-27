@@ -5,11 +5,16 @@ CASE/UCO knowledge graphs, against gold graphs we generate and control. The
 object under test is the [CASE/UCO SDK](https://github.com/vulnmaster/CASE-UCO-SDK)
 and its MCP server, pinned as a submodule at `sdk/`.
 
-Three arms get the same documents and prompt, and differ only in how the graph
-gets written:
-- **A1 script:** the model writes a `CASEGraph` serializer.
-- **A2 tools:** the model writes through tool calls, with the SDK's MCP server for lookup and validation.
-- **B control:** the model emits raw JSON-LD.
+The experiment is an A/B/C comparison of three ways to build the graph from the same PDF
+documents, described in [EXPERIMENT.md](EXPERIMENT.md):
+- **A, the SDK as shipped:** a coding agent with the SDK's MCP server follows the SDK's workflow
+  (route, look up classes and recipes, write a `CASEGraph` serializer, validate, critic loop).
+- **B, direct generation:** the model emits CASE JSON-LD in one reply.
+- **C, grounded claims, compiled graph:** the model extracts quoted facts per document, a
+  verifier keeps the ones the text supports, and a deterministic compiler writes the graph with the SDK.
+
+Earlier arms (A1 script, A1+QA, A2 tools) remain runnable; [DIRECTION.md](DIRECTION.md) has what
+they showed about the SDK's critic loop.
 
 Details are in [harness/README.md](harness/README.md).
 
@@ -38,15 +43,15 @@ Put API keys in `harness/.env`, which is gitignored; for example
 ```
 
 ```bash
+.venv/bin/python harness/pipeline_sdk_agent.py --run-id RUN --model tinker
+```
+
+```bash
 .venv/bin/python harness/pipeline_monolith.py --run-id RUN --model tinker
 ```
 
 ```bash
-.venv/bin/python harness/pipeline_script.py --run-id RUN --model tinker
-```
-
-```bash
-.venv/bin/python harness/pipeline_sdk.py --run-id RUN --model tinker
+.venv/bin/python harness/pipeline_compiled.py --run-id RUN --model tinker
 ```
 
 ```bash
@@ -54,12 +59,12 @@ Put API keys in `harness/.env`, which is gitignored; for example
 ```
 
 ```bash
-.venv/bin/python harness/edges.py --run-id RUN
+.venv/bin/python harness/rule_coverage.py --run-id RUN
 ```
 
-- Results go to `harness/results/RUN/`. Only `baseline-v1`'s summaries are tracked.
+- Results go to `harness/results/RUN/`. Only the summaries of the tracked runs are in git.
 - `--cases case_01,case_02` runs a subset.
-- `harness/generate_data.py --validate` regenerates the 30 gold cases.
+- `harness/generate_data.py --validate` regenerates the 100 gold cases and their PDFs.
 
 ## Frozen evaluation
 

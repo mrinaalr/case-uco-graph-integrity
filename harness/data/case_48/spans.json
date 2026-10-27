@@ -1,0 +1,450 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Marcus Lindqvist is employed by Cedar Ridge Supply Co.; their email is mlindqvist@cedarridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t63",
+   "t64",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 223,
+  "text": "Cedar Ridge Supply Co. employs Wesley Osei, who can be reached at wosei@cedarridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t65",
+   "t66",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 224,
+  "end": 315,
+  "text": "Priya Haddad is employed by Clearpath Analytics Ltd.; their email is phaddad@clearpath.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t67",
+   "t68",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 317,
+  "end": 359,
+  "text": "Wesley Osei's manager is Marcus Lindqvist.",
+  "tids": [
+   "t43"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 361,
+  "end": 431,
+  "text": "Cedar Ridge Supply Co. is based at 5921 Elm Street, Raleigh, NC 27601.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 432,
+  "end": 508,
+  "text": "Clearpath Analytics Ltd. operates from 6165 Lakeview Road, Albany, NY 12207.",
+  "tids": [
+   "t51",
+   "t47",
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 510,
+  "end": 558,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: phaddad@clearpath.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 52,
+  "text": "To: wosei@cedarridge.com",
+  "tids": [
+   "t56",
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 53,
+  "end": 78,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 79,
+  "end": 116,
+  "text": "Date: Tue, 19 Aug 2025 16:25:00 +0000",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 118,
+  "end": 128,
+  "text": "Hi Wesley,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 130,
+  "end": 202,
+  "text": "Priya Haddad started the payment approval on July 30, 2025 at 09:25 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 203,
+  "end": 252,
+  "text": "Marcus Lindqvist authorized the payment approval.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 253,
+  "end": 333,
+  "text": "The wire transfer was initiated by Priya Haddad on August 19, 2025 at 14:25 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 334,
+  "end": 396,
+  "text": "The wire transfer happened at Cedar Ridge Supply Co.'s office.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "event_2",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 398,
+  "end": 405,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 406,
+  "end": 411,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t70"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 50,
+  "text": "@wesleyo is Wesley Osei.",
+  "tids": [
+   "t40",
+   "t39"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 51,
+  "end": 75,
+  "text": "@priyah is Priya Haddad.",
+  "tids": [
+   "t42",
+   "t41"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 76,
+  "end": 154,
+  "text": "[2025-07-30 10:25 UTC] @wesleyo to @priyah: Finance is asking questions again.",
+  "tids": [
+   "t59",
+   "t60",
+   "t61",
+   "t62",
+   "t71"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_2"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 94,
+  "text": "First Harbor Bank account 7710604421 is registered to Cedar Ridge Supply Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t72",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 95,
+  "end": 173,
+  "text": "First Harbor Bank account 5226630686 is registered to Clearpath Analytics Ltd.",
+  "tids": [
+   "t25",
+   "t26",
+   "t73",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 175,
+  "end": 253,
+  "text": "On August 18, 2025 at 17:45 UTC, Wesley Osei initiated the invoice submission.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 254,
+  "end": 308,
+  "text": "Priya Haddad also took part in the invoice submission.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 309,
+  "end": 377,
+  "text": "Wesley Osei started the refund request on 24 August 2025, 11:30 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 378,
+  "end": 433,
+  "text": "Approval for the refund request came from Priya Haddad.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 434,
+  "end": 494,
+  "text": "Marcus Lindqvist was involved in the refund request as well.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 495,
+  "end": 553,
+  "text": "Funds moved from account 7710604421 to account 5226630686.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D4.S10": {
+  "doc_id": "D4",
+  "start": 555,
+  "end": 603,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

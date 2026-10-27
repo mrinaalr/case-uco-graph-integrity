@@ -1,0 +1,7 @@
+Incident summary
+
+Meridian Trust Bank account 8786376033 is registered to Clearpath Supply Co. Westmark Consulting Group holds account 7178469476 at Meridian Trust Bank.
+
+On April 6, 2025 at 09:00 UTC, Victor Mendes initiated the account reconciliation. The account reconciliation happened at Clearpath Supply Co.'s office. On 16 April 2025, 15:30 UTC, Victor Mendes initiated the vendor onboarding. On 23 April 2025, 14:10 UTC, Victor Mendes initiated the bank detail change. Irene Abara was involved in the bank detail change as well. The bank detail change took place at the Clearpath Supply Co. office. Funds moved from account 8786376033 to account 7178469476.
+
+This summary reflects records available to date.

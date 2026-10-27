@@ -1,0 +1,11 @@
+[D1.S1] From: phaddad@copperfield.com
+[D1.S2] To: tomas.kowalski@bluegate.com, julian.novak@copperfield.com
+[D1.S3] Subject: Contract terms for next quarter
+[D1.S4] Date: Tue, 22 Apr 2025 17:45:00 +0000
+
+[D1.S5] Hi Tomas,
+
+[D1.S6] On 13 April 2025, 15:00 UTC, Tomas Kowalski initiated the refund request. [D1.S7] Priya Haddad authorized the refund request. [D1.S8] Julian Novak also took part in the refund request. [D1.S9] On April 22, 2025 at 15:45 UTC, Julian Novak initiated the bank detail change. [D1.S10] Approval for the bank detail change came from Marcus Ivanova.
+
+[D1.S11] Thanks,
+[D1.S12] Priya

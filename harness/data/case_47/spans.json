@@ -1,0 +1,497 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 132,
+  "text": "Hannah Vance is employed by Stonebridge Industrial LLC; their email is hvance@stonebridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t72",
+   "t73",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 133,
+  "end": 229,
+  "text": "Samuel Haddad is employed by Stonebridge Industrial LLC; their email is shaddad@stonebridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t74",
+   "t75",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 230,
+  "end": 324,
+  "text": "Mei Mendes works for Summit Peak Fabrication Inc. and uses the address mmendes@summitpeak.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t76",
+   "t77",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 326,
+  "end": 401,
+  "text": "Stonebridge Industrial LLC is based at 5147 Lakeview Road, Boise, ID 83702.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 403,
+  "end": 451,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 29,
+  "text": "From: shaddad@stonebridge.com",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 30,
+  "end": 80,
+  "text": "To: mmendes@summitpeak.com, hvance@stonebridge.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t78",
+   "t79"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 81,
+  "end": 117,
+  "text": "Subject: Quarter-end vendor payments",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Sat, 07 Jun 2025 14:30:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 157,
+  "end": 164,
+  "text": "Hi Mei,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 234,
+  "text": "Mei Mendes started the payment approval on May 7, 2025 at 11:15 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 235,
+  "end": 280,
+  "text": "Hannah Vance authorized the payment approval.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 281,
+  "end": 349,
+  "text": "Samuel Haddad started the audit review on May 19, 2025 at 13:15 UTC.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 350,
+  "end": 404,
+  "text": "Hannah Vance was involved in the audit review as well.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "person_0",
+   "event_2"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 405,
+  "end": 481,
+  "text": "The refund request was initiated by Samuel Haddad on 20 May 2025, 15:25 UTC.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 482,
+  "end": 537,
+  "text": "Approval for the refund request came from Hannah Vance.",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "person_0",
+   "event_4"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 538,
+  "end": 609,
+  "text": "On June 7, 2025 at 12:30 UTC, Hannah Vance initiated the wire transfer.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 611,
+  "end": 618,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 619,
+  "end": 625,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t80"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 52,
+  "text": "@samuelh is Samuel Haddad.",
+  "tids": [
+   "t49",
+   "t48"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 78,
+  "text": "@hannahv is Hannah Vance.",
+  "tids": [
+   "t51",
+   "t50"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 162,
+  "text": "[2025-05-07 12:15 UTC] @samuelh to @hannahv: I pushed it through, check your inbox.",
+  "tids": [
+   "t64",
+   "t65",
+   "t66",
+   "t67"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_1",
+   "handle_person_0"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 163,
+  "end": 248,
+  "text": "[2025-05-07 12:22 UTC] @hannahv to @samuelh: Let's keep this between us until Friday.",
+  "tids": [
+   "t68",
+   "t69",
+   "t70",
+   "t71",
+   "t81"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_0",
+   "handle_person_1"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 101,
+  "text": "Account 9316236729 at Lakeshore Savings Bank belongs to Stonebridge Industrial LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t82",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 102,
+  "end": 186,
+  "text": "Account 7070571284 at Lakeshore Savings Bank belongs to Summit Peak Fabrication Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t83",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 188,
+  "end": 257,
+  "text": "Hannah Vance started the vendor onboarding on 16 May 2025, 10:50 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 258,
+  "end": 312,
+  "text": "Samuel Haddad also took part in the vendor onboarding.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 313,
+  "end": 384,
+  "text": "Mei Mendes started the invoice submission on May 19, 2025 at 17:50 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_3",
+   "person_2"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 385,
+  "end": 439,
+  "text": "Hannah Vance also took part in the invoice submission.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "person_0",
+   "event_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 440,
+  "end": 520,
+  "text": "The bank detail change was initiated by Mei Mendes on May 24, 2025 at 09:10 UTC.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_5",
+   "person_2"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 521,
+  "end": 581,
+  "text": "Approval for the bank detail change came from Samuel Haddad.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_1",
+   "event_5"
+  ]
+ },
+ "D4.S10": {
+  "doc_id": "D4",
+  "start": 582,
+  "end": 639,
+  "text": "Account 9316236729 sent a transfer to account 7070571284.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D4.S11": {
+  "doc_id": "D4",
+  "start": 641,
+  "end": 689,
+  "text": "This summary reflects records available to date.",
+  "tids": [],
+  "mentions": []
+ }
+}

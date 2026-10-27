@@ -1,0 +1,11 @@
+[D3.S1] From: irene.ivanova@summitpeak.com
+[D3.S2] To: hannah.lindqvist@stonebridge.com
+[D3.S3] Subject: Quarter-end vendor payments
+[D3.S4] Date: Sun, 23 Feb 2025 15:25:00 +0000
+
+[D3.S5] Hi Hannah,
+
+[D3.S6] The payment approval was initiated by Hannah Lindqvist on January 24, 2025 at 11:15 UTC. [D3.S7] Hannah Lindqvist started the expense reimbursement on 23 February 2025, 13:25 UTC.
+
+[D3.S8] Thanks,
+[D3.S9] Irene

@@ -1,0 +1,11 @@
+[D3.S1] From: kabara@clearpath.com
+[D3.S2] To: hbanerjee@oakhaven.com
+[D3.S3] Subject: Audit prep items
+[D3.S4] Date: Tue, 13 May 2025 17:00:00 +0000
+
+[D3.S5] Hi Hannah,
+
+[D3.S6] The audit review was initiated by Hannah Banerjee on 23 April 2025, 10:30 UTC. [D3.S7] Kofi Abara also took part in the audit review. [D3.S8] The invoice submission was initiated by Hannah Banerjee on May 4, 2025 at 17:25 UTC. [D3.S9] On 13 May 2025, 15:00 UTC, Clara Osei initiated the payment approval.
+
+[D3.S10] Thanks,
+[D3.S11] Kofi

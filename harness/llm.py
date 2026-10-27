@@ -47,6 +47,8 @@ def load_config(path: Path | None = None, model: str | None = None) -> dict:
     if not endpoint or not endpoint.get("base_url") or not endpoint.get("model"):
         raise SystemExit(f"config: [models.{name}] needs base_url and model")
     cfg["llm"] = {**cfg["llm"], **endpoint, "name": name}
+    global DATA_SOURCE
+    DATA_SOURCE = cfg.get("data", {}).get("source", DATA_SOURCE)
     load_env_file()
     env = endpoint.get("api_key_env")
     cfg["llm"]["api_key"] = os.environ.get(env, "") if env else "local"
@@ -68,12 +70,40 @@ def case_dirs(selection: str | None) -> list[Path]:
     return dirs
 
 
-def documents(case_dir: Path) -> str:
-    gold = json.loads((case_dir / "gold.json").read_text())
-    parts = []
-    for doc_id, kind in gold["documents"].items():
-        text = (case_dir / "docs" / f"{doc_id}.marked.txt").read_text().strip()
-        parts.append(f"=== Document {doc_id} ({kind}) ===\n{text}")
+DATA_SOURCE = "pdf"  # set from [data] source in config.toml by load_config
+
+
+def pdf_text(path: Path) -> str:
+    """Text of a PDF as pypdf extracts it, cached next to the file as <name>.pdf.txt."""
+    cache = path.with_suffix(".pdf.txt")
+    if cache.exists() and cache.stat().st_mtime >= path.stat().st_mtime:
+        return cache.read_text(encoding="utf-8")
+    from pypdf import PdfReader
+    text = "\n".join((page.extract_text() or "") for page in PdfReader(str(path)).pages)
+    cache.write_text(text, encoding="utf-8")
+    return text
+
+
+def doc_ids(case_dir: Path) -> dict[str, str]:
+    return json.loads((case_dir / "gold.json").read_text())["documents"]
+
+
+def doc_files(case_dir: Path, source: str | None = None) -> list[Path]:
+    """The files a method under test receives: the PDFs, or the marked text files."""
+    ext = ".pdf" if (source or DATA_SOURCE) == "pdf" else ".marked.txt"
+    return [case_dir / "docs" / f"{doc_id}{ext}" for doc_id in doc_ids(case_dir)]
+
+
+def document_text(case_dir: Path, doc_id: str, source: str | None = None) -> str:
+    path = case_dir / "docs" / f"{doc_id}.pdf"
+    if (source or DATA_SOURCE) == "pdf":
+        return pdf_text(path).strip()
+    return (case_dir / "docs" / f"{doc_id}.marked.txt").read_text().strip()
+
+
+def documents(case_dir: Path, source: str | None = None) -> str:
+    parts = [f"=== Document {doc_id} ({kind}) ===\n{document_text(case_dir, doc_id, source)}"
+             for doc_id, kind in doc_ids(case_dir).items()]
     return "\n\n".join(parts)
 
 
@@ -107,7 +137,6 @@ SHARED = f"""Modeling rules:
 - Connect things with uco-core:Relationship nodes whose kindOfRelationship is exactly one of:
 {RELATIONS}
 - Write dates and times as ISO 8601 in UTC, e.g. 2025-03-04T10:15:00Z.
-- Every sentence in the documents carries an id like [D1.S3]; cite the ids that state each fact.
 
 Available classes (prefix:Class (kind): property<range>, ...):
 {class_list(CLASSES)}
@@ -120,17 +149,19 @@ Typed literals: dateTime and boolean values are {{"@type": "xsd:dateTime", "@val
 
 # --- case-uco MCP server -------------------------------------------------------------
 
-def server_params(cfg: dict) -> StdioServerParameters:
+def server_params(cfg: dict, extra_env: dict[str, str] | None = None) -> StdioServerParameters:
+    """extra_env adds server settings for one run, e.g. the critic's workspace roots."""
     srv = cfg["server"]
     return StdioServerParameters(
         command=str(REPO / srv["python"]), args=[str(REPO / srv["script"])],
         env={"PYTHONPATH": f"{SDK / 'python'}:{SDK / 'mcp_server'}", "PATH": f"{REPO / '.venv' / 'bin'}:/usr/bin:/bin",
-             "CASE_UCO_EXTENSIONS": srv.get("extensions", "")})
+             "CASE_UCO_EXTENSIONS": srv.get("extensions", ""), **(extra_env or {})})
 
 
 @asynccontextmanager
-async def server_session(cfg: dict, errlog):
-    async with stdio_client(server_params(cfg), errlog=errlog) as (read, write), ClientSession(read, write) as session:
+async def server_session(cfg: dict, errlog, extra_env: dict[str, str] | None = None):
+    async with stdio_client(server_params(cfg, extra_env), errlog=errlog) as (read, write), \
+            ClientSession(read, write) as session:
         await session.initialize()
         yield session
 

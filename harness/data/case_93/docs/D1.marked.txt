@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Julian Castillo is employed by Brightwater Supply Ltd.; their email is julian.castillo@brightwater.com. [D1.S3] Brightwater Supply Ltd. employs Maya Sorensen, who can be reached at maya.sorensen@brightwater.com. [D1.S4] Elena Quinn works for Summit Peak Logistics Inc. and uses the address equinn@summitpeak.com.
+
+[D1.S5] The offices of Brightwater Supply Ltd. are at 68 Harbor Avenue, Albany, NY 12207.
+
+[D1.S6] Account 4656675295 at Lakeshore Savings Bank belongs to Brightwater Supply Ltd. [D1.S7] Lakeshore Savings Bank account 2287819914 is registered to Summit Peak Logistics Inc. [D1.S8] Julian Castillo holds account 7013175473 at Lakeshore Savings Bank.
+
+[D1.S9] Account 4656675295 sent a transfer to account 7013175473.
+
+[D1.S10] Please treat this as confidential.

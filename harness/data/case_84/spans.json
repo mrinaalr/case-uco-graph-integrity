@@ -1,0 +1,466 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 28,
+  "text": "From: sreyes@brightwater.com",
+  "tids": [
+   "t59",
+   "t21"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 29,
+  "end": 83,
+  "text": "To: tashworth@summitpeak.com, osorensen@summitpeak.com",
+  "tids": [
+   "t60",
+   "t61",
+   "t69",
+   "t70",
+   "t9",
+   "t15"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_2"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 84,
+  "end": 117,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t62"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 118,
+  "end": 155,
+  "text": "Date: Sat, 17 May 2025 18:15:00 +0000",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 157,
+  "end": 166,
+  "text": "Hi Tomas,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 168,
+  "end": 243,
+  "text": "On April 18, 2025 at 10:00 UTC, Oscar Sorensen initiated the wire transfer.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40",
+   "t6"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 244,
+  "end": 315,
+  "text": "On 12 May 2025, 13:25 UTC, Priya Park initiated the bank detail change.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49",
+   "t7"
+  ],
+  "mentions": [
+   "event_3",
+   "person_3"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 316,
+  "end": 398,
+  "text": "The account reconciliation was initiated by Owen Petrov on 17 May 2025, 16:15 UTC.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58",
+   "t5"
+  ],
+  "mentions": [
+   "event_6",
+   "person_1"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 400,
+  "end": 407,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 408,
+  "end": 413,
+  "text": "Sofia",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 38,
+  "end": 133,
+  "text": "Tomas Ashworth works for Summit Peak Freight LLC and uses the address tashworth@summitpeak.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t71",
+   "t72",
+   "t1",
+   "t4"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 134,
+  "end": 228,
+  "text": "Summit Peak Freight LLC employs Owen Petrov, who can be reached at owen.petrov@summitpeak.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t73",
+   "t74",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 229,
+  "end": 324,
+  "text": "Oscar Sorensen is employed by Summit Peak Freight LLC; their email is osorensen@summitpeak.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t75",
+   "t76"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 325,
+  "end": 423,
+  "text": "Brightwater Industrial Group employs Priya Park, who can be reached at priya.park@brightwater.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t77",
+   "t78",
+   "t2",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 424,
+  "end": 519,
+  "text": "Brightwater Industrial Group employs Sofia Reyes, who can be reached at sreyes@brightwater.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t79",
+   "t80",
+   "t8"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 521,
+  "end": 597,
+  "text": "Summit Peak Freight LLC operates from 5061 Commerce Drive, Tucson, AZ 85701.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 599,
+  "end": 638,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 32,
+  "text": "From: priya.park@brightwater.com",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_3"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 33,
+  "end": 85,
+  "text": "To: sreyes@brightwater.com, osorensen@summitpeak.com",
+  "tids": [
+   "t65",
+   "t66",
+   "t81",
+   "t82"
+  ],
+  "mentions": [
+   "email_msg_1",
+   "email_person_4",
+   "email_person_2"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 86,
+  "end": 126,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 127,
+  "end": 164,
+  "text": "Date: Tue, 13 May 2025 14:15:00 +0000",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 166,
+  "end": 175,
+  "text": "Hi Sofia,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 177,
+  "end": 253,
+  "text": "On April 24, 2025 at 14:10 UTC, Sofia Reyes initiated the vendor onboarding.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_4"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 254,
+  "end": 325,
+  "text": "Oscar Sorensen started the refund request on May 13, 2025 at 12:15 UTC.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_2"
+  ]
+ },
+ "D3.S8": {
+  "doc_id": "D3",
+  "start": 327,
+  "end": 334,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S9": {
+  "doc_id": "D3",
+  "start": 335,
+  "end": 340,
+  "text": "Priya",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 88,
+  "text": "Summit Peak Freight LLC holds account 2497019941 at First Harbor Bank.",
+  "tids": [
+   "t30",
+   "t31",
+   "t83",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 89,
+  "end": 169,
+  "text": "Account 8731942670 at First Harbor Bank belongs to Brightwater Industrial Group.",
+  "tids": [
+   "t33",
+   "t34",
+   "t84",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 170,
+  "end": 236,
+  "text": "Account 8484872972 at First Harbor Bank belongs to Oscar Sorensen.",
+  "tids": [
+   "t36",
+   "t37",
+   "t85",
+   "t35"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 238,
+  "end": 312,
+  "text": "Tomas Ashworth started the contract amendment on May 4, 2025 at 11:10 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 313,
+  "end": 379,
+  "text": "On 14 May 2025, 14:50 UTC, Sofia Reyes initiated the audit review.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_4"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 381,
+  "end": 420,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

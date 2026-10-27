@@ -5,7 +5,10 @@ documents. Every gold triple is assigned to exactly one sentence span. Key
 literals (names, addresses, account numbers) are anchored at the first
 sentence that spells them out; later mentions are references, not restatements.
 
-    python harness/generate_data.py [--cases 30] [--seed 20251025] [--validate]
+Each document is also rendered to a PDF (docs/D1.pdf, ...) with no sentence markers; the
+PDFs are what the methods under test receive. The .txt and .marked.txt files stay for scoring.
+
+    python harness/generate_data.py [--cases 100] [--seed 20251025] [--validate]
 """
 
 from __future__ import annotations
@@ -498,9 +501,26 @@ def check_roundtrip(case: dict, path: Path) -> None:
     assert got == want, f"{case['case_id']}: round-trip mismatch {sorted(got ^ want)[:6]}"
 
 
+def render_pdf(text: str, path: Path) -> None:
+    """A plain one-column PDF: first line as the heading, blank lines as paragraph breaks."""
+    from xml.sax.saxutils import escape
+    from reportlab.lib.pagesizes import letter
+    from reportlab.lib.styles import getSampleStyleSheet
+    from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
+    styles = getSampleStyleSheet()
+    body, head = styles["BodyText"], styles["Heading3"]
+    paras = [b.strip() for b in text.strip().split("\n\n") if b.strip()]
+    flow = []
+    for i, para in enumerate(paras):
+        for j, line in enumerate(para.split("\n")):
+            flow.append(Paragraph(escape(line), head if (i == 0 and j == 0) else body))
+        flow.append(Spacer(1, 8))
+    SimpleDocTemplate(str(path), pagesize=letter, title=paras[0].split("\n")[0][:80] if paras else "").build(flow)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cases", type=int, default=30)
+    ap.add_argument("--cases", type=int, default=100)
     ap.add_argument("--seed", type=int, default=20251025)
     ap.add_argument("--validate", action="store_true", help="run case_validate on every gold graph")
     args = ap.parse_args()
@@ -515,6 +535,7 @@ def main() -> None:
         for doc_id, doc in case["documents"].items():
             (d / "docs" / f"{doc_id}.txt").write_text(doc["text"] + "\n", encoding="utf-8")
             (d / "docs" / f"{doc_id}.marked.txt").write_text(doc["marked"] + "\n", encoding="utf-8")
+            render_pdf(doc["text"], d / "docs" / f"{doc_id}.pdf")
         (d / "spans.json").write_text(json.dumps(case["spans"], indent=1), encoding="utf-8")
         gold = {k: case[k] for k in ("case_id", "entities", "triples", "relationship_count", "relationship_count_total")}
         gold["documents"] = {k: v["type"] for k, v in case["documents"].items()}

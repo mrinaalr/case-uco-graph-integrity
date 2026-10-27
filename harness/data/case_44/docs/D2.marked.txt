@@ -1,0 +1,11 @@
+[D2.S1] From: rbanerjee@westmark.com
+[D2.S2] To: victor.mendes@clearpath.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Tue, 22 Apr 2025 11:10:00 +0000
+
+[D2.S5] Hi Victor,
+
+[D2.S6] On 30 March 2025, 14:10 UTC, Irene Abara initiated the payment approval. [D2.S7] Victor Mendes also took part in the payment approval. [D2.S8] The payment approval took place at the Clearpath Supply Co. office. [D2.S9] The wire transfer was initiated by Victor Mendes on April 7, 2025 at 14:00 UTC. [D2.S10] The invoice submission was initiated by Irene Abara on April 22, 2025 at 09:10 UTC. [D2.S11] Victor Mendes had been in contact with Ruth Banerjee throughout.
+
+[D2.S12] Thanks,
+[D2.S13] Ruth

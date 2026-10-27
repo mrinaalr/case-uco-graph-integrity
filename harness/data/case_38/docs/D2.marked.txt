@@ -1,0 +1,11 @@
+[D2.S1] From: luca.brennan@clearpath.com
+[D2.S2] To: marcus.abara@harborline.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Mon, 18 Aug 2025 17:50:00 +0000
+
+[D2.S5] Hi Marcus,
+
+[D2.S6] Hector Castillo started the vendor onboarding on 21 July 2025, 12:30 UTC. [D2.S7] On August 9, 2025 at 10:00 UTC, Marcus Abara initiated the expense reimbursement. [D2.S8] Luca Brennan was involved in the expense reimbursement as well. [D2.S9] The expense reimbursement took place at the Harborline Tooling Group office. [D2.S10] On 18 August 2025, 15:50 UTC, Hector Castillo initiated the bank detail change. [D2.S11] Luca Brennan authorized the bank detail change. [D2.S12] The bank detail change happened at Harborline Tooling Group's office. [D2.S13] Luca Brennan had been in contact with Priya Petrov throughout.
+
+[D2.S14] Thanks,
+[D2.S15] Luca

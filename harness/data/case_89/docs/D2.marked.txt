@@ -1,0 +1,9 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Lena Mendes works for Summit Peak Fabrication Group and uses the address lmendes@summitpeak.com. [D2.S3] Desmond Banerjee works for Summit Peak Fabrication Group and uses the address desmond.banerjee@summitpeak.com. [D2.S4] Hector Ashworth works for Summit Peak Fabrication Group and uses the address hashworth@summitpeak.com. [D2.S5] Grace Ivanova works for Northwind Industrial Co. and uses the address givanova@northwind.com. [D2.S6] Sofia Reyes works for Northwind Industrial Co. and uses the address sofia.reyes@northwind.com.
+
+[D2.S7] Summit Peak Fabrication Group operates from 2411 Riverside Boulevard, Richmond, VA 23219.
+
+[D2.S8] Union Ledger Bank account 6787125499 is registered to Summit Peak Fabrication Group. [D2.S9] Northwind Industrial Co. holds account 7854570071 at Union Ledger Bank. [D2.S10] Union Ledger Bank account 4524925306 is registered to Desmond Banerjee.
+
+[D2.S11] Please treat this as confidential.

@@ -1,0 +1,11 @@
+[D1.S1] From: divanova@westmark.com
+[D1.S2] To: fwhitfield@harborline.com
+[D1.S3] Subject: Invoice 7155 follow-up
+[D1.S4] Date: Tue, 16 Sep 2025 19:00:00 +0000
+
+[D1.S5] Hi Felix,
+
+[D1.S6] The contract amendment was initiated by Felix Whitfield on 22 August 2025, 15:10 UTC. [D1.S7] Approval for the contract amendment came from Desmond Ivanova. [D1.S8] Rosa Mendes also took part in the contract amendment. [D1.S9] The expense reimbursement was initiated by Desmond Ivanova on September 16, 2025 at 17:00 UTC. [D1.S10] Rosa Mendes also took part in the expense reimbursement. [D1.S11] The expense reimbursement happened at Harborline Distribution Co.'s office. [D1.S12] Desmond Ivanova communicated with Rosa Mendes about the payments.
+
+[D1.S13] Thanks,
+[D1.S14] Desmond

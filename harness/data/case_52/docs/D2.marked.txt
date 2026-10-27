@@ -1,0 +1,11 @@
+[D2.S1] From: shaddad@silverlake.com
+[D2.S2] To: rholloway@stonebridge.com, sreyes@stonebridge.com
+[D2.S3] Subject: Urgent: payment timing
+[D2.S4] Date: Tue, 18 Mar 2025 18:45:00 +0000
+
+[D2.S5] Hi Ruth,
+
+[D2.S6] On February 14, 2025 at 16:10 UTC, Samuel Haddad initiated the contract amendment. [D2.S7] Ruth Holloway also took part in the contract amendment. [D2.S8] On February 16, 2025 at 15:10 UTC, Sofia Reyes initiated the invoice submission. [D2.S9] Ruth Holloway started the audit review on February 18, 2025 at 11:10 UTC. [D2.S10] The refund request was initiated by Ruth Holloway on February 22, 2025 at 14:50 UTC. [D2.S11] Sofia Reyes started the bank detail change on March 1, 2025 at 11:30 UTC. [D2.S12] The bank detail change took place at the Stonebridge Components LLC office. [D2.S13] The wire transfer was initiated by Sofia Reyes on 12 March 2025, 11:50 UTC. [D2.S14] The vendor onboarding was initiated by Samuel Haddad on March 18, 2025 at 16:45 UTC.
+
+[D2.S15] Thanks,
+[D2.S16] Samuel

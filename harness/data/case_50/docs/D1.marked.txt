@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Silverlake Logistics LLC employs Felix Banerjee, who can be reached at fbanerjee@silverlake.com. [D1.S3] Grace Vance works for Silverlake Logistics LLC and uses the address grace.vance@silverlake.com. [D1.S4] Marcus Park works for Cedar Ridge Freight Group and uses the address mpark@cedarridge.com.
+
+[D1.S5] The offices of Silverlake Logistics LLC are at 2513 Lakeview Road, Raleigh, NC 27601.
+
+[D1.S6] Silverlake Logistics LLC holds account 3392323562 at First Harbor Bank. [D1.S7] Cedar Ridge Freight Group holds account 6943693275 at First Harbor Bank. [D1.S8] Account 9389983215 at First Harbor Bank belongs to Grace Vance.
+
+[D1.S9] This summary reflects records available to date.

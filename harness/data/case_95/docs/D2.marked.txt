@@ -1,0 +1,11 @@
+[D2.S1] From: mpetrov@westmark.com
+[D2.S2] To: asorensen@summitpeak.com
+[D2.S3] Subject: Updated remittance details
+[D2.S4] Date: Wed, 16 Apr 2025 16:25:00 +0000
+
+[D2.S5] Hi Arjun,
+
+[D2.S6] Hector Castillo started the expense reimbursement on March 20, 2025 at 10:25 UTC. [D2.S7] Maya Petrov started the vendor onboarding on March 22, 2025 at 17:10 UTC. [D2.S8] Tomas Brennan was involved in the vendor onboarding as well. [D2.S9] On 12 April 2025, 11:00 UTC, Hector Castillo initiated the refund request. [D2.S10] On April 12, 2025 at 15:00 UTC, Tomas Brennan initiated the invoice submission. [D2.S11] Irene Vance started the payment approval on April 16, 2025 at 14:25 UTC. [D2.S12] Hector Castillo had been in contact with Tomas Brennan throughout.
+
+[D2.S13] Thanks,
+[D2.S14] Maya

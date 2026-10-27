@@ -44,6 +44,21 @@ python = ".venv/bin/python"
 script = "sdk/mcp_server/server.py"
 extensions = "legalproc,cryptoinv"
 
+[data]
+# What the methods under test read: "pdf" (docs/D*.pdf, text via pypdf) or "marked" (docs/D*.marked.txt with sentence ids).
+source = "pdf"
+
+[compiled]
+# Method C: one repair round per document for claims the verifier rejected.
+repair_rounds = 1
+
+[critic]
+# Arm A1+QA (pipeline_critic.py). policy "disabled" runs the server's deterministic checks only;
+# "manual" also has the same LLM act as the critic from the server's prompt package.
+policy = "disabled"
+rounds = 2                   # serializer revisions the originating model may make
+fix_attempts = 1             # tracebacks sent back when a revised serializer crashes
+
 [run]
 max_turns = 80
 max_tool_calls = 150         # A2: stop and mark the run "capped"

@@ -1,0 +1,11 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Victor Banerjee is employed by Copperfield Tooling LLC; their email is vbanerjee@copperfield.com. [D1.S3] Irene Holloway is employed by Copperfield Tooling LLC; their email is iholloway@copperfield.com. [D1.S4] Copperfield Tooling LLC employs Wesley Whitfield, who can be reached at wwhitfield@copperfield.com. [D1.S5] Grace Sorensen works for Harborline Logistics Group and uses the address gsorensen@harborline.com.
+
+[D1.S6] Wesley Whitfield's manager is Victor Banerjee.
+
+[D1.S7] Copperfield Tooling LLC is based at 5956 Main Street, Dayton, OH 45402.
+
+[D1.S8] First Harbor Bank account 1198668524 is registered to Copperfield Tooling LLC. [D1.S9] Harborline Logistics Group holds account 3864806891 at First Harbor Bank.
+
+[D1.S10] More detail will follow once records are pulled.

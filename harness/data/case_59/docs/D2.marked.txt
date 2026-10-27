@@ -1,0 +1,11 @@
+[D2.S1] From: spetrov@westmark.com
+[D2.S2] To: ssorensen@brightwater.com
+[D2.S3] Subject: Invoice 7137 follow-up
+[D2.S4] Date: Thu, 15 May 2025 18:30:00 +0000
+
+[D2.S5] Hi Sofia,
+
+[D2.S6] Samuel Petrov started the payment approval on 12 April 2025, 11:45 UTC. [D2.S7] On April 14, 2025 at 15:00 UTC, Samuel Petrov initiated the expense reimbursement. [D2.S8] Sofia Sorensen was involved in the expense reimbursement as well. [D2.S9] The account reconciliation was initiated by Yara Moreau on 9 May 2025, 16:10 UTC. [D2.S10] The account reconciliation took place at the Brightwater Components Co. office. [D2.S11] The refund request was initiated by Irene Tanaka on May 15, 2025 at 16:30 UTC.
+
+[D2.S12] Thanks,
+[D2.S13] Samuel

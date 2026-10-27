@@ -1,0 +1,13 @@
+[D2.S1] INTERNAL MEMO: Vendor payment review
+
+[D2.S2] Felix Whitfield works for Redfern Services Group and uses the address fwhitfield@redfern.com. [D2.S3] Samuel Lindqvist works for Redfern Services Group and uses the address samuel.lindqvist@redfern.com. [D2.S4] Andre Novak is employed by Redfern Services Group; their email is andre.novak@redfern.com. [D2.S5] Owen Ashworth works for Northwind Industrial Inc. and uses the address oashworth@northwind.com.
+
+[D2.S6] Andre Novak reports to Felix Whitfield.
+
+[D2.S7] The offices of Redfern Services Group are at 476 Main Street, Boise, ID 83702. [D2.S8] Northwind Industrial Inc. operates from 4569 Lakeview Road, Omaha, NE 68102.
+
+[D2.S9] Redfern Services Group holds account 2328361089 at First Harbor Bank. [D2.S10] First Harbor Bank account 4480974485 is registered to Northwind Industrial Inc.
+
+[D2.S11] Felix Whitfield communicated with Samuel Lindqvist about the payments.
+
+[D2.S12] Let me know if anything here looks off.

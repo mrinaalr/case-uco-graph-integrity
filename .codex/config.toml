@@ -1,0 +1,8 @@
+[mcp_servers.case-uco]
+command = "/Users/mrinaalramachandran/Projects/ProjectVIC/case-uco-graph-integrity/.venv/bin/python"
+args = ["/Users/mrinaalramachandran/Projects/ProjectVIC/case-uco-graph-integrity/sdk/mcp_server/server.py"]
+
+[mcp_servers.case-uco.env]
+PYTHONPATH = "/Users/mrinaalramachandran/Projects/ProjectVIC/case-uco-graph-integrity/sdk/python:/Users/mrinaalramachandran/Projects/ProjectVIC/case-uco-graph-integrity/sdk/mcp_server"
+PATH = "/Users/mrinaalramachandran/Projects/ProjectVIC/case-uco-graph-integrity/.venv/bin:/usr/bin:/bin"
+CASE_UCO_EXTENSIONS = "cac,legalproc,solveit,cryptoinv,rico,weapons,drugs,attack-technique,trajectories,layered,elder-fraud,extortion,trafficking"

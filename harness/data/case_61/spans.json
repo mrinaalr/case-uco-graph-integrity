@@ -1,0 +1,424 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 135,
+  "text": "Sofia Banerjee works for Silverlake Consulting Co. and uses the address sbanerjee@silverlake.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t60",
+   "t61",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 136,
+  "end": 232,
+  "text": "Kofi Haddad is employed by Silverlake Consulting Co.; their email is kofi.haddad@silverlake.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t62",
+   "t63",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 233,
+  "end": 329,
+  "text": "Yara Castillo is employed by Silverlake Consulting Co.; their email is ycastillo@silverlake.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t64",
+   "t65",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 330,
+  "end": 430,
+  "text": "Brightwater Distribution Co. employs Dana Tanaka, who can be reached at dana.tanaka@brightwater.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t66",
+   "t67",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 432,
+  "end": 470,
+  "text": "Kofi Haddad reports to Sofia Banerjee.",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 472,
+  "end": 564,
+  "text": "The offices of Silverlake Consulting Co. are at 7871 Riverside Boulevard, Raleigh, NC 27601.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 566,
+  "end": 638,
+  "text": "Silverlake Consulting Co. holds account 7768046532 at Union Ledger Bank.",
+  "tids": [
+   "t26",
+   "t27",
+   "t68",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 639,
+  "end": 714,
+  "text": "Brightwater Distribution Co. holds account 7957094499 at Union Ledger Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t69",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 715,
+  "end": 778,
+  "text": "Account 5516131658 at Union Ledger Bank belongs to Kofi Haddad.",
+  "tids": [
+   "t32",
+   "t33",
+   "t70",
+   "t31"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 780,
+  "end": 837,
+  "text": "Account 7768046532 sent a transfer to account 7957094499.",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_vendor"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 838,
+  "end": 896,
+  "text": "Funds moved from account 7768046532 to account 5516131658.",
+  "tids": [
+   "t54"
+  ],
+  "mentions": [
+   "acct_company",
+   "acct_insider"
+  ]
+ },
+ "D1.S13": {
+  "doc_id": "D1",
+  "start": 898,
+  "end": 932,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: dana.tanaka@brightwater.com",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 88,
+  "text": "To: ycastillo@silverlake.com, sbanerjee@silverlake.com",
+  "tids": [
+   "t56",
+   "t57",
+   "t71"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 89,
+  "end": 114,
+  "text": "Subject: Audit prep items",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Thu, 06 Feb 2025 16:15:00 +0000",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 154,
+  "end": 162,
+  "text": "Hi Yara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 164,
+  "end": 246,
+  "text": "The payment approval was initiated by Yara Castillo on 18 January 2025, 13:00 UTC.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 247,
+  "end": 291,
+  "text": "Kofi Haddad authorized the payment approval.",
+  "tids": [
+   "t48"
+  ],
+  "mentions": [
+   "person_1",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 292,
+  "end": 360,
+  "text": "The payment approval happened at Silverlake Consulting Co.'s office.",
+  "tids": [
+   "t53"
+  ],
+  "mentions": [
+   "event_0",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 361,
+  "end": 449,
+  "text": "The invoice submission was initiated by Sofia Banerjee on January 19, 2025 at 17:15 UTC.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 450,
+  "end": 509,
+  "text": "Kofi Haddad was involved in the invoice submission as well.",
+  "tids": [
+   "t52"
+  ],
+  "mentions": [
+   "person_1",
+   "event_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 510,
+  "end": 598,
+  "text": "The account reconciliation was initiated by Yara Castillo on 31 January 2025, 09:00 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_2"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 599,
+  "end": 656,
+  "text": "Dana Tanaka also took part in the account reconciliation.",
+  "tids": [
+   "t49"
+  ],
+  "mentions": [
+   "person_3",
+   "event_2"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 657,
+  "end": 739,
+  "text": "On February 6, 2025 at 14:15 UTC, Sofia Banerjee initiated the bank detail change.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 740,
+  "end": 788,
+  "text": "Yara Castillo authorized the bank detail change.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 789,
+  "end": 852,
+  "text": "Dana Tanaka communicated with Yara Castillo about the payments.",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "person_3",
+   "person_2"
+  ]
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 854,
+  "end": 861,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S17": {
+  "doc_id": "D2",
+  "start": 862,
+  "end": 866,
+  "text": "Dana",
+  "tids": [],
+  "mentions": []
+ }
+}

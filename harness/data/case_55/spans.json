@@ -1,0 +1,350 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 134,
+  "text": "Brightwater Analytics Ltd. employs Dana Fischer, who can be reached at dfischer@brightwater.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t52",
+   "t53",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 135,
+  "end": 233,
+  "text": "Mei Ivanova works for Brightwater Analytics Ltd. and uses the address mei.ivanova@brightwater.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t54",
+   "t55",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 234,
+  "end": 340,
+  "text": "Desmond Brennan works for Brightwater Analytics Ltd. and uses the address desmond.brennan@brightwater.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t56",
+   "t57",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 341,
+  "end": 435,
+  "text": "Victor Delgado is employed by Northwind Consulting Co.; their email is vdelgado@northwind.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t58",
+   "t59",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 436,
+  "end": 528,
+  "text": "Northwind Consulting Co. employs Samuel Okafor, who can be reached at sokafor@northwind.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t60",
+   "t61",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 530,
+  "end": 617,
+  "text": "The offices of Brightwater Analytics Ltd. are at 1806 Lakeview Road, Madison, WI 53703.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 619,
+  "end": 653,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 33,
+  "text": "From: mei.ivanova@brightwater.com",
+  "tids": [
+   "t47"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 34,
+  "end": 92,
+  "text": "To: sokafor@northwind.com, desmond.brennan@brightwater.com",
+  "tids": [
+   "t48",
+   "t49",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4",
+   "email_person_2"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 93,
+  "end": 126,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t50"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 127,
+  "end": 164,
+  "text": "Date: Fri, 01 Aug 2025 12:30:00 +0000",
+  "tids": [
+   "t51"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 166,
+  "end": 176,
+  "text": "Hi Samuel,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 178,
+  "end": 258,
+  "text": "On July 19, 2025 at 12:50 UTC, Mei Ivanova initiated the account reconciliation.",
+  "tids": [
+   "t35",
+   "t36",
+   "t37"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 259,
+  "end": 325,
+  "text": "Victor Delgado was involved in the account reconciliation as well.",
+  "tids": [
+   "t45"
+  ],
+  "mentions": [
+   "person_3",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 326,
+  "end": 403,
+  "text": "On 1 August 2025, 10:30 UTC, Victor Delgado initiated the invoice submission.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_2",
+   "person_3"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 405,
+  "end": 412,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 413,
+  "end": 416,
+  "text": "Mei",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 18,
+  "end": 97,
+  "text": "Account 2295060120 at Meridian Trust Bank belongs to Brightwater Analytics Ltd.",
+  "tids": [
+   "t30",
+   "t31",
+   "t64",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 98,
+  "end": 178,
+  "text": "Meridian Trust Bank account 2631379830 is registered to Northwind Consulting Co.",
+  "tids": [
+   "t33",
+   "t34",
+   "t65",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 180,
+  "end": 251,
+  "text": "On 22 July 2025, 09:25 UTC, Mei Ivanova initiated the payment approval.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 252,
+  "end": 307,
+  "text": "Desmond Brennan also took part in the payment approval.",
+  "tids": [
+   "t46"
+  ],
+  "mentions": [
+   "person_2",
+   "event_1"
+  ]
+ },
+ "D3.S6": {
+  "doc_id": "D3",
+  "start": 308,
+  "end": 371,
+  "text": "Victor Delgado had been in contact with Mei Ivanova throughout.",
+  "tids": [
+   "t44"
+  ],
+  "mentions": [
+   "person_3",
+   "person_1"
+  ]
+ },
+ "D3.S7": {
+  "doc_id": "D3",
+  "start": 373,
+  "end": 412,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,11 @@
+[D3.S1] From: priya.park@brightwater.com
+[D3.S2] To: sreyes@brightwater.com, osorensen@summitpeak.com
+[D3.S3] Subject: Contract terms for next quarter
+[D3.S4] Date: Tue, 13 May 2025 14:15:00 +0000
+
+[D3.S5] Hi Sofia,
+
+[D3.S6] On April 24, 2025 at 14:10 UTC, Sofia Reyes initiated the vendor onboarding. [D3.S7] Oscar Sorensen started the refund request on May 13, 2025 at 12:15 UTC.
+
+[D3.S8] Thanks,
+[D3.S9] Priya

@@ -1,0 +1,1054 @@
+{
+ "case_id": "case_44",
+ "entities": [
+  {
+   "eid": "org_company",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D2",
+    "D4"
+   ],
+   "label": "Clearpath Supply Co."
+  },
+  {
+   "eid": "org_vendor",
+   "class": "Organization",
+   "docs": [
+    "D1",
+    "D4"
+   ],
+   "label": "Westmark Consulting Group"
+  },
+  {
+   "eid": "org_bank",
+   "class": "Organization",
+   "docs": [
+    "D4"
+   ],
+   "label": "Meridian Trust Bank"
+  },
+  {
+   "eid": "person_0",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Victor Mendes"
+  },
+  {
+   "eid": "person_1",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+   ],
+   "label": "Irene Abara"
+  },
+  {
+   "eid": "person_2",
+   "class": "Person",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "Ruth Banerjee"
+  },
+  {
+   "eid": "email_person_0",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "victor.mendes@clearpath.com"
+  },
+  {
+   "eid": "email_person_1",
+   "class": "EmailAddress",
+   "docs": [
+    "D1"
+   ],
+   "label": "irene.abara@clearpath.com"
+  },
+  {
+   "eid": "email_person_2",
+   "class": "EmailAddress",
+   "docs": [
+    "D1",
+    "D2"
+   ],
+   "label": "rbanerjee@westmark.com"
+  },
+  {
+   "eid": "loc_company",
+   "class": "Location",
+   "docs": [
+    "D1",
+    "D2",
+    "D4"
+   ],
+   "label": "5436 Industrial Parkway, Spokane, WA 99201"
+  },
+  {
+   "eid": "acct_company",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "8786376033"
+  },
+  {
+   "eid": "acct_vendor",
+   "class": "Account",
+   "docs": [
+    "D4"
+   ],
+   "label": "7178469476"
+  },
+  {
+   "eid": "event_0",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "payment approval"
+  },
+  {
+   "eid": "event_1",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "account reconciliation"
+  },
+  {
+   "eid": "event_2",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "wire transfer"
+  },
+  {
+   "eid": "event_3",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "vendor onboarding"
+  },
+  {
+   "eid": "event_4",
+   "class": "Event",
+   "docs": [
+    "D2"
+   ],
+   "label": "invoice submission"
+  },
+  {
+   "eid": "event_5",
+   "class": "Event",
+   "docs": [
+    "D4"
+   ],
+   "label": "bank detail change"
+  },
+  {
+   "eid": "handle_person_0",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@victorm"
+  },
+  {
+   "eid": "handle_person_1",
+   "class": "ApplicationAccount",
+   "docs": [
+    "D3"
+   ],
+   "label": "@irenea"
+  },
+  {
+   "eid": "loc_vendor",
+   "class": "Location",
+   "docs": [
+    "D1"
+   ],
+   "label": "2311 Industrial Parkway, Albany, NY 12207"
+  },
+  {
+   "eid": "email_msg_0",
+   "class": "EmailMessage",
+   "docs": [
+    "D2"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_0",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_1",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_msg_2",
+   "class": "Message",
+   "docs": [
+    "D3"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_0",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_1",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "email_account_person_2",
+   "class": "EmailAccount",
+   "docs": [
+    "D1"
+   ],
+   "label": null
+  },
+  {
+   "eid": "chat_thread",
+   "class": "MessageThread",
+   "docs": [
+    "D3"
+   ],
+   "label": "#finance-ops"
+  }
+ ],
+ "triples": [
+  {
+   "tid": "t1",
+   "s": "org_company",
+   "p": "name",
+   "o": "Clearpath Supply Co.",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t2",
+   "s": "org_vendor",
+   "p": "name",
+   "o": "Westmark Consulting Group",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t3",
+   "s": "org_bank",
+   "p": "name",
+   "o": "Meridian Trust Bank",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t4",
+   "s": "person_0",
+   "p": "name",
+   "o": "Victor Mendes",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t5",
+   "s": "person_1",
+   "p": "name",
+   "o": "Irene Abara",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t6",
+   "s": "person_2",
+   "p": "name",
+   "o": "Ruth Banerjee",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t7",
+   "s": "email_person_0",
+   "p": "addressValue",
+   "o": "victor.mendes@clearpath.com",
+   "lit": true,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t8",
+   "s": "person_0",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t9",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t10",
+   "s": "email_person_1",
+   "p": "addressValue",
+   "o": "irene.abara@clearpath.com",
+   "lit": true,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t11",
+   "s": "person_1",
+   "p": "Employed_By",
+   "o": "org_company",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t12",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t13",
+   "s": "email_person_2",
+   "p": "addressValue",
+   "o": "rbanerjee@westmark.com",
+   "lit": true,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t14",
+   "s": "person_2",
+   "p": "Employed_By",
+   "o": "org_vendor",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t15",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t16",
+   "s": "loc_company",
+   "p": "street",
+   "o": "5436 Industrial Parkway",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t17",
+   "s": "loc_company",
+   "p": "locality",
+   "o": "Spokane",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t18",
+   "s": "loc_company",
+   "p": "region",
+   "o": "WA",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t19",
+   "s": "loc_company",
+   "p": "postalCode",
+   "o": "99201",
+   "lit": true,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t20",
+   "s": "org_company",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D1.S5",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t21",
+   "s": "acct_company",
+   "p": "accountIdentifier",
+   "o": "8786376033",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t22",
+   "s": "org_company",
+   "p": "Owns_Account",
+   "o": "acct_company",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t23",
+   "s": "acct_company",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t24",
+   "s": "acct_vendor",
+   "p": "accountIdentifier",
+   "o": "7178469476",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t25",
+   "s": "org_vendor",
+   "p": "Owns_Account",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t26",
+   "s": "acct_vendor",
+   "p": "accountIssuer",
+   "o": "org_bank",
+   "lit": false,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t27",
+   "s": "event_0",
+   "p": "eventType",
+   "o": "payment approval",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t28",
+   "s": "event_0",
+   "p": "startTime",
+   "o": "2025-03-30T14:10:00Z",
+   "lit": true,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t29",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S6",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t30",
+   "s": "event_1",
+   "p": "eventType",
+   "o": "account reconciliation",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t31",
+   "s": "event_1",
+   "p": "startTime",
+   "o": "2025-04-06T09:00:00Z",
+   "lit": true,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t32",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_1",
+   "lit": false,
+   "span_id": "D4.S4",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t33",
+   "s": "event_2",
+   "p": "eventType",
+   "o": "wire transfer",
+   "lit": true,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t34",
+   "s": "event_2",
+   "p": "startTime",
+   "o": "2025-04-07T14:00:00Z",
+   "lit": true,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t35",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_2",
+   "lit": false,
+   "span_id": "D2.S9",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t36",
+   "s": "event_3",
+   "p": "eventType",
+   "o": "vendor onboarding",
+   "lit": true,
+   "span_id": "D4.S6",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t37",
+   "s": "event_3",
+   "p": "startTime",
+   "o": "2025-04-16T15:30:00Z",
+   "lit": true,
+   "span_id": "D4.S6",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t38",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_3",
+   "lit": false,
+   "span_id": "D4.S6",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t39",
+   "s": "event_4",
+   "p": "eventType",
+   "o": "invoice submission",
+   "lit": true,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t40",
+   "s": "event_4",
+   "p": "startTime",
+   "o": "2025-04-22T09:10:00Z",
+   "lit": true,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t41",
+   "s": "person_1",
+   "p": "Initiated",
+   "o": "event_4",
+   "lit": false,
+   "span_id": "D2.S10",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t42",
+   "s": "event_5",
+   "p": "eventType",
+   "o": "bank detail change",
+   "lit": true,
+   "span_id": "D4.S7",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t43",
+   "s": "event_5",
+   "p": "startTime",
+   "o": "2025-04-23T14:10:00Z",
+   "lit": true,
+   "span_id": "D4.S7",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t44",
+   "s": "person_0",
+   "p": "Initiated",
+   "o": "event_5",
+   "lit": false,
+   "span_id": "D4.S7",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t45",
+   "s": "handle_person_0",
+   "p": "accountIdentifier",
+   "o": "@victorm",
+   "lit": true,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t46",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "handle_person_0",
+   "lit": false,
+   "span_id": "D3.S2",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t47",
+   "s": "handle_person_1",
+   "p": "accountIdentifier",
+   "o": "@irenea",
+   "lit": true,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t48",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S3",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t49",
+   "s": "person_0",
+   "p": "Communicated_With",
+   "o": "person_2",
+   "lit": false,
+   "span_id": "D2.S11",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t50",
+   "s": "person_1",
+   "p": "Participated_In",
+   "o": "event_5",
+   "lit": false,
+   "span_id": "D4.S8",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t51",
+   "s": "event_1",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D4.S5",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t52",
+   "s": "acct_company",
+   "p": "Transferred_To",
+   "o": "acct_vendor",
+   "lit": false,
+   "span_id": "D4.S10",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t53",
+   "s": "event_5",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D4.S9",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t54",
+   "s": "person_0",
+   "p": "Participated_In",
+   "o": "event_0",
+   "lit": false,
+   "span_id": "D2.S7",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t55",
+   "s": "event_0",
+   "p": "Located_At",
+   "o": "loc_company",
+   "lit": false,
+   "span_id": "D2.S8",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t56",
+   "s": "loc_vendor",
+   "p": "street",
+   "o": "2311 Industrial Parkway",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t57",
+   "s": "loc_vendor",
+   "p": "locality",
+   "o": "Albany",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t58",
+   "s": "loc_vendor",
+   "p": "region",
+   "o": "NY",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t59",
+   "s": "loc_vendor",
+   "p": "postalCode",
+   "o": "12207",
+   "lit": true,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t60",
+   "s": "org_vendor",
+   "p": "Located_At",
+   "o": "loc_vendor",
+   "lit": false,
+   "span_id": "D1.S6",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t61",
+   "s": "email_msg_0",
+   "p": "from",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D2.S1",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t62",
+   "s": "email_msg_0",
+   "p": "to",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t63",
+   "s": "email_msg_0",
+   "p": "subject",
+   "o": "Updated remittance details",
+   "lit": true,
+   "span_id": "D2.S3",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t64",
+   "s": "email_msg_0",
+   "p": "sentTime",
+   "o": "2025-04-22T11:10:00Z",
+   "lit": true,
+   "span_id": "D2.S4",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t65",
+   "s": "chat_msg_0",
+   "p": "from",
+   "o": "handle_person_0",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t66",
+   "s": "chat_msg_0",
+   "p": "to",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t67",
+   "s": "chat_msg_0",
+   "p": "sentTime",
+   "o": "2025-03-30T15:10:00Z",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t68",
+   "s": "chat_msg_0",
+   "p": "messageText",
+   "o": "Finance is asking questions again.",
+   "lit": true,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t69",
+   "s": "chat_msg_1",
+   "p": "from",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t70",
+   "s": "chat_msg_1",
+   "p": "to",
+   "o": "handle_person_0",
+   "lit": false,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t71",
+   "s": "chat_msg_1",
+   "p": "sentTime",
+   "o": "2025-03-30T15:17:00Z",
+   "lit": true,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t72",
+   "s": "chat_msg_1",
+   "p": "messageText",
+   "o": "I pushed it through, check your inbox.",
+   "lit": true,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t73",
+   "s": "chat_msg_2",
+   "p": "from",
+   "o": "handle_person_0",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t74",
+   "s": "chat_msg_2",
+   "p": "to",
+   "o": "handle_person_1",
+   "lit": false,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t75",
+   "s": "chat_msg_2",
+   "p": "sentTime",
+   "o": "2025-03-30T15:24:00Z",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t76",
+   "s": "chat_msg_2",
+   "p": "messageText",
+   "o": "Let's keep this between us until Friday.",
+   "lit": true,
+   "span_id": "D3.S6",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t77",
+   "s": "email_account_person_0",
+   "p": "emailAddress",
+   "o": "email_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t78",
+   "s": "person_0",
+   "p": "Holds_Account",
+   "o": "email_account_person_0",
+   "lit": false,
+   "span_id": "D1.S2",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t79",
+   "s": "email_account_person_1",
+   "p": "emailAddress",
+   "o": "email_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t80",
+   "s": "person_1",
+   "p": "Holds_Account",
+   "o": "email_account_person_1",
+   "lit": false,
+   "span_id": "D1.S3",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t81",
+   "s": "email_account_person_2",
+   "p": "emailAddress",
+   "o": "email_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t82",
+   "s": "person_2",
+   "p": "Holds_Account",
+   "o": "email_account_person_2",
+   "lit": false,
+   "span_id": "D1.S4",
+   "doc_id": "D1"
+  },
+  {
+   "tid": "t83",
+   "s": "person_2",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D2.S2",
+   "doc_id": "D2"
+  },
+  {
+   "tid": "t84",
+   "s": "chat_thread",
+   "p": "name",
+   "o": "#finance-ops",
+   "lit": true,
+   "span_id": "D3.S1",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t85",
+   "s": "person_0",
+   "p": "Communicated_With",
+   "o": "person_1",
+   "lit": false,
+   "span_id": "D3.S4",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t86",
+   "s": "person_1",
+   "p": "Communicated_With",
+   "o": "person_0",
+   "lit": false,
+   "span_id": "D3.S5",
+   "doc_id": "D3"
+  },
+  {
+   "tid": "t87",
+   "s": "acct_company",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S2",
+   "doc_id": "D4"
+  },
+  {
+   "tid": "t88",
+   "s": "acct_vendor",
+   "p": "accountType",
+   "o": "bank account",
+   "lit": true,
+   "span_id": "D4.S3",
+   "doc_id": "D4"
+  }
+ ],
+ "relationship_count": 25,
+ "relationship_count_total": 31,
+ "documents": {
+  "D1": "memo",
+  "D2": "email",
+  "D3": "chat",
+  "D4": "report"
+ },
+ "seed": 20251025
+}

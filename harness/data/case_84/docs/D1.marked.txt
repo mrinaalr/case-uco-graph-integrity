@@ -1,0 +1,11 @@
+[D1.S1] From: sreyes@brightwater.com
+[D1.S2] To: tashworth@summitpeak.com, osorensen@summitpeak.com
+[D1.S3] Subject: Wire confirmation needed
+[D1.S4] Date: Sat, 17 May 2025 18:15:00 +0000
+
+[D1.S5] Hi Tomas,
+
+[D1.S6] On April 18, 2025 at 10:00 UTC, Oscar Sorensen initiated the wire transfer. [D1.S7] On 12 May 2025, 13:25 UTC, Priya Park initiated the bank detail change. [D1.S8] The account reconciliation was initiated by Owen Petrov on 17 May 2025, 16:15 UTC.
+
+[D1.S9] Thanks,
+[D1.S10] Sofia

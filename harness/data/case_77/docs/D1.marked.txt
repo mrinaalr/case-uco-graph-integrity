@@ -1,0 +1,7 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Irene Reyes works for Harborline Freight Ltd. and uses the address irene.reyes@harborline.com. [D1.S3] Arjun Haddad works for Harborline Freight Ltd. and uses the address arjun.haddad@harborline.com. [D1.S4] Mei Fischer is employed by Harborline Freight Ltd.; their email is mei.fischer@harborline.com. [D1.S5] Dana Osei works for Silverlake Distribution Ltd. and uses the address dosei@silverlake.com. [D1.S6] Desmond Delgado works for Silverlake Distribution Ltd. and uses the address desmond.delgado@silverlake.com.
+
+[D1.S7] Harborline Freight Ltd. is based at 2769 Harbor Avenue, Boise, ID 83702.
+
+[D1.S8] Let me know if anything here looks off.

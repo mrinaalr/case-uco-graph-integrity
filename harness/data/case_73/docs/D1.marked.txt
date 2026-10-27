@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Copperfield Supply Co. employs Marcus Novak, who can be reached at mnovak@copperfield.com. [D1.S3] Copperfield Supply Co. employs Tomas Abara, who can be reached at tomas.abara@copperfield.com. [D1.S4] Hannah Moreau is employed by Copperfield Supply Co.; their email is hmoreau@copperfield.com. [D1.S5] Silverlake Consulting Group employs Andre Sorensen, who can be reached at andre.sorensen@silverlake.com. [D1.S6] Luca Delgado is employed by Silverlake Consulting Group; their email is ldelgado@silverlake.com.
+
+[D1.S7] Copperfield Supply Co. operates from 7152 Riverside Boulevard, Boise, ID 83702.
+
+[D1.S8] Account 6669779042 at Lakeshore Savings Bank belongs to Copperfield Supply Co. [D1.S9] Lakeshore Savings Bank account 3941662208 is registered to Silverlake Consulting Group. [D1.S10] Tomas Abara holds account 3892554972 at Lakeshore Savings Bank.
+
+[D1.S11] Please treat this as confidential.

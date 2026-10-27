@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Westmark Supply Ltd. holds account 4828160316 at Lakeshore Savings Bank. [D4.S3] Lakeshore Savings Bank account 8043914307 is registered to Silverlake Distribution Ltd. [D4.S4] Lakeshore Savings Bank account 1985396733 is registered to Clara Petrov.
+
+[D4.S5] On March 16, 2025 at 16:15 UTC, Irene Tanaka initiated the vendor onboarding. [D4.S6] Desmond Kowalski was involved in the vendor onboarding as well. [D4.S7] Desmond Kowalski started the bank detail change on April 18, 2025 at 14:50 UTC.
+
+[D4.S8] Let me know if anything here looks off.

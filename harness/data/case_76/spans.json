@@ -1,0 +1,488 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 129,
+  "text": "Clearpath Tooling LLC employs Arjun Quinn, who can be reached at arjun.quinn@clearpath.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t75",
+   "t76",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 130,
+  "end": 216,
+  "text": "Clara Vance works for Clearpath Tooling LLC and uses the address cvance@clearpath.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t77",
+   "t78",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 217,
+  "end": 313,
+  "text": "Andre Reyes works for Brightwater Distribution Inc. and uses the address areyes@brightwater.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t79",
+   "t80",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 315,
+  "end": 350,
+  "text": "Clara Vance reports to Arjun Quinn.",
+  "tids": [
+   "t58"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 352,
+  "end": 430,
+  "text": "The offices of Clearpath Tooling LLC are at 5391 Elm Street, Dayton, OH 45402.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 431,
+  "end": 511,
+  "text": "Brightwater Distribution Inc. is based at 5710 Commerce Drive, Dayton, OH 45402.",
+  "tids": [
+   "t64",
+   "t60",
+   "t61",
+   "t62",
+   "t63"
+  ],
+  "mentions": [
+   "org_vendor",
+   "loc_vendor"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 513,
+  "end": 547,
+  "text": "Please treat this as confidential.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: areyes@brightwater.com",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_2"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 53,
+  "text": "To: cvance@clearpath.com",
+  "tids": [
+   "t68",
+   "t81"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 54,
+  "end": 85,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t69"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 86,
+  "end": 123,
+  "text": "Date: Wed, 30 Apr 2025 13:45:00 +0000",
+  "tids": [
+   "t70"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 125,
+  "end": 134,
+  "text": "Hi Clara,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 136,
+  "end": 210,
+  "text": "The audit review was initiated by Andre Reyes on 13 April 2025, 09:15 UTC.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_0",
+   "person_2"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 211,
+  "end": 289,
+  "text": "Arjun Quinn started the account reconciliation on April 26, 2025 at 13:45 UTC.",
+  "tids": [
+   "t36",
+   "t37",
+   "t38"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 290,
+  "end": 353,
+  "text": "Clara Vance was involved in the account reconciliation as well.",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "person_1",
+   "event_2"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 354,
+  "end": 428,
+  "text": "On 27 April 2025, 17:45 UTC, Arjun Quinn initiated the invoice submission.",
+  "tids": [
+   "t42",
+   "t43",
+   "t44"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 429,
+  "end": 499,
+  "text": "The invoice submission took place at the Clearpath Tooling LLC office.",
+  "tids": [
+   "t66"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 500,
+  "end": 578,
+  "text": "The wire transfer was initiated by Arjun Quinn on April 30, 2025 at 11:45 UTC.",
+  "tids": [
+   "t48",
+   "t49",
+   "t50"
+  ],
+  "mentions": [
+   "event_6",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 580,
+  "end": 587,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 588,
+  "end": 593,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t82"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 49,
+  "text": "@arjunq is Arjun Quinn.",
+  "tids": [
+   "t55",
+   "t54"
+  ],
+  "mentions": [
+   "handle_person_0",
+   "person_0"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 50,
+  "end": 73,
+  "text": "@andrer is Andre Reyes.",
+  "tids": [
+   "t57",
+   "t56"
+  ],
+  "mentions": [
+   "handle_person_2",
+   "person_2"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 74,
+  "end": 151,
+  "text": "[2025-04-13 10:15 UTC] @arjunq to @andrer: Finance is asking questions again.",
+  "tids": [
+   "t71",
+   "t72",
+   "t73",
+   "t74",
+   "t83"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_0",
+   "handle_person_2"
+  ]
+ },
+ "D4.S1": {
+  "doc_id": "D4",
+  "start": 0,
+  "end": 16,
+  "text": "Incident summary",
+  "tids": [],
+  "mentions": []
+ },
+ "D4.S2": {
+  "doc_id": "D4",
+  "start": 18,
+  "end": 105,
+  "text": "Granite Federal Credit Union account 2142903128 is registered to Clearpath Tooling LLC.",
+  "tids": [
+   "t22",
+   "t23",
+   "t84",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D4.S3": {
+  "doc_id": "D4",
+  "start": 106,
+  "end": 197,
+  "text": "Account 6179868558 at Granite Federal Credit Union belongs to Brightwater Distribution Inc.",
+  "tids": [
+   "t25",
+   "t26",
+   "t85",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D4.S4": {
+  "doc_id": "D4",
+  "start": 198,
+  "end": 267,
+  "text": "Clara Vance holds account 8659520974 at Granite Federal Credit Union.",
+  "tids": [
+   "t28",
+   "t29",
+   "t86",
+   "t27"
+  ],
+  "mentions": [
+   "person_1",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D4.S5": {
+  "doc_id": "D4",
+  "start": 269,
+  "end": 344,
+  "text": "On April 26, 2025 at 13:30 UTC, Arjun Quinn initiated the payment approval.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_1",
+   "person_0"
+  ]
+ },
+ "D4.S6": {
+  "doc_id": "D4",
+  "start": 345,
+  "end": 425,
+  "text": "On April 26, 2025 at 15:50 UTC, Arjun Quinn initiated the expense reimbursement.",
+  "tids": [
+   "t39",
+   "t40",
+   "t41"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D4.S7": {
+  "doc_id": "D4",
+  "start": 426,
+  "end": 475,
+  "text": "Andre Reyes authorized the expense reimbursement.",
+  "tids": [
+   "t59"
+  ],
+  "mentions": [
+   "person_2",
+   "event_3"
+  ]
+ },
+ "D4.S8": {
+  "doc_id": "D4",
+  "start": 476,
+  "end": 559,
+  "text": "The bank detail change was initiated by Arjun Quinn on April 28, 2025 at 16:15 UTC.",
+  "tids": [
+   "t45",
+   "t46",
+   "t47"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D4.S9": {
+  "doc_id": "D4",
+  "start": 560,
+  "end": 631,
+  "text": "On May 10, 2025 at 17:50 UTC, Andre Reyes initiated the refund request.",
+  "tids": [
+   "t51",
+   "t52",
+   "t53"
+  ],
+  "mentions": [
+   "event_7",
+   "person_2"
+  ]
+ },
+ "D4.S10": {
+  "doc_id": "D4",
+  "start": 633,
+  "end": 672,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ }
+}

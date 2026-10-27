@@ -1,0 +1,7 @@
+[D4.S1] Incident summary
+
+[D4.S2] Granite Federal Credit Union account 2142903128 is registered to Clearpath Tooling LLC. [D4.S3] Account 6179868558 at Granite Federal Credit Union belongs to Brightwater Distribution Inc. [D4.S4] Clara Vance holds account 8659520974 at Granite Federal Credit Union.
+
+[D4.S5] On April 26, 2025 at 13:30 UTC, Arjun Quinn initiated the payment approval. [D4.S6] On April 26, 2025 at 15:50 UTC, Arjun Quinn initiated the expense reimbursement. [D4.S7] Andre Reyes authorized the expense reimbursement. [D4.S8] The bank detail change was initiated by Arjun Quinn on April 28, 2025 at 16:15 UTC. [D4.S9] On May 10, 2025 at 17:50 UTC, Andre Reyes initiated the refund request.
+
+[D4.S10] Let me know if anything here looks off.

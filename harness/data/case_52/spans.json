@@ -1,0 +1,379 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 136,
+  "text": "Stonebridge Components LLC employs Ruth Holloway, who can be reached at rholloway@stonebridge.com.",
+  "tids": [
+   "t9",
+   "t10",
+   "t62",
+   "t63",
+   "t1",
+   "t4",
+   "t8"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 137,
+  "end": 230,
+  "text": "Sofia Reyes works for Stonebridge Components LLC and uses the address sreyes@stonebridge.com.",
+  "tids": [
+   "t12",
+   "t13",
+   "t64",
+   "t65",
+   "t5",
+   "t11"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 231,
+  "end": 333,
+  "text": "Stonebridge Components LLC employs Mei Whitfield, who can be reached at mei.whitfield@stonebridge.com.",
+  "tids": [
+   "t15",
+   "t16",
+   "t66",
+   "t67",
+   "t6",
+   "t14"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 334,
+  "end": 426,
+  "text": "Samuel Haddad works for Silverlake Freight Ltd. and uses the address shaddad@silverlake.com.",
+  "tids": [
+   "t18",
+   "t19",
+   "t68",
+   "t69",
+   "t2",
+   "t7",
+   "t17"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 428,
+  "end": 521,
+  "text": "The offices of Stonebridge Components LLC are at 1071 Riverside Boulevard, Madison, WI 53703.",
+  "tids": [
+   "t24",
+   "t20",
+   "t21",
+   "t22",
+   "t23"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 523,
+  "end": 609,
+  "text": "Lakeshore Savings Bank account 3679845714 is registered to Stonebridge Components LLC.",
+  "tids": [
+   "t26",
+   "t27",
+   "t70",
+   "t3",
+   "t25"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 610,
+  "end": 685,
+  "text": "Silverlake Freight Ltd. holds account 4689300285 at Lakeshore Savings Bank.",
+  "tids": [
+   "t29",
+   "t30",
+   "t71",
+   "t28"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 686,
+  "end": 751,
+  "text": "Mei Whitfield holds account 3300311078 at Lakeshore Savings Bank.",
+  "tids": [
+   "t32",
+   "t33",
+   "t72",
+   "t31"
+  ],
+  "mentions": [
+   "person_2",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 753,
+  "end": 801,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 28,
+  "text": "From: shaddad@silverlake.com",
+  "tids": [
+   "t57"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_3"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 29,
+  "end": 82,
+  "text": "To: rholloway@stonebridge.com, sreyes@stonebridge.com",
+  "tids": [
+   "t58",
+   "t59",
+   "t73",
+   "t74"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 83,
+  "end": 114,
+  "text": "Subject: Urgent: payment timing",
+  "tids": [
+   "t60"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 115,
+  "end": 152,
+  "text": "Date: Tue, 18 Mar 2025 18:45:00 +0000",
+  "tids": [
+   "t61"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 154,
+  "end": 162,
+  "text": "Hi Ruth,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 164,
+  "end": 246,
+  "text": "On February 14, 2025 at 16:10 UTC, Samuel Haddad initiated the contract amendment.",
+  "tids": [
+   "t34",
+   "t35",
+   "t36"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 247,
+  "end": 302,
+  "text": "Ruth Holloway also took part in the contract amendment.",
+  "tids": [
+   "t55"
+  ],
+  "mentions": [
+   "person_0",
+   "event_0"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 303,
+  "end": 383,
+  "text": "On February 16, 2025 at 15:10 UTC, Sofia Reyes initiated the invoice submission.",
+  "tids": [
+   "t37",
+   "t38",
+   "t39"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 384,
+  "end": 457,
+  "text": "Ruth Holloway started the audit review on February 18, 2025 at 11:10 UTC.",
+  "tids": [
+   "t40",
+   "t41",
+   "t42"
+  ],
+  "mentions": [
+   "event_2",
+   "person_0"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 458,
+  "end": 542,
+  "text": "The refund request was initiated by Ruth Holloway on February 22, 2025 at 14:50 UTC.",
+  "tids": [
+   "t43",
+   "t44",
+   "t45"
+  ],
+  "mentions": [
+   "event_3",
+   "person_0"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 543,
+  "end": 616,
+  "text": "Sofia Reyes started the bank detail change on March 1, 2025 at 11:30 UTC.",
+  "tids": [
+   "t46",
+   "t47",
+   "t48"
+  ],
+  "mentions": [
+   "event_4",
+   "person_1"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 617,
+  "end": 692,
+  "text": "The bank detail change took place at the Stonebridge Components LLC office.",
+  "tids": [
+   "t56"
+  ],
+  "mentions": [
+   "event_4",
+   "loc_company",
+   "org_company"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 693,
+  "end": 768,
+  "text": "The wire transfer was initiated by Sofia Reyes on 12 March 2025, 11:50 UTC.",
+  "tids": [
+   "t49",
+   "t50",
+   "t51"
+  ],
+  "mentions": [
+   "event_5",
+   "person_1"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 769,
+  "end": 853,
+  "text": "The vendor onboarding was initiated by Samuel Haddad on March 18, 2025 at 16:45 UTC.",
+  "tids": [
+   "t52",
+   "t53",
+   "t54"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 855,
+  "end": 862,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S16": {
+  "doc_id": "D2",
+  "start": 863,
+  "end": 869,
+  "text": "Samuel",
+  "tids": [],
+  "mentions": []
+ }
+}

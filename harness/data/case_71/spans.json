@@ -1,0 +1,265 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 137,
+  "text": "Cedar Ridge Industrial Co. employs Maya Lindqvist, who can be reached at mlindqvist@cedarridge.com.",
+  "tids": [
+   "t8",
+   "t9",
+   "t41",
+   "t42",
+   "t1",
+   "t4",
+   "t7"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 138,
+  "end": 230,
+  "text": "Elena Quinn is employed by Cedar Ridge Industrial Co.; their email is equinn@cedarridge.com.",
+  "tids": [
+   "t11",
+   "t12",
+   "t43",
+   "t44",
+   "t5",
+   "t10"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 231,
+  "end": 331,
+  "text": "Marcus Brennan is employed by Stonebridge Industrial Group; their email is mbrennan@stonebridge.com.",
+  "tids": [
+   "t14",
+   "t15",
+   "t45",
+   "t46",
+   "t2",
+   "t6",
+   "t13"
+  ],
+  "mentions": [
+   "person_2",
+   "org_vendor",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 333,
+  "end": 417,
+  "text": "The offices of Cedar Ridge Industrial Co. are at 5961 Main Street, Tucson, AZ 85701.",
+  "tids": [
+   "t20",
+   "t16",
+   "t17",
+   "t18",
+   "t19"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 419,
+  "end": 496,
+  "text": "Account 9929339904 at Union Ledger Bank belongs to Cedar Ridge Industrial Co.",
+  "tids": [
+   "t22",
+   "t23",
+   "t47",
+   "t3",
+   "t21"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 497,
+  "end": 572,
+  "text": "Stonebridge Industrial Group holds account 6146973466 at Union Ledger Bank.",
+  "tids": [
+   "t25",
+   "t26",
+   "t48",
+   "t24"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 574,
+  "end": 622,
+  "text": "More detail will follow once records are pulled.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 27,
+  "text": "From: equinn@cedarridge.com",
+  "tids": [
+   "t37"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_1"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 28,
+  "end": 57,
+  "text": "To: mlindqvist@cedarridge.com",
+  "tids": [
+   "t38",
+   "t49"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 58,
+  "end": 91,
+  "text": "Subject: Wire confirmation needed",
+  "tids": [
+   "t39"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 92,
+  "end": 129,
+  "text": "Date: Sun, 12 Oct 2025 19:25:00 +0000",
+  "tids": [
+   "t40"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 131,
+  "end": 139,
+  "text": "Hi Maya,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 141,
+  "end": 219,
+  "text": "Elena Quinn started the expense reimbursement on 11 September 2025, 16:15 UTC.",
+  "tids": [
+   "t27",
+   "t28",
+   "t29"
+  ],
+  "mentions": [
+   "event_0",
+   "person_1"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 220,
+  "end": 297,
+  "text": "On September 22, 2025 at 09:15 UTC, Elena Quinn initiated the refund request.",
+  "tids": [
+   "t30",
+   "t31",
+   "t32"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 298,
+  "end": 372,
+  "text": "On October 12, 2025 at 17:25 UTC, Elena Quinn initiated the wire transfer.",
+  "tids": [
+   "t33",
+   "t34",
+   "t35"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 373,
+  "end": 436,
+  "text": "Maya Lindqvist had been in contact with Elena Quinn throughout.",
+  "tids": [
+   "t36"
+  ],
+  "mentions": [
+   "person_0",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 438,
+  "end": 445,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 446,
+  "end": 451,
+  "text": "Elena",
+  "tids": [],
+  "mentions": []
+ }
+}

@@ -1,0 +1,9 @@
+[D1.S1] INTERNAL MEMO: Vendor payment review
+
+[D1.S2] Marcus Lindqvist is employed by Cedar Ridge Supply Co.; their email is mlindqvist@cedarridge.com. [D1.S3] Cedar Ridge Supply Co. employs Wesley Osei, who can be reached at wosei@cedarridge.com. [D1.S4] Priya Haddad is employed by Clearpath Analytics Ltd.; their email is phaddad@clearpath.com.
+
+[D1.S5] Wesley Osei's manager is Marcus Lindqvist.
+
+[D1.S6] Cedar Ridge Supply Co. is based at 5921 Elm Street, Raleigh, NC 27601. [D1.S7] Clearpath Analytics Ltd. operates from 6165 Lakeview Road, Albany, NY 12207.
+
+[D1.S8] More detail will follow once records are pulled.

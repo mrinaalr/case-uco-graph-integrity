@@ -1,0 +1,11 @@
+[D2.S1] From: hmoreau@copperfield.com
+[D2.S2] To: tomas.abara@copperfield.com, andre.sorensen@silverlake.com
+[D2.S3] Subject: Contract terms for next quarter
+[D2.S4] Date: Sun, 13 Apr 2025 13:50:00 +0000
+
+[D2.S5] Hi Tomas,
+
+[D2.S6] The wire transfer was initiated by Andre Sorensen on 9 March 2025, 09:30 UTC. [D2.S7] On 14 March 2025, 12:15 UTC, Hannah Moreau initiated the vendor onboarding. [D2.S8] The vendor onboarding happened at Copperfield Supply Co.'s office. [D2.S9] Hannah Moreau started the bank detail change on 23 March 2025, 11:30 UTC. [D2.S10] The bank detail change happened at Copperfield Supply Co.'s office. [D2.S11] Luca Delgado started the refund request on March 25, 2025 at 17:50 UTC. [D2.S12] Andre Sorensen started the expense reimbursement on 3 April 2025, 11:30 UTC. [D2.S13] The contract amendment was initiated by Hannah Moreau on 7 April 2025, 17:45 UTC. [D2.S14] The invoice submission was initiated by Andre Sorensen on April 13, 2025 at 11:50 UTC.
+
+[D2.S15] Thanks,
+[D2.S16] Hannah

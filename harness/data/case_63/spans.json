@@ -1,0 +1,471 @@
+{
+ "D1.S1": {
+  "doc_id": "D1",
+  "start": 0,
+  "end": 36,
+  "text": "INTERNAL MEMO: Vendor payment review",
+  "tids": [],
+  "mentions": []
+ },
+ "D1.S2": {
+  "doc_id": "D1",
+  "start": 38,
+  "end": 124,
+  "text": "Andre Osei is employed by Summit Peak Supply Co.; their email is aosei@summitpeak.com.",
+  "tids": [
+   "t10",
+   "t11",
+   "t77",
+   "t78",
+   "t1",
+   "t4",
+   "t9"
+  ],
+  "mentions": [
+   "person_0",
+   "org_company",
+   "email_person_0",
+   "email_account_person_0"
+  ]
+ },
+ "D1.S3": {
+  "doc_id": "D1",
+  "start": 125,
+  "end": 217,
+  "text": "Sofia Fischer is employed by Summit Peak Supply Co.; their email is sfischer@summitpeak.com.",
+  "tids": [
+   "t13",
+   "t14",
+   "t79",
+   "t80",
+   "t5",
+   "t12"
+  ],
+  "mentions": [
+   "person_1",
+   "org_company",
+   "email_person_1",
+   "email_account_person_1"
+  ]
+ },
+ "D1.S4": {
+  "doc_id": "D1",
+  "start": 218,
+  "end": 317,
+  "text": "Lena Whitfield is employed by Summit Peak Supply Co.; their email is lena.whitfield@summitpeak.com.",
+  "tids": [
+   "t16",
+   "t17",
+   "t81",
+   "t82",
+   "t6",
+   "t15"
+  ],
+  "mentions": [
+   "person_2",
+   "org_company",
+   "email_person_2",
+   "email_account_person_2"
+  ]
+ },
+ "D1.S5": {
+  "doc_id": "D1",
+  "start": 318,
+  "end": 414,
+  "text": "Yara Kowalski works for Clearpath Services Co. and uses the address yara.kowalski@clearpath.com.",
+  "tids": [
+   "t19",
+   "t20",
+   "t83",
+   "t84",
+   "t2",
+   "t7",
+   "t18"
+  ],
+  "mentions": [
+   "person_3",
+   "org_vendor",
+   "email_person_3",
+   "email_account_person_3"
+  ]
+ },
+ "D1.S6": {
+  "doc_id": "D1",
+  "start": 415,
+  "end": 505,
+  "text": "Victor Petrov is employed by Clearpath Services Co.; their email is vpetrov@clearpath.com.",
+  "tids": [
+   "t22",
+   "t23",
+   "t85",
+   "t86",
+   "t8",
+   "t21"
+  ],
+  "mentions": [
+   "person_4",
+   "org_vendor",
+   "email_person_4",
+   "email_account_person_4"
+  ]
+ },
+ "D1.S7": {
+  "doc_id": "D1",
+  "start": 507,
+  "end": 545,
+  "text": "Sofia Fischer's manager is Andre Osei.",
+  "tids": [
+   "t64"
+  ],
+  "mentions": [
+   "person_1",
+   "person_0"
+  ]
+ },
+ "D1.S8": {
+  "doc_id": "D1",
+  "start": 547,
+  "end": 620,
+  "text": "Summit Peak Supply Co. is based at 8916 Lakeview Road, Raleigh, NC 27601.",
+  "tids": [
+   "t28",
+   "t24",
+   "t25",
+   "t26",
+   "t27"
+  ],
+  "mentions": [
+   "org_company",
+   "loc_company"
+  ]
+ },
+ "D1.S9": {
+  "doc_id": "D1",
+  "start": 622,
+  "end": 706,
+  "text": "Account 1694935183 at Granite Federal Credit Union belongs to Summit Peak Supply Co.",
+  "tids": [
+   "t30",
+   "t31",
+   "t87",
+   "t3",
+   "t29"
+  ],
+  "mentions": [
+   "org_company",
+   "acct_company",
+   "org_bank"
+  ]
+ },
+ "D1.S10": {
+  "doc_id": "D1",
+  "start": 707,
+  "end": 794,
+  "text": "Granite Federal Credit Union account 1406272228 is registered to Clearpath Services Co.",
+  "tids": [
+   "t33",
+   "t34",
+   "t88",
+   "t32"
+  ],
+  "mentions": [
+   "org_vendor",
+   "acct_vendor",
+   "org_bank"
+  ]
+ },
+ "D1.S11": {
+  "doc_id": "D1",
+  "start": 795,
+  "end": 871,
+  "text": "Granite Federal Credit Union account 3898738417 is registered to Andre Osei.",
+  "tids": [
+   "t36",
+   "t37",
+   "t89",
+   "t35"
+  ],
+  "mentions": [
+   "person_0",
+   "acct_insider",
+   "org_bank"
+  ]
+ },
+ "D1.S12": {
+  "doc_id": "D1",
+  "start": 873,
+  "end": 912,
+  "text": "Let me know if anything here looks off.",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S1": {
+  "doc_id": "D2",
+  "start": 0,
+  "end": 26,
+  "text": "From: aosei@summitpeak.com",
+  "tids": [
+   "t65"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_0"
+  ]
+ },
+ "D2.S2": {
+  "doc_id": "D2",
+  "start": 27,
+  "end": 52,
+  "text": "To: vpetrov@clearpath.com",
+  "tids": [
+   "t66",
+   "t90"
+  ],
+  "mentions": [
+   "email_msg_0",
+   "email_person_4"
+  ]
+ },
+ "D2.S3": {
+  "doc_id": "D2",
+  "start": 53,
+  "end": 93,
+  "text": "Subject: Contract terms for next quarter",
+  "tids": [
+   "t67"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S4": {
+  "doc_id": "D2",
+  "start": 94,
+  "end": 131,
+  "text": "Date: Tue, 01 Apr 2025 15:50:00 +0000",
+  "tids": [
+   "t68"
+  ],
+  "mentions": [
+   "email_msg_0"
+  ]
+ },
+ "D2.S5": {
+  "doc_id": "D2",
+  "start": 133,
+  "end": 143,
+  "text": "Hi Victor,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S6": {
+  "doc_id": "D2",
+  "start": 145,
+  "end": 230,
+  "text": "On February 26, 2025 at 11:15 UTC, Yara Kowalski initiated the expense reimbursement.",
+  "tids": [
+   "t38",
+   "t39",
+   "t40"
+  ],
+  "mentions": [
+   "event_0",
+   "person_3"
+  ]
+ },
+ "D2.S7": {
+  "doc_id": "D2",
+  "start": 231,
+  "end": 306,
+  "text": "Sofia Fischer started the bank detail change on March 1, 2025 at 09:00 UTC.",
+  "tids": [
+   "t41",
+   "t42",
+   "t43"
+  ],
+  "mentions": [
+   "event_1",
+   "person_1"
+  ]
+ },
+ "D2.S8": {
+  "doc_id": "D2",
+  "start": 307,
+  "end": 367,
+  "text": "Approval for the bank detail change came from Yara Kowalski.",
+  "tids": [
+   "t63"
+  ],
+  "mentions": [
+   "person_3",
+   "event_1"
+  ]
+ },
+ "D2.S9": {
+  "doc_id": "D2",
+  "start": 368,
+  "end": 447,
+  "text": "Sofia Fischer started the account reconciliation on March 8, 2025 at 11:50 UTC.",
+  "tids": [
+   "t44",
+   "t45",
+   "t46"
+  ],
+  "mentions": [
+   "event_2",
+   "person_1"
+  ]
+ },
+ "D2.S10": {
+  "doc_id": "D2",
+  "start": 448,
+  "end": 521,
+  "text": "Sofia Fischer started the contract amendment on 17 March 2025, 15:30 UTC.",
+  "tids": [
+   "t47",
+   "t48",
+   "t49"
+  ],
+  "mentions": [
+   "event_3",
+   "person_1"
+  ]
+ },
+ "D2.S11": {
+  "doc_id": "D2",
+  "start": 522,
+  "end": 596,
+  "text": "On March 17, 2025 at 16:15 UTC, Andre Osei initiated the payment approval.",
+  "tids": [
+   "t50",
+   "t51",
+   "t52"
+  ],
+  "mentions": [
+   "event_4",
+   "person_0"
+  ]
+ },
+ "D2.S12": {
+  "doc_id": "D2",
+  "start": 597,
+  "end": 673,
+  "text": "On March 30, 2025 at 12:00 UTC, Andre Osei initiated the invoice submission.",
+  "tids": [
+   "t53",
+   "t54",
+   "t55"
+  ],
+  "mentions": [
+   "event_5",
+   "person_0"
+  ]
+ },
+ "D2.S13": {
+  "doc_id": "D2",
+  "start": 674,
+  "end": 744,
+  "text": "On 1 April 2025, 13:50 UTC, Yara Kowalski initiated the wire transfer.",
+  "tids": [
+   "t56",
+   "t57",
+   "t58"
+  ],
+  "mentions": [
+   "event_6",
+   "person_3"
+  ]
+ },
+ "D2.S14": {
+  "doc_id": "D2",
+  "start": 746,
+  "end": 753,
+  "text": "Thanks,",
+  "tids": [],
+  "mentions": []
+ },
+ "D2.S15": {
+  "doc_id": "D2",
+  "start": 754,
+  "end": 759,
+  "text": "Andre",
+  "tids": [],
+  "mentions": []
+ },
+ "D3.S1": {
+  "doc_id": "D3",
+  "start": 0,
+  "end": 25,
+  "text": "Chat export: #finance-ops",
+  "tids": [
+   "t91"
+  ],
+  "mentions": [
+   "chat_thread"
+  ]
+ },
+ "D3.S2": {
+  "doc_id": "D3",
+  "start": 26,
+  "end": 52,
+  "text": "@victorp is Victor Petrov.",
+  "tids": [
+   "t60",
+   "t59"
+  ],
+  "mentions": [
+   "handle_person_4",
+   "person_4"
+  ]
+ },
+ "D3.S3": {
+  "doc_id": "D3",
+  "start": 53,
+  "end": 78,
+  "text": "@sofiaf is Sofia Fischer.",
+  "tids": [
+   "t62",
+   "t61"
+  ],
+  "mentions": [
+   "handle_person_1",
+   "person_1"
+  ]
+ },
+ "D3.S4": {
+  "doc_id": "D3",
+  "start": 79,
+  "end": 163,
+  "text": "[2025-02-26 12:15 UTC] @victorp to @sofiaf: Let's keep this between us until Friday.",
+  "tids": [
+   "t69",
+   "t70",
+   "t71",
+   "t72",
+   "t92"
+  ],
+  "mentions": [
+   "chat_msg_0",
+   "handle_person_4",
+   "handle_person_1"
+  ]
+ },
+ "D3.S5": {
+  "doc_id": "D3",
+  "start": 164,
+  "end": 235,
+  "text": "[2025-02-26 12:22 UTC] @sofiaf to @victorp: Did the bank call back yet?",
+  "tids": [
+   "t73",
+   "t74",
+   "t75",
+   "t76",
+   "t93"
+  ],
+  "mentions": [
+   "chat_msg_1",
+   "handle_person_1",
+   "handle_person_4"
+  ]
+ }
+}
