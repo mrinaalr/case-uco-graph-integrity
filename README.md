@@ -1,5 +1,5 @@
 <h1 align="center">Evidence-Grounded Graph Construction</h1>
-<h3 align="center">Evaluating Reliability and Fidelity in CASE/UCO Representations</h3>
+<h3 align="center">Evaluating the Semantic Fidelity of Machine-Constructed CASE/UCO Graphs</h3>
 
 <p align="center">
   <em>Data in. Graphs out. True to the source.</em>
@@ -25,7 +25,7 @@ constructed graphs can be *valid* (or pass ontology's SHACL checks) without bein
 We are experimenting with three approaches to developing reliable, faithful CASE/UCO representations from digital evidence. Here those terms mean:
 
 - **Reliability**: does the method produce a graph at all, and does the graph validate?
-- **Fidelity**: of the statements in the graph, how many does the source support, and can each claim be traced back to the evidence it came from?
+- **Semantic fidelity**: do the assertions in the graph trace to the source material, and does the graph, interpreted under CASE/UCO's definitions, mean what the evidence means?
 
 Every method is benchmarked the same way, using the same PDF documents, base model, and scorer against gold graphs we author ourselves, and therefore know completely.
 
@@ -148,6 +148,12 @@ Each document is a PDF with no annotations. The methods receive the PDFs and not
 statements, and classes every unsupported one: wrong value, wrong relation, wrong entity,
 conflation across documents, misplaced property, duplicate entity, invented. A strict scorer and
 a value-tolerant scorer are both reported. Failures (no graph) count as zero recall.
+
+**Grounding.** Separately, and without reference to gold, the scorer checks whether each emitted
+assertion can be found in the source text: a literal by its value in a sentence, a relation by
+its two endpoints in one sentence or one document. Every assertion then falls into one cell of
+grounded by gold-supported. The grounded-but-unsupported cell holds the claims a method could
+trace to the evidence and still modeled wrong.
 
 **Frozen protocol.** `harness/FROZEN.md` hashes the scorer, the generator, every gold graph and
 every pipeline. Scores are comparable only between runs under the same entry.

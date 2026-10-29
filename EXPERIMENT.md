@@ -1,4 +1,4 @@
-# Evidence-Grounded Graph Construction: Evaluating Reliability and Fidelity in CASE/UCO Representations
+# Evidence-Grounded Graph Construction: Evaluating the Semantic Fidelity of Machine-Constructed CASE/UCO Graphs
 
 Written 2026-10-27. Supersedes the arm layout in DIRECTION.md; the critic-loop findings there stand.
 
@@ -106,17 +106,21 @@ contain. The model is left with the part it is good at.
 
 Per method, over 100 cases: precision and recall against gold (strict and value scorers), SHACL
 validity, unsupported statements by error class, failures (no graph), cost (tokens, wall time).
+Grounding, without reference to gold: the share of emitted assertions found in the source text,
+and the grounded x gold-supported cells, of which grounded-but-unsupported is the claim a method
+traced to the evidence and still modeled wrong. For C, the ledger's quote checks against the
+scorer's grounding.
 For A, the same before and after its QA loop. For C, how many claims the verifier rejected and
 how many came back admitted after the repair round.
 
 ## Paper
 
-Title: *Evidence-Grounded Graph Construction: Evaluating Reliability and Fidelity in CASE/UCO
-Representations*. Two questions: which existing approach produces the most reliable graphs (A
+Title: *Evidence-Grounded Graph Construction: Evaluating the Semantic Fidelity of Machine-Constructed
+CASE/UCO Graphs*. Two questions: which existing approach produces the most reliable graphs (A
 versus B1 to B4), and whether a different construction architecture improves reliability beyond
 training or defending a model (C). Reliability is validity and failure rate; fidelity is precision
-and recall against gold with the error-class breakdown; for C, the review-queue size is the cost
-of the gate.
+and recall against the gold graph with the error-class breakdown; for C, the review-queue size is
+the cost of the gate.
 
 ## Results
 

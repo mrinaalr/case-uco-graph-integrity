@@ -86,7 +86,7 @@ generation with and without training and defenses (B1 to B4), on a 100-case PDF 
 
 ## Working title
 
-*Evidence-Grounded Graph Construction: Evaluating Reliability and Fidelity in CASE/UCO
-Representations.* Two questions: which existing approach produces the most reliable graphs,
+*Evidence-Grounded Graph Construction: Evaluating the Semantic Fidelity of Machine-Constructed
+CASE/UCO Graphs.* Two questions: which existing approach produces the most reliable graphs,
 and whether a different construction architecture improves reliability beyond training or
 defending a model.

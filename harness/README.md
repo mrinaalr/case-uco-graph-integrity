@@ -107,7 +107,9 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
   triples fixed and regressed by each revision, unsupported triples by class,
   attributed to the rules the model was asked to address (`qa_delta.md`, `qa_delta.csv`).
 - `score.py --self-test` scores each gold graph against itself and expects
-  precision and recall of 1.0.
+  precision and recall of 1.0, every gold assertion grounded in its own
+  documents under both the clean and the PDF-extracted text, and a set of
+  fabricated values not grounded.
 
 ## Scoring
 
@@ -127,6 +129,32 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
     other documents; or an entity merged with another; or a link between
     entities that never share a document.
   - `invented`: everything else, including unaligned endpoints.
+- **Grounding** is scored for every emitted assertion without reference to
+  gold: can it be found in the case's source text?
+  - A literal is grounded when its normalized value occurs in one sentence.
+    Times are matched by parsing the text's date spellings (a bare date is
+    grounded by any time on that day); `eventType` and `accountType` by word
+    containment, or `indirect` when the type's head noun shares a sentence
+    with the subject ("account 2622357143 at Granite Federal Credit Union"
+    grounds "bank account").
+  - An entity is mentioned in every sentence where one of its literals occurs
+    (any literal but `accountType`; an `eventType` also by two consecutive
+    words of it), and grounded when it is mentioned anywhere.
+  - A relation or object property is grounded at `sentence` level when both
+    endpoints are mentioned in one sentence, at `document` level when in one
+    document, and `indirect` when a Location is named by an entity the graph
+    places there ("at Ironleaf's office").
+  - Each assertion lands in one cell of grounded x gold-supported
+    (`grounded_supported`, `grounded_unsupported`, `ungrounded_supported`,
+    `ungrounded_unsupported`). `grounded_unsupported` is the traceable claim
+    modeled wrong; `ungrounded_supported` should be near zero and lists the
+    normalizer's gaps (`supported_ungrounded` in the per-case score).
+  - Grounding is checked against `docs/D*.txt` (reported) and
+    `docs/D*.pdf.txt`; `pdf_disagreements` counts assertions on which the two
+    differ. For `c_grounded`, `ledger_*` compares the ledger's quote-checked
+    assertions with the scorer: `ledger_scorer_ungrounded` are assertions the
+    gate admitted that the scorer cannot find, `ledger_not_in_graph` are
+    admitted assertions with no matching triple in the final graph.
 - **Stages (A2):** `write_node`, `write_facet`, `write_relationship`, `repair`
   (written after a failed validation) and `final_only`. A1 and B are
   `generation`.
