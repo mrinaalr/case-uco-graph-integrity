@@ -6,10 +6,12 @@ results/*
 !results/qa-det-v1/
 !results/qa-llm-v1/
 !results/abc-v1/
+!results/hook-v1/
 results/baseline-v1/*
 results/qa-det-v1/*
 results/qa-llm-v1/*
 results/abc-v1/*
+results/hook-v1/*
 !results/*/summary.md
 !results/*/summary.csv
 !results/*/per_case.csv

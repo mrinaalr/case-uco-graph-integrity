@@ -84,6 +84,12 @@ NLI.
 Hypothesis: checking each edge backward against the source, under CASE/UCO's definitions, removes
 unsupported edges from any method's graph at a small cost in true edges.
 
+Ablation: the same hook on the same graphs with the definitions taken out. `labels` keeps the class
+and property names (`Oscar Banerjee, a person, is employed by Redfern Components Group, an
+organization.`); `plain` keeps no ontology term (`Oscar Banerjee is employed by Redfern Components
+Group.`). Scored as `<arm>+hook_labels` and `<arm>+hook_plain`. If the definitions do work, the full
+template removes more unsupported edges than `labels` and `plain` at no greater cost in true edges.
+
 ## Related work
 
 - [SPIRES](https://doi.org/10.1093/bioinformatics/btae104) (Caufield et al., 2024) has an LLM fill
@@ -146,8 +152,8 @@ unsupported edges from any method's graph at a small cost in true edges.
 Per condition, over 100 cases: precision and recall against gold (strict and value scorers),
 validation pass rate (`case_validate`), unsupported statements by error class, failures (no
 graph), cost (tokens, wall time). For each +hook condition: the edges removed, how many of them
-gold supports (true edges removed), and for each kept true edge whether its cited passage is the
-sentence gold states it in. For C, the same without the serializer's own edges. Grounding, without
+gold supports (true edges removed), the share of unsupported edges removed, and for each kept true
+edge whether its cited passage is the sentence gold states it in. For C, the same without the serializer's own edges. Grounding, without
 reference to gold: the share of emitted assertions found in the source text, and the grounded x
 gold-supported cells. For A, the graph at its first validation too.
 
@@ -162,4 +168,35 @@ correctness.
 
 ## Results
 
-Filled in when the runs finish.
+C's 100-case run is not done yet.
+
+Ablation, run hook-v1 (Freeze 6): the hook and its two ablation templates on the 100 abc-v1
+graphs of A and B. Precision and recall are micro. The hook columns (true and unsupported edges
+removed, kept true edges citing the gold sentence) are under the strict scorer.
+
+| condition | valid | P strict | R strict | P value | R value | true removed | unsupported removed | cite correct |
+|---|---|---|---|---|---|---|---|---|
+| A | 35 | 0.371 | 0.139 | 0.506 | 0.184 | | | |
+| A+hook | 39 | 0.376 | 0.108 | 0.547 | 0.153 | 17.5% | 26.7% | 75.1% |
+| A+hook_labels | 38 | 0.339 | 0.103 | 0.520 | 0.154 | 15.3% | 20.9% | 82.9% |
+| A+hook_plain | 40 | 0.358 | 0.100 | 0.550 | 0.150 | 17.4% | 29.5% | 78.0% |
+| B | 91 | 0.270 | 0.219 | 0.595 | 0.476 | | | |
+| B+hook | 93 | 0.277 | 0.191 | 0.632 | 0.432 | 10.1% | 16.4% | 66.8% |
+| B+hook_labels | 93 | 0.264 | 0.180 | 0.634 | 0.428 | 12.5% | 17.2% | 77.9% |
+| B+hook_plain | 93 | 0.268 | 0.181 | 0.631 | 0.422 | 12.9% | 18.1% | 68.1% |
+
+The hook trades recall for precision, by a few points. With the full template, value precision
+rises 4.2 points on A and 3.7 on B, recall falls 3.1 and 4.4, and 4 more A graphs and 2 more B
+graphs validate. It separates unsupported from true edges only weakly: it removes 26.7% of A's
+unsupported edges and 17.5% of its true ones (B: 16.4% and 10.1%).
+
+The definitions show no consistent effect. `plain` removes more unsupported edges than the full
+template on both arms (29.5% against 26.7% on A, 18.1% against 16.4% on B), at the same cost in
+true edges on A and a higher one on B. The full template has the highest strict precision on both
+arms and keeps the most true edges on B. The precision gaps between templates are under 4 points,
+from one run with no significance test. The definitions lower citation accuracy: with class and property names but no
+definitions, 82.9% (A) and 77.9% (B) of kept true edges cite the gold sentence, against 75.1% and
+66.8% with them.
+
+On this benchmark, this NLI model and this embedder, the effect comes from checking each edge
+backward against the source, not from the CASE/UCO definitions in the sentence.

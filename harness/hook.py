@@ -15,7 +15,11 @@ Edges are the scored triples of graphkit.graph_triples. Reads results/RUN/<arm>/
 results/RUN/<arm>+hook/<case>/: graph.jsonld, run.json, and hook.jsonl with one row per edge (triple, sentence,
 the retrieved passages with location and pair verdict, verdict, kept, cited passage). Models are pinned in [hook].
 
-    python harness/hook.py --run-id RUN --arm b_control [--cases case_01,case_02]
+--template labels or plain runs the ablation, written to <arm>+hook_labels or <arm>+hook_plain: labels keeps the
+class and property names and drops their definitions; plain drops every ontology term, so an edge reads as its
+entity labels and relation phrase alone.
+
+    python harness/hook.py --run-id RUN --arm b_control [--template full|labels|plain] [--cases case_01,case_02]
 """
 
 from __future__ import annotations
@@ -46,17 +50,18 @@ HAS_FACET = rdflib.URIRef(expand("uco-core:hasFacet"))
 BATCH = 16
 
 
-def class_phrase(cls: str) -> str:
-    """'a person (a grouping of identifying characteristics unique to a human being regarded as an individual)'."""
+def class_phrase(cls: str, template: str = "full") -> str:
+    """'a person (a grouping of identifying characteristics unique to a human being regarded as an individual)';
+    'a person' under the labels template."""
     label = words(cls)
     genus = re.sub(r"^(?:an?|the)\s+.+?\s+is\s+", "", definition(REGISTRY.get(cls, {}).get("description")), count=1, flags=re.I)
     article = "an" if label[:1] in ("a", "e", "i", "o", "u") else "a"
-    return f"{article} {label} ({genus})" if genus else f"{article} {label}"
+    return f"{article} {label} ({genus})" if genus and template == "full" else f"{article} {label}"
 
 
-def property_phrase(cls: str | None, prop: str) -> str:
-    """'address value (the value of an address)'."""
-    d = property_definition(cls, prop)
+def property_phrase(cls: str | None, prop: str, template: str = "full") -> str:
+    """'address value (the value of an address)'; 'address value' under the labels and plain templates."""
+    d = property_definition(cls, prop) if template == "full" else ""
     return f"{words(prop)} ({d[:1].lower()}{d[1:]})" if d else words(prop)
 
 
@@ -70,15 +75,16 @@ def label(iri: str, entities: dict) -> tuple[str, str] | None:
     return None
 
 
-def mention(iri: str, entities: dict, asserted: str | None = None) -> str:
+def mention(iri: str, entities: dict, asserted: str | None = None, template: str = "full") -> str:
     """'Luca Petrov, a person (...),'; by its class alone when its label holds the value the sentence asserts,
-    so that 'the name of X is X' (or 'the street of 1 Main St, Omaha is 1 Main St') is never a sentence."""
+    so that 'the name of X is X' (or 'the street of 1 Main St, Omaha is 1 Main St') is never a sentence.
+    The plain template names no class: 'Luca Petrov', or 'an entity' in place of the class."""
     cls, name = entities.get(iri, {}).get("class"), label(iri, entities)
     if name and asserted and asserted in name[1] and cls:
-        return class_phrase(cls)
-    if not cls:
+        return "an entity" if template == "plain" else class_phrase(cls, template)
+    if not cls or template == "plain":
         return name[1] if name else slug(iri)
-    return f"{name[1]}, {class_phrase(cls)}," if name else class_phrase(cls)
+    return f"{name[1]}, {class_phrase(cls, template)}," if name else class_phrase(cls, template)
 
 
 def spoken(value: str) -> str:
@@ -89,16 +95,16 @@ def spoken(value: str) -> str:
     return value
 
 
-def render(t: dict, entities: dict) -> str:
+def render(t: dict, entities: dict, template: str = "full") -> str:
     """One sentence per edge. Relation: 'S, <class S>, <phrase> O, <class O>.'
     Property: 'The <property (definition)> of S, <class S>, is <value or O, <class O>>.'"""
-    subject = mention(t["s"], entities, t["o"] if t["lit"] else None)
+    subject = mention(t["s"], entities, t["o"] if t["lit"] else None, template)
     if t["origin"].startswith("rel|"):
         phrase = PHRASES.get(re.sub(r"[\s-]+", "_", t["p"].strip()).lower(), words(t["p"]))
-        text = f"{subject} {phrase} {mention(t['o'], entities)}"
+        text = f"{subject} {phrase} {mention(t['o'], entities, None, template)}"
     else:
-        value = spoken(t["o"]) if t["lit"] else mention(t["o"], entities)
-        text = f"The {property_phrase(entities[t['s']]['class'], t['p'])} of {subject} is {value}"
+        value = spoken(t["o"]) if t["lit"] else mention(t["o"], entities, None, template)
+        text = f"The {property_phrase(entities[t['s']]['class'], t['p'], template)} of {subject} is {value}"
     return text.rstrip(",") + "."
 
 
@@ -155,10 +161,10 @@ def remove(g: rdflib.Graph, t: dict, nodes: dict) -> None:
                 g.remove((holder, p, o))
 
 
-def hook_case(case_dir: Path, graph_path: Path, out: Path, verifier: Verifier) -> dict:
+def hook_case(case_dir: Path, graph_path: Path, out: Path, verifier: Verifier, template: str = "full") -> dict:
     g = load_graph(graph_path)
     entities, triples = graph_triples(g)
-    sentences = [render(t, entities) for t in triples]
+    sentences = [render(t, entities, template) for t in triples]
     unique = list(dict.fromkeys(sentences))
     checked = dict(zip(unique, verifier.check(unique, passages(case_dir))))
     nodes = {str(x): x for x in g.all_nodes() if not isinstance(x, rdflib.Literal)}
@@ -183,13 +189,16 @@ def main() -> None:
     ap.add_argument("--arm", required=True, help="the arm folder under results/RUN/ whose graphs the hook reads")
     ap.add_argument("--cases", help="comma-separated case ids (default: all)")
     ap.add_argument("--data", default="data")
+    ap.add_argument("--template", default="full", choices=("full", "labels", "plain"),
+                    help="full: classes and properties with their CASE/UCO definitions; labels, plain: the ablation")
     args = ap.parse_args()
     with open(CONFIG, "rb") as fh:
         cfg = tomllib.load(fh)["hook"]
     verifier = Verifier(cfg)
     root = HARNESS / "results" / args.run_id
+    name = f"{args.arm}+hook" + ("" if args.template == "full" else f"_{args.template}")
     for case_dir in case_dirs(args.cases, args.data):
-        base, out = root / args.arm / case_dir.name, root / f"{args.arm}+hook" / case_dir.name
+        base, out = root / args.arm / case_dir.name, root / name / case_dir.name
         if not (base / "run.json").exists():
             continue
         meta = json.loads((base / "run.json").read_text())
@@ -200,16 +209,16 @@ def main() -> None:
         info = {"final_validation": None}
         if meta["status"] not in ("error", "empty") and (base / "graph.jsonld").exists():
             try:
-                info["hook"] = hook_case(case_dir, base / "graph.jsonld", out, verifier)
+                info["hook"] = hook_case(case_dir, base / "graph.jsonld", out, verifier, args.template)
                 info["final_validation"] = case_validate(out / "graph.jsonld")["conforms"]
             except Exception as exc:  # an unreadable graph is a recorded outcome, as in the arms
                 info = {"status": "error", "error": f"hook: {type(exc).__name__}: {exc}"[:2000], "final_validation": None}
         hook_s = round(time.monotonic() - start, 1)
-        run = {**meta, "arm": f"{args.arm}+hook", **info, "hook_s": hook_s, "wall_s": round(meta.get("wall_s", 0) + hook_s, 1),
+        run = {**meta, "arm": name, **info, "hook_s": hook_s, "wall_s": round(meta.get("wall_s", 0) + hook_s, 1),
+               "hook_template": args.template,
                "hook_models": {k: cfg[k] for k in ("embed_model", "embed_revision", "nli_model", "nli_revision")}}
         (out / "run.json").write_text(json.dumps(run, indent=1))
-        print(f"{args.arm}+hook {case_dir.name}: {run['status']} {info.get('hook')} valid={run['final_validation']} {hook_s}s",
-              flush=True)
+        print(f"{name} {case_dir.name}: {run['status']} {info.get('hook')} valid={run['final_validation']} {hook_s}s", flush=True)
 
 
 if __name__ == "__main__":

@@ -34,9 +34,11 @@ the traceable claim modeled wrong. Grounding runs against the clean text
 (docs/D*.txt, reported) and the PDF-extracted text (docs/D*.pdf.txt); the
 number of assertions on which the two disagree is reported.
 
-An <arm>+hook folder holds <arm>'s graphs after the verification hook (hook.py).
-It is scored like any arm, plus the hook's own columns: edges removed that gold
-supports, and whether each kept true edge cites the sentence gold states it in.
+An <arm>+hook folder holds <arm>'s graphs after the verification hook (hook.py);
+<arm>+hook_labels and <arm>+hook_plain hold its ablation templates. Each is scored
+like any arm, plus the hook's own columns: edges removed that gold supports, the
+share of unsupported edges removed, and whether each kept true edge cites the
+sentence gold states it in.
 An arm whose cases carry adapter_edges.json (c_edc) is also scored as
 <arm>@no_adapter: the same graph and alignment, with the edges its adapter wrote
 itself (key literals taken from entity strings) left out of every count.
@@ -548,6 +550,8 @@ def hook_summary(rows: list[dict]) -> dict:
         c.update(h)
     return {**{f"hook_{k}": c[k] if hs else None for k in HOOK_COUNTS},
             "hook_removed_true_rate": round(c["removed_true"] / c["true"], 4) if c["true"] else None,
+            "hook_removed_false_rate": round((c["removed"] - c["removed_true"]) / (c["edges"] - c["true"]), 4)
+            if c["edges"] > c["true"] else None,
             "hook_cite_rate": round(c["cited_correct"] / c["kept_true"], 4) if c["kept_true"] else None}
 
 
@@ -637,11 +641,11 @@ def markdown(summaries: list[dict], stage_counts: dict[str, Counter]) -> str:
     lines += table(["arm", "scorer"] + gcols, [[s["arm"], s["scorer"]] + [s[c] for c in gcols] for s in summaries])
     hooked = [s for s in summaries if s["hook_edges"] is not None]
     if hooked:
-        hcols = [f"hook_{k}" for k in HOOK_COUNTS] + ["hook_removed_true_rate", "hook_cite_rate"]
+        hcols = [f"hook_{k}" for k in HOOK_COUNTS] + ["hook_removed_true_rate", "hook_removed_false_rate", "hook_cite_rate"]
         lines += ["\n## Verification hook\n",
                   "Edges the hook read, its verdicts, and what it removed. true: edges gold supports in the graph the hook "
-                  "read; removed_true: of those, removed; cited_correct: kept true edges whose cited passage is the "
-                  "sentence gold states them in.\n"]
+                  "read; removed_true: of those, removed; removed_false_rate: the share of the other edges removed; "
+                  "cited_correct: kept true edges whose cited passage is the sentence gold states them in.\n"]
         lines += table(["arm", "scorer"] + [c.removeprefix("hook_") for c in hcols],
                        [[s["arm"], s["scorer"]] + [s[c] for c in hcols] for s in hooked])
     stages = sorted({k for c in stage_counts.values() for k in c})
@@ -679,12 +683,13 @@ def score_run(run_id: str) -> None:
             meta = json.loads((run_dir / "run.json").read_text())
             data_dir = HARNESS / "data" / run_dir.name
             hook_rows = None
-            if arm_dir.name.endswith("+hook"):
+            base_arm = arm_dir.name.split("+hook")[0]  # <arm>+hook, <arm>+hook_labels, <arm>+hook_plain
+            if base_arm != arm_dir.name:
                 path = run_dir / "hook.jsonl"
                 hook_rows = [json.loads(line) for line in path.read_text().splitlines()] if path.exists() else []
-                base_graph = run_root / arm_dir.name.removesuffix("+hook") / run_dir.name / "graph.jsonld"
+                base_graph = run_root / base_arm / run_dir.name / "graph.jsonld"
             todo = [(*v, None) for v in variants(arm_dir.name, run_dir)]
-            adapter = run_root / arm_dir.name.removesuffix("+hook") / run_dir.name / "adapter_edges.json"
+            adapter = run_root / base_arm / run_dir.name / "adapter_edges.json"
             if adapter.exists():  # c_edc: also scored without the edges its adapter wrote itself
                 todo.append((f"{arm_dir.name}@no_adapter", "graph.jsonld", "score_no_adapter.json", None,
                              {(e["s"], e["p"], e["o"]) for e in json.loads(adapter.read_text())["edges"]}))

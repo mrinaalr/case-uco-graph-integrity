@@ -30,7 +30,8 @@ design is in [../EXPERIMENT.md](../EXPERIMENT.md).
 - **Hook** (`hook.py --arm <arm>`): reads `results/<run_id>/<arm>/` and writes
   `results/<run_id>/<arm>+hook/`: the hooked `graph.jsonld`, `hook.jsonl` (one row per edge:
   triple, sentence, passages with location and verdict, verdict, cited passage) and `run.json`.
-  Models in `[hook]`.
+  Models in `[hook]`. `--template labels|plain` writes the ablation (definitions dropped; every
+  ontology term dropped) to `<arm>+hook_labels` and `<arm>+hook_plain`.
 
 Earlier arms, still runnable:
 
@@ -146,10 +147,11 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
   - Grounding is checked against `docs/D*.txt` (reported) and
     `docs/D*.pdf.txt`; `pdf_disagreements` counts assertions on which the two
     differ.
-- **Hook:** an `<arm>+hook` folder is scored like an arm, plus the edges the
+- **Hook:** an `<arm>+hook*` folder is scored like an arm, plus the edges the
   hook removed that gold supports in the graph it read (`hook_removed_true`),
-  and the kept true edges whose cited passage holds the gold triple's sentence
-  from `spans.json` (`hook_cited_correct`).
+  the share of the other edges removed (`hook_removed_false_rate`), and the
+  kept true edges whose cited passage holds the gold triple's sentence from
+  `spans.json` (`hook_cited_correct`).
 - **Adapter edges:** for an arm whose cases have `adapter_edges.json` (C),
   `<arm>@no_adapter` scores the same graph and alignment with those edges left
   out of every count.

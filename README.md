@@ -23,15 +23,14 @@ Making graphs that represent concepts from data is hard. Making knowledge graphs
 When a language model turns case documents into [CASE](https://caseontology.org/)/[UCO](https://unifiedcyberontology.org/) graphs,
 constructed graphs can be *valid* (or pass ontology's SHACL checks) without being ***correct***. A graph can be well-formed in every way the ontology can check and still represent things the documents never said.
 
-This repo presents a backward verification hook: every edge of a finished graph is checked against the source documents, read under CASE/UCO's definitions, and kept only if a source passage supports it. The hook is tested on three construction methods to determine whether verification improves the reliability and faithfulness of CASE/UCO graphs. Here those terms mean:
+This repo presents a backward verification hook: every edge of a finished graph is checked against the source documents, read under CASE/UCO's definitions, and kept only if a source passage supports it. The hook is tested on three construction methods to determine whether verification improves the reliability and semantic fidelity of CASE/UCO graphs. Here those terms mean:
 
 - **Reliability**: does the method produce a graph at all, and does the graph validate?
 - **Semantic fidelity**: do the assertions in the graph trace to the source material, and does the graph, interpreted under CASE/UCO's definitions, mean what the evidence means?
 
 Every method is benchmarked the same way, with and without the hook, using the same PDF documents, base model, and scorer against gold graphs we author ourselves, and therefore know completely.
 
-The SDK under test is Cory Hall's [CASE/UCO SDK](https://github.com/vulnmaster/CASE-UCO-SDK),
-pinned as a submodule at `sdk/` (v1.33.0).
+The graph builders under test are Cory Hall's [CASE/UCO SDK](https://github.com/vulnmaster/CASE-UCO-SDK); direct generation by the base model, Qwen3.5-9B; and [EDC](https://github.com/clear-nus/edc).
 
 ## The hook
 
@@ -223,8 +222,8 @@ for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/hook.py --ru
 
 ## What's next
 
-- Run C and the hook on the 100 cases, with A and B from abc-v1, and publish the six conditions
-  under a new freeze entry.
+- Run C and its hook on the 100 cases to complete the six conditions; A and B with the hook are in
+  `harness/results/hook-v1/`.
 - Passages that span an email header block, so header facts can be checked.
 - An adversarial set: the same 100 cases with one injected attack per case (instruction, false
   fact, format, tool) and an "injected" error class in the scorer, to measure which method lets
