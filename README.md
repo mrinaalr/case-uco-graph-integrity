@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="#the-problem">Problem</a> ·
+  <a href="#the-hook">Hook</a> ·
   <a href="#the-methods">Methods</a> ·
   <a href="#how-we-benchmark">Benchmark</a> ·
   <a href="#run-it">Run it</a> ·
@@ -22,33 +23,68 @@ Making graphs that represent concepts from data is hard. Making knowledge graphs
 When a language model turns case documents into [CASE](https://caseontology.org/)/[UCO](https://unifiedcyberontology.org/) graphs,
 constructed graphs can be *valid* (or pass ontology's SHACL checks) without being ***correct***. A graph can be well-formed in every way the ontology can check and still represent things the documents never said.
 
-We are experimenting with three approaches to developing reliable, faithful CASE/UCO representations from digital evidence. Here those terms mean:
+This repo presents a backward verification hook: every edge of a finished graph is checked against the source documents, read under CASE/UCO's definitions, and kept only if a source passage supports it. The hook is tested on three construction methods to determine whether verification improves the reliability and faithfulness of CASE/UCO graphs. Here those terms mean:
 
 - **Reliability**: does the method produce a graph at all, and does the graph validate?
 - **Semantic fidelity**: do the assertions in the graph trace to the source material, and does the graph, interpreted under CASE/UCO's definitions, mean what the evidence means?
 
-Every method is benchmarked the same way, using the same PDF documents, base model, and scorer against gold graphs we author ourselves, and therefore know completely.
+Every method is benchmarked the same way, with and without the hook, using the same PDF documents, base model, and scorer against gold graphs we author ourselves, and therefore know completely.
 
 The SDK under test is Cory Hall's [CASE/UCO SDK](https://github.com/vulnmaster/CASE-UCO-SDK),
 pinned as a submodule at `sdk/` (v1.33.0).
 
+## The hook
+
+`harness/hook.py` checks a finished graph edge by edge, backward from the graph to the source.
+It is the same for every method and uses no LLM; its two models are pinned.
+
+1. Render: each edge becomes one sentence from a template filled with the CASE/UCO definitions
+   of its classes and property, from the SDK's registry.
+2. Retrieve: the sentence is embedded and the 3 most similar source passages (sentences of the
+   PDFs) are taken.
+3. Verify: a local NLI model labels each (passage, sentence) pair supported, contradicted, or not
+   enough evidence.
+4. Policy: the edge stays if any passage supports it, citing that passage and its location;
+   otherwise it is removed.
+
+A rendered edge:
+
+```
+Luca Petrov, a person (a grouping of identifying characteristics unique to a human being regarded
+as an individual), is employed by Oakhaven Services LLC, an organization (a grouping of identifying
+characteristics unique to a group of people who work together in an organized way for a shared purpose).
+```
+
+```mermaid
+flowchart LR
+    G[graph from A, B or C] --> R[Render<br/>edge to sentence<br/>CASE/UCO definitions]
+    R --> RT[Retrieve<br/>top 3 source passages]
+    RT --> V{NLI<br/>any passage<br/>supports?}
+    V -->|yes| K[keep, cite passage]
+    V -->|no| X[remove]
+    K --> OUT[graph +hook]
+```
+
+Per edge, `hook.jsonl` records the triple, the sentence, the passages with their locations and
+verdicts, and the decision. The models, pinned in `harness/config.toml`: all-MiniLM-L6-v2 for
+retrieval and DeBERTa-v3-large NLI (MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli).
+
+**Hypothesis.** Checking each edge backward against the source, under CASE/UCO's definitions,
+removes unsupported edges from any method's graph at a small cost in true edges.
+
 ## The methods
 
-Every method gets the same task statement (model only what the documents state; the core
-classes; ten relation kinds), the same PDFs, and the same base model at temperature 0. They
-differ in one thing: **how the graph is constructed.**
+Every method gets the same task (the core classes; ten relation kinds), the same PDFs, and the
+same base model at temperature 0. A and B get it as one task statement (model only what the
+documents state); C gets it as EDC's target schema. They differ in one thing: **how the graph
+is constructed.** Each runs as shipped, and each graph is scored with and without the hook:
+three arms by {baseline, +hook}, six conditions.
 
-| arm | name | how the graph is constructed | status |
-|---|---|---|---|
-| **A** | SDK as shipped | the model writes a serializer script with the SDK, then revises it in the critic loop | built |
-| **B1** | direct, raw | the model, in one reply | built |
-| **B2** | direct, trained | a fine-tuned model, in one reply | placeholder |
-| **B3** | direct, raw + defenses | the model, rewriting its reply from validator and critic reports | built |
-| **B4** | direct, trained + defenses | a fine-tuned model, rewriting its reply from validator and critic reports | placeholder |
-| **C** | evidence-grounded compilation | a compiler, from claims that passed the evidence gate | built |
-
-B1 to B4 form a 2x2 (training x defenses) on direct generation, so the effect of each can be
-separated. A is the practical engineering baseline. C is the architecture under test.
+| arm | name | how the graph is constructed |
+|---|---|---|
+| **A** | SDK as shipped | the model writes a serializer script with the SDK, then revises it in the critic loop |
+| **B** | direct | the model, in one reply |
+| **C** | EDC | EDC extracts open triples, defines their relations, and canonicalizes them to the CASE/UCO schema |
 
 ### A. The SDK as shipped
 
@@ -74,68 +110,33 @@ is also scored (`@first_validate`), so the QA loop's effect is visible.
 
 ### B. Direct generation
 
-The model reads the documents and writes the CASE JSON-LD. B1 is the reply as is. B3 adds a
-fixed, documented set of guards, each snapshotted and scored on its own: a parse retry, the
-validator's report sent back for a rewrite, and the deterministic critic's findings sent back
-for a rewrite. The guards never add to the graph; every version is a model reply. B2 and B4 are
-the same two pipelines on a LoRA of the base model trained on generated cases that share nothing
-with the benchmark.
+The model reads the documents and writes the CASE JSON-LD in one reply. No tools, no repair.
+
+`harness/pipeline_monolith.py`, arm `b_control`.
+
+### C. EDC
+
+[EDC](https://aclanthology.org/2024.emnlp-main.548) (Extract, Define, Canonicalize; Zhang and
+Soh, 2024) in its target-alignment setting: open triples from each input, a definition for each
+relation, then each relation canonicalized to a target schema by embedding retrieval and an LLM
+choice. The target schema is the task in CASE/UCO terms: the ten relation kinds, and
+`Class.property` for each task property, defined from the SDK's registry. Each PDF sentence is
+one input. EDC does not type entities, so a thin serializer types each entity string from the
+domain and range of its relations, writes the string as the entity's name or identifier, and
+writes the graph with the SDK.
 
 ```mermaid
 flowchart LR
-    PDF[PDF evidence] --> M[Model<br/>raw: B1, B3<br/>trained: B2, B4]
-    M --> G0[JSON-LD reply]
-    G0 --> OUT1[graph: B1, B2]
-    G0 -.->|B3, B4| P[parse retry]
-    P -.-> V[validate_graph<br/>report → rewrite ×2]
-    V -.-> K[critic findings<br/>→ rewrite ×1]
-    K -.-> OUT2[graph: B3, B4]
+    PDF[PDF sentences] --> OIE[Extract<br/>open triples]
+    OIE --> SD[Define<br/>each relation]
+    SD --> SC[Canonicalize<br/>to the CASE/UCO schema]
+    SC --> SER[Serializer<br/>type entities<br/>write with the SDK]
+    SER --> OUT[graph]
 ```
 
-`harness/pipeline_monolith.py` (B1, B2) and `harness/pipeline_defended.py` (B3, B4).
-`harness/make_training_set.py` builds the training pairs; `harness/train_lora.py` holds the
-training plan and is a placeholder until the checkpoint exists.
-
-### C. Evidence-grounded graph compilation
-
-The model never writes a graph or a serializer, and never chooses a class, facet or
-relationship kind. It reads one document at a time and produces claims: the
-entities the document names, then the attributes and relations among them, each with a verbatim
-quote. A deterministic gate admits a claim only if the quote is in the document, the value is in
-the quote, the relation kind is in the vocabulary and the endpoints are declared. A resolver
-merges entities across documents and maps each admitted claim to its ontology construct (class,
-facet placement, typed range, relationship kind and direction). A compiler writes the graph with
-the SDK. A validation gate quarantines assertions on nodes that fail. Everything not asserted
-stays in a ledger marked for review; nothing is dropped silently.
-
-```mermaid
-flowchart LR
-    PDF[PDF evidence] --> EX[Extract<br/>entities, then claims<br/>each with a quote]
-    EX --> GATE{Admit?<br/>quote in document<br/>value in quote<br/>kind in vocabulary<br/>endpoints declared}
-    GATE -->|no| REP[repair once] --> GATE
-    GATE -->|yes| RES[Resolve<br/>merge entities across documents<br/>map to class, facet, kind, direction]
-    RES --> COMP[Compile<br/>GraphWriter over CASEGraph]
-    COMP --> VAL{SHACL<br/>validates?}
-    VAL -->|no| Q[quarantine assertions<br/>on failing nodes] --> COMP
-    VAL -->|yes| OUT[final graph]
-    GATE -.-> L[(ledger<br/>one row per assertion:<br/>passage, claim, mapping,<br/>checks, status)]
-    RES -.-> L
-    VAL -.-> L
-```
-
-`harness/pipeline_grounded.py`, arm `c_grounded`. `harness/pipeline_compiled.py` is the
-single-shot version (one reader call per document, no domain/range resolution, no ledger, no
-gate), kept as C's ablation.
-
-**Hypothesis.** Separating evidence extraction from ontology mapping, and enforcing provenance at
-graph-construction time, reduces unsupported assertions and incorrect relationships without
-sacrificing useful coverage.
-
-Why C is shaped this way: the baseline error analysis showed that most of what the model gets
-wrong is modeling, not reading. The largest error class was the right value on the right entity
-under the wrong property; most of the rest were unanchored or invented nodes. A compiler cannot
-misplace a property, and a verifier cannot admit a value the text does not contain. The model is
-left with the part it is good at.
+`harness/pipeline_edc.py`, arm `c_edc`; EDC is the submodule at `edc/`. The edges the
+serializer writes itself are listed per case, and C is also scored without them
+(`c_edc@no_adapter`). [EXPERIMENT.md](EXPERIMENT.md) lists every adaptation.
 
 ## How we benchmark
 
@@ -147,7 +148,9 @@ Each document is a PDF with no annotations. The methods receive the PDFs and not
 **Scoring.** The scorer aligns the produced graph to gold entity by entity, counts supported
 statements, and classes every unsupported one: wrong value, wrong relation, wrong entity,
 conflation across documents, misplaced property, duplicate entity, invented. A strict scorer and
-a value-tolerant scorer are both reported. Failures (no graph) count as zero recall.
+a value-tolerant scorer are both reported. Failures (no graph) count as zero recall. For a +hook
+condition the scorer also counts the true edges the hook removed, and checks each kept true
+edge's cited passage against the sentence gold states it in.
 
 **Grounding.** Separately, and without reference to gold, the scorer checks whether each emitted
 assertion can be found in the source text: a literal by its value in a sentence, a relation by
@@ -159,12 +162,11 @@ trace to the evidence and still modeled wrong.
 every pipeline. Scores are comparable only between runs under the same entry.
 
 **Splits.** `harness/data/` is the benchmark and is test only. `harness/data_dev/` (20 cases)
-is for prompt and pipeline tuning; `harness/data_train/` (200 cases) is for the trained arms.
-Different seeds, no shared case.
+is for prompt and pipeline tuning. Different seeds, no shared case.
 
 **Per-stage rows.** Any snapshot a pipeline leaves (`graph_<stage>.jsonld`) is scored as
-`<arm>@<stage>`, so A before and after its QA loop, and B3 after each guard, show up as their
-own rows.
+`<arm>@<stage>`, so A before its QA loop shows up as its own row. The hook's graphs are scored as
+`<arm>+hook`, and C without its serializer's own edges as `c_edc@no_adapter`.
 
 ```mermaid
 flowchart LR
@@ -172,7 +174,10 @@ flowchart LR
     GEN --> DOCS[docs: txt + PDF]
     DOCS --> A & B & C
     A & B & C --> GR[graph.jsonld per case]
-    GR --> SC[score.py<br/>align, class every error]
+    GR --> HK[hook.py<br/>keep supported edges]
+    DOCS --> HK
+    HK --> GH[graph.jsonld per case, +hook]
+    GR & GH --> SC[score.py<br/>align, class every error]
     GOLD --> SC
     SC --> SUM[summary.md · per_case.csv]
 ```
@@ -199,11 +204,11 @@ the default endpoint is Tinker's OpenAI-compatible API serving Qwen3.5-9B.
 ```
 
 ```bash
-.venv/bin/python harness/pipeline_defended.py --run-id RUN --model tinker
+.venv/bin/python harness/pipeline_edc.py --run-id RUN --model tinker
 ```
 
 ```bash
-.venv/bin/python harness/pipeline_grounded.py --run-id RUN --model tinker
+for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/hook.py --run-id RUN --arm $arm; done
 ```
 
 ```bash
@@ -211,26 +216,30 @@ the default endpoint is Tinker's OpenAI-compatible API serving Qwen3.5-9B.
 ```
 
 - `--cases case_01,case_02` runs a subset; `--data data_dev` runs on the dev set.
-- Results go to `harness/results/RUN/`; `summary.md` has the per-arm table.
+- Results go to `harness/results/RUN/`; `summary.md` has the per-arm table. The hook writes
+  `<arm>+hook/` next to each arm and downloads its two models on first use.
 - `harness/generate_data.py --validate` regenerates the benchmark and its PDFs.
 - [harness/README.md](harness/README.md) documents every arm, the data, and the scorer in detail.
 
 ## What's next
 
-- Publish the clean 100-case results for A, B1, B3 and C under Freeze 5.
-- Train the LoRA and fill in B2 and B4.
+- Run C and the hook on the 100 cases, with A and B from abc-v1, and publish the six conditions
+  under a new freeze entry.
+- Passages that span an email header block, so header facts can be checked.
 - An adversarial set: the same 100 cases with one injected attack per case (instruction, false
   fact, format, tool) and an "injected" error class in the scorer, to measure which method lets
   poisoned evidence into the graph and which leaves a trail to it.
-- Tests with fixtures and mocked model replies, starting with the one that matters: a rejected
-  claim cannot reach the graph.
+- Tests with fixtures and mocked model replies, starting with the one that matters: an edge the
+  hook removes cannot reach the hooked graph.
 
 ## Limitations
 
 The cases are synthetic. They test mechanics and known failure modes; they do not establish
 fidelity on real case documents, which needs independently reviewed source-to-claim
-annotations. One base model so far. C is not immune to false statements that are physically in
-a document; what it adds is that every assertion is traceable to the passage that produced it.
+annotations. One base model so far. The hook is not immune to false statements that are
+physically in a document; what it adds is that every kept edge cites the passage that supports
+it. It reads one sentence at a time, so a true fact spread over lines, as in an email header, is
+removed.
 
 ## History
 

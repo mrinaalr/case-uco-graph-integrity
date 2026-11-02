@@ -53,7 +53,8 @@ def gold_pass() -> None:
     config.write_text(llm.CONFIG.read_text() + f'\n[models.stub]\nbase_url = "http://127.0.0.1:{server.server_port}/v1"\n'
                       'model = "stub"\napi_key_env = ""\n')
     asyncio.run(llm._run_all("b_control", pipeline_monolith.run_case,
-                             Namespace(run_id=RUN_ID, model="stub", cases=",".join(CASES), config=str(config))))
+                             Namespace(run_id=RUN_ID, model="stub", cases=",".join(CASES), config=str(config),
+                                       arm=None, data="data")))
     server.shutdown()
     score_run(RUN_ID)
     for case in CASES:

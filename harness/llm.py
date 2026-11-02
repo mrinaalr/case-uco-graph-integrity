@@ -6,6 +6,7 @@ import argparse
 import asyncio
 import json
 import os
+import re
 import subprocess
 import time
 import tomllib
@@ -17,7 +18,7 @@ from mcp.client.stdio import stdio_client
 from openai import AsyncOpenAI
 
 from case_uco.graph import DEFAULT_CONTEXT
-from graphkit import HARNESS, REPO, RELATION_KINDS, SCHEMA, case_validate, class_list
+from graphkit import HARNESS, REPO, RELATION_KINDS, SCHEMA, case_validate, class_list, sentences_of
 
 CONFIG = HARNESS / "config.toml"
 SDK = REPO / "sdk"  # the SDK under test, a submodule pinned to a release tag
@@ -99,6 +100,19 @@ def document_text(case_dir: Path, doc_id: str, source: str | None = None) -> str
     if (source or DATA_SOURCE) == "pdf":
         return pdf_text(path).strip()
     return (case_dir / "docs" / f"{doc_id}.marked.txt").read_text().strip()
+
+
+def passages(case_dir: Path) -> list[dict]:
+    """The documents as sentences: {"doc", "sentence" (1-based), "start", "end" (offsets in document_text), "text"}."""
+    out = []
+    for doc_id in doc_ids(case_dir):
+        text, pos = document_text(case_dir, doc_id), 0
+        for i, sentence in enumerate(sentences_of(text), 1):
+            m = re.compile(r"\s+".join(map(re.escape, sentence.split()))).search(text, pos)  # joined PDF lines
+            pos = m.end() if m else pos
+            out.append({"doc": doc_id, "sentence": i, "start": m.start() if m else None, "end": m.end() if m else None,
+                        "text": sentence})
+    return out
 
 
 def documents(case_dir: Path, source: str | None = None) -> str:

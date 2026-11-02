@@ -32,14 +32,6 @@ model = "thinkingmachines/Inkling"
 api_key_env = "TINKER_API_KEY"
 extra_body = { reasoning_effort = "none" }
 
-[models.trained]
-# B2/B4 placeholder: the LoRA of Qwen/Qwen3.5-9B fine-tuned on data_train (see train_lora.py). Fill in model
-# with the name Tinker serves the checkpoint under; until then the trained arms cannot run.
-base_url = "https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1"
-model = ""
-api_key_env = "TINKER_API_KEY"
-extra_body = { reasoning_effort = false }
-
 [models.cloud]
 base_url = ""
 model = ""
@@ -56,15 +48,14 @@ extensions = "legalproc,cryptoinv"
 # What the methods under test read: "pdf" (docs/D*.pdf, text via pypdf) or "marked" (docs/D*.marked.txt with sentence ids).
 source = "pdf"
 
-[defenses]
-# B3/B4 (pipeline_defended.py): a fixed, documented set of guards on direct generation.
-parse_retries = 1            # re-ask once when the reply is not parseable JSON-LD
-repair_rounds = 2            # validate_graph report sent back for a rewrite, at most this many times
-critic_rounds = 1            # deterministic critic findings sent back for a rewrite
-
-[compiled]
-# Method C: one repair round per document for claims the verifier rejected.
-repair_rounds = 1
+[hook]
+# The verification hook (hook.py), the same for every arm. Models are pinned to Hugging Face commits;
+# arm C's EDC uses the same embedder for its schema canonicalization.
+embed_model = "sentence-transformers/all-MiniLM-L6-v2"
+embed_revision = "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+nli_model = "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli"
+nli_revision = "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7"
+top_k = 3                    # source passages retrieved per edge
 
 [critic]
 # Arm A1+QA (pipeline_critic.py). policy "disabled" runs the server's deterministic checks only;

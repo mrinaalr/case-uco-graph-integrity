@@ -10,33 +10,27 @@ harness, backed by the SDK's `case_uco.graph.CASEGraph`.
 
 ## Arms
 
-Every arm gets the same task statement (`llm.SHARED`: model only what the documents state, the
-core classes, the ten relation kinds), the same PDFs (`[data] source` in `config.toml`; "marked"
-switches back to the text files with sentence ids) and temperature 0. They differ in who writes
-the ontology. The A/B/C design is in [../EXPERIMENT.md](../EXPERIMENT.md).
+A and B get the same task statement (`llm.SHARED`: model only what the documents state, the
+core classes, the ten relation kinds); C gets the same classes and kinds as EDC's target schema.
+Every arm reads the same PDFs (`[data] source` in `config.toml`; "marked" switches back to the
+text files with sentence ids) at temperature 0. They differ in who writes the ontology. The
+design is in [../EXPERIMENT.md](../EXPERIMENT.md).
 
 - **A, SDK agent** (`pipeline_sdk_agent.py`, arm `a_sdk_agent`): a coding agent with the server's
   tools plus `read_file`, `write_serializer` (saves and runs the script) and `finish`, asked to
   follow the SDK's workflow including the critic loop (deterministic policy). The graph at the
   first `validate_graph` call is scored as `@first_validate`.
-- **B1, direct** (`pipeline_monolith.py`, arm `b_control`): one prompt, raw JSON-LD back.
-- **B2, trained** (`pipeline_monolith.py --model trained --arm b2_trained`): B1 on the LoRA
-  described in `train_lora.py`; `make_training_set.py` builds its pairs from `data_train`. Placeholder
-  until `[models.trained].model` is filled in.
-- **B3, defended** (`pipeline_defended.py`, arm `b3_defended`): B1, then the guards in
-  `[defenses]`: a parse retry, the validator's report sent back for a rewrite, the deterministic
-  critic's findings sent back for a rewrite. Snapshots `graph_raw.jsonld` and `graph_validated.jsonld`
-  are scored as `@raw` and `@validated`.
-- **B4, trained + defended** (`pipeline_defended.py --model trained --arm b4_trained_defended`): placeholder, as B2.
-- **C v2, grounded** (`pipeline_grounded.py`, arm `c_grounded`): entities per document, then claims
-  against that list, each with a quote; a deterministic admission gate with one repair round
-  (`[compiled] repair_rounds`); cross-document resolution by key; mapping to ontology constructs with
-  domain/range checks and direction normalization; compilation with `GraphWriter`; a validation gate
-  that quarantines assertions on violating nodes. `ledger.jsonl` has one row per assertion (passage,
-  claim, mapping, checks, status); `run.json` counts the review queue. `graph_compiled.jsonld` is
-  scored as `@compiled` (before the gate).
-- **C v1, compiled** (`pipeline_compiled.py`, arm `c_compiled`): the single-shot reader version
-  (one call per document, no domain/range resolution, no ledger, no gate), kept as C's ablation.
+- **B, direct** (`pipeline_monolith.py`, arm `b_control`): one prompt, raw JSON-LD back.
+- **C, EDC** (`pipeline_edc.py`, arm `c_edc`): EDC (the `edc/` submodule) in its target-alignment
+  setting, one input per PDF sentence, canonicalizing to the CASE/UCO target schema
+  (`target_schema.csv` in the arm folder); a serializer types the entity strings and writes the
+  graph with the SDK. Per case: `edc/iter0/` (EDC's stage outputs), `llm_calls.jsonl` (every
+  reply), `adapter_edges.json` (the edges the serializer wrote itself). The module docstring lists
+  the two EDC fixes and the other adaptations.
+- **Hook** (`hook.py --arm <arm>`): reads `results/<run_id>/<arm>/` and writes
+  `results/<run_id>/<arm>+hook/`: the hooked `graph.jsonld`, `hook.jsonl` (one row per edge:
+  triple, sentence, passages with location and verdict, verdict, cited passage) and `run.json`.
+  Models in `[hook]`.
 
 Earlier arms, still runnable:
 
@@ -151,10 +145,14 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
     normalizer's gaps (`supported_ungrounded` in the per-case score).
   - Grounding is checked against `docs/D*.txt` (reported) and
     `docs/D*.pdf.txt`; `pdf_disagreements` counts assertions on which the two
-    differ. For `c_grounded`, `ledger_*` compares the ledger's quote-checked
-    assertions with the scorer: `ledger_scorer_ungrounded` are assertions the
-    gate admitted that the scorer cannot find, `ledger_not_in_graph` are
-    admitted assertions with no matching triple in the final graph.
+    differ.
+- **Hook:** an `<arm>+hook` folder is scored like an arm, plus the edges the
+  hook removed that gold supports in the graph it read (`hook_removed_true`),
+  and the kept true edges whose cited passage holds the gold triple's sentence
+  from `spans.json` (`hook_cited_correct`).
+- **Adapter edges:** for an arm whose cases have `adapter_edges.json` (C),
+  `<arm>@no_adapter` scores the same graph and alignment with those edges left
+  out of every count.
 - **Stages (A2):** `write_node`, `write_facet`, `write_relationship`, `repair`
   (written after a failed validation) and `final_only`. A1 and B are
   `generation`.

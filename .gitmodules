@@ -1,3 +1,6 @@
 [submodule "sdk"]
 	path = sdk
 	url = https://github.com/vulnmaster/CASE-UCO-SDK.git
+[submodule "edc"]
+	path = edc
+	url = https://github.com/clear-nus/edc.git

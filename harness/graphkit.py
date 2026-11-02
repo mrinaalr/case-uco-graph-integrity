@@ -19,6 +19,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import rdflib
+from rdflib.compare import to_canonical_graph
 from case_uco.graph import DEFAULT_CONTEXT, CASEGraph
 from case_uco.uco.core import Facet
 
@@ -40,6 +41,16 @@ RELATION_KINDS = {
     "Authorized": "person -> event",
     "Communicated_With": "person -> person",
 }
+# Each kind as the verb phrase in "source <phrase> target". CASE/UCO does not define these kinds; the hook's
+# sentence template and arm C's target schema use the phrase in place of a definition.
+RELATION_PHRASES = {
+    "Employed_By": "is employed by", "Reports_To": "reports to", "Holds_Account": "holds", "Owns_Account": "owns",
+    "Located_At": "is located at", "Participated_In": "participated in", "Initiated": "initiated",
+    "Transferred_To": "transferred to", "Authorized": "authorized", "Communicated_With": "communicated with",
+}
+
+# The verification hook's verdict on each edge (hook.py).
+VERDICTS = ("supported", "contradicted", "not_enough_evidence")
 
 # Annotation properties that carry no checkable fact; never scored.
 SKIP_PROPS = {"isDirectional", "description", "tag", "specVersion", "objectMarking",
@@ -87,6 +98,32 @@ def _load_schema() -> dict[str, dict]:
 
 
 SCHEMA = _load_schema()
+
+# Class and property definitions as the SDK's registry carries them (what get_class_details serves).
+REGISTRY = json.loads((Path(importlib.import_module("case_uco").__file__).parent / "_registry.json").read_text())["classes"]
+
+
+def definition(text: str | None) -> str:
+    """A registry description without its source note and final period."""
+    return re.sub(r"\s*\[based on [^\]]*\]", "", text or "").strip().rstrip(".")
+
+
+PROPERTY_DEFS: dict[str, dict[str, str]] = {}  # property -> class -> definition
+for _cls in sorted(REGISTRY):
+    for _p in REGISTRY[_cls].get("properties", []):
+        if _p.get("description"):
+            PROPERTY_DEFS.setdefault(_p["name"], {})[_cls] = definition(_p["description"])
+
+
+def property_definition(cls: str | None, prop: str) -> str:
+    """The definition of prop on cls, on cls's facet, or on the first class that has it."""
+    defs = PROPERTY_DEFS.get(prop, {})
+    return defs.get(cls) or defs.get(f"{cls}Facet") or next(iter(defs.values()), "")
+
+
+def words(name: str) -> str:
+    """'EmailAddress' -> 'email address', 'Employed_By' -> 'employed by'."""
+    return re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", name).replace("_", " ").lower()
 
 
 _UUID_TAIL = re.compile(r"-?[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
@@ -236,15 +273,24 @@ def _local(term) -> str:
     return re.split(r"[/#]", text.rstrip("/"))[-1]
 
 
-def graph_triples(path: Path) -> tuple[dict[str, dict], list[dict]]:
-    """Return (entities, triples) from a CASE JSON-LD file.
+def load_graph(path: Path) -> rdflib.Graph:
+    """Parse CASE JSON-LD. Blank nodes get canonical labels, so two parses of one file name them alike."""
+    g = rdflib.Graph().parse(path, format="json-ld")
+    if any(isinstance(x, rdflib.BNode) for t in g for x in t):
+        canonical = rdflib.Graph()
+        canonical += to_canonical_graph(g)
+        return canonical
+    return g
+
+
+def graph_triples(source: Path | rdflib.Graph) -> tuple[dict[str, dict], list[dict]]:
+    """Return (entities, triples) from a CASE JSON-LD file or a graph from load_graph.
 
     entities: iri -> {"class", "props": {prop: [values]}}
     triples: {"s", "p", "o", "lit", "origin"}; Relationship nodes become
     (source, kindOfRelationship, target); facet properties fold onto the owner.
     """
-    g = rdflib.Graph()
-    g.parse(path, format="json-ld")
+    g = source if isinstance(source, rdflib.Graph) else load_graph(source)
     rdf_type = rdflib.RDF.type
     has_facet = rdflib.URIRef(expand("uco-core:hasFacet"))
     types = {s: {_local(o) for o in g.objects(s, rdf_type)} for s in set(g.subjects(rdf_type, None))}
@@ -287,6 +333,27 @@ def graph_triples(path: Path) -> tuple[dict[str, dict], list[dict]]:
                     if str(src) in entities:
                         triples.append({"s": str(src), "p": kind, "o": str(tgt), "lit": False, "origin": f"rel|{r}"})
     return entities, triples
+
+
+HEADER_LINE = re.compile(r"^(From|To|Cc|Subject|Date):|^[\[@#]")  # mail headers, chat lines: one sentence each
+
+
+def sentences_of(text: str) -> list[str]:
+    """Split a document into sentences. A blank line, a header or chat line, or a line ending in
+    . ! ? ends a sentence; any other newline is a wrapped line (PDF-extracted text) and is joined.
+    Within a line, . ! ? followed by a capital, quote or bracket ends a sentence."""
+    blocks, cur = [], ""
+    for line in (x.strip() for x in text.strip().split("\n")):
+        if not line:
+            blocks, cur = blocks + ([cur] if cur else []), ""
+        elif cur and not re.search(r"[.!?]$", cur) and not HEADER_LINE.match(line) and not HEADER_LINE.match(cur):
+            cur += " " + line
+        elif cur and line[0].islower():
+            cur += " " + line
+        else:
+            blocks, cur = blocks + ([cur] if cur else []), line
+    blocks += [cur] if cur else []
+    return [x.strip() for b in blocks for x in re.split(r"(?<=[.!?])\s+(?=[A-Z\"'(\[@#])", b) if x.strip()]
 
 
 def case_validate(path: Path, timeout: int = 600) -> dict:

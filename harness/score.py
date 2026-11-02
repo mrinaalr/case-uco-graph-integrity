@@ -32,8 +32,14 @@ grounded when one of its key literals occurs anywhere. Every emitted assertion
 then lands in one cell of grounded x gold-supported; grounded_unsupported is
 the traceable claim modeled wrong. Grounding runs against the clean text
 (docs/D*.txt, reported) and the PDF-extracted text (docs/D*.pdf.txt); the
-number of assertions on which the two disagree is reported. For c_grounded the
-ledger's quote-checked assertions are compared with the scorer's grounding.
+number of assertions on which the two disagree is reported.
+
+An <arm>+hook folder holds <arm>'s graphs after the verification hook (hook.py).
+It is scored like any arm, plus the hook's own columns: edges removed that gold
+supports, and whether each kept true edge cites the sentence gold states it in.
+An arm whose cases carry adapter_edges.json (c_edc) is also scored as
+<arm>@no_adapter: the same graph and alignment, with the edges its adapter wrote
+itself (key literals taken from entity strings) left out of every count.
 
     python harness/score.py --run-id RUN
     python harness/score.py --self-test     # gold scored against itself
@@ -52,7 +58,7 @@ from pathlib import Path
 import numpy as np
 from scipy.optimize import linear_sum_assignment
 
-from graphkit import HARNESS, graph_triples, iso_time, slug
+from graphkit import HARNESS, VERDICTS, graph_triples, iso_time, sentences_of
 
 SCORERS = ("strict", "value")
 STAGE_ORDER = ["raw", "pass1", "first_validate", "validated", "pass2", "pass3", "pass4", "compiled"]
@@ -149,27 +155,6 @@ TIME_PATTERNS = [re.compile(p) for p in (
 )]
 GROUND_CELLS = ["grounded_supported", "grounded_unsupported", "ungrounded_supported", "ungrounded_unsupported"]
 REL_LEVELS = ["sentence", "document", "indirect", "ungrounded"]
-
-
-HEADER_LINE = re.compile(r"^(From|To|Cc|Subject|Date):|^[\[@#]")  # mail headers, chat lines: one sentence each
-
-
-def sentences_of(text: str) -> list[str]:
-    """Split a document into sentences. A blank line, a header or chat line, or a line ending in
-    . ! ? ends a sentence; any other newline is a wrapped line (PDF-extracted text) and is joined.
-    Within a line, . ! ? followed by a capital, quote or bracket ends a sentence."""
-    blocks, cur = [], ""
-    for line in (x.strip() for x in text.strip().split("\n")):
-        if not line:
-            blocks, cur = blocks + ([cur] if cur else []), ""
-        elif cur and not re.search(r"[.!?]$", cur) and not HEADER_LINE.match(line) and not HEADER_LINE.match(cur):
-            cur += " " + line
-        elif cur and line[0].islower():
-            cur += " " + line
-        else:
-            blocks, cur = blocks + ([cur] if cur else []), line
-    blocks += [cur] if cur else []
-    return [x.strip() for b in blocks for x in re.split(r"(?<=[.!?])\s+(?=[A-Z\"'(\[@#])", b) if x.strip()]
 
 
 def canon(group: str, text: str) -> str:
@@ -301,45 +286,6 @@ def ground_graph(case_dir: Path, keyed: dict[str, dict], triples: list[dict]) ->
     return out
 
 
-def ledger_check(run_dir: Path | None, triples: list[dict], grounded: list[bool]) -> dict | None:
-    """c_grounded: for each assertion the ledger admitted on its own quote check, what the scorer found.
-    Attributes match on (node, property, normalized value); relations on (source, kind, target)."""
-    path = run_dir / "ledger.jsonl" if run_dir else None
-    if not path or not path.exists():
-        return None
-    by_key = {}
-    for t, g in zip(triples, grounded):
-        if t["lit"]:
-            key = ("attr", slug(t["s"]), t["p"], norm(t["p"], t["o"]))
-        else:
-            key = ("rel", slug(t["s"]), norm_kind(t["p"]), slug(t["o"]))
-        by_key.setdefault(key, g)
-    rows = [json.loads(line) for line in path.read_text().splitlines()]
-    node_of = {(r["doc_id"], r["claim"]["id"]): r["mapping"]["node"]  # per-document extraction id -> graph node
-               for r in rows if r["kind"] == "entity" and r["status"] == "asserted"}
-    counts = Counter()
-    for row in rows:
-        if row["status"] != "asserted" or row["kind"] not in ("attribute", "relation"):
-            continue
-        m, value = row["mapping"], row["claim"].get("value")
-        if row["kind"] == "relation":
-            key = ("rel", m["source"], norm_kind(m["kind"]), m["target"])
-        elif isinstance(value, list):  # an object property: the value is a reference to another extracted entity
-            target = node_of.get((row["doc_id"], value[0])) if value else None
-            key = ("rel", m["node"], norm_kind(m["property"].split(":")[-1]), target)
-        else:
-            p = m["property"].split(":")[-1]
-            key = ("attr", m["node"], p, norm(p, str(value)))
-        counts["asserted"] += 1
-        if key not in by_key:
-            counts["not_in_graph"] += 1
-        elif by_key[key]:
-            counts["scorer_grounded"] += 1
-        else:
-            counts["scorer_ungrounded"] += 1
-    return {k: counts.get(k, 0) for k in ("asserted", "not_in_graph", "scorer_grounded", "scorer_ungrounded")}
-
-
 def load_gold(case_dir: Path) -> dict:
     gold = json.loads((case_dir / "gold.json").read_text())
     ents = {e["eid"]: e for e in gold["entities"]}
@@ -427,7 +373,8 @@ def stage_lookup(run_dir: Path, prov_name: str):
 
 
 def score_case(case_dir: Path, graph: Path | None, run_dir: Path | None = None, prov_name: str | None = None,
-               scorer: str = "strict") -> dict:
+               scorer: str = "strict", exclude: set | None = None) -> dict:
+    """exclude: (s, p, o) triples that count toward alignment but are left out of every count."""
     gold = load_gold(case_dir)
     n_gold = len(gold["triples"])
     if graph is None or not graph.exists():
@@ -462,7 +409,11 @@ def score_case(case_dir: Path, graph: Path | None, run_dir: Path | None = None, 
     linked = {(t["s"], t["o"]) for t in gold["triples"].values() if not t["lit"]}
     seen, supported, unsupported = set(), set(), []
     kept, kept_supported = [], []  # deduplicated emitted triples, in order, and whether gold supports each
-    for t in raw:
+    matched = []  # [s, p, o, gold tid] for every emitted triple gold supports, duplicates included
+    for raw_t in raw:
+        if exclude and (raw_t["s"], raw_t["p"], raw_t["o"]) in exclude:  # aligned on, never counted
+            continue
+        t = raw_t
         if scorer == "value" and not t["lit"] and t["p"] == "owner":  # AccountFacet.owner == owner Owns_Account account
             t = {**t, "s": t["o"], "o": t["s"], "p": "owns_account"}
         is_rel = t["origin"].startswith("rel|")
@@ -473,21 +424,19 @@ def score_case(case_dir: Path, graph: Path | None, run_dir: Path | None = None, 
                 and (s, p, o) not in gold_keys and (o, p, s) in gold_keys:  # symmetric
             s, o = o, s
         key = (s or t["s"], p, o if (t["lit"] or o) else t["o"])
+        hit = (s, p, o) if s and (t["lit"] or o) and (s, p, o) in gold_keys else None
+        if hit is None and scorer == "value" and s and p in CONTAINS_PROPS:
+            hit = next((k for k in gold_keys if k[:2] == (s, p) and value_matches(p, k[2], t["o"])), None)
+        if hit:
+            matched.append([raw_t["s"], raw_t["p"], raw_t["o"], gold["triples"][hit]["tid"]])
         if key in seen:
             continue
         seen.add(key)
         kept.append(t)
-        if s and (t["lit"] or o) and (s, p, o) in gold_keys:
-            supported.add((s, p, o))
-            kept_supported.append(True)
+        kept_supported.append(bool(hit))
+        if hit:
+            supported.add(hit)
             continue
-        if scorer == "value" and s and p in CONTAINS_PROPS:
-            hit = next((k for k in gold_keys if k[:2] == (s, p) and value_matches(p, k[2], t["o"])), None)
-            if hit:
-                supported.add(hit)
-                kept_supported.append(True)
-                continue
-        kept_supported.append(False)
         if t["s"] in duplicates or (not t["lit"] and t["o"] in duplicates):
             cls = "duplicate_entity"
         else:
@@ -523,7 +472,6 @@ def score_case(case_dir: Path, graph: Path | None, run_dir: Path | None = None, 
         if pdf is not None else None,
         "supported_ungrounded": [{"s": t["s"], "p": t["p"], "o": t["o"]}
                                  for t, gr, sup in zip(kept, grounded, kept_supported) if sup and not gr],
-        "ledger": ledger_check(run_dir, kept, grounded),
     }
     return {
         "grounding": grounding,
@@ -539,6 +487,7 @@ def score_case(case_dir: Path, graph: Path | None, run_dir: Path | None = None, 
         "unsupported_by_class": dict(Counter(u["class"] for u in unsupported)),
         "unsupported_by_stage": dict(Counter(u["stage"] for u in unsupported)),
         "unsupported": unsupported,
+        "matched": matched,
         "missed": sorted(gold["triples"][k]["tid"] for k in gold_keys - supported),
     }
 
@@ -569,6 +518,39 @@ def classify(gold, s, p, o, t, merged, linked, scorer: str = "strict") -> str:
     return "invented"
 
 
+HOOK_COUNTS = ["edges", *VERDICTS, "removed", "true", "removed_true", "kept_true", "cited_correct"]
+
+
+def hook_stats(case_dir: Path, base_graph: Path, rows: list[dict], scorer: str) -> dict:
+    """The hook's removals and citations for one case. An edge is true when scoring the graph the hook read
+    matches it to a gold triple; a kept true edge cites correctly when its passage is the gold triple's sentence."""
+    base = score_case(case_dir, base_graph, scorer=scorer) if rows else {}
+    tid_of = {(s, p, o): tid for s, p, o, tid in base.get("matched", [])}
+    spans = json.loads((case_dir / "spans.json").read_text())
+    span_of = {t["tid"]: spans[t["span_id"]] for t in json.loads((case_dir / "gold.json").read_text())["triples"]}
+    true = [(r, tid_of[(r["s"], r["p"], r["o"])]) for r in rows if (r["s"], r["p"], r["o"]) in tid_of]
+    kept_true = [(r, tid) for r, tid in true if r["kept"]]
+    verdicts = Counter(r["verdict"] for r in rows)
+
+    def cites(passage: dict, span: dict) -> bool:
+        a, b = norm_text(passage["text"]), norm_text(span["text"])
+        return passage["doc"] == span["doc_id"] and (a in b or b in a)
+    return {"edges": len(rows), **{v: verdicts.get(v, 0) for v in VERDICTS}, "removed": sum(not r["kept"] for r in rows),
+            "true": len(true), "removed_true": len(true) - len(kept_true), "kept_true": len(kept_true),
+            "cited_correct": sum(cites(r["cited"], span_of[tid]) for r, tid in kept_true)}
+
+
+def hook_summary(rows: list[dict]) -> dict:
+    """Hook columns over an <arm>+hook condition (None for other arms)."""
+    hs = [r["hook"] for r in rows if r.get("hook")]
+    c = Counter()
+    for h in hs:
+        c.update(h)
+    return {**{f"hook_{k}": c[k] if hs else None for k in HOOK_COUNTS},
+            "hook_removed_true_rate": round(c["removed_true"] / c["true"], 4) if c["true"] else None,
+            "hook_cite_rate": round(c["cited_correct"] / c["kept_true"], 4) if c["kept_true"] else None}
+
+
 def mean(xs):
     xs = [x for x in xs if x is not None]
     return round(sum(xs) / len(xs), 4) if xs else None
@@ -586,6 +568,7 @@ def summarize(arm: str, scorer: str, rows: list[dict]) -> dict:
         "incomplete": sum(r["status"] == "incomplete" for r in rows),
         "capped": sum(r["status"] == "capped" for r in rows),
         "valid": sum(r.get("final_validation") is True for r in rows),
+        "valid_rate": round(sum(r.get("final_validation") is True for r in rows) / len(rows), 4),
         "precision_macro": mean(r["precision"] for r in rows if r not in failed),
         "recall_macro": mean(r["recall"] for r in rows),
         "precision_micro": round(sup / emi, 4) if emi else None, "recall_micro": round(sup / gold, 4),
@@ -593,6 +576,7 @@ def summarize(arm: str, scorer: str, rows: list[dict]) -> dict:
         "gold_aligned_rate": mean(r.get("alignment", {}).get("gold_aligned_rate", 0) for r in rows),
         "emitted_aligned_rate": mean(r.get("alignment", {}).get("emitted_aligned_rate") for r in rows),
         **grounding_summary(rows),
+        **hook_summary(rows),
         "tokens_prompt": sum(r["tokens"]["prompt"] for r in rows),
         "tokens_completion": sum(r["tokens"]["completion"] for r in rows),
         "wall_s_total": round(sum(r.get("wall_s", 0) for r in rows), 1),
@@ -614,10 +598,6 @@ def grounding_summary(rows: list[dict]) -> dict:
         rels.update(g["relations"])
     n_rel = sum(rels.values())
     ents = sum(g["entities"]["grounded"] for g in gs), sum(g["entities"]["total"] for g in gs)
-    ledgers = [g["ledger"] for g in gs if g.get("ledger")]
-    ledger = Counter()
-    for l in ledgers:
-        ledger.update(l)
     return {
         "grounded_rate_micro": round(sum(g["grounded"] for g in gs) / n_assert, 4) if n_assert else None,
         "grounded_rate_macro": mean(g["grounded_rate"] for g in gs),
@@ -628,9 +608,6 @@ def grounding_summary(rows: list[dict]) -> dict:
         "rel_indirect_rate": round(rels["indirect"] / n_rel, 4) if n_rel else None,
         "entity_grounded_rate": round(ents[0] / ents[1], 4) if ents[1] else None,
         "pdf_disagreements": sum(g["pdf_disagreements"] or 0 for g in gs),
-        "ledger_asserted": ledger["asserted"] if ledgers else None,
-        "ledger_scorer_ungrounded": ledger["scorer_ungrounded"] if ledgers else None,
-        "ledger_not_in_graph": ledger["not_in_graph"] if ledgers else None,
     }
 
 
@@ -640,7 +617,7 @@ def table(header: list[str], rows: list[list]) -> list[str]:
 
 
 def markdown(summaries: list[dict], stage_counts: dict[str, Counter]) -> str:
-    cols = ["arm", "scorer", "cases", "failures", "incomplete", "capped", "valid", "precision_macro", "recall_macro",
+    cols = ["arm", "scorer", "cases", "failures", "incomplete", "capped", "valid", "valid_rate", "precision_macro", "recall_macro",
             "precision_micro", "recall_micro", "tokens_prompt", "tokens_completion", "wall_s_total"]
     first = summaries[0]
     lines = [f"# Faithfulness run\n\nSDK `{first['sdk_version']}`, endpoint `{first['endpoint']}` "
@@ -654,11 +631,19 @@ def markdown(summaries: list[dict], stage_counts: dict[str, Counter]) -> str:
               "Can each emitted assertion be found in the source text? Cells are grounded x gold-supported; "
               "grounded_unsupported is the traceable claim modeled wrong. Relations are grounded at sentence or "
               "document level. pdf_disagreements counts assertions whose grounding differs between the clean and "
-              "the PDF-extracted text. ledger_* compares c_grounded's own quote checks with the scorer.\n"]
+              "the PDF-extracted text.\n"]
     gcols = ["grounded_rate_micro"] + GROUND_CELLS + ["grounded_unsupported_share", "rel_sentence_rate",
-             "rel_document_rate", "rel_indirect_rate", "entity_grounded_rate", "pdf_disagreements", "ledger_asserted",
-             "ledger_scorer_ungrounded", "ledger_not_in_graph"]
+             "rel_document_rate", "rel_indirect_rate", "entity_grounded_rate", "pdf_disagreements"]
     lines += table(["arm", "scorer"] + gcols, [[s["arm"], s["scorer"]] + [s[c] for c in gcols] for s in summaries])
+    hooked = [s for s in summaries if s["hook_edges"] is not None]
+    if hooked:
+        hcols = [f"hook_{k}" for k in HOOK_COUNTS] + ["hook_removed_true_rate", "hook_cite_rate"]
+        lines += ["\n## Verification hook\n",
+                  "Edges the hook read, its verdicts, and what it removed. true: edges gold supports in the graph the hook "
+                  "read; removed_true: of those, removed; cited_correct: kept true edges whose cited passage is the "
+                  "sentence gold states them in.\n"]
+        lines += table(["arm", "scorer"] + [c.removeprefix("hook_") for c in hcols],
+                       [[s["arm"], s["scorer"]] + [s[c] for c in hcols] for s in hooked])
     stages = sorted({k for c in stage_counts.values() for k in c})
     lines += ["\n## Unsupported triples by first stage\n"]
     lines += table(["arm", "scorer"] + stages, [[arm, sc] + [c.get(k, 0) for k in stages] for (arm, sc), c in stage_counts.items()])
@@ -693,9 +678,20 @@ def score_run(run_id: str) -> None:
                 continue
             meta = json.loads((run_dir / "run.json").read_text())
             data_dir = HARNESS / "data" / run_dir.name
-            for label, graph_name, score_name, prov in variants(arm_dir.name, run_dir):
+            hook_rows = None
+            if arm_dir.name.endswith("+hook"):
+                path = run_dir / "hook.jsonl"
+                hook_rows = [json.loads(line) for line in path.read_text().splitlines()] if path.exists() else []
+                base_graph = run_root / arm_dir.name.removesuffix("+hook") / run_dir.name / "graph.jsonld"
+            todo = [(*v, None) for v in variants(arm_dir.name, run_dir)]
+            adapter = run_root / arm_dir.name.removesuffix("+hook") / run_dir.name / "adapter_edges.json"
+            if adapter.exists():  # c_edc: also scored without the edges its adapter wrote itself
+                todo.append((f"{arm_dir.name}@no_adapter", "graph.jsonld", "score_no_adapter.json", None,
+                             {(e["s"], e["p"], e["o"]) for e in json.loads(adapter.read_text())["edges"]}))
+            for label, graph_name, score_name, prov, exclude in todo:
                 for scorer in SCORERS:
                     row = dict(meta, arm=label, scorer=scorer)
+                    row.pop("hook", None)  # hook.py's run counts; the scored ones are added below, on the hooked graph's row
                     if label.endswith("@first_validate") and meta.get("server_validations"):
                         row["final_validation"] = meta["server_validations"][0]
                     if "@pass" in label and meta.get("pass_validations"):
@@ -705,11 +701,13 @@ def score_run(run_id: str) -> None:
                         row["final_validation"] = meta["stage_validations"].get(label.split("@", 1)[1])
                     graph = run_dir / graph_name if meta["status"] not in ("error", "empty") else None
                     try:
-                        result = score_case(data_dir, graph, run_dir, prov, scorer)
+                        result = score_case(data_dir, graph, run_dir, prov, scorer, exclude)
                     except Exception as exc:  # unparseable output scores as a failure
                         row["status"], row["error"] = "error", f"scoring failed: {exc}"[:2000]
                         result = score_case(data_dir, None)
                     row.update(result)
+                    if hook_rows is not None and label == arm_dir.name:
+                        row["hook"] = hook_stats(data_dir, base_graph, hook_rows, scorer)
                     name = score_name if scorer == "strict" else score_name.replace(".json", "_value.json")
                     (run_dir / name).write_text(json.dumps(row, indent=1, default=str))
                     groups.setdefault((label, scorer), []).append(row)
@@ -724,7 +722,8 @@ def score_run(run_id: str) -> None:
                    **{c: r.get("unsupported_by_class", {}).get(c, 0) for c in CLASSES},
                    "grounded_rate": (r.get("grounding") or {}).get("grounded_rate"),
                    **{c: (r.get("grounding") or {}).get("cells", {}).get(c) for c in GROUND_CELLS},
-                   "pdf_disagreements": (r.get("grounding") or {}).get("pdf_disagreements")}
+                   "pdf_disagreements": (r.get("grounding") or {}).get("pdf_disagreements"),
+                   **{f"hook_{k}": (r.get("hook") or {}).get(k) for k in ("removed", "removed_true", "kept_true", "cited_correct")}}
                 for rows in groups.values() for r in rows]
     for name, rows in (("summary.csv", summaries), ("per_case.csv", per_case)):
         with open(run_root / name, "w", newline="") as fh:

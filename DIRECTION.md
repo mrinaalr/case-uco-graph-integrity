@@ -78,15 +78,16 @@ deterministically checkable. Three findings for the SDK came out of this and sit
 
 ## Where that points
 
-If the errors are mostly modeling, and mostly checkable, then the fix at the source is not a
-better critic on a model-written graph. It is to take the modeling away from the model: let it
-read and cite, gate what it read against the text, and let a compiler do the ontology. That is
-method C in [EXPERIMENT.md](EXPERIMENT.md), compared against the SDK's workflow (A) and direct
-generation with and without training and defenses (B1 to B4), on a 100-case PDF benchmark.
+If the errors are mostly modeling, and mostly checkable, the missing check is the one the critic
+never makes: from each edge of the finished graph back to the source, read under CASE/UCO's
+definitions. That is the backward verification hook in [EXPERIMENT.md](EXPERIMENT.md), applied
+unchanged to the SDK's workflow (A), direct generation (B) and EDC (C), on a 100-case PDF
+benchmark. It replaced, on 2026-11-02, a first design that took the modeling away from the model
+and gave it to a compiler.
 
 ## Working title
 
 *Evidence-Grounded Graph Construction: Evaluating the Semantic Fidelity of Machine-Constructed
-CASE/UCO Graphs.* Two questions: which existing approach produces the most reliable graphs,
-and whether a different construction architecture improves reliability beyond training or
-defending a model.
+CASE/UCO Graphs.* Two questions: whether a backward, ontology-grounded check on the finished
+graph makes it more faithful to the source, whichever method built it, and what it costs in true
+edges.
