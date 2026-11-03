@@ -170,6 +170,8 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
 - **Dev runs:** `score.py --run-id RUN --data data_dev`. `hook_dev_check.py --run-id RUN --stages`
   checks the stages on dev gold and corrupted dev graphs with planted wrong-property and
   wrong-relation edges; `test_hook_stages.py` is the gate (see its docstring).
+  `rendering_audit.py` scores each true dev gold edge's plain sentence against its confusable
+  readings' on the passage that states it.
 - **Adapter edges:** for an arm whose cases have `adapter_edges.json` (C),
   `<arm>@no_adapter` scores the same graph and alignment with those edges left
   out of every count.

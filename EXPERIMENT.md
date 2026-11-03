@@ -258,3 +258,36 @@ two true address parts that contrast reads as the locality; one of those is a Lo
 key, so the scorer loses its other edges too, which is most of C's drop in recall. Of 2,575 edges the right hook
 keeps, 1 cites a different passage than the left hook; the small drops in citation accuracy come from which true
 edges it removes.
+
+### Rendering audit
+
+The hook's NLI step can only separate readings its sentences separate. A dev-only diagnostic, run after the dev
+results above with no success criterion set beforehand (`rendering_audit.py`, Freeze 10): for each true dev gold
+edge with a confusable reading, the plain sentence of the edge and of the competitor, scored against the passage
+that states the edge with the right hook's premise. Margin is log-odds(true) - log-odds(competitor); the right hook
+removes a true edge below -2.
+
+| true | competitor | n | true ranked higher | median margin | margin < -2 |
+|---|---|---|---|---|---|
+| sentTime | receivedTime | 39 | 0/39 | -0.92 | 0 |
+| accountIssuer | Owns_Account | 56 | 46/56 | +4.40 | 3 |
+| Owns_Account | accountIssuer | 40 | 40/40 | +2.04 | 0 |
+| Initiated | Participated_In | 114 | 93/114 | +1.21 | 0 |
+| Initiated | Authorized | 114 | 114/114 | +3.15 | 0 |
+| Authorized | Initiated | 9 | 9/9 | +6.55 | 0 |
+| Authorized | Participated_In | 9 | 9/9 | +2.50 | 0 |
+| Participated_In | Initiated | 17 | 17/17 | +13.51 | 0 |
+| Participated_In | Authorized | 17 | 17/17 | +10.51 | 0 |
+| Holds_Account | Owns_Account | 93 | 93/93 | +6.75 | 0 |
+| Reports_To | Communicated_With | 8 | 8/8 | +1.13 | 0 |
+| Reports_To | Reports_To reversed | 8 | 8/8 | +8.08 | 0 |
+| Communicated_With | Reports_To | 53 | 53/53 | +9.21 | 0 |
+| Communicated_With | Reports_To reversed | 53 | 53/53 | +10.66 | 0 |
+| Transferred_To | Transferred_To reversed | 3 | 3/3 | +10.87 | 0 |
+
+NLI ranks receivedTime above sentTime on every `Date:` line, by a small margin; this is why the right hook keeps
+every planted receivedTime. The line does not say "sent", and the definitions in the premise do not settle it. The
+ten issuers ranked below Owns_Account are all on "account N at Bank X is registered to Person". The Initiated
+losses are on "started the ...", which entails participating, so the competitor is not a wrong reading. The other
+relation kinds separate by wide margins. Employed_By and Located_At have no competing reading the task allows and
+are not tested.
