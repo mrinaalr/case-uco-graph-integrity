@@ -60,7 +60,20 @@ flowchart LR
     A -.->|accountType| T["bank account"]
 ```
 
-The hook checks each edge as one sentence. The issuer edge reads:
+The hook checks each edge as one sentence, built from the edge and the CASE/UCO definitions of its
+classes and property. For the issuer edge, the parts are:
+
+```
+edge      2622357143  accountIssuer  Granite Federal Credit Union
+subject   2622357143, an Account: "an arrangement with an entity to enable and control the
+          provision of some capability or service"
+property  accountIssuer: "the issuer of this account"
+object    Granite Federal Credit Union, an Organization: "a grouping of identifying
+          characteristics unique to a group of people who work together in an organized way
+          for a shared purpose"
+```
+
+and the sentence NLI reads against each retrieved passage is:
 
 ```
 The account issuer (the issuer of this account) of 2622357143, an account (an arrangement with an
@@ -69,8 +82,12 @@ Union, an organization (a grouping of identifying characteristics unique to a gr
 work together in an organized way for a shared purpose).
 ```
 
-The definition says which sense of "account" is meant: a bank account here, not a login. The
-evidence names two organizations, and only one is the issuer.
+The evidence names two organizations, and only one is the issuer: the hook should keep this edge and
+remove one that names Summit Peak Packaging Inc. as issuer. It does not always: in hook-v1 it kept
+all 16 issuer edges from A and B that name the account's owner. The definitions are CASE/UCO's own text,
+used as written; they are generic (an Account covers a login as well as a bank account), and the
+ablation found they make no consistent difference. Without them (`--template plain`) the same edge
+reads `The account issuer of 2622357143 is Granite Federal Credit Union.`
 
 ```mermaid
 flowchart LR
