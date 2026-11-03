@@ -89,7 +89,7 @@ ABBREV = {"st": "street", "ave": "avenue", "rd": "road", "dr": "drive", "blvd": 
 HONORIFICS = {"mr", "mrs", "ms", "dr", "mx"}
 THRESHOLD = 0.85
 HOOKED = re.compile(r"\+(?:hook|left|right|lr)")  # <arm>+hook*, <arm>+left, <arm>+right, <arm>+lr
-CHECKS = ("domain", "range", "datatype", "cardinality", "self_loop", "contrast")  # hook.CHECKS
+CHECKS = ("domain", "range", "datatype", "cardinality", "self_loop", "header", "contrast")  # hook.CHECKS
 BOOTSTRAP = 2000
 
 

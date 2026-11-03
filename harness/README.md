@@ -1,7 +1,8 @@
 # Faithfulness harness
 
 Measures how faithfully an LLM turns source documents into a CASE/UCO graph,
-against gold graphs we generate. The SDK and its MCP server are the object
+against gold graphs we generate, and what checking a finished graph against its
+source (`hook.py`, `selector.py`) does to it. The SDK and its MCP server are the object
 under test; every results file records `git describe --tags`.
 
 The case-uco MCP server has lookup and validation tools but no tools that
@@ -35,13 +36,23 @@ design is in [../EXPERIMENT.md](../EXPERIMENT.md).
 - **Left and right hooks** (`hook.py --arm <arm> --stage left,right,both`): one model load, three
   outputs. `left` (`<arm>+left`) verifies the plain rendering, with `--passages block` and
   `--query plain` by default; `right` (`<arm>+right`) runs the right hook's checks (domain, range,
-  datatype, cardinality, self-loop, contrast) on every edge; `both` (`<arm>+lr`) runs them on the
+  datatype, cardinality, self-loop, the header rule, contrast) on every edge; `both` (`<arm>+lr`) runs them on the
   edges `left` kept. `hook.jsonl` rows add `left` (kept, cited), `right` (each check's result and
   reason; null where it did not run), `contrast` (competitors and their entailment) and
   `removed_by`. The contrast margin is `contrast_margin` in `[hook]`. Without `--stage`, the hook
   above, unchanged. `--resume` skips finished cases, `--batch 8` halves the NLI batch,
   `HOOK_DEVICE` picks the device (default cuda, then mps, then cpu); a case that fails on the GPU
   is retried on the CPU and `run.json` records `hook_fallback`.
+- **Selector** (`selector.py --arm <arm>`): reads `results/<run_id>/<arm>/` and writes
+  `results/<run_id>/<arm>+sel/`: the selected `graph.jsonld`, `sel.jsonl` and `run.json`. For the
+  entities the graph names, it scores every reading the task's ontology allows on the passages the
+  entities share and keeps the ones the source selects: duplicate entities merged, wrong edges
+  replaced, missed edges added, header facts decided by rule. `sel.jsonl` has one row per reading
+  decided (stated or not, selected or not, by NLI or by the header rule, best entailment and
+  passage), per edge removed or added (`why`: not selected, repair, recover, normalize, header,
+  datatype, value not in the source) and per single-valued property decided (`keep` or `abstain`,
+  with each value's score). Models and margin from `[hook]`; `add_threshold` in `[selector]`. The
+  module docstring lists every step.
 
 Earlier arms, still runnable:
 
@@ -105,6 +116,14 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
 .venv/bin/python harness/qa_delta.py --run-id baseline
 ```
 
+```bash
+.venv/bin/python harness/selector.py --run-id baseline --arm b_control
+```
+
+```bash
+.venv/bin/python harness/meaning.py --run-id baseline
+```
+
 - `--cases case_01,case_02` runs a subset.
 - Per-case outputs go to `results/<run_id>/<arm>/<case>/` (gitignored).
 - `results/<run_id>/` gets `summary.md`, `summary.csv` and `per_case.csv`.
@@ -165,13 +184,25 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
   `spans.json` (`hook_cited_correct`). `<arm>+left`, `+right` and `+lr` add, per stage, the
   edges removed, the true ones among them, the unsupported ones by error class, and each right
   check's coverage (passed, failed, skipped).
+- **Meaning** (`meaning.py --run-id RUN [--data data_dev]`): competency questions from each gold
+  graph, asked of the gold graph and of the graph under test alike. A question starts from an
+  entity's key value (a name, an address, an account number, a subject, an event type) and follows
+  one or two steps; its answer is a set of values or entities. Per question: answer recall, answer
+  precision, and `exact` (complete, nothing wrong). 2-hop questions pass through an intermediate
+  entity, so a split, merged or misdirected entity breaks them. Writes `meaning.json` per case and
+  `results/<run_id>/meaning.md`; any arm folder is scored, `+hook`, `+lr` and `+sel` alike.
+  `test_meaning.py` checks it on every dev gold graph: gold is exact against itself, and one
+  removed relation breaks the questions it carries without making a wrong answer.
 - **Intervals:** each summary row has a 95% bootstrap interval over cases for micro precision and
   recall (`precision_micro_lo`/`_hi`, `recall_micro_lo`/`_hi`).
 - **Dev runs:** `score.py --run-id RUN --data data_dev`. `hook_dev_check.py --run-id RUN --stages`
   checks the stages on dev gold and corrupted dev graphs with planted wrong-property and
   wrong-relation edges; `test_hook_stages.py` is the gate (see its docstring).
   `rendering_audit.py` scores each true dev gold edge's plain sentence against its confusable
-  readings' on the passage that states it.
+  readings' on the passage that states it. `selector_dev.py --run-id RUN --from <a hook_dev_check
+  run>` stages the selector's dev arms (gold, corrupt, `dropped`: gold with 30% of its object edges
+  removed, seed 0, listed in `dropped.json`; and any `--real` arm) for `hook.py --stage both`,
+  `selector.py`, `score.py` and `meaning.py`.
 - **Adapter edges:** for an arm whose cases have `adapter_edges.json` (C),
   `<arm>@no_adapter` scores the same graph and alignment with those edges left
   out of every count.

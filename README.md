@@ -8,8 +8,10 @@
 <p align="center">
   <a href="#the-problem">Problem</a> ·
   <a href="#the-hook">Hook</a> ·
+  <a href="#the-selector">Selector</a> ·
   <a href="#graph-construction">Graph construction</a> ·
   <a href="#how-we-benchmark">Benchmark</a> ·
+  <a href="#results">Results</a> ·
   <a href="#run-it">Run it</a> ·
   <a href="#whats-next">What's next</a>
 </p>
@@ -22,13 +24,17 @@ Making graphs that represent concepts from data is hard. Making knowledge graphs
 
 When a language model turns case documents into [CASE](https://caseontology.org/)/[UCO](https://unifiedcyberontology.org/) graphs, the graphs can be *valid* (or pass the ontology's SHACL checks) without being ***correct***. A graph can be well-formed in every way the ontology can check and still represent things the documents never said.
 
-This repo presents a backward verification hook: every edge of a finished graph is checked against the source documents and kept only if a source passage supports it. The hook is tested on three construction methods to determine whether verification improves the reliability and semantic fidelity of CASE/UCO graphs. Here those terms mean:
+This repo presents two checks of a finished graph against its source documents:
+
+- **The hook** keeps each edge only if a source passage supports it.
+- **The selector** lists every reading CASE/UCO allows for the entities the documents name, and keeps the ones the documents support.
+
+Both are tested on three construction methods to determine whether they improve the reliability and semantic fidelity of CASE/UCO graphs. Here those terms mean:
 
 - **Reliability**: does the method produce a graph at all, and does the graph validate?
-- **Semantic fidelity**: do the assertions in the graph trace to the source material, and does the graph, interpreted under CASE/UCO's definitions, mean what the evidence means?
+- **Semantic fidelity**: does the graph, interpreted under CASE/UCO's definitions, mean what the evidence means?
 
-
-Every method is benchmarked the same way, with and without the hook, using the same PDF documents, base model, and scorer against gold graphs we author ourselves, and therefore know completely.
+Every method is benchmarked the same way, as built, after the hook and after the selector, using the same PDF documents, base model, and scorer against gold graphs we author ourselves, and therefore know completely.
 
 The graph builders under test are Cory Hall's [CASE/UCO SDK](https://github.com/vulnmaster/CASE-UCO-SDK); direct generation by the base model, Qwen3.5-9B; and [EDC](https://github.com/clear-nus/edc).
 
@@ -74,16 +80,47 @@ The account issuer (the issuer of this account) of 2622357143, an account (an ar
 
 ### Left hook and right hook
 
-The hook above puts definitions in the sentence NLI reads, which no passage contains, and cannot catch the right value under the wrong property, because that value is in the text. `hook.py --stage` splits it in two:
+`hook.py --stage` splits the hook in two, run in order:
 
-- **Left hook (fidelity).** Steps 2 to 4 on the plain sentence (`The account issuer of 2622357143 is Granite Federal Credit Union.`), with a mail header's lines read as one passage. An edge no passage supports is removed.
-- **Right hook (semantics)**, on the edges the left hook kept. Deterministic checks from the SDK's schema and registry: domain, range, datatype, cardinality, no self-loops; the ten relation kinds take domain and range from the task statement. Then contrast: the edge is removed if, on its passage, another reading the ontology allows for the same entities is entailed by more than a margin (`Granite Federal Credit Union owns 2622357143.` against the issuer edge), with the CASE/UCO definitions in the premise. Each check reports the edges it judged and those it could not.
+- **Left hook (fidelity)**: is the edge in the source? The edge's plain sentence (`The account issuer of 2622357143 is Granite Federal Credit Union.`) is checked against the passages, with a mail header read as one passage. An edge no passage supports is removed.
+- **Right hook (semantics)**: is it the right edge? On the edges the left hook kept:
+  - *Schema*: domain, range, datatype, cardinality and no self-loops, from the SDK's schema and registry.
+  - *Header rule*: a message's time, sender and recipients are read from its mail header. The `Date:` line is when it was sent.
+  - *Contrast*: the edge is removed if, on its passage, another reading the ontology allows for the same entities is entailed by more than a margin (`Granite Federal Credit Union owns 2622357143.` against the issuer edge).
 
-Conditions: each arm, `+left`, `+right` (the right hook alone, for ablation) and `+lr`. Six-condition results: pending the GPU run.
+**What it gives.** Every edge the hook keeps cites the passage, document and character offsets that support it, so what remains of the graph says only what a passage says and can be audited line by line. It decides only the edges a method wrote, and only by removing them: a fact the method missed stays missing, and a wrong edge is removed, not corrected.
+
+## The selector
+
+`harness/selector.py` works from the entities a finished graph names. The ontology lists what the graph could say about them; the source picks. It uses the hook's two models and no LLM.
+
+1. **Merge**: entities of one class with one key (a name, an address, an account number) become one entity.
+2. **Anchor**: each entity is placed in the passages that contain its key.
+3. **List readings**: for every pair of entities that share a passage or an edge, every relation kind and object property whose domain and range fit, in either direction.
+4. **Select**: each reading's plain sentence is scored by NLI on the passages the pair shares. A reading is kept when a passage entails it and no reading that cannot hold with it outranks it by more than the margin. Mail headers are read by rule: the `From:` and `To:` lines decide a message's sender, recipients and who corresponded.
+5. **Write**: a kept reading the method wrote stays; one that replaces a wrong edge is a repair; one no edge stated is a recovery. A property CASE/UCO allows once keeps a value only when it wins by more than the margin, otherwise none.
+
+The same sentence from case_18, and the readings the ontology allows for each pair it names (`selector.py`'s scores, entailment and log-odds):
+
+```
+Passage:  Account 2622357143 at Granite Federal Credit Union belongs to Summit Peak Packaging Inc.
+
+Granite Federal Credit Union, 2622357143
+  issued account   0.988  +4.37   kept: accountIssuer
+  owns             0.006  -5.20
+
+Summit Peak Packaging Inc., 2622357143
+  owns             0.997  +5.71   kept: Owns_Account
+  issued account   0.958  +3.13   outranked by 2.58, more than the margin (2.0)
+```
+
+A graph that wrote the credit union as the owner gets the issuer edge in its place; a graph that left the owner out gets it added. Every decision is a row in `sel.jsonl`, with the passage and the reason.
+
+**Hypothesis.** Letting the ontology list the readings and the source pick repairs wrong edges and recovers missed ones, so the graph answers more of the evidence's questions, at some cost in precision against the hook.
 
 ## Graph construction
 
-Every method gets the same task (the core classes; ten relation kinds), the same PDFs, and the same base model at temperature 0. A and B get the task as one statement (model only what the documents state); C gets it as EDC's target schema. The methods differ in how the graph is constructed. Each graph is scored with and without the hook: three arms by {baseline, +hook}, six conditions.
+Every method gets the same task (the core classes; ten relation kinds), the same PDFs, and the same base model at temperature 0. A and B get the task as one statement (model only what the documents state); C gets it as EDC's target schema. The methods differ in how the graph is constructed. Each graph is scored as built, after the hook (`+hook`, `+lr`) and after the selector (`+sel`).
 
 | arm | name | how the graph is constructed |
 |---|---|---|
@@ -139,11 +176,13 @@ flowchart LR
 
 **Grounding.** Separately, and without reference to gold, the scorer checks whether each assertion can be found in the source: a literal by its value in a sentence, a relation by its two endpoints in one sentence or one document. Every assertion falls into one cell of grounded by gold-supported. The grounded-but-unsupported cell holds the claims a method traced to the evidence and still modeled wrong.
 
+**Meaning.** Separately from edge counts, `harness/meaning.py` asks each graph the questions its gold graph answers. A question starts from an entity's key value, as a query by value would, and takes one or two steps: "Who owns account 2622357143?", "Which organization employs the sender of message M?" Its answer is a set. A question is answered exactly when every gold answer is found and nothing else. 2-hop questions pass through an intermediate entity, so a split, merged or misdirected entity breaks them.
+
 **Frozen protocol.** `harness/FROZEN.md` hashes the scorer, the generator, every gold graph and every pipeline. Scores are comparable only between runs under the same entry.
 
 **Splits.** `harness/data/` is the benchmark and is test only. `harness/data_dev/` (20 cases) is for prompt and pipeline tuning. Different seeds, no shared case.
 
-**Per-stage rows.** A snapshot a pipeline leaves (`graph_<stage>.jsonld`) is scored as `<arm>@<stage>`, hooked graphs as `<arm>+hook`.
+**Per-stage rows.** A snapshot a pipeline leaves (`graph_<stage>.jsonld`) is scored as `<arm>@<stage>`, hooked graphs as `<arm>+hook` and `<arm>+lr`, selected graphs as `<arm>+sel`.
 
 ```mermaid
 flowchart LR
@@ -152,12 +191,35 @@ flowchart LR
     DOCS --> A & B & C
     A & B & C --> GR[graph.jsonld per case]
     GR --> HK[hook.py<br/>keep supported edges]
-    DOCS --> HK
-    HK --> GH[graph.jsonld per case, +hook]
-    GR & GH --> SC[score.py<br/>align, class every error]
-    GOLD --> SC
+    GR --> SL[selector.py<br/>keep the readings<br/>the source selects]
+    DOCS --> HK & SL
+    HK --> GH[+hook, +lr]
+    SL --> GS[+sel]
+    GR & GH & GS --> SC[score.py<br/>align, class every error]
+    GR & GH & GS --> MN[meaning.py<br/>ask gold's questions]
+    GOLD --> SC & MN
     SC --> SUM[summary.md · per_case.csv]
+    MN --> MS[meaning.md]
 ```
+
+## Results
+
+The 100 test cases, A and B as built, after the hook (hook-v1) and after the selector, value scorer. Exact: the share of the gold graph's questions the graph answers completely and with nothing wrong. C's 100-case run and the left and right hooks on the test set are pending.
+
+| condition | precision | recall | 1-hop exact | 2-hop exact | valid |
+|---|---|---|---|---|---|
+| A, SDK as shipped | 0.506 | 0.184 | 0.150 | 0.088 | 35 |
+| A + hook | 0.547 | 0.153 | 0.116 | 0.055 | 39 |
+| A + selector | 0.581 | 0.163 | 0.127 | 0.066 | 42 |
+| B, direct | 0.595 | 0.476 | 0.498 | 0.394 | 91 |
+| B + hook | 0.632 | 0.432 | 0.448 | 0.297 | 93 |
+| B + selector | 0.648 | 0.437 | 0.449 | 0.303 | 93 |
+
+- **Both checks make what the graph says more trustworthy.** Precision rises on both arms, most under the selector, and more graphs validate. On dev graphs with planted errors, the share of right answers rises from 52% to 94% after the hook, and every kept edge cites its passage.
+- **Neither makes the graph mean more of what the evidence means.** Both answer fewer questions than the graph as built. The answers A and B give are mostly right already; most questions fail on answers the graph does not hold.
+- **The selector does not meet its success criteria.** It beats the hook on every measure above and stays below the graph as built on questions answered. On B, 10% of the missed gold facts are links between entities B wrote, the only kind the selector can add; the rest need literals or entities the method never wrote. On dev, where every entity is present, it raised questions answered exactly from 38% to 71% on graphs with planted errors.
+
+[EXPERIMENT.md](EXPERIMENT.md) has the dev results, the criteria written before the test run, and every disclosure.
 
 ## Run it
 
@@ -192,18 +254,28 @@ for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/hook.py --ru
 ```
 
 ```bash
+for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/selector.py --run-id RUN --arm $arm; done
+```
+
+```bash
 .venv/bin/python harness/score.py --run-id RUN
 ```
 
+```bash
+.venv/bin/python harness/meaning.py --run-id RUN
+```
+
 - `--cases case_01,case_02` runs a subset; `--data data_dev` runs on the dev set.
-- Results go to `harness/results/RUN/`; `summary.md` has the per-arm table. The hook writes `<arm>+hook/` next to each arm and downloads its two models on first use.
+- Results go to `harness/results/RUN/`; `summary.md` has the per-arm table and `meaning.md` the questions answered. The hook writes `<arm>+hook/` (or `+left`, `+right`, `+lr`) and the selector `<arm>+sel/` next to each arm; both download the same two models on first use.
 - `harness/generate_data.py --validate` regenerates the benchmark and its PDFs.
 - [harness/README.md](harness/README.md) documents every arm, the data, and the scorer in detail.
 
 ## What's next
 
 - Run C, then the left and right hooks on all three arms, on the 100 cases (pending the GPU run); A and B with hook-v1 are in `harness/results/hook-v1/`.
-- Passages that span an email header block, so header facts can be checked.
+- The selector on C's 100 graphs, and against `+lr` on A and B.
+- Entity repair: the selector fixes edges, not entities. A person written as an email address, or by first name alone, keeps the facts that land on it.
+- The issuer and the owner of an account: where one passage names both organizations, NLI reads both as the issuer often enough that the selector abstains.
 - An adversarial set: the same 100 cases with one injected attack per case (instruction, false fact, format, tool) and an "injected" error class in the scorer, to measure which method lets poisoned evidence into the graph and which leaves a trail to it.
 - Tests with fixtures and mocked model replies, starting with the one that matters: an edge the hook removes cannot reach the hooked graph.
 
@@ -212,6 +284,8 @@ for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/hook.py --ru
 The cases are synthetic. They test mechanics and known failure modes; they do not establish fidelity on real case documents, which needs independently reviewed source-to-claim annotations. One base model so far.
 
 The hook checks that a passage supports an edge, not that the edge is true: a false statement physically in a document passes, though every kept edge cites the passage that supports it. Support is also weaker than role: in hook-v1 the hook kept all 16 issuer edges from A and B that named the account's owner, because the passage names both organizations. And it reads one sentence at a time, so a true fact spread over lines, as in an email header, is removed.
+
+The selector shares the hook's NLI model and its limits, and adds its own. It adds no entity, so it cannot recover a fact about an entity the method left out or wrote wrong. Facts set by convention, as in an email header, are read by rules written for mail headers. Its design was changed on the dev set after reading dev output (EXPERIMENT.md lists each change); the test set was run once, under a frozen entry.
 
 ## History
 
