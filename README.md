@@ -46,13 +46,31 @@ It is the same for every method and uses no LLM; its two models are pinned.
 4. Policy: the edge stays if any passage supports it, citing that passage and its location;
    otherwise it is removed.
 
-A rendered edge:
+One sentence of evidence, from an incident summary (benchmark case_18, document D2):
+
+> Account 2622357143 at Granite Federal Credit Union belongs to Summit Peak Packaging Inc.
+
+states four edges of the gold graph:
+
+```mermaid
+flowchart LR
+    O[Summit Peak Packaging Inc.<br/>Organization] -->|Owns_Account| A[2622357143<br/>Account]
+    A -->|accountIssuer| B[Granite Federal Credit Union<br/>Organization]
+    A -.->|accountIdentifier| I["2622357143"]
+    A -.->|accountType| T["bank account"]
+```
+
+The hook checks each edge as one sentence. The issuer edge reads:
 
 ```
-Luca Petrov, a person (a grouping of identifying characteristics unique to a human being regarded
-as an individual), is employed by Oakhaven Services LLC, an organization (a grouping of identifying
-characteristics unique to a group of people who work together in an organized way for a shared purpose).
+The account issuer (the issuer of this account) of 2622357143, an account (an arrangement with an
+entity to enable and control the provision of some capability or service), is Granite Federal Credit
+Union, an organization (a grouping of identifying characteristics unique to a group of people who
+work together in an organized way for a shared purpose).
 ```
+
+The definition says which sense of "account" is meant: a bank account here, not a login. The
+evidence names two organizations, and only one is the issuer.
 
 ```mermaid
 flowchart LR
