@@ -39,11 +39,18 @@ An <arm>+hook folder holds <arm>'s graphs after the verification hook (hook.py);
 like any arm, plus the hook's own columns: edges removed that gold supports, the
 share of unsupported edges removed, and whether each kept true edge cites the
 sentence gold states it in.
+<arm>+left, <arm>+right and <arm>+lr hold the left hook, the right hook on every edge, and the right hook on
+the edges the left hook kept (hook.py --stage). Each is scored like any arm, plus the hook columns above and,
+per stage, the edges removed (true, and unsupported by error class) and each right check's coverage (edges
+it passed, failed and skipped).
 An arm whose cases carry adapter_edges.json (c_edc) is also scored as
 <arm>@no_adapter: the same graph and alignment, with the edges its adapter wrote
 itself (key literals taken from entity strings) left out of every count.
 
-    python harness/score.py --run-id RUN
+Each summary row has a 95% interval for micro precision and recall from a bootstrap over cases (BOOTSTRAP
+resamples, seed 0).
+
+    python harness/score.py --run-id RUN [--data data_dev]
     python harness/score.py --self-test     # gold scored against itself
 """
 
@@ -60,7 +67,7 @@ from pathlib import Path
 import numpy as np
 from scipy.optimize import linear_sum_assignment
 
-from graphkit import HARNESS, VERDICTS, graph_triples, iso_time, sentences_of
+from graphkit import HARNESS, VERDICTS, graph_triples, iso_time, pdf_text, sentences_of
 
 SCORERS = ("strict", "value")
 STAGE_ORDER = ["raw", "pass1", "first_validate", "validated", "pass2", "pass3", "pass4", "compiled"]
@@ -81,6 +88,9 @@ ANCHOR_PROPS = {"name", "addressValue", "accountIdentifier", "street"}
 ABBREV = {"st": "street", "ave": "avenue", "rd": "road", "dr": "drive", "blvd": "boulevard", "pkwy": "parkway"}
 HONORIFICS = {"mr", "mrs", "ms", "dr", "mx"}
 THRESHOLD = 0.85
+HOOKED = re.compile(r"\+(?:hook|left|right|lr)")  # <arm>+hook*, <arm>+left, <arm>+right, <arm>+lr
+CHECKS = ("domain", "range", "datatype", "cardinality", "self_loop", "contrast")  # hook.CHECKS
+BOOTSTRAP = 2000
 
 
 def norm_text(v: str) -> str:
@@ -521,6 +531,9 @@ def classify(gold, s, p, o, t, merged, linked, scorer: str = "strict") -> str:
 
 
 HOOK_COUNTS = ["edges", *VERDICTS, "removed", "true", "removed_true", "kept_true", "cited_correct"]
+STAGE_COUNTS = ["removed_left", "removed_right", "removed_true_left", "removed_true_right",
+                *[f"removed_{s}_{c}" for s in ("left", "right") for c in CLASSES],
+                *[f"check_{c}_{r}" for c in CHECKS for r in ("pass", "fail", "skip")]]
 
 
 def hook_stats(case_dir: Path, base_graph: Path, rows: list[dict], scorer: str) -> dict:
@@ -528,6 +541,7 @@ def hook_stats(case_dir: Path, base_graph: Path, rows: list[dict], scorer: str) 
     matches it to a gold triple; a kept true edge cites correctly when its passage is the gold triple's sentence."""
     base = score_case(case_dir, base_graph, scorer=scorer) if rows else {}
     tid_of = {(s, p, o): tid for s, p, o, tid in base.get("matched", [])}
+    class_of = {(u["s"], u["p"], u["o"]): u["class"] for u in base.get("unsupported", [])}
     spans = json.loads((case_dir / "spans.json").read_text())
     span_of = {t["tid"]: spans[t["span_id"]] for t in json.loads((case_dir / "gold.json").read_text())["triples"]}
     true = [(r, tid_of[(r["s"], r["p"], r["o"])]) for r in rows if (r["s"], r["p"], r["o"]) in tid_of]
@@ -537,9 +551,21 @@ def hook_stats(case_dir: Path, base_graph: Path, rows: list[dict], scorer: str) 
     def cites(passage: dict, span: dict) -> bool:
         a, b = norm_text(passage["text"]), norm_text(span["text"])
         return passage["doc"] == span["doc_id"] and (a in b or b in a)
-    return {"edges": len(rows), **{v: verdicts.get(v, 0) for v in VERDICTS}, "removed": sum(not r["kept"] for r in rows),
-            "true": len(true), "removed_true": len(true) - len(kept_true), "kept_true": len(kept_true),
-            "cited_correct": sum(cites(r["cited"], span_of[tid]) for r, tid in kept_true)}
+    out = {"edges": len(rows), **{v: verdicts.get(v, 0) for v in VERDICTS}, "removed": sum(not r["kept"] for r in rows),
+           "true": len(true), "removed_true": len(true) - len(kept_true), "kept_true": len(kept_true),
+           "cited_correct": sum(bool(r["cited"]) and cites(r["cited"], span_of[tid]) for r, tid in kept_true)}
+    if rows and "removed_by" in rows[0]:  # hook.py --stage: who removed each edge, and the right checks' coverage
+        stage = Counter()
+        for r in rows:
+            key, by = (r["s"], r["p"], r["o"]), r["removed_by"]
+            if by:
+                stage[f"removed_{by}"] += 1
+                stage[f"removed_true_{by}"] += key in tid_of
+                stage[f"removed_{by}_{class_of.get(key)}"] += key in class_of
+            for c, v in (r.get("right") or {}).items():
+                stage[f"check_{c}_{v['result']}"] += 1
+        out.update({k: stage.get(k, 0) for k in STAGE_COUNTS})
+    return out
 
 
 def hook_summary(rows: list[dict]) -> dict:
@@ -548,7 +574,9 @@ def hook_summary(rows: list[dict]) -> dict:
     c = Counter()
     for h in hs:
         c.update(h)
+    staged = [h for h in hs if "removed_left" in h]
     return {**{f"hook_{k}": c[k] if hs else None for k in HOOK_COUNTS},
+            **{f"hook_{k}": c[k] if staged else None for k in STAGE_COUNTS},
             "hook_removed_true_rate": round(c["removed_true"] / c["true"], 4) if c["true"] else None,
             "hook_removed_false_rate": round((c["removed"] - c["removed_true"]) / (c["edges"] - c["true"]), 4)
             if c["edges"] > c["true"] else None,
@@ -576,6 +604,7 @@ def summarize(arm: str, scorer: str, rows: list[dict]) -> dict:
         "precision_macro": mean(r["precision"] for r in rows if r not in failed),
         "recall_macro": mean(r["recall"] for r in rows),
         "precision_micro": round(sup / emi, 4) if emi else None, "recall_micro": round(sup / gold, 4),
+        **bootstrap(rows),
         **{f"unsupported_{c}": by_class.get(c, 0) for c in CLASSES},
         "gold_aligned_rate": mean(r.get("alignment", {}).get("gold_aligned_rate", 0) for r in rows),
         "emitted_aligned_rate": mean(r.get("alignment", {}).get("emitted_aligned_rate") for r in rows),
@@ -587,6 +616,18 @@ def summarize(arm: str, scorer: str, rows: list[dict]) -> dict:
         "wall_s_mean": mean(r.get("wall_s") for r in rows),
         "failed_cases": " ".join(r["case_id"] for r in failed),
     }
+
+
+def bootstrap(rows: list[dict]) -> dict:
+    """95% intervals for micro precision and recall, resampling cases with replacement (seed 0)."""
+    x = np.array([[r["supported"], r["emitted_triples"], r["gold_triples"]] for r in rows], dtype=float)
+    idx = np.random.default_rng(0).integers(0, len(rows), size=(BOOTSTRAP, len(rows)))
+    s, e, g = (x[idx, k].sum(axis=1) for k in range(3))
+    p = s[e > 0] / e[e > 0]
+    return {"precision_micro_lo": round(float(np.percentile(p, 2.5)), 4) if len(p) else None,
+            "precision_micro_hi": round(float(np.percentile(p, 97.5)), 4) if len(p) else None,
+            "recall_micro_lo": round(float(np.percentile(s / g, 2.5)), 4),
+            "recall_micro_hi": round(float(np.percentile(s / g, 97.5)), 4)}
 
 
 def grounding_summary(rows: list[dict]) -> dict:
@@ -648,6 +689,27 @@ def markdown(summaries: list[dict], stage_counts: dict[str, Counter]) -> str:
                   "cited_correct: kept true edges whose cited passage is the sentence gold states them in.\n"]
         lines += table(["arm", "scorer"] + [c.removeprefix("hook_") for c in hcols],
                        [[s["arm"], s["scorer"]] + [s[c] for c in hcols] for s in hooked])
+    lines += ["\n## Bootstrap 95% intervals\n",
+              f"Micro precision and recall, {BOOTSTRAP} resamples of the cases (seed 0).\n"]
+    lines += table(["arm", "scorer", "precision_micro", "P 95% CI", "recall_micro", "R 95% CI"],
+                   [[s["arm"], s["scorer"], s["precision_micro"], f"{s['precision_micro_lo']}-{s['precision_micro_hi']}",
+                     s["recall_micro"], f"{s['recall_micro_lo']}-{s['recall_micro_hi']}"] for s in summaries])
+    staged = [s for s in summaries if s["hook_removed_left"] is not None]
+    if staged:
+        lines += ["\n## Left and right hooks\n",
+                  "Edges each stage removed: all, those gold supports (true), and the unsupported ones by error class. "
+                  "+right runs the right hook on every edge; +lr on the edges the left hook kept.\n"]
+        lines += table(["arm", "scorer", "stage", "removed", "true", *CLASSES],
+                       [[s["arm"], s["scorer"], st, s[f"hook_removed_{st}"], s[f"hook_removed_true_{st}"],
+                         *[s[f"hook_removed_{st}_{c}"] for c in CLASSES]]
+                        for s in staged for st in ("left", "right") if s[f"hook_removed_{st}"] or st == "left"])
+        lines += ["\n## Right hook checks\n",
+                  "Per check, the edges it judged (passed / failed) and skipped (could not judge: a property declared "
+                  "on UcoObject, a range of UcoObject, an xsd:string, a kind outside the ten, no competing reading).\n"]
+        lines += table(["arm", "scorer", *CHECKS],
+                       [[s["arm"], s["scorer"], *[f"{s[f'hook_check_{c}_pass']}/{s[f'hook_check_{c}_fail']} judged, "
+                                                  f"{s[f'hook_check_{c}_skip']} skipped" for c in CHECKS]]
+                        for s in staged if s["arm"].endswith(("+right", "+lr"))])
     stages = sorted({k for c in stage_counts.values() for k in c})
     lines += ["\n## Unsupported triples by first stage\n"]
     lines += table(["arm", "scorer"] + stages, [[arm, sc] + [c.get(k, 0) for k in stages] for (arm, sc), c in stage_counts.items()])
@@ -673,7 +735,7 @@ def variants(arm: str, run_dir: Path) -> list[tuple[str, str, str, str | None]]:
         (arm, "graph.jsonld", "score.json", None)]
 
 
-def score_run(run_id: str) -> None:
+def score_run(run_id: str, data: str = "data") -> None:
     run_root = HARNESS / "results" / run_id
     groups: dict[tuple[str, str], list[dict]] = {}
     for arm_dir in sorted(p for p in run_root.iterdir() if p.is_dir()):
@@ -681,9 +743,9 @@ def score_run(run_id: str) -> None:
             if not (run_dir / "run.json").exists():  # a case still being run
                 continue
             meta = json.loads((run_dir / "run.json").read_text())
-            data_dir = HARNESS / "data" / run_dir.name
+            data_dir = HARNESS / data / run_dir.name
             hook_rows = None
-            base_arm = arm_dir.name.split("+hook")[0]  # <arm>+hook, <arm>+hook_labels, <arm>+hook_plain
+            base_arm = HOOKED.split(arm_dir.name)[0]  # <arm>+hook, +hook_labels, +hook_plain, +left, +right, +lr
             if base_arm != arm_dir.name:
                 path = run_dir / "hook.jsonl"
                 hook_rows = [json.loads(line) for line in path.read_text().splitlines()] if path.exists() else []
@@ -728,7 +790,8 @@ def score_run(run_id: str) -> None:
                    "grounded_rate": (r.get("grounding") or {}).get("grounded_rate"),
                    **{c: (r.get("grounding") or {}).get("cells", {}).get(c) for c in GROUND_CELLS},
                    "pdf_disagreements": (r.get("grounding") or {}).get("pdf_disagreements"),
-                   **{f"hook_{k}": (r.get("hook") or {}).get(k) for k in ("removed", "removed_true", "kept_true", "cited_correct")}}
+                   **{f"hook_{k}": (r.get("hook") or {}).get(k) for k in ("removed", "removed_true", "kept_true", "cited_correct",
+                                                                          "removed_left", "removed_right")}}
                 for rows in groups.values() for r in rows]
     for name, rows in (("summary.csv", summaries), ("per_case.csv", per_case)):
         with open(run_root / name, "w", newline="") as fh:
@@ -741,6 +804,8 @@ def score_run(run_id: str) -> None:
 
 def self_test() -> None:
     cases = sorted(p for p in (HARNESS / "data").iterdir() if p.is_dir())
+    for pdf in sorted(f for c in cases for f in (c / "docs").glob("D*.pdf")):  # the PDF text caches a fresh clone lacks
+        pdf_text(pdf)
     for scorer in SCORERS:
         for case_dir in cases:
             r = score_case(case_dir, case_dir / "gold.jsonld", scorer=scorer)
@@ -783,12 +848,13 @@ def self_test() -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id")
+    ap.add_argument("--data", default="data", help="the case folder the run read (data_dev for dev runs)")
     ap.add_argument("--self-test", action="store_true")
     args = ap.parse_args()
     if args.self_test:
         self_test()
     else:
-        score_run(args.run_id)
+        score_run(args.run_id, args.data)
 
 
 if __name__ == "__main__":

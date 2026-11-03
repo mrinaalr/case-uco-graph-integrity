@@ -356,6 +356,17 @@ def sentences_of(text: str) -> list[str]:
     return [x.strip() for b in blocks for x in re.split(r"(?<=[.!?])\s+(?=[A-Z\"'(\[@#])", b) if x.strip()]
 
 
+def pdf_text(path: Path) -> str:
+    """Text of a PDF as pypdf extracts it, cached next to the file as <name>.pdf.txt."""
+    cache = path.with_suffix(".pdf.txt")
+    if cache.exists() and cache.stat().st_mtime >= path.stat().st_mtime:
+        return cache.read_text(encoding="utf-8")
+    from pypdf import PdfReader
+    text = "\n".join((page.extract_text() or "") for page in PdfReader(str(path)).pages)
+    cache.write_text(text, encoding="utf-8")
+    return text
+
+
 def case_validate(path: Path, timeout: int = 600) -> dict:
     """Run case_validate (sh:Info results allowed); returns {"conforms": bool|None, "report": str}."""
     exe = REPO / ".venv" / "bin" / "case_validate"

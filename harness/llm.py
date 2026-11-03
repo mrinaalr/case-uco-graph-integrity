@@ -18,7 +18,7 @@ from mcp.client.stdio import stdio_client
 from openai import AsyncOpenAI
 
 from case_uco.graph import DEFAULT_CONTEXT
-from graphkit import HARNESS, REPO, RELATION_KINDS, SCHEMA, case_validate, class_list, sentences_of
+from graphkit import HARNESS, REPO, RELATION_KINDS, SCHEMA, case_validate, class_list, pdf_text, sentences_of
 
 CONFIG = HARNESS / "config.toml"
 SDK = REPO / "sdk"  # the SDK under test, a submodule pinned to a release tag
@@ -72,17 +72,6 @@ def case_dirs(selection: str | None, data: str = "data") -> list[Path]:
 
 
 DATA_SOURCE = "pdf"  # set from [data] source in config.toml by load_config
-
-
-def pdf_text(path: Path) -> str:
-    """Text of a PDF as pypdf extracts it, cached next to the file as <name>.pdf.txt."""
-    cache = path.with_suffix(".pdf.txt")
-    if cache.exists() and cache.stat().st_mtime >= path.stat().st_mtime:
-        return cache.read_text(encoding="utf-8")
-    from pypdf import PdfReader
-    text = "\n".join((page.extract_text() or "") for page in PdfReader(str(path)).pages)
-    cache.write_text(text, encoding="utf-8")
-    return text
 
 
 def doc_ids(case_dir: Path) -> dict[str, str]:

@@ -90,6 +90,36 @@ organization.`); `plain` keeps no ontology term (`Oscar Banerjee is employed by 
 Group.`). Scored as `<arm>+hook_labels` and `<arm>+hook_plain`. If the definitions do work, the full
 template removes more unsupported edges than `labels` and `plain` at no greater cost in true edges.
 
+## Left hook and right hook
+
+Written 2026-11-03, before any run of the two stages. The hook above (hook-v1) put the definitions in
+the NLI hypothesis, which no passage contains, and cannot catch the right value under the wrong
+property, since that value is in the text. It is split in two, applied in order:
+
+- *Left hook (fidelity).* Steps 2 to 4 on the plain rendering (no class or property definitions),
+  with mail-header runs as one passage and retrieval by the plain rendering. Per edge: supported,
+  contradicted or not enough evidence, and the cited passage and its location. Unsupported edges
+  are removed.
+- *Right hook (semantics)*, on the edges the left hook kept. Deterministic checks from the SDK's
+  schema and registry (domain, range, datatype, cardinality; the ten relation kinds' domain and
+  range from the task statement, since CASE/UCO does not define them; no self-loops), each
+  reporting the edges it judged and skipped. Then contrast: the edge must not be outranked on its
+  supporting passage by another reading the ontology allows for the same entities, with the
+  definitions of the readings in the premise, never in the hypothesis. The margin is tuned on
+  `data_dev` only.
+
+Conditions: each arm as built, `+left`, `+right` (on every edge, for ablation) and `+lr`.
+
+Hypothesis: the two stages together remove unsupported and mis-modeled edges from any method's
+graph at a small cost in true edges, and the right hook adds a gain the left hook alone does not.
+
+Success criteria:
+
+- The right hook removes wrong-property (`misplaced_property`) and wrong-relation edges the left
+  hook keeps.
+- Little or no added cost in true edges, and no drop in citation accuracy.
+- Left+right beats left alone on value precision for every arm.
+
 ## Related work
 
 - [SPIRES](https://doi.org/10.1093/bioinformatics/btae104) (Caufield et al., 2024) has an LLM fill
@@ -200,3 +230,31 @@ definitions, 82.9% (A) and 77.9% (B) of kept true edges cite the gold sentence, 
 
 On this benchmark, this NLI model and this embedder, the effect comes from checking each edge
 backward against the source, not from the CASE/UCO definitions in the sentence.
+
+### Left and right hooks
+
+Six conditions on the 100 cases: pending the GPU run.
+
+Dev, under Freeze 9 (contrast margin 2.0 in log-odds, chosen on dev case_01 to case_10): the 20 dev gold
+graphs, `hook_dev_check.py`'s corrupted copies with planted wrong-property and wrong-relation edges, and C's
+graphs on 5 dev cases. Value scorer; intervals are the bootstrap 95% over cases. Each cell is `+left` / `+lr`.
+
+| sample | P value | R value | true edges removed by the right hook | planted wrong property kept | planted wrong relation kept | kept true citing gold | valid |
+|---|---|---|---|---|---|---|---|
+| dev gold | 0.987 / 0.985 | 0.924 / 0.913 | 14 of 1,459 | | | 86.4% / 86.2% | 20 / 20 |
+| dev corrupted | 0.822 (0.807-0.838) / 0.928 (0.914-0.943) | 0.621 / 0.611 | 14 of 981 | 59 / 20 of 80 | 94 / 10 of 202 | 80.0% / 79.8% | 0 / 15 |
+| C, 5 dev cases | 0.651 (0.532-0.776) / 0.670 (0.552-0.800) | 0.186 / 0.170 | 2 of 62 | | | 65.8% / 64.9% | 1 / 5 |
+
+The left hook keeps 93.6% of the true dev gold edges. An entity with no literal of its own (a gold email
+account) is named by the address it links to; named by its IRI, the left hook kept 83.4%. The account's
+`emailAddress` edge then reads close to a tautology and is checked only weakly.
+
+The right hook removes most of the planted edges the left hook keeps: every accountIdentifier written as a name,
+street written as locality, Employed_By and Located_At reversed; 19 of 20 Initiated written as Authorized; 17 of
+20 owners written as issuers; 15 of 21 swapped senders and recipients. It removes none of the 20 sentTimes
+written as receivedTime: the NLI model does not separate the two on a `Date:` line. On C it removes malformed
+times (`13:10:00` as a dateTime), a person typed against Employed_By's domain and an inverted Holds_Account, and
+two true address parts that contrast reads as the locality; one of those is a Location's street, its alignment
+key, so the scorer loses its other edges too, which is most of C's drop in recall. Of 2,575 edges the right hook
+keeps, 1 cites a different passage than the left hook; the small drops in citation accuracy come from which true
+edges it removes.

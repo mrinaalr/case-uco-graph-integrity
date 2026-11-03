@@ -32,6 +32,16 @@ design is in [../EXPERIMENT.md](../EXPERIMENT.md).
   triple, sentence, passages with location and verdict, verdict, cited passage) and `run.json`.
   Models in `[hook]`. `--template labels|plain` writes the ablation (definitions dropped; every
   ontology term dropped) to `<arm>+hook_labels` and `<arm>+hook_plain`.
+- **Left and right hooks** (`hook.py --arm <arm> --stage left,right,both`): one model load, three
+  outputs. `left` (`<arm>+left`) verifies the plain rendering, with `--passages block` and
+  `--query plain` by default; `right` (`<arm>+right`) runs the right hook's checks (domain, range,
+  datatype, cardinality, self-loop, contrast) on every edge; `both` (`<arm>+lr`) runs them on the
+  edges `left` kept. `hook.jsonl` rows add `left` (kept, cited), `right` (each check's result and
+  reason; null where it did not run), `contrast` (competitors and their entailment) and
+  `removed_by`. The contrast margin is `contrast_margin` in `[hook]`. Without `--stage`, the hook
+  above, unchanged. `--resume` skips finished cases, `--batch 8` halves the NLI batch,
+  `HOOK_DEVICE` picks the device (default cuda, then mps, then cpu); a case that fails on the GPU
+  is retried on the CPU and `run.json` records `hook_fallback`.
 
 Earlier arms, still runnable:
 
@@ -104,7 +114,8 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
 - `score.py --self-test` scores each gold graph against itself and expects
   precision and recall of 1.0, every gold assertion grounded in its own
   documents under both the clean and the PDF-extracted text, and a set of
-  fabricated values not grounded.
+  fabricated values not grounded. It first writes the PDF text caches a fresh
+  clone lacks, and needs no MCP install.
 
 ## Scoring
 
@@ -151,7 +162,14 @@ CRITIC_POLICY=disabled .venv/bin/python harness/pipeline_critic.py --run-id base
   hook removed that gold supports in the graph it read (`hook_removed_true`),
   the share of the other edges removed (`hook_removed_false_rate`), and the
   kept true edges whose cited passage holds the gold triple's sentence from
-  `spans.json` (`hook_cited_correct`).
+  `spans.json` (`hook_cited_correct`). `<arm>+left`, `+right` and `+lr` add, per stage, the
+  edges removed, the true ones among them, the unsupported ones by error class, and each right
+  check's coverage (passed, failed, skipped).
+- **Intervals:** each summary row has a 95% bootstrap interval over cases for micro precision and
+  recall (`precision_micro_lo`/`_hi`, `recall_micro_lo`/`_hi`).
+- **Dev runs:** `score.py --run-id RUN --data data_dev`. `hook_dev_check.py --run-id RUN --stages`
+  checks the stages on dev gold and corrupted dev graphs with planted wrong-property and
+  wrong-relation edges; `test_hook_stages.py` is the gate (see its docstring).
 - **Adapter edges:** for an arm whose cases have `adapter_edges.json` (C),
   `<arm>@no_adapter` scores the same graph and alignment with those edges left
   out of every count.
