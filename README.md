@@ -8,7 +8,7 @@
 <p align="center">
   <a href="#the-problem">Problem</a> ·
   <a href="#the-hook">Hook</a> ·
-  <a href="#the-methods">Methods</a> ·
+  <a href="#graph-construction">Graph construction</a> ·
   <a href="#how-we-benchmark">Benchmark</a> ·
   <a href="#run-it">Run it</a> ·
   <a href="#whats-next">What's next</a>
@@ -81,7 +81,7 @@ The hook above puts definitions in the sentence NLI reads, which no passage cont
 
 Conditions: each arm, `+left`, `+right` (the right hook alone, for ablation) and `+lr`. Six-condition results: pending the GPU run.
 
-## The methods
+## Graph construction
 
 Every method gets the same task (the core classes; ten relation kinds), the same PDFs, and the same base model at temperature 0. A and B get the task as one statement (model only what the documents state); C gets it as EDC's target schema. The methods differ in how the graph is constructed. Each graph is scored with and without the hook: three arms by {baseline, +hook}, six conditions.
 
