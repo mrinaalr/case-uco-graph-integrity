@@ -58,6 +58,10 @@ nli_revision = "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7"
 top_k = 3                    # source passages retrieved per edge
 contrast_margin = 2.0        # right hook: a competitor outranks an edge when its entailment log-odds exceed the edge's by more than this; tuned on data_dev case_01-10
 
+[selector]
+# The ontology selector (selector.py); it reads [hook] for its models and contrast margin.
+add_threshold = 0.9          # entailment a reading no edge states needs to be added; tuned on data_dev
+
 [critic]
 # Arm A1+QA (pipeline_critic.py). policy "disabled" runs the server's deterministic checks only;
 # "manual" also has the same LLM act as the critic from the server's prompt package.

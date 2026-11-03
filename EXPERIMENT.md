@@ -1,6 +1,6 @@
 # Evidence-Grounded Graph Construction: Evaluating the Semantic Fidelity of Machine-Constructed CASE/UCO Graphs
 
-Written 2026-10-27, revised 2026-11-02 for the hook design. Supersedes the arm layout in DIRECTION.md; the critic-loop findings there stand.
+Written 2026-10-27, revised 2026-11-02 for the hook design and 2026-11-03 for the meaning measure and the selector. Supersedes the arm layout in DIRECTION.md; the critic-loop findings there stand.
 
 ## The problem
 
@@ -120,6 +120,89 @@ Success criteria:
 - Little or no added cost in true edges, and no drop in citation accuracy.
 - Left+right beats left alone on value precision for every arm.
 
+## Rendering fixes
+
+Written 2026-11-03, after the rendering audit (Results, "Rendering audit") and before any run of the fixes. The
+audit found readings the plain rendering does not keep apart. Three fixes to the right hook, each run on `data_dev`
+on its own, in this order, then the templates are frozen:
+
+- *Header rule.* A message's mail-header block decides its edges by rule, not NLI: the `Date:` line is the time it
+  was sent (RFC 5322's origination date), so a sentTime must equal it and a receivedTime that equals it fails;
+  a sender must be on the `From:` line and a recipient on the `To:` line. Edges with no header block for their
+  message are skipped and left to contrast. The rule's verdict and the line it read are recorded per edge.
+- *Issuer template.* accountIssuer renders as an event ("⟨issuer⟩ issued account ⟨N⟩") instead of "The account
+  issuer of N is ⟨issuer⟩".
+- *Entailed competitors.* Contrast compares only readings that cannot both be true. A competitor the edge entails
+  (Initiated and Authorized each entail Participated_In) is not one.
+
+Success criteria:
+
+- Header rule: the right hook removes all 20 planted receivedTimes the left hook keeps on the corrupted dev graphs,
+  and removes no more true dev gold edges than under Freeze 9 (14).
+- Issuer template, kept only if all hold: in the audit, more accountIssuer edges outrank Owns_Account and the
+  median margin does not fall; Owns_Account against accountIssuer does not get worse; the left hook keeps at least
+  as many true dev gold accountIssuer edges.
+- Entailed competitors: no planted edge `+lr` removed before is kept after, and no more true dev gold edges are
+  removed.
+
+## Meaning
+
+Written 2026-11-03, after the rendering fixes and before the selector. Precision and recall count edges; the
+research question is whether the graph, read under CASE/UCO, means what the evidence means: it says nothing the
+evidence does not (soundness) and says what the evidence states (completeness). `meaning.py` measures that with
+competency questions, generated from each gold graph and asked of the gold graph and of the graph under test alike.
+
+- A question starts from an entity's key value (a person's name, an address, an account number, a message's
+  subject, an event's type), as a query by value would, and follows one or two steps out of or into the entity.
+  Its answer is a set of literal values or entities, an entity named by its key.
+- 1-hop: one fact. "Who owns account 2622357143?", "When was 'Quarter-end vendor payments' sent?"
+- 2-hop: two steps through an intermediate entity. "Which organization employs the sender of message M?" A split,
+  merged or misdirected entity breaks the path.
+- Each side starts from every entity of a compatible class whose literals hold the value, and answers match under
+  the value scorer's rules. Owns_Account and AccountFacet.owner are one fact; Communicated_With is symmetric.
+- Per question: answer recall, answer precision, and exact (every gold answer found, nothing else). Micro over
+  questions. A gold graph scored against itself is exact on every question.
+
+## Ontology selector
+
+Written 2026-11-03, after the first meaning scores (Results, "Meaning") and before any test run of the selector.
+The hook decides only the edges a method wrote, and only by keeping or removing them. `selector.py` decides every
+reading the task's ontology allows for the entities a graph names: the ontology lists the readings, the source picks.
+
+1. *Identity.* Entities of one class with one key are merged.
+2. *Anchoring.* Each entity is placed in the passages that contain its key (no times). Mail-header runs are one
+   passage.
+3. *Readings.* For each pair of entities that share a passage or an edge, the relation kinds and object properties
+   whose domain and range fit, either direction (the right hook's readings).
+4. *Selection.* Each reading's plain sentence is scored by NLI on the pair's shared prose passages and the passages
+   its edges retrieve, with the definitions of the properties in play in the premise. A reading is selected when NLI
+   labels it entailment on some passage and no reading that cannot hold with it outranks it by more than the
+   contrast margin. Mail headers are read by rule: the right hook's header rule for a message's sender and
+   recipients, and Communicated_With between two people when a message goes from one's address to the other's.
+   A selected reading no edge states is added (recovery); one that replaces a stated edge is a repair. A reading
+   the method did not state needs entailment of at least `add_threshold` (0.9) on a passage both entities share.
+5. *Literals.* A value must occur in a passage that names its subject, else be supported by the left hook. A
+   date-time in a form xsd:dateTime rejects is rewritten in ISO form when it parses; a receivedTime that is the
+   Date: line becomes the sentTime; a literal whose property loses contrast moves to the winning property.
+6. *Cardinality.* A property CASE/UCO allows once keeps one value only when its score leads the next by more than
+   the contrast margin; otherwise none, recorded as an abstention. Spellings of one value keep the one the source
+   uses.
+
+The selector adds no entity, and no literal beyond a message's header facts. Its rows record each reading decided,
+by NLI or by rule, with its passage, and each edge removed or added with the reason.
+
+Dev arms (`selector_dev.py`, `data_dev`): the 20 gold graphs, their corrupted copies (`hook_dev_check.py`), the gold
+graphs with 30% of their object edges removed (`dropped`, seed 0: a method that missed them), and C's graphs on 5
+dev cases. Changes made on dev, in order, each after reading dev output: literals anchored beside their subject
+(rotated startTimes were kept because the value occurs elsewhere); a reading another selected reading entails is
+dropped; header passages read by rule, not NLI (NLI read two recipients of one message as having communicated);
+the issuer said as an event; single-valued properties decided by contrast advantage (merges left two names, which
+failed SHACL).
+
+Success criteria for the one test run, on A and B, written before it: the selector's graphs answer more 1-hop and
+more 2-hop questions exactly than both the method's graph and the method's graph after the hook (hook-v1), and their
+value precision is no more than 5 points below the method's graph.
+
 ## Related work
 
 - [SPIRES](https://doi.org/10.1093/bioinformatics/btae104) (Caufield et al., 2024) has an LLM fill
@@ -135,6 +218,26 @@ Success criteria:
   ontology-driven graph generation from text against gold facts, with measures of ontology
   conformance and hallucination; this benchmark does the same for CASE/UCO, with each gold
   statement tied to the sentence that states it.
+- [PERSEUS](https://ceur-ws.org/Vol-4246/llms4kgoe-5.pdf) validates each LLM-extracted triple by
+  NLI entailment against retrieved source evidence, as the left hook does, on open-schema triples.
+- [Sainz et al., 2021](https://aclanthology.org/2021.emnlp-main.92) extract relations by scoring
+  a verbalization of each candidate relation with an entailment model; the selector's selection
+  step does the same over the readings CASE/UCO allows, on a finished graph.
+- [OAK+MEND](https://arxiv.org/abs/2605.29168) (2026) corrects a finished graph after extraction:
+  it detects ontology violations (type, domain, range) and has an LLM pick a fix. It targets
+  consistency with the ontology; the selector also replaces edges that are consistent but not what
+  the source says (an owner written as an issuer).
+- [KGCQual](https://arxiv.org/abs/2607.10212) (2026) scores whether extracted triples preserve
+  the semantics of their source sentence; [BIGS](https://semantic-web-journal.net/content/evaluating-knowledge-graph-construction-text-without-supervision)
+  (under review) compares verbalized triples with the source in both directions; [Mousavi et
+  al., 2024](https://aclanthology.org/2024.lrec-main.335) use regeneration between graph and text
+  as a proxy for their equivalence. All work on open-schema triples; the meaning measure here asks
+  questions of a graph under a formal ontology, against gold.
+- [Dušek and Kasner, 2020](https://aclanthology.org/2020.inlg-1.19) check data-to-text output
+  with NLI in both directions, for hallucinations and omissions; QAGS ([Wang et al.,
+  2020](https://aclanthology.org/2020.acl-main.450)) scores a summary's faithfulness by asking the
+  same questions of it and of its source. The meaning measure applies the question approach to a
+  graph.
 
 ## Disclosures
 
@@ -170,6 +273,22 @@ Success criteria:
 - A and B are not rerun: their abc-v1 outputs (Freeze 5) are scored here. The pipelines are
   byte-identical, the prompt and document text are the same, and every run used SDK v1.33.0 and
   Qwen/Qwen3.5-9B. C runs fresh.
+- The selector's test run was restarted once. The first start, under an earlier version, was
+  stopped to fix single-valued properties that failed SHACL (two names after a merge, a repair onto
+  a filled property); none of its outputs was scored or read, and they were deleted. The fix and
+  the run are under Freeze 12.
+- The meaning scores of A, B and their hook-v1 graphs on the test set were computed before the
+  selector's design was final, and informed it: they showed the hook lowers meaning there.
+- The selector says an account's issuer as an event ("X issued account N"), the template the
+  rendering fixes tried for the hook and did not keep, since the left hook then kept fewer true
+  issuer edges. In the selector both readings of the pair are scored on the same passages, and on
+  dev corrupted case_01 to case_05 the template raised value precision from 0.888 to 0.893.
+- The selector's Communicated_With header rule (a message from one person's address to the
+  other's) is the reading of a mail header the benchmark's gold uses: gold states Communicated_With
+  on the To: line.
+- `add_threshold` (0.9) was set before the first dev run and not tuned.
+- The selector's dev arms are not independent of its design: every change listed under "Ontology
+  selector" was made after reading dev output.
 
 ## Data splits
 
@@ -185,16 +304,19 @@ graph), cost (tokens, wall time). For each +hook condition: the edges removed, h
 gold supports (true edges removed), the share of unsupported edges removed, and for each kept true
 edge whether its cited passage is the sentence gold states it in. For C, the same without the serializer's own edges. Grounding, without
 reference to gold: the share of emitted assertions found in the source text, and the grounded x
-gold-supported cells. For A, the graph at its first validation too.
+gold-supported cells. For A, the graph at its first validation too. Meaning: competency
+questions answered exactly, with answer recall and precision, 1-hop and 2-hop. For each +sel
+condition: edges removed, repaired and recovered, and single-valued properties kept or abstained.
 
 ## Paper
 
 Title: *Evidence-Grounded Graph Construction: Evaluating the Semantic Fidelity of Machine-Constructed
-CASE/UCO Graphs*. Two questions: does a backward, ontology-grounded check on the finished graph
-make it more faithful to the source, whichever method built it (A, B, C), and what does it cost in
-true edges. Reliability is validity and failure rate; fidelity is precision and recall against the
-gold graph with the error-class breakdown; for the hook, true edges removed and citation
-correctness.
+CASE/UCO Graphs*. The question: does a machine-built graph, read under CASE/UCO, mean what the
+evidence means, and does checking the finished graph against its source move it there, whichever
+method built it (A, B, C)? Two checks: the hook, which keeps an edge only if a passage supports it,
+and the selector, which lets the ontology list the readings and the source pick. Reliability is
+validity and failure rate; fidelity is precision and recall against the gold graph with the
+error-class breakdown, and meaning; for the hook, true edges removed and citation correctness.
 
 ## Results
 
@@ -291,3 +413,94 @@ ten issuers ranked below Owns_Account are all on "account N at Bank X is registe
 losses are on "started the ...", which entails participating, so the competitor is not a wrong reading. The other
 relation kinds separate by wide margins. Employed_By and Located_At have no competing reading the task allows and
 are not tested.
+
+### Rendering fixes
+
+Dev, Freeze 9 against Freeze 11 (see "Rendering fixes" above for the criteria, written before these runs): the 20
+dev gold graphs, their corrupted copies and C's graphs on 5 dev cases, `+lr`, value scorer under PYTHONHASHSEED=0.
+
+| sample | P value | true edges removed by the right hook | planted receivedTime kept | swapped sender or recipient kept | planted wrong property kept | planted wrong relation kept | valid |
+|---|---|---|---|---|---|---|---|
+| dev gold | 0.985 / 0.985 | 14 / 14 of 1,459 | | | | | 20 / 20 |
+| dev corrupted | 0.928 (0.914-0.943) / 0.947 (0.933-0.962) | 14 / 14 of 981 | 20 / 0 of 20 | 6 / 5 of 78 | 20 / 0 of 80 | 10 / 9 of 202 | 15 / 15 |
+| C, 5 dev cases | 0.670 / 0.670 | 2 / 2 of 62 | | | | | 5 / 5 |
+
+- Header rule: criteria met. It removes all 20 planted receivedTimes and removes no true dev gold edge; on dev gold
+  it passes 91 edges and fails none. Replies in a thread share a subject, so where their header blocks disagree on a
+  sender or recipient it skips (10 dev gold edges, and the 5 swapped plants still kept). It judges none of C's
+  edges: C's dev graphs give each message its date as its subject and no sender or recipient.
+- Issuer template: not kept. In the audit it ranks the issuer above Owns_Account on 56 of 56 (from 46), but
+  Owns_Account against the issuer falls to 39 of 40, and the left hook keeps 31 of 56 true issuer edges (from 46):
+  NLI does not read "account N at Bank X" as "Bank X issued account N".
+- Entailed competitors: criteria met, with no change to `+lr` on dev. In the audit, 123 pairs (Initiated and
+  Authorized against Participated_In) are no longer compared; the `+right` ablation catches 2 fewer wrong-entity
+  edges.
+
+### Meaning
+
+The 100 test cases, A and B as built and after hook-v1 (Freeze 6 graphs; meaning.py under Freeze 12). 7,529 1-hop
+and 15,606 2-hop questions. Exact: every gold answer found and nothing else.
+
+| condition | 1-hop exact | 1-hop answer recall | 1-hop answer precision | 2-hop exact | 2-hop answer recall | 2-hop answer precision |
+|---|---|---|---|---|---|---|
+| A | 0.150 | 0.160 | 0.863 | 0.088 | 0.100 | 0.828 |
+| A+hook | 0.116 | 0.122 | 0.863 | 0.055 | 0.064 | 0.812 |
+| B | 0.498 | 0.540 | 0.939 | 0.394 | 0.471 | 0.923 |
+| B+hook | 0.448 | 0.477 | 0.943 | 0.297 | 0.343 | 0.926 |
+
+The hook lowers meaning on both arms. The answers A and B give are mostly right before it (answer precision 0.86
+and 0.94); most questions fail on answers the graph does not hold (answer recall 0.16 and 0.54). The hook cannot
+add an answer, and each true edge it removes breaks the questions that reach it, a 2-hop question at either step.
+
+On dev, where the corrupted graphs give wrong answers, the hook does what it is for: answer precision on 1-hop
+questions rises from 0.515 to 0.938 (`+lr`), and every edge it keeps cites the passage that supports it.
+
+### Ontology selector, dev
+
+Freeze 12, `data_dev`, value scorer. Each cell is the graph as given / `+lr` / `+sel`.
+
+| sample | P value | R value | 1-hop exact | 2-hop exact | valid |
+|---|---|---|---|---|---|
+| C, 5 dev cases | 0.545 / 0.670 / 0.580 | 0.191 / 0.170 / 0.209 | 0.086 / 0.073 / 0.107 | 0.016 / 0.012 / 0.065 | 1 / 5 / 5 |
+| dev gold | 1 / 0.985 / 0.963 | 1 / 0.913 / 0.933 | 1 / 0.877 / 0.883 | 1 / 0.741 / 0.824 | 20 / 20 / 20 |
+| dev corrupted | 0.600 / 0.947 / 0.896 | 0.677 / 0.611 / 0.781 | 0.375 / 0.380 / 0.709 | 0.316 / 0.155 / 0.671 | 0 / 15 / 13 |
+| dev dropped | 0.990 / 0.987 / 0.966 | 0.837 / 0.773 / 0.897 | 0.722 / 0.645 / 0.824 | 0.477 / 0.367 / 0.720 | 20 / 20 / 20 |
+
+The hook has the higher precision on every sample; the selector the higher recall and the more questions answered
+exactly, on every sample.
+
+- Corrupted: the selector adds 130 true edges in place of wrong ones (66 false) and 194 true edges no edge stated
+  (43 false).
+- Dropped: of the 241 object edges taken out, it recovers 176, with 33 false recoveries and 25 false repairs.
+- Gold: it loses 98 of 1,459 true edges (the hook 127) and adds 65 false ones. 20 of the removals are
+  accountIssuer abstentions: the bank and the account's owner both read as the issuer, by less than the margin.
+- C: it adds 15 true edges and 27 false. The false additions read by hand are true of the source but land on
+  entities C wrote wrong (a person named by an email address, a first name alone); the selector adds no entity.
+
+### Ontology selector, test
+
+Freeze 12, the 100 test cases, run once. A and B as built (abc-v1), after hook-v1 and after the selector. Value
+scorer; meaning over 7,529 1-hop and 15,606 2-hop questions.
+
+| condition | P value | R value | 1-hop exact | 2-hop exact | valid | failures |
+|---|---|---|---|---|---|---|
+| A | 0.506 | 0.184 | 0.150 | 0.088 | 35 | 50 |
+| A+hook | 0.547 | 0.153 | 0.116 | 0.055 | 39 | 50 |
+| A+sel | 0.581 | 0.163 | 0.127 | 0.066 | 42 | 50 |
+| B | 0.595 | 0.476 | 0.498 | 0.394 | 91 | 2 |
+| B+hook | 0.632 | 0.432 | 0.448 | 0.297 | 93 | 2 |
+| B+sel | 0.648 | 0.437 | 0.449 | 0.303 | 93 | 3 |
+
+The success criteria are not met. The selector's graphs answer more questions exactly than the hook's on both arms,
+but fewer than the method's own graph: 1-hop 0.127 against 0.150 on A, 0.449 against 0.498 on B. The precision
+criterion holds, and the selector's precision is the highest of the three on both arms (A 0.581, B 0.648).
+
+On real method output the selector acts mostly as a stricter hook. On B it removes 942 of 5,976 edges, repairs 82
+and recovers 33; on A it removes 674 of 2,793, repairs 63 and recovers 35. What it can add is bounded by what the
+method wrote: of the gold facts B's graphs miss, 377 of 3,745 (10%) are relations between two entities B wrote, the
+only kind the selector recovers; 2,062 are literals and 1,306 are relations to an entity B did not write. On A, 205
+of 2,287 (9%). The dev arms built from gold graphs keep every entity, and their errors are the kind the selector
+fixes, so dev overstates it.
+
+B case_60 is a new failure: the selector raised `KeyError` on a Relationship node
+(`rel-person-luca-haddad-person-owen-park`), and the case counts as no graph.

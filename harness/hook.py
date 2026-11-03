@@ -45,8 +45,15 @@ the hook above, unchanged.
   such passage a competitor's entailment exceeds its own by more than [hook] contrast_margin, in log-odds (entailment
   saturates near 1, where probability differences vanish). Competitors are the
   other readings the task's ontology allows for the same entities: relation kinds and object properties whose
-  domain and range fit, in either direction; for a literal, the subject class's other task properties of the same
+  domain and range fit, in either direction, less those the edge entails (ENTAILS: an Initiated or Authorized edge
+  also reads as Participated_In); for a literal, the subject class's other task properties of the same
   range. Contrast is ported from #6 without its competing values, which are other entities and a fidelity question.
+  Header rule: a message's sentTime, receivedTime, sender and recipient are decided by the mail-header block whose
+  Subject: line is the message's subject, not by contrast. The Date: line is the time the message was sent
+  (RFC 5322's origination date): a sentTime passes if it equals it and fails otherwise, a receivedTime that equals it
+  fails. A sender passes if its address is on the From: line, a recipient if on the To: line. An edge with no such
+  block, a receivedTime on no Date: line, or a sender or recipient on which blocks sharing the subject disagree (a
+  thread's replies) records skip and goes to contrast.
   right runs on every edge (<arm>+right, the ablation); both runs it on the edges left kept (<arm>+lr).
   Each row records the left verdict and citation, each right check's result and reason, and the final decision.
 
@@ -95,6 +102,8 @@ KIND_CLASSES = {"Employed_By": (PERSON, {"Organization"}), "Reports_To": (PERSON
                 "Initiated": (PERSON, EVENT), "Transferred_To": (ACCOUNTS, ACCOUNTS), "Authorized": (PERSON, EVENT),
                 "Communicated_With": (PERSON, PERSON)}
 SYMMETRIC = {"Communicated_With"}
+# Kinds each kind entails, same direction: one who initiated or authorized an event took part in it. Not competitors.
+ENTAILS = {"Initiated": {"Participated_In"}, "Authorized": {"Participated_In"}}
 KIND_OF = {k.lower(): k for k in KIND_CLASSES}
 # Contrast: the task's object properties and the classes they point to (CASE/UCO's ranges are wider: UcoObject,
 # ObservableObject). Literal competitors are the task's properties (TYPES, as in arm C's target schema).
@@ -102,7 +111,10 @@ PROP_CLASSES = {("Account", "accountIssuer"): {"Organization"}, ("EmailMessage",
                 ("EmailMessage", "to"): {"EmailAddress"}, ("Message", "from"): {"ApplicationAccount"},
                 ("Message", "to"): {"ApplicationAccount"}}
 UNCONSTRAINED = {"UcoObject", "UcoThing"}  # a domain or range here admits any object: the check cannot judge
-CHECKS = ("domain", "range", "datatype", "cardinality", "self_loop", "contrast")
+CHECKS = ("domain", "range", "datatype", "cardinality", "self_loop", "header", "contrast")
+# Header rule: the message edges a mail-header block decides, and its fields.
+HEADER_PROPS = {"sentTime", "receivedTime", "from", "to"}
+FIELD = re.compile(r"(From|To|Cc|Subject|Date):\s*(.*?)(?=\s+(?:From|To|Cc|Subject|Date):|$)")
 XSD_DATETIME = re.compile(r"^-?\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})?$")
 
 
@@ -324,6 +336,45 @@ def schema_checks(t: dict, classes: dict[str, set]) -> dict:
     return out
 
 
+def headers(source: list[dict]) -> dict[str, list[dict]]:
+    """Each mail-header block's fields and location, by its Subject: line (lowercased, spaces collapsed)."""
+    out: dict[str, list[dict]] = {}
+    for p in header_blocks(source):
+        fields = dict(FIELD.findall(p["text"])) if HEADER.match(p["text"]) else {}
+        if "Subject" in fields:
+            out.setdefault(" ".join(fields["Subject"].lower().split()), []).append({**fields, "at": cite(p)})
+    return out
+
+
+def header_check(t: dict, entities: dict, heads: dict[str, list[dict]]) -> dict:
+    """The header rule for one edge (see --stage right)."""
+    e = entities.get(t["s"], {})
+    if t["p"] not in HEADER_PROPS or e.get("class") != "EmailMessage":
+        return result(None, "not an email message's time, sender or recipient")
+    blocks = [b for s in e["props"].get("subject", []) for b in heads.get(" ".join(s.lower().split()), [])]
+    if not blocks:
+        return result(None, "no mail-header block with this message's subject")
+    where = lambda b: f"{b['at']['doc']} sentence {b['at']['sentence']}"  # noqa: E731
+    if t["lit"]:
+        value = iso_time(t["o"])
+        same = [b for b in blocks if value and "Date" in b and iso_time(b["Date"]) == value]
+        if t["p"] == "sentTime":
+            b = (same or blocks)[0]
+            return result(bool(same), f"Date: {b.get('Date')} ({where(b)}) is the time the message was sent")
+        if same:
+            return result(False, f"Date: {same[0]['Date']} ({where(same[0])}) is the time the message was sent, "
+                                 "not received")
+        return result(None, "no Date: line holds this time")
+    address, field = label(t["o"], entities), "From" if t["p"] == "from" else "To"
+    if not address:
+        return result(None, f"the {t['p']} address has no value")
+    hit = [b for b in blocks if address[1].lower() in b.get(field, "").lower()]
+    if hit and len(hit) < len(blocks):  # a thread's replies share a subject; the blocks disagree
+        return result(None, f"{len(blocks)} header blocks with this subject, {len(hit)} with it on the {field}: line")
+    b = (hit or blocks)[0]
+    return result(bool(hit), f"{field}: {b.get(field)} ({where(b)})")
+
+
 def logit(p: float) -> float:
     p = min(max(p, 1e-6), 1 - 1e-6)
     return float(np.log(p / (1 - p)))
@@ -384,7 +435,7 @@ def readings(x: str, y: str, entities: dict) -> list[dict]:
 
 
 def competitors(t: dict, entities: dict, classes: dict[str, set]) -> list[dict]:
-    """The other readings the ontology allows for edge t's entities (see --stage right)."""
+    """The other readings the ontology allows for edge t's entities that cannot hold with it (see --stage right)."""
     if t["lit"]:  # the subject class's other task properties with the same range
         cls = entities.get(t["s"], {}).get("class")
         spec = prop_spec(classes.get(t["s"], set()), t["p"])
@@ -392,6 +443,7 @@ def competitors(t: dict, entities: dict, classes: dict[str, set]) -> list[dict]:
                 and (q := prop_spec(classes.get(t["s"], set()), p)) and q["range"] == spec["range"]]
     kind = kind_of(t)
     same = {(t["s"], kind or t["p"], t["o"])} | ({(t["o"], kind, t["s"])} if kind in SYMMETRIC else set())
+    same |= {(t["s"], k, t["o"]) for k in ENTAILS.get(kind, ())}
     return [r for r in readings(t["s"], t["o"], entities) if (r["s"], r["p"], r["o"]) not in same]
 
 
@@ -496,8 +548,11 @@ def hook_stages(case_dir: Path, graph_path: Path, outs: dict[str, Path], verifie
             entities[iri] = {**e, "props": {**e["props"], "linked": [linked[1]]}}
     sentences = [render(t, entities, "plain") for t in triples]
     unique = list(dict.fromkeys(sentences))
-    source = header_blocks(passages(case_dir)) if passage_unit == "block" else passages(case_dir)
+    raw = passages(case_dir)
+    source = header_blocks(raw) if passage_unit == "block" else raw
     checked = dict(zip(unique, verifier.check(unique, source)))
+    heads = headers(raw)
+    header = [header_check(t, entities, heads) for t in triples]
     rows = []
     for t, sentence in zip(triples, sentences):
         retrieved = checked[sentence]
@@ -506,7 +561,8 @@ def hook_stages(case_dir: Path, graph_path: Path, outs: dict[str, Path], verifie
         rows.append({"s": t["s"], "p": t["p"], "o": t["o"], "lit": t["lit"], "origin": t["origin"], "sentence": sentence,
                      "passages": retrieved, "verdict": verdict,
                      "left": {"kept": cited is not None, "cited": cite(cited)}})
-    need = [i for i, r in enumerate(rows) if "right" in outs or ("both" in outs and r["left"]["kept"])]
+    need = [i for i, r in enumerate(rows) if ("right" in outs or ("both" in outs and r["left"]["kept"]))
+            and header[i]["result"] == "skip"]  # the header rule decides the rest
     contrast_scores([rows[i] for i in need], [triples[i] for i in need], entities, classes, verifier)
     infos = {}
     for stage, out in outs.items():
@@ -521,7 +577,9 @@ def hook_stages(case_dir: Path, graph_path: Path, outs: dict[str, Path], verifie
                 right = schema_checks(t, classes)
                 if card[i]:
                     right["cardinality"] = card[i]
-                right["contrast"], alive = contrast_result(r, margin)
+                right["header"] = header[i]
+                right["contrast"], alive = contrast_result(r, margin) if header[i]["result"] == "skip" else \
+                    (result(None, "decided by the header rule"), range(len(r["passages"])))
                 for c, v in right.items():
                     checks[c][v["result"]] += 1
             failed = [c for c, v in (right or {}).items() if v["result"] == "fail"]
