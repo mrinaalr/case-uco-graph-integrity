@@ -19,13 +19,19 @@ the retrieved passages with location and pair verdict, verdict, kept, cited pass
 class and property names and drops their definitions; plain drops every ontology term, so an edge reads as its
 entity labels and relation phrase alone.
 
-    python harness/hook.py --run-id RUN --arm b_control [--template full|labels|plain] [--cases case_01,case_02]
+--passages block (#2) makes each run of consecutive mail-header lines (From:, To:, Cc:, Subject:, Date:) one
+passage, located from its first line to its last, so a Date: or To: line is read with the Subject: line that names
+the message. Every other sentence stays its own passage. Written to <arm>+hook..._block. The default, sentence,
+is the hook as published in hook-v1.
+
+    python harness/hook.py --run-id RUN --arm b_control [--template full|labels|plain] [--passages sentence|block]
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import time
 import tomllib
@@ -47,7 +53,20 @@ VERDICT_OF = {"entailment": "supported", "contradiction": "contradicted", "neutr
 PHRASES = {k.lower(): v for k, v in RELATION_PHRASES.items()}
 LABEL_PROPS = ("name", "addressValue", "accountIdentifier", "subject", "eventType", "street", "messageText")
 HAS_FACET = rdflib.URIRef(expand("uco-core:hasFacet"))
+HEADER = re.compile(r"^(From|To|Cc|Subject|Date):")
 BATCH = 16
+
+
+def header_blocks(source: list[dict]) -> list[dict]:
+    """Each run of consecutive mail-header lines in a document as one passage, from its first line to its last."""
+    out, prev = [], None  # prev: (doc, sentence) of the header line that ended the last passage
+    for p in source:
+        if HEADER.match(p["text"]) and prev == (p["doc"], p["sentence"] - 1):
+            out[-1] = {**out[-1], "end": p["end"], "text": f"{out[-1]['text']} {p['text']}"}
+        else:
+            out.append(p)
+        prev = (p["doc"], p["sentence"]) if HEADER.match(p["text"]) else None
+    return out
 
 
 def class_phrase(cls: str, template: str = "full") -> str:
@@ -112,7 +131,8 @@ class Verifier:
     """The pinned embedder and NLI model."""
 
     def __init__(self, cfg: dict) -> None:
-        self.device = "mps" if torch.backends.mps.is_available() else "cpu"
+        # HOOK_DEVICE=cpu when the GPU runs out of memory; MPS and CPU can differ in the last digits of a probability
+        self.device = os.environ.get("HOOK_DEVICE") or ("mps" if torch.backends.mps.is_available() else "cpu")
         self.top_k = cfg["top_k"]
         self.embedder = SentenceTransformer(cfg["embed_model"], revision=cfg["embed_revision"], device=self.device)
         self.tokenizer = AutoTokenizer.from_pretrained(cfg["nli_model"], revision=cfg["nli_revision"])
@@ -161,12 +181,14 @@ def remove(g: rdflib.Graph, t: dict, nodes: dict) -> None:
                 g.remove((holder, p, o))
 
 
-def hook_case(case_dir: Path, graph_path: Path, out: Path, verifier: Verifier, template: str = "full") -> dict:
+def hook_case(case_dir: Path, graph_path: Path, out: Path, verifier: Verifier, template: str = "full",
+              passage_unit: str = "sentence") -> dict:
     g = load_graph(graph_path)
     entities, triples = graph_triples(g)
     sentences = [render(t, entities, template) for t in triples]
     unique = list(dict.fromkeys(sentences))
-    checked = dict(zip(unique, verifier.check(unique, passages(case_dir))))
+    source = header_blocks(passages(case_dir)) if passage_unit == "block" else passages(case_dir)
+    checked = dict(zip(unique, verifier.check(unique, source)))
     nodes = {str(x): x for x in g.all_nodes() if not isinstance(x, rdflib.Literal)}
     rows = []
     for t, sentence in zip(triples, sentences):
@@ -191,12 +213,15 @@ def main() -> None:
     ap.add_argument("--data", default="data")
     ap.add_argument("--template", default="full", choices=("full", "labels", "plain"),
                     help="full: classes and properties with their CASE/UCO definitions; labels, plain: the ablation")
+    ap.add_argument("--passages", default="sentence", choices=("sentence", "block"),
+                    help="sentence: each source sentence is a passage (hook-v1); block: mail-header runs are one passage")
     args = ap.parse_args()
     with open(CONFIG, "rb") as fh:
         cfg = tomllib.load(fh)["hook"]
     verifier = Verifier(cfg)
     root = HARNESS / "results" / args.run_id
-    name = f"{args.arm}+hook" + ("" if args.template == "full" else f"_{args.template}")
+    name = f"{args.arm}+hook" + ("" if args.template == "full" else f"_{args.template}") + \
+        ("_block" if args.passages == "block" else "")
     for case_dir in case_dirs(args.cases, args.data):
         base, out = root / args.arm / case_dir.name, root / name / case_dir.name
         if not (base / "run.json").exists():
@@ -209,13 +234,13 @@ def main() -> None:
         info = {"final_validation": None}
         if meta["status"] not in ("error", "empty") and (base / "graph.jsonld").exists():
             try:
-                info["hook"] = hook_case(case_dir, base / "graph.jsonld", out, verifier, args.template)
+                info["hook"] = hook_case(case_dir, base / "graph.jsonld", out, verifier, args.template, args.passages)
                 info["final_validation"] = case_validate(out / "graph.jsonld")["conforms"]
             except Exception as exc:  # an unreadable graph is a recorded outcome, as in the arms
                 info = {"status": "error", "error": f"hook: {type(exc).__name__}: {exc}"[:2000], "final_validation": None}
         hook_s = round(time.monotonic() - start, 1)
         run = {**meta, "arm": name, **info, "hook_s": hook_s, "wall_s": round(meta.get("wall_s", 0) + hook_s, 1),
-               "hook_template": args.template,
+               "hook_template": args.template, "hook_passages": args.passages,
                "hook_models": {k: cfg[k] for k in ("embed_model", "embed_revision", "nli_model", "nli_revision")}}
         (out / "run.json").write_text(json.dumps(run, indent=1))
         print(f"{name} {case_dir.name}: {run['status']} {info.get('hook')} valid={run['final_validation']} {hook_s}s", flush=True)
