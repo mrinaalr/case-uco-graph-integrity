@@ -20,7 +20,7 @@
 
 Making graphs that represent concepts from data is hard. Making knowledge graphs that faithfully reflect digital evidence is even harder.
 
-When a language model turns case documents into [CASE](https://caseontology.org/)/[UCO](https://unifiedcyberontology.org/) graphs, the graphs can be *valid* (they pass the ontology's SHACL checks) without being ***correct***. A graph can be well-formed in every way the ontology can check and still represent things the documents never said.
+When a language model turns case documents into [CASE](https://caseontology.org/)/[UCO](https://unifiedcyberontology.org/) graphs, the graphs can be *valid* (or pass the ontology's SHACL checks) without being ***correct***. A graph can be well-formed in every way the ontology can check and still represent things the documents never said.
 
 This repo presents a backward verification hook: every edge of a finished graph is checked against the source documents and kept only if a source passage supports it. The hook is tested on three construction methods to determine whether verification improves the reliability and semantic fidelity of CASE/UCO graphs. Here those terms mean:
 
@@ -71,6 +71,15 @@ The account issuer (the issuer of this account) of 2622357143, an account (an ar
 ```
 
 **Hypothesis.** Checking each edge backward against the source removes unsupported edges from any method's graph at a small cost in true edges.
+
+### Left hook and right hook
+
+The hook above puts definitions in the sentence NLI reads, which no passage contains, and cannot catch the right value under the wrong property, because that value is in the text. `hook.py --stage` splits it in two:
+
+- **Left hook (fidelity).** Steps 2 to 4 on the plain sentence (`The account issuer of 2622357143 is Granite Federal Credit Union.`), with a mail header's lines read as one passage. An edge no passage supports is removed.
+- **Right hook (semantics)**, on the edges the left hook kept. Deterministic checks from the SDK's schema and registry: domain, range, datatype, cardinality, no self-loops; the ten relation kinds take domain and range from the task statement. Then contrast: the edge is removed if, on its passage, another reading the ontology allows for the same entities is entailed by more than a margin (`Granite Federal Credit Union owns 2622357143.` against the issuer edge), with the CASE/UCO definitions in the premise. Each check reports the edges it judged and those it could not.
+
+Conditions: each arm, `+left`, `+right` (the right hook alone, for ablation) and `+lr`. Six-condition results: pending the GPU run.
 
 ## The methods
 
@@ -179,6 +188,10 @@ for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/hook.py --ru
 ```
 
 ```bash
+for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/hook.py --run-id RUN --arm $arm --stage left,right,both; done
+```
+
+```bash
 .venv/bin/python harness/score.py --run-id RUN
 ```
 
@@ -189,7 +202,7 @@ for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/hook.py --ru
 
 ## What's next
 
-- Run C and its hook on the 100 cases to complete the six conditions; A and B with the hook are in `harness/results/hook-v1/`.
+- Run C, then the left and right hooks on all three arms, on the 100 cases (pending the GPU run); A and B with hook-v1 are in `harness/results/hook-v1/`.
 - Passages that span an email header block, so header facts can be checked.
 - An adversarial set: the same 100 cases with one injected attack per case (instruction, false fact, format, tool) and an "injected" error class in the scorer, to measure which method lets poisoned evidence into the graph and which leaves a trail to it.
 - Tests with fixtures and mocked model replies, starting with the one that matters: an edge the hook removes cannot reach the hooked graph.
