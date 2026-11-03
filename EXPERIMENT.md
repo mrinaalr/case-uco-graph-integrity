@@ -90,6 +90,17 @@ organization.`); `plain` keeps no ontology term (`Oscar Banerjee is employed by 
 Group.`). Scored as `<arm>+hook_labels` and `<arm>+hook_plain`. If the definitions do work, the full
 template removes more unsupported edges than `labels` and `plain` at no greater cost in true edges.
 
+Contrast (`--contrast`, opt-in): a fifth step in which the ontology chooses what an edge competes with.
+A supported edge must also outrank, on the passage that supports it, the other readings the ontology
+allows: the other relation kinds and object properties that fit its two entities, in either direction;
+for a literal, the subject class's other task properties of the same range; for a single-valued
+property whose range is an entity or a time, the other values the graph and the cited document give.
+It is removed if a competitor's entailment exceeds its own by more than a margin (0.1, set on dev).
+The relation kinds' domains and ranges come from the task statement, since CASE/UCO does not define
+the kinds; properties' ranges and cardinality come from the SDK schema. If it works, it removes real
+wrong-relation and wrong-value edges the hook keeps, at little cost in true edges and none in citation
+accuracy.
+
 ## Related work
 
 - [SPIRES](https://doi.org/10.1093/bioinformatics/btae104) (Caufield et al., 2024) has an LLM fill
@@ -105,6 +116,10 @@ template removes more unsupported edges than `labels` and `plain` at no greater 
   ontology-driven graph generation from text against gold facts, with measures of ontology
   conformance and hallucination; this benchmark does the same for CASE/UCO, with each gold
   statement tied to the sentence that states it.
+- [Sainz et al.](https://aclanthology.org/2021.emnlp-main.92) (2021) cast relation extraction as
+  entailment: each relation is a template, relations are restricted by entity type, and the most
+  entailed one is chosen. Contrast makes the same comparison to verify an edge a graph already
+  asserts, with properties and alternative values among the competitors, under a margin.
 
 ## Disclosures
 
@@ -200,3 +215,28 @@ definitions, 82.9% (A) and 77.9% (B) of kept true edges cite the gold sentence, 
 
 On this benchmark, this NLI model and this embedder, the effect comes from checking each edge
 backward against the source, not from the CASE/UCO definitions in the sentence.
+
+### Contrast
+
+Samples, under Freeze 9: the full template with `--passages block --query plain`, without and with
+`--contrast` at margin 0.1, chosen on dev before the real sample was run. Dev: 5 dev cases, gold graphs
+and `hook_dev_check.py`'s corrupted copies. Real: every hook-v1 case in which the hook kept an edge the
+strict scorer labels wrong relation (A 19 cases, B 11), on the arms' abc-v1 graphs (test data, used
+only for this check). Each cell is without / with contrast.
+
+| sample | true edges kept | kept true citing gold | wrong relation removed | wrong value removed | other false removed |
+|---|---|---|---|---|---|
+| dev gold | 360 / 357 of 385 | 84.7% / 83.8% | | | |
+| dev corrupted | 245 / 242 of 264 | 78.8% / 77.3% | 7 / 9 of 14 | 27 / 27 of 34 | 42 / 46 of 73 |
+| A, real | 563 / 547 of 604 | 76.4% / 75.9% | 8 / 11 of 60 | 3 / 3 of 52 | 118 / 127 of 608 |
+| B, real | 259 / 256 of 274 | 76.1% / 76.2% | 2 / 7 of 26 | 17 / 17 of 28 | 63 / 72 of 454 |
+
+Contrast helps where the NLI model separates the competing readings and harms where it does not. On
+B it removes 4 of the 6 Authorized edges the hook kept whose passage says initiated, a reversed Located_At, and
+invented properties outranked by a task property (country against street), for 3 true edges. On A it
+removes 12 more false edges and 16 true ones. All 19 true edges it removes are an account's issuer
+outranked by the account's owner named in the same passage, and the 16 kept issuer edges that name the
+owner survive for the same reason. On dev, swapped senders and recipients survive it under the full
+template (2 of 6 removed), where the definitions of `from` and `to` read as phone numbers; under the
+plain template the hook alone removes all 6, and contrast adds nothing. It does not lower citation
+accuracy. With this NLI model contrast is not a net gain; it stays off by default.

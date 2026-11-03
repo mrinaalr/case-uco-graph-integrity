@@ -31,7 +31,9 @@ design is in [../EXPERIMENT.md](../EXPERIMENT.md).
   `results/<run_id>/<arm>+hook/`: the hooked `graph.jsonld`, `hook.jsonl` (one row per edge:
   triple, sentence, passages with location and verdict, verdict, cited passage) and `run.json`.
   Models in `[hook]`. `--template labels|plain` writes the ablation (definitions dropped; every
-  ontology term dropped) to `<arm>+hook_labels` and `<arm>+hook_plain`.
+  ontology term dropped) to `<arm>+hook_labels` and `<arm>+hook_plain`. `--contrast` adds step 5
+  (`<arm>+hook..._contrast`): a supported edge must outrank the other readings the ontology allows;
+  `hook_contrast_check.py` measures it on dev and on an arm's real graphs.
 
 Earlier arms, still runnable:
 

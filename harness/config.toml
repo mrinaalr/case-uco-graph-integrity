@@ -56,6 +56,7 @@ embed_revision = "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
 nli_model = "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli"
 nli_revision = "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7"
 top_k = 3                    # source passages retrieved per edge
+contrast_margin = 0.1        # --contrast: a competitor outranks an edge when its entailment exceeds the edge's by more than this
 
 [critic]
 # Arm A1+QA (pipeline_critic.py). policy "disabled" runs the server's deterministic checks only;

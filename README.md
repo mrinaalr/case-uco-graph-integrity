@@ -68,6 +68,10 @@ Per edge, `hook.jsonl` records the triple, the sentence, the passages with their
 verdicts, and the decision. The models, pinned in `harness/config.toml`: all-MiniLM-L6-v2 for
 retrieval and DeBERTa-v3-large NLI (MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli).
 
+`--contrast` adds a fifth step: a supported edge must also outrank, on the same passage, the other
+readings the ontology allows for it, such as another relation kind between the same two entities or
+another value of a single-valued property. Opt-in; results in [EXPERIMENT.md](EXPERIMENT.md#contrast).
+
 **Hypothesis.** Checking each edge backward against the source, under CASE/UCO's definitions,
 removes unsupported edges from any method's graph at a small cost in true edges.
 

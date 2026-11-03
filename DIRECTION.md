@@ -83,7 +83,9 @@ never makes: from each edge of the finished graph back to the source, read under
 definitions. That is the backward verification hook in [EXPERIMENT.md](EXPERIMENT.md), applied
 unchanged to the SDK's workflow (A), direct generation (B) and EDC (C), on a 100-case PDF
 benchmark. It replaced, on 2026-11-02, a first design that took the modeling away from the model
-and gave it to a compiler.
+and gave it to a compiler. Whether the ontology adds to that check was then tested twice: as
+definitions in the rendered sentence, and as the competing readings an edge must outrank
+(`--contrast`). Neither is a consistent gain with this NLI model.
 
 ## Working title
 
