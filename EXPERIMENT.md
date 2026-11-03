@@ -95,7 +95,7 @@ A supported edge must also outrank, on the passage that supports it, the other r
 allows: the other relation kinds and object properties that fit its two entities, in either direction;
 for a literal, the subject class's other task properties of the same range; for a single-valued
 property whose range is an entity or a time, the other values the graph and the cited document give.
-It is removed if a competitor's entailment exceeds its own by more than a margin (0.1, set on dev).
+It is removed if a competitor's entailment exceeds its own by more than a margin (0.1, the best on dev).
 The relation kinds' domains and ranges come from the task statement, since CASE/UCO does not define
 the kinds; properties' ranges and cardinality come from the SDK schema. If it works, it removes real
 wrong-relation and wrong-value edges the hook keeps, at little cost in true edges and none in citation
@@ -219,7 +219,9 @@ backward against the source, not from the CASE/UCO definitions in the sentence.
 ### Contrast
 
 Samples, under Freeze 9: the full template with `--passages block --query plain`, without and with
-`--contrast` at margin 0.1, chosen on dev before the real sample was run. Dev: 5 dev cases, gold graphs
+`--contrast` at margin 0.1, the margin that did best on dev. The real sample was reported at 0.05,
+0.1 and 0.2, all fixed before it was run; it ran at 0.2, and the other margins are recomputed from its
+rows, which record every competitor's entailment. Dev: 5 dev cases, gold graphs
 and `hook_dev_check.py`'s corrupted copies. Real: every hook-v1 case in which the hook kept an edge the
 strict scorer labels wrong relation (A 19 cases, B 11), on the arms' abc-v1 graphs (test data, used
 only for this check). Each cell is without / with contrast.

@@ -816,7 +816,7 @@ cb46bbdd5a5a22bfaddc964fb68408243ec99041d90391d7251499c4cb4a192e  data/case_96/g
 The hook gains an opt-in contrast step. Only hook.py and config.toml change among the hashed files; every other harness file and every gold.json is byte-identical to Freeze 8.
 
 - hook.py: `--contrast` adds step 5. A supported edge must also outrank, on its supporting passage, the other readings the ontology allows for it (other relation kinds and object properties that fit the same pair, in either direction; for a single-valued property whose range is an entity or a time, the other values the graph and the cited document give), by no more than `contrast_margin`; otherwise it is removed as outranked. Written to `<arm>+hook..._contrast`; rows record competitors and their entailment; run.json records `hook_contrast_margin`. NLI scoring moves into `Verifier.probs`, and removal runs after all verdicts. Without `--contrast` the hook is that of Freeze 8: on dev case_01, `--passages block --query plain`, its graph.jsonld and hook.jsonl are byte-identical to Freeze 8's hook.py under one PYTHONHASHSEED, and on dev case_01 to case_03 the default's rows and graphs match hook-dev.
-- config.toml: `[hook] contrast_margin = 0.1`, chosen on 5 dev cases.
+- config.toml: `[hook] contrast_margin = 0.1`, the margin that did best on 5 dev cases.
 - New, unscored: hook_contrast_check.py (contrast on dev gold and corrupted graphs, and on an arm's real graphs, at several margins), test_hook_contrast.py (the competitor sets, model-free).
 
 No run is scored under this entry; hook-v1 stays under Freeze 6.
