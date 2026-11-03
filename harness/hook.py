@@ -24,7 +24,12 @@ passage, located from its first line to its last, so a Date: or To: line is read
 the message. Every other sentence stays its own passage. Written to <arm>+hook..._block. The default, sentence,
 is the hook as published in hook-v1.
 
+--query plain (#3) retrieves passages with each edge's plain rendering, the same query under every template, and
+still verifies the template's sentence; definition text no longer steers retrieval, and templates differ only in
+what NLI reads. Written to <arm>+hook..._qplain. The default, rendered, retrieves with the sentence it verifies.
+
     python harness/hook.py --run-id RUN --arm b_control [--template full|labels|plain] [--passages sentence|block]
+                           [--query rendered|plain]
 """
 
 from __future__ import annotations
@@ -127,6 +132,14 @@ def render(t: dict, entities: dict, template: str = "full") -> str:
     return text.rstrip(",") + "."
 
 
+def top_passages(embedder: SentenceTransformer, queries: list[str], source: list[dict], k: int) -> tuple:
+    """For each query, the indices of its k most similar passages (cosine), and the similarity matrix."""
+    p_emb = embedder.encode([p["text"] for p in source], normalize_embeddings=True)
+    q_emb = embedder.encode(queries, normalize_embeddings=True)
+    sims = q_emb @ p_emb.T
+    return np.argsort(-sims, axis=1, kind="stable")[:, :k], sims
+
+
 class Verifier:
     """The pinned embedder and NLI model."""
 
@@ -141,14 +154,12 @@ class Verifier:
         self.verdicts = [VERDICT_OF[self.nli.config.id2label[i].lower()] for i in range(self.nli.config.num_labels)]
         self.supported = self.verdicts.index("supported")
 
-    def check(self, sentences: list[str], source: list[dict]) -> list[list[dict]]:
-        """For each sentence, its top_k passages with similarity, pair verdict and entailment probability."""
+    def check(self, sentences: list[str], source: list[dict], queries: list[str] | None = None) -> list[list[dict]]:
+        """For each sentence, its top_k passages with similarity, pair verdict and entailment probability.
+        Passages are retrieved with queries[i] when given, else with the sentence itself."""
         if not sentences:
             return []
-        p_emb = self.embedder.encode([p["text"] for p in source], normalize_embeddings=True)
-        s_emb = self.embedder.encode(sentences, normalize_embeddings=True)
-        sims = s_emb @ p_emb.T
-        top = np.argsort(-sims, axis=1, kind="stable")[:, :self.top_k]
+        top, sims = top_passages(self.embedder, queries or sentences, source, self.top_k)
         pairs = [(i, int(j)) for i in range(len(sentences)) for j in top[i]]
         probs = []
         for k in range(0, len(pairs), BATCH):
@@ -182,23 +193,24 @@ def remove(g: rdflib.Graph, t: dict, nodes: dict) -> None:
 
 
 def hook_case(case_dir: Path, graph_path: Path, out: Path, verifier: Verifier, template: str = "full",
-              passage_unit: str = "sentence") -> dict:
+              passage_unit: str = "sentence", query: str = "rendered") -> dict:
     g = load_graph(graph_path)
     entities, triples = graph_triples(g)
     sentences = [render(t, entities, template) for t in triples]
-    unique = list(dict.fromkeys(sentences))
+    queries = [render(t, entities, "plain") for t in triples] if query == "plain" else sentences
+    unique = list(dict.fromkeys(zip(sentences, queries)))
     source = header_blocks(passages(case_dir)) if passage_unit == "block" else passages(case_dir)
-    checked = dict(zip(unique, verifier.check(unique, source)))
+    checked = dict(zip(unique, verifier.check([s for s, _ in unique], source, [q for _, q in unique])))
     nodes = {str(x): x for x in g.all_nodes() if not isinstance(x, rdflib.Literal)}
     rows = []
-    for t, sentence in zip(triples, sentences):
-        retrieved = checked[sentence]
+    for t, sentence, q in zip(triples, sentences, queries):
+        retrieved = checked[(sentence, q)]
         verdict = next((v for v in VERDICTS if v in {p["verdict"] for p in retrieved}), "not_enough_evidence")
         cited = max((p for p in retrieved if p["verdict"] == "supported"), key=lambda p: p["entailment"], default=None)
         if not cited:
             remove(g, t, nodes)
         rows.append({"s": t["s"], "p": t["p"], "o": t["o"], "lit": t["lit"], "origin": t["origin"], "sentence": sentence,
-                     "passages": retrieved, "verdict": verdict, "kept": cited is not None,
+                     **({"query": q} if q != sentence else {}), "passages": retrieved, "verdict": verdict, "kept": cited is not None,
                      "cited": {k: cited[k] for k in ("doc", "sentence", "start", "end", "text")} if cited else None})
     g.serialize(destination=out / "graph.jsonld", format="json-ld", context=DEFAULT_CONTEXT, indent=2)
     (out / "hook.jsonl").write_text("".join(json.dumps(r) + "\n" for r in rows), encoding="utf-8")
@@ -215,13 +227,15 @@ def main() -> None:
                     help="full: classes and properties with their CASE/UCO definitions; labels, plain: the ablation")
     ap.add_argument("--passages", default="sentence", choices=("sentence", "block"),
                     help="sentence: each source sentence is a passage (hook-v1); block: mail-header runs are one passage")
+    ap.add_argument("--query", default="rendered", choices=("rendered", "plain"),
+                    help="rendered: retrieve with the sentence verified (hook-v1); plain: retrieve with the plain rendering")
     args = ap.parse_args()
     with open(CONFIG, "rb") as fh:
         cfg = tomllib.load(fh)["hook"]
     verifier = Verifier(cfg)
     root = HARNESS / "results" / args.run_id
     name = f"{args.arm}+hook" + ("" if args.template == "full" else f"_{args.template}") + \
-        ("_block" if args.passages == "block" else "")
+        ("_block" if args.passages == "block" else "") + ("_qplain" if args.query == "plain" else "")
     for case_dir in case_dirs(args.cases, args.data):
         base, out = root / args.arm / case_dir.name, root / name / case_dir.name
         if not (base / "run.json").exists():
@@ -234,13 +248,14 @@ def main() -> None:
         info = {"final_validation": None}
         if meta["status"] not in ("error", "empty") and (base / "graph.jsonld").exists():
             try:
-                info["hook"] = hook_case(case_dir, base / "graph.jsonld", out, verifier, args.template, args.passages)
+                info["hook"] = hook_case(case_dir, base / "graph.jsonld", out, verifier, args.template, args.passages,
+                                         args.query)
                 info["final_validation"] = case_validate(out / "graph.jsonld")["conforms"]
             except Exception as exc:  # an unreadable graph is a recorded outcome, as in the arms
                 info = {"status": "error", "error": f"hook: {type(exc).__name__}: {exc}"[:2000], "final_validation": None}
         hook_s = round(time.monotonic() - start, 1)
         run = {**meta, "arm": name, **info, "hook_s": hook_s, "wall_s": round(meta.get("wall_s", 0) + hook_s, 1),
-               "hook_template": args.template, "hook_passages": args.passages,
+               "hook_template": args.template, "hook_passages": args.passages, "hook_query": args.query,
                "hook_models": {k: cfg[k] for k in ("embed_model", "embed_revision", "nli_model", "nli_revision")}}
         (out / "run.json").write_text(json.dumps(run, indent=1))
         print(f"{name} {case_dir.name}: {run['status']} {info.get('hook')} valid={run['final_validation']} {hook_s}s", flush=True)
