@@ -53,6 +53,16 @@ design is in [../EXPERIMENT.md](../EXPERIMENT.md).
   datatype, value not in the source) and per single-valued property decided (`keep` or `abstain`,
   with each value's score). Models and margin from `[hook]`; `add_threshold` in `[selector]`. The
   module docstring lists every step.
+- **Completion selector** (`selector_llm.py --arm <arm>[,<arm>...] --model tinker`): reads
+  `results/<run_id>/<arm>/` and writes `results/<run_id>/<arm>+llm/`: the completed `graph.jsonld`,
+  `llm.jsonl` and `run.json`. The LLM lists each document's facts as `[Class: key, property,
+  object]`; a fact enters only when every value is an exact span of a source passage and the edge
+  passes the left and right hooks, and a new entity only with a link that passes. Nothing the method
+  wrote is removed, except a value no passage grounds that an accepted value replaces. The proposals
+  do not depend on the graph and are kept once per case in `results/<run_id>/proposals/`
+  (`--resume` reuses them). `llm.jsonl` has one row per fact proposed (`add` or `reject` with the
+  reason, the left and right results, the cited passage) and per entity added. The module docstring
+  lists every step.
 
 Earlier arms, still runnable:
 

@@ -203,6 +203,39 @@ Success criteria for the one test run, on A and B, written before it: the select
 more 2-hop questions exactly than both the method's graph and the method's graph after the hook (hook-v1), and their
 value precision is no more than 5 points below the method's graph.
 
+## Completion selector
+
+Written 2026-11-03, after the selector's test run, on dev only. `selector_llm.py` adds the facts a finished graph
+misses: an LLM proposes them from the source, and a fact enters only when the source and the ontology verify it.
+
+1. *Identity.* Entities of one class with one key are merged (the selector's step 1).
+2. *Proposal.* The same model as the arms (`--model tinker`) reads one document at a time and lists its facts as
+   `[Class: key, property, object]` in the task's vocabulary. It does not see the graph, so one proposal per case
+   serves every arm. Each mail-header block adds its message's sentTime, from and to.
+3. *Entities.* A name's key must be an exact span of a source passage. It names the graph entity that carries the
+   key under any property (the meaning scorer's match); an event or message is told apart from others of its key by
+   its time. A name that matches several entities, or a new person or organization whose name is part of an existing
+   one's, is no entity. A new entity enters only with a link that passes step 5.
+4. *Literals.* Every value is an exact span of a source passage; a date-time is that span in ISO form. A value given
+   under several properties of one entity enters under none. A filled property keeps its value unless no fill is
+   grounded in the source, in which case an accepted value replaces it.
+5. *Verification.* The hook's left and right stages on the proposed edges: entailment of at least `add_threshold`
+   on a retrieved passage, a literal in a passage that names its subject; domain, range, datatype, self-loop; header
+   rule; contrast at the contrast margin. A link written backwards is turned when only the reverse fits the kind. A
+   link the graph states, or one a stated link entails, is not added.
+6. *Cardinality.* As the selector: several accepted values for one single-valued slot keep the leader by more than
+   the margin, else none.
+
+Nothing else the method wrote is removed. Run on `<arm>+sel`, it completes the selector's graph.
+
+Changes made on dev, in order, each after reading dev output on B case_01-03: the LLM shown the graph and asked for
+what it lacks proposed 2 facts on case_01 and looped on case_03, so it lists each document's facts without the graph;
+names resolve by the meaning scorer's match, since B holds account numbers and event types under `name`; a filled
+property with no grounded value may be replaced; links written backwards turned; header blocks proposed (the LLM
+wrote Holds_Account for a message's addresses, not from and to); events and messages told apart by time (two replies
+shared a subject); a value under several properties rejected ("Ironleaf Packaging Inc. office" as street, locality
+and region); a partial name rejected ("Elena" beside "Elena Kowalski").
+
 ## Related work
 
 - [SPIRES](https://doi.org/10.1093/bioinformatics/btae104) (Caufield et al., 2024) has an LLM fill
@@ -504,3 +537,46 @@ fixes, so dev overstates it.
 
 B case_60 is a new failure: the selector raised `KeyError` on a Relationship node
 (`rel-person-luca-haddad-person-owen-park`), and the case counts as no graph.
+
+### Completion selector, dev
+
+`data_dev`, value scorer. A and B as built on dev (`pipeline_sdk_agent.py`, `pipeline_monolith.py`, `--model tinker`),
+the selector's dev arms, and `none`: an empty graph per case, so `none+llm` is the verified proposals alone. Meaning
+over 1,559 1-hop and 3,199 2-hop questions (C: 5 cases, 382 and 752).
+
+| condition | P value | R value | 1-hop exact | 2-hop exact | valid | failures |
+|---|---|---|---|---|---|---|
+| A | 0.518 | 0.138 | 0.126 | 0.075 | 3 | 14 |
+| A+sel | 0.563 | 0.128 | 0.114 | 0.066 | 5 | 14 |
+| A+llm | 0.590 | 0.196 | 0.185 | 0.145 | 3 | 14 |
+| A+sel+llm | 0.651 | 0.201 | 0.189 | 0.148 | 5 | 14 |
+| B | 0.621 | 0.468 | 0.494 | 0.380 | 17 | 1 |
+| B+sel | 0.665 | 0.445 | 0.462 | 0.321 | 18 | 1 |
+| B+llm | 0.721 | 0.772 | 0.750 | 0.716 | 17 | 1 |
+| B+sel+llm | 0.747 | 0.762 | 0.744 | 0.696 | 17 | 1 |
+| none+llm | 0.919 | 0.775 | 0.765 | 0.724 | 18 | 0 |
+| C, 5 cases | 0.545 | 0.191 | 0.086 | 0.016 | 1 | 0 |
+| C+llm | 0.792 | 0.767 | 0.699 | 0.574 | 0 | 0 |
+| dev gold | 1 | 1 | 1 | 1 | - | 0 |
+| gold+llm | 0.960 | 0.999 | 0.988 | 0.991 | 19 | 0 |
+| dev corrupted | 0.600 | 0.677 | 0.375 | 0.316 | - | 0 |
+| corrupt+llm | 0.656 | 0.956 | 0.388 | 0.313 | 0 | 0 |
+| corrupt+sel+llm | 0.869 | 0.903 | 0.812 | 0.741 | 12 | 0 |
+| dev dropped | 0.990 | 0.837 | 0.722 | 0.477 | - | 0 |
+| dropped+llm | 0.951 | 0.963 | 0.927 | 0.873 | 19 | 0 |
+
+On A and B the completed graphs answer more questions exactly than the graph as built, at higher precision: B 1-hop
+0.494 to 0.750, 2-hop 0.380 to 0.716, precision 0.621 to 0.721 (95% intervals 0.592-0.650 and 0.693-0.747).
+
+- Added facts the value scorer supports: B 447 of 494 (90%), A 80 of 84, C 166 of 175, `none` 807 of 861. B's 52
+  replacements put the value its graph held under `name` into the key property. The false additions are
+  accountType (22 on B: a span that is not the gold type), Located_At to a new Location named by a place ("the
+  Stonebridge Services Group office"), and street given the full address.
+- Gold: 21 false additions over 20 graphs, 14 of them Located_At to such a Location.
+- `none+llm`, the proposals verified with no graph, answers as many questions as B+llm (1-hop 0.765, 2-hop 0.724) at
+  precision 0.919. The completed graphs keep the method's errors: nothing is removed but an ungrounded value replaced.
+- A's gain is bounded by its 14 failed cases (no graph, scored empty, not completed).
+- Corrupted: completion adds the true facts but keeps the planted wrong ones, so exact answers barely move (0.375 to
+  0.388); after the selector they rise to 0.812.
+- The design was changed after reading B case_01-03 (Completion selector), so B's dev numbers include its tuning
+  cases. No test run.
