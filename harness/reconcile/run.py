@@ -40,9 +40,12 @@ def load_cfg() -> dict:
         return tomllib.load(fh)
 
 
-def reconcile_case(graph: Path, docs: Path, out: Path, verifier, cfg: dict, *, policy: str, passes: tuple[str, ...],
-                   template: str = "plain", passage_unit: str = "block", query: str = "plain", proposals: Path | None = None,
-                   add_at: float | None = None) -> dict:
+def reconcile_case(graph: Path, docs: Path, out: Path | dict[str, Path], verifier, cfg: dict, *, policy: str,
+                   passes: tuple[str, ...], template: str = "plain", passage_unit: str = "block", query: str = "plain",
+                   proposals: Path | None = None, add_at: float | None = None) -> dict:
+    """One graph through the passes, then decided and written under each policy: `out` is one folder, or
+    {policy: folder}; the evidence is gathered once. Returns the first policy's info (every policy's under "policies")."""
+    outs = out if isinstance(out, dict) else {policy: out}
     start = time.monotonic()
     src = Source(docs, cfg.get("data", {}).get("source", "pdf"))
     led, _ = ingest(graph)
@@ -58,17 +61,25 @@ def reconcile_case(graph: Path, docs: Path, out: Path, verifier, cfg: dict, *, p
     if "readings" in passes:
         from reconcile.readings import readings_pass
         readings_pass(led, src, verifier, margin, claims=list(led))
-    decide(led, policy, margin)
-    if "propose" in passes:
-        from reconcile.policy import added
-        from reconcile.resolve import drop_unlinked
-        info["dropped_entities"] = len(drop_unlinked(led, {c.id for c in added(led, policy)}))
     meta = {"passes": list(passes), "template": template, "passages": passage_unit, "query": query,
             "contrast_margin": margin, "device": getattr(verifier, "device", None),
             "models": {k: cfg["hook"][k] for k in ("embed_model", "embed_revision", "nli_model", "nli_revision")}}
-    info.update(emit(led, graph, out, policy, meta))
-    info["reconcile_s"] = round(time.monotonic() - start, 1)
-    return {**meta, **info}
+    gathered = round(time.monotonic() - start, 1)
+    results = {}
+    for pol, folder in outs.items():
+        decide(led, pol, margin)
+        this = dict(info)
+        if "propose" in passes:
+            from reconcile.policy import added
+            from reconcile.resolve import drop_unlinked
+            this["dropped_entities"] = len(drop_unlinked(led, {c.id for c in added(led, pol)}))
+        this.update(emit(led, graph, folder, pol, {**meta, "policy": pol}))
+        this["reconcile_s"] = gathered
+        results[pol] = {**meta, "policy": pol, **this}
+        led.meta["run"] = results[pol]  # beside the ledger, so the caller can read each policy's numbers
+        (folder / "ledger" / "ledger.json").write_text(json.dumps(led.meta, indent=1), encoding="utf-8")
+    first = results[policy]
+    return {**first, "policies": list(results)} if len(results) > 1 else first
 
 
 def main() -> None:
@@ -82,7 +93,9 @@ def main() -> None:
     ap.add_argument("--suffix", default="rec")
     ap.add_argument("--cases")
     ap.add_argument("--resume", action="store_true")
-    ap.add_argument("--policy", default="conservative", choices=sorted(POLICIES))
+    ap.add_argument("--policy", default="conservative",
+                    help="one of %s; several comma-separated share one pass over the models and write "
+                         "<arm>+<suffix> for the first and <arm>+<suffix>-<policy> for the rest" % ", ".join(sorted(POLICIES)))
     ap.add_argument("--passes", default="verify,readings,propose")
     ap.add_argument("--template", default="plain", choices=("full", "labels", "plain"))
     ap.add_argument("--passages", default="block", choices=("sentence", "block"))
@@ -101,36 +114,50 @@ def main() -> None:
     else:
         from hook import Verifier
         verifier = Verifier(cfg["hook"], args.batch)
-    common = dict(policy=args.policy, passes=passes, template=args.template, passage_unit=args.passages, query=args.query,
+    policies = [p.strip() for p in args.policy.split(",")]
+    for p in policies:
+        if p not in POLICIES:
+            ap.error(f"--policy: {p!r} is not one of {sorted(POLICIES)}")
+    common = dict(policy=policies[0], passes=passes, template=args.template, passage_unit=args.passages, query=args.query,
                   proposals=args.proposals, add_at=args.add_at)
+    suffixes = {p: args.suffix if i == 0 else f"{args.suffix}-{p}" for i, p in enumerate(policies)}
     if args.graph:
-        info = reconcile_case(args.graph, args.docs, args.out, verifier, cfg, **common)
-        info["final_validation"] = case_validate(args.out / "graph.jsonld")["conforms"]
-        (args.out / "run.json").write_text(json.dumps(info, indent=1))
-        print(json.dumps({k: info[k] for k in ("removed", "added", "merged", "final_validation", "reconcile_s")}))
+        outs = {p: args.out if i == 0 else args.out.parent / f"{args.out.name}-{p}" for i, p in enumerate(policies)}
+        reconcile_case(args.graph, args.docs, outs, verifier, cfg, **common)
+        for p, folder in outs.items():
+            run = {**json.loads((folder / "ledger" / "ledger.json").read_text())["run"],
+                   "final_validation": case_validate(folder / "graph.jsonld")["conforms"]}
+            (folder / "run.json").write_text(json.dumps(run, indent=1))
+            print(p, json.dumps({k: run[k] for k in ("removed", "added", "merged", "final_validation", "reconcile_s")}))
         return
     root = HARNESS / "results" / args.run_id
     wanted = set(args.cases.split(",")) if args.cases else None
     for case_dir in sorted(p for p in (HARNESS / args.data).iterdir() if p.is_dir() and (not wanted or p.name in wanted)):
         base = root / args.arm / case_dir.name
-        out = root / f"{args.arm}+{args.suffix}" / case_dir.name
-        if not (base / "run.json").exists() or (args.resume and (out / "run.json").exists()):
+        outs = {p: root / f"{args.arm}+{s}" / case_dir.name for p, s in suffixes.items()}
+        if not (base / "run.json").exists() or (args.resume and all((o / "run.json").exists() for o in outs.values())):
             continue
         meta = json.loads((base / "run.json").read_text())
-        info = {"final_validation": None}
+        infos = {p: {"final_validation": None} for p in outs}
         if meta["status"] not in ("error", "empty") and (base / "graph.jsonld").exists():
             try:
-                info = reconcile_case(base / "graph.jsonld", case_dir / "docs", out, verifier, cfg, **common)
-                info["final_validation"] = case_validate(out / "graph.jsonld")["conforms"]
+                reconcile_case(base / "graph.jsonld", case_dir / "docs", outs, verifier, cfg, **common)
+                for p, folder in outs.items():
+                    infos[p] = {**json.loads((folder / "ledger" / "ledger.json").read_text())["run"],
+                                "final_validation": case_validate(folder / "graph.jsonld")["conforms"]}
             except Exception as exc:  # an unreadable graph is a recorded outcome, as in the arms
-                info = {"status": "error", "error": f"reconcile: {type(exc).__name__}: {exc}"[:2000], "final_validation": None}
+                infos = {p: {"status": "error", "error": f"reconcile: {type(exc).__name__}: {exc}"[:2000],
+                             "final_validation": None} for p in outs}
                 if os.environ.get("RECONCILE_RAISE"):
                     raise
-        out.mkdir(parents=True, exist_ok=True)
-        run = {**meta, "arm": f"{args.arm}+{args.suffix}", **info, "wall_s": round(meta.get("wall_s", 0) + info.get("reconcile_s", 0), 1)}
-        (out / "run.json").write_text(json.dumps(run, indent=1))
-        print(f"{run['arm']} {case_dir.name}: {run['status']} removed={info.get('removed')} added={info.get('added')} "
-              f"merged={info.get('merged')} valid={run['final_validation']} {info.get('reconcile_s')}s", flush=True)
+        for p, folder in outs.items():
+            folder.mkdir(parents=True, exist_ok=True)
+            info = infos[p]
+            run = {**meta, "arm": f"{args.arm}+{suffixes[p]}", "policy": p, **info,
+                   "wall_s": round(meta.get("wall_s", 0) + info.get("reconcile_s", 0), 1)}
+            (folder / "run.json").write_text(json.dumps(run, indent=1))
+            print(f"{run['arm']} {case_dir.name}: {run['status']} removed={info.get('removed')} added={info.get('added')} "
+                  f"merged={info.get('merged')} valid={run['final_validation']} {info.get('reconcile_s')}s", flush=True)
 
 
 if __name__ == "__main__":
