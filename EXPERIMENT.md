@@ -281,7 +281,7 @@ Disclosures:
   able to displace a true value in cardinality), both now covered by tests.
 - The dev run was run twice. The first (`results/rec-dev1`) missed most criteria: on gold, `conservative` removed 20
   true edges (1.3%) and added 92 false ones; B's 1-hop exact fell from 0.494 to 0.416 under `conservative` and 0.398
-  under `strict`. Reading the ledgers gave five faults, each a rule, not a threshold: (1) the same value proposed
+  under `strict`. Reading the ledgers gave six faults, each a rule, not a threshold: (1) the same value proposed
   under a sister property (region beside postalCode) outranked the true value under NLI, removed it by contrast and
   was written in its place, 11 of the 20 true removals and 27 of the 92 additions; (2) an NLI contradiction label on
   a passage naming the claim's entities counted as a contradiction with no support to weigh it against, 5 true
@@ -607,3 +607,50 @@ fixes, so dev overstates it.
 
 B case_60 is a new failure: the selector raised `KeyError` on a Relationship node
 (`rel-person-luca-haddad-person-owen-park`), and the case counts as no graph.
+
+### Reconciler, dev
+
+Freeze 13, `data_dev`, the second dev run (`results/rec-dev`; the first is `results/rec-dev1`). Value scorer,
+micro. Each cell is the graph as given / `+sel` / `+rec` (`conservative`) / `+rec-strict`. A has no selector dev
+run; 14 of its 20 dev cases have no graph.
+
+| sample | P value | R value | 1-hop exact | 2-hop exact | valid |
+|---|---|---|---|---|---|
+| dev gold | 1 / 0.963 / 0.993 / 0.993 | 1 / 0.933 / 0.991 / 0.933 | 1 / 0.883 / 0.987 / 0.901 | 1 / 0.824 / 0.991 / 0.764 | 20 / 20 / 13 / 13 |
+| dev corrupted | 0.600 / 0.896 / 0.682 / 0.852 | 0.677 / 0.781 / 0.772 / 0.763 | 0.375 / 0.709 / 0.402 / 0.646 | 0.316 / 0.671 / 0.309 / 0.460 | 0 / 13 / 0 / 8 |
+| dev dropped | 0.990 / 0.966 / 0.980 / 0.988 | 0.837 / 0.897 / 0.915 / 0.876 | 0.722 / 0.824 / 0.845 / 0.793 | 0.477 / 0.720 / 0.733 / 0.607 | 20 / 20 / 12 / 13 |
+| C, 5 dev cases | 0.545 / 0.580 / 0.653 / 0.708 | 0.191 / 0.209 / 0.369 / 0.356 | 0.086 / 0.107 / 0.204 / 0.196 | 0.016 / 0.065 / 0.094 / 0.077 | 1 / 5 / 0 / 0 |
+| B on dev | 0.621 / 0.665 / 0.633 / 0.653 | 0.468 / 0.445 / 0.487 / 0.465 | 0.494 / 0.462 / 0.421 / 0.394 | 0.380 / 0.321 / 0.294 / 0.235 | 17 / 18 / 15 / 16 |
+| A on dev | 0.518 / – / 0.557 / 0.605 | 0.138 / – / 0.144 / 0.137 | 0.126 / – / 0.123 / 0.114 | 0.075 / – / 0.066 / 0.061 | 3 / – / 3 / 5 |
+
+Against the criteria written before the run:
+
+- Not degrading: met. `conservative` removes 14 of gold's 1,459 true edges (1.0%; the hooks 127, the selector 98)
+  and keeps 2-hop exact at 0.991.
+- Corrupted: not met. `strict` reaches value precision 0.852 (criterion 0.90) at recall 0.763 (criterion 0.75,
+  met) and answers 0.646 of 1-hop questions exactly, against the selector's 0.709.
+- Dropped: not met. `conservative` recovers 134 of the 241 removed edges (56%; the selector 176).
+- Calibration: not met. On corrupted graphs 78 of the 91 stated claims called `contradicted` are false (86%); on
+  gold 14 are called `contradicted`, and they are the 14 removals.
+- B: not met. `strict` answers 0.394 of 1-hop questions exactly (B 0.494, B+sel 0.462) at value precision 0.653.
+
+What the ledgers show, left as found:
+
+- Gold's 14 contradictions: 10 are a literal outranked by the same value under a sister property of the same range
+  (postalCode against locality, region against postalCode), the right hook's contrast rule as published; 4 are an
+  account's issuer outranked by "the bank owns the account". Of the 11 edges added to gold, all false, 8 are an
+  address the LLM wrote in full, admitted as a span and written as a second `street` beside the stated one, and 3 are
+  `accountType` "Account", which is not in the SDK's vocabulary; these fail SHACL on 7 of the 20 gold graphs.
+- B's 81 removals under `conservative` are all edges the strict scorer calls false: 47 account identifiers B wrote
+  under `name`, outranked by the identifier reading; 23 `from` and `to` edges whose object is the person rather than
+  the person's email address, which fail the profile's range. The value scorer and the competency questions credit
+  those 23, and B's 1-hop exact falls with them (0.494 to 0.420 with no additions at all). It writes 103 claims into
+  B's graphs, 31 of them supported.
+- Corrupted: `strict` keeps an entity's unverified key, and with it the corrupted keys (value precision 0.897 under
+  the first run's rule, 0.852 under this one; strict-scorer precision 0.583 against 0.847). Under `conservative`,
+  159 of the 174 removals are false edges, and 488 more false edges are `insufficient`, which only `strict` removes.
+- C, where no criterion was set: `strict` raises value precision from 0.545 to 0.708 and 1-hop exact from 0.086 to
+  0.196; it writes 72 claims, 42 of them supported. No reconciled C graph validates.
+
+Parity after the fixes: `hook-v1` keeps the hook's edges on 1,226 of 1,226 (B, 19 cases) and 582 of 582 (A, 10
+cases); `lr` on 1,559 of 1,559 (gold), 1,760 of 1,760 (corrupted) and 139 of 139 (C).

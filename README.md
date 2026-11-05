@@ -133,6 +133,8 @@ The hook and the left and right hooks are two of its policies: `--policy hook-v1
 
 **Hypothesis.** Deciding last, from one record that holds every pass's evidence for stated and proposed claims alike, removes what the hook removes with fewer true edges lost and adds what the selector adds and what an LLM reads that the selector cannot, and every change carries its reason.
 
+**On dev** (`harness/results/rec-dev`, 20 cases, value scorer; the criteria and the ledgers' account are in EXPERIMENT.md, "Reconciler, dev"): the first part holds and the second does not. `conservative` removes 14 of gold's 1,459 true edges where the hooks removed 127 and the selector 98, and keeps 2-hop exact at 0.991. It recovers 134 of 241 dropped edges where the selector recovers 176. On corrupted graphs `strict` reaches precision 0.852 at recall 0.763, below the 0.90 set for it. On B it answers fewer questions exactly than B as built (0.394 against 0.494): what it removes is false under the strict scorer and credited by the questions. It has not been run on the test set.
+
 ## Graph construction
 
 Every method gets the same task (the core classes; ten relation kinds), the same PDFs, and the same base model at temperature 0. A and B get the task as one statement (model only what the documents state); C gets it as EDC's target schema. The methods differ in how the graph is constructed. Each graph is scored as built, after the hook (`+hook`, `+lr`) and after the selector (`+sel`).
@@ -320,7 +322,7 @@ The hook checks that a passage supports an edge, not that the edge is true: a fa
 
 The selector shares the hook's NLI model and its limits, and adds its own. It adds no entity, so it cannot recover a fact about an entity the method left out or wrote wrong. Facts set by convention, as in an email header, are read by rules written for mail headers. Its design was changed on the dev set after reading dev output (EXPERIMENT.md lists each change); the test set was run once, under a frozen entry.
 
-The reconciler shares both models and their limits: an account's issuer and its owner are still one reading to NLI where a passage names both, and a chat line has no header rule. It proposes new entities only of classes a name identifies (a person, an organization, an account, an address); an event or a location the graph lacks is not recovered. Its design was changed once on the dev set after reading the first dev run's ledgers (EXPERIMENT.md lists each change); it has not been run on the test set.
+The reconciler shares both models and their limits: an account's issuer and its owner are still one reading to NLI where a passage names both, and a chat line has no header rule. It proposes new entities only of classes a name identifies (a person, an organization, an account, an address); an event or a location the graph lacks is not recovered. Its design was changed once on the dev set after reading the first dev run's ledgers (EXPERIMENT.md lists each change); the second run's ledgers show two more faults, left as found: an address written in full enters as a second `street`, and an `accountType` outside the SDK's vocabulary enters. It has not been run on the test set.
 
 ## History
 
