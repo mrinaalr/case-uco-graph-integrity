@@ -247,7 +247,9 @@ and checked against the SDK's schema at load; the arms' prompt is byte-identical
 
 Parity, before any new number: the published hook decided from the ledger (`--policy hook-v1 --template full
 --passages sentence --query rendered`) keeps the same edges as hook-v1 on 1,226 of 1,226 edges of B (19 cases with a
-graph) and 417 of 417 of A (6 cases); the left and right hooks (`--policy lr`) against fix-dev are reported below.
+graph) and 417 of 417 of A (6 cases); the left and right hooks (`--policy lr`) keep the same edges as fix-dev `+lr` on
+1,559 of 1,559 edges of dev gold, 1,760 of 1,760 of the corrupted copies and 139 of 139 of C's five dev graphs
+(`PYTHONHASHSEED=0`, MPS).
 
 Success criteria for the dev run (`rec-dev`, `data_dev`; gold, corrupted, dropped, C on 5 cases, and A and B as
 built on dev), written before it:
