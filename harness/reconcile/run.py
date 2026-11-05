@@ -53,7 +53,7 @@ def reconcile_case(graph: Path, docs: Path, out: Path, verifier, cfg: dict, *, p
         verify(led, src, verifier, template=template, passage_unit=passage_unit, query=query, linked=not legacy)
     if "propose" in passes:  # proposals are made before the checks, so stated and proposed claims are checked together
         from reconcile.propose import propose_pass
-        info["proposed"] = propose_pass(led, src, verifier, margin, add_at if add_at is not None else cfg["selector"]["add_threshold"],
+        info["generated"] = propose_pass(led, src, verifier, margin, add_at if add_at is not None else cfg["selector"]["add_threshold"],
                                         proposals=proposals, case=docs.parent.name, template=template, passage_unit=passage_unit)
     if "readings" in passes:
         from reconcile.readings import readings_pass

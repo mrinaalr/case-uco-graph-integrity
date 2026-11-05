@@ -22,7 +22,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from graphkit import iso_time
-from hook import ENTAILS, SYMMETRIC, kind_of, prop_spec, readings
+from hook import ENTAILS, SYMMETRIC, XSD_DATETIME, kind_of, prop_spec, readings
 from reconcile import keys
 from reconcile.ingest import classes_of
 from reconcile.ledger import PROPOSED, STATED, Claim, Ledger
@@ -106,6 +106,8 @@ def from_headers(led: Ledger, src: Source) -> list[Claim]:
 
 
 def from_literals(led: Ledger) -> list[Claim]:
+    """Repairs: each is tied to the stated claim it would replace (`repair-of:<id>`) and is added only when that
+    claim is removed (policy.added), so a true value is never displaced by its own alternative."""
     classes = classes_of(led)
     out = []
     for c in list(led.stated()):
@@ -117,14 +119,14 @@ def from_literals(led: Ledger) -> list[Claim]:
         if not spec:
             continue
         value = c.o
-        if spec["range"].endswith("dateTime") and (iso := iso_time(c.o)) and iso != c.o:
-            alt = propose_claim(led, c.s, c.p, iso, True, "prop", "normalize")
+        if spec["range"].endswith("dateTime") and not XSD_DATETIME.match(c.o.strip()) and (iso := iso_time(c.o)):
+            alt = propose_claim(led, c.s, c.p, iso, True, "prop", f"repair-of:{c.id} normalize")
             out += [alt] if alt else []
             value = iso
         for p in LITERAL_PROPS.get(cls, []):
             q = prop_spec(classes.get(c.s, set()), p)
             if p != c.p and q and q["range"] == spec["range"]:
-                alt = propose_claim(led, c.s, p, value, True, "prop", "literal-alternative")
+                alt = propose_claim(led, c.s, p, value, True, "prop", f"repair-of:{c.id} literal-alternative")
                 out += [alt] if alt else []
     return out
 
@@ -214,7 +216,7 @@ def propose_pass(led: Ledger, src: Source, verifier, margin: float, add_at: floa
     made = {"reading": from_readings(led), "header": from_headers(led, src), "literal": from_literals(led)}
     rejected = []
     if proposals is not None:
-        path = proposals / f"{case}.json" if case else proposals
+        path = proposals if proposals.is_file() else proposals / f"{case}.json"
         if path.exists():
             import json
             made["llm"], rejected = from_llm(led, src, json.loads(path.read_text()))

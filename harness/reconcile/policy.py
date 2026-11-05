@@ -111,9 +111,20 @@ def removed(led: Ledger, policy: str) -> list[Claim]:
 
 
 def added(led: Ledger, policy: str) -> list[Claim]:
+    """The proposals the policy writes: supported, not dropped with their entity, and, for a repair, only when the
+    stated claim it repairs is removed under this policy."""
     if not POLICIES[policy]["add"]:
         return []
-    return [c for c in led.by_origin(PROPOSED) if c.status == SUPPORTED and not (c.note or "").startswith("dropped")]
+    gone = {c.id for c in removed(led, policy)}
+    out = []
+    for c in led.by_origin(PROPOSED):
+        note = c.note or ""
+        if c.status != SUPPORTED or note.startswith("dropped"):
+            continue
+        if note.startswith("repair-of:") and note.split()[0].partition(":")[2] not in gone:
+            continue
+        out.append(c)
+    return out
 
 
 def kept(led: Ledger, policy: str) -> set[tuple]:

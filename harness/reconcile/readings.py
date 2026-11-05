@@ -14,9 +14,10 @@ is signalled here: contrast passed, but on the claim's best passage a rival is i
 
 from __future__ import annotations
 
-from hook import cardinality, contrast_result, contrast_scores, header_check, logit, schema_checks
+from graphkit import iso_time
+from hook import advantage, contrast_result, contrast_scores, header_check, logit, prop_spec, schema_checks
 from reconcile.ingest import classes_of
-from reconcile.ledger import Claim, Ledger
+from reconcile.ledger import STATED, Claim, Ledger
 from reconcile.source import Source
 from reconcile.verify import named_entities
 
@@ -39,6 +40,53 @@ def near_miss(contrast: dict | None, margin: float) -> bool:
     return rival >= 0.5 and 0 <= logit(best["own"]) - logit(rival) <= margin
 
 
+def cardinality(todo: list[Claim], rows: list[dict], classes: dict[str, set], active: list[bool], margin: float) -> list[dict | None]:
+    """A single-valued property holding several values among the active claims. Among stated values, the one that
+    best outranks its readings is kept (hook.cardinality, so the hook's runs reproduce). A proposed value displaces a
+    stated one only when its advantage leads by more than the margin; proposed values alone keep a leader by more
+    than the margin, else none (an abstention, every one fails). Relations and inactive claims get None."""
+    groups: dict[tuple, list[int]] = {}
+    for i, c in enumerate(todo):
+        if active[i] and c.kind != "rel":
+            groups.setdefault((c.s, c.p), []).append(i)
+    out: list[dict | None] = [None] * len(todo)
+    value = lambda c: (iso_time(c.o) or c.o) if c.lit else c.o  # noqa: E731
+    for (s, p), idx in groups.items():
+        spec = prop_spec(classes.get(s, set()), p)
+        values = list(dict.fromkeys(value(todo[i]) for i in idx))
+        if not spec:
+            for i in idx:
+                out[i] = {"result": "skip", "reason": f"{p} is not a core CASE/UCO property"}
+            continue
+        if spec["many"]:
+            for i in idx:
+                out[i] = {"result": "pass", "reason": f"{p} takes zero or more values"}
+            continue
+        if len(values) == 1:
+            for i in idx:
+                out[i] = {"result": "pass", "reason": f"{p} takes at most one value; one here"}
+            continue
+        score = {i: advantage(rows[i]) for i in idx}
+        stated = [i for i in idx if todo[i].origin == STATED]
+        if stated:
+            best_stated = max(stated, key=lambda i: score[i])
+            challengers = [i for i in idx if i not in stated and score[i] - score[best_stated] > margin]
+            winner = max(challengers, key=lambda i: score[i]) if challengers else best_stated
+            how = "a proposed value leads the stated one by more than the margin" if challengers else \
+                "kept the stated value that best outranks its readings"
+        else:
+            ranked = sorted(idx, key=lambda i: -score[i])
+            winner = ranked[0] if len(ranked) < 2 or score[ranked[0]] - score[ranked[1]] > margin else None
+            how = "kept the proposed value that leads by more than the margin" if winner is not None else \
+                "no value leads by more than the margin: none kept"
+        for i in idx:
+            mine = winner is not None and value(todo[i]) == value(todo[winner])
+            out[i] = {"result": "pass" if mine else "fail",
+                      "reason": f"{p} takes at most one value; {len(values)} here, {how} "
+                                f"({score[i]:.2f}{' against ' + format(score[winner], '.2f') if winner is not None and not mine else ''})"}
+    return out
+
+
 def readings_pass(led: Ledger, src: Source, verifier, margin: float, claims: list[Claim] | None = None,
                   on: str = "supported") -> None:
     todo = list(claims if claims is not None else led.stated())
@@ -50,7 +98,7 @@ def readings_pass(led: Ledger, src: Source, verifier, margin: float, claims: lis
     active = [on == "all" or any(e["label"] == "supports" and e["method"] == "nli" for e in c.evidence) for c in todo]
     need = [i for i in range(len(todo)) if active[i] and header[i]["result"] == "skip"]
     contrast_scores([rows[i] for i in need], [triples[i] for i in need], ents, classes, verifier)
-    card = cardinality(triples, rows, classes, active)
+    card = cardinality(todo, rows, classes, active, margin)
     for i, (c, t, r) in enumerate(zip(todo, triples, rows)):
         if not active[i]:
             continue
