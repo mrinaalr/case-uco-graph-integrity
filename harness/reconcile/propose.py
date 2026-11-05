@@ -5,13 +5,12 @@ passage both entities share, or the header rule, or a literal found beside its s
 
 - `from_readings`: for every pair of entities that share a passage or an edge, every reading the profile allows
   (hook.readings: relation kinds and object properties whose domain and range fit, either way round) that the graph
-  does not state. This is the selector's enumeration; a wrong stated edge and its right reading are then two
-  claims decided from the same passages, so a repair is a removal and an addition that happen to agree.
+  does not state. This is the selector's enumeration. Where the graph already links the pair, a reading is a repair
+  of that link (`repair-of:<ids> reading`), written only when the link is removed: a wrong stated edge and its right
+  reading are decided from the same passages, and a pair the graph relates correctly gains no second relation.
 - `from_headers`: a message's sentTime, sender and recipients from the mail-header block whose Subject: line is its
   subject (From:, To:, Cc:, Date:), decided by the header rule, not NLI.
-- `from_literals`: for a stated literal, the same value under each property of its class with the same range (a
-  sentTime written as receivedTime), and an ISO form of a date-time xsd:dateTime rejects. The stated claim and its
-  alternative are then decided side by side.
+- `from_literals`: an ISO form of a stated date-time that xsd:dateTime rejects, as a repair of it.
 - `from_llm` (propose/llm): facts an LLM lists from each document, with their values as exact spans of the source
   and their names resolved to entities (resolve.Resolver). The proposals are cached per case; no model runs here."""
 
@@ -57,9 +56,11 @@ def from_readings(led: Ledger) -> list[Claim]:
     ents = named_entities(led)
     have = stated_keys(led)
     pairs = set()
+    linked: dict[frozenset, list[str]] = defaultdict(list)  # the stated links on a pair, which a reading would repair
     for c in led.stated():
         if not c.lit and c.o in led.entities and c.s != c.o:
             pairs.add(frozenset((c.s, c.o)))
+            linked[frozenset((c.s, c.o))].append(c.id)
     by_passage = defaultdict(list)
     for e in led.entities.values():
         for i in e.mentions:
@@ -78,7 +79,8 @@ def from_readings(led: Ledger) -> list[Claim]:
             if any((r["s"], k, r["o"]) in have for k, ents_k in ENTAILS.items() if r["p"] in ents_k):
                 continue  # implied by a stated claim (Initiated states Participated_In)
             kind = "rel" if r["origin"].startswith("rel|") else "prop"
-            c = propose_claim(led, r["s"], r["p"], r["o"], False, kind, "reading")
+            how = f"repair-of:{','.join(linked[pair])} reading" if linked.get(pair) else "reading"
+            c = propose_claim(led, r["s"], r["p"], r["o"], False, kind, how)
             if c:
                 out.append(c)
     return out
@@ -106,28 +108,19 @@ def from_headers(led: Ledger, src: Source) -> list[Claim]:
 
 
 def from_literals(led: Ledger) -> list[Claim]:
-    """Repairs: each is tied to the stated claim it would replace (`repair-of:<id>`) and is added only when that
-    claim is removed (policy.added), so a true value is never displaced by its own alternative."""
+    """Repairs: the ISO form of a stated date-time that xsd:dateTime rejects, tied to the stated claim it would replace
+    (`repair-of:<id>`) and added only when that claim is removed (policy.added). The same value under another property
+    of the class is not proposed: NLI does not tell a region from a postal code, and such alternatives both outranked
+    true values and were written in their place (EXPERIMENT.md, Reconciler, first dev run)."""
     classes = classes_of(led)
     out = []
     for c in list(led.stated()):
         if not c.lit:
             continue
-        cls = led.entities.get(c.s, None)
-        cls = cls.cls if cls else None
         spec = prop_spec(classes.get(c.s, set()), c.p)
-        if not spec:
-            continue
-        value = c.o
-        if spec["range"].endswith("dateTime") and not XSD_DATETIME.match(c.o.strip()) and (iso := iso_time(c.o)):
+        if spec and spec["range"].endswith("dateTime") and not XSD_DATETIME.match(c.o.strip()) and (iso := iso_time(c.o)):
             alt = propose_claim(led, c.s, c.p, iso, True, "prop", f"repair-of:{c.id} normalize")
             out += [alt] if alt else []
-            value = iso
-        for p in LITERAL_PROPS.get(cls, []):
-            q = prop_spec(classes.get(c.s, set()), p)
-            if p != c.p and q and q["range"] == spec["range"]:
-                alt = propose_claim(led, c.s, p, value, True, "prop", f"repair-of:{c.id} literal-alternative")
-                out += [alt] if alt else []
     return out
 
 

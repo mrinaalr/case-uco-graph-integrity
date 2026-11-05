@@ -58,20 +58,24 @@ def main() -> None:
             cases += 1
             true_in = {(m[0], m[1], m[2]) for m in json.loads(score_in.read_text()).get("matched", [])}
             true_out = {(m[0], m[1], m[2]) for m in json.loads(score_out.read_text()).get("matched", [])} if score_out.exists() else set()
-            members = {}
+            members, cls_of = {}, {}
             for e in read_jsonl(case / "ledger" / "entities.jsonl"):
+                cls_of[e["id"]] = e["cls"]
                 for m in e["members"]:
                     members[m] = e["id"]
             true_in = {(members.get(s, s), p, members.get(o, o)) for s, p, o in true_in}
             policy = json.loads((case / "run.json").read_text()).get("policy", "conservative")
+            from reconcile.keys import KEYS
             from reconcile.policy import POLICIES
-            gone = POLICIES[policy]["remove"]
+            rules = POLICIES[policy]
             for c in read_jsonl(case / "ledger" / "claims.jsonl"):
                 key = (c["s"], c["p"], c["o"])
                 if c["origin"] == "stated":
                     truth = "true" if key in true_in else "false"
                     stated[c["status"]][truth] += 1
-                    if c["status"] in gone:
+                    kept_key = rules["keep_keys"] and c["status"] == "insufficient" and c["lit"] and \
+                        c["p"] in KEYS.get(cls_of.get(c["s"], ""), [])
+                    if c["status"] in rules["remove"] and not kept_key:
                         removed_true += truth == "true"
                         removed_false += truth == "false"
                 elif c["origin"] == "proposed" and c["status"] == "supported" and not (c.get("note") or "").startswith("dropped"):

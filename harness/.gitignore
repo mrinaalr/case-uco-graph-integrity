@@ -8,12 +8,14 @@ results/*
 !results/abc-v1/
 !results/hook-v1/
 !results/rec-dev/
+!results/rec-dev1/
 results/baseline-v1/*
 results/qa-det-v1/*
 results/qa-llm-v1/*
 results/abc-v1/*
 results/hook-v1/*
 results/rec-dev/*
+results/rec-dev1/*
 !results/rec-dev/proposals/
 !results/*/summary.md
 !results/*/summary.csv

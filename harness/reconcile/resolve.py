@@ -8,8 +8,10 @@ source refers to.
   the entity of a compatible class that carries the key under any property (an account number held as a name still
   finds its account), told apart from others of its key by its time where the class has one. A key that matches
   several entities names none; so does a person or organization whose name is part of an existing one's ("Elena"
-  beside "Elena Kowalski"). Otherwise it is a provisional entity (origin `proposed`), which reaches the graph only
-  with a claim that passes."""
+  beside "Elena Kowalski"). A location is named by its street (the part of an address before the first comma).
+  Otherwise, for a class whose key is a name or an identifier (NAMED), it is a provisional entity (origin
+  `proposed`), which reaches the graph only with a claim that passes. An event, a message or a location is described
+  rather than named, and an email account's key is its address's: none of these is proposed new."""
 
 from __future__ import annotations
 
@@ -28,6 +30,7 @@ COMPATIBLE = {"Person": {"Identity"}, "Organization": {"Identity"}, "EmailAddres
               "Event": {"Action"}, "Location": set()}
 TIMED = {"Event": "startTime", "EmailMessage": "sentTime", "Message": "sentTime"}  # the time that tells two apart
 CONTAINS = {"eventType", "accountType"}
+NAMED = {"Person", "Organization", "Account", "ApplicationAccount", "EmailAddress"}  # may enter as provisional
 
 
 def linked_props(led: Ledger) -> dict[str, dict]:
@@ -108,6 +111,8 @@ class Resolver:
         if tok in self.named:
             return self.named[tok]
         cls, _, key = (x.strip() for x in name.partition(":"))
+        if cls == "Location":
+            key = key.split(",")[0].strip()
         if cls not in keys.KEYS or not key:
             self.named[tok] = f"{name!r} is not a class and key of the profile"
             return self.named[tok]
@@ -132,6 +137,8 @@ class Resolver:
         elif same := next((v for t, v in self.named.items() if isinstance(v, tuple) and v[0] in self.new and v[1] == cls
                            and keys.norm(kp, v[2]) == keys.norm(kp, key)), None):
             self.named[tok] = same
+        elif cls not in NAMED:
+            self.named[tok] = f"names no entity of the graph, and a {cls} is not proposed new"
         else:
             iri = f"{DEFAULT_CONTEXT['kb']}rec-{cls.lower()}-{uuid.uuid5(uuid.NAMESPACE_URL, f'{cls}|{keys.norm(kp, key)}|{doc or ''}')}"
             props = {kp: [flat(key)]} if keys.KEYS.get(cls) else {}

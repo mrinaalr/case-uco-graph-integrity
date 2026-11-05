@@ -30,11 +30,37 @@ def test_verdicts_in_order():
     d = claim(led, "e1", "y", "D", evidence=[ev("neutral", 0.1)])
     e = claim(led, "e1", "z", "E", evidence=[ev("supports", 0.9)], checks={"contrast": {"result": "pass", "reason": "close", "near": True}})
     f = claim(led, "e1", "w", "F", evidence=[ev("supports", 0.9)])
+    g = claim(led, "e1", "v", "G", evidence=[ev("contradicts", 0.98), ev("anchors", 1.0, "span")])
     decide(led, "conservative", 2.0)
     assert [x.status for x in (a, b, c, d, e, f)] == [MALFORMED, CONTRADICTED, CONTRADICTED, INSUFFICIENT, AMBIGUOUS, SUPPORTED]
+    assert g.status == INSUFFICIENT, "an NLI contradiction label alone contradicts nothing"
     assert {x.id for x in removed(led, "conservative")} == {a.id, b.id, c.id}
-    assert {x.id for x in removed(led, "strict")} == {a.id, b.id, c.id, d.id}
+    assert {x.id for x in removed(led, "strict")} == {a.id, b.id, c.id, d.id, g.id}
     assert e.id not in {x.id for x in removed(led, "strict")}  # ambiguous is kept, and recorded
+
+
+def test_facet_literal_is_malformed_only_under_the_hook():
+    led = Ledger()
+    led.add_entity(Entity("m1", "EmailMessage", {"subject": ["Hello"]}))
+    led.meta["classes"] = {"m1": ["EmailMessage", "Message", "ObservableObject"]}
+    fail = {"result": "fail", "reason": "subject is a property of EmailMessageFacet"}
+    subject = claim(led, "m1", "subject", "Hello", evidence=[ev("supports", 0.99)], checks={"domain": dict(fail)})
+    other = claim(led, "m1", "accountIdentifier", "7", evidence=[ev("supports", 0.99)], checks={"domain": dict(fail)})
+    decide(led, "conservative", 2.0)
+    assert subject.status == SUPPORTED and other.status == MALFORMED
+    decide(led, "hook-v1", 2.0)
+    assert subject.status == MALFORMED
+
+
+def test_strict_keeps_an_unverified_key():
+    led = Ledger()
+    led.add_entity(Entity("p1", "Person", {"name": ["Ada"]}))
+    name = claim(led, "p1", "name", "Ada", evidence=[ev("neutral", 0.1)])
+    other = claim(led, "p1", "x", "Y", evidence=[ev("neutral", 0.1)])
+    decide(led, "strict", 2.0)
+    assert name.status == INSUFFICIENT and other.status == INSUFFICIENT
+    assert {c.id for c in removed(led, "strict")} == {other.id}
+    assert {c.id for c in removed(led, "hook-v1")} == {name.id, other.id}
 
 
 def test_proposal_bar_and_repair_gating():
@@ -47,7 +73,7 @@ def test_proposal_bar_and_repair_gating():
     unanchored = claim(led, "e2", "Reports_To", "e1", lit=False, origin=PROPOSED, evidence=[ev("supports", 0.99, passage=3)])
     stated = claim(led, "e1", "locality", "Boise", evidence=[ev("supports", 0.99)])
     repair = claim(led, "e1", "region", "Boise", origin=PROPOSED, evidence=[ev("supports", 0.99), ev("supports", 1.0, "span")],
-                   note=f"repair-of:{stated.id} literal-alternative")
+                   note=f"repair-of:{stated.id},0000000000000000 reading")
     decide(led, "conservative", 2.0)
     assert low.status == INSUFFICIENT and high.status == SUPPORTED and unanchored.status == INSUFFICIENT
     assert repair.status == SUPPORTED and stated.status == SUPPORTED

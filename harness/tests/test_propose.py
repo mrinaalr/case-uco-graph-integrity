@@ -72,6 +72,9 @@ def test_implied_readings_are_not_added(dev_cases, verifier):
     initiated = {(c.s, c.o) for c in led.stated() if c.p == "Initiated"}
     assert not any(c.p == "Participated_In" and (c.s, c.o) in initiated for c in made)
     assert all(c.origin == PROPOSED for c in made)
+    linked = {frozenset((c.s, c.o)) for c in led.stated() if not c.lit}
+    assert made and all((c.note or "").startswith("repair-of:") == (frozenset((c.s, c.o)) in linked) for c in made), \
+        "a reading of a pair the graph already links is a repair of that link"
 
 
 def test_llm_facts_resolve_or_are_rejected_with_a_reason(dev_cases, verifier):
@@ -93,6 +96,12 @@ def test_llm_facts_resolve_or_are_rejected_with_a_reason(dev_cases, verifier):
     res = Resolver(led, src)
     assert res.resolve(None, f"Person: {name}")[0] == person.id
     assert isinstance(res.resolve(None, "Person: Nobody At All"), str)
+    where = next(e for e in led.entities.values() if e.cls == "Location" and e.props.get("street"))
+    assert res.resolve(None, f"Location: {where.props['street'][0]}, Nowhere, XX 00000")[0] == where.id, \
+        "an address names its location by its street"
+    r = res.resolve(None, f"Event: {name}")  # a span of the source that names no event
+    assert isinstance(r, str) and "not proposed new" in r
+    assert not any(e.cls == "Event" and e.origin == PROPOSED for e in led.entities.values())
 
 
 def test_dropped_edges_can_be_recovered(verifier):
