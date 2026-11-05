@@ -218,24 +218,27 @@ irrelevant to every module (tests/test_layering.py: no construction arm on the i
    pair of entities named in one passage, as span evidence. Nothing is decided. Modality (asserted, reported, hedged,
    negated) is read from the best supporting passage by a word list and recorded, never used.
 3. *Propose* (pass 3, forward). Candidates the graph may lack, as `proposed` claims: every reading the profile allows
-   for a pair of entities that share a passage or an edge (the selector's enumeration); a message's time, sender and
-   recipients from its mail header; for a stated literal, the same value under its class's other properties of the
-   same range and an ISO form of a malformed time, each tied to the claim it would repair; and the facts an LLM lists
-   from each document (`propose_llm.py`, cached per case), with values admitted only as exact spans and names resolved
-   to entities, or to a provisional entity that enters only with a link that passes. Entities of one class and one key
-   are merged first. Every proposal then gets the same evidence a stated claim gets.
+   for a pair of entities that share a passage or an edge (the selector's enumeration), a repair of the graph's own
+   link where it has one; a message's time, sender and recipients from its mail header; an ISO form of a stated time
+   that xsd:dateTime rejects, a repair of it; and the facts an LLM lists from each document (`propose_llm.py`, cached
+   per case), with values admitted only as exact spans and names resolved to entities, or, for a person, organization,
+   account or address, to a provisional entity that enters only with a link that passes (an event, message or
+   location is described, not named, and is not proposed new). Entities of one class and one key are merged first.
+   Every proposal then gets the same evidence a stated claim gets.
 4. *Readings* (pass 2, semantics). On every claim with support, stated and proposed together: the right hook's
    checks (domain, range, datatype, self-loop; cardinality, where a proposed value displaces a stated one only by more
    than the margin), the header rule, and contrast against the readings that cannot hold with the claim. A wrong
    stated edge and its right reading are thus decided from the same passages.
-5. *Decide.* Five verdicts from the record alone: `malformed` (a check failed), `contradicted` (the header rule says
-   otherwise, a competitor outranks it by more than the margin on every supporting passage, or no support and an
-   NLI contradiction on a passage naming its entities), `ambiguous` (supported, but a rival is entailed within the
-   margin on its best passage), `supported`, `insufficient` (no passage supports it; unverified, not false). A
-   proposal is `supported` only at the bar: entailment of at least `add_threshold` on a prose passage both entities
-   share, the header rule, or a literal beside its subject; a repair is written only when the claim it repairs is
-   removed; a reading a stated claim entails is not added. Policies: `conservative` removes `contradicted` and
-   `malformed` and flags `insufficient`; `strict` removes `insufficient` too; `hook-v1` and `lr` reproduce the hook.
+5. *Decide.* Five verdicts from the record alone: `malformed` (a check failed; a literal the class declares on its
+   own facet, an EmailMessage's subject, is not malformed for sitting on the node), `contradicted` (the header rule
+   says otherwise, or a competitor outranks it by more than the margin on every supporting passage; an NLI
+   contradiction label alone is recorded and contradicts nothing), `ambiguous` (supported, but a rival is entailed
+   within the margin on its best passage), `supported`, `insufficient` (no passage supports it; unverified, not
+   false). A proposal is `supported` only at the bar: entailment of at least `add_threshold` on a prose passage both
+   entities share, the header rule, or a literal beside its subject; a repair is written only when the claim it
+   repairs is removed; a reading a stated claim entails is not added. Policies: `conservative` removes `contradicted`
+   and `malformed` and flags `insufficient`; `strict` removes `insufficient` too, except an entity's key; `hook-v1`
+   and `lr` reproduce the hook.
 6. *Emit.* The input graph byte for byte, the reconciled graph (removals, merges, additions applied to the input;
    nothing else touched), the ledger (claims, entities, decisions) and `provenance.jsonld`: the run as a
    `case-investigation:InvestigativeAction`, each removal and addition as a `uco-core:Assertion` with its statement,
@@ -276,6 +279,22 @@ Disclosures:
 - The design was set before the dev run; the stub-verifier smoke runs on dev case_01 and case_02 found two
   structural faults that were fixed before it (a normalized time written beside its original; a literal alternative
   able to displace a true value in cardinality), both now covered by tests.
+- The dev run was run twice. The first (`results/rec-dev1`) missed most criteria: on gold, `conservative` removed 20
+  true edges (1.3%) and added 92 false ones; B's 1-hop exact fell from 0.494 to 0.416 under `conservative` and 0.398
+  under `strict`. Reading the ledgers gave five faults, each a rule, not a threshold: (1) the same value proposed
+  under a sister property (region beside postalCode) outranked the true value under NLI, removed it by contrast and
+  was written in its place, 11 of the 20 true removals and 27 of the 92 additions; (2) an NLI contradiction label on
+  a passage naming the claim's entities counted as a contradiction with no support to weigh it against, 5 true
+  removals (an issuer read as an owner, an alias read as a denial); (3) a reading of a pair the graph already linked
+  correctly was added beside the link (Authorized beside Performed), 17 false additions and 3 true ones across all
+  arms; (4) an address the LLM wrote in full did not resolve to the location keyed by its street, and events,
+  messages and email accounts entered as provisional duplicates, 45 of the 92 additions on gold and every provisional
+  entity of those classes false on every arm; (5) a literal B writes on the node that the schema declares on the
+  node's facet (an EmailMessage's `subject`, `sentTime`) failed the domain check and was removed, 24 true edges and
+  with them the keys B's questions start from; (6) `strict` removed unverified keys, leaving entities nothing aligns
+  to (corrupted, `strict`: value precision 0.897, strict-scorer precision 0.583). The hook policies keep the hook's
+  behaviour on each point (parity re-run below). The fixes were made after seeing dev numbers; the test criteria
+  stand as written.
 - The 100-case test run needs a GPU and is not part of this work: every number here is dev. The criteria for a test
   run are the dev criteria above, with the selector's test numbers (`sel-test`) in place of the dev ones.
 - Modality is recorded and unmeasured: the benchmark's documents contain no hedged or reported statement.

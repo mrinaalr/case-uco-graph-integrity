@@ -118,6 +118,21 @@ A graph that wrote the credit union as the owner gets the issuer edge in its pla
 
 **Hypothesis.** Letting the ontology list the readings and the source pick repairs wrong edges and recovers missed ones, so the graph answers more of the evidence's questions, at some cost in precision against the hook.
 
+## The reconciler
+
+`harness/reconcile/` takes a finished graph, from any of the three arms or from none of them, and its documents, and writes the graph reconciled with the source beside a ledger that records why each edge stayed, left or entered. It uses the hook's two models and an LLM's cached reading of each document; no construction method is on its import path.
+
+1. **Ingest**: every scored triple becomes a claim that keeps the node that stated it; entities of one class and one key become one.
+2. **Verify**: each claim's sentence against the source: the top passages by the hook's embedder, each labelled by its NLI model, and the literal found beside its subject. Nothing is decided.
+3. **Propose**: what the source may state and the graph lacks, as claims of the same kind: the readings the ontology allows for each pair of entities (the selector's list), a message's header facts, and the facts an LLM lists from each document, with values admitted only as exact spans and names resolved to the graph's entities. Every proposal gets the evidence a stated claim gets.
+4. **Readings**: the schema's checks, and for every claim with support the readings that cannot hold with it, scored on the same passages.
+5. **Decide**: one of five verdicts from the record alone: `supported`, `ambiguous`, `insufficient`, `contradicted`, `malformed`. A policy names the verdicts it removes (`conservative`: contradicted and malformed; `strict`: insufficient too, except an entity's key) and writes the proposals that clear the bar.
+6. **Emit**: the input graph untouched, the reconciled graph, the ledger, and the run as a CASE `InvestigativeAction` with each removal and addition as an `Assertion` citing its passage and its reason.
+
+The hook and the left and right hooks are two of its policies: `--policy hook-v1` and `--policy lr` keep the edges the published runs kept, edge for edge, on every graph they were run on.
+
+**Hypothesis.** Deciding last, from one record that holds every pass's evidence for stated and proposed claims alike, removes what the hook removes with fewer true edges lost and adds what the selector adds and what an LLM reads that the selector cannot, and every change carries its reason.
+
 ## Graph construction
 
 Every method gets the same task (the core classes; ten relation kinds), the same PDFs, and the same base model at temperature 0. A and B get the task as one statement (model only what the documents state); C gets it as EDC's target schema. The methods differ in how the graph is constructed. Each graph is scored as built, after the hook (`+hook`, `+lr`) and after the selector (`+sel`).
@@ -258,6 +273,14 @@ for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/selector.py 
 ```
 
 ```bash
+.venv/bin/python harness/reconcile/propose_llm.py --run-id RUN --out harness/results/RUN/proposals
+```
+
+```bash
+for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/reconcile/run.py --run-id RUN --arm $arm --policy conservative,strict --proposals harness/results/RUN/proposals; done
+```
+
+```bash
 .venv/bin/python harness/score.py --run-id RUN
 ```
 
@@ -265,8 +288,17 @@ for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/selector.py 
 .venv/bin/python harness/meaning.py --run-id RUN
 ```
 
+```bash
+.venv/bin/python harness/calibration.py --run-id RUN
+```
+
+```bash
+.venv/bin/python -m pytest
+```
+
 - `--cases case_01,case_02` runs a subset; `--data data_dev` runs on the dev set.
-- Results go to `harness/results/RUN/`; `summary.md` has the per-arm table and `meaning.md` the questions answered. The hook writes `<arm>+hook/` (or `+left`, `+right`, `+lr`) and the selector `<arm>+sel/` next to each arm; both download the same two models on first use.
+- Results go to `harness/results/RUN/`; `summary.md` has the per-arm table, `meaning.md` the questions answered and `calibration.md` each verdict against gold. The hook writes `<arm>+hook/` (or `+left`, `+right`, `+lr`), the selector `<arm>+sel/` and the reconciler `<arm>+rec/` and `<arm>+rec-strict/` next to each arm, each case with its `ledger/`, `provenance.jsonld` and the input graph it read; all three download the same two models on first use.
+- The reconciler's test run on the 100 cases is a GPU job (six model passes over three arms; the dev run of 20 cases took about 80 minutes on an M-series laptop) and has not been run.
 - `harness/generate_data.py --validate` regenerates the benchmark and its PDFs.
 - [harness/README.md](harness/README.md) documents every arm, the data, and the scorer in detail.
 
@@ -274,6 +306,7 @@ for arm in a_sdk_agent b_control c_edc; do .venv/bin/python harness/selector.py 
 
 - Run C, then the left and right hooks on all three arms, on the 100 cases (pending the GPU run); A and B with hook-v1 are in `harness/results/hook-v1/`.
 - The selector on C's 100 graphs, and against `+lr` on A and B.
+- The reconciler on the 100 cases, under the criteria in EXPERIMENT.md (a GPU job; every reconciler number so far is dev).
 - Entity repair: the selector fixes edges, not entities. A person written as an email address, or by first name alone, keeps the facts that land on it.
 - The issuer and the owner of an account: where one passage names both organizations, NLI reads both as the issuer often enough that the selector abstains.
 - An adversarial set: the same 100 cases with one injected attack per case (instruction, false fact, format, tool) and an "injected" error class in the scorer, to measure which method lets poisoned evidence into the graph and which leaves a trail to it.
@@ -286,6 +319,8 @@ The cases are synthetic. They test mechanics and known failure modes; they do no
 The hook checks that a passage supports an edge, not that the edge is true: a false statement physically in a document passes, though every kept edge cites the passage that supports it. Support is also weaker than role: in hook-v1 the hook kept all 16 issuer edges from A and B that named the account's owner, because the passage names both organizations. And it reads one sentence at a time, so a true fact spread over lines, as in an email header, is removed.
 
 The selector shares the hook's NLI model and its limits, and adds its own. It adds no entity, so it cannot recover a fact about an entity the method left out or wrote wrong. Facts set by convention, as in an email header, are read by rules written for mail headers. Its design was changed on the dev set after reading dev output (EXPERIMENT.md lists each change); the test set was run once, under a frozen entry.
+
+The reconciler shares both models and their limits: an account's issuer and its owner are still one reading to NLI where a passage names both, and a chat line has no header rule. It proposes new entities only of classes a name identifies (a person, an organization, an account, an address); an event or a location the graph lacks is not recovered. Its design was changed once on the dev set after reading the first dev run's ledgers (EXPERIMENT.md lists each change); it has not been run on the test set.
 
 ## History
 
