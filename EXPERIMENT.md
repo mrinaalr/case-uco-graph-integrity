@@ -203,6 +203,81 @@ Success criteria for the one test run, on A and B, written before it: the select
 more 2-hop questions exactly than both the method's graph and the method's graph after the hook (hook-v1), and their
 value precision is no more than 5 points below the method's graph.
 
+## Reconciler
+
+Written 2026-11-05, after the selector's test run and before any dev run of the reconciler. The hook and the
+selector each edit a graph in place, decide as they score, and keep or remove only (the selector also adds links
+between entities the graph already names). The test results show what that buys: precision rises and meaning falls,
+on both arms. `harness/reconcile/` keeps the mechanics and changes the shape: a graph is read into a ledger of
+claims, every pass only adds to a claim's record, and a policy decides from the record. Whoever built the graph is
+irrelevant to every module (tests/test_layering.py: no construction arm on the import path, no gold file named).
+
+1. *Ingest.* The graph's scored triples become `stated` claims; each keeps the node that stated it.
+2. *Verify* (pass 1, backward). Each claim's plain sentence against the source: the top 3 passages by the hook's
+   embedder, each labelled by its NLI model, as evidence rows; a literal found verbatim beside its subject, and a
+   pair of entities named in one passage, as span evidence. Nothing is decided. Modality (asserted, reported, hedged,
+   negated) is read from the best supporting passage by a word list and recorded, never used.
+3. *Propose* (pass 3, forward). Candidates the graph may lack, as `proposed` claims: every reading the profile allows
+   for a pair of entities that share a passage or an edge (the selector's enumeration); a message's time, sender and
+   recipients from its mail header; for a stated literal, the same value under its class's other properties of the
+   same range and an ISO form of a malformed time, each tied to the claim it would repair; and the facts an LLM lists
+   from each document (`propose_llm.py`, cached per case), with values admitted only as exact spans and names resolved
+   to entities, or to a provisional entity that enters only with a link that passes. Entities of one class and one key
+   are merged first. Every proposal then gets the same evidence a stated claim gets.
+4. *Readings* (pass 2, semantics). On every claim with support, stated and proposed together: the right hook's
+   checks (domain, range, datatype, self-loop; cardinality, where a proposed value displaces a stated one only by more
+   than the margin), the header rule, and contrast against the readings that cannot hold with the claim. A wrong
+   stated edge and its right reading are thus decided from the same passages.
+5. *Decide.* Five verdicts from the record alone: `malformed` (a check failed), `contradicted` (the header rule says
+   otherwise, a competitor outranks it by more than the margin on every supporting passage, or no support and an
+   NLI contradiction on a passage naming its entities), `ambiguous` (supported, but a rival is entailed within the
+   margin on its best passage), `supported`, `insufficient` (no passage supports it; unverified, not false). A
+   proposal is `supported` only at the bar: entailment of at least `add_threshold` on a prose passage both entities
+   share, the header rule, or a literal beside its subject; a repair is written only when the claim it repairs is
+   removed; a reading a stated claim entails is not added. Policies: `conservative` removes `contradicted` and
+   `malformed` and flags `insufficient`; `strict` removes `insufficient` too; `hook-v1` and `lr` reproduce the hook.
+6. *Emit.* The input graph byte for byte, the reconciled graph (removals, merges, additions applied to the input;
+   nothing else touched), the ledger (claims, entities, decisions) and `provenance.jsonld`: the run as a
+   `case-investigation:InvestigativeAction`, each removal and addition as a `uco-core:Assertion` with its statement,
+   verdict, reason and passage.
+
+The task's tables (the ten kinds with domain and range, the task's properties, each class's key, the narrowed ranges
+of `accountIssuer`, `from` and `to`) move to `harness/profile.toml`, read by every arm, the hook and the reconciler,
+and checked against the SDK's schema at load; the arms' prompt is byte-identical (tests/test_profile.py).
+
+Parity, before any new number: the published hook decided from the ledger (`--policy hook-v1 --template full
+--passages sentence --query rendered`) keeps the same edges as hook-v1 on 1,226 of 1,226 edges of B (19 cases with a
+graph) and 417 of 417 of A (6 cases); the left and right hooks (`--policy lr`) against fix-dev are reported below.
+
+Success criteria for the dev run (`rec-dev`, `data_dev`; gold, corrupted, dropped, C on 5 cases, and A and B as
+built on dev), written before it:
+
+- Not degrading: on dev gold, `conservative` removes at most 1% of true edges (the left and right hooks removed 8.7%)
+  and keeps 2-hop exact at or above 0.95 (`+lr`: 0.741).
+- Corrupted: `strict` reaches value precision of at least 0.90 and recall of at least 0.75 (`+lr`: 0.947 / 0.611;
+  `+sel`: 0.896 / 0.781), and answers more 1-hop questions exactly than `+sel` (0.709).
+- Dropped: `conservative` recovers at least 60% of the removed object edges (`+sel`: 176 of 241).
+- Calibration (`calibration.py`): on corrupted graphs, at least 90% of the stated claims called `contradicted` are
+  edges gold does not support; on gold, no stated claim is called `contradicted`.
+- B on dev: `strict` answers more 1-hop questions exactly than B as built (0.494) and B+sel (0.462), at value
+  precision of at least B+sel's (0.665).
+
+Disclosures:
+
+- The LLM proposals are PR #11's cache (`results/llm-dev/proposals`, Qwen/Qwen3.5-9B on Tinker, one call per
+  document), reused unchanged; `propose_llm.py` regenerates them with the same prompt less the document's kind,
+  which came from gold. No new model call was made for this work.
+- hook.py now reads its tables from profile.toml and no longer imports arm C; the hook-v1 parity above is the
+  check that its behaviour did not change. score.py, meaning.py and generate_data.py are byte-identical to Freeze 12.
+- The reconciler copies the scorer's key and grounding rules (reconcile/keys.py) rather than importing them;
+  tests/test_ledger.py holds the two to agreement on dev. The evaluator and the method under test share no code.
+- The design was set before the dev run; the stub-verifier smoke runs on dev case_01 and case_02 found two
+  structural faults that were fixed before it (a normalized time written beside its original; a literal alternative
+  able to displace a true value in cardinality), both now covered by tests.
+- The 100-case test run needs a GPU and is not part of this work: every number here is dev. The criteria for a test
+  run are the dev criteria above, with the selector's test numbers (`sel-test`) in place of the dev ones.
+- Modality is recorded and unmeasured: the benchmark's documents contain no hedged or reported statement.
+
 ## Related work
 
 - [SPIRES](https://doi.org/10.1093/bioinformatics/btae104) (Caufield et al., 2024) has an LLM fill

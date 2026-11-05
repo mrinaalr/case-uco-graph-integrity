@@ -85,6 +85,18 @@ unchanged to the SDK's workflow (A), direct generation (B) and EDC (C), on a 100
 benchmark. It replaced, on 2026-11-02, a first design that took the modeling away from the model
 and gave it to a compiler.
 
+## From checks to reconciliation
+
+Added 2026-11-05. The hook and the selector were run on the 100 test cases (EXPERIMENT.md, Results). Both raise
+precision and both lower meaning: a check that can only remove cannot make a graph answer more of the evidence's
+questions, and most of what the graphs miss is facts about entities they never wrote. On dev, verified LLM proposals
+alone answered as many questions as the best method's graph completed by them.
+
+So the object became the finished graph, whoever built it, and the treatment became reconciliation: read the graph
+into claims, gather the evidence for each, let the ontology list the other readings and the source rank them, propose
+what the source states and hold it to the same evidence, decide last and record everything. The construction arms
+stay as the baselines the reconciler is tested on. `harness/reconcile/` is that design (EXPERIMENT.md, "Reconciler").
+
 ## Working title
 
 *Evidence-Grounded Graph Construction: Evaluating the Semantic Fidelity of Machine-Constructed
