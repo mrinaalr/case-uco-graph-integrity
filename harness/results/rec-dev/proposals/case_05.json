@@ -1,0 +1,693 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"EmailAddress: hector.holloway@summitpeak.com\", \"addressValue\", \"hector.holloway@summitpeak.com\"],\n  [\"EmailAddress: julian.kowalski@northwind.com\", \"addressValue\", \"julian.kowalski@northwind.com\"],\n  [\"EmailAccount: hector.holloway@summitpeak.com\", \"emailAddress\", \"EmailAddress: hector.holloway@summitpeak.com\"],\n  [\"EmailAccount: julian.kowalski@northwind.com\", \"emailAddress\", \"EmailAddress: julian.kowalski@northwind.com\"],\n  [\"Person: Hector Holloway\", \"Holds_Account\", \"EmailAddress: hector.holloway@summitpeak.com\"],\n  [\"Person: Julian Kowalski\", \"Holds_Account\", \"EmailAddress: julian.kowalski@northwind.com\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"subject\", \"Contract terms for next quarter\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"sentTime\", \"Mon, 24 Feb 2025 14:00:00 +0000\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"from\", \"EmailAddress: hector.holloway@summitpeak.com\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"to\", \"EmailAddress: julian.kowalski@northwind.com\"],\n  [\"Person: Dana Tanaka\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Event: invoice submission\", \"startTime\", \"February 3, 2025 at 09:45 UTC\"],\n  [\"Person: Maya Banerjee\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Event: contract amendment\", \"startTime\", \"10 February 2025, 12:50 UTC\"],\n  [\"Person: Julian Kowalski\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"14 February 2025, 10:15 UTC\"],\n  [\"Person: Owen Castillo\", \"Initiated\", \"Event: vendor onboarding\"],\n  [\"Event: vendor onboarding\", \"startTime\", \"February 24, 2025 at 12:00 UTC\"],\n  [\"Person: Hector Holloway\", \"Communicated_With\", \"Person: Julian Kowalski\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: hector.holloway@summitpeak.com",
+     "addressValue",
+     "hector.holloway@summitpeak.com"
+    ],
+    [
+     "EmailAddress: julian.kowalski@northwind.com",
+     "addressValue",
+     "julian.kowalski@northwind.com"
+    ],
+    [
+     "EmailAccount: hector.holloway@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: hector.holloway@summitpeak.com"
+    ],
+    [
+     "EmailAccount: julian.kowalski@northwind.com",
+     "emailAddress",
+     "EmailAddress: julian.kowalski@northwind.com"
+    ],
+    [
+     "Person: Hector Holloway",
+     "Holds_Account",
+     "EmailAddress: hector.holloway@summitpeak.com"
+    ],
+    [
+     "Person: Julian Kowalski",
+     "Holds_Account",
+     "EmailAddress: julian.kowalski@northwind.com"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "subject",
+     "Contract terms for next quarter"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "sentTime",
+     "Mon, 24 Feb 2025 14:00:00 +0000"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "from",
+     "EmailAddress: hector.holloway@summitpeak.com"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "to",
+     "EmailAddress: julian.kowalski@northwind.com"
+    ],
+    [
+     "Person: Dana Tanaka",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "February 3, 2025 at 09:45 UTC"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "10 February 2025, 12:50 UTC"
+    ],
+    [
+     "Person: Julian Kowalski",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "14 February 2025, 10:15 UTC"
+    ],
+    [
+     "Person: Owen Castillo",
+     "Initiated",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Event: vendor onboarding",
+     "startTime",
+     "February 24, 2025 at 12:00 UTC"
+    ],
+    [
+     "Person: Hector Holloway",
+     "Communicated_With",
+     "Person: Julian Kowalski"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 860,
+    "completion": 547
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Maya Banerjee\", \"Employed_By\", \"Organization: Northwind Logistics Inc.\"],\n  [\"Person: Maya Banerjee\", \"Holds_Account\", \"EmailAddress: mbanerjee@northwind.com\"],\n  [\"Person: Maya Banerjee\", \"Holds_Account\", \"EmailAccount: mbanerjee@northwind.com\"],\n  [\"Person: Dana Tanaka\", \"Employed_By\", \"Organization: Northwind Logistics Inc.\"],\n  [\"Person: Dana Tanaka\", \"Holds_Account\", \"EmailAddress: dtanaka@northwind.com\"],\n  [\"Person: Dana Tanaka\", \"Holds_Account\", \"EmailAccount: dtanaka@northwind.com\"],\n  [\"Person: Julian Kowalski\", \"Employed_By\", \"Organization: Northwind Logistics Inc.\"],\n  [\"Person: Julian Kowalski\", \"Holds_Account\", \"EmailAddress: julian.kowalski@northwind.com\"],\n  [\"Person: Julian Kowalski\", \"Holds_Account\", \"EmailAccount: julian.kowalski@northwind.com\"],\n  [\"Person: Hector Holloway\", \"Employed_By\", \"Organization: Summit Peak Logistics Co.\"],\n  [\"Person: Hector Holloway\", \"Holds_Account\", \"EmailAddress: hector.holloway@summitpeak.com\"],\n  [\"Person: Hector Holloway\", \"Holds_Account\", \"EmailAccount: hector.holloway@summitpeak.com\"],\n  [\"Person: Owen Castillo\", \"Employed_By\", \"Organization: Summit Peak Logistics Co.\"],\n  [\"Person: Owen Castillo\", \"Holds_Account\", \"EmailAddress: ocastillo@summitpeak.com\"],\n  [\"Person: Owen Castillo\", \"Holds_Account\", \"EmailAccount: ocastillo@summitpeak.com\"],\n  [\"Organization: Northwind Logistics Inc.\", \"Located_At\", \"Location: 258 Maple Avenue, Raleigh, NC 27601\"],\n  [\"Organization: Northwind Logistics Inc.\", \"Owns_Account\", \"Account: 7842241572\"],\n  [\"Account: 7842241572\", \"accountType\", \"Lakeshore Savings Bank\"],\n  [\"Organization: Summit Peak Logistics Co.\", \"Owns_Account\", \"Account: 1901806558\"],\n  [\"Account: 1901806558\", \"accountType\", \"Lakeshore Savings Bank\"],\n  [\"Person: Dana Tanaka\", \"Owns_Account\", \"Account: 7329094019\"],\n  [\"Account: 7329094019\", \"accountType\", \"Lakeshore Savings Bank\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Maya Banerjee",
+     "Employed_By",
+     "Organization: Northwind Logistics Inc."
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Holds_Account",
+     "EmailAddress: mbanerjee@northwind.com"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Holds_Account",
+     "EmailAccount: mbanerjee@northwind.com"
+    ],
+    [
+     "Person: Dana Tanaka",
+     "Employed_By",
+     "Organization: Northwind Logistics Inc."
+    ],
+    [
+     "Person: Dana Tanaka",
+     "Holds_Account",
+     "EmailAddress: dtanaka@northwind.com"
+    ],
+    [
+     "Person: Dana Tanaka",
+     "Holds_Account",
+     "EmailAccount: dtanaka@northwind.com"
+    ],
+    [
+     "Person: Julian Kowalski",
+     "Employed_By",
+     "Organization: Northwind Logistics Inc."
+    ],
+    [
+     "Person: Julian Kowalski",
+     "Holds_Account",
+     "EmailAddress: julian.kowalski@northwind.com"
+    ],
+    [
+     "Person: Julian Kowalski",
+     "Holds_Account",
+     "EmailAccount: julian.kowalski@northwind.com"
+    ],
+    [
+     "Person: Hector Holloway",
+     "Employed_By",
+     "Organization: Summit Peak Logistics Co."
+    ],
+    [
+     "Person: Hector Holloway",
+     "Holds_Account",
+     "EmailAddress: hector.holloway@summitpeak.com"
+    ],
+    [
+     "Person: Hector Holloway",
+     "Holds_Account",
+     "EmailAccount: hector.holloway@summitpeak.com"
+    ],
+    [
+     "Person: Owen Castillo",
+     "Employed_By",
+     "Organization: Summit Peak Logistics Co."
+    ],
+    [
+     "Person: Owen Castillo",
+     "Holds_Account",
+     "EmailAddress: ocastillo@summitpeak.com"
+    ],
+    [
+     "Person: Owen Castillo",
+     "Holds_Account",
+     "EmailAccount: ocastillo@summitpeak.com"
+    ],
+    [
+     "Organization: Northwind Logistics Inc.",
+     "Located_At",
+     "Location: 258 Maple Avenue, Raleigh, NC 27601"
+    ],
+    [
+     "Organization: Northwind Logistics Inc.",
+     "Owns_Account",
+     "Account: 7842241572"
+    ],
+    [
+     "Account: 7842241572",
+     "accountType",
+     "Lakeshore Savings Bank"
+    ],
+    [
+     "Organization: Summit Peak Logistics Co.",
+     "Owns_Account",
+     "Account: 1901806558"
+    ],
+    [
+     "Account: 1901806558",
+     "accountType",
+     "Lakeshore Savings Bank"
+    ],
+    [
+     "Person: Dana Tanaka",
+     "Owns_Account",
+     "Account: 7329094019"
+    ],
+    [
+     "Account: 7329094019",
+     "accountType",
+     "Lakeshore Savings Bank"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 923,
+    "completion": 611
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: mbanerjee@northwind.com\", \"addressValue\", \"mbanerjee@northwind.com\"],\n  [\"EmailAddress: hector.holloway@summitpeak.com\", \"addressValue\", \"hector.holloway@summitpeak.com\"],\n  [\"EmailAddress: ocastillo@summitpeak.com\", \"addressValue\", \"ocastillo@summitpeak.com\"],\n  [\"EmailAccount: mbanerjee@northwind.com\", \"emailAddress\", \"EmailAddress: mbanerjee@northwind.com\"],\n  [\"EmailAccount: hector.holloway@summitpeak.com\", \"emailAddress\", \"EmailAddress: hector.holloway@summitpeak.com\"],\n  [\"EmailAccount: ocastillo@summitpeak.com\", \"emailAddress\", \"EmailAddress: ocastillo@summitpeak.com\"],\n  [\"Person: Maya Banerjee\", \"Holds_Account\", \"EmailAddress: mbanerjee@northwind.com\"],\n  [\"Person: Hector Holloway\", \"Holds_Account\", \"EmailAddress: hector.holloway@summitpeak.com\"],\n  [\"Person: Oscar Castillo\", \"Holds_Account\", \"EmailAddress: ocastillo@summitpeak.com\"],\n  [\"EmailMessage: Re: banking change request\", \"subject\", \"Re: banking change request\"],\n  [\"EmailMessage: Re: banking change request\", \"sentTime\", \"Thu, 13 Mar 2025 19:00:00 +0000\"],\n  [\"EmailMessage: Re: banking change request\", \"from\", \"EmailAddress: mbanerjee@northwind.com\"],\n  [\"EmailMessage: Re: banking change request\", \"to\", \"EmailAddress: hector.holloway@summitpeak.com\"],\n  [\"EmailMessage: Re: banking change request\", \"to\", \"EmailAddress: ocastillo@summitpeak.com\"],\n  [\"Person: Maya Banerjee\", \"Initiated\", \"Event: refund request\"],\n  [\"Event: refund request\", \"startTime\", \"February 8, 2025 at 14:50 UTC\"],\n  [\"Person: Dana Tanaka\", \"Initiated\", \"Event: payment approval\"],\n  [\"Event: payment approval\", \"startTime\", \"February 12, 2025 at 11:00 UTC\"],\n  [\"Person: Maya Banerjee\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"February 19, 2025 at 12:50 UTC\"],\n  [\"Person: Julian Kowalski\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"March 13, 2025 at 17:00 UTC\"],\n  [\"Person: Maya Banerjee\", \"Communicated_With\", \"Person: Hector Holloway\"],\n  [\"Person: Maya Banerjee\", \"Communicated_With\", \"Person: Oscar Castillo\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: mbanerjee@northwind.com",
+     "addressValue",
+     "mbanerjee@northwind.com"
+    ],
+    [
+     "EmailAddress: hector.holloway@summitpeak.com",
+     "addressValue",
+     "hector.holloway@summitpeak.com"
+    ],
+    [
+     "EmailAddress: ocastillo@summitpeak.com",
+     "addressValue",
+     "ocastillo@summitpeak.com"
+    ],
+    [
+     "EmailAccount: mbanerjee@northwind.com",
+     "emailAddress",
+     "EmailAddress: mbanerjee@northwind.com"
+    ],
+    [
+     "EmailAccount: hector.holloway@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: hector.holloway@summitpeak.com"
+    ],
+    [
+     "EmailAccount: ocastillo@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: ocastillo@summitpeak.com"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Holds_Account",
+     "EmailAddress: mbanerjee@northwind.com"
+    ],
+    [
+     "Person: Hector Holloway",
+     "Holds_Account",
+     "EmailAddress: hector.holloway@summitpeak.com"
+    ],
+    [
+     "Person: Oscar Castillo",
+     "Holds_Account",
+     "EmailAddress: ocastillo@summitpeak.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "subject",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Thu, 13 Mar 2025 19:00:00 +0000"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "from",
+     "EmailAddress: mbanerjee@northwind.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: hector.holloway@summitpeak.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: ocastillo@summitpeak.com"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "February 8, 2025 at 14:50 UTC"
+    ],
+    [
+     "Person: Dana Tanaka",
+     "Initiated",
+     "Event: payment approval"
+    ],
+    [
+     "Event: payment approval",
+     "startTime",
+     "February 12, 2025 at 11:00 UTC"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "February 19, 2025 at 12:50 UTC"
+    ],
+    [
+     "Person: Julian Kowalski",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "March 13, 2025 at 17:00 UTC"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Communicated_With",
+     "Person: Hector Holloway"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Communicated_With",
+     "Person: Oscar Castillo"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 869,
+    "completion": 669
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: hector.holloway@summitpeak.com",
+   "addressValue",
+   "hector.holloway@summitpeak.com"
+  ],
+  [
+   "EmailAddress: julian.kowalski@northwind.com",
+   "addressValue",
+   "julian.kowalski@northwind.com"
+  ],
+  [
+   "EmailAccount: hector.holloway@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: hector.holloway@summitpeak.com"
+  ],
+  [
+   "EmailAccount: julian.kowalski@northwind.com",
+   "emailAddress",
+   "EmailAddress: julian.kowalski@northwind.com"
+  ],
+  [
+   "Person: Hector Holloway",
+   "Holds_Account",
+   "EmailAddress: hector.holloway@summitpeak.com"
+  ],
+  [
+   "Person: Julian Kowalski",
+   "Holds_Account",
+   "EmailAddress: julian.kowalski@northwind.com"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "subject",
+   "Contract terms for next quarter"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "sentTime",
+   "Mon, 24 Feb 2025 14:00:00 +0000"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "from",
+   "EmailAddress: hector.holloway@summitpeak.com"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "to",
+   "EmailAddress: julian.kowalski@northwind.com"
+  ],
+  [
+   "Person: Dana Tanaka",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "February 3, 2025 at 09:45 UTC"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "10 February 2025, 12:50 UTC"
+  ],
+  [
+   "Person: Julian Kowalski",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "14 February 2025, 10:15 UTC"
+  ],
+  [
+   "Person: Owen Castillo",
+   "Initiated",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Event: vendor onboarding",
+   "startTime",
+   "February 24, 2025 at 12:00 UTC"
+  ],
+  [
+   "Person: Hector Holloway",
+   "Communicated_With",
+   "Person: Julian Kowalski"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Employed_By",
+   "Organization: Northwind Logistics Inc."
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Holds_Account",
+   "EmailAddress: mbanerjee@northwind.com"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Holds_Account",
+   "EmailAccount: mbanerjee@northwind.com"
+  ],
+  [
+   "Person: Dana Tanaka",
+   "Employed_By",
+   "Organization: Northwind Logistics Inc."
+  ],
+  [
+   "Person: Dana Tanaka",
+   "Holds_Account",
+   "EmailAddress: dtanaka@northwind.com"
+  ],
+  [
+   "Person: Dana Tanaka",
+   "Holds_Account",
+   "EmailAccount: dtanaka@northwind.com"
+  ],
+  [
+   "Person: Julian Kowalski",
+   "Employed_By",
+   "Organization: Northwind Logistics Inc."
+  ],
+  [
+   "Person: Julian Kowalski",
+   "Holds_Account",
+   "EmailAddress: julian.kowalski@northwind.com"
+  ],
+  [
+   "Person: Julian Kowalski",
+   "Holds_Account",
+   "EmailAccount: julian.kowalski@northwind.com"
+  ],
+  [
+   "Person: Hector Holloway",
+   "Employed_By",
+   "Organization: Summit Peak Logistics Co."
+  ],
+  [
+   "Person: Hector Holloway",
+   "Holds_Account",
+   "EmailAddress: hector.holloway@summitpeak.com"
+  ],
+  [
+   "Person: Hector Holloway",
+   "Holds_Account",
+   "EmailAccount: hector.holloway@summitpeak.com"
+  ],
+  [
+   "Person: Owen Castillo",
+   "Employed_By",
+   "Organization: Summit Peak Logistics Co."
+  ],
+  [
+   "Person: Owen Castillo",
+   "Holds_Account",
+   "EmailAddress: ocastillo@summitpeak.com"
+  ],
+  [
+   "Person: Owen Castillo",
+   "Holds_Account",
+   "EmailAccount: ocastillo@summitpeak.com"
+  ],
+  [
+   "Organization: Northwind Logistics Inc.",
+   "Located_At",
+   "Location: 258 Maple Avenue, Raleigh, NC 27601"
+  ],
+  [
+   "Organization: Northwind Logistics Inc.",
+   "Owns_Account",
+   "Account: 7842241572"
+  ],
+  [
+   "Account: 7842241572",
+   "accountType",
+   "Lakeshore Savings Bank"
+  ],
+  [
+   "Organization: Summit Peak Logistics Co.",
+   "Owns_Account",
+   "Account: 1901806558"
+  ],
+  [
+   "Account: 1901806558",
+   "accountType",
+   "Lakeshore Savings Bank"
+  ],
+  [
+   "Person: Dana Tanaka",
+   "Owns_Account",
+   "Account: 7329094019"
+  ],
+  [
+   "Account: 7329094019",
+   "accountType",
+   "Lakeshore Savings Bank"
+  ],
+  [
+   "EmailAddress: mbanerjee@northwind.com",
+   "addressValue",
+   "mbanerjee@northwind.com"
+  ],
+  [
+   "EmailAddress: hector.holloway@summitpeak.com",
+   "addressValue",
+   "hector.holloway@summitpeak.com"
+  ],
+  [
+   "EmailAddress: ocastillo@summitpeak.com",
+   "addressValue",
+   "ocastillo@summitpeak.com"
+  ],
+  [
+   "EmailAccount: mbanerjee@northwind.com",
+   "emailAddress",
+   "EmailAddress: mbanerjee@northwind.com"
+  ],
+  [
+   "EmailAccount: hector.holloway@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: hector.holloway@summitpeak.com"
+  ],
+  [
+   "EmailAccount: ocastillo@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: ocastillo@summitpeak.com"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Holds_Account",
+   "EmailAddress: mbanerjee@northwind.com"
+  ],
+  [
+   "Person: Hector Holloway",
+   "Holds_Account",
+   "EmailAddress: hector.holloway@summitpeak.com"
+  ],
+  [
+   "Person: Oscar Castillo",
+   "Holds_Account",
+   "EmailAddress: ocastillo@summitpeak.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "subject",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Thu, 13 Mar 2025 19:00:00 +0000"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "from",
+   "EmailAddress: mbanerjee@northwind.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: hector.holloway@summitpeak.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: ocastillo@summitpeak.com"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "February 8, 2025 at 14:50 UTC"
+  ],
+  [
+   "Person: Dana Tanaka",
+   "Initiated",
+   "Event: payment approval"
+  ],
+  [
+   "Event: payment approval",
+   "startTime",
+   "February 12, 2025 at 11:00 UTC"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "February 19, 2025 at 12:50 UTC"
+  ],
+  [
+   "Person: Julian Kowalski",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "March 13, 2025 at 17:00 UTC"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Communicated_With",
+   "Person: Hector Holloway"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Communicated_With",
+   "Person: Oscar Castillo"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2652,
+  "completion": 1827
+ }
+}

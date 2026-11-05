@@ -80,10 +80,11 @@ from case_uco.graph import DEFAULT_CONTEXT
 from sentence_transformers import SentenceTransformer
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-from graphkit import (HARNESS, REGISTRY, RELATION_PHRASES, SCHEMA, VERDICTS, XSD, case_validate, definition, expand,
-                      graph_triples, iso_time, load_graph, property_definition, slug, words)
+from graphkit import (HARNESS, PROFILE, REGISTRY, RELATION_PHRASES, SCHEMA, VERDICTS, XSD, case_validate, definition,
+                      expand, graph_triples, iso_time, load_graph, property_definition, slug, words)
 from llm import CONFIG, case_dirs, passages
-from pipeline_edc import TYPES
+
+TYPES = {c: list(ps) for c, ps in PROFILE["literal_properties"].items()}  # the task's properties by class
 
 VERDICT_OF = {"entailment": "supported", "contradiction": "contradicted", "neutral": "not_enough_evidence"}
 PHRASES = {k.lower(): v for k, v in RELATION_PHRASES.items()}
@@ -92,24 +93,16 @@ HAS_FACET = rdflib.URIRef(expand("uco-core:hasFacet"))
 HEADER = re.compile(r"^(From|To|Cc|Subject|Date):")
 BATCH = 16
 STAGES = {"left": "left", "right": "right", "both": "lr"}  # --stage -> output suffix
-# Right hook. Each relation kind's domain and range, from the task statement (graphkit.RELATION_KINDS): CASE/UCO does
-# not define the kinds.
-PERSON, EVENT, ACCOUNTS = {"Person"}, {"Event"}, {"Account"}
-KIND_CLASSES = {"Employed_By": (PERSON, {"Organization"}), "Reports_To": (PERSON, PERSON),
-                "Holds_Account": (PERSON, {"EmailAddress", "ApplicationAccount", "EmailAccount"}),
-                "Owns_Account": ({"Person", "Organization"}, ACCOUNTS),
-                "Located_At": ({"Organization", "Event"}, {"Location"}), "Participated_In": (PERSON, EVENT),
-                "Initiated": (PERSON, EVENT), "Transferred_To": (ACCOUNTS, ACCOUNTS), "Authorized": (PERSON, EVENT),
-                "Communicated_With": (PERSON, PERSON)}
-SYMMETRIC = {"Communicated_With"}
+# Right hook. Each relation kind's domain and range, from the task profile (profile.toml): CASE/UCO does not define
+# the kinds.
+KIND_CLASSES = {k: (set(v["domain"]), set(v["range"])) for k, v in PROFILE["kinds"].items()}
+SYMMETRIC = set(PROFILE["relations"]["symmetric"])
 # Kinds each kind entails, same direction: one who initiated or authorized an event took part in it. Not competitors.
-ENTAILS = {"Initiated": {"Participated_In"}, "Authorized": {"Participated_In"}}
+ENTAILS = {k: set(v) for k, v in PROFILE["entails"].items()}
 KIND_OF = {k.lower(): k for k in KIND_CLASSES}
 # Contrast: the task's object properties and the classes they point to (CASE/UCO's ranges are wider: UcoObject,
 # ObservableObject). Literal competitors are the task's properties (TYPES, as in arm C's target schema).
-PROP_CLASSES = {("Account", "accountIssuer"): {"Organization"}, ("EmailMessage", "from"): {"EmailAddress"},
-                ("EmailMessage", "to"): {"EmailAddress"}, ("Message", "from"): {"ApplicationAccount"},
-                ("Message", "to"): {"ApplicationAccount"}}
+PROP_CLASSES = {(o["class"], o["property"]): set(o["range"]) for o in PROFILE["object_properties"]}
 UNCONSTRAINED = {"UcoObject", "UcoThing"}  # a domain or range here admits any object: the check cannot judge
 CHECKS = ("domain", "range", "datatype", "cardinality", "self_loop", "header", "contrast")
 # Header rule: the message edges a mail-header block decides, and its fields.

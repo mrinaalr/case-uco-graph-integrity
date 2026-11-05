@@ -54,6 +54,16 @@ design is in [../EXPERIMENT.md](../EXPERIMENT.md).
   with each value's score). Models and margin from `[hook]`; `add_threshold` in `[selector]`. The
   module docstring lists every step.
 
+- **Reconciler** (`reconcile/run.py --arm <arm> [--policy conservative,strict] [--proposals DIR]`): reads
+  `results/<run_id>/<arm>/` and writes `results/<run_id>/<arm>+rec/` (and `+rec-strict`): the reconciled
+  `graph.jsonld`, `input/graph.jsonld` (the input, byte for byte), `ledger/` (`claims.jsonl`, `entities.jsonl`,
+  `decisions.jsonl`), `provenance.jsonld` and `run.json`. Any graph and any folder of documents: `--graph G --docs D
+  --out O`. Passes `verify,propose,readings` (`--passes`); policies in `reconcile/policy.py`; the task's tables in
+  `profile.toml`. `reconcile/propose_llm.py --out results/RUN/proposals` writes the LLM proposals `--proposals` reads;
+  `reconcile/parity.py` compares kept edges with a hook run; `calibration.py --run-id RUN` sets each verdict against
+  the scorer. The module docstrings list every step; the design is in [../EXPERIMENT.md](../EXPERIMENT.md),
+  "Reconciler".
+
 Earlier arms, still runnable:
 
 - **A1 script** (`pipeline_script.py`): the model writes one `CASEGraph` script, run with a timeout.
@@ -91,6 +101,14 @@ From the repo root, using the SDK venv with `openai` and `scipy` installed:
 ```bash
 .venv/bin/python harness/smoke.py
 ```
+
+```bash
+.venv/bin/python -m pytest
+```
+
+- `pytest` runs `tests/` with a stub in place of the two models (`RECONCILE_TEST_MODELS=1` loads them): the scorer
+  and meaning checks, the ledger, the profile against the schema, each pass, the policy, and the layering rule that
+  `reconcile/` imports no arm and names no gold file.
 
 ```bash
 .venv/bin/python harness/pipeline_script.py --run-id baseline --model ollama

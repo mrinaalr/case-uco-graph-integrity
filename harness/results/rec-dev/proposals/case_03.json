@@ -1,0 +1,782 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Samuel Haddad\", \"Employed_By\", \"Organization: Ironleaf Packaging Inc.\"],\n  [\"EmailAddress: shaddad@ironleaf.com\", \"key\", \"shaddad@ironleaf.com\"],\n  [\"Person: Samuel Haddad\", \"Holds_Account\", \"EmailAddress: shaddad@ironleaf.com\"],\n  [\"EmailAccount: shaddad@ironleaf.com\", \"key\", \"shaddad@ironleaf.com\"],\n  [\"Person: Samuel Haddad\", \"Holds_Account\", \"EmailAccount: shaddad@ironleaf.com\"],\n  [\"Person: Rosa Kowalski\", \"Employed_By\", \"Organization: Ironleaf Packaging Inc.\"],\n  [\"EmailAddress: rosa.kowalski@ironleaf.com\", \"key\", \"rosa.kowalski@ironleaf.com\"],\n  [\"Person: Rosa Kowalski\", \"Holds_Account\", \"EmailAddress: rosa.kowalski@ironleaf.com\"],\n  [\"EmailAccount: rosa.kowalski@ironleaf.com\", \"key\", \"rosa.kowalski@ironleaf.com\"],\n  [\"Person: Rosa Kowalski\", \"Holds_Account\", \"EmailAccount: rosa.kowalski@ironleaf.com\"],\n  [\"Person: Ruth Osei\", \"Employed_By\", \"Organization: Ironleaf Packaging Inc.\"],\n  [\"EmailAddress: ruth.osei@ironleaf.com\", \"key\", \"ruth.osei@ironleaf.com\"],\n  [\"Person: Ruth Osei\", \"Holds_Account\", \"EmailAddress: ruth.osei@ironleaf.com\"],\n  [\"EmailAccount: ruth.osei@ironleaf.com\", \"key\", \"ruth.osei@ironleaf.com\"],\n  [\"Person: Ruth Osei\", \"Holds_Account\", \"EmailAccount: ruth.osei@ironleaf.com\"],\n  [\"Person: Wesley Ivanova\", \"Employed_By\", \"Organization: Bluegate Analytics Co.\"],\n  [\"EmailAddress: wesley.ivanova@bluegate.com\", \"key\", \"wesley.ivanova@bluegate.com\"],\n  [\"Person: Wesley Ivanova\", \"Holds_Account\", \"EmailAddress: wesley.ivanova@bluegate.com\"],\n  [\"EmailAccount: wesley.ivanova@bluegate.com\", \"key\", \"wesley.ivanova@bluegate.com\"],\n  [\"Person: Wesley Ivanova\", \"Holds_Account\", \"EmailAccount: wesley.ivanova@bluegate.com\"],\n  [\"Location: 2530 Riverside Boulevard, Boise, ID 83702\", \"key\", \"2530 Riverside Boulevard\"],\n  [\"Location: 2530 Riverside Boulevard, Boise, ID 83702\", \"locality\", \"Boise\"],\n  [\"Location: 2530 Riverside Boulevard, Boise, ID 83702\", \"region\", \"ID\"],\n  [\"Location: 2530 Riverside Boulevard, Boise, ID 83702\", \"postalCode\", \"83702\"],\n  [\"Organization: Ironleaf Packaging Inc.\", \"Located_At\", \"Location: 2530 Riverside Boulevard, Boise, ID 83702\"],\n  [\"Location: 39 Maple Avenue, Dayton, OH 45402\", \"key\", \"39 Maple Avenue\"],\n  [\"Location: 39 Maple Avenue, Dayton, OH 45402\", \"locality\", \"Dayton\"],\n  [\"Location: 39 Maple Avenue, Dayton, OH 45402\", \"region\", \"OH\"],\n  [\"Location: 39 Maple Avenue, Dayton, OH 45402\", \"postalCode\", \"45402\"],\n  [\"Organization: Bluegate Analytics Co.\", \"Located_At\", \"Location: 39 Maple Avenue, Dayton, OH 45402\"],\n  [\"Account: 3478799698\", \"key\", \"3478799698\"],\n  [\"Account: 3478799698\", \"accountType\", \"ApplicationAccount\"],\n  [\"Organization: Ironleaf Packaging Inc.\", \"Owns_Account\", \"Account: 3478799698\"],\n  [\"Account: 3478799698\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Account: 2735522067\", \"key\", \"2735522067\"],\n  [\"Account: 2735522067\", \"accountType\", \"ApplicationAccount\"],\n  [\"Organization: Bluegate Analytics Co.\", \"Owns_Account\", \"Account: 2735522067\"],\n  [\"Account: 2735522067\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Account: 2594796775\", \"key\", \"2594796775\"],\n  [\"Account: 2594796775\", \"accountType\", \"ApplicationAccount\"],\n  [\"Person: Rosa Kowalski\", \"Owns_Account\", \"Account: 2594796775\"],\n  [\"Account: 2594796775\", \"accountIssuer\", \"Organization: First Harbor Bank\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Samuel Haddad",
+     "Employed_By",
+     "Organization: Ironleaf Packaging Inc."
+    ],
+    [
+     "EmailAddress: shaddad@ironleaf.com",
+     "key",
+     "shaddad@ironleaf.com"
+    ],
+    [
+     "Person: Samuel Haddad",
+     "Holds_Account",
+     "EmailAddress: shaddad@ironleaf.com"
+    ],
+    [
+     "EmailAccount: shaddad@ironleaf.com",
+     "key",
+     "shaddad@ironleaf.com"
+    ],
+    [
+     "Person: Samuel Haddad",
+     "Holds_Account",
+     "EmailAccount: shaddad@ironleaf.com"
+    ],
+    [
+     "Person: Rosa Kowalski",
+     "Employed_By",
+     "Organization: Ironleaf Packaging Inc."
+    ],
+    [
+     "EmailAddress: rosa.kowalski@ironleaf.com",
+     "key",
+     "rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "Person: Rosa Kowalski",
+     "Holds_Account",
+     "EmailAddress: rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "EmailAccount: rosa.kowalski@ironleaf.com",
+     "key",
+     "rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "Person: Rosa Kowalski",
+     "Holds_Account",
+     "EmailAccount: rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "Person: Ruth Osei",
+     "Employed_By",
+     "Organization: Ironleaf Packaging Inc."
+    ],
+    [
+     "EmailAddress: ruth.osei@ironleaf.com",
+     "key",
+     "ruth.osei@ironleaf.com"
+    ],
+    [
+     "Person: Ruth Osei",
+     "Holds_Account",
+     "EmailAddress: ruth.osei@ironleaf.com"
+    ],
+    [
+     "EmailAccount: ruth.osei@ironleaf.com",
+     "key",
+     "ruth.osei@ironleaf.com"
+    ],
+    [
+     "Person: Ruth Osei",
+     "Holds_Account",
+     "EmailAccount: ruth.osei@ironleaf.com"
+    ],
+    [
+     "Person: Wesley Ivanova",
+     "Employed_By",
+     "Organization: Bluegate Analytics Co."
+    ],
+    [
+     "EmailAddress: wesley.ivanova@bluegate.com",
+     "key",
+     "wesley.ivanova@bluegate.com"
+    ],
+    [
+     "Person: Wesley Ivanova",
+     "Holds_Account",
+     "EmailAddress: wesley.ivanova@bluegate.com"
+    ],
+    [
+     "EmailAccount: wesley.ivanova@bluegate.com",
+     "key",
+     "wesley.ivanova@bluegate.com"
+    ],
+    [
+     "Person: Wesley Ivanova",
+     "Holds_Account",
+     "EmailAccount: wesley.ivanova@bluegate.com"
+    ],
+    [
+     "Location: 2530 Riverside Boulevard, Boise, ID 83702",
+     "key",
+     "2530 Riverside Boulevard"
+    ],
+    [
+     "Location: 2530 Riverside Boulevard, Boise, ID 83702",
+     "locality",
+     "Boise"
+    ],
+    [
+     "Location: 2530 Riverside Boulevard, Boise, ID 83702",
+     "region",
+     "ID"
+    ],
+    [
+     "Location: 2530 Riverside Boulevard, Boise, ID 83702",
+     "postalCode",
+     "83702"
+    ],
+    [
+     "Organization: Ironleaf Packaging Inc.",
+     "Located_At",
+     "Location: 2530 Riverside Boulevard, Boise, ID 83702"
+    ],
+    [
+     "Location: 39 Maple Avenue, Dayton, OH 45402",
+     "key",
+     "39 Maple Avenue"
+    ],
+    [
+     "Location: 39 Maple Avenue, Dayton, OH 45402",
+     "locality",
+     "Dayton"
+    ],
+    [
+     "Location: 39 Maple Avenue, Dayton, OH 45402",
+     "region",
+     "OH"
+    ],
+    [
+     "Location: 39 Maple Avenue, Dayton, OH 45402",
+     "postalCode",
+     "45402"
+    ],
+    [
+     "Organization: Bluegate Analytics Co.",
+     "Located_At",
+     "Location: 39 Maple Avenue, Dayton, OH 45402"
+    ],
+    [
+     "Account: 3478799698",
+     "key",
+     "3478799698"
+    ],
+    [
+     "Account: 3478799698",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Organization: Ironleaf Packaging Inc.",
+     "Owns_Account",
+     "Account: 3478799698"
+    ],
+    [
+     "Account: 3478799698",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Account: 2735522067",
+     "key",
+     "2735522067"
+    ],
+    [
+     "Account: 2735522067",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Organization: Bluegate Analytics Co.",
+     "Owns_Account",
+     "Account: 2735522067"
+    ],
+    [
+     "Account: 2735522067",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Account: 2594796775",
+     "key",
+     "2594796775"
+    ],
+    [
+     "Account: 2594796775",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Person: Rosa Kowalski",
+     "Owns_Account",
+     "Account: 2594796775"
+    ],
+    [
+     "Account: 2594796775",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 915,
+    "completion": 1210
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: rosa.kowalski@ironleaf.com\", \"addressValue\", \"rosa.kowalski@ironleaf.com\"],\n  [\"EmailAddress: wesley.ivanova@bluegate.com\", \"addressValue\", \"wesley.ivanova@bluegate.com\"],\n  [\"EmailAccount: rosa.kowalski@ironleaf.com\", \"emailAddress\", \"EmailAddress: rosa.kowalski@ironleaf.com\"],\n  [\"EmailAccount: wesley.ivanova@bluegate.com\", \"emailAddress\", \"EmailAddress: wesley.ivanova@bluegate.com\"],\n  [\"Person: Rosa Kowalski\", \"Holds_Account\", \"EmailAddress: rosa.kowalski@ironleaf.com\"],\n  [\"Person: Wesley Ivanova\", \"Holds_Account\", \"EmailAddress: wesley.ivanova@bluegate.com\"],\n  [\"Person: Ruth Osei\", \"Holds_Account\", \"EmailAddress: rosa.kowalski@ironleaf.com\"],\n  [\"Person: Samuel Haddad\", \"Holds_Account\", \"EmailAddress: rosa.kowalski@ironleaf.com\"],\n  [\"Person: Rosa Kowalski\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Event: bank detail change\", \"startTime\", \"16 June 2025, 13:45 UTC\"],\n  [\"Person: Samuel Haddad\", \"Initiated\", \"Event: refund request\"],\n  [\"Event: refund request\", \"startTime\", \"June 17, 2025 at 17:10 UTC\"],\n  [\"Person: Samuel Haddad\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"18 June 2025, 09:15 UTC\"],\n  [\"Location: Ironleaf Packaging Inc. office\", \"street\", \"Ironleaf Packaging Inc. office\"],\n  [\"Location: Ironleaf Packaging Inc. office\", \"locality\", \"Ironleaf Packaging Inc. office\"],\n  [\"Location: Ironleaf Packaging Inc. office\", \"region\", \"Ironleaf Packaging Inc. office\"],\n  [\"Location: Ironleaf Packaging Inc. office\", \"postalCode\", \"Ironleaf Packaging Inc. office\"],\n  [\"Event: expense reimbursement\", \"Located_At\", \"Location: Ironleaf Packaging Inc. office\"],\n  [\"Person: Samuel Haddad\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Event: invoice submission\", \"startTime\", \"June 25, 2025 at 09:25 UTC\"],\n  [\"Location: Ironleaf Packaging Inc.'s office\", \"street\", \"Ironleaf Packaging Inc.'s office\"],\n  [\"Location: Ironleaf Packaging Inc.'s office\", \"locality\", \"Ironleaf Packaging Inc.'s office\"],\n  [\"Location: Ironleaf Packaging Inc.'s office\", \"region\", \"Ironleaf Packaging Inc.'s office\"],\n  [\"Location: Ironleaf Packaging Inc.'s office\", \"postalCode\", \"Ironleaf Packaging Inc.'s office\"],\n  [\"Event: invoice submission\", \"Located_At\", \"Location: Ironleaf Packaging Inc.'s office\"],\n  [\"Person: Rosa Kowalski\", \"Initiated\", \"Event: vendor onboarding\"],\n  [\"Event: vendor onboarding\", \"startTime\", \"8 July 2025, 11:45 UTC\"],\n  [\"Person: Wesley Ivanova\", \"Participated_In\", \"Event: vendor onboarding\"],\n  [\"Person: Samuel Haddad\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"July 15, 2025 at 11:10 UTC\"],\n  [\"Person: Rosa Kowalski\", \"Authorized\", \"Event: wire transfer\"],\n  [\"Person: Samuel Haddad\", \"Communicated_With\", \"Person: Wesley Ivanova\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: rosa.kowalski@ironleaf.com",
+     "addressValue",
+     "rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "EmailAddress: wesley.ivanova@bluegate.com",
+     "addressValue",
+     "wesley.ivanova@bluegate.com"
+    ],
+    [
+     "EmailAccount: rosa.kowalski@ironleaf.com",
+     "emailAddress",
+     "EmailAddress: rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "EmailAccount: wesley.ivanova@bluegate.com",
+     "emailAddress",
+     "EmailAddress: wesley.ivanova@bluegate.com"
+    ],
+    [
+     "Person: Rosa Kowalski",
+     "Holds_Account",
+     "EmailAddress: rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "Person: Wesley Ivanova",
+     "Holds_Account",
+     "EmailAddress: wesley.ivanova@bluegate.com"
+    ],
+    [
+     "Person: Ruth Osei",
+     "Holds_Account",
+     "EmailAddress: rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "Person: Samuel Haddad",
+     "Holds_Account",
+     "EmailAddress: rosa.kowalski@ironleaf.com"
+    ],
+    [
+     "Person: Rosa Kowalski",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "16 June 2025, 13:45 UTC"
+    ],
+    [
+     "Person: Samuel Haddad",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "June 17, 2025 at 17:10 UTC"
+    ],
+    [
+     "Person: Samuel Haddad",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "18 June 2025, 09:15 UTC"
+    ],
+    [
+     "Location: Ironleaf Packaging Inc. office",
+     "street",
+     "Ironleaf Packaging Inc. office"
+    ],
+    [
+     "Location: Ironleaf Packaging Inc. office",
+     "locality",
+     "Ironleaf Packaging Inc. office"
+    ],
+    [
+     "Location: Ironleaf Packaging Inc. office",
+     "region",
+     "Ironleaf Packaging Inc. office"
+    ],
+    [
+     "Location: Ironleaf Packaging Inc. office",
+     "postalCode",
+     "Ironleaf Packaging Inc. office"
+    ],
+    [
+     "Event: expense reimbursement",
+     "Located_At",
+     "Location: Ironleaf Packaging Inc. office"
+    ],
+    [
+     "Person: Samuel Haddad",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "June 25, 2025 at 09:25 UTC"
+    ],
+    [
+     "Location: Ironleaf Packaging Inc.'s office",
+     "street",
+     "Ironleaf Packaging Inc.'s office"
+    ],
+    [
+     "Location: Ironleaf Packaging Inc.'s office",
+     "locality",
+     "Ironleaf Packaging Inc.'s office"
+    ],
+    [
+     "Location: Ironleaf Packaging Inc.'s office",
+     "region",
+     "Ironleaf Packaging Inc.'s office"
+    ],
+    [
+     "Location: Ironleaf Packaging Inc.'s office",
+     "postalCode",
+     "Ironleaf Packaging Inc.'s office"
+    ],
+    [
+     "Event: invoice submission",
+     "Located_At",
+     "Location: Ironleaf Packaging Inc.'s office"
+    ],
+    [
+     "Person: Rosa Kowalski",
+     "Initiated",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Event: vendor onboarding",
+     "startTime",
+     "8 July 2025, 11:45 UTC"
+    ],
+    [
+     "Person: Wesley Ivanova",
+     "Participated_In",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Person: Samuel Haddad",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "July 15, 2025 at 11:10 UTC"
+    ],
+    [
+     "Person: Rosa Kowalski",
+     "Authorized",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Samuel Haddad",
+     "Communicated_With",
+     "Person: Wesley Ivanova"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 982,
+    "completion": 857
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Samuel Haddad",
+   "Employed_By",
+   "Organization: Ironleaf Packaging Inc."
+  ],
+  [
+   "EmailAddress: shaddad@ironleaf.com",
+   "key",
+   "shaddad@ironleaf.com"
+  ],
+  [
+   "Person: Samuel Haddad",
+   "Holds_Account",
+   "EmailAddress: shaddad@ironleaf.com"
+  ],
+  [
+   "EmailAccount: shaddad@ironleaf.com",
+   "key",
+   "shaddad@ironleaf.com"
+  ],
+  [
+   "Person: Samuel Haddad",
+   "Holds_Account",
+   "EmailAccount: shaddad@ironleaf.com"
+  ],
+  [
+   "Person: Rosa Kowalski",
+   "Employed_By",
+   "Organization: Ironleaf Packaging Inc."
+  ],
+  [
+   "EmailAddress: rosa.kowalski@ironleaf.com",
+   "key",
+   "rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "Person: Rosa Kowalski",
+   "Holds_Account",
+   "EmailAddress: rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "EmailAccount: rosa.kowalski@ironleaf.com",
+   "key",
+   "rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "Person: Rosa Kowalski",
+   "Holds_Account",
+   "EmailAccount: rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "Person: Ruth Osei",
+   "Employed_By",
+   "Organization: Ironleaf Packaging Inc."
+  ],
+  [
+   "EmailAddress: ruth.osei@ironleaf.com",
+   "key",
+   "ruth.osei@ironleaf.com"
+  ],
+  [
+   "Person: Ruth Osei",
+   "Holds_Account",
+   "EmailAddress: ruth.osei@ironleaf.com"
+  ],
+  [
+   "EmailAccount: ruth.osei@ironleaf.com",
+   "key",
+   "ruth.osei@ironleaf.com"
+  ],
+  [
+   "Person: Ruth Osei",
+   "Holds_Account",
+   "EmailAccount: ruth.osei@ironleaf.com"
+  ],
+  [
+   "Person: Wesley Ivanova",
+   "Employed_By",
+   "Organization: Bluegate Analytics Co."
+  ],
+  [
+   "EmailAddress: wesley.ivanova@bluegate.com",
+   "key",
+   "wesley.ivanova@bluegate.com"
+  ],
+  [
+   "Person: Wesley Ivanova",
+   "Holds_Account",
+   "EmailAddress: wesley.ivanova@bluegate.com"
+  ],
+  [
+   "EmailAccount: wesley.ivanova@bluegate.com",
+   "key",
+   "wesley.ivanova@bluegate.com"
+  ],
+  [
+   "Person: Wesley Ivanova",
+   "Holds_Account",
+   "EmailAccount: wesley.ivanova@bluegate.com"
+  ],
+  [
+   "Location: 2530 Riverside Boulevard, Boise, ID 83702",
+   "key",
+   "2530 Riverside Boulevard"
+  ],
+  [
+   "Location: 2530 Riverside Boulevard, Boise, ID 83702",
+   "locality",
+   "Boise"
+  ],
+  [
+   "Location: 2530 Riverside Boulevard, Boise, ID 83702",
+   "region",
+   "ID"
+  ],
+  [
+   "Location: 2530 Riverside Boulevard, Boise, ID 83702",
+   "postalCode",
+   "83702"
+  ],
+  [
+   "Organization: Ironleaf Packaging Inc.",
+   "Located_At",
+   "Location: 2530 Riverside Boulevard, Boise, ID 83702"
+  ],
+  [
+   "Location: 39 Maple Avenue, Dayton, OH 45402",
+   "key",
+   "39 Maple Avenue"
+  ],
+  [
+   "Location: 39 Maple Avenue, Dayton, OH 45402",
+   "locality",
+   "Dayton"
+  ],
+  [
+   "Location: 39 Maple Avenue, Dayton, OH 45402",
+   "region",
+   "OH"
+  ],
+  [
+   "Location: 39 Maple Avenue, Dayton, OH 45402",
+   "postalCode",
+   "45402"
+  ],
+  [
+   "Organization: Bluegate Analytics Co.",
+   "Located_At",
+   "Location: 39 Maple Avenue, Dayton, OH 45402"
+  ],
+  [
+   "Account: 3478799698",
+   "key",
+   "3478799698"
+  ],
+  [
+   "Account: 3478799698",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Organization: Ironleaf Packaging Inc.",
+   "Owns_Account",
+   "Account: 3478799698"
+  ],
+  [
+   "Account: 3478799698",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Account: 2735522067",
+   "key",
+   "2735522067"
+  ],
+  [
+   "Account: 2735522067",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Organization: Bluegate Analytics Co.",
+   "Owns_Account",
+   "Account: 2735522067"
+  ],
+  [
+   "Account: 2735522067",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Account: 2594796775",
+   "key",
+   "2594796775"
+  ],
+  [
+   "Account: 2594796775",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Person: Rosa Kowalski",
+   "Owns_Account",
+   "Account: 2594796775"
+  ],
+  [
+   "Account: 2594796775",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "EmailAddress: rosa.kowalski@ironleaf.com",
+   "addressValue",
+   "rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "EmailAddress: wesley.ivanova@bluegate.com",
+   "addressValue",
+   "wesley.ivanova@bluegate.com"
+  ],
+  [
+   "EmailAccount: rosa.kowalski@ironleaf.com",
+   "emailAddress",
+   "EmailAddress: rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "EmailAccount: wesley.ivanova@bluegate.com",
+   "emailAddress",
+   "EmailAddress: wesley.ivanova@bluegate.com"
+  ],
+  [
+   "Person: Rosa Kowalski",
+   "Holds_Account",
+   "EmailAddress: rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "Person: Wesley Ivanova",
+   "Holds_Account",
+   "EmailAddress: wesley.ivanova@bluegate.com"
+  ],
+  [
+   "Person: Ruth Osei",
+   "Holds_Account",
+   "EmailAddress: rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "Person: Samuel Haddad",
+   "Holds_Account",
+   "EmailAddress: rosa.kowalski@ironleaf.com"
+  ],
+  [
+   "Person: Rosa Kowalski",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "16 June 2025, 13:45 UTC"
+  ],
+  [
+   "Person: Samuel Haddad",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "June 17, 2025 at 17:10 UTC"
+  ],
+  [
+   "Person: Samuel Haddad",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "18 June 2025, 09:15 UTC"
+  ],
+  [
+   "Location: Ironleaf Packaging Inc. office",
+   "street",
+   "Ironleaf Packaging Inc. office"
+  ],
+  [
+   "Location: Ironleaf Packaging Inc. office",
+   "locality",
+   "Ironleaf Packaging Inc. office"
+  ],
+  [
+   "Location: Ironleaf Packaging Inc. office",
+   "region",
+   "Ironleaf Packaging Inc. office"
+  ],
+  [
+   "Location: Ironleaf Packaging Inc. office",
+   "postalCode",
+   "Ironleaf Packaging Inc. office"
+  ],
+  [
+   "Event: expense reimbursement",
+   "Located_At",
+   "Location: Ironleaf Packaging Inc. office"
+  ],
+  [
+   "Person: Samuel Haddad",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "June 25, 2025 at 09:25 UTC"
+  ],
+  [
+   "Location: Ironleaf Packaging Inc.'s office",
+   "street",
+   "Ironleaf Packaging Inc.'s office"
+  ],
+  [
+   "Location: Ironleaf Packaging Inc.'s office",
+   "locality",
+   "Ironleaf Packaging Inc.'s office"
+  ],
+  [
+   "Location: Ironleaf Packaging Inc.'s office",
+   "region",
+   "Ironleaf Packaging Inc.'s office"
+  ],
+  [
+   "Location: Ironleaf Packaging Inc.'s office",
+   "postalCode",
+   "Ironleaf Packaging Inc.'s office"
+  ],
+  [
+   "Event: invoice submission",
+   "Located_At",
+   "Location: Ironleaf Packaging Inc.'s office"
+  ],
+  [
+   "Person: Rosa Kowalski",
+   "Initiated",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Event: vendor onboarding",
+   "startTime",
+   "8 July 2025, 11:45 UTC"
+  ],
+  [
+   "Person: Wesley Ivanova",
+   "Participated_In",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Person: Samuel Haddad",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "July 15, 2025 at 11:10 UTC"
+  ],
+  [
+   "Person: Rosa Kowalski",
+   "Authorized",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Samuel Haddad",
+   "Communicated_With",
+   "Person: Wesley Ivanova"
+  ]
+ ],
+ "tokens": {
+  "prompt": 1897,
+  "completion": 2067
+ }
+}

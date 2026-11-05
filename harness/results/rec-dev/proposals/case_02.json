@@ -1,0 +1,754 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\n    \"EmailAddress: grace.park@silverlake.com\",\n    \"addressValue\",\n    \"grace.park@silverlake.com\"\n  ],\n  [\n    \"EmailAddress: ekowalski@oakhaven.com\",\n    \"addressValue\",\n    \"ekowalski@oakhaven.com\"\n  ],\n  [\n    \"EmailAddress: owen.abara@oakhaven.com\",\n    \"addressValue\",\n    \"owen.abara@oakhaven.com\"\n  ],\n  [\n    \"EmailAccount: grace.park@silverlake.com\",\n    \"emailAddress\",\n    \"EmailAddress: grace.park@silverlake.com\"\n  ],\n  [\n    \"EmailAccount: ekowalski@oakhaven.com\",\n    \"emailAddress\",\n    \"EmailAddress: ekowalski@oakhaven.com\"\n  ],\n  [\n    \"EmailAccount: owen.abara@oakhaven.com\",\n    \"emailAddress\",\n    \"EmailAddress: owen.abara@oakhaven.com\"\n  ],\n  [\n    \"Person: Elena Kowalski\",\n    \"Holds_Account\",\n    \"EmailAddress: ekowalski@oakhaven.com\"\n  ],\n  [\n    \"Person: Elena Kowalski\",\n    \"Holds_Account\",\n    \"EmailAccount: ekowalski@oakhaven.com\"\n  ],\n  [\n    \"Person: Grace Park\",\n    \"Holds_Account\",\n    \"EmailAddress: grace.park@silverlake.com\"\n  ],\n  [\n    \"Person: Grace Park\",\n    \"Holds_Account\",\n    \"EmailAccount: grace.park@silverlake.com\"\n  ],\n  [\n    \"Person: Elena Kowalski\",\n    \"Initiated\",\n    \"Event: audit review\"\n  ],\n  [\n    \"Event: audit review\",\n    \"startTime\",\n    \"25 February 2025, 15:10 UTC\"\n  ],\n  [\n    \"EmailMessage: Re: banking change request\",\n    \"subject\",\n    \"Re: banking change request\"\n  ],\n  [\n    \"EmailMessage: Re: banking change request\",\n    \"sentTime\",\n    \"Tue, 25 Feb 2025 17:10:00 +0000\"\n  ],\n  [\n    \"EmailMessage: Re: banking change request\",\n    \"from\",\n    \"EmailAddress: grace.park@silverlake.com\"\n  ],\n  [\n    \"EmailMessage: Re: banking change request\",\n    \"to\",\n    \"EmailAddress: ekowalski@oakhaven.com\"\n  ],\n  [\n    \"EmailMessage: Re: banking change request\",\n    \"to\",\n    \"EmailAddress: owen.abara@oakhaven.com\"\n  ],\n  [\n    \"Person: Elena Kowalski\",\n    \"Communicated_With\",\n    \"Person: Grace Park\"\n  ],\n  [\n    \"Person: Grace Park\",\n    \"Communicated_With\",\n    \"Person: Elena Kowalski\"\n  ]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: grace.park@silverlake.com",
+     "addressValue",
+     "grace.park@silverlake.com"
+    ],
+    [
+     "EmailAddress: ekowalski@oakhaven.com",
+     "addressValue",
+     "ekowalski@oakhaven.com"
+    ],
+    [
+     "EmailAddress: owen.abara@oakhaven.com",
+     "addressValue",
+     "owen.abara@oakhaven.com"
+    ],
+    [
+     "EmailAccount: grace.park@silverlake.com",
+     "emailAddress",
+     "EmailAddress: grace.park@silverlake.com"
+    ],
+    [
+     "EmailAccount: ekowalski@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: ekowalski@oakhaven.com"
+    ],
+    [
+     "EmailAccount: owen.abara@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: owen.abara@oakhaven.com"
+    ],
+    [
+     "Person: Elena Kowalski",
+     "Holds_Account",
+     "EmailAddress: ekowalski@oakhaven.com"
+    ],
+    [
+     "Person: Elena Kowalski",
+     "Holds_Account",
+     "EmailAccount: ekowalski@oakhaven.com"
+    ],
+    [
+     "Person: Grace Park",
+     "Holds_Account",
+     "EmailAddress: grace.park@silverlake.com"
+    ],
+    [
+     "Person: Grace Park",
+     "Holds_Account",
+     "EmailAccount: grace.park@silverlake.com"
+    ],
+    [
+     "Person: Elena Kowalski",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "25 February 2025, 15:10 UTC"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "subject",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Tue, 25 Feb 2025 17:10:00 +0000"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "from",
+     "EmailAddress: grace.park@silverlake.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: ekowalski@oakhaven.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: owen.abara@oakhaven.com"
+    ],
+    [
+     "Person: Elena Kowalski",
+     "Communicated_With",
+     "Person: Grace Park"
+    ],
+    [
+     "Person: Grace Park",
+     "Communicated_With",
+     "Person: Elena Kowalski"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 779,
+    "completion": 732
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Kofi Novak\", \"Employed_By\", \"Organization: Silverlake Services Ltd.\"],\n  [\"Person: Kofi Novak\", \"Holds_Account\", \"EmailAddress: kofi.novak@silverlake.com\"],\n  [\"Person: Kofi Novak\", \"Holds_Account\", \"EmailAccount: kofi.novak@silverlake.com\"],\n  [\"Organization: Silverlake Services Ltd.\", \"Located_At\", \"Location: 4032 Elm Street, Albany, NY 12207\"],\n  [\"Person: Grace Park\", \"Employed_By\", \"Organization: Silverlake Services Ltd.\"],\n  [\"Person: Grace Park\", \"Holds_Account\", \"EmailAddress: grace.park@silverlake.com\"],\n  [\"Person: Grace Park\", \"Holds_Account\", \"EmailAccount: grace.park@silverlake.com\"],\n  [\"Person: Julian Haddad\", \"Employed_By\", \"Organization: Silverlake Services Ltd.\"],\n  [\"Person: Julian Haddad\", \"Holds_Account\", \"EmailAddress: julian.haddad@silverlake.com\"],\n  [\"Person: Julian Haddad\", \"Holds_Account\", \"EmailAccount: julian.haddad@silverlake.com\"],\n  [\"Person: Owen Abara\", \"Employed_By\", \"Organization: Oakhaven Tooling Ltd.\"],\n  [\"Person: Owen Abara\", \"Holds_Account\", \"EmailAddress: owen.abara@oakhaven.com\"],\n  [\"Person: Owen Abara\", \"Holds_Account\", \"EmailAccount: owen.abara@oakhaven.com\"],\n  [\"Organization: Oakhaven Tooling Ltd.\", \"Located_At\", \"Location: 5305 Harbor Avenue, Omaha, NE 68102\"],\n  [\"Person: Elena Kowalski\", \"Employed_By\", \"Organization: Oakhaven Tooling Ltd.\"],\n  [\"Person: Elena Kowalski\", \"Holds_Account\", \"EmailAddress: ekowalski@oakhaven.com\"],\n  [\"Person: Elena Kowalski\", \"Holds_Account\", \"EmailAccount: ekowalski@oakhaven.com\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Kofi Novak",
+     "Employed_By",
+     "Organization: Silverlake Services Ltd."
+    ],
+    [
+     "Person: Kofi Novak",
+     "Holds_Account",
+     "EmailAddress: kofi.novak@silverlake.com"
+    ],
+    [
+     "Person: Kofi Novak",
+     "Holds_Account",
+     "EmailAccount: kofi.novak@silverlake.com"
+    ],
+    [
+     "Organization: Silverlake Services Ltd.",
+     "Located_At",
+     "Location: 4032 Elm Street, Albany, NY 12207"
+    ],
+    [
+     "Person: Grace Park",
+     "Employed_By",
+     "Organization: Silverlake Services Ltd."
+    ],
+    [
+     "Person: Grace Park",
+     "Holds_Account",
+     "EmailAddress: grace.park@silverlake.com"
+    ],
+    [
+     "Person: Grace Park",
+     "Holds_Account",
+     "EmailAccount: grace.park@silverlake.com"
+    ],
+    [
+     "Person: Julian Haddad",
+     "Employed_By",
+     "Organization: Silverlake Services Ltd."
+    ],
+    [
+     "Person: Julian Haddad",
+     "Holds_Account",
+     "EmailAddress: julian.haddad@silverlake.com"
+    ],
+    [
+     "Person: Julian Haddad",
+     "Holds_Account",
+     "EmailAccount: julian.haddad@silverlake.com"
+    ],
+    [
+     "Person: Owen Abara",
+     "Employed_By",
+     "Organization: Oakhaven Tooling Ltd."
+    ],
+    [
+     "Person: Owen Abara",
+     "Holds_Account",
+     "EmailAddress: owen.abara@oakhaven.com"
+    ],
+    [
+     "Person: Owen Abara",
+     "Holds_Account",
+     "EmailAccount: owen.abara@oakhaven.com"
+    ],
+    [
+     "Organization: Oakhaven Tooling Ltd.",
+     "Located_At",
+     "Location: 5305 Harbor Avenue, Omaha, NE 68102"
+    ],
+    [
+     "Person: Elena Kowalski",
+     "Employed_By",
+     "Organization: Oakhaven Tooling Ltd."
+    ],
+    [
+     "Person: Elena Kowalski",
+     "Holds_Account",
+     "EmailAddress: ekowalski@oakhaven.com"
+    ],
+    [
+     "Person: Elena Kowalski",
+     "Holds_Account",
+     "EmailAccount: ekowalski@oakhaven.com"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 873,
+    "completion": 477
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: ekowalski@oakhaven.com\", \"key\", \"ekowalski@oakhaven.com\"],\n  [\"EmailAddress: grace.park@silverlake.com\", \"key\", \"grace.park@silverlake.com\"],\n  [\"EmailAccount: ekowalski@oakhaven.com\", \"key\", \"ekowalski@oakhaven.com\"],\n  [\"EmailAccount: grace.park@silverlake.com\", \"key\", \"grace.park@silverlake.com\"],\n  [\"Person: Elena\", \"key\", \"Elena\"],\n  [\"Person: Grace Park\", \"key\", \"Grace Park\"],\n  [\"EmailMessage: Re: banking change request\", \"key\", \"Re: banking change request\"],\n  [\"EmailMessage: Re: banking change request\", \"sentTime\", \"Thu, 27 Feb 2025 14:30:00 +0000\"],\n  [\"Event: refund request\", \"key\", \"refund request\"],\n  [\"Event: refund request\", \"startTime\", \"February 27, 2025 at 12:30 UTC\"],\n  [\"Person: Elena\", \"Holds_Account\", \"EmailAddress: ekowalski@oakhaven.com\"],\n  [\"Person: Elena\", \"Holds_Account\", \"EmailAccount: ekowalski@oakhaven.com\"],\n  [\"Person: Grace Park\", \"Holds_Account\", \"EmailAddress: grace.park@silverlake.com\"],\n  [\"Person: Grace Park\", \"Holds_Account\", \"EmailAccount: grace.park@silverlake.com\"],\n  [\"EmailMessage: Re: banking change request\", \"from\", \"EmailAddress: ekowalski@oakhaven.com\"],\n  [\"EmailMessage: Re: banking change request\", \"to\", \"EmailAddress: grace.park@silverlake.com\"],\n  [\"Person: Elena\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Grace Park\", \"Initiated\", \"Event: refund request\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: ekowalski@oakhaven.com",
+     "key",
+     "ekowalski@oakhaven.com"
+    ],
+    [
+     "EmailAddress: grace.park@silverlake.com",
+     "key",
+     "grace.park@silverlake.com"
+    ],
+    [
+     "EmailAccount: ekowalski@oakhaven.com",
+     "key",
+     "ekowalski@oakhaven.com"
+    ],
+    [
+     "EmailAccount: grace.park@silverlake.com",
+     "key",
+     "grace.park@silverlake.com"
+    ],
+    [
+     "Person: Elena",
+     "key",
+     "Elena"
+    ],
+    [
+     "Person: Grace Park",
+     "key",
+     "Grace Park"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "key",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Thu, 27 Feb 2025 14:30:00 +0000"
+    ],
+    [
+     "Event: refund request",
+     "key",
+     "refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "February 27, 2025 at 12:30 UTC"
+    ],
+    [
+     "Person: Elena",
+     "Holds_Account",
+     "EmailAddress: ekowalski@oakhaven.com"
+    ],
+    [
+     "Person: Elena",
+     "Holds_Account",
+     "EmailAccount: ekowalski@oakhaven.com"
+    ],
+    [
+     "Person: Grace Park",
+     "Holds_Account",
+     "EmailAddress: grace.park@silverlake.com"
+    ],
+    [
+     "Person: Grace Park",
+     "Holds_Account",
+     "EmailAccount: grace.park@silverlake.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "from",
+     "EmailAddress: ekowalski@oakhaven.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: grace.park@silverlake.com"
+    ],
+    [
+     "Person: Elena",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Grace Park",
+     "Initiated",
+     "Event: refund request"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 768,
+    "completion": 450
+   }
+  },
+  {
+   "doc": "D4",
+   "reply": "```json\n[\n  [\"Organization: Silverlake Services Ltd.\", \"Owns_Account\", \"Account: 8121306165\"],\n  [\"Account: 8121306165\", \"accountType\", \"ApplicationAccount\"],\n  [\"Account: 8121306165\", \"accountIdentifier\", \"8121306165\"],\n  [\"Account: 8121306165\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Organization: Oakhaven Tooling Ltd.\", \"Owns_Account\", \"Account: 8418398727\"],\n  [\"Account: 8418398727\", \"accountType\", \"ApplicationAccount\"],\n  [\"Account: 8418398727\", \"accountIdentifier\", \"8418398727\"],\n  [\"Account: 8418398727\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Account: 6600300384\", \"accountType\", \"ApplicationAccount\"],\n  [\"Account: 6600300384\", \"accountIdentifier\", \"6600300384\"],\n  [\"Account: 6600300384\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Person: Grace Park\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Event: wire transfer\", \"eventType\", \"Event: wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"March 11, 2025 at 15:30 UTC\"],\n  [\"Event: wire transfer\", \"Transferred_To\", \"Account: 6600300384\"],\n  [\"Account: 8121306165\", \"Transferred_To\", \"Account: 6600300384\"]\n]\n```",
+   "facts": [
+    [
+     "Organization: Silverlake Services Ltd.",
+     "Owns_Account",
+     "Account: 8121306165"
+    ],
+    [
+     "Account: 8121306165",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Account: 8121306165",
+     "accountIdentifier",
+     "8121306165"
+    ],
+    [
+     "Account: 8121306165",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Organization: Oakhaven Tooling Ltd.",
+     "Owns_Account",
+     "Account: 8418398727"
+    ],
+    [
+     "Account: 8418398727",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Account: 8418398727",
+     "accountIdentifier",
+     "8418398727"
+    ],
+    [
+     "Account: 8418398727",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Account: 6600300384",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Account: 6600300384",
+     "accountIdentifier",
+     "6600300384"
+    ],
+    [
+     "Account: 6600300384",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Person: Grace Park",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "eventType",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "March 11, 2025 at 15:30 UTC"
+    ],
+    [
+     "Event: wire transfer",
+     "Transferred_To",
+     "Account: 6600300384"
+    ],
+    [
+     "Account: 8121306165",
+     "Transferred_To",
+     "Account: 6600300384"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 815,
+    "completion": 459
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: grace.park@silverlake.com",
+   "addressValue",
+   "grace.park@silverlake.com"
+  ],
+  [
+   "EmailAddress: ekowalski@oakhaven.com",
+   "addressValue",
+   "ekowalski@oakhaven.com"
+  ],
+  [
+   "EmailAddress: owen.abara@oakhaven.com",
+   "addressValue",
+   "owen.abara@oakhaven.com"
+  ],
+  [
+   "EmailAccount: grace.park@silverlake.com",
+   "emailAddress",
+   "EmailAddress: grace.park@silverlake.com"
+  ],
+  [
+   "EmailAccount: ekowalski@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: ekowalski@oakhaven.com"
+  ],
+  [
+   "EmailAccount: owen.abara@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: owen.abara@oakhaven.com"
+  ],
+  [
+   "Person: Elena Kowalski",
+   "Holds_Account",
+   "EmailAddress: ekowalski@oakhaven.com"
+  ],
+  [
+   "Person: Elena Kowalski",
+   "Holds_Account",
+   "EmailAccount: ekowalski@oakhaven.com"
+  ],
+  [
+   "Person: Grace Park",
+   "Holds_Account",
+   "EmailAddress: grace.park@silverlake.com"
+  ],
+  [
+   "Person: Grace Park",
+   "Holds_Account",
+   "EmailAccount: grace.park@silverlake.com"
+  ],
+  [
+   "Person: Elena Kowalski",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "25 February 2025, 15:10 UTC"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "subject",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Tue, 25 Feb 2025 17:10:00 +0000"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "from",
+   "EmailAddress: grace.park@silverlake.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: ekowalski@oakhaven.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: owen.abara@oakhaven.com"
+  ],
+  [
+   "Person: Elena Kowalski",
+   "Communicated_With",
+   "Person: Grace Park"
+  ],
+  [
+   "Person: Grace Park",
+   "Communicated_With",
+   "Person: Elena Kowalski"
+  ],
+  [
+   "Person: Kofi Novak",
+   "Employed_By",
+   "Organization: Silverlake Services Ltd."
+  ],
+  [
+   "Person: Kofi Novak",
+   "Holds_Account",
+   "EmailAddress: kofi.novak@silverlake.com"
+  ],
+  [
+   "Person: Kofi Novak",
+   "Holds_Account",
+   "EmailAccount: kofi.novak@silverlake.com"
+  ],
+  [
+   "Organization: Silverlake Services Ltd.",
+   "Located_At",
+   "Location: 4032 Elm Street, Albany, NY 12207"
+  ],
+  [
+   "Person: Grace Park",
+   "Employed_By",
+   "Organization: Silverlake Services Ltd."
+  ],
+  [
+   "Person: Grace Park",
+   "Holds_Account",
+   "EmailAddress: grace.park@silverlake.com"
+  ],
+  [
+   "Person: Grace Park",
+   "Holds_Account",
+   "EmailAccount: grace.park@silverlake.com"
+  ],
+  [
+   "Person: Julian Haddad",
+   "Employed_By",
+   "Organization: Silverlake Services Ltd."
+  ],
+  [
+   "Person: Julian Haddad",
+   "Holds_Account",
+   "EmailAddress: julian.haddad@silverlake.com"
+  ],
+  [
+   "Person: Julian Haddad",
+   "Holds_Account",
+   "EmailAccount: julian.haddad@silverlake.com"
+  ],
+  [
+   "Person: Owen Abara",
+   "Employed_By",
+   "Organization: Oakhaven Tooling Ltd."
+  ],
+  [
+   "Person: Owen Abara",
+   "Holds_Account",
+   "EmailAddress: owen.abara@oakhaven.com"
+  ],
+  [
+   "Person: Owen Abara",
+   "Holds_Account",
+   "EmailAccount: owen.abara@oakhaven.com"
+  ],
+  [
+   "Organization: Oakhaven Tooling Ltd.",
+   "Located_At",
+   "Location: 5305 Harbor Avenue, Omaha, NE 68102"
+  ],
+  [
+   "Person: Elena Kowalski",
+   "Employed_By",
+   "Organization: Oakhaven Tooling Ltd."
+  ],
+  [
+   "Person: Elena Kowalski",
+   "Holds_Account",
+   "EmailAddress: ekowalski@oakhaven.com"
+  ],
+  [
+   "Person: Elena Kowalski",
+   "Holds_Account",
+   "EmailAccount: ekowalski@oakhaven.com"
+  ],
+  [
+   "EmailAddress: ekowalski@oakhaven.com",
+   "key",
+   "ekowalski@oakhaven.com"
+  ],
+  [
+   "EmailAddress: grace.park@silverlake.com",
+   "key",
+   "grace.park@silverlake.com"
+  ],
+  [
+   "EmailAccount: ekowalski@oakhaven.com",
+   "key",
+   "ekowalski@oakhaven.com"
+  ],
+  [
+   "EmailAccount: grace.park@silverlake.com",
+   "key",
+   "grace.park@silverlake.com"
+  ],
+  [
+   "Person: Elena",
+   "key",
+   "Elena"
+  ],
+  [
+   "Person: Grace Park",
+   "key",
+   "Grace Park"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "key",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Thu, 27 Feb 2025 14:30:00 +0000"
+  ],
+  [
+   "Event: refund request",
+   "key",
+   "refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "February 27, 2025 at 12:30 UTC"
+  ],
+  [
+   "Person: Elena",
+   "Holds_Account",
+   "EmailAddress: ekowalski@oakhaven.com"
+  ],
+  [
+   "Person: Elena",
+   "Holds_Account",
+   "EmailAccount: ekowalski@oakhaven.com"
+  ],
+  [
+   "Person: Grace Park",
+   "Holds_Account",
+   "EmailAddress: grace.park@silverlake.com"
+  ],
+  [
+   "Person: Grace Park",
+   "Holds_Account",
+   "EmailAccount: grace.park@silverlake.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "from",
+   "EmailAddress: ekowalski@oakhaven.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: grace.park@silverlake.com"
+  ],
+  [
+   "Person: Elena",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Grace Park",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Organization: Silverlake Services Ltd.",
+   "Owns_Account",
+   "Account: 8121306165"
+  ],
+  [
+   "Account: 8121306165",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Account: 8121306165",
+   "accountIdentifier",
+   "8121306165"
+  ],
+  [
+   "Account: 8121306165",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Organization: Oakhaven Tooling Ltd.",
+   "Owns_Account",
+   "Account: 8418398727"
+  ],
+  [
+   "Account: 8418398727",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Account: 8418398727",
+   "accountIdentifier",
+   "8418398727"
+  ],
+  [
+   "Account: 8418398727",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Account: 6600300384",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Account: 6600300384",
+   "accountIdentifier",
+   "6600300384"
+  ],
+  [
+   "Account: 6600300384",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Person: Grace Park",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "eventType",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "March 11, 2025 at 15:30 UTC"
+  ],
+  [
+   "Event: wire transfer",
+   "Transferred_To",
+   "Account: 6600300384"
+  ],
+  [
+   "Account: 8121306165",
+   "Transferred_To",
+   "Account: 6600300384"
+  ]
+ ],
+ "tokens": {
+  "prompt": 3235,
+  "completion": 2118
+ }
+}

@@ -1,0 +1,704 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Andre Kowalski\", \"Employed_By\", \"Organization: Brightwater Fabrication Group\"],\n  [\"Person: Andre Kowalski\", \"Holds_Account\", \"EmailAddress: akowalski@brightwater.com\"],\n  [\"Person: Andre Kowalski\", \"Holds_Account\", \"EmailAccount: akowalski@brightwater.com\"],\n  [\"Person: Samuel Okafor\", \"Employed_By\", \"Organization: Brightwater Fabrication Group\"],\n  [\"Person: Samuel Okafor\", \"Holds_Account\", \"EmailAddress: sokafor@brightwater.com\"],\n  [\"Person: Samuel Okafor\", \"Holds_Account\", \"EmailAccount: sokafor@brightwater.com\"],\n  [\"Person: Grace Castillo\", \"Employed_By\", \"Organization: Brightwater Fabrication Group\"],\n  [\"Person: Grace Castillo\", \"Holds_Account\", \"EmailAddress: grace.castillo@brightwater.com\"],\n  [\"Person: Grace Castillo\", \"Holds_Account\", \"EmailAccount: grace.castillo@brightwater.com\"],\n  [\"Person: Felix Park\", \"Employed_By\", \"Organization: Westmark Supply Ltd.\"],\n  [\"Person: Felix Park\", \"Holds_Account\", \"EmailAddress: felix.park@westmark.com\"],\n  [\"Person: Felix Park\", \"Holds_Account\", \"EmailAccount: felix.park@westmark.com\"],\n  [\"Person: Samuel Okafor\", \"Reports_To\", \"Person: Andre Kowalski\"],\n  [\"Person: Grace Castillo\", \"Reports_To\", \"Person: Andre Kowalski\"],\n  [\"Organization: Brightwater Fabrication Group\", \"Located_At\", \"Location: 3848 Industrial Parkway, Madison, WI 53703\"],\n  [\"EmailAddress: akowalski@brightwater.com\", \"emailAddress\", \"EmailAddress: akowalski@brightwater.com\"],\n  [\"EmailAddress: sokafor@brightwater.com\", \"emailAddress\", \"EmailAddress: sokafor@brightwater.com\"],\n  [\"EmailAddress: grace.castillo@brightwater.com\", \"emailAddress\", \"EmailAddress: grace.castillo@brightwater.com\"],\n  [\"EmailAddress: felix.park@westmark.com\", \"emailAddress\", \"EmailAddress: felix.park@westmark.com\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Andre Kowalski",
+     "Employed_By",
+     "Organization: Brightwater Fabrication Group"
+    ],
+    [
+     "Person: Andre Kowalski",
+     "Holds_Account",
+     "EmailAddress: akowalski@brightwater.com"
+    ],
+    [
+     "Person: Andre Kowalski",
+     "Holds_Account",
+     "EmailAccount: akowalski@brightwater.com"
+    ],
+    [
+     "Person: Samuel Okafor",
+     "Employed_By",
+     "Organization: Brightwater Fabrication Group"
+    ],
+    [
+     "Person: Samuel Okafor",
+     "Holds_Account",
+     "EmailAddress: sokafor@brightwater.com"
+    ],
+    [
+     "Person: Samuel Okafor",
+     "Holds_Account",
+     "EmailAccount: sokafor@brightwater.com"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Employed_By",
+     "Organization: Brightwater Fabrication Group"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Holds_Account",
+     "EmailAddress: grace.castillo@brightwater.com"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Holds_Account",
+     "EmailAccount: grace.castillo@brightwater.com"
+    ],
+    [
+     "Person: Felix Park",
+     "Employed_By",
+     "Organization: Westmark Supply Ltd."
+    ],
+    [
+     "Person: Felix Park",
+     "Holds_Account",
+     "EmailAddress: felix.park@westmark.com"
+    ],
+    [
+     "Person: Felix Park",
+     "Holds_Account",
+     "EmailAccount: felix.park@westmark.com"
+    ],
+    [
+     "Person: Samuel Okafor",
+     "Reports_To",
+     "Person: Andre Kowalski"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Reports_To",
+     "Person: Andre Kowalski"
+    ],
+    [
+     "Organization: Brightwater Fabrication Group",
+     "Located_At",
+     "Location: 3848 Industrial Parkway, Madison, WI 53703"
+    ],
+    [
+     "EmailAddress: akowalski@brightwater.com",
+     "emailAddress",
+     "EmailAddress: akowalski@brightwater.com"
+    ],
+    [
+     "EmailAddress: sokafor@brightwater.com",
+     "emailAddress",
+     "EmailAddress: sokafor@brightwater.com"
+    ],
+    [
+     "EmailAddress: grace.castillo@brightwater.com",
+     "emailAddress",
+     "EmailAddress: grace.castillo@brightwater.com"
+    ],
+    [
+     "EmailAddress: felix.park@westmark.com",
+     "emailAddress",
+     "EmailAddress: felix.park@westmark.com"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 839,
+    "completion": 508
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: sokafor@brightwater.com\", \"key\", \"sokafor@brightwater.com\"],\n  [\"EmailAddress: felix.park@westmark.com\", \"key\", \"felix.park@westmark.com\"],\n  [\"EmailAccount: sokafor@brightwater.com\", \"key\", \"sokafor@brightwater.com\"],\n  [\"EmailAccount: felix.park@westmark.com\", \"key\", \"felix.park@westmark.com\"],\n  [\"EmailMessage: Wire confirmation needed\", \"subject\", \"Wire confirmation needed\"],\n  [\"EmailMessage: Wire confirmation needed\", \"sentTime\", \"Fri, 08 Aug 2025 16:45:00 +0000\"],\n  [\"Person: Samuel Sokafor\", \"key\", \"Samuel Sokafor\"],\n  [\"Person: Felix Park\", \"key\", \"Felix Park\"],\n  [\"Person: Samuel Sokafor\", \"Holds_Account\", \"EmailAddress: sokafor@brightwater.com\"],\n  [\"Person: Samuel Sokafor\", \"Holds_Account\", \"EmailAccount: sokafor@brightwater.com\"],\n  [\"Person: Felix Park\", \"Holds_Account\", \"EmailAddress: felix.park@westmark.com\"],\n  [\"Person: Felix Park\", \"Holds_Account\", \"EmailAccount: felix.park@westmark.com\"],\n  [\"EmailMessage: Wire confirmation needed\", \"from\", \"EmailAddress: sokafor@brightwater.com\"],\n  [\"EmailMessage: Wire confirmation needed\", \"to\", \"EmailAddress: felix.park@westmark.com\"],\n  [\"Event: bank detail change\", \"eventType\", \"bank detail change\"],\n  [\"Event: bank detail change\", \"startTime\", \"July 24, 2025 at 13:45 UTC\"],\n  [\"Event: account reconciliation\", \"eventType\", \"account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"8 August 2025, 14:45 UTC\"],\n  [\"Person: Felix Park\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Person: Felix Park\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Person: Samuel Sokafor\", \"Communicated_With\", \"Person: Felix Park\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: sokafor@brightwater.com",
+     "key",
+     "sokafor@brightwater.com"
+    ],
+    [
+     "EmailAddress: felix.park@westmark.com",
+     "key",
+     "felix.park@westmark.com"
+    ],
+    [
+     "EmailAccount: sokafor@brightwater.com",
+     "key",
+     "sokafor@brightwater.com"
+    ],
+    [
+     "EmailAccount: felix.park@westmark.com",
+     "key",
+     "felix.park@westmark.com"
+    ],
+    [
+     "EmailMessage: Wire confirmation needed",
+     "subject",
+     "Wire confirmation needed"
+    ],
+    [
+     "EmailMessage: Wire confirmation needed",
+     "sentTime",
+     "Fri, 08 Aug 2025 16:45:00 +0000"
+    ],
+    [
+     "Person: Samuel Sokafor",
+     "key",
+     "Samuel Sokafor"
+    ],
+    [
+     "Person: Felix Park",
+     "key",
+     "Felix Park"
+    ],
+    [
+     "Person: Samuel Sokafor",
+     "Holds_Account",
+     "EmailAddress: sokafor@brightwater.com"
+    ],
+    [
+     "Person: Samuel Sokafor",
+     "Holds_Account",
+     "EmailAccount: sokafor@brightwater.com"
+    ],
+    [
+     "Person: Felix Park",
+     "Holds_Account",
+     "EmailAddress: felix.park@westmark.com"
+    ],
+    [
+     "Person: Felix Park",
+     "Holds_Account",
+     "EmailAccount: felix.park@westmark.com"
+    ],
+    [
+     "EmailMessage: Wire confirmation needed",
+     "from",
+     "EmailAddress: sokafor@brightwater.com"
+    ],
+    [
+     "EmailMessage: Wire confirmation needed",
+     "to",
+     "EmailAddress: felix.park@westmark.com"
+    ],
+    [
+     "Event: bank detail change",
+     "eventType",
+     "bank detail change"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "July 24, 2025 at 13:45 UTC"
+    ],
+    [
+     "Event: account reconciliation",
+     "eventType",
+     "account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "8 August 2025, 14:45 UTC"
+    ],
+    [
+     "Person: Felix Park",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Person: Felix Park",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Samuel Sokafor",
+     "Communicated_With",
+     "Person: Felix Park"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 794,
+    "completion": 514
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"Person: Felix Park\", \"Holds_Account\", \"EmailAddress: felixp\"],\n  [\"Person: Felix Park\", \"Holds_Account\", \"EmailAccount: felixp\"],\n  [\"Person: Grace Castillo\", \"Holds_Account\", \"EmailAddress: gracec\"],\n  [\"Person: Grace Castillo\", \"Holds_Account\", \"EmailAccount: gracec\"],\n  [\"EmailAccount: felixp\", \"emailAddress\", \"EmailAddress: felixp\"],\n  [\"EmailAccount: gracec\", \"emailAddress\", \"EmailAddress: gracec\"],\n  [\"EmailMessage: Finance is asking questions again.\", \"from\", \"EmailAddress: felixp\"],\n  [\"EmailMessage: Finance is asking questions again.\", \"to\", \"EmailAddress: gracec\"],\n  [\"EmailMessage: Finance is asking questions again.\", \"sentTime\", \"2025-07-24 14:45 UTC\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"from\", \"EmailAddress: gracec\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"to\", \"EmailAddress: felixp\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"sentTime\", \"2025-07-24 14:52 UTC\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"from\", \"EmailAddress: felixp\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"to\", \"EmailAddress: gracec\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"sentTime\", \"2025-07-24 14:59 UTC\"],\n  [\"Person: Felix Park\", \"Communicated_With\", \"Person: Grace Castillo\"],\n  [\"Person: Grace Castillo\", \"Communicated_With\", \"Person: Felix Park\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Felix Park",
+     "Holds_Account",
+     "EmailAddress: felixp"
+    ],
+    [
+     "Person: Felix Park",
+     "Holds_Account",
+     "EmailAccount: felixp"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Holds_Account",
+     "EmailAddress: gracec"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Holds_Account",
+     "EmailAccount: gracec"
+    ],
+    [
+     "EmailAccount: felixp",
+     "emailAddress",
+     "EmailAddress: felixp"
+    ],
+    [
+     "EmailAccount: gracec",
+     "emailAddress",
+     "EmailAddress: gracec"
+    ],
+    [
+     "EmailMessage: Finance is asking questions again.",
+     "from",
+     "EmailAddress: felixp"
+    ],
+    [
+     "EmailMessage: Finance is asking questions again.",
+     "to",
+     "EmailAddress: gracec"
+    ],
+    [
+     "EmailMessage: Finance is asking questions again.",
+     "sentTime",
+     "2025-07-24 14:45 UTC"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "from",
+     "EmailAddress: gracec"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "to",
+     "EmailAddress: felixp"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "sentTime",
+     "2025-07-24 14:52 UTC"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "from",
+     "EmailAddress: felixp"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "to",
+     "EmailAddress: gracec"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "sentTime",
+     "2025-07-24 14:59 UTC"
+    ],
+    [
+     "Person: Felix Park",
+     "Communicated_With",
+     "Person: Grace Castillo"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Communicated_With",
+     "Person: Felix Park"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 811,
+    "completion": 421
+   }
+  },
+  {
+   "doc": "D4",
+   "reply": "```json\n[\n  [\"Organization: Pinecrest National Bank\", \"accountIssuer\", \"Account: 5149195714\"],\n  [\"Person: Grace Castillo\", \"Owns_Account\", \"Account: 5149195714\"],\n  [\"Organization: Pinecrest National Bank\", \"accountIssuer\", \"Account: 1192048693\"],\n  [\"Organization: Westmark Supply Ltd\", \"Owns_Account\", \"Account: 1192048693\"],\n  [\"Person: Grace Castillo\", \"Owns_Account\", \"Account: 5739047847\"],\n  [\"Organization: Pinecrest National Bank\", \"accountIssuer\", \"Account: 5739047847\"],\n  [\"Person: Grace Castillo\", \"Initiated\", \"Event: refund request\"],\n  [\"Event: refund request\", \"startTime\", \"July 31, 2025 at 11:45 UTC\"]\n]\n```",
+   "facts": [
+    [
+     "Organization: Pinecrest National Bank",
+     "accountIssuer",
+     "Account: 5149195714"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Owns_Account",
+     "Account: 5149195714"
+    ],
+    [
+     "Organization: Pinecrest National Bank",
+     "accountIssuer",
+     "Account: 1192048693"
+    ],
+    [
+     "Organization: Westmark Supply Ltd",
+     "Owns_Account",
+     "Account: 1192048693"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Owns_Account",
+     "Account: 5739047847"
+    ],
+    [
+     "Organization: Pinecrest National Bank",
+     "accountIssuer",
+     "Account: 5739047847"
+    ],
+    [
+     "Person: Grace Castillo",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "July 31, 2025 at 11:45 UTC"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 783,
+    "completion": 231
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Andre Kowalski",
+   "Employed_By",
+   "Organization: Brightwater Fabrication Group"
+  ],
+  [
+   "Person: Andre Kowalski",
+   "Holds_Account",
+   "EmailAddress: akowalski@brightwater.com"
+  ],
+  [
+   "Person: Andre Kowalski",
+   "Holds_Account",
+   "EmailAccount: akowalski@brightwater.com"
+  ],
+  [
+   "Person: Samuel Okafor",
+   "Employed_By",
+   "Organization: Brightwater Fabrication Group"
+  ],
+  [
+   "Person: Samuel Okafor",
+   "Holds_Account",
+   "EmailAddress: sokafor@brightwater.com"
+  ],
+  [
+   "Person: Samuel Okafor",
+   "Holds_Account",
+   "EmailAccount: sokafor@brightwater.com"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Employed_By",
+   "Organization: Brightwater Fabrication Group"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Holds_Account",
+   "EmailAddress: grace.castillo@brightwater.com"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Holds_Account",
+   "EmailAccount: grace.castillo@brightwater.com"
+  ],
+  [
+   "Person: Felix Park",
+   "Employed_By",
+   "Organization: Westmark Supply Ltd."
+  ],
+  [
+   "Person: Felix Park",
+   "Holds_Account",
+   "EmailAddress: felix.park@westmark.com"
+  ],
+  [
+   "Person: Felix Park",
+   "Holds_Account",
+   "EmailAccount: felix.park@westmark.com"
+  ],
+  [
+   "Person: Samuel Okafor",
+   "Reports_To",
+   "Person: Andre Kowalski"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Reports_To",
+   "Person: Andre Kowalski"
+  ],
+  [
+   "Organization: Brightwater Fabrication Group",
+   "Located_At",
+   "Location: 3848 Industrial Parkway, Madison, WI 53703"
+  ],
+  [
+   "EmailAddress: akowalski@brightwater.com",
+   "emailAddress",
+   "EmailAddress: akowalski@brightwater.com"
+  ],
+  [
+   "EmailAddress: sokafor@brightwater.com",
+   "emailAddress",
+   "EmailAddress: sokafor@brightwater.com"
+  ],
+  [
+   "EmailAddress: grace.castillo@brightwater.com",
+   "emailAddress",
+   "EmailAddress: grace.castillo@brightwater.com"
+  ],
+  [
+   "EmailAddress: felix.park@westmark.com",
+   "emailAddress",
+   "EmailAddress: felix.park@westmark.com"
+  ],
+  [
+   "EmailAddress: sokafor@brightwater.com",
+   "key",
+   "sokafor@brightwater.com"
+  ],
+  [
+   "EmailAddress: felix.park@westmark.com",
+   "key",
+   "felix.park@westmark.com"
+  ],
+  [
+   "EmailAccount: sokafor@brightwater.com",
+   "key",
+   "sokafor@brightwater.com"
+  ],
+  [
+   "EmailAccount: felix.park@westmark.com",
+   "key",
+   "felix.park@westmark.com"
+  ],
+  [
+   "EmailMessage: Wire confirmation needed",
+   "subject",
+   "Wire confirmation needed"
+  ],
+  [
+   "EmailMessage: Wire confirmation needed",
+   "sentTime",
+   "Fri, 08 Aug 2025 16:45:00 +0000"
+  ],
+  [
+   "Person: Samuel Sokafor",
+   "key",
+   "Samuel Sokafor"
+  ],
+  [
+   "Person: Felix Park",
+   "key",
+   "Felix Park"
+  ],
+  [
+   "Person: Samuel Sokafor",
+   "Holds_Account",
+   "EmailAddress: sokafor@brightwater.com"
+  ],
+  [
+   "Person: Samuel Sokafor",
+   "Holds_Account",
+   "EmailAccount: sokafor@brightwater.com"
+  ],
+  [
+   "Person: Felix Park",
+   "Holds_Account",
+   "EmailAddress: felix.park@westmark.com"
+  ],
+  [
+   "Person: Felix Park",
+   "Holds_Account",
+   "EmailAccount: felix.park@westmark.com"
+  ],
+  [
+   "EmailMessage: Wire confirmation needed",
+   "from",
+   "EmailAddress: sokafor@brightwater.com"
+  ],
+  [
+   "EmailMessage: Wire confirmation needed",
+   "to",
+   "EmailAddress: felix.park@westmark.com"
+  ],
+  [
+   "Event: bank detail change",
+   "eventType",
+   "bank detail change"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "July 24, 2025 at 13:45 UTC"
+  ],
+  [
+   "Event: account reconciliation",
+   "eventType",
+   "account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "8 August 2025, 14:45 UTC"
+  ],
+  [
+   "Person: Felix Park",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Person: Felix Park",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Samuel Sokafor",
+   "Communicated_With",
+   "Person: Felix Park"
+  ],
+  [
+   "Person: Felix Park",
+   "Holds_Account",
+   "EmailAddress: felixp"
+  ],
+  [
+   "Person: Felix Park",
+   "Holds_Account",
+   "EmailAccount: felixp"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Holds_Account",
+   "EmailAddress: gracec"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Holds_Account",
+   "EmailAccount: gracec"
+  ],
+  [
+   "EmailAccount: felixp",
+   "emailAddress",
+   "EmailAddress: felixp"
+  ],
+  [
+   "EmailAccount: gracec",
+   "emailAddress",
+   "EmailAddress: gracec"
+  ],
+  [
+   "EmailMessage: Finance is asking questions again.",
+   "from",
+   "EmailAddress: felixp"
+  ],
+  [
+   "EmailMessage: Finance is asking questions again.",
+   "to",
+   "EmailAddress: gracec"
+  ],
+  [
+   "EmailMessage: Finance is asking questions again.",
+   "sentTime",
+   "2025-07-24 14:45 UTC"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "from",
+   "EmailAddress: gracec"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "to",
+   "EmailAddress: felixp"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "sentTime",
+   "2025-07-24 14:52 UTC"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "from",
+   "EmailAddress: felixp"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "to",
+   "EmailAddress: gracec"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "sentTime",
+   "2025-07-24 14:59 UTC"
+  ],
+  [
+   "Person: Felix Park",
+   "Communicated_With",
+   "Person: Grace Castillo"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Communicated_With",
+   "Person: Felix Park"
+  ],
+  [
+   "Organization: Pinecrest National Bank",
+   "accountIssuer",
+   "Account: 5149195714"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Owns_Account",
+   "Account: 5149195714"
+  ],
+  [
+   "Organization: Pinecrest National Bank",
+   "accountIssuer",
+   "Account: 1192048693"
+  ],
+  [
+   "Organization: Westmark Supply Ltd",
+   "Owns_Account",
+   "Account: 1192048693"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Owns_Account",
+   "Account: 5739047847"
+  ],
+  [
+   "Organization: Pinecrest National Bank",
+   "accountIssuer",
+   "Account: 5739047847"
+  ],
+  [
+   "Person: Grace Castillo",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "July 31, 2025 at 11:45 UTC"
+  ]
+ ],
+ "tokens": {
+  "prompt": 3227,
+  "completion": 1674
+ }
+}

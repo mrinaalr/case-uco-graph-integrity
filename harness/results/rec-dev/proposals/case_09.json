@@ -1,0 +1,883 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"EmailAddress: desmond.castillo@northwind.com\", \"addressValue\", \"desmond.castillo@northwind.com\"],\n  [\"EmailAddress: arjun.okafor@copperfield.com\", \"addressValue\", \"arjun.okafor@copperfield.com\"],\n  [\"Person: Desmond Castillo\", \"name\", \"Desmond Castillo\"],\n  [\"Person: Arjun Okafor\", \"name\", \"Arjun Okafor\"],\n  [\"Person: Tomas Ivanova\", \"name\", \"Tomas Ivanova\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAddress: desmond.castillo@northwind.com\"],\n  [\"Person: Arjun Okafor\", \"Holds_Account\", \"EmailAddress: arjun.okafor@copperfield.com\"],\n  [\"EmailMessage: Wire confirmation needed\", \"subject\", \"Wire confirmation needed\"],\n  [\"EmailMessage: Wire confirmation needed\", \"sentTime\", \"Sun, 11 May 2025 15:30:00 +0000\"],\n  [\"EmailMessage: Wire confirmation needed\", \"from\", \"EmailAddress: desmond.castillo@northwind.com\"],\n  [\"EmailMessage: Wire confirmation needed\", \"to\", \"EmailAddress: arjun.okafor@copperfield.com\"],\n  [\"Person: Desmond Castillo\", \"Communicated_With\", \"Person: Arjun Okafor\"],\n  [\"Event: account reconciliation\", \"eventType\", \"account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"16 April 2025, 10:25 UTC\"],\n  [\"Person: Tomas Ivanova\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Event: expense reimbursement\", \"eventType\", \"expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"26 April 2025, 13:50 UTC\"],\n  [\"Person: Tomas Ivanova\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Event: audit review\", \"eventType\", \"audit review\"],\n  [\"Event: audit review\", \"startTime\", \"May 4, 2025 at 11:25 UTC\"],\n  [\"Person: Arjun Okafor\", \"Initiated\", \"Event: audit review\"],\n  [\"Event: invoice submission\", \"eventType\", \"invoice submission\"],\n  [\"Event: invoice submission\", \"startTime\", \"May 11, 2025 at 13:30 UTC\"],\n  [\"Person: Tomas Ivanova\", \"Initiated\", \"Event: invoice submission\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: desmond.castillo@northwind.com",
+     "addressValue",
+     "desmond.castillo@northwind.com"
+    ],
+    [
+     "EmailAddress: arjun.okafor@copperfield.com",
+     "addressValue",
+     "arjun.okafor@copperfield.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "name",
+     "Desmond Castillo"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "name",
+     "Arjun Okafor"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "name",
+     "Tomas Ivanova"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAddress: desmond.castillo@northwind.com"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Holds_Account",
+     "EmailAddress: arjun.okafor@copperfield.com"
+    ],
+    [
+     "EmailMessage: Wire confirmation needed",
+     "subject",
+     "Wire confirmation needed"
+    ],
+    [
+     "EmailMessage: Wire confirmation needed",
+     "sentTime",
+     "Sun, 11 May 2025 15:30:00 +0000"
+    ],
+    [
+     "EmailMessage: Wire confirmation needed",
+     "from",
+     "EmailAddress: desmond.castillo@northwind.com"
+    ],
+    [
+     "EmailMessage: Wire confirmation needed",
+     "to",
+     "EmailAddress: arjun.okafor@copperfield.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Communicated_With",
+     "Person: Arjun Okafor"
+    ],
+    [
+     "Event: account reconciliation",
+     "eventType",
+     "account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "16 April 2025, 10:25 UTC"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Event: expense reimbursement",
+     "eventType",
+     "expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "26 April 2025, 13:50 UTC"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Event: audit review",
+     "eventType",
+     "audit review"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "May 4, 2025 at 11:25 UTC"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Event: invoice submission",
+     "eventType",
+     "invoice submission"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "May 11, 2025 at 13:30 UTC"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "Initiated",
+     "Event: invoice submission"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 851,
+    "completion": 566
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Tomas Ivanova\", \"Employed_By\", \"Organization: Copperfield Supply Co.\"],\n  [\"Person: Tomas Ivanova\", \"Holds_Account\", \"EmailAddress: tomas.ivanova@copperfield.com\"],\n  [\"Person: Tomas Ivanova\", \"Holds_Account\", \"EmailAccount: tomas.ivanova@copperfield.com\"],\n  [\"EmailAccount: tomas.ivanova@copperfield.com\", \"emailAddress\", \"EmailAddress: tomas.ivanova@copperfield.com\"],\n  [\"Person: Arjun Okafor\", \"Employed_By\", \"Organization: Copperfield Supply Co.\"],\n  [\"Person: Arjun Okafor\", \"Holds_Account\", \"EmailAddress: arjun.okafor@copperfield.com\"],\n  [\"Person: Arjun Okafor\", \"Holds_Account\", \"EmailAccount: arjun.okafor@copperfield.com\"],\n  [\"EmailAccount: arjun.okafor@copperfield.com\", \"emailAddress\", \"EmailAddress: arjun.okafor@copperfield.com\"],\n  [\"Person: Desmond Castillo\", \"Employed_By\", \"Organization: Northwind Distribution Ltd.\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAddress: desmond.castillo@northwind.com\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAccount: desmond.castillo@northwind.com\"],\n  [\"EmailAccount: desmond.castillo@northwind.com\", \"emailAddress\", \"EmailAddress: desmond.castillo@northwind.com\"],\n  [\"Organization: Copperfield Supply Co.\", \"Located_At\", \"Location: 7126 Main Street, Boise, ID 83702\"],\n  [\"Organization: Copperfield Supply Co.\", \"Owns_Account\", \"Account: 8705653285\"],\n  [\"Account: 8705653285\", \"accountIdentifier\", \"8705653285\"],\n  [\"Account: 8705653285\", \"accountType\", \"unknown\"],\n  [\"Organization: Northwind Distribution Ltd.\", \"Owns_Account\", \"Account: 2231092003\"],\n  [\"Account: 2231092003\", \"accountIdentifier\", \"2231092003\"],\n  [\"Account: 2231092003\", \"accountType\", \"unknown\"],\n  [\"Account: 8705653285\", \"accountIssuer\", \"Organization: Pinecrest National Bank\"],\n  [\"Account: 2231092003\", \"accountIssuer\", \"Organization: Pinecrest National Bank\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Tomas Ivanova",
+     "Employed_By",
+     "Organization: Copperfield Supply Co."
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "Holds_Account",
+     "EmailAddress: tomas.ivanova@copperfield.com"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "Holds_Account",
+     "EmailAccount: tomas.ivanova@copperfield.com"
+    ],
+    [
+     "EmailAccount: tomas.ivanova@copperfield.com",
+     "emailAddress",
+     "EmailAddress: tomas.ivanova@copperfield.com"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Employed_By",
+     "Organization: Copperfield Supply Co."
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Holds_Account",
+     "EmailAddress: arjun.okafor@copperfield.com"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Holds_Account",
+     "EmailAccount: arjun.okafor@copperfield.com"
+    ],
+    [
+     "EmailAccount: arjun.okafor@copperfield.com",
+     "emailAddress",
+     "EmailAddress: arjun.okafor@copperfield.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Employed_By",
+     "Organization: Northwind Distribution Ltd."
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAddress: desmond.castillo@northwind.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAccount: desmond.castillo@northwind.com"
+    ],
+    [
+     "EmailAccount: desmond.castillo@northwind.com",
+     "emailAddress",
+     "EmailAddress: desmond.castillo@northwind.com"
+    ],
+    [
+     "Organization: Copperfield Supply Co.",
+     "Located_At",
+     "Location: 7126 Main Street, Boise, ID 83702"
+    ],
+    [
+     "Organization: Copperfield Supply Co.",
+     "Owns_Account",
+     "Account: 8705653285"
+    ],
+    [
+     "Account: 8705653285",
+     "accountIdentifier",
+     "8705653285"
+    ],
+    [
+     "Account: 8705653285",
+     "accountType",
+     "unknown"
+    ],
+    [
+     "Organization: Northwind Distribution Ltd.",
+     "Owns_Account",
+     "Account: 2231092003"
+    ],
+    [
+     "Account: 2231092003",
+     "accountIdentifier",
+     "2231092003"
+    ],
+    [
+     "Account: 2231092003",
+     "accountType",
+     "unknown"
+    ],
+    [
+     "Account: 8705653285",
+     "accountIssuer",
+     "Organization: Pinecrest National Bank"
+    ],
+    [
+     "Account: 2231092003",
+     "accountIssuer",
+     "Organization: Pinecrest National Bank"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 848,
+    "completion": 608
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: desmond.castillo@northwind.com\", \"addressValue\", \"desmond.castillo@northwind.com\"],\n  [\"EmailAddress: tomas.ivanova@copperfield.com\", \"addressValue\", \"tomas.ivanova@copperfield.com\"],\n  [\"EmailAddress: arjun.okafor@copperfield.com\", \"addressValue\", \"arjun.okafor@copperfield.com\"],\n  [\"EmailAccount: desmond.castillo@northwind.com\", \"emailAddress\", \"EmailAddress: desmond.castillo@northwind.com\"],\n  [\"EmailAccount: tomas.ivanova@copperfield.com\", \"emailAddress\", \"EmailAddress: tomas.ivanova@copperfield.com\"],\n  [\"EmailAccount: arjun.okafor@copperfield.com\", \"emailAddress\", \"EmailAddress: arjun.okafor@copperfield.com\"],\n  [\"Person: Desmond Castillo\", \"name\", \"Desmond Castillo\"],\n  [\"Person: Tomas Ivanova\", \"name\", \"Tomas Ivanova\"],\n  [\"Person: Arjun Okafor\", \"name\", \"Arjun Okafor\"],\n  [\"Organization: Copperfield Supply Co.\", \"name\", \"Copperfield Supply Co.\"],\n  [\"Location: Copperfield Supply Co.'s office\", \"street\", \"Copperfield Supply Co.'s office\"],\n  [\"Location: Copperfield Supply Co.'s office\", \"locality\", \"Copperfield Supply Co.'s office\"],\n  [\"Location: Copperfield Supply Co.'s office\", \"region\", \"Copperfield Supply Co.'s office\"],\n  [\"Location: Copperfield Supply Co.'s office\", \"postalCode\", \"Copperfield Supply Co.'s office\"],\n  [\"Event: contract amendment\", \"eventType\", \"contract amendment\"],\n  [\"Event: contract amendment\", \"startTime\", \"16 April 2025, 15:25 UTC\"],\n  [\"Event: wire transfer\", \"eventType\", \"wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"April 27, 2025 at 09:00 UTC\"],\n  [\"Event: refund request\", \"eventType\", \"refund request\"],\n  [\"Event: refund request\", \"startTime\", \"9 May 2025, 12:15 UTC\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"subject\", \"Quarter-end vendor payments\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"sentTime\", \"Fri, 09 May 2025 14:15:00 +0000\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAddress: desmond.castillo@northwind.com\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAccount: desmond.castillo@northwind.com\"],\n  [\"Person: Tomas Ivanova\", \"Holds_Account\", \"EmailAddress: tomas.ivanova@copperfield.com\"],\n  [\"Person: Tomas Ivanova\", \"Holds_Account\", \"EmailAccount: tomas.ivanova@copperfield.com\"],\n  [\"Person: Arjun Okafor\", \"Holds_Account\", \"EmailAddress: arjun.okafor@copperfield.com\"],\n  [\"Person: Arjun Okafor\", \"Holds_Account\", \"EmailAccount: arjun.okafor@copperfield.com\"],\n  [\"Person: Desmond Castillo\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Tomas Ivanova\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Arjun Okafor\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Person: Arjun Okafor\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Event: wire transfer\", \"Located_At\", \"Location: Copperfield Supply Co.'s office\"],\n  [\"Person: Desmond Castillo\", \"Participated_In\", \"Event: refund request\"],\n  [\"Person: Desmond Castillo\", \"Communicated_With\", \"Person: Tomas Ivanova\"],\n  [\"Person: Desmond Castillo\", \"Communicated_With\", \"Person: Arjun Okafor\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"from\", \"EmailAddress: desmond.castillo@northwind.com\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"to\", \"EmailAddress: tomas.ivanova@copperfield.com\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"to\", \"EmailAddress: arjun.okafor@copperfield.com\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: desmond.castillo@northwind.com",
+     "addressValue",
+     "desmond.castillo@northwind.com"
+    ],
+    [
+     "EmailAddress: tomas.ivanova@copperfield.com",
+     "addressValue",
+     "tomas.ivanova@copperfield.com"
+    ],
+    [
+     "EmailAddress: arjun.okafor@copperfield.com",
+     "addressValue",
+     "arjun.okafor@copperfield.com"
+    ],
+    [
+     "EmailAccount: desmond.castillo@northwind.com",
+     "emailAddress",
+     "EmailAddress: desmond.castillo@northwind.com"
+    ],
+    [
+     "EmailAccount: tomas.ivanova@copperfield.com",
+     "emailAddress",
+     "EmailAddress: tomas.ivanova@copperfield.com"
+    ],
+    [
+     "EmailAccount: arjun.okafor@copperfield.com",
+     "emailAddress",
+     "EmailAddress: arjun.okafor@copperfield.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "name",
+     "Desmond Castillo"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "name",
+     "Tomas Ivanova"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "name",
+     "Arjun Okafor"
+    ],
+    [
+     "Organization: Copperfield Supply Co.",
+     "name",
+     "Copperfield Supply Co."
+    ],
+    [
+     "Location: Copperfield Supply Co.'s office",
+     "street",
+     "Copperfield Supply Co.'s office"
+    ],
+    [
+     "Location: Copperfield Supply Co.'s office",
+     "locality",
+     "Copperfield Supply Co.'s office"
+    ],
+    [
+     "Location: Copperfield Supply Co.'s office",
+     "region",
+     "Copperfield Supply Co.'s office"
+    ],
+    [
+     "Location: Copperfield Supply Co.'s office",
+     "postalCode",
+     "Copperfield Supply Co.'s office"
+    ],
+    [
+     "Event: contract amendment",
+     "eventType",
+     "contract amendment"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "16 April 2025, 15:25 UTC"
+    ],
+    [
+     "Event: wire transfer",
+     "eventType",
+     "wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "April 27, 2025 at 09:00 UTC"
+    ],
+    [
+     "Event: refund request",
+     "eventType",
+     "refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "9 May 2025, 12:15 UTC"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "subject",
+     "Quarter-end vendor payments"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "sentTime",
+     "Fri, 09 May 2025 14:15:00 +0000"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAddress: desmond.castillo@northwind.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAccount: desmond.castillo@northwind.com"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "Holds_Account",
+     "EmailAddress: tomas.ivanova@copperfield.com"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "Holds_Account",
+     "EmailAccount: tomas.ivanova@copperfield.com"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Holds_Account",
+     "EmailAddress: arjun.okafor@copperfield.com"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Holds_Account",
+     "EmailAccount: arjun.okafor@copperfield.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Tomas Ivanova",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Arjun Okafor",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "Located_At",
+     "Location: Copperfield Supply Co.'s office"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Participated_In",
+     "Event: refund request"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Communicated_With",
+     "Person: Tomas Ivanova"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Communicated_With",
+     "Person: Arjun Okafor"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "from",
+     "EmailAddress: desmond.castillo@northwind.com"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "to",
+     "EmailAddress: tomas.ivanova@copperfield.com"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "to",
+     "EmailAddress: arjun.okafor@copperfield.com"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 862,
+    "completion": 982
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: desmond.castillo@northwind.com",
+   "addressValue",
+   "desmond.castillo@northwind.com"
+  ],
+  [
+   "EmailAddress: arjun.okafor@copperfield.com",
+   "addressValue",
+   "arjun.okafor@copperfield.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "name",
+   "Desmond Castillo"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "name",
+   "Arjun Okafor"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "name",
+   "Tomas Ivanova"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAddress: desmond.castillo@northwind.com"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Holds_Account",
+   "EmailAddress: arjun.okafor@copperfield.com"
+  ],
+  [
+   "EmailMessage: Wire confirmation needed",
+   "subject",
+   "Wire confirmation needed"
+  ],
+  [
+   "EmailMessage: Wire confirmation needed",
+   "sentTime",
+   "Sun, 11 May 2025 15:30:00 +0000"
+  ],
+  [
+   "EmailMessage: Wire confirmation needed",
+   "from",
+   "EmailAddress: desmond.castillo@northwind.com"
+  ],
+  [
+   "EmailMessage: Wire confirmation needed",
+   "to",
+   "EmailAddress: arjun.okafor@copperfield.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Communicated_With",
+   "Person: Arjun Okafor"
+  ],
+  [
+   "Event: account reconciliation",
+   "eventType",
+   "account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "16 April 2025, 10:25 UTC"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Event: expense reimbursement",
+   "eventType",
+   "expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "26 April 2025, 13:50 UTC"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Event: audit review",
+   "eventType",
+   "audit review"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "May 4, 2025 at 11:25 UTC"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Event: invoice submission",
+   "eventType",
+   "invoice submission"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "May 11, 2025 at 13:30 UTC"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Employed_By",
+   "Organization: Copperfield Supply Co."
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Holds_Account",
+   "EmailAddress: tomas.ivanova@copperfield.com"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Holds_Account",
+   "EmailAccount: tomas.ivanova@copperfield.com"
+  ],
+  [
+   "EmailAccount: tomas.ivanova@copperfield.com",
+   "emailAddress",
+   "EmailAddress: tomas.ivanova@copperfield.com"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Employed_By",
+   "Organization: Copperfield Supply Co."
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Holds_Account",
+   "EmailAddress: arjun.okafor@copperfield.com"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Holds_Account",
+   "EmailAccount: arjun.okafor@copperfield.com"
+  ],
+  [
+   "EmailAccount: arjun.okafor@copperfield.com",
+   "emailAddress",
+   "EmailAddress: arjun.okafor@copperfield.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Employed_By",
+   "Organization: Northwind Distribution Ltd."
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAddress: desmond.castillo@northwind.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAccount: desmond.castillo@northwind.com"
+  ],
+  [
+   "EmailAccount: desmond.castillo@northwind.com",
+   "emailAddress",
+   "EmailAddress: desmond.castillo@northwind.com"
+  ],
+  [
+   "Organization: Copperfield Supply Co.",
+   "Located_At",
+   "Location: 7126 Main Street, Boise, ID 83702"
+  ],
+  [
+   "Organization: Copperfield Supply Co.",
+   "Owns_Account",
+   "Account: 8705653285"
+  ],
+  [
+   "Account: 8705653285",
+   "accountIdentifier",
+   "8705653285"
+  ],
+  [
+   "Account: 8705653285",
+   "accountType",
+   "unknown"
+  ],
+  [
+   "Organization: Northwind Distribution Ltd.",
+   "Owns_Account",
+   "Account: 2231092003"
+  ],
+  [
+   "Account: 2231092003",
+   "accountIdentifier",
+   "2231092003"
+  ],
+  [
+   "Account: 2231092003",
+   "accountType",
+   "unknown"
+  ],
+  [
+   "Account: 8705653285",
+   "accountIssuer",
+   "Organization: Pinecrest National Bank"
+  ],
+  [
+   "Account: 2231092003",
+   "accountIssuer",
+   "Organization: Pinecrest National Bank"
+  ],
+  [
+   "EmailAddress: desmond.castillo@northwind.com",
+   "addressValue",
+   "desmond.castillo@northwind.com"
+  ],
+  [
+   "EmailAddress: tomas.ivanova@copperfield.com",
+   "addressValue",
+   "tomas.ivanova@copperfield.com"
+  ],
+  [
+   "EmailAddress: arjun.okafor@copperfield.com",
+   "addressValue",
+   "arjun.okafor@copperfield.com"
+  ],
+  [
+   "EmailAccount: desmond.castillo@northwind.com",
+   "emailAddress",
+   "EmailAddress: desmond.castillo@northwind.com"
+  ],
+  [
+   "EmailAccount: tomas.ivanova@copperfield.com",
+   "emailAddress",
+   "EmailAddress: tomas.ivanova@copperfield.com"
+  ],
+  [
+   "EmailAccount: arjun.okafor@copperfield.com",
+   "emailAddress",
+   "EmailAddress: arjun.okafor@copperfield.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "name",
+   "Desmond Castillo"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "name",
+   "Tomas Ivanova"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "name",
+   "Arjun Okafor"
+  ],
+  [
+   "Organization: Copperfield Supply Co.",
+   "name",
+   "Copperfield Supply Co."
+  ],
+  [
+   "Location: Copperfield Supply Co.'s office",
+   "street",
+   "Copperfield Supply Co.'s office"
+  ],
+  [
+   "Location: Copperfield Supply Co.'s office",
+   "locality",
+   "Copperfield Supply Co.'s office"
+  ],
+  [
+   "Location: Copperfield Supply Co.'s office",
+   "region",
+   "Copperfield Supply Co.'s office"
+  ],
+  [
+   "Location: Copperfield Supply Co.'s office",
+   "postalCode",
+   "Copperfield Supply Co.'s office"
+  ],
+  [
+   "Event: contract amendment",
+   "eventType",
+   "contract amendment"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "16 April 2025, 15:25 UTC"
+  ],
+  [
+   "Event: wire transfer",
+   "eventType",
+   "wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "April 27, 2025 at 09:00 UTC"
+  ],
+  [
+   "Event: refund request",
+   "eventType",
+   "refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "9 May 2025, 12:15 UTC"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "subject",
+   "Quarter-end vendor payments"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "sentTime",
+   "Fri, 09 May 2025 14:15:00 +0000"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAddress: desmond.castillo@northwind.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAccount: desmond.castillo@northwind.com"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Holds_Account",
+   "EmailAddress: tomas.ivanova@copperfield.com"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Holds_Account",
+   "EmailAccount: tomas.ivanova@copperfield.com"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Holds_Account",
+   "EmailAddress: arjun.okafor@copperfield.com"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Holds_Account",
+   "EmailAccount: arjun.okafor@copperfield.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Tomas Ivanova",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Arjun Okafor",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "Located_At",
+   "Location: Copperfield Supply Co.'s office"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Participated_In",
+   "Event: refund request"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Communicated_With",
+   "Person: Tomas Ivanova"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Communicated_With",
+   "Person: Arjun Okafor"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "from",
+   "EmailAddress: desmond.castillo@northwind.com"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "to",
+   "EmailAddress: tomas.ivanova@copperfield.com"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "to",
+   "EmailAddress: arjun.okafor@copperfield.com"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2561,
+  "completion": 2156
+ }
+}

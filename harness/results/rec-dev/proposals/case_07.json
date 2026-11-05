@@ -1,0 +1,813 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"EmailAddress: vabara@redfern.com\", \"addressValue\", \"vabara@redfern.com\"],\n  [\"EmailAddress: dsorensen@summitpeak.com\", \"addressValue\", \"dsorensen@summitpeak.com\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"subject\", \"Quarter-end vendor payments\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"sentTime\", \"Tue, 10 Jun 2025 12:00:00 +0000\"],\n  [\"EmailAccount: vabara@redfern.com\", \"emailAddress\", \"EmailAddress: vabara@redfern.com\"],\n  [\"EmailAccount: dsorensen@summitpeak.com\", \"emailAddress\", \"EmailAddress: dsorensen@summitpeak.com\"],\n  [\"Person: Victor\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Person: Victor\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Person: Victor\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Desmond Sorensen\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Person: Desmond Sorensen\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Person: Samuel Petrov\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Victor\", \"Communicated_With\", \"Person: Desmond Sorensen\"],\n  [\"Person: Victor\", \"Holds_Account\", \"EmailAddress: vabara@redfern.com\"],\n  [\"Person: Victor\", \"Holds_Account\", \"EmailAccount: vabara@redfern.com\"],\n  [\"Person: Desmond Sorensen\", \"Holds_Account\", \"EmailAddress: dsorensen@summitpeak.com\"],\n  [\"Person: Desmond Sorensen\", \"Holds_Account\", \"EmailAccount: dsorensen@summitpeak.com\"],\n  [\"Person: Samuel Petrov\", \"Holds_Account\", \"EmailAddress: samuel.petrov@unknown.com\"],\n  [\"Person: Samuel Petrov\", \"Holds_Account\", \"EmailAccount: samuel.petrov@unknown.com\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: vabara@redfern.com",
+     "addressValue",
+     "vabara@redfern.com"
+    ],
+    [
+     "EmailAddress: dsorensen@summitpeak.com",
+     "addressValue",
+     "dsorensen@summitpeak.com"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "subject",
+     "Quarter-end vendor payments"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "sentTime",
+     "Tue, 10 Jun 2025 12:00:00 +0000"
+    ],
+    [
+     "EmailAccount: vabara@redfern.com",
+     "emailAddress",
+     "EmailAddress: vabara@redfern.com"
+    ],
+    [
+     "EmailAccount: dsorensen@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: dsorensen@summitpeak.com"
+    ],
+    [
+     "Person: Victor",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Person: Victor",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Victor",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Samuel Petrov",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Victor",
+     "Communicated_With",
+     "Person: Desmond Sorensen"
+    ],
+    [
+     "Person: Victor",
+     "Holds_Account",
+     "EmailAddress: vabara@redfern.com"
+    ],
+    [
+     "Person: Victor",
+     "Holds_Account",
+     "EmailAccount: vabara@redfern.com"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Holds_Account",
+     "EmailAddress: dsorensen@summitpeak.com"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Holds_Account",
+     "EmailAccount: dsorensen@summitpeak.com"
+    ],
+    [
+     "Person: Samuel Petrov",
+     "Holds_Account",
+     "EmailAddress: samuel.petrov@unknown.com"
+    ],
+    [
+     "Person: Samuel Petrov",
+     "Holds_Account",
+     "EmailAccount: samuel.petrov@unknown.com"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 830,
+    "completion": 484
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Desmond Sorensen\", \"Employed_By\", \"Organization: Summit Peak Logistics Group\"],\n  [\"EmailAddress: dsorensen@summitpeak.com\", \"key\", \"dsorensen@summitpeak.com\"],\n  [\"Person: Desmond Sorensen\", \"Holds_Account\", \"EmailAddress: dsorensen@summitpeak.com\"],\n  [\"EmailAccount: dsorensen@summitpeak.com\", \"key\", \"dsorensen@summitpeak.com\"],\n  [\"Person: Desmond Sorensen\", \"Holds_Account\", \"EmailAccount: dsorensen@summitpeak.com\"],\n  [\"EmailAccount: dsorensen@summitpeak.com\", \"emailAddress\", \"EmailAddress: dsorensen@summitpeak.com\"],\n  [\"Person: Priya Mendes\", \"Employed_By\", \"Organization: Summit Peak Logistics Group\"],\n  [\"EmailAddress: pmendes@summitpeak.com\", \"key\", \"pmendes@summitpeak.com\"],\n  [\"Person: Priya Mendes\", \"Holds_Account\", \"EmailAddress: pmendes@summitpeak.com\"],\n  [\"EmailAccount: pmendes@summitpeak.com\", \"key\", \"pmendes@summitpeak.com\"],\n  [\"Person: Priya Mendes\", \"Holds_Account\", \"EmailAccount: pmendes@summitpeak.com\"],\n  [\"EmailAccount: pmendes@summitpeak.com\", \"emailAddress\", \"EmailAddress: pmendes@summitpeak.com\"],\n  [\"Person: Samuel Petrov\", \"Employed_By\", \"Organization: Summit Peak Logistics Group\"],\n  [\"EmailAddress: spetrov@summitpeak.com\", \"key\", \"spetrov@summitpeak.com\"],\n  [\"Person: Samuel Petrov\", \"Holds_Account\", \"EmailAddress: spetrov@summitpeak.com\"],\n  [\"EmailAccount: spetrov@summitpeak.com\", \"key\", \"spetrov@summitpeak.com\"],\n  [\"Person: Samuel Petrov\", \"Holds_Account\", \"EmailAccount: spetrov@summitpeak.com\"],\n  [\"EmailAccount: spetrov@summitpeak.com\", \"emailAddress\", \"EmailAddress: spetrov@summitpeak.com\"],\n  [\"Person: Victor Abara\", \"Employed_By\", \"Organization: Redfern Distribution Group\"],\n  [\"EmailAddress: vabara@redfern.com\", \"key\", \"vabara@redfern.com\"],\n  [\"Person: Victor Abara\", \"Holds_Account\", \"EmailAddress: vabara@redfern.com\"],\n  [\"EmailAccount: vabara@redfern.com\", \"key\", \"vabara@redfern.com\"],\n  [\"Person: Victor Abara\", \"Holds_Account\", \"EmailAccount: vabara@redfern.com\"],\n  [\"EmailAccount: vabara@redfern.com\", \"emailAddress\", \"EmailAddress: vabara@redfern.com\"],\n  [\"Location: 4496 Lakeview Road, Raleigh, NC 27601\", \"key\", \"4496 Lakeview Road\"],\n  [\"Location: 4496 Lakeview Road, Raleigh, NC 27601\", \"locality\", \"Raleigh\"],\n  [\"Location: 4496 Lakeview Road, Raleigh, NC 27601\", \"region\", \"NC\"],\n  [\"Location: 4496 Lakeview Road, Raleigh, NC 27601\", \"postalCode\", \"27601\"],\n  [\"Organization: Summit Peak Logistics Group\", \"Located_At\", \"Location: 4496 Lakeview Road, Raleigh, NC 27601\"],\n  [\"Account: 2981295938\", \"key\", \"2981295938\"],\n  [\"Account: 2981295938\", \"accountType\", \"First Harbor Bank\"],\n  [\"Organization: Summit Peak Logistics Group\", \"Owns_Account\", \"Account: 2981295938\"],\n  [\"Account: 2981295938\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Account: 8326003702\", \"key\", \"8326003702\"],\n  [\"Account: 8326003702\", \"accountType\", \"First Harbor Bank\"],\n  [\"Organization: Redfern Distribution Group\", \"Owns_Account\", \"Account: 8326003702\"],\n  [\"Account: 8326003702\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Account: 1397734638\", \"key\", \"1397734638\"],\n  [\"Account: 1397734638\", \"accountType\", \"First Harbor Bank\"],\n  [\"Person: Desmond Sorensen\", \"Owns_Account\", \"Account: 1397734638\"],\n  [\"Account: 1397734638\", \"accountIssuer\", \"Organization: First Harbor Bank\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Desmond Sorensen",
+     "Employed_By",
+     "Organization: Summit Peak Logistics Group"
+    ],
+    [
+     "EmailAddress: dsorensen@summitpeak.com",
+     "key",
+     "dsorensen@summitpeak.com"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Holds_Account",
+     "EmailAddress: dsorensen@summitpeak.com"
+    ],
+    [
+     "EmailAccount: dsorensen@summitpeak.com",
+     "key",
+     "dsorensen@summitpeak.com"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Holds_Account",
+     "EmailAccount: dsorensen@summitpeak.com"
+    ],
+    [
+     "EmailAccount: dsorensen@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: dsorensen@summitpeak.com"
+    ],
+    [
+     "Person: Priya Mendes",
+     "Employed_By",
+     "Organization: Summit Peak Logistics Group"
+    ],
+    [
+     "EmailAddress: pmendes@summitpeak.com",
+     "key",
+     "pmendes@summitpeak.com"
+    ],
+    [
+     "Person: Priya Mendes",
+     "Holds_Account",
+     "EmailAddress: pmendes@summitpeak.com"
+    ],
+    [
+     "EmailAccount: pmendes@summitpeak.com",
+     "key",
+     "pmendes@summitpeak.com"
+    ],
+    [
+     "Person: Priya Mendes",
+     "Holds_Account",
+     "EmailAccount: pmendes@summitpeak.com"
+    ],
+    [
+     "EmailAccount: pmendes@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: pmendes@summitpeak.com"
+    ],
+    [
+     "Person: Samuel Petrov",
+     "Employed_By",
+     "Organization: Summit Peak Logistics Group"
+    ],
+    [
+     "EmailAddress: spetrov@summitpeak.com",
+     "key",
+     "spetrov@summitpeak.com"
+    ],
+    [
+     "Person: Samuel Petrov",
+     "Holds_Account",
+     "EmailAddress: spetrov@summitpeak.com"
+    ],
+    [
+     "EmailAccount: spetrov@summitpeak.com",
+     "key",
+     "spetrov@summitpeak.com"
+    ],
+    [
+     "Person: Samuel Petrov",
+     "Holds_Account",
+     "EmailAccount: spetrov@summitpeak.com"
+    ],
+    [
+     "EmailAccount: spetrov@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: spetrov@summitpeak.com"
+    ],
+    [
+     "Person: Victor Abara",
+     "Employed_By",
+     "Organization: Redfern Distribution Group"
+    ],
+    [
+     "EmailAddress: vabara@redfern.com",
+     "key",
+     "vabara@redfern.com"
+    ],
+    [
+     "Person: Victor Abara",
+     "Holds_Account",
+     "EmailAddress: vabara@redfern.com"
+    ],
+    [
+     "EmailAccount: vabara@redfern.com",
+     "key",
+     "vabara@redfern.com"
+    ],
+    [
+     "Person: Victor Abara",
+     "Holds_Account",
+     "EmailAccount: vabara@redfern.com"
+    ],
+    [
+     "EmailAccount: vabara@redfern.com",
+     "emailAddress",
+     "EmailAddress: vabara@redfern.com"
+    ],
+    [
+     "Location: 4496 Lakeview Road, Raleigh, NC 27601",
+     "key",
+     "4496 Lakeview Road"
+    ],
+    [
+     "Location: 4496 Lakeview Road, Raleigh, NC 27601",
+     "locality",
+     "Raleigh"
+    ],
+    [
+     "Location: 4496 Lakeview Road, Raleigh, NC 27601",
+     "region",
+     "NC"
+    ],
+    [
+     "Location: 4496 Lakeview Road, Raleigh, NC 27601",
+     "postalCode",
+     "27601"
+    ],
+    [
+     "Organization: Summit Peak Logistics Group",
+     "Located_At",
+     "Location: 4496 Lakeview Road, Raleigh, NC 27601"
+    ],
+    [
+     "Account: 2981295938",
+     "key",
+     "2981295938"
+    ],
+    [
+     "Account: 2981295938",
+     "accountType",
+     "First Harbor Bank"
+    ],
+    [
+     "Organization: Summit Peak Logistics Group",
+     "Owns_Account",
+     "Account: 2981295938"
+    ],
+    [
+     "Account: 2981295938",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Account: 8326003702",
+     "key",
+     "8326003702"
+    ],
+    [
+     "Account: 8326003702",
+     "accountType",
+     "First Harbor Bank"
+    ],
+    [
+     "Organization: Redfern Distribution Group",
+     "Owns_Account",
+     "Account: 8326003702"
+    ],
+    [
+     "Account: 8326003702",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Account: 1397734638",
+     "key",
+     "1397734638"
+    ],
+    [
+     "Account: 1397734638",
+     "accountType",
+     "First Harbor Bank"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Owns_Account",
+     "Account: 1397734638"
+    ],
+    [
+     "Account: 1397734638",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 888,
+    "completion": 1169
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: dsorensen@summitpeak.com\", \"addressValue\", \"dsorensen@summitpeak.com\"],\n  [\"EmailAddress: vabara@redfern.com\", \"addressValue\", \"vabara@redfern.com\"],\n  [\"EmailAccount: dsorensen@summitpeak.com\", \"emailAddress\", \"EmailAddress: dsorensen@summitpeak.com\"],\n  [\"EmailAccount: vabara@redfern.com\", \"emailAddress\", \"EmailAddress: vabara@redfern.com\"],\n  [\"EmailMessage: Invoice 3862 follow-up\", \"subject\", \"Invoice 3862 follow-up\"],\n  [\"EmailMessage: Invoice 3862 follow-up\", \"sentTime\", \"Thu, 05 Jun 2025 13:25:00 +0000\"],\n  [\"Person: Desmond Sorensen\", \"Holds_Account\", \"EmailAddress: dsorensen@summitpeak.com\"],\n  [\"Person: Desmond Sorensen\", \"Holds_Account\", \"EmailAccount: dsorensen@summitpeak.com\"],\n  [\"Person: Victor Abara\", \"Holds_Account\", \"EmailAddress: vabara@redfern.com\"],\n  [\"Person: Victor Abara\", \"Holds_Account\", \"EmailAccount: vabara@redfern.com\"],\n  [\"Person: Desmond Sorensen\", \"from\", \"EmailMessage: Invoice 3862 follow-up\"],\n  [\"Person: Victor Abara\", \"to\", \"EmailMessage: Invoice 3862 follow-up\"],\n  [\"Person: Desmond Sorensen\", \"Communicated_With\", \"Person: Victor Abara\"],\n  [\"Person: Priya Mendes\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"26 May 2025, 10:00 UTC\"],\n  [\"Person: Desmond Sorensen\", \"Initiated\", \"Event: payment approval\"],\n  [\"Event: payment approval\", \"startTime\", \"5 June 2025, 11:25 UTC\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: dsorensen@summitpeak.com",
+     "addressValue",
+     "dsorensen@summitpeak.com"
+    ],
+    [
+     "EmailAddress: vabara@redfern.com",
+     "addressValue",
+     "vabara@redfern.com"
+    ],
+    [
+     "EmailAccount: dsorensen@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: dsorensen@summitpeak.com"
+    ],
+    [
+     "EmailAccount: vabara@redfern.com",
+     "emailAddress",
+     "EmailAddress: vabara@redfern.com"
+    ],
+    [
+     "EmailMessage: Invoice 3862 follow-up",
+     "subject",
+     "Invoice 3862 follow-up"
+    ],
+    [
+     "EmailMessage: Invoice 3862 follow-up",
+     "sentTime",
+     "Thu, 05 Jun 2025 13:25:00 +0000"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Holds_Account",
+     "EmailAddress: dsorensen@summitpeak.com"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Holds_Account",
+     "EmailAccount: dsorensen@summitpeak.com"
+    ],
+    [
+     "Person: Victor Abara",
+     "Holds_Account",
+     "EmailAddress: vabara@redfern.com"
+    ],
+    [
+     "Person: Victor Abara",
+     "Holds_Account",
+     "EmailAccount: vabara@redfern.com"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "from",
+     "EmailMessage: Invoice 3862 follow-up"
+    ],
+    [
+     "Person: Victor Abara",
+     "to",
+     "EmailMessage: Invoice 3862 follow-up"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Communicated_With",
+     "Person: Victor Abara"
+    ],
+    [
+     "Person: Priya Mendes",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "26 May 2025, 10:00 UTC"
+    ],
+    [
+     "Person: Desmond Sorensen",
+     "Initiated",
+     "Event: payment approval"
+    ],
+    [
+     "Event: payment approval",
+     "startTime",
+     "5 June 2025, 11:25 UTC"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 797,
+    "completion": 484
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: vabara@redfern.com",
+   "addressValue",
+   "vabara@redfern.com"
+  ],
+  [
+   "EmailAddress: dsorensen@summitpeak.com",
+   "addressValue",
+   "dsorensen@summitpeak.com"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "subject",
+   "Quarter-end vendor payments"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "sentTime",
+   "Tue, 10 Jun 2025 12:00:00 +0000"
+  ],
+  [
+   "EmailAccount: vabara@redfern.com",
+   "emailAddress",
+   "EmailAddress: vabara@redfern.com"
+  ],
+  [
+   "EmailAccount: dsorensen@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: dsorensen@summitpeak.com"
+  ],
+  [
+   "Person: Victor",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Person: Victor",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Victor",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Samuel Petrov",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Victor",
+   "Communicated_With",
+   "Person: Desmond Sorensen"
+  ],
+  [
+   "Person: Victor",
+   "Holds_Account",
+   "EmailAddress: vabara@redfern.com"
+  ],
+  [
+   "Person: Victor",
+   "Holds_Account",
+   "EmailAccount: vabara@redfern.com"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Holds_Account",
+   "EmailAddress: dsorensen@summitpeak.com"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Holds_Account",
+   "EmailAccount: dsorensen@summitpeak.com"
+  ],
+  [
+   "Person: Samuel Petrov",
+   "Holds_Account",
+   "EmailAddress: samuel.petrov@unknown.com"
+  ],
+  [
+   "Person: Samuel Petrov",
+   "Holds_Account",
+   "EmailAccount: samuel.petrov@unknown.com"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Employed_By",
+   "Organization: Summit Peak Logistics Group"
+  ],
+  [
+   "EmailAddress: dsorensen@summitpeak.com",
+   "key",
+   "dsorensen@summitpeak.com"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Holds_Account",
+   "EmailAddress: dsorensen@summitpeak.com"
+  ],
+  [
+   "EmailAccount: dsorensen@summitpeak.com",
+   "key",
+   "dsorensen@summitpeak.com"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Holds_Account",
+   "EmailAccount: dsorensen@summitpeak.com"
+  ],
+  [
+   "EmailAccount: dsorensen@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: dsorensen@summitpeak.com"
+  ],
+  [
+   "Person: Priya Mendes",
+   "Employed_By",
+   "Organization: Summit Peak Logistics Group"
+  ],
+  [
+   "EmailAddress: pmendes@summitpeak.com",
+   "key",
+   "pmendes@summitpeak.com"
+  ],
+  [
+   "Person: Priya Mendes",
+   "Holds_Account",
+   "EmailAddress: pmendes@summitpeak.com"
+  ],
+  [
+   "EmailAccount: pmendes@summitpeak.com",
+   "key",
+   "pmendes@summitpeak.com"
+  ],
+  [
+   "Person: Priya Mendes",
+   "Holds_Account",
+   "EmailAccount: pmendes@summitpeak.com"
+  ],
+  [
+   "EmailAccount: pmendes@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: pmendes@summitpeak.com"
+  ],
+  [
+   "Person: Samuel Petrov",
+   "Employed_By",
+   "Organization: Summit Peak Logistics Group"
+  ],
+  [
+   "EmailAddress: spetrov@summitpeak.com",
+   "key",
+   "spetrov@summitpeak.com"
+  ],
+  [
+   "Person: Samuel Petrov",
+   "Holds_Account",
+   "EmailAddress: spetrov@summitpeak.com"
+  ],
+  [
+   "EmailAccount: spetrov@summitpeak.com",
+   "key",
+   "spetrov@summitpeak.com"
+  ],
+  [
+   "Person: Samuel Petrov",
+   "Holds_Account",
+   "EmailAccount: spetrov@summitpeak.com"
+  ],
+  [
+   "EmailAccount: spetrov@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: spetrov@summitpeak.com"
+  ],
+  [
+   "Person: Victor Abara",
+   "Employed_By",
+   "Organization: Redfern Distribution Group"
+  ],
+  [
+   "EmailAddress: vabara@redfern.com",
+   "key",
+   "vabara@redfern.com"
+  ],
+  [
+   "Person: Victor Abara",
+   "Holds_Account",
+   "EmailAddress: vabara@redfern.com"
+  ],
+  [
+   "EmailAccount: vabara@redfern.com",
+   "key",
+   "vabara@redfern.com"
+  ],
+  [
+   "Person: Victor Abara",
+   "Holds_Account",
+   "EmailAccount: vabara@redfern.com"
+  ],
+  [
+   "EmailAccount: vabara@redfern.com",
+   "emailAddress",
+   "EmailAddress: vabara@redfern.com"
+  ],
+  [
+   "Location: 4496 Lakeview Road, Raleigh, NC 27601",
+   "key",
+   "4496 Lakeview Road"
+  ],
+  [
+   "Location: 4496 Lakeview Road, Raleigh, NC 27601",
+   "locality",
+   "Raleigh"
+  ],
+  [
+   "Location: 4496 Lakeview Road, Raleigh, NC 27601",
+   "region",
+   "NC"
+  ],
+  [
+   "Location: 4496 Lakeview Road, Raleigh, NC 27601",
+   "postalCode",
+   "27601"
+  ],
+  [
+   "Organization: Summit Peak Logistics Group",
+   "Located_At",
+   "Location: 4496 Lakeview Road, Raleigh, NC 27601"
+  ],
+  [
+   "Account: 2981295938",
+   "key",
+   "2981295938"
+  ],
+  [
+   "Account: 2981295938",
+   "accountType",
+   "First Harbor Bank"
+  ],
+  [
+   "Organization: Summit Peak Logistics Group",
+   "Owns_Account",
+   "Account: 2981295938"
+  ],
+  [
+   "Account: 2981295938",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Account: 8326003702",
+   "key",
+   "8326003702"
+  ],
+  [
+   "Account: 8326003702",
+   "accountType",
+   "First Harbor Bank"
+  ],
+  [
+   "Organization: Redfern Distribution Group",
+   "Owns_Account",
+   "Account: 8326003702"
+  ],
+  [
+   "Account: 8326003702",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Account: 1397734638",
+   "key",
+   "1397734638"
+  ],
+  [
+   "Account: 1397734638",
+   "accountType",
+   "First Harbor Bank"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Owns_Account",
+   "Account: 1397734638"
+  ],
+  [
+   "Account: 1397734638",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "EmailAddress: dsorensen@summitpeak.com",
+   "addressValue",
+   "dsorensen@summitpeak.com"
+  ],
+  [
+   "EmailAddress: vabara@redfern.com",
+   "addressValue",
+   "vabara@redfern.com"
+  ],
+  [
+   "EmailAccount: dsorensen@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: dsorensen@summitpeak.com"
+  ],
+  [
+   "EmailAccount: vabara@redfern.com",
+   "emailAddress",
+   "EmailAddress: vabara@redfern.com"
+  ],
+  [
+   "EmailMessage: Invoice 3862 follow-up",
+   "subject",
+   "Invoice 3862 follow-up"
+  ],
+  [
+   "EmailMessage: Invoice 3862 follow-up",
+   "sentTime",
+   "Thu, 05 Jun 2025 13:25:00 +0000"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Holds_Account",
+   "EmailAddress: dsorensen@summitpeak.com"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Holds_Account",
+   "EmailAccount: dsorensen@summitpeak.com"
+  ],
+  [
+   "Person: Victor Abara",
+   "Holds_Account",
+   "EmailAddress: vabara@redfern.com"
+  ],
+  [
+   "Person: Victor Abara",
+   "Holds_Account",
+   "EmailAccount: vabara@redfern.com"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "from",
+   "EmailMessage: Invoice 3862 follow-up"
+  ],
+  [
+   "Person: Victor Abara",
+   "to",
+   "EmailMessage: Invoice 3862 follow-up"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Communicated_With",
+   "Person: Victor Abara"
+  ],
+  [
+   "Person: Priya Mendes",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "26 May 2025, 10:00 UTC"
+  ],
+  [
+   "Person: Desmond Sorensen",
+   "Initiated",
+   "Event: payment approval"
+  ],
+  [
+   "Event: payment approval",
+   "startTime",
+   "5 June 2025, 11:25 UTC"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2515,
+  "completion": 2137
+ }
+}

@@ -1,0 +1,129 @@
+# The task profile: what CASE/UCO leaves open and this benchmark fixes. One file, read by graphkit for every arm, the
+# hook, the selector and the reconciler, in place of the tables each of them carried (hook.KIND_CLASSES,
+# hook.PROP_CLASSES, pipeline_edc.TYPES, graphkit.RELATION_KINDS). reconcile.ontology checks every class and property
+# named here against the SDK's schema and registry at load.
+
+# The ten relation kinds. CASE/UCO does not define them or give them a domain and range; `description` is the task
+# statement's gloss (llm.SHARED), `phrase` says the kind in a sentence ("S <phrase> O"). Order is the prompt's.
+[kinds.Employed_By]
+description = "person -> organization"
+phrase = "is employed by"
+domain = ["Person"]
+range = ["Organization"]
+
+[kinds.Reports_To]
+description = "employee -> manager"
+phrase = "reports to"
+domain = ["Person"]
+range = ["Person"]
+
+[kinds.Holds_Account]
+description = "person -> email address or application account they use"
+phrase = "holds"
+domain = ["Person"]
+range = ["EmailAddress", "ApplicationAccount", "EmailAccount"]
+
+[kinds.Owns_Account]
+description = "person or organization -> account they own"
+phrase = "owns"
+domain = ["Person", "Organization"]
+range = ["Account"]
+
+[kinds.Located_At]
+description = "organization or event -> location"
+phrase = "is located at"
+domain = ["Organization", "Event"]
+range = ["Location"]
+
+[kinds.Participated_In]
+description = "person -> event"
+phrase = "participated in"
+domain = ["Person"]
+range = ["Event"]
+
+[kinds.Initiated]
+description = "person -> event"
+phrase = "initiated"
+domain = ["Person"]
+range = ["Event"]
+
+[kinds.Transferred_To]
+description = "source account -> destination account"
+phrase = "transferred to"
+domain = ["Account"]
+range = ["Account"]
+
+[kinds.Authorized]
+description = "person -> event"
+phrase = "authorized"
+domain = ["Person"]
+range = ["Event"]
+
+[kinds.Communicated_With]
+description = "person -> person"
+phrase = "communicated with"
+domain = ["Person"]
+range = ["Person"]
+
+[relations]
+symmetric = ["Communicated_With"]
+
+# Kinds each kind entails, same direction: one who initiated or authorized an event took part in it. Not competitors.
+[entails]
+Initiated = ["Participated_In"]
+Authorized = ["Participated_In"]
+
+# Object properties whose CASE/UCO range is wider than the task uses (accountIssuer points to UcoObject; from and to
+# to ObservableObject), narrowed to the class the task fills them with. Contrast lists these as readings.
+[[object_properties]]
+class = "Account"
+property = "accountIssuer"
+range = ["Organization"]
+
+[[object_properties]]
+class = "EmailMessage"
+property = "from"
+range = ["EmailAddress"]
+
+[[object_properties]]
+class = "EmailMessage"
+property = "to"
+range = ["EmailAddress"]
+
+[[object_properties]]
+class = "Message"
+property = "from"
+range = ["ApplicationAccount"]
+
+[[object_properties]]
+class = "Message"
+property = "to"
+range = ["ApplicationAccount"]
+
+# The task's properties by class: arm C's target schema, and contrast's literal competitors (another property of the
+# subject's class with the same range).
+[literal_properties]
+Person = ["name"]
+Organization = ["name"]
+Location = ["street", "locality", "region", "postalCode"]
+EmailAddress = ["addressValue"]
+Account = ["accountIdentifier", "accountIssuer", "accountType"]
+ApplicationAccount = ["accountIdentifier"]
+Event = ["eventType", "startTime"]
+EmailMessage = ["from", "to", "subject", "sentTime"]
+Message = ["from", "to", "messageText", "sentTime"]
+
+# What identifies an entity of each class: a name, an address, an account number; a message or event by its text or
+# type and its time. An EmailAccount is keyed by the address it links to.
+[keys]
+Person = ["name"]
+Organization = ["name"]
+EmailAddress = ["addressValue"]
+Account = ["accountIdentifier"]
+ApplicationAccount = ["accountIdentifier"]
+Location = ["street"]
+EmailMessage = ["subject", "sentTime"]
+Message = ["messageText", "sentTime"]
+Event = ["eventType", "startTime"]
+MessageThread = ["name"]
+EmailAccount = ["addressValue"]

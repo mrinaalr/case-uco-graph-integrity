@@ -1,0 +1,623 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"EmailAddress: eokafor@stonebridge.com\", \"addressValue\", \"eokafor@stonebridge.com\"],\n  [\"EmailAddress: dana.fischer@stonebridge.com\", \"addressValue\", \"dana.fischer@stonebridge.com\"],\n  [\"EmailAccount: eokafor@stonebridge.com\", \"emailAddress\", \"EmailAddress: eokafor@stonebridge.com\"],\n  [\"EmailAccount: dana.fischer@stonebridge.com\", \"emailAddress\", \"EmailAddress: dana.fischer@stonebridge.com\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"subject\", \"Quarter-end vendor payments\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"sentTime\", \"Thu, 23 Oct 2025 16:00:00 +0000\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAddress: eokafor@stonebridge.com\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAccount: eokafor@stonebridge.com\"],\n  [\"Person: Dana Fischer\", \"Holds_Account\", \"EmailAddress: dana.fischer@stonebridge.com\"],\n  [\"Person: Dana Fischer\", \"Holds_Account\", \"EmailAccount: dana.fischer@stonebridge.com\"],\n  [\"Person: Elena Okafor\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Event: invoice submission\", \"startTime\", \"1 October 2025, 16:25 UTC\"],\n  [\"Event: invoice submission\", \"Located_At\", \"Location: Stonebridge Services Group office\"],\n  [\"Person: Mei Holloway\", \"Initiated\", \"Event: payment approval\"],\n  [\"Event: payment approval\", \"startTime\", \"October 4, 2025 at 16:45 UTC\"],\n  [\"Event: payment approval\", \"Located_At\", \"Location: Stonebridge Services Group office\"],\n  [\"Person: Elena Okafor\", \"Authorized\", \"Event: payment approval\"],\n  [\"Person: Mei Holloway\", \"Initiated\", \"Event: vendor onboarding\"],\n  [\"Event: vendor onboarding\", \"startTime\", \"October 15, 2025 at 09:15 UTC\"],\n  [\"Person: Elena Okafor\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"23 October 2025, 14:00 UTC\"],\n  [\"Person: Elena Okafor\", \"Communicated_With\", \"Person: Dana Fischer\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: eokafor@stonebridge.com",
+     "addressValue",
+     "eokafor@stonebridge.com"
+    ],
+    [
+     "EmailAddress: dana.fischer@stonebridge.com",
+     "addressValue",
+     "dana.fischer@stonebridge.com"
+    ],
+    [
+     "EmailAccount: eokafor@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: eokafor@stonebridge.com"
+    ],
+    [
+     "EmailAccount: dana.fischer@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: dana.fischer@stonebridge.com"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "subject",
+     "Quarter-end vendor payments"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "sentTime",
+     "Thu, 23 Oct 2025 16:00:00 +0000"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAddress: eokafor@stonebridge.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAccount: eokafor@stonebridge.com"
+    ],
+    [
+     "Person: Dana Fischer",
+     "Holds_Account",
+     "EmailAddress: dana.fischer@stonebridge.com"
+    ],
+    [
+     "Person: Dana Fischer",
+     "Holds_Account",
+     "EmailAccount: dana.fischer@stonebridge.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "1 October 2025, 16:25 UTC"
+    ],
+    [
+     "Event: invoice submission",
+     "Located_At",
+     "Location: Stonebridge Services Group office"
+    ],
+    [
+     "Person: Mei Holloway",
+     "Initiated",
+     "Event: payment approval"
+    ],
+    [
+     "Event: payment approval",
+     "startTime",
+     "October 4, 2025 at 16:45 UTC"
+    ],
+    [
+     "Event: payment approval",
+     "Located_At",
+     "Location: Stonebridge Services Group office"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Authorized",
+     "Event: payment approval"
+    ],
+    [
+     "Person: Mei Holloway",
+     "Initiated",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Event: vendor onboarding",
+     "startTime",
+     "October 15, 2025 at 09:15 UTC"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "23 October 2025, 14:00 UTC"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Communicated_With",
+     "Person: Dana Fischer"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 894,
+    "completion": 564
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Dana Fischer\", \"Employed_By\", \"Organization: Stonebridge Services Group\"],\n  [\"Person: Dana Fischer\", \"Holds_Account\", \"EmailAddress: dana.fischer@stonebridge.com\"],\n  [\"Person: Dana Fischer\", \"Holds_Account\", \"EmailAccount: dana.fischer@stonebridge.com\"],\n  [\"Person: Elena Okafor\", \"Employed_By\", \"Organization: Stonebridge Services Group\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAddress: eokafor@stonebridge.com\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAccount: eokafor@stonebridge.com\"],\n  [\"Person: Victor Park\", \"Employed_By\", \"Organization: Stonebridge Services Group\"],\n  [\"Person: Victor Park\", \"Holds_Account\", \"EmailAddress: victor.park@stonebridge.com\"],\n  [\"Person: Victor Park\", \"Holds_Account\", \"EmailAccount: victor.park@stonebridge.com\"],\n  [\"Person: Mei Holloway\", \"Employed_By\", \"Organization: Oakhaven Freight Co.\"],\n  [\"Person: Mei Holloway\", \"Holds_Account\", \"EmailAddress: mholloway@oakhaven.com\"],\n  [\"Person: Mei Holloway\", \"Holds_Account\", \"EmailAccount: mholloway@oakhaven.com\"],\n  [\"Person: Elena Okafor\", \"Reports_To\", \"Person: Dana Fischer\"],\n  [\"Organization: Stonebridge Services Group\", \"Located_At\", \"Location: 6563 Lakeview Road, Boise, ID 83702\"],\n  [\"Organization: Stonebridge Services Group\", \"Owns_Account\", \"Account: 8163912792\"],\n  [\"Account: 8163912792\", \"accountIssuer\", \"Organization: Granite Federal Credit Union\"],\n  [\"Account: 3274469086\", \"accountIssuer\", \"Organization: Granite Federal Credit Union\"],\n  [\"Organization: Oakhaven Freight Co.\", \"Owns_Account\", \"Account: 3274469086\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Dana Fischer",
+     "Employed_By",
+     "Organization: Stonebridge Services Group"
+    ],
+    [
+     "Person: Dana Fischer",
+     "Holds_Account",
+     "EmailAddress: dana.fischer@stonebridge.com"
+    ],
+    [
+     "Person: Dana Fischer",
+     "Holds_Account",
+     "EmailAccount: dana.fischer@stonebridge.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Employed_By",
+     "Organization: Stonebridge Services Group"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAddress: eokafor@stonebridge.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAccount: eokafor@stonebridge.com"
+    ],
+    [
+     "Person: Victor Park",
+     "Employed_By",
+     "Organization: Stonebridge Services Group"
+    ],
+    [
+     "Person: Victor Park",
+     "Holds_Account",
+     "EmailAddress: victor.park@stonebridge.com"
+    ],
+    [
+     "Person: Victor Park",
+     "Holds_Account",
+     "EmailAccount: victor.park@stonebridge.com"
+    ],
+    [
+     "Person: Mei Holloway",
+     "Employed_By",
+     "Organization: Oakhaven Freight Co."
+    ],
+    [
+     "Person: Mei Holloway",
+     "Holds_Account",
+     "EmailAddress: mholloway@oakhaven.com"
+    ],
+    [
+     "Person: Mei Holloway",
+     "Holds_Account",
+     "EmailAccount: mholloway@oakhaven.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Reports_To",
+     "Person: Dana Fischer"
+    ],
+    [
+     "Organization: Stonebridge Services Group",
+     "Located_At",
+     "Location: 6563 Lakeview Road, Boise, ID 83702"
+    ],
+    [
+     "Organization: Stonebridge Services Group",
+     "Owns_Account",
+     "Account: 8163912792"
+    ],
+    [
+     "Account: 8163912792",
+     "accountIssuer",
+     "Organization: Granite Federal Credit Union"
+    ],
+    [
+     "Account: 3274469086",
+     "accountIssuer",
+     "Organization: Granite Federal Credit Union"
+    ],
+    [
+     "Organization: Oakhaven Freight Co.",
+     "Owns_Account",
+     "Account: 3274469086"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 869,
+    "completion": 477
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: mholloway@oakhaven.com\", \"addressValue\", \"mholloway@oakhaven.com\"],\n  [\"EmailAddress: eokafor@stonebridge.com\", \"addressValue\", \"eokafor@stonebridge.com\"],\n  [\"EmailMessage: Re: banking change request\", \"subject\", \"Re: banking change request\"],\n  [\"EmailMessage: Re: banking change request\", \"sentTime\", \"Wed, 15 Oct 2025 12:45:00 +0000\"],\n  [\"EmailAccount: mholloway@oakhaven.com\", \"emailAddress\", \"EmailAddress: mholloway@oakhaven.com\"],\n  [\"EmailAccount: eokafor@stonebridge.com\", \"emailAddress\", \"EmailAddress: eokafor@stonebridge.com\"],\n  [\"Person: Mei Holloway\", \"Holds_Account\", \"EmailAddress: mholloway@oakhaven.com\"],\n  [\"Person: Mei Holloway\", \"Holds_Account\", \"EmailAccount: mholloway@oakhaven.com\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAddress: eokafor@stonebridge.com\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAccount: eokafor@stonebridge.com\"],\n  [\"Person: Victor Park\", \"Initiated\", \"Event: refund request\"],\n  [\"Event: refund request\", \"startTime\", \"October 3, 2025 at 14:00 UTC\"],\n  [\"Person: Elena Okafor\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"October 5, 2025 at 13:50 UTC\"],\n  [\"Person: Victor Park\", \"Participated_In\", \"Event: expense reimbursement\"],\n  [\"Person: Dana Fischer\", \"Initiated\", \"Event: audit review\"],\n  [\"Event: audit review\", \"startTime\", \"15 October 2025, 10:45 UTC\"],\n  [\"Person: Mei Holloway\", \"Communicated_With\", \"Person: Elena Okafor\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: mholloway@oakhaven.com",
+     "addressValue",
+     "mholloway@oakhaven.com"
+    ],
+    [
+     "EmailAddress: eokafor@stonebridge.com",
+     "addressValue",
+     "eokafor@stonebridge.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "subject",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Wed, 15 Oct 2025 12:45:00 +0000"
+    ],
+    [
+     "EmailAccount: mholloway@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: mholloway@oakhaven.com"
+    ],
+    [
+     "EmailAccount: eokafor@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: eokafor@stonebridge.com"
+    ],
+    [
+     "Person: Mei Holloway",
+     "Holds_Account",
+     "EmailAddress: mholloway@oakhaven.com"
+    ],
+    [
+     "Person: Mei Holloway",
+     "Holds_Account",
+     "EmailAccount: mholloway@oakhaven.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAddress: eokafor@stonebridge.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAccount: eokafor@stonebridge.com"
+    ],
+    [
+     "Person: Victor Park",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "October 3, 2025 at 14:00 UTC"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "October 5, 2025 at 13:50 UTC"
+    ],
+    [
+     "Person: Victor Park",
+     "Participated_In",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Person: Dana Fischer",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "15 October 2025, 10:45 UTC"
+    ],
+    [
+     "Person: Mei Holloway",
+     "Communicated_With",
+     "Person: Elena Okafor"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 834,
+    "completion": 482
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: eokafor@stonebridge.com",
+   "addressValue",
+   "eokafor@stonebridge.com"
+  ],
+  [
+   "EmailAddress: dana.fischer@stonebridge.com",
+   "addressValue",
+   "dana.fischer@stonebridge.com"
+  ],
+  [
+   "EmailAccount: eokafor@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: eokafor@stonebridge.com"
+  ],
+  [
+   "EmailAccount: dana.fischer@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: dana.fischer@stonebridge.com"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "subject",
+   "Quarter-end vendor payments"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "sentTime",
+   "Thu, 23 Oct 2025 16:00:00 +0000"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAddress: eokafor@stonebridge.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAccount: eokafor@stonebridge.com"
+  ],
+  [
+   "Person: Dana Fischer",
+   "Holds_Account",
+   "EmailAddress: dana.fischer@stonebridge.com"
+  ],
+  [
+   "Person: Dana Fischer",
+   "Holds_Account",
+   "EmailAccount: dana.fischer@stonebridge.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "1 October 2025, 16:25 UTC"
+  ],
+  [
+   "Event: invoice submission",
+   "Located_At",
+   "Location: Stonebridge Services Group office"
+  ],
+  [
+   "Person: Mei Holloway",
+   "Initiated",
+   "Event: payment approval"
+  ],
+  [
+   "Event: payment approval",
+   "startTime",
+   "October 4, 2025 at 16:45 UTC"
+  ],
+  [
+   "Event: payment approval",
+   "Located_At",
+   "Location: Stonebridge Services Group office"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Authorized",
+   "Event: payment approval"
+  ],
+  [
+   "Person: Mei Holloway",
+   "Initiated",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Event: vendor onboarding",
+   "startTime",
+   "October 15, 2025 at 09:15 UTC"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "23 October 2025, 14:00 UTC"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Communicated_With",
+   "Person: Dana Fischer"
+  ],
+  [
+   "Person: Dana Fischer",
+   "Employed_By",
+   "Organization: Stonebridge Services Group"
+  ],
+  [
+   "Person: Dana Fischer",
+   "Holds_Account",
+   "EmailAddress: dana.fischer@stonebridge.com"
+  ],
+  [
+   "Person: Dana Fischer",
+   "Holds_Account",
+   "EmailAccount: dana.fischer@stonebridge.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Employed_By",
+   "Organization: Stonebridge Services Group"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAddress: eokafor@stonebridge.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAccount: eokafor@stonebridge.com"
+  ],
+  [
+   "Person: Victor Park",
+   "Employed_By",
+   "Organization: Stonebridge Services Group"
+  ],
+  [
+   "Person: Victor Park",
+   "Holds_Account",
+   "EmailAddress: victor.park@stonebridge.com"
+  ],
+  [
+   "Person: Victor Park",
+   "Holds_Account",
+   "EmailAccount: victor.park@stonebridge.com"
+  ],
+  [
+   "Person: Mei Holloway",
+   "Employed_By",
+   "Organization: Oakhaven Freight Co."
+  ],
+  [
+   "Person: Mei Holloway",
+   "Holds_Account",
+   "EmailAddress: mholloway@oakhaven.com"
+  ],
+  [
+   "Person: Mei Holloway",
+   "Holds_Account",
+   "EmailAccount: mholloway@oakhaven.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Reports_To",
+   "Person: Dana Fischer"
+  ],
+  [
+   "Organization: Stonebridge Services Group",
+   "Located_At",
+   "Location: 6563 Lakeview Road, Boise, ID 83702"
+  ],
+  [
+   "Organization: Stonebridge Services Group",
+   "Owns_Account",
+   "Account: 8163912792"
+  ],
+  [
+   "Account: 8163912792",
+   "accountIssuer",
+   "Organization: Granite Federal Credit Union"
+  ],
+  [
+   "Account: 3274469086",
+   "accountIssuer",
+   "Organization: Granite Federal Credit Union"
+  ],
+  [
+   "Organization: Oakhaven Freight Co.",
+   "Owns_Account",
+   "Account: 3274469086"
+  ],
+  [
+   "EmailAddress: mholloway@oakhaven.com",
+   "addressValue",
+   "mholloway@oakhaven.com"
+  ],
+  [
+   "EmailAddress: eokafor@stonebridge.com",
+   "addressValue",
+   "eokafor@stonebridge.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "subject",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Wed, 15 Oct 2025 12:45:00 +0000"
+  ],
+  [
+   "EmailAccount: mholloway@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: mholloway@oakhaven.com"
+  ],
+  [
+   "EmailAccount: eokafor@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: eokafor@stonebridge.com"
+  ],
+  [
+   "Person: Mei Holloway",
+   "Holds_Account",
+   "EmailAddress: mholloway@oakhaven.com"
+  ],
+  [
+   "Person: Mei Holloway",
+   "Holds_Account",
+   "EmailAccount: mholloway@oakhaven.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAddress: eokafor@stonebridge.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAccount: eokafor@stonebridge.com"
+  ],
+  [
+   "Person: Victor Park",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "October 3, 2025 at 14:00 UTC"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "October 5, 2025 at 13:50 UTC"
+  ],
+  [
+   "Person: Victor Park",
+   "Participated_In",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Person: Dana Fischer",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "15 October 2025, 10:45 UTC"
+  ],
+  [
+   "Person: Mei Holloway",
+   "Communicated_With",
+   "Person: Elena Okafor"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2597,
+  "completion": 1523
+ }
+}

@@ -1,0 +1,712 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Mei Tanaka\", \"Employed_By\", \"Organization: Stonebridge Components Co.\"],\n  [\"Person: Mei Tanaka\", \"Holds_Account\", \"EmailAddress: mei.tanaka@stonebridge.com\"],\n  [\"Person: Mei Tanaka\", \"Holds_Account\", \"EmailAccount: mei.tanaka@stonebridge.com\"],\n  [\"EmailAccount: mei.tanaka@stonebridge.com\", \"emailAddress\", \"EmailAddress: mei.tanaka@stonebridge.com\"],\n  [\"Person: Felix Sorensen\", \"Employed_By\", \"Organization: Stonebridge Components Co.\"],\n  [\"Person: Felix Sorensen\", \"Holds_Account\", \"EmailAddress: felix.sorensen@stonebridge.com\"],\n  [\"Person: Felix Sorensen\", \"Holds_Account\", \"EmailAccount: felix.sorensen@stonebridge.com\"],\n  [\"EmailAccount: felix.sorensen@stonebridge.com\", \"emailAddress\", \"EmailAddress: felix.sorensen@stonebridge.com\"],\n  [\"Person: Grace Vance\", \"Employed_By\", \"Organization: Stonebridge Components Co.\"],\n  [\"Person: Grace Vance\", \"Holds_Account\", \"EmailAddress: grace.vance@stonebridge.com\"],\n  [\"Person: Grace Vance\", \"Holds_Account\", \"EmailAccount: grace.vance@stonebridge.com\"],\n  [\"EmailAccount: grace.vance@stonebridge.com\", \"emailAddress\", \"EmailAddress: grace.vance@stonebridge.com\"],\n  [\"Person: Victor Quinn\", \"Employed_By\", \"Organization: Oakhaven Consulting Co.\"],\n  [\"Person: Victor Quinn\", \"Holds_Account\", \"EmailAddress: victor.quinn@oakhaven.com\"],\n  [\"Person: Victor Quinn\", \"Holds_Account\", \"EmailAccount: victor.quinn@oakhaven.com\"],\n  [\"EmailAccount: victor.quinn@oakhaven.com\", \"emailAddress\", \"EmailAddress: victor.quinn@oakhaven.com\"],\n  [\"Person: Sofia Ivanova\", \"Employed_By\", \"Organization: Oakhaven Consulting Co.\"],\n  [\"Person: Sofia Ivanova\", \"Holds_Account\", \"EmailAddress: sivanova@oakhaven.com\"],\n  [\"Person: Sofia Ivanova\", \"Holds_Account\", \"EmailAccount: sivanova@oakhaven.com\"],\n  [\"EmailAccount: sivanova@oakhaven.com\", \"emailAddress\", \"EmailAddress: sivanova@oakhaven.com\"],\n  [\"Organization: Stonebridge Components Co.\", \"Located_At\", \"Location: 8973 Main Street, Madison, WI 53703\"],\n  [\"Account: 9481888281\", \"Owns_Account\", \"Organization: Stonebridge Components Co.\"],\n  [\"Account: 9481888281\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 9481888281\", \"accountIdentifier\", \"9481888281\"],\n  [\"Account: 8851075868\", \"Owns_Account\", \"Organization: Oakhaven Consulting Co.\"],\n  [\"Account: 8851075868\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 8851075868\", \"accountIdentifier\", \"8851075868\"],\n  [\"Account: 1808232540\", \"Owns_Account\", \"Person: Grace Vance\"],\n  [\"Account: 1808232540\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 1808232540\", \"accountIdentifier\", \"1808232540\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Mei Tanaka",
+     "Employed_By",
+     "Organization: Stonebridge Components Co."
+    ],
+    [
+     "Person: Mei Tanaka",
+     "Holds_Account",
+     "EmailAddress: mei.tanaka@stonebridge.com"
+    ],
+    [
+     "Person: Mei Tanaka",
+     "Holds_Account",
+     "EmailAccount: mei.tanaka@stonebridge.com"
+    ],
+    [
+     "EmailAccount: mei.tanaka@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: mei.tanaka@stonebridge.com"
+    ],
+    [
+     "Person: Felix Sorensen",
+     "Employed_By",
+     "Organization: Stonebridge Components Co."
+    ],
+    [
+     "Person: Felix Sorensen",
+     "Holds_Account",
+     "EmailAddress: felix.sorensen@stonebridge.com"
+    ],
+    [
+     "Person: Felix Sorensen",
+     "Holds_Account",
+     "EmailAccount: felix.sorensen@stonebridge.com"
+    ],
+    [
+     "EmailAccount: felix.sorensen@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: felix.sorensen@stonebridge.com"
+    ],
+    [
+     "Person: Grace Vance",
+     "Employed_By",
+     "Organization: Stonebridge Components Co."
+    ],
+    [
+     "Person: Grace Vance",
+     "Holds_Account",
+     "EmailAddress: grace.vance@stonebridge.com"
+    ],
+    [
+     "Person: Grace Vance",
+     "Holds_Account",
+     "EmailAccount: grace.vance@stonebridge.com"
+    ],
+    [
+     "EmailAccount: grace.vance@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: grace.vance@stonebridge.com"
+    ],
+    [
+     "Person: Victor Quinn",
+     "Employed_By",
+     "Organization: Oakhaven Consulting Co."
+    ],
+    [
+     "Person: Victor Quinn",
+     "Holds_Account",
+     "EmailAddress: victor.quinn@oakhaven.com"
+    ],
+    [
+     "Person: Victor Quinn",
+     "Holds_Account",
+     "EmailAccount: victor.quinn@oakhaven.com"
+    ],
+    [
+     "EmailAccount: victor.quinn@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: victor.quinn@oakhaven.com"
+    ],
+    [
+     "Person: Sofia Ivanova",
+     "Employed_By",
+     "Organization: Oakhaven Consulting Co."
+    ],
+    [
+     "Person: Sofia Ivanova",
+     "Holds_Account",
+     "EmailAddress: sivanova@oakhaven.com"
+    ],
+    [
+     "Person: Sofia Ivanova",
+     "Holds_Account",
+     "EmailAccount: sivanova@oakhaven.com"
+    ],
+    [
+     "EmailAccount: sivanova@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: sivanova@oakhaven.com"
+    ],
+    [
+     "Organization: Stonebridge Components Co.",
+     "Located_At",
+     "Location: 8973 Main Street, Madison, WI 53703"
+    ],
+    [
+     "Account: 9481888281",
+     "Owns_Account",
+     "Organization: Stonebridge Components Co."
+    ],
+    [
+     "Account: 9481888281",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 9481888281",
+     "accountIdentifier",
+     "9481888281"
+    ],
+    [
+     "Account: 8851075868",
+     "Owns_Account",
+     "Organization: Oakhaven Consulting Co."
+    ],
+    [
+     "Account: 8851075868",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 8851075868",
+     "accountIdentifier",
+     "8851075868"
+    ],
+    [
+     "Account: 1808232540",
+     "Owns_Account",
+     "Person: Grace Vance"
+    ],
+    [
+     "Account: 1808232540",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 1808232540",
+     "accountIdentifier",
+     "1808232540"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 911,
+    "completion": 854
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: grace.vance@stonebridge.com\", \"addressValue\", \"grace.vance@stonebridge.com\"],\n  [\"EmailAddress: felix.sorensen@stonebridge.com\", \"addressValue\", \"felix.sorensen@stonebridge.com\"],\n  [\"EmailAddress: mei.tanaka@stonebridge.com\", \"addressValue\", \"mei.tanaka@stonebridge.com\"],\n  [\"EmailAccount: grace.vance@stonebridge.com\", \"emailAddress\", \"EmailAddress: grace.vance@stonebridge.com\"],\n  [\"EmailAccount: felix.sorensen@stonebridge.com\", \"emailAddress\", \"EmailAddress: felix.sorensen@stonebridge.com\"],\n  [\"EmailAccount: mei.tanaka@stonebridge.com\", \"emailAddress\", \"EmailAddress: mei.tanaka@stonebridge.com\"],\n  [\"Person: Grace Vance\", \"Holds_Account\", \"EmailAddress: grace.vance@stonebridge.com\"],\n  [\"Person: Felix Sorensen\", \"Holds_Account\", \"EmailAddress: felix.sorensen@stonebridge.com\"],\n  [\"Person: Mei Tanaka\", \"Holds_Account\", \"EmailAddress: mei.tanaka@stonebridge.com\"],\n  [\"Person: Grace Vance\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Person: Felix Sorensen\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Person: Grace Vance\", \"Participated_In\", \"Event: invoice submission\"],\n  [\"Person: Mei Tanaka\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Person: Felix Sorensen\", \"Initiated\", \"Event: audit review\"],\n  [\"Person: Victor Quinn\", \"Participated_In\", \"Event: audit review\"],\n  [\"Person: Mei Tanaka\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Event: account reconciliation\", \"startTime\", \"12 April 2025, 14:50 UTC\"],\n  [\"Event: invoice submission\", \"startTime\", \"15 April 2025, 10:30 UTC\"],\n  [\"Event: contract amendment\", \"startTime\", \"21 April 2025, 09:25 UTC\"],\n  [\"Event: audit review\", \"startTime\", \"April 26, 2025 at 10:10 UTC\"],\n  [\"Event: bank detail change\", \"startTime\", \"13 May 2025, 11:10 UTC\"],\n  [\"Event: wire transfer\", \"startTime\", \"April 8, 2025 at 11:25 UTC\"],\n  [\"Event: refund request\", \"startTime\", \"April 8, 2025 at 16:15 UTC\"],\n  [\"Person: Mei Tanaka\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Person: Victor Quinn\", \"Initiated\", \"Event: refund request\"],\n  [\"Event: wire transfer\", \"Initiated\", \"Person: Mei Tanaka\"],\n  [\"Event: refund request\", \"Initiated\", \"Person: Victor Quinn\"],\n  [\"Location: Stonebridge Components Co.'s office\", \"street\", \"Stonebridge Components Co.'s office\"],\n  [\"Location: Stonebridge Components Co. office\", \"street\", \"Stonebridge Components Co. office\"],\n  [\"Event: account reconciliation\", \"Located_At\", \"Location: Stonebridge Components Co.'s office\"],\n  [\"Event: audit review\", \"Located_At\", \"Location: Stonebridge Components Co. office\"],\n  [\"EmailMessage: Urgent: payment timing\", \"subject\", \"Urgent: payment timing\"],\n  [\"EmailMessage: Urgent: payment timing\", \"sentTime\", \"Tue, 13 May 2025 13:10:00 +0000\"],\n  [\"EmailMessage: Urgent: payment timing\", \"from\", \"EmailAddress: grace.vance@stonebridge.com\"],\n  [\"EmailMessage: Urgent: payment timing\", \"to\", \"EmailAddress: felix.sorensen@stonebridge.com\"],\n  [\"EmailMessage: Urgent: payment timing\", \"to\", \"EmailAddress: mei.tanaka@stonebridge.com\"],\n  [\"Person: Grace Vance\", \"Communicated_With\", \"Person: Felix Sorensen\"],\n  [\"Person: Grace Vance\", \"Communicated_With\", \"Person: Mei Tanaka\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: grace.vance@stonebridge.com",
+     "addressValue",
+     "grace.vance@stonebridge.com"
+    ],
+    [
+     "EmailAddress: felix.sorensen@stonebridge.com",
+     "addressValue",
+     "felix.sorensen@stonebridge.com"
+    ],
+    [
+     "EmailAddress: mei.tanaka@stonebridge.com",
+     "addressValue",
+     "mei.tanaka@stonebridge.com"
+    ],
+    [
+     "EmailAccount: grace.vance@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: grace.vance@stonebridge.com"
+    ],
+    [
+     "EmailAccount: felix.sorensen@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: felix.sorensen@stonebridge.com"
+    ],
+    [
+     "EmailAccount: mei.tanaka@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: mei.tanaka@stonebridge.com"
+    ],
+    [
+     "Person: Grace Vance",
+     "Holds_Account",
+     "EmailAddress: grace.vance@stonebridge.com"
+    ],
+    [
+     "Person: Felix Sorensen",
+     "Holds_Account",
+     "EmailAddress: felix.sorensen@stonebridge.com"
+    ],
+    [
+     "Person: Mei Tanaka",
+     "Holds_Account",
+     "EmailAddress: mei.tanaka@stonebridge.com"
+    ],
+    [
+     "Person: Grace Vance",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Felix Sorensen",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Person: Grace Vance",
+     "Participated_In",
+     "Event: invoice submission"
+    ],
+    [
+     "Person: Mei Tanaka",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Felix Sorensen",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Person: Victor Quinn",
+     "Participated_In",
+     "Event: audit review"
+    ],
+    [
+     "Person: Mei Tanaka",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "12 April 2025, 14:50 UTC"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "15 April 2025, 10:30 UTC"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "21 April 2025, 09:25 UTC"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "April 26, 2025 at 10:10 UTC"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "13 May 2025, 11:10 UTC"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "April 8, 2025 at 11:25 UTC"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "April 8, 2025 at 16:15 UTC"
+    ],
+    [
+     "Person: Mei Tanaka",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Victor Quinn",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Event: wire transfer",
+     "Initiated",
+     "Person: Mei Tanaka"
+    ],
+    [
+     "Event: refund request",
+     "Initiated",
+     "Person: Victor Quinn"
+    ],
+    [
+     "Location: Stonebridge Components Co.'s office",
+     "street",
+     "Stonebridge Components Co.'s office"
+    ],
+    [
+     "Location: Stonebridge Components Co. office",
+     "street",
+     "Stonebridge Components Co. office"
+    ],
+    [
+     "Event: account reconciliation",
+     "Located_At",
+     "Location: Stonebridge Components Co.'s office"
+    ],
+    [
+     "Event: audit review",
+     "Located_At",
+     "Location: Stonebridge Components Co. office"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "subject",
+     "Urgent: payment timing"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "sentTime",
+     "Tue, 13 May 2025 13:10:00 +0000"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "from",
+     "EmailAddress: grace.vance@stonebridge.com"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "to",
+     "EmailAddress: felix.sorensen@stonebridge.com"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "to",
+     "EmailAddress: mei.tanaka@stonebridge.com"
+    ],
+    [
+     "Person: Grace Vance",
+     "Communicated_With",
+     "Person: Felix Sorensen"
+    ],
+    [
+     "Person: Grace Vance",
+     "Communicated_With",
+     "Person: Mei Tanaka"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 994,
+    "completion": 978
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Mei Tanaka",
+   "Employed_By",
+   "Organization: Stonebridge Components Co."
+  ],
+  [
+   "Person: Mei Tanaka",
+   "Holds_Account",
+   "EmailAddress: mei.tanaka@stonebridge.com"
+  ],
+  [
+   "Person: Mei Tanaka",
+   "Holds_Account",
+   "EmailAccount: mei.tanaka@stonebridge.com"
+  ],
+  [
+   "EmailAccount: mei.tanaka@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: mei.tanaka@stonebridge.com"
+  ],
+  [
+   "Person: Felix Sorensen",
+   "Employed_By",
+   "Organization: Stonebridge Components Co."
+  ],
+  [
+   "Person: Felix Sorensen",
+   "Holds_Account",
+   "EmailAddress: felix.sorensen@stonebridge.com"
+  ],
+  [
+   "Person: Felix Sorensen",
+   "Holds_Account",
+   "EmailAccount: felix.sorensen@stonebridge.com"
+  ],
+  [
+   "EmailAccount: felix.sorensen@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: felix.sorensen@stonebridge.com"
+  ],
+  [
+   "Person: Grace Vance",
+   "Employed_By",
+   "Organization: Stonebridge Components Co."
+  ],
+  [
+   "Person: Grace Vance",
+   "Holds_Account",
+   "EmailAddress: grace.vance@stonebridge.com"
+  ],
+  [
+   "Person: Grace Vance",
+   "Holds_Account",
+   "EmailAccount: grace.vance@stonebridge.com"
+  ],
+  [
+   "EmailAccount: grace.vance@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: grace.vance@stonebridge.com"
+  ],
+  [
+   "Person: Victor Quinn",
+   "Employed_By",
+   "Organization: Oakhaven Consulting Co."
+  ],
+  [
+   "Person: Victor Quinn",
+   "Holds_Account",
+   "EmailAddress: victor.quinn@oakhaven.com"
+  ],
+  [
+   "Person: Victor Quinn",
+   "Holds_Account",
+   "EmailAccount: victor.quinn@oakhaven.com"
+  ],
+  [
+   "EmailAccount: victor.quinn@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: victor.quinn@oakhaven.com"
+  ],
+  [
+   "Person: Sofia Ivanova",
+   "Employed_By",
+   "Organization: Oakhaven Consulting Co."
+  ],
+  [
+   "Person: Sofia Ivanova",
+   "Holds_Account",
+   "EmailAddress: sivanova@oakhaven.com"
+  ],
+  [
+   "Person: Sofia Ivanova",
+   "Holds_Account",
+   "EmailAccount: sivanova@oakhaven.com"
+  ],
+  [
+   "EmailAccount: sivanova@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: sivanova@oakhaven.com"
+  ],
+  [
+   "Organization: Stonebridge Components Co.",
+   "Located_At",
+   "Location: 8973 Main Street, Madison, WI 53703"
+  ],
+  [
+   "Account: 9481888281",
+   "Owns_Account",
+   "Organization: Stonebridge Components Co."
+  ],
+  [
+   "Account: 9481888281",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 9481888281",
+   "accountIdentifier",
+   "9481888281"
+  ],
+  [
+   "Account: 8851075868",
+   "Owns_Account",
+   "Organization: Oakhaven Consulting Co."
+  ],
+  [
+   "Account: 8851075868",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 8851075868",
+   "accountIdentifier",
+   "8851075868"
+  ],
+  [
+   "Account: 1808232540",
+   "Owns_Account",
+   "Person: Grace Vance"
+  ],
+  [
+   "Account: 1808232540",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 1808232540",
+   "accountIdentifier",
+   "1808232540"
+  ],
+  [
+   "EmailAddress: grace.vance@stonebridge.com",
+   "addressValue",
+   "grace.vance@stonebridge.com"
+  ],
+  [
+   "EmailAddress: felix.sorensen@stonebridge.com",
+   "addressValue",
+   "felix.sorensen@stonebridge.com"
+  ],
+  [
+   "EmailAddress: mei.tanaka@stonebridge.com",
+   "addressValue",
+   "mei.tanaka@stonebridge.com"
+  ],
+  [
+   "EmailAccount: grace.vance@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: grace.vance@stonebridge.com"
+  ],
+  [
+   "EmailAccount: felix.sorensen@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: felix.sorensen@stonebridge.com"
+  ],
+  [
+   "EmailAccount: mei.tanaka@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: mei.tanaka@stonebridge.com"
+  ],
+  [
+   "Person: Grace Vance",
+   "Holds_Account",
+   "EmailAddress: grace.vance@stonebridge.com"
+  ],
+  [
+   "Person: Felix Sorensen",
+   "Holds_Account",
+   "EmailAddress: felix.sorensen@stonebridge.com"
+  ],
+  [
+   "Person: Mei Tanaka",
+   "Holds_Account",
+   "EmailAddress: mei.tanaka@stonebridge.com"
+  ],
+  [
+   "Person: Grace Vance",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Felix Sorensen",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Person: Grace Vance",
+   "Participated_In",
+   "Event: invoice submission"
+  ],
+  [
+   "Person: Mei Tanaka",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Felix Sorensen",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Person: Victor Quinn",
+   "Participated_In",
+   "Event: audit review"
+  ],
+  [
+   "Person: Mei Tanaka",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "12 April 2025, 14:50 UTC"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "15 April 2025, 10:30 UTC"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "21 April 2025, 09:25 UTC"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "April 26, 2025 at 10:10 UTC"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "13 May 2025, 11:10 UTC"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "April 8, 2025 at 11:25 UTC"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "April 8, 2025 at 16:15 UTC"
+  ],
+  [
+   "Person: Mei Tanaka",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Victor Quinn",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Event: wire transfer",
+   "Initiated",
+   "Person: Mei Tanaka"
+  ],
+  [
+   "Event: refund request",
+   "Initiated",
+   "Person: Victor Quinn"
+  ],
+  [
+   "Location: Stonebridge Components Co.'s office",
+   "street",
+   "Stonebridge Components Co.'s office"
+  ],
+  [
+   "Location: Stonebridge Components Co. office",
+   "street",
+   "Stonebridge Components Co. office"
+  ],
+  [
+   "Event: account reconciliation",
+   "Located_At",
+   "Location: Stonebridge Components Co.'s office"
+  ],
+  [
+   "Event: audit review",
+   "Located_At",
+   "Location: Stonebridge Components Co. office"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "subject",
+   "Urgent: payment timing"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "sentTime",
+   "Tue, 13 May 2025 13:10:00 +0000"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "from",
+   "EmailAddress: grace.vance@stonebridge.com"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "to",
+   "EmailAddress: felix.sorensen@stonebridge.com"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "to",
+   "EmailAddress: mei.tanaka@stonebridge.com"
+  ],
+  [
+   "Person: Grace Vance",
+   "Communicated_With",
+   "Person: Felix Sorensen"
+  ],
+  [
+   "Person: Grace Vance",
+   "Communicated_With",
+   "Person: Mei Tanaka"
+  ]
+ ],
+ "tokens": {
+  "prompt": 1905,
+  "completion": 1832
+ }
+}

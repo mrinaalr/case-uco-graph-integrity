@@ -203,6 +203,102 @@ Success criteria for the one test run, on A and B, written before it: the select
 more 2-hop questions exactly than both the method's graph and the method's graph after the hook (hook-v1), and their
 value precision is no more than 5 points below the method's graph.
 
+## Reconciler
+
+Written 2026-11-05, after the selector's test run and before any dev run of the reconciler. The hook and the
+selector each edit a graph in place, decide as they score, and keep or remove only (the selector also adds links
+between entities the graph already names). The test results show what that buys: precision rises and meaning falls,
+on both arms. `harness/reconcile/` keeps the mechanics and changes the shape: a graph is read into a ledger of
+claims, every pass only adds to a claim's record, and a policy decides from the record. Whoever built the graph is
+irrelevant to every module (tests/test_layering.py: no construction arm on the import path, no gold file named).
+
+1. *Ingest.* The graph's scored triples become `stated` claims; each keeps the node that stated it.
+2. *Verify* (pass 1, backward). Each claim's plain sentence against the source: the top 3 passages by the hook's
+   embedder, each labelled by its NLI model, as evidence rows; a literal found verbatim beside its subject, and a
+   pair of entities named in one passage, as span evidence. Nothing is decided. Modality (asserted, reported, hedged,
+   negated) is read from the best supporting passage by a word list and recorded, never used.
+3. *Propose* (pass 3, forward). Candidates the graph may lack, as `proposed` claims: every reading the profile allows
+   for a pair of entities that share a passage or an edge (the selector's enumeration), a repair of the graph's own
+   link where it has one; a message's time, sender and recipients from its mail header; an ISO form of a stated time
+   that xsd:dateTime rejects, a repair of it; and the facts an LLM lists from each document (`propose_llm.py`, cached
+   per case), with values admitted only as exact spans and names resolved to entities, or, for a person, organization,
+   account or address, to a provisional entity that enters only with a link that passes (an event, message or
+   location is described, not named, and is not proposed new). Entities of one class and one key are merged first.
+   Every proposal then gets the same evidence a stated claim gets.
+4. *Readings* (pass 2, semantics). On every claim with support, stated and proposed together: the right hook's
+   checks (domain, range, datatype, self-loop; cardinality, where a proposed value displaces a stated one only by more
+   than the margin), the header rule, and contrast against the readings that cannot hold with the claim. A wrong
+   stated edge and its right reading are thus decided from the same passages.
+5. *Decide.* Five verdicts from the record alone: `malformed` (a check failed; a literal the class declares on its
+   own facet, an EmailMessage's subject, is not malformed for sitting on the node), `contradicted` (the header rule
+   says otherwise, or a competitor outranks it by more than the margin on every supporting passage; an NLI
+   contradiction label alone is recorded and contradicts nothing), `ambiguous` (supported, but a rival is entailed
+   within the margin on its best passage), `supported`, `insufficient` (no passage supports it; unverified, not
+   false). A proposal is `supported` only at the bar: entailment of at least `add_threshold` on a prose passage both
+   entities share, the header rule, or a literal beside its subject; a repair is written only when the claim it
+   repairs is removed; a reading a stated claim entails is not added. Policies: `conservative` removes `contradicted`
+   and `malformed` and flags `insufficient`; `strict` removes `insufficient` too, except an entity's key; `hook-v1`
+   and `lr` reproduce the hook.
+6. *Emit.* The input graph byte for byte, the reconciled graph (removals, merges, additions applied to the input;
+   nothing else touched), the ledger (claims, entities, decisions) and `provenance.jsonld`: the run as a
+   `case-investigation:InvestigativeAction`, each removal and addition as a `uco-core:Assertion` with its statement,
+   verdict, reason and passage.
+
+The task's tables (the ten kinds with domain and range, the task's properties, each class's key, the narrowed ranges
+of `accountIssuer`, `from` and `to`) move to `harness/profile.toml`, read by every arm, the hook and the reconciler,
+and checked against the SDK's schema at load; the arms' prompt is byte-identical (tests/test_profile.py).
+
+Parity, before any new number: the published hook decided from the ledger (`--policy hook-v1 --template full
+--passages sentence --query rendered`) keeps the same edges as hook-v1 on 1,226 of 1,226 edges of B (19 cases with a
+graph) and 417 of 417 of A (6 cases); the left and right hooks (`--policy lr`) keep the same edges as fix-dev `+lr` on
+1,559 of 1,559 edges of dev gold, 1,760 of 1,760 of the corrupted copies and 139 of 139 of C's five dev graphs
+(`PYTHONHASHSEED=0`, MPS).
+
+Success criteria for the dev run (`rec-dev`, `data_dev`; gold, corrupted, dropped, C on 5 cases, and A and B as
+built on dev), written before it:
+
+- Not degrading: on dev gold, `conservative` removes at most 1% of true edges (the left and right hooks removed 8.7%)
+  and keeps 2-hop exact at or above 0.95 (`+lr`: 0.741).
+- Corrupted: `strict` reaches value precision of at least 0.90 and recall of at least 0.75 (`+lr`: 0.947 / 0.611;
+  `+sel`: 0.896 / 0.781), and answers more 1-hop questions exactly than `+sel` (0.709).
+- Dropped: `conservative` recovers at least 60% of the removed object edges (`+sel`: 176 of 241).
+- Calibration (`calibration.py`): on corrupted graphs, at least 90% of the stated claims called `contradicted` are
+  edges gold does not support; on gold, no stated claim is called `contradicted`.
+- B on dev: `strict` answers more 1-hop questions exactly than B as built (0.494) and B+sel (0.462), at value
+  precision of at least B+sel's (0.665).
+
+Disclosures:
+
+- The LLM proposals are PR #11's cache (`results/llm-dev/proposals`, Qwen/Qwen3.5-9B on Tinker, one call per
+  document), reused unchanged; `propose_llm.py` regenerates them with the same prompt less the document's kind,
+  which came from gold. No new model call was made for this work.
+- hook.py now reads its tables from profile.toml and no longer imports arm C; the hook-v1 parity above is the
+  check that its behaviour did not change. score.py, meaning.py and generate_data.py are byte-identical to Freeze 12.
+- The reconciler copies the scorer's key and grounding rules (reconcile/keys.py) rather than importing them;
+  tests/test_ledger.py holds the two to agreement on dev. The evaluator and the method under test share no code.
+- The design was set before the dev run; the stub-verifier smoke runs on dev case_01 and case_02 found two
+  structural faults that were fixed before it (a normalized time written beside its original; a literal alternative
+  able to displace a true value in cardinality), both now covered by tests.
+- The dev run was run twice. The first (`results/rec-dev1`) missed most criteria: on gold, `conservative` removed 20
+  true edges (1.3%) and added 92 false ones; B's 1-hop exact fell from 0.494 to 0.416 under `conservative` and 0.398
+  under `strict`. Reading the ledgers gave six faults, each a rule, not a threshold: (1) the same value proposed
+  under a sister property (region beside postalCode) outranked the true value under NLI, removed it by contrast and
+  was written in its place, 11 of the 20 true removals and 27 of the 92 additions; (2) an NLI contradiction label on
+  a passage naming the claim's entities counted as a contradiction with no support to weigh it against, 5 true
+  removals (an issuer read as an owner, an alias read as a denial); (3) a reading of a pair the graph already linked
+  correctly was added beside the link (Authorized beside Performed), 17 false additions and 3 true ones across all
+  arms; (4) an address the LLM wrote in full did not resolve to the location keyed by its street, and events,
+  messages and email accounts entered as provisional duplicates, 45 of the 92 additions on gold and every provisional
+  entity of those classes false on every arm; (5) a literal B writes on the node that the schema declares on the
+  node's facet (an EmailMessage's `subject`, `sentTime`) failed the domain check and was removed, 24 true edges and
+  with them the keys B's questions start from; (6) `strict` removed unverified keys, leaving entities nothing aligns
+  to (corrupted, `strict`: value precision 0.897, strict-scorer precision 0.583). The hook policies keep the hook's
+  behaviour on each point (parity re-run below). The fixes were made after seeing dev numbers; the test criteria
+  stand as written.
+- The 100-case test run needs a GPU and is not part of this work: every number here is dev. The criteria for a test
+  run are the dev criteria above, with the selector's test numbers (`sel-test`) in place of the dev ones.
+- Modality is recorded and unmeasured: the benchmark's documents contain no hedged or reported statement.
+
 ## Related work
 
 - [SPIRES](https://doi.org/10.1093/bioinformatics/btae104) (Caufield et al., 2024) has an LLM fill
@@ -218,6 +314,13 @@ value precision is no more than 5 points below the method's graph.
   ontology-driven graph generation from text against gold facts, with measures of ontology
   conformance and hallucination; this benchmark does the same for CASE/UCO, with each gold
   statement tied to the sentence that states it.
+- [ProVe](https://arxiv.org/abs/2210.14846) (Amaral, Rodrigues and Simperl, 2022) checks a Wikidata triple
+  against the web page cited as its provenance: text extraction, triple verbalisation, sentence selection, claim
+  verification by an entailment model, then one binary verdict, supported or not. The reconciler's first pass is
+  that pipeline on a CASE/UCO graph; it differs after it: the verdict is one of five, the ontology's other readings
+  are scored beside the claim, and what the source states and the graph lacks is proposed and held to the same
+  check. [GraphEval](https://arxiv.org/abs/2407.10793) (2024) turns an LLM's output into triples and checks each
+  against the context with NLI, to find hallucinations; the same check, on text rather than a graph.
 - [PERSEUS](https://ceur-ws.org/Vol-4246/llms4kgoe-5.pdf) validates each LLM-extracted triple by
   NLI entailment against retrieved source evidence, as the left hook does, on open-schema triples.
 - [Sainz et al., 2021](https://aclanthology.org/2021.emnlp-main.92) extract relations by scoring
@@ -504,3 +607,50 @@ fixes, so dev overstates it.
 
 B case_60 is a new failure: the selector raised `KeyError` on a Relationship node
 (`rel-person-luca-haddad-person-owen-park`), and the case counts as no graph.
+
+### Reconciler, dev
+
+Freeze 13, `data_dev`, the second dev run (`results/rec-dev`; the first is `results/rec-dev1`). Value scorer,
+micro. Each cell is the graph as given / `+sel` / `+rec` (`conservative`) / `+rec-strict`. A has no selector dev
+run; 14 of its 20 dev cases have no graph.
+
+| sample | P value | R value | 1-hop exact | 2-hop exact | valid |
+|---|---|---|---|---|---|
+| dev gold | 1 / 0.963 / 0.993 / 0.993 | 1 / 0.933 / 0.991 / 0.933 | 1 / 0.883 / 0.987 / 0.901 | 1 / 0.824 / 0.991 / 0.764 | 20 / 20 / 13 / 13 |
+| dev corrupted | 0.600 / 0.896 / 0.682 / 0.852 | 0.677 / 0.781 / 0.772 / 0.763 | 0.375 / 0.709 / 0.402 / 0.646 | 0.316 / 0.671 / 0.309 / 0.460 | 0 / 13 / 0 / 8 |
+| dev dropped | 0.990 / 0.966 / 0.980 / 0.988 | 0.837 / 0.897 / 0.915 / 0.876 | 0.722 / 0.824 / 0.845 / 0.793 | 0.477 / 0.720 / 0.733 / 0.607 | 20 / 20 / 12 / 13 |
+| C, 5 dev cases | 0.545 / 0.580 / 0.653 / 0.708 | 0.191 / 0.209 / 0.369 / 0.356 | 0.086 / 0.107 / 0.204 / 0.196 | 0.016 / 0.065 / 0.094 / 0.077 | 1 / 5 / 0 / 0 |
+| B on dev | 0.621 / 0.665 / 0.633 / 0.653 | 0.468 / 0.445 / 0.487 / 0.465 | 0.494 / 0.462 / 0.421 / 0.394 | 0.380 / 0.321 / 0.294 / 0.235 | 17 / 18 / 15 / 16 |
+| A on dev | 0.518 / – / 0.557 / 0.605 | 0.138 / – / 0.144 / 0.137 | 0.126 / – / 0.123 / 0.114 | 0.075 / – / 0.066 / 0.061 | 3 / – / 3 / 5 |
+
+Against the criteria written before the run:
+
+- Not degrading: met. `conservative` removes 14 of gold's 1,459 true edges (1.0%; the hooks 127, the selector 98)
+  and keeps 2-hop exact at 0.991.
+- Corrupted: not met. `strict` reaches value precision 0.852 (criterion 0.90) at recall 0.763 (criterion 0.75,
+  met) and answers 0.646 of 1-hop questions exactly, against the selector's 0.709.
+- Dropped: not met. `conservative` recovers 134 of the 241 removed edges (56%; the selector 176).
+- Calibration: not met. On corrupted graphs 78 of the 91 stated claims called `contradicted` are false (86%); on
+  gold 14 are called `contradicted`, and they are the 14 removals.
+- B: not met. `strict` answers 0.394 of 1-hop questions exactly (B 0.494, B+sel 0.462) at value precision 0.653.
+
+What the ledgers show, left as found:
+
+- Gold's 14 contradictions: 10 are a literal outranked by the same value under a sister property of the same range
+  (postalCode against locality, region against postalCode), the right hook's contrast rule as published; 4 are an
+  account's issuer outranked by "the bank owns the account". Of the 11 edges added to gold, all false, 8 are an
+  address the LLM wrote in full, admitted as a span and written as a second `street` beside the stated one, and 3 are
+  `accountType` "Account", which is not in the SDK's vocabulary; these fail SHACL on 7 of the 20 gold graphs.
+- B's 81 removals under `conservative` are all edges the strict scorer calls false: 47 account identifiers B wrote
+  under `name`, outranked by the identifier reading; 23 `from` and `to` edges whose object is the person rather than
+  the person's email address, which fail the profile's range. The value scorer and the competency questions credit
+  those 23, and B's 1-hop exact falls with them (0.494 to 0.420 with no additions at all). It writes 103 claims into
+  B's graphs, 31 of them supported.
+- Corrupted: `strict` keeps an entity's unverified key, and with it the corrupted keys (value precision 0.897 under
+  the first run's rule, 0.852 under this one; strict-scorer precision 0.583 against 0.847). Under `conservative`,
+  159 of the 174 removals are false edges, and 488 more false edges are `insufficient`, which only `strict` removes.
+- C, where no criterion was set: `strict` raises value precision from 0.545 to 0.708 and 1-hop exact from 0.086 to
+  0.196; it writes 72 claims, 42 of them supported. No reconciled C graph validates.
+
+Parity after the fixes: `hook-v1` keeps the hook's edges on 1,226 of 1,226 (B, 19 cases) and 582 of 582 (A, 10
+cases); `lr` on 1,559 of 1,559 (gold), 1,760 of 1,760 (corrupted) and 139 of 139 (C).

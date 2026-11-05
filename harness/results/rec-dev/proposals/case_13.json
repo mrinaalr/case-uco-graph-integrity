@@ -1,0 +1,803 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Clara Quinn\", \"name\", \"Clara Quinn\"],\n  [\"Person: Clara Quinn\", \"Holds_Account\", \"EmailAddress: clara.quinn@stonebridge.com\"],\n  [\"Person: Clara Quinn\", \"Holds_Account\", \"EmailAccount: clara.quinn@stonebridge.com\"],\n  [\"EmailAccount: clara.quinn@stonebridge.com\", \"emailAddress\", \"EmailAddress: clara.quinn@stonebridge.com\"],\n  [\"Organization: Stonebridge Consulting Ltd.\", \"name\", \"Stonebridge Consulting Ltd.\"],\n  [\"Person: Clara Quinn\", \"Employed_By\", \"Organization: Stonebridge Consulting Ltd.\"],\n  [\"Person: Desmond Moreau\", \"name\", \"Desmond Moreau\"],\n  [\"Person: Desmond Moreau\", \"Holds_Account\", \"EmailAddress: dmoreau@stonebridge.com\"],\n  [\"Person: Desmond Moreau\", \"Holds_Account\", \"EmailAccount: dmoreau@stonebridge.com\"],\n  [\"EmailAccount: dmoreau@stonebridge.com\", \"emailAddress\", \"EmailAddress: dmoreau@stonebridge.com\"],\n  [\"Organization: Redfern Distribution Group\", \"name\", \"Redfern Distribution Group\"],\n  [\"Person: Hannah Whitfield\", \"name\", \"Hannah Whitfield\"],\n  [\"Person: Hannah Whitfield\", \"Holds_Account\", \"EmailAddress: hwhitfield@redfern.com\"],\n  [\"Person: Hannah Whitfield\", \"Holds_Account\", \"EmailAccount: hwhitfield@redfern.com\"],\n  [\"EmailAccount: hwhitfield@redfern.com\", \"emailAddress\", \"EmailAddress: hwhitfield@redfern.com\"],\n  [\"Person: Desmond Moreau\", \"Employed_By\", \"Organization: Stonebridge Consulting Ltd.\"],\n  [\"Person: Desmond Moreau\", \"Reports_To\", \"Person: Clara Quinn\"],\n  [\"Location: 3686 Harbor Avenue, Dayton, OH 45402\", \"street\", \"3686 Harbor Avenue\"],\n  [\"Location: 3686 Harbor Avenue, Dayton, OH 45402\", \"locality\", \"Dayton\"],\n  [\"Location: 3686 Harbor Avenue, Dayton, OH 45402\", \"region\", \"OH\"],\n  [\"Location: 3686 Harbor Avenue, Dayton, OH 45402\", \"postalCode\", \"45402\"],\n  [\"Organization: Stonebridge Consulting Ltd.\", \"Located_At\", \"Location: 3686 Harbor Avenue, Dayton, OH 45402\"],\n  [\"Account: 2124162418\", \"accountIdentifier\", \"2124162418\"],\n  [\"Account: 2124162418\", \"accountType\", \"ApplicationAccount\"],\n  [\"Organization: Stonebridge Consulting Ltd.\", \"Owns_Account\", \"Account: 2124162418\"],\n  [\"Account: 2124162418\", \"accountIssuer\", \"Organization: Stonebridge Consulting Ltd.\"],\n  [\"Account: 8796782345\", \"accountIdentifier\", \"8796782345\"],\n  [\"Account: 8796782345\", \"accountType\", \"ApplicationAccount\"],\n  [\"Organization: Redfern Distribution Group\", \"Owns_Account\", \"Account: 8796782345\"],\n  [\"Account: 5619321138\", \"accountIdentifier\", \"5619321138\"],\n  [\"Account: 5619321138\", \"accountType\", \"ApplicationAccount\"],\n  [\"Person: Clara Quinn\", \"Owns_Account\", \"Account: 5619321138\"],\n  [\"Account: 5619321138\", \"accountIssuer\", \"Organization: Stonebridge Consulting Ltd.\"],\n  [\"Person: Desmond Moreau\", \"Communicated_With\", \"Person: Hannah Whitfield\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Clara Quinn",
+     "name",
+     "Clara Quinn"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Holds_Account",
+     "EmailAddress: clara.quinn@stonebridge.com"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Holds_Account",
+     "EmailAccount: clara.quinn@stonebridge.com"
+    ],
+    [
+     "EmailAccount: clara.quinn@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: clara.quinn@stonebridge.com"
+    ],
+    [
+     "Organization: Stonebridge Consulting Ltd.",
+     "name",
+     "Stonebridge Consulting Ltd."
+    ],
+    [
+     "Person: Clara Quinn",
+     "Employed_By",
+     "Organization: Stonebridge Consulting Ltd."
+    ],
+    [
+     "Person: Desmond Moreau",
+     "name",
+     "Desmond Moreau"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Holds_Account",
+     "EmailAddress: dmoreau@stonebridge.com"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Holds_Account",
+     "EmailAccount: dmoreau@stonebridge.com"
+    ],
+    [
+     "EmailAccount: dmoreau@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: dmoreau@stonebridge.com"
+    ],
+    [
+     "Organization: Redfern Distribution Group",
+     "name",
+     "Redfern Distribution Group"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "name",
+     "Hannah Whitfield"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Holds_Account",
+     "EmailAddress: hwhitfield@redfern.com"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Holds_Account",
+     "EmailAccount: hwhitfield@redfern.com"
+    ],
+    [
+     "EmailAccount: hwhitfield@redfern.com",
+     "emailAddress",
+     "EmailAddress: hwhitfield@redfern.com"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Employed_By",
+     "Organization: Stonebridge Consulting Ltd."
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Reports_To",
+     "Person: Clara Quinn"
+    ],
+    [
+     "Location: 3686 Harbor Avenue, Dayton, OH 45402",
+     "street",
+     "3686 Harbor Avenue"
+    ],
+    [
+     "Location: 3686 Harbor Avenue, Dayton, OH 45402",
+     "locality",
+     "Dayton"
+    ],
+    [
+     "Location: 3686 Harbor Avenue, Dayton, OH 45402",
+     "region",
+     "OH"
+    ],
+    [
+     "Location: 3686 Harbor Avenue, Dayton, OH 45402",
+     "postalCode",
+     "45402"
+    ],
+    [
+     "Organization: Stonebridge Consulting Ltd.",
+     "Located_At",
+     "Location: 3686 Harbor Avenue, Dayton, OH 45402"
+    ],
+    [
+     "Account: 2124162418",
+     "accountIdentifier",
+     "2124162418"
+    ],
+    [
+     "Account: 2124162418",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Organization: Stonebridge Consulting Ltd.",
+     "Owns_Account",
+     "Account: 2124162418"
+    ],
+    [
+     "Account: 2124162418",
+     "accountIssuer",
+     "Organization: Stonebridge Consulting Ltd."
+    ],
+    [
+     "Account: 8796782345",
+     "accountIdentifier",
+     "8796782345"
+    ],
+    [
+     "Account: 8796782345",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Organization: Redfern Distribution Group",
+     "Owns_Account",
+     "Account: 8796782345"
+    ],
+    [
+     "Account: 5619321138",
+     "accountIdentifier",
+     "5619321138"
+    ],
+    [
+     "Account: 5619321138",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Owns_Account",
+     "Account: 5619321138"
+    ],
+    [
+     "Account: 5619321138",
+     "accountIssuer",
+     "Organization: Stonebridge Consulting Ltd."
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Communicated_With",
+     "Person: Hannah Whitfield"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 881,
+    "completion": 913
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: hwhitfield@redfern.com\", \"addressValue\", \"hwhitfield@redfern.com\"],\n  [\"EmailAddress: clara.quinn@stonebridge.com\", \"addressValue\", \"clara.quinn@stonebridge.com\"],\n  [\"EmailAddress: dmoreau@stonebridge.com\", \"addressValue\", \"dmoreau@stonebridge.com\"],\n  [\"EmailAccount: hwhitfield@redfern.com\", \"emailAddress\", \"EmailAddress: hwhitfield@redfern.com\"],\n  [\"EmailAccount: clara.quinn@stonebridge.com\", \"emailAddress\", \"EmailAddress: clara.quinn@stonebridge.com\"],\n  [\"EmailAccount: dmoreau@stonebridge.com\", \"emailAddress\", \"EmailAddress: dmoreau@stonebridge.com\"],\n  [\"Person: Hannah Whitfield\", \"Holds_Account\", \"EmailAddress: hwhitfield@redfern.com\"],\n  [\"Person: Clara Quinn\", \"Holds_Account\", \"EmailAddress: clara.quinn@stonebridge.com\"],\n  [\"Person: Desmond Moreau\", \"Holds_Account\", \"EmailAddress: dmoreau@stonebridge.com\"],\n  [\"Event: refund request\", \"startTime\", \"February 22, 2025 at 12:25 UTC\"],\n  [\"Event: contract amendment\", \"startTime\", \"17 March 2025, 15:25 UTC\"],\n  [\"Event: audit review\", \"startTime\", \"24 March 2025, 17:10 UTC\"],\n  [\"Event: account reconciliation\", \"startTime\", \"29 March 2025, 09:45 UTC\"],\n  [\"Event: bank detail change\", \"startTime\", \"29 March 2025, 13:00 UTC\"],\n  [\"EmailMessage: Invoice 1523 follow-up\", \"subject\", \"Invoice 1523 follow-up\"],\n  [\"EmailMessage: Invoice 1523 follow-up\", \"sentTime\", \"Sat, 29 Mar 2025 15:00:00 +0000\"],\n  [\"Person: Hannah Whitfield\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Desmond Moreau\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Hannah Whitfield\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Person: Clara Quinn\", \"Initiated\", \"Event: audit review\"],\n  [\"Person: Clara Quinn\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Person: Hannah Whitfield\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Person: Hannah Whitfield\", \"Participated_In\", \"Event: refund request\"],\n  [\"Person: Clara Quinn\", \"Participated_In\", \"Event: contract amendment\"],\n  [\"Person: Desmond Moreau\", \"Participated_In\", \"Event: contract amendment\"],\n  [\"Person: Hannah Whitfield\", \"Participated_In\", \"Event: audit review\"],\n  [\"Person: Desmond Moreau\", \"Participated_In\", \"Event: account reconciliation\"],\n  [\"Person: Clara Quinn\", \"Authorized\", \"Event: contract amendment\"],\n  [\"Location: Stonebridge Consulting Ltd. office\", \"street\", \"Stonebridge Consulting Ltd. office\"],\n  [\"Event: contract amendment\", \"Located_At\", \"Location: Stonebridge Consulting Ltd. office\"],\n  [\"Event: audit review\", \"Located_At\", \"Location: Stonebridge Consulting Ltd. office\"],\n  [\"Event: account reconciliation\", \"Located_At\", \"Location: Stonebridge Consulting Ltd. office\"],\n  [\"Event: bank detail change\", \"Located_At\", \"Location: Stonebridge Consulting Ltd. office\"],\n  [\"Person: Hannah Whitfield\", \"Communicated_With\", \"Person: Clara Quinn\"],\n  [\"Person: Hannah Whitfield\", \"Communicated_With\", \"Person: Desmond Moreau\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: hwhitfield@redfern.com",
+     "addressValue",
+     "hwhitfield@redfern.com"
+    ],
+    [
+     "EmailAddress: clara.quinn@stonebridge.com",
+     "addressValue",
+     "clara.quinn@stonebridge.com"
+    ],
+    [
+     "EmailAddress: dmoreau@stonebridge.com",
+     "addressValue",
+     "dmoreau@stonebridge.com"
+    ],
+    [
+     "EmailAccount: hwhitfield@redfern.com",
+     "emailAddress",
+     "EmailAddress: hwhitfield@redfern.com"
+    ],
+    [
+     "EmailAccount: clara.quinn@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: clara.quinn@stonebridge.com"
+    ],
+    [
+     "EmailAccount: dmoreau@stonebridge.com",
+     "emailAddress",
+     "EmailAddress: dmoreau@stonebridge.com"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Holds_Account",
+     "EmailAddress: hwhitfield@redfern.com"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Holds_Account",
+     "EmailAddress: clara.quinn@stonebridge.com"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Holds_Account",
+     "EmailAddress: dmoreau@stonebridge.com"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "February 22, 2025 at 12:25 UTC"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "17 March 2025, 15:25 UTC"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "24 March 2025, 17:10 UTC"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "29 March 2025, 09:45 UTC"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "29 March 2025, 13:00 UTC"
+    ],
+    [
+     "EmailMessage: Invoice 1523 follow-up",
+     "subject",
+     "Invoice 1523 follow-up"
+    ],
+    [
+     "EmailMessage: Invoice 1523 follow-up",
+     "sentTime",
+     "Sat, 29 Mar 2025 15:00:00 +0000"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Participated_In",
+     "Event: refund request"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Participated_In",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Participated_In",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Participated_In",
+     "Event: audit review"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Participated_In",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Authorized",
+     "Event: contract amendment"
+    ],
+    [
+     "Location: Stonebridge Consulting Ltd. office",
+     "street",
+     "Stonebridge Consulting Ltd. office"
+    ],
+    [
+     "Event: contract amendment",
+     "Located_At",
+     "Location: Stonebridge Consulting Ltd. office"
+    ],
+    [
+     "Event: audit review",
+     "Located_At",
+     "Location: Stonebridge Consulting Ltd. office"
+    ],
+    [
+     "Event: account reconciliation",
+     "Located_At",
+     "Location: Stonebridge Consulting Ltd. office"
+    ],
+    [
+     "Event: bank detail change",
+     "Located_At",
+     "Location: Stonebridge Consulting Ltd. office"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Communicated_With",
+     "Person: Clara Quinn"
+    ],
+    [
+     "Person: Hannah Whitfield",
+     "Communicated_With",
+     "Person: Desmond Moreau"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 962,
+    "completion": 865
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"Person: Clara Quinn\", \"Holds_Account\", \"EmailAddress: claraq\"],\n  [\"Person: Clara Quinn\", \"Holds_Account\", \"EmailAccount: claraq\"],\n  [\"Person: Desmond Moreau\", \"Holds_Account\", \"EmailAddress: desmondm\"],\n  [\"Person: Desmond Moreau\", \"Holds_Account\", \"EmailAccount: desmondm\"],\n  [\"EmailAccount: claraq\", \"emailAddress\", \"EmailAddress: claraq\"],\n  [\"EmailAccount: desmondm\", \"emailAddress\", \"EmailAddress: desmondm\"],\n  [\"Person: Clara Quinn\", \"Communicated_With\", \"Person: Desmond Moreau\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Clara Quinn",
+     "Holds_Account",
+     "EmailAddress: claraq"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Holds_Account",
+     "EmailAccount: claraq"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Holds_Account",
+     "EmailAddress: desmondm"
+    ],
+    [
+     "Person: Desmond Moreau",
+     "Holds_Account",
+     "EmailAccount: desmondm"
+    ],
+    [
+     "EmailAccount: claraq",
+     "emailAddress",
+     "EmailAddress: claraq"
+    ],
+    [
+     "EmailAccount: desmondm",
+     "emailAddress",
+     "EmailAddress: desmondm"
+    ],
+    [
+     "Person: Clara Quinn",
+     "Communicated_With",
+     "Person: Desmond Moreau"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 733,
+    "completion": 152
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Clara Quinn",
+   "name",
+   "Clara Quinn"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Holds_Account",
+   "EmailAddress: clara.quinn@stonebridge.com"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Holds_Account",
+   "EmailAccount: clara.quinn@stonebridge.com"
+  ],
+  [
+   "EmailAccount: clara.quinn@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: clara.quinn@stonebridge.com"
+  ],
+  [
+   "Organization: Stonebridge Consulting Ltd.",
+   "name",
+   "Stonebridge Consulting Ltd."
+  ],
+  [
+   "Person: Clara Quinn",
+   "Employed_By",
+   "Organization: Stonebridge Consulting Ltd."
+  ],
+  [
+   "Person: Desmond Moreau",
+   "name",
+   "Desmond Moreau"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Holds_Account",
+   "EmailAddress: dmoreau@stonebridge.com"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Holds_Account",
+   "EmailAccount: dmoreau@stonebridge.com"
+  ],
+  [
+   "EmailAccount: dmoreau@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: dmoreau@stonebridge.com"
+  ],
+  [
+   "Organization: Redfern Distribution Group",
+   "name",
+   "Redfern Distribution Group"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "name",
+   "Hannah Whitfield"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Holds_Account",
+   "EmailAddress: hwhitfield@redfern.com"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Holds_Account",
+   "EmailAccount: hwhitfield@redfern.com"
+  ],
+  [
+   "EmailAccount: hwhitfield@redfern.com",
+   "emailAddress",
+   "EmailAddress: hwhitfield@redfern.com"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Employed_By",
+   "Organization: Stonebridge Consulting Ltd."
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Reports_To",
+   "Person: Clara Quinn"
+  ],
+  [
+   "Location: 3686 Harbor Avenue, Dayton, OH 45402",
+   "street",
+   "3686 Harbor Avenue"
+  ],
+  [
+   "Location: 3686 Harbor Avenue, Dayton, OH 45402",
+   "locality",
+   "Dayton"
+  ],
+  [
+   "Location: 3686 Harbor Avenue, Dayton, OH 45402",
+   "region",
+   "OH"
+  ],
+  [
+   "Location: 3686 Harbor Avenue, Dayton, OH 45402",
+   "postalCode",
+   "45402"
+  ],
+  [
+   "Organization: Stonebridge Consulting Ltd.",
+   "Located_At",
+   "Location: 3686 Harbor Avenue, Dayton, OH 45402"
+  ],
+  [
+   "Account: 2124162418",
+   "accountIdentifier",
+   "2124162418"
+  ],
+  [
+   "Account: 2124162418",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Organization: Stonebridge Consulting Ltd.",
+   "Owns_Account",
+   "Account: 2124162418"
+  ],
+  [
+   "Account: 2124162418",
+   "accountIssuer",
+   "Organization: Stonebridge Consulting Ltd."
+  ],
+  [
+   "Account: 8796782345",
+   "accountIdentifier",
+   "8796782345"
+  ],
+  [
+   "Account: 8796782345",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Organization: Redfern Distribution Group",
+   "Owns_Account",
+   "Account: 8796782345"
+  ],
+  [
+   "Account: 5619321138",
+   "accountIdentifier",
+   "5619321138"
+  ],
+  [
+   "Account: 5619321138",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Owns_Account",
+   "Account: 5619321138"
+  ],
+  [
+   "Account: 5619321138",
+   "accountIssuer",
+   "Organization: Stonebridge Consulting Ltd."
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Communicated_With",
+   "Person: Hannah Whitfield"
+  ],
+  [
+   "EmailAddress: hwhitfield@redfern.com",
+   "addressValue",
+   "hwhitfield@redfern.com"
+  ],
+  [
+   "EmailAddress: clara.quinn@stonebridge.com",
+   "addressValue",
+   "clara.quinn@stonebridge.com"
+  ],
+  [
+   "EmailAddress: dmoreau@stonebridge.com",
+   "addressValue",
+   "dmoreau@stonebridge.com"
+  ],
+  [
+   "EmailAccount: hwhitfield@redfern.com",
+   "emailAddress",
+   "EmailAddress: hwhitfield@redfern.com"
+  ],
+  [
+   "EmailAccount: clara.quinn@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: clara.quinn@stonebridge.com"
+  ],
+  [
+   "EmailAccount: dmoreau@stonebridge.com",
+   "emailAddress",
+   "EmailAddress: dmoreau@stonebridge.com"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Holds_Account",
+   "EmailAddress: hwhitfield@redfern.com"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Holds_Account",
+   "EmailAddress: clara.quinn@stonebridge.com"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Holds_Account",
+   "EmailAddress: dmoreau@stonebridge.com"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "February 22, 2025 at 12:25 UTC"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "17 March 2025, 15:25 UTC"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "24 March 2025, 17:10 UTC"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "29 March 2025, 09:45 UTC"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "29 March 2025, 13:00 UTC"
+  ],
+  [
+   "EmailMessage: Invoice 1523 follow-up",
+   "subject",
+   "Invoice 1523 follow-up"
+  ],
+  [
+   "EmailMessage: Invoice 1523 follow-up",
+   "sentTime",
+   "Sat, 29 Mar 2025 15:00:00 +0000"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Participated_In",
+   "Event: refund request"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Participated_In",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Participated_In",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Participated_In",
+   "Event: audit review"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Participated_In",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Authorized",
+   "Event: contract amendment"
+  ],
+  [
+   "Location: Stonebridge Consulting Ltd. office",
+   "street",
+   "Stonebridge Consulting Ltd. office"
+  ],
+  [
+   "Event: contract amendment",
+   "Located_At",
+   "Location: Stonebridge Consulting Ltd. office"
+  ],
+  [
+   "Event: audit review",
+   "Located_At",
+   "Location: Stonebridge Consulting Ltd. office"
+  ],
+  [
+   "Event: account reconciliation",
+   "Located_At",
+   "Location: Stonebridge Consulting Ltd. office"
+  ],
+  [
+   "Event: bank detail change",
+   "Located_At",
+   "Location: Stonebridge Consulting Ltd. office"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Communicated_With",
+   "Person: Clara Quinn"
+  ],
+  [
+   "Person: Hannah Whitfield",
+   "Communicated_With",
+   "Person: Desmond Moreau"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Holds_Account",
+   "EmailAddress: claraq"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Holds_Account",
+   "EmailAccount: claraq"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Holds_Account",
+   "EmailAddress: desmondm"
+  ],
+  [
+   "Person: Desmond Moreau",
+   "Holds_Account",
+   "EmailAccount: desmondm"
+  ],
+  [
+   "EmailAccount: claraq",
+   "emailAddress",
+   "EmailAddress: claraq"
+  ],
+  [
+   "EmailAccount: desmondm",
+   "emailAddress",
+   "EmailAddress: desmondm"
+  ],
+  [
+   "Person: Clara Quinn",
+   "Communicated_With",
+   "Person: Desmond Moreau"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2576,
+  "completion": 1930
+ }
+}
