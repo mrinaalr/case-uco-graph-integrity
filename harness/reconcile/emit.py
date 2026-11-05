@@ -21,7 +21,7 @@ from case_uco.graph import DEFAULT_CONTEXT
 from graphkit import SCHEMA, expand, load_graph
 from hook import remove
 from reconcile.ingest import HAS_FACET, local
-from reconcile.ledger import Claim, Ledger
+from reconcile.ledger import PROPOSED, Claim, Ledger
 from reconcile.policy import POLICIES, added, removed
 
 RDF_TYPE = rdflib.RDF.type
@@ -89,7 +89,23 @@ def emit(led: Ledger, graph_path: Path, out: Path, policy: str, meta: dict) -> d
     for c in gone:
         remove(g, c.as_triple(), nodes)
     written, failed = [], []
-    for c in added(led, policy):
+    adds = added(led, policy)
+    linked = {x for c in adds if not c.lit for x in (c.s, c.o)}
+    for e in led.entities.values():  # a provisional entity enters with its class, its facet and its key
+        if e.origin == PROPOSED and e.id in linked and e.id not in nodes:
+            node = rdflib.URIRef(e.id)
+            g.add((node, RDF_TYPE, rdflib.URIRef(expand(SCHEMA[e.cls]["type"]))))
+            facet = next((f for f in (f"{e.cls}Facet", "SimpleAddressFacet" if e.cls == "Location" else "", "AccountFacet"
+                                      if e.cls == "ApplicationAccount" else "") if f in SCHEMA), None)
+            if facet:
+                fid = rdflib.URIRef(f"{e.id}-facet")
+                g.add((fid, RDF_TYPE, rdflib.URIRef(expand(SCHEMA[facet]["type"]))))
+                g.add((node, HAS_FACET, fid))
+            nodes[e.id] = node
+            for p, vs in e.props.items():
+                for v in vs:
+                    add_edge(g, Claim(f"key-{e.id}-{p}", e.id, p, v, True, "prop"))
+    for c in adds:
         if c.s not in nodes or (not c.lit and c.o not in nodes):
             failed.append((c, "an entity the graph does not hold"))
             continue

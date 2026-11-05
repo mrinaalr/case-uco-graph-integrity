@@ -13,9 +13,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
-from graphkit import HARNESS
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # harness/, for the bare-name imports
+
+from graphkit import HARNESS  # noqa: E402
 from reconcile.ledger import Ledger
 from reconcile.policy import POLICIES
 
@@ -67,6 +70,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    import sys
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
     main()

@@ -4,10 +4,11 @@
     python harness/reconcile/run.py --run-id RUN --arm b_control [--data data_dev] [--suffix rec] [--cases ...] [--resume]
 
 The second form reads results/RUN/<arm>/<case>/graph.jsonld for each case of the data folder and writes
-results/RUN/<arm>+<suffix>/<case>/, so score.py and meaning.py score it like any arm. `--passes` picks the passes
-(verify: backward verification; readings: the ontology's readings, the checks and contrast; propose: forward
-recovery), in that order whatever the spelling; `--policy hook-v1` with `--template full --passages sentence` is the
-published hook decided from the ledger, for parity."""
+results/RUN/<arm>+<suffix>/<case>/, so score.py and meaning.py score it like any arm. `--passes` picks the passes:
+verify (backward verification of the stated claims), propose (forward recovery: the proposals, with the same
+evidence) and readings (the ontology's checks and contrast on every claim with support, stated and proposed
+together, so a wrong edge and its right reading are decided from the same passages). `--policy hook-v1` with
+`--template full --passages sentence --query rendered` is the published hook decided from the ledger, for parity."""
 
 from __future__ import annotations
 
@@ -30,7 +31,7 @@ from reconcile.policy import POLICIES, decide  # noqa: E402
 from reconcile.source import Source  # noqa: E402
 from reconcile.verify import verify  # noqa: E402
 
-PASSES = ("verify", "readings", "propose")
+PASSES = ("verify", "propose", "readings")
 CONFIG = HARNESS / "config.toml"
 
 
@@ -47,20 +48,25 @@ def reconcile_case(graph: Path, docs: Path, out: Path, verifier, cfg: dict, *, p
     led, _ = ingest(graph)
     margin = cfg["hook"]["contrast_margin"]
     legacy = policy == "hook-v1"
+    info = {}
     if "verify" in passes:
         verify(led, src, verifier, template=template, passage_unit=passage_unit, query=query, linked=not legacy)
+    if "propose" in passes:  # proposals are made before the checks, so stated and proposed claims are checked together
+        from reconcile.propose import propose_pass
+        info["proposed"] = propose_pass(led, src, verifier, margin, add_at if add_at is not None else cfg["selector"]["add_threshold"],
+                                        proposals=proposals, case=docs.parent.name, template=template, passage_unit=passage_unit)
     if "readings" in passes:
         from reconcile.readings import readings_pass
-        readings_pass(led, src, verifier, margin)
-    if "propose" in passes:
-        from reconcile.propose import propose_pass
-        propose_pass(led, src, verifier, margin, add_at if add_at is not None else cfg["selector"]["add_threshold"],
-                     proposals=proposals, template=template, passage_unit=passage_unit)
+        readings_pass(led, src, verifier, margin, claims=list(led))
     decide(led, policy, margin)
+    if "propose" in passes:
+        from reconcile.policy import added
+        from reconcile.resolve import drop_unlinked
+        info["dropped_entities"] = len(drop_unlinked(led, {c.id for c in added(led, policy)}))
     meta = {"passes": list(passes), "template": template, "passages": passage_unit, "query": query,
             "contrast_margin": margin, "device": getattr(verifier, "device", None),
             "models": {k: cfg["hook"][k] for k in ("embed_model", "embed_revision", "nli_model", "nli_revision")}}
-    info = emit(led, graph, out, policy, meta)
+    info.update(emit(led, graph, out, policy, meta))
     info["reconcile_s"] = round(time.monotonic() - start, 1)
     return {**meta, **info}
 
