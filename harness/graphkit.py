@@ -14,6 +14,7 @@ import importlib
 import json
 import re
 import subprocess
+import tomllib
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
@@ -28,26 +29,15 @@ HARNESS = REPO / "harness"
 KB = DEFAULT_CONTEXT["kb"]
 XSD = "http://www.w3.org/2001/XMLSchema#"
 
+# The task profile (profile.toml): the relation kinds with their domain, range and phrase, the properties the task
+# fills, and each class's key. CASE/UCO leaves these open; every arm, the hook and the reconciler read them here.
+with open(HARNESS / "profile.toml", "rb") as _fh:
+    PROFILE = tomllib.load(_fh)
 # Relationship kinds (source -> target) both pipelines are told to use.
-RELATION_KINDS = {
-    "Employed_By": "person -> organization",
-    "Reports_To": "employee -> manager",
-    "Holds_Account": "person -> email address or application account they use",
-    "Owns_Account": "person or organization -> account they own",
-    "Located_At": "organization or event -> location",
-    "Participated_In": "person -> event",
-    "Initiated": "person -> event",
-    "Transferred_To": "source account -> destination account",
-    "Authorized": "person -> event",
-    "Communicated_With": "person -> person",
-}
+RELATION_KINDS = {k: v["description"] for k, v in PROFILE["kinds"].items()}
 # Each kind as the verb phrase in "source <phrase> target". CASE/UCO does not define these kinds; the hook's
 # sentence template and arm C's target schema use the phrase in place of a definition.
-RELATION_PHRASES = {
-    "Employed_By": "is employed by", "Reports_To": "reports to", "Holds_Account": "holds", "Owns_Account": "owns",
-    "Located_At": "is located at", "Participated_In": "participated in", "Initiated": "initiated",
-    "Transferred_To": "transferred to", "Authorized": "authorized", "Communicated_With": "communicated with",
-}
+RELATION_PHRASES = {k: v["phrase"] for k, v in PROFILE["kinds"].items()}
 
 # The verification hook's verdict on each edge (hook.py).
 VERDICTS = ("supported", "contradicted", "not_enough_evidence")
