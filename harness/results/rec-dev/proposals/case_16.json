@@ -1,0 +1,773 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Wesley Vance\", \"Employed_By\", \"Organization: Copperfield Components Inc.\"],\n  [\"Person: Wesley Vance\", \"Holds_Account\", \"EmailAddress: wesley.vance@copperfield.com\"],\n  [\"Person: Wesley Vance\", \"Holds_Account\", \"EmailAccount: wesley.vance@copperfield.com\"],\n  [\"Organization: Copperfield Components Inc.\", \"Located_At\", \"Location: 3653 Market Street, Omaha, NE 68102\"],\n  [\"Person: Owen Lindqvist\", \"Employed_By\", \"Organization: Copperfield Components Inc.\"],\n  [\"Person: Owen Lindqvist\", \"Holds_Account\", \"EmailAddress: olindqvist@copperfield.com\"],\n  [\"Person: Owen Lindqvist\", \"Holds_Account\", \"EmailAccount: olindqvist@copperfield.com\"],\n  [\"Person: Irene Delgado\", \"Employed_By\", \"Organization: Bluegate Consulting LLC\"],\n  [\"Person: Irene Delgado\", \"Holds_Account\", \"EmailAddress: idelgado@bluegate.com\"],\n  [\"Person: Irene Delgado\", \"Holds_Account\", \"EmailAccount: idelgado@bluegate.com\"],\n  [\"Organization: Bluegate Consulting LLC\", \"Located_At\", \"Location: 9193 Lakeview Road, Spokane, WA 99201\"],\n  [\"Account: 8712048342\", \"Owns_Account\", \"Organization: Copperfield Components Inc.\"],\n  [\"Account: 8712048342\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 6126435796\", \"Owns_Account\", \"Organization: Bluegate Consulting LLC\"],\n  [\"Account: 6126435796\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 5199904067\", \"Owns_Account\", \"Person: Owen Lindqvist\"],\n  [\"Account: 5199904067\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 8712048342\", \"accountIssuer\", \"Organization: Union Ledger Bank\"],\n  [\"Account: 6126435796\", \"accountIssuer\", \"Organization: Union Ledger Bank\"],\n  [\"Account: 5199904067\", \"accountIssuer\", \"Organization: Union Ledger Bank\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Wesley Vance",
+     "Employed_By",
+     "Organization: Copperfield Components Inc."
+    ],
+    [
+     "Person: Wesley Vance",
+     "Holds_Account",
+     "EmailAddress: wesley.vance@copperfield.com"
+    ],
+    [
+     "Person: Wesley Vance",
+     "Holds_Account",
+     "EmailAccount: wesley.vance@copperfield.com"
+    ],
+    [
+     "Organization: Copperfield Components Inc.",
+     "Located_At",
+     "Location: 3653 Market Street, Omaha, NE 68102"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Employed_By",
+     "Organization: Copperfield Components Inc."
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Holds_Account",
+     "EmailAddress: olindqvist@copperfield.com"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Holds_Account",
+     "EmailAccount: olindqvist@copperfield.com"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Employed_By",
+     "Organization: Bluegate Consulting LLC"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Holds_Account",
+     "EmailAddress: idelgado@bluegate.com"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Holds_Account",
+     "EmailAccount: idelgado@bluegate.com"
+    ],
+    [
+     "Organization: Bluegate Consulting LLC",
+     "Located_At",
+     "Location: 9193 Lakeview Road, Spokane, WA 99201"
+    ],
+    [
+     "Account: 8712048342",
+     "Owns_Account",
+     "Organization: Copperfield Components Inc."
+    ],
+    [
+     "Account: 8712048342",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 6126435796",
+     "Owns_Account",
+     "Organization: Bluegate Consulting LLC"
+    ],
+    [
+     "Account: 6126435796",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 5199904067",
+     "Owns_Account",
+     "Person: Owen Lindqvist"
+    ],
+    [
+     "Account: 5199904067",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 8712048342",
+     "accountIssuer",
+     "Organization: Union Ledger Bank"
+    ],
+    [
+     "Account: 6126435796",
+     "accountIssuer",
+     "Organization: Union Ledger Bank"
+    ],
+    [
+     "Account: 5199904067",
+     "accountIssuer",
+     "Organization: Union Ledger Bank"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 891,
+    "completion": 558
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: wesley.vance@copperfield.com\", \"addressValue\", \"wesley.vance@copperfield.com\"],\n  [\"EmailAddress: idelgado@bluegate.com\", \"addressValue\", \"idelgado@bluegate.com\"],\n  [\"EmailAccount: wesley.vance@copperfield.com\", \"emailAddress\", \"EmailAddress: wesley.vance@copperfield.com\"],\n  [\"EmailAccount: idelgado@bluegate.com\", \"emailAddress\", \"EmailAddress: idelgado@bluegate.com\"],\n  [\"EmailMessage: Invoice 3861 follow-up\", \"subject\", \"Invoice 3861 follow-up\"],\n  [\"EmailMessage: Invoice 3861 follow-up\", \"sentTime\", \"Thu, 04 Sep 2025 13:50:00 +0000\"],\n  [\"Person: Wesley Vance\", \"name\", \"Wesley Vance\"],\n  [\"Person: Irene Delgado\", \"name\", \"Irene Delgado\"],\n  [\"Person: Owen Lindqvist\", \"name\", \"Owen Lindqvist\"],\n  [\"Organization: Copperfield Components Inc.\", \"name\", \"Copperfield Components Inc.\"],\n  [\"Location: Copperfield Components Inc. office\", \"street\", \"Copperfield Components Inc. office\"],\n  [\"Event: invoice submission\", \"eventType\", \"invoice submission\"],\n  [\"Event: invoice submission\", \"startTime\", \"12 August 2025, 12:25 UTC\"],\n  [\"Event: contract amendment\", \"eventType\", \"contract amendment\"],\n  [\"Event: contract amendment\", \"startTime\", \"13 August 2025, 16:15 UTC\"],\n  [\"Event: vendor onboarding\", \"eventType\", \"vendor onboarding\"],\n  [\"Event: vendor onboarding\", \"startTime\", \"19 August 2025, 12:25 UTC\"],\n  [\"Event: bank detail change\", \"eventType\", \"bank detail change\"],\n  [\"Event: bank detail change\", \"startTime\", \"26 August 2025, 15:30 UTC\"],\n  [\"Event: account reconciliation\", \"eventType\", \"account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"August 29, 2025 at 15:10 UTC\"],\n  [\"Event: payment approval\", \"eventType\", \"payment approval\"],\n  [\"Event: payment approval\", \"startTime\", \"3 September 2025, 15:15 UTC\"],\n  [\"Event: expense reimbursement\", \"eventType\", \"expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"September 4, 2025 at 11:50 UTC\"],\n  [\"Person: Wesley Vance\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Person: Irene Delgado\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Person: Irene Delgado\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Person: Owen Lindqvist\", \"Initiated\", \"Event: vendor onboarding\"],\n  [\"Person: Owen Lindqvist\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Person: Wesley Vance\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Person: Wesley Vance\", \"Initiated\", \"Event: payment approval\"],\n  [\"Person: Irene Delgado\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Person: Irene Delgado\", \"Participated_In\", \"Event: contract amendment\"],\n  [\"Person: Wesley Vance\", \"Participated_In\", \"Event: contract amendment\"],\n  [\"Person: Irene Delgado\", \"Participated_In\", \"Event: account reconciliation\"],\n  [\"Person: Owen Lindqvist\", \"Participated_In\", \"Event: expense reimbursement\"],\n  [\"Event: payment approval\", \"Located_At\", \"Location: Copperfield Components Inc. office\"],\n  [\"Person: Wesley Vance\", \"Holds_Account\", \"EmailAddress: wesley.vance@copperfield.com\"],\n  [\"Person: Irene Delgado\", \"Holds_Account\", \"EmailAddress: idelgado@bluegate.com\"],\n  [\"Person: Wesley Vance\", \"Communicated_With\", \"Person: Irene Delgado\"],\n  [\"Person: Wesley Vance\", \"Communicated_With\", \"Person: Owen Lindqvist\"],\n  [\"Person: Irene Delgado\", \"Communicated_With\", \"Person: Wesley Vance\"],\n  [\"Person: Irene Delgado\", \"Communicated_With\", \"Person: Owen Lindqvist\"],\n  [\"Person: Owen Lindqvist\", \"Communicated_With\", \"Person: Wesley Vance\"],\n  [\"Person: Owen Lindqvist\", \"Communicated_With\", \"Person: Irene Delgado\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: wesley.vance@copperfield.com",
+     "addressValue",
+     "wesley.vance@copperfield.com"
+    ],
+    [
+     "EmailAddress: idelgado@bluegate.com",
+     "addressValue",
+     "idelgado@bluegate.com"
+    ],
+    [
+     "EmailAccount: wesley.vance@copperfield.com",
+     "emailAddress",
+     "EmailAddress: wesley.vance@copperfield.com"
+    ],
+    [
+     "EmailAccount: idelgado@bluegate.com",
+     "emailAddress",
+     "EmailAddress: idelgado@bluegate.com"
+    ],
+    [
+     "EmailMessage: Invoice 3861 follow-up",
+     "subject",
+     "Invoice 3861 follow-up"
+    ],
+    [
+     "EmailMessage: Invoice 3861 follow-up",
+     "sentTime",
+     "Thu, 04 Sep 2025 13:50:00 +0000"
+    ],
+    [
+     "Person: Wesley Vance",
+     "name",
+     "Wesley Vance"
+    ],
+    [
+     "Person: Irene Delgado",
+     "name",
+     "Irene Delgado"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "name",
+     "Owen Lindqvist"
+    ],
+    [
+     "Organization: Copperfield Components Inc.",
+     "name",
+     "Copperfield Components Inc."
+    ],
+    [
+     "Location: Copperfield Components Inc. office",
+     "street",
+     "Copperfield Components Inc. office"
+    ],
+    [
+     "Event: invoice submission",
+     "eventType",
+     "invoice submission"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "12 August 2025, 12:25 UTC"
+    ],
+    [
+     "Event: contract amendment",
+     "eventType",
+     "contract amendment"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "13 August 2025, 16:15 UTC"
+    ],
+    [
+     "Event: vendor onboarding",
+     "eventType",
+     "vendor onboarding"
+    ],
+    [
+     "Event: vendor onboarding",
+     "startTime",
+     "19 August 2025, 12:25 UTC"
+    ],
+    [
+     "Event: bank detail change",
+     "eventType",
+     "bank detail change"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "26 August 2025, 15:30 UTC"
+    ],
+    [
+     "Event: account reconciliation",
+     "eventType",
+     "account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "August 29, 2025 at 15:10 UTC"
+    ],
+    [
+     "Event: payment approval",
+     "eventType",
+     "payment approval"
+    ],
+    [
+     "Event: payment approval",
+     "startTime",
+     "3 September 2025, 15:15 UTC"
+    ],
+    [
+     "Event: expense reimbursement",
+     "eventType",
+     "expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "September 4, 2025 at 11:50 UTC"
+    ],
+    [
+     "Person: Wesley Vance",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Initiated",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Person: Wesley Vance",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Wesley Vance",
+     "Initiated",
+     "Event: payment approval"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Participated_In",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Wesley Vance",
+     "Participated_In",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Participated_In",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Participated_In",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Event: payment approval",
+     "Located_At",
+     "Location: Copperfield Components Inc. office"
+    ],
+    [
+     "Person: Wesley Vance",
+     "Holds_Account",
+     "EmailAddress: wesley.vance@copperfield.com"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Holds_Account",
+     "EmailAddress: idelgado@bluegate.com"
+    ],
+    [
+     "Person: Wesley Vance",
+     "Communicated_With",
+     "Person: Irene Delgado"
+    ],
+    [
+     "Person: Wesley Vance",
+     "Communicated_With",
+     "Person: Owen Lindqvist"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Communicated_With",
+     "Person: Wesley Vance"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Communicated_With",
+     "Person: Owen Lindqvist"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Communicated_With",
+     "Person: Wesley Vance"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Communicated_With",
+     "Person: Irene Delgado"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 995,
+    "completion": 1053
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"Person: Irene Delgado\", \"Holds_Account\", \"EmailAddress: irened\"],\n  [\"Person: Owen Lindqvist\", \"Holds_Account\", \"EmailAddress: owenl\"],\n  [\"Person: Irene Delgado\", \"Communicated_With\", \"Person: Owen Lindqvist\"],\n  [\"Person: Owen Lindqvist\", \"Communicated_With\", \"Person: Irene Delgado\"],\n  [\"Message: Did the bank call back yet?\", \"sentTime\", \"2025-08-12 13:25 UTC\"],\n  [\"Message: Did the bank call back yet?\", \"from\", \"EmailAddress: irened\"],\n  [\"Message: Did the bank call back yet?\", \"to\", \"EmailAddress: owenl\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Irene Delgado",
+     "Holds_Account",
+     "EmailAddress: irened"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Holds_Account",
+     "EmailAddress: owenl"
+    ],
+    [
+     "Person: Irene Delgado",
+     "Communicated_With",
+     "Person: Owen Lindqvist"
+    ],
+    [
+     "Person: Owen Lindqvist",
+     "Communicated_With",
+     "Person: Irene Delgado"
+    ],
+    [
+     "Message: Did the bank call back yet?",
+     "sentTime",
+     "2025-08-12 13:25 UTC"
+    ],
+    [
+     "Message: Did the bank call back yet?",
+     "from",
+     "EmailAddress: irened"
+    ],
+    [
+     "Message: Did the bank call back yet?",
+     "to",
+     "EmailAddress: owenl"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 735,
+    "completion": 175
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Wesley Vance",
+   "Employed_By",
+   "Organization: Copperfield Components Inc."
+  ],
+  [
+   "Person: Wesley Vance",
+   "Holds_Account",
+   "EmailAddress: wesley.vance@copperfield.com"
+  ],
+  [
+   "Person: Wesley Vance",
+   "Holds_Account",
+   "EmailAccount: wesley.vance@copperfield.com"
+  ],
+  [
+   "Organization: Copperfield Components Inc.",
+   "Located_At",
+   "Location: 3653 Market Street, Omaha, NE 68102"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Employed_By",
+   "Organization: Copperfield Components Inc."
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Holds_Account",
+   "EmailAddress: olindqvist@copperfield.com"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Holds_Account",
+   "EmailAccount: olindqvist@copperfield.com"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Employed_By",
+   "Organization: Bluegate Consulting LLC"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Holds_Account",
+   "EmailAddress: idelgado@bluegate.com"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Holds_Account",
+   "EmailAccount: idelgado@bluegate.com"
+  ],
+  [
+   "Organization: Bluegate Consulting LLC",
+   "Located_At",
+   "Location: 9193 Lakeview Road, Spokane, WA 99201"
+  ],
+  [
+   "Account: 8712048342",
+   "Owns_Account",
+   "Organization: Copperfield Components Inc."
+  ],
+  [
+   "Account: 8712048342",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 6126435796",
+   "Owns_Account",
+   "Organization: Bluegate Consulting LLC"
+  ],
+  [
+   "Account: 6126435796",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 5199904067",
+   "Owns_Account",
+   "Person: Owen Lindqvist"
+  ],
+  [
+   "Account: 5199904067",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 8712048342",
+   "accountIssuer",
+   "Organization: Union Ledger Bank"
+  ],
+  [
+   "Account: 6126435796",
+   "accountIssuer",
+   "Organization: Union Ledger Bank"
+  ],
+  [
+   "Account: 5199904067",
+   "accountIssuer",
+   "Organization: Union Ledger Bank"
+  ],
+  [
+   "EmailAddress: wesley.vance@copperfield.com",
+   "addressValue",
+   "wesley.vance@copperfield.com"
+  ],
+  [
+   "EmailAddress: idelgado@bluegate.com",
+   "addressValue",
+   "idelgado@bluegate.com"
+  ],
+  [
+   "EmailAccount: wesley.vance@copperfield.com",
+   "emailAddress",
+   "EmailAddress: wesley.vance@copperfield.com"
+  ],
+  [
+   "EmailAccount: idelgado@bluegate.com",
+   "emailAddress",
+   "EmailAddress: idelgado@bluegate.com"
+  ],
+  [
+   "EmailMessage: Invoice 3861 follow-up",
+   "subject",
+   "Invoice 3861 follow-up"
+  ],
+  [
+   "EmailMessage: Invoice 3861 follow-up",
+   "sentTime",
+   "Thu, 04 Sep 2025 13:50:00 +0000"
+  ],
+  [
+   "Person: Wesley Vance",
+   "name",
+   "Wesley Vance"
+  ],
+  [
+   "Person: Irene Delgado",
+   "name",
+   "Irene Delgado"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "name",
+   "Owen Lindqvist"
+  ],
+  [
+   "Organization: Copperfield Components Inc.",
+   "name",
+   "Copperfield Components Inc."
+  ],
+  [
+   "Location: Copperfield Components Inc. office",
+   "street",
+   "Copperfield Components Inc. office"
+  ],
+  [
+   "Event: invoice submission",
+   "eventType",
+   "invoice submission"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "12 August 2025, 12:25 UTC"
+  ],
+  [
+   "Event: contract amendment",
+   "eventType",
+   "contract amendment"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "13 August 2025, 16:15 UTC"
+  ],
+  [
+   "Event: vendor onboarding",
+   "eventType",
+   "vendor onboarding"
+  ],
+  [
+   "Event: vendor onboarding",
+   "startTime",
+   "19 August 2025, 12:25 UTC"
+  ],
+  [
+   "Event: bank detail change",
+   "eventType",
+   "bank detail change"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "26 August 2025, 15:30 UTC"
+  ],
+  [
+   "Event: account reconciliation",
+   "eventType",
+   "account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "August 29, 2025 at 15:10 UTC"
+  ],
+  [
+   "Event: payment approval",
+   "eventType",
+   "payment approval"
+  ],
+  [
+   "Event: payment approval",
+   "startTime",
+   "3 September 2025, 15:15 UTC"
+  ],
+  [
+   "Event: expense reimbursement",
+   "eventType",
+   "expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "September 4, 2025 at 11:50 UTC"
+  ],
+  [
+   "Person: Wesley Vance",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Initiated",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Person: Wesley Vance",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Wesley Vance",
+   "Initiated",
+   "Event: payment approval"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Participated_In",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Wesley Vance",
+   "Participated_In",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Participated_In",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Participated_In",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Event: payment approval",
+   "Located_At",
+   "Location: Copperfield Components Inc. office"
+  ],
+  [
+   "Person: Wesley Vance",
+   "Holds_Account",
+   "EmailAddress: wesley.vance@copperfield.com"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Holds_Account",
+   "EmailAddress: idelgado@bluegate.com"
+  ],
+  [
+   "Person: Wesley Vance",
+   "Communicated_With",
+   "Person: Irene Delgado"
+  ],
+  [
+   "Person: Wesley Vance",
+   "Communicated_With",
+   "Person: Owen Lindqvist"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Communicated_With",
+   "Person: Wesley Vance"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Communicated_With",
+   "Person: Owen Lindqvist"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Communicated_With",
+   "Person: Wesley Vance"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Communicated_With",
+   "Person: Irene Delgado"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Holds_Account",
+   "EmailAddress: irened"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Holds_Account",
+   "EmailAddress: owenl"
+  ],
+  [
+   "Person: Irene Delgado",
+   "Communicated_With",
+   "Person: Owen Lindqvist"
+  ],
+  [
+   "Person: Owen Lindqvist",
+   "Communicated_With",
+   "Person: Irene Delgado"
+  ],
+  [
+   "Message: Did the bank call back yet?",
+   "sentTime",
+   "2025-08-12 13:25 UTC"
+  ],
+  [
+   "Message: Did the bank call back yet?",
+   "from",
+   "EmailAddress: irened"
+  ],
+  [
+   "Message: Did the bank call back yet?",
+   "to",
+   "EmailAddress: owenl"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2621,
+  "completion": 1786
+ }
+}

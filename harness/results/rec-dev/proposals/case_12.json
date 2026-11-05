@@ -1,0 +1,653 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"EmailAddress: priya.fischer@oakhaven.com\", \"addressValue\", \"priya.fischer@oakhaven.com\"],\n  [\"EmailAddress: irene.sorensen@bluegate.com\", \"addressValue\", \"irene.sorensen@bluegate.com\"],\n  [\"Person: Priya Fischer\", \"name\", \"Priya Fischer\"],\n  [\"Person: Irene Sorensen\", \"name\", \"Irene Sorensen\"],\n  [\"Person: Andre Holloway\", \"name\", \"Andre Holloway\"],\n  [\"EmailMessage: Re: banking change request\", \"subject\", \"Re: banking change request\"],\n  [\"EmailMessage: Re: banking change request\", \"sentTime\", \"Mon, 06 Oct 2025 12:25:00 +0000\"],\n  [\"EmailAccount: priya.fischer@oakhaven.com\", \"emailAddress\", \"EmailAddress: priya.fischer@oakhaven.com\"],\n  [\"EmailAccount: irene.sorensen@bluegate.com\", \"emailAddress\", \"EmailAddress: irene.sorensen@bluegate.com\"],\n  [\"Person: Priya Fischer\", \"Holds_Account\", \"EmailAddress: priya.fischer@oakhaven.com\"],\n  [\"Person: Irene Sorensen\", \"Holds_Account\", \"EmailAddress: irene.sorensen@bluegate.com\"],\n  [\"Person: Priya Fischer\", \"Holds_Account\", \"EmailAccount: priya.fischer@oakhaven.com\"],\n  [\"Person: Irene Sorensen\", \"Holds_Account\", \"EmailAccount: irene.sorensen@bluegate.com\"],\n  [\"Person: Priya Fischer\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Person: Andre Holloway\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"September 11, 2025 at 09:10 UTC\"],\n  [\"Person: Priya Fischer\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Person: Irene Sorensen\", \"Participated_In\", \"Event: wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"15 September 2025, 13:25 UTC\"],\n  [\"Organization: Bluegate Fabrication Group\", \"name\", \"Bluegate Fabrication Group\"],\n  [\"Location: Bluegate Fabrication Group's office\", \"street\", \"Bluegate Fabrication Group's office\"],\n  [\"Event: wire transfer\", \"Located_At\", \"Location: Bluegate Fabrication Group's office\"],\n  [\"Person: Irene Sorensen\", \"Initiated\", \"Event: vendor onboarding\"],\n  [\"Event: vendor onboarding\", \"startTime\", \"September 28, 2025 at 09:45 UTC\"],\n  [\"Person: Priya Fischer\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Event: contract amendment\", \"startTime\", \"6 October 2025, 10:25 UTC\"],\n  [\"Person: Andre Holloway\", \"Authorized\", \"Event: contract amendment\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: priya.fischer@oakhaven.com",
+     "addressValue",
+     "priya.fischer@oakhaven.com"
+    ],
+    [
+     "EmailAddress: irene.sorensen@bluegate.com",
+     "addressValue",
+     "irene.sorensen@bluegate.com"
+    ],
+    [
+     "Person: Priya Fischer",
+     "name",
+     "Priya Fischer"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "name",
+     "Irene Sorensen"
+    ],
+    [
+     "Person: Andre Holloway",
+     "name",
+     "Andre Holloway"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "subject",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Mon, 06 Oct 2025 12:25:00 +0000"
+    ],
+    [
+     "EmailAccount: priya.fischer@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: priya.fischer@oakhaven.com"
+    ],
+    [
+     "EmailAccount: irene.sorensen@bluegate.com",
+     "emailAddress",
+     "EmailAddress: irene.sorensen@bluegate.com"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Holds_Account",
+     "EmailAddress: priya.fischer@oakhaven.com"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Holds_Account",
+     "EmailAddress: irene.sorensen@bluegate.com"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Holds_Account",
+     "EmailAccount: priya.fischer@oakhaven.com"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Holds_Account",
+     "EmailAccount: irene.sorensen@bluegate.com"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Andre Holloway",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "September 11, 2025 at 09:10 UTC"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Participated_In",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "15 September 2025, 13:25 UTC"
+    ],
+    [
+     "Organization: Bluegate Fabrication Group",
+     "name",
+     "Bluegate Fabrication Group"
+    ],
+    [
+     "Location: Bluegate Fabrication Group's office",
+     "street",
+     "Bluegate Fabrication Group's office"
+    ],
+    [
+     "Event: wire transfer",
+     "Located_At",
+     "Location: Bluegate Fabrication Group's office"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Initiated",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Event: vendor onboarding",
+     "startTime",
+     "September 28, 2025 at 09:45 UTC"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "6 October 2025, 10:25 UTC"
+    ],
+    [
+     "Person: Andre Holloway",
+     "Authorized",
+     "Event: contract amendment"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 897,
+    "completion": 704
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Andre Holloway\", \"Employed_By\", \"Organization: Bluegate Fabrication Group\"],\n  [\"Person: Andre Holloway\", \"Holds_Account\", \"EmailAddress: aholloway@bluegate.com\"],\n  [\"Person: Andre Holloway\", \"Holds_Account\", \"EmailAccount: aholloway@bluegate.com\"],\n  [\"Person: Irene Sorensen\", \"Employed_By\", \"Organization: Bluegate Fabrication Group\"],\n  [\"Person: Irene Sorensen\", \"Holds_Account\", \"EmailAddress: irene.sorensen@bluegate.com\"],\n  [\"Person: Irene Sorensen\", \"Holds_Account\", \"EmailAccount: irene.sorensen@bluegate.com\"],\n  [\"Person: Priya Fischer\", \"Employed_By\", \"Organization: Oakhaven Freight Co.\"],\n  [\"Person: Priya Fischer\", \"Holds_Account\", \"EmailAddress: priya.fischer@oakhaven.com\"],\n  [\"Person: Priya Fischer\", \"Holds_Account\", \"EmailAccount: priya.fischer@oakhaven.com\"],\n  [\"Organization: Bluegate Fabrication Group\", \"Located_At\", \"Location: 1839 Harbor Avenue, Boise, ID 83702\"],\n  [\"Organization: Bluegate Fabrication Group\", \"Owns_Account\", \"Account: 8075197467\"],\n  [\"Account: 8075197467\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Organization: Oakhaven Freight Co.\", \"Owns_Account\", \"Account: 2134050688\"],\n  [\"Account: 2134050688\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Person: Irene Sorensen\", \"Owns_Account\", \"Account: 1758086614\"],\n  [\"Account: 1758086614\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 8075197467\", \"Transferred_To\", \"Account: 1758086614\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Andre Holloway",
+     "Employed_By",
+     "Organization: Bluegate Fabrication Group"
+    ],
+    [
+     "Person: Andre Holloway",
+     "Holds_Account",
+     "EmailAddress: aholloway@bluegate.com"
+    ],
+    [
+     "Person: Andre Holloway",
+     "Holds_Account",
+     "EmailAccount: aholloway@bluegate.com"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Employed_By",
+     "Organization: Bluegate Fabrication Group"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Holds_Account",
+     "EmailAddress: irene.sorensen@bluegate.com"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Holds_Account",
+     "EmailAccount: irene.sorensen@bluegate.com"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Employed_By",
+     "Organization: Oakhaven Freight Co."
+    ],
+    [
+     "Person: Priya Fischer",
+     "Holds_Account",
+     "EmailAddress: priya.fischer@oakhaven.com"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Holds_Account",
+     "EmailAccount: priya.fischer@oakhaven.com"
+    ],
+    [
+     "Organization: Bluegate Fabrication Group",
+     "Located_At",
+     "Location: 1839 Harbor Avenue, Boise, ID 83702"
+    ],
+    [
+     "Organization: Bluegate Fabrication Group",
+     "Owns_Account",
+     "Account: 8075197467"
+    ],
+    [
+     "Account: 8075197467",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Organization: Oakhaven Freight Co.",
+     "Owns_Account",
+     "Account: 2134050688"
+    ],
+    [
+     "Account: 2134050688",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Owns_Account",
+     "Account: 1758086614"
+    ],
+    [
+     "Account: 1758086614",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 8075197467",
+     "Transferred_To",
+     "Account: 1758086614"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 900,
+    "completion": 490
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: irene.sorensen@bluegate.com\", \"addressValue\", \"irene.sorensen@bluegate.com\"],\n  [\"EmailAddress: priya.fischer@oakhaven.com\", \"addressValue\", \"priya.fischer@oakhaven.com\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"subject\", \"Quarter-end vendor payments\"],\n  [\"EmailMessage: Quarter-end vendor payments\", \"sentTime\", \"Sun, 12 Oct 2025 11:25:00 +0000\"],\n  [\"EmailAccount: irene.sorensen@bluegate.com\", \"emailAddress\", \"EmailAddress: irene.sorensen@bluegate.com\"],\n  [\"EmailAccount: priya.fischer@oakhaven.com\", \"emailAddress\", \"EmailAddress: priya.fischer@oakhaven.com\"],\n  [\"Person: Irene Sorensen\", \"Holds_Account\", \"EmailAddress: irene.sorensen@bluegate.com\"],\n  [\"Person: Priya Fischer\", \"Holds_Account\", \"EmailAddress: priya.fischer@oakhaven.com\"],\n  [\"Person: Irene Sorensen\", \"Communicated_With\", \"Person: Priya Fischer\"],\n  [\"Person: Priya Fischer\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Event: invoice submission\", \"startTime\", \"September 12, 2025 at 13:25 UTC\"],\n  [\"Person: Priya Fischer\", \"Initiated\", \"Event: refund request\"],\n  [\"Event: refund request\", \"startTime\", \"September 21, 2025 at 14:25 UTC\"],\n  [\"Person: Priya Fischer\", \"Initiated\", \"Event: audit review\"],\n  [\"Event: audit review\", \"startTime\", \"October 3, 2025 at 12:30 UTC\"],\n  [\"Person: Priya Fischer\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"12 October 2025, 09:25 UTC\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: irene.sorensen@bluegate.com",
+     "addressValue",
+     "irene.sorensen@bluegate.com"
+    ],
+    [
+     "EmailAddress: priya.fischer@oakhaven.com",
+     "addressValue",
+     "priya.fischer@oakhaven.com"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "subject",
+     "Quarter-end vendor payments"
+    ],
+    [
+     "EmailMessage: Quarter-end vendor payments",
+     "sentTime",
+     "Sun, 12 Oct 2025 11:25:00 +0000"
+    ],
+    [
+     "EmailAccount: irene.sorensen@bluegate.com",
+     "emailAddress",
+     "EmailAddress: irene.sorensen@bluegate.com"
+    ],
+    [
+     "EmailAccount: priya.fischer@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: priya.fischer@oakhaven.com"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Holds_Account",
+     "EmailAddress: irene.sorensen@bluegate.com"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Holds_Account",
+     "EmailAddress: priya.fischer@oakhaven.com"
+    ],
+    [
+     "Person: Irene Sorensen",
+     "Communicated_With",
+     "Person: Priya Fischer"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "September 12, 2025 at 13:25 UTC"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "September 21, 2025 at 14:25 UTC"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "October 3, 2025 at 12:30 UTC"
+    ],
+    [
+     "Person: Priya Fischer",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "12 October 2025, 09:25 UTC"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 870,
+    "completion": 479
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: priya.fischer@oakhaven.com",
+   "addressValue",
+   "priya.fischer@oakhaven.com"
+  ],
+  [
+   "EmailAddress: irene.sorensen@bluegate.com",
+   "addressValue",
+   "irene.sorensen@bluegate.com"
+  ],
+  [
+   "Person: Priya Fischer",
+   "name",
+   "Priya Fischer"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "name",
+   "Irene Sorensen"
+  ],
+  [
+   "Person: Andre Holloway",
+   "name",
+   "Andre Holloway"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "subject",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Mon, 06 Oct 2025 12:25:00 +0000"
+  ],
+  [
+   "EmailAccount: priya.fischer@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: priya.fischer@oakhaven.com"
+  ],
+  [
+   "EmailAccount: irene.sorensen@bluegate.com",
+   "emailAddress",
+   "EmailAddress: irene.sorensen@bluegate.com"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Holds_Account",
+   "EmailAddress: priya.fischer@oakhaven.com"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Holds_Account",
+   "EmailAddress: irene.sorensen@bluegate.com"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Holds_Account",
+   "EmailAccount: priya.fischer@oakhaven.com"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Holds_Account",
+   "EmailAccount: irene.sorensen@bluegate.com"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Andre Holloway",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "September 11, 2025 at 09:10 UTC"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Participated_In",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "15 September 2025, 13:25 UTC"
+  ],
+  [
+   "Organization: Bluegate Fabrication Group",
+   "name",
+   "Bluegate Fabrication Group"
+  ],
+  [
+   "Location: Bluegate Fabrication Group's office",
+   "street",
+   "Bluegate Fabrication Group's office"
+  ],
+  [
+   "Event: wire transfer",
+   "Located_At",
+   "Location: Bluegate Fabrication Group's office"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Initiated",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Event: vendor onboarding",
+   "startTime",
+   "September 28, 2025 at 09:45 UTC"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "6 October 2025, 10:25 UTC"
+  ],
+  [
+   "Person: Andre Holloway",
+   "Authorized",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Andre Holloway",
+   "Employed_By",
+   "Organization: Bluegate Fabrication Group"
+  ],
+  [
+   "Person: Andre Holloway",
+   "Holds_Account",
+   "EmailAddress: aholloway@bluegate.com"
+  ],
+  [
+   "Person: Andre Holloway",
+   "Holds_Account",
+   "EmailAccount: aholloway@bluegate.com"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Employed_By",
+   "Organization: Bluegate Fabrication Group"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Holds_Account",
+   "EmailAddress: irene.sorensen@bluegate.com"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Holds_Account",
+   "EmailAccount: irene.sorensen@bluegate.com"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Employed_By",
+   "Organization: Oakhaven Freight Co."
+  ],
+  [
+   "Person: Priya Fischer",
+   "Holds_Account",
+   "EmailAddress: priya.fischer@oakhaven.com"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Holds_Account",
+   "EmailAccount: priya.fischer@oakhaven.com"
+  ],
+  [
+   "Organization: Bluegate Fabrication Group",
+   "Located_At",
+   "Location: 1839 Harbor Avenue, Boise, ID 83702"
+  ],
+  [
+   "Organization: Bluegate Fabrication Group",
+   "Owns_Account",
+   "Account: 8075197467"
+  ],
+  [
+   "Account: 8075197467",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Organization: Oakhaven Freight Co.",
+   "Owns_Account",
+   "Account: 2134050688"
+  ],
+  [
+   "Account: 2134050688",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Owns_Account",
+   "Account: 1758086614"
+  ],
+  [
+   "Account: 1758086614",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 8075197467",
+   "Transferred_To",
+   "Account: 1758086614"
+  ],
+  [
+   "EmailAddress: irene.sorensen@bluegate.com",
+   "addressValue",
+   "irene.sorensen@bluegate.com"
+  ],
+  [
+   "EmailAddress: priya.fischer@oakhaven.com",
+   "addressValue",
+   "priya.fischer@oakhaven.com"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "subject",
+   "Quarter-end vendor payments"
+  ],
+  [
+   "EmailMessage: Quarter-end vendor payments",
+   "sentTime",
+   "Sun, 12 Oct 2025 11:25:00 +0000"
+  ],
+  [
+   "EmailAccount: irene.sorensen@bluegate.com",
+   "emailAddress",
+   "EmailAddress: irene.sorensen@bluegate.com"
+  ],
+  [
+   "EmailAccount: priya.fischer@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: priya.fischer@oakhaven.com"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Holds_Account",
+   "EmailAddress: irene.sorensen@bluegate.com"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Holds_Account",
+   "EmailAddress: priya.fischer@oakhaven.com"
+  ],
+  [
+   "Person: Irene Sorensen",
+   "Communicated_With",
+   "Person: Priya Fischer"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "September 12, 2025 at 13:25 UTC"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "September 21, 2025 at 14:25 UTC"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "October 3, 2025 at 12:30 UTC"
+  ],
+  [
+   "Person: Priya Fischer",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "12 October 2025, 09:25 UTC"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2667,
+  "completion": 1673
+ }
+}

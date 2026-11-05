@@ -1,0 +1,903 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"EmailAddress: nadia.abara@redfern.com\", \"addressValue\", \"nadia.abara@redfern.com\"],\n  [\"EmailAddress: desmond.petrov@copperfield.com\", \"addressValue\", \"desmond.petrov@copperfield.com\"],\n  [\"EmailAddress: lena.brennan@redfern.com\", \"addressValue\", \"lena.brennan@redfern.com\"],\n  [\"EmailAccount: nadia.abara@redfern.com\", \"emailAddress\", \"EmailAddress: nadia.abara@redfern.com\"],\n  [\"EmailAccount: desmond.petrov@copperfield.com\", \"emailAddress\", \"EmailAddress: desmond.petrov@copperfield.com\"],\n  [\"EmailAccount: lena.brennan@redfern.com\", \"emailAddress\", \"EmailAddress: lena.brennan@redfern.com\"],\n  [\"Person: Nadia Abara\", \"Holds_Account\", \"EmailAddress: nadia.abara@redfern.com\"],\n  [\"Person: Nadia Abara\", \"Holds_Account\", \"EmailAccount: nadia.abara@redfern.com\"],\n  [\"Person: Desmond Petrov\", \"Holds_Account\", \"EmailAddress: desmond.petrov@copperfield.com\"],\n  [\"Person: Desmond Petrov\", \"Holds_Account\", \"EmailAccount: desmond.petrov@copperfield.com\"],\n  [\"Person: Lena Brennan\", \"Holds_Account\", \"EmailAddress: lena.brennan@redfern.com\"],\n  [\"Person: Lena Brennan\", \"Holds_Account\", \"EmailAccount: lena.brennan@redfern.com\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"subject\", \"Contract terms for next quarter\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"sentTime\", \"Mon, 09 Jun 2025 12:00:00 +0000\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"from\", \"EmailAddress: nadia.abara@redfern.com\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"to\", \"EmailAddress: desmond.petrov@copperfield.com\"],\n  [\"EmailMessage: Contract terms for next quarter\", \"to\", \"EmailAddress: lena.brennan@redfern.com\"],\n  [\"Person: Nadia Abara\", \"Communicated_With\", \"Person: Desmond Petrov\"],\n  [\"Person: Nadia Abara\", \"Communicated_With\", \"Person: Lena Brennan\"],\n  [\"Event: payment approval\", \"eventType\", \"payment approval\"],\n  [\"Event: payment approval\", \"startTime\", \"10 May 2025, 13:50 UTC\"],\n  [\"Person: Lena Brennan\", \"Initiated\", \"Event: payment approval\"],\n  [\"Event: wire transfer\", \"eventType\", \"wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"23 May 2025, 11:50 UTC\"],\n  [\"Person: Desmond Petrov\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Event: invoice submission\", \"eventType\", \"invoice submission\"],\n  [\"Event: invoice submission\", \"startTime\", \"June 4, 2025 at 16:30 UTC\"],\n  [\"Person: Wesley Fischer\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Location: Copperfield Consulting Co.'s office\", \"street\", \"Copperfield Consulting Co.'s office\"],\n  [\"Event: invoice submission\", \"Located_At\", \"Location: Copperfield Consulting Co.'s office\"],\n  [\"Event: bank detail change\", \"eventType\", \"bank detail change\"],\n  [\"Event: bank detail change\", \"startTime\", \"9 June 2025, 10:00 UTC\"],\n  [\"Person: Desmond Petrov\", \"Initiated\", \"Event: bank detail change\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: nadia.abara@redfern.com",
+     "addressValue",
+     "nadia.abara@redfern.com"
+    ],
+    [
+     "EmailAddress: desmond.petrov@copperfield.com",
+     "addressValue",
+     "desmond.petrov@copperfield.com"
+    ],
+    [
+     "EmailAddress: lena.brennan@redfern.com",
+     "addressValue",
+     "lena.brennan@redfern.com"
+    ],
+    [
+     "EmailAccount: nadia.abara@redfern.com",
+     "emailAddress",
+     "EmailAddress: nadia.abara@redfern.com"
+    ],
+    [
+     "EmailAccount: desmond.petrov@copperfield.com",
+     "emailAddress",
+     "EmailAddress: desmond.petrov@copperfield.com"
+    ],
+    [
+     "EmailAccount: lena.brennan@redfern.com",
+     "emailAddress",
+     "EmailAddress: lena.brennan@redfern.com"
+    ],
+    [
+     "Person: Nadia Abara",
+     "Holds_Account",
+     "EmailAddress: nadia.abara@redfern.com"
+    ],
+    [
+     "Person: Nadia Abara",
+     "Holds_Account",
+     "EmailAccount: nadia.abara@redfern.com"
+    ],
+    [
+     "Person: Desmond Petrov",
+     "Holds_Account",
+     "EmailAddress: desmond.petrov@copperfield.com"
+    ],
+    [
+     "Person: Desmond Petrov",
+     "Holds_Account",
+     "EmailAccount: desmond.petrov@copperfield.com"
+    ],
+    [
+     "Person: Lena Brennan",
+     "Holds_Account",
+     "EmailAddress: lena.brennan@redfern.com"
+    ],
+    [
+     "Person: Lena Brennan",
+     "Holds_Account",
+     "EmailAccount: lena.brennan@redfern.com"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "subject",
+     "Contract terms for next quarter"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "sentTime",
+     "Mon, 09 Jun 2025 12:00:00 +0000"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "from",
+     "EmailAddress: nadia.abara@redfern.com"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "to",
+     "EmailAddress: desmond.petrov@copperfield.com"
+    ],
+    [
+     "EmailMessage: Contract terms for next quarter",
+     "to",
+     "EmailAddress: lena.brennan@redfern.com"
+    ],
+    [
+     "Person: Nadia Abara",
+     "Communicated_With",
+     "Person: Desmond Petrov"
+    ],
+    [
+     "Person: Nadia Abara",
+     "Communicated_With",
+     "Person: Lena Brennan"
+    ],
+    [
+     "Event: payment approval",
+     "eventType",
+     "payment approval"
+    ],
+    [
+     "Event: payment approval",
+     "startTime",
+     "10 May 2025, 13:50 UTC"
+    ],
+    [
+     "Person: Lena Brennan",
+     "Initiated",
+     "Event: payment approval"
+    ],
+    [
+     "Event: wire transfer",
+     "eventType",
+     "wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "23 May 2025, 11:50 UTC"
+    ],
+    [
+     "Person: Desmond Petrov",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: invoice submission",
+     "eventType",
+     "invoice submission"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "June 4, 2025 at 16:30 UTC"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Location: Copperfield Consulting Co.'s office",
+     "street",
+     "Copperfield Consulting Co.'s office"
+    ],
+    [
+     "Event: invoice submission",
+     "Located_At",
+     "Location: Copperfield Consulting Co.'s office"
+    ],
+    [
+     "Event: bank detail change",
+     "eventType",
+     "bank detail change"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "9 June 2025, 10:00 UTC"
+    ],
+    [
+     "Person: Desmond Petrov",
+     "Initiated",
+     "Event: bank detail change"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 876,
+    "completion": 852
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Desmond Petrov\", \"Employed_By\", \"Organization: Copperfield Consulting Co.\"],\n  [\"Person: Desmond Petrov\", \"Holds_Account\", \"EmailAddress: desmond.petrov@copperfield.com\"],\n  [\"Person: Desmond Petrov\", \"Holds_Account\", \"EmailAccount: desmond.petrov@copperfield.com\"],\n  [\"Organization: Copperfield Consulting Co.\", \"Located_At\", \"Location: 2926 Industrial Parkway, Tucson, AZ 85701\"],\n  [\"Person: Rosa Ashworth\", \"Employed_By\", \"Organization: Copperfield Consulting Co.\"],\n  [\"Person: Rosa Ashworth\", \"Holds_Account\", \"EmailAddress: rosa.ashworth@copperfield.com\"],\n  [\"Person: Rosa Ashworth\", \"Holds_Account\", \"EmailAccount: rosa.ashworth@copperfield.com\"],\n  [\"Person: Wesley Fischer\", \"Employed_By\", \"Organization: Copperfield Consulting Co.\"],\n  [\"Person: Wesley Fischer\", \"Holds_Account\", \"EmailAddress: wfischer@copperfield.com\"],\n  [\"Person: Wesley Fischer\", \"Holds_Account\", \"EmailAccount: wfischer@copperfield.com\"],\n  [\"Organization: Redfern Distribution Co.\", \"Employed_By\", \"Person: Lena Brennan\"],\n  [\"Person: Lena Brennan\", \"Holds_Account\", \"EmailAddress: lena.brennan@redfern.com\"],\n  [\"Person: Lena Brennan\", \"Holds_Account\", \"EmailAccount: lena.brennan@redfern.com\"],\n  [\"Person: Nadia Abara\", \"Employed_By\", \"Organization: Redfern Distribution Co.\"],\n  [\"Person: Nadia Abara\", \"Holds_Account\", \"EmailAddress: nadia.abara@redfern.com\"],\n  [\"Person: Nadia Abara\", \"Holds_Account\", \"EmailAccount: nadia.abara@redfern.com\"],\n  [\"Account: 9323031667\", \"accountType\", \"Meridian Trust Bank\"],\n  [\"Account: 9323031667\", \"accountIdentifier\", \"9323031667\"],\n  [\"Organization: Copperfield Consulting Co.\", \"Owns_Account\", \"Account: 9323031667\"],\n  [\"Account: 7999104726\", \"accountType\", \"Meridian Trust Bank\"],\n  [\"Account: 7999104726\", \"accountIdentifier\", \"7999104726\"],\n  [\"Organization: Redfern Distribution Co.\", \"Owns_Account\", \"Account: 7999104726\"],\n  [\"Account: 3605989132\", \"accountType\", \"Meridian Trust Bank\"],\n  [\"Account: 3605989132\", \"accountIdentifier\", \"3605989132\"],\n  [\"Person: Wesley Fischer\", \"Owns_Account\", \"Account: 3605989132\"],\n  [\"Location: 2926 Industrial Parkway, Tucson, AZ 85701\", \"street\", \"2926 Industrial Parkway\"],\n  [\"Location: 2926 Industrial Parkway, Tucson, AZ 85701\", \"locality\", \"Tucson\"],\n  [\"Location: 2926 Industrial Parkway, Tucson, AZ 85701\", \"region\", \"AZ\"],\n  [\"Location: 2926 Industrial Parkway, Tucson, AZ 85701\", \"postalCode\", \"85701\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Desmond Petrov",
+     "Employed_By",
+     "Organization: Copperfield Consulting Co."
+    ],
+    [
+     "Person: Desmond Petrov",
+     "Holds_Account",
+     "EmailAddress: desmond.petrov@copperfield.com"
+    ],
+    [
+     "Person: Desmond Petrov",
+     "Holds_Account",
+     "EmailAccount: desmond.petrov@copperfield.com"
+    ],
+    [
+     "Organization: Copperfield Consulting Co.",
+     "Located_At",
+     "Location: 2926 Industrial Parkway, Tucson, AZ 85701"
+    ],
+    [
+     "Person: Rosa Ashworth",
+     "Employed_By",
+     "Organization: Copperfield Consulting Co."
+    ],
+    [
+     "Person: Rosa Ashworth",
+     "Holds_Account",
+     "EmailAddress: rosa.ashworth@copperfield.com"
+    ],
+    [
+     "Person: Rosa Ashworth",
+     "Holds_Account",
+     "EmailAccount: rosa.ashworth@copperfield.com"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Employed_By",
+     "Organization: Copperfield Consulting Co."
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Holds_Account",
+     "EmailAddress: wfischer@copperfield.com"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Holds_Account",
+     "EmailAccount: wfischer@copperfield.com"
+    ],
+    [
+     "Organization: Redfern Distribution Co.",
+     "Employed_By",
+     "Person: Lena Brennan"
+    ],
+    [
+     "Person: Lena Brennan",
+     "Holds_Account",
+     "EmailAddress: lena.brennan@redfern.com"
+    ],
+    [
+     "Person: Lena Brennan",
+     "Holds_Account",
+     "EmailAccount: lena.brennan@redfern.com"
+    ],
+    [
+     "Person: Nadia Abara",
+     "Employed_By",
+     "Organization: Redfern Distribution Co."
+    ],
+    [
+     "Person: Nadia Abara",
+     "Holds_Account",
+     "EmailAddress: nadia.abara@redfern.com"
+    ],
+    [
+     "Person: Nadia Abara",
+     "Holds_Account",
+     "EmailAccount: nadia.abara@redfern.com"
+    ],
+    [
+     "Account: 9323031667",
+     "accountType",
+     "Meridian Trust Bank"
+    ],
+    [
+     "Account: 9323031667",
+     "accountIdentifier",
+     "9323031667"
+    ],
+    [
+     "Organization: Copperfield Consulting Co.",
+     "Owns_Account",
+     "Account: 9323031667"
+    ],
+    [
+     "Account: 7999104726",
+     "accountType",
+     "Meridian Trust Bank"
+    ],
+    [
+     "Account: 7999104726",
+     "accountIdentifier",
+     "7999104726"
+    ],
+    [
+     "Organization: Redfern Distribution Co.",
+     "Owns_Account",
+     "Account: 7999104726"
+    ],
+    [
+     "Account: 3605989132",
+     "accountType",
+     "Meridian Trust Bank"
+    ],
+    [
+     "Account: 3605989132",
+     "accountIdentifier",
+     "3605989132"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Owns_Account",
+     "Account: 3605989132"
+    ],
+    [
+     "Location: 2926 Industrial Parkway, Tucson, AZ 85701",
+     "street",
+     "2926 Industrial Parkway"
+    ],
+    [
+     "Location: 2926 Industrial Parkway, Tucson, AZ 85701",
+     "locality",
+     "Tucson"
+    ],
+    [
+     "Location: 2926 Industrial Parkway, Tucson, AZ 85701",
+     "region",
+     "AZ"
+    ],
+    [
+     "Location: 2926 Industrial Parkway, Tucson, AZ 85701",
+     "postalCode",
+     "85701"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 910,
+    "completion": 816
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: rosa.ashworth@copperfield.com\", \"addressValue\", \"rosa.ashworth@copperfield.com\"],\n  [\"EmailAddress: lena.brennan@redfern.com\", \"addressValue\", \"lena.brennan@redfern.com\"],\n  [\"EmailMessage: Audit prep items\", \"subject\", \"Audit prep items\"],\n  [\"EmailMessage: Audit prep items\", \"sentTime\", \"Sat, 14 Jun 2025 12:50:00 +0000\"],\n  [\"EmailAccount: rosa.ashworth@copperfield.com\", \"emailAddress\", \"EmailAddress: rosa.ashworth@copperfield.com\"],\n  [\"EmailAccount: lena.brennan@redfern.com\", \"emailAddress\", \"EmailAddress: lena.brennan@redfern.com\"],\n  [\"Person: Rosa Ashworth\", \"Holds_Account\", \"EmailAddress: rosa.ashworth@copperfield.com\"],\n  [\"Person: Rosa Ashworth\", \"Holds_Account\", \"EmailAccount: rosa.ashworth@copperfield.com\"],\n  [\"Person: Lena Brennan\", \"Holds_Account\", \"EmailAddress: lena.brennan@redfern.com\"],\n  [\"Person: Lena Brennan\", \"Holds_Account\", \"EmailAccount: lena.brennan@redfern.com\"],\n  [\"Person: Wesley Fischer\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Person: Wesley Fischer\", \"startTime\", \"May 22, 2025 at 17:50 UTC\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"May 22, 2025 at 17:50 UTC\"],\n  [\"Person: Rosa Ashworth\", \"Participated_In\", \"Event: expense reimbursement\"],\n  [\"Person: Lena Brennan\", \"Initiated\", \"Event: audit review\"],\n  [\"Person: Lena Brennan\", \"startTime\", \"28 May 2025, 14:25 UTC\"],\n  [\"Event: audit review\", \"startTime\", \"28 May 2025, 14:25 UTC\"],\n  [\"Person: Wesley Fischer\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Person: Wesley Fischer\", \"startTime\", \"June 8, 2025 at 11:50 UTC\"],\n  [\"Event: contract amendment\", \"startTime\", \"June 8, 2025 at 11:50 UTC\"],\n  [\"Person: Desmond Petrov\", \"Initiated\", \"Event: vendor onboarding\"],\n  [\"Person: Desmond Petrov\", \"startTime\", \"June 14, 2025 at 10:50 UTC\"],\n  [\"Event: vendor onboarding\", \"startTime\", \"June 14, 2025 at 10:50 UTC\"],\n  [\"Person: Rosa Ashworth\", \"Communicated_With\", \"Person: Lena Brennan\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: rosa.ashworth@copperfield.com",
+     "addressValue",
+     "rosa.ashworth@copperfield.com"
+    ],
+    [
+     "EmailAddress: lena.brennan@redfern.com",
+     "addressValue",
+     "lena.brennan@redfern.com"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "subject",
+     "Audit prep items"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "sentTime",
+     "Sat, 14 Jun 2025 12:50:00 +0000"
+    ],
+    [
+     "EmailAccount: rosa.ashworth@copperfield.com",
+     "emailAddress",
+     "EmailAddress: rosa.ashworth@copperfield.com"
+    ],
+    [
+     "EmailAccount: lena.brennan@redfern.com",
+     "emailAddress",
+     "EmailAddress: lena.brennan@redfern.com"
+    ],
+    [
+     "Person: Rosa Ashworth",
+     "Holds_Account",
+     "EmailAddress: rosa.ashworth@copperfield.com"
+    ],
+    [
+     "Person: Rosa Ashworth",
+     "Holds_Account",
+     "EmailAccount: rosa.ashworth@copperfield.com"
+    ],
+    [
+     "Person: Lena Brennan",
+     "Holds_Account",
+     "EmailAddress: lena.brennan@redfern.com"
+    ],
+    [
+     "Person: Lena Brennan",
+     "Holds_Account",
+     "EmailAccount: lena.brennan@redfern.com"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "startTime",
+     "May 22, 2025 at 17:50 UTC"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "May 22, 2025 at 17:50 UTC"
+    ],
+    [
+     "Person: Rosa Ashworth",
+     "Participated_In",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Person: Lena Brennan",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Person: Lena Brennan",
+     "startTime",
+     "28 May 2025, 14:25 UTC"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "28 May 2025, 14:25 UTC"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "startTime",
+     "June 8, 2025 at 11:50 UTC"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "June 8, 2025 at 11:50 UTC"
+    ],
+    [
+     "Person: Desmond Petrov",
+     "Initiated",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Person: Desmond Petrov",
+     "startTime",
+     "June 14, 2025 at 10:50 UTC"
+    ],
+    [
+     "Event: vendor onboarding",
+     "startTime",
+     "June 14, 2025 at 10:50 UTC"
+    ],
+    [
+     "Person: Rosa Ashworth",
+     "Communicated_With",
+     "Person: Lena Brennan"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 858,
+    "completion": 655
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: nadia.abara@redfern.com",
+   "addressValue",
+   "nadia.abara@redfern.com"
+  ],
+  [
+   "EmailAddress: desmond.petrov@copperfield.com",
+   "addressValue",
+   "desmond.petrov@copperfield.com"
+  ],
+  [
+   "EmailAddress: lena.brennan@redfern.com",
+   "addressValue",
+   "lena.brennan@redfern.com"
+  ],
+  [
+   "EmailAccount: nadia.abara@redfern.com",
+   "emailAddress",
+   "EmailAddress: nadia.abara@redfern.com"
+  ],
+  [
+   "EmailAccount: desmond.petrov@copperfield.com",
+   "emailAddress",
+   "EmailAddress: desmond.petrov@copperfield.com"
+  ],
+  [
+   "EmailAccount: lena.brennan@redfern.com",
+   "emailAddress",
+   "EmailAddress: lena.brennan@redfern.com"
+  ],
+  [
+   "Person: Nadia Abara",
+   "Holds_Account",
+   "EmailAddress: nadia.abara@redfern.com"
+  ],
+  [
+   "Person: Nadia Abara",
+   "Holds_Account",
+   "EmailAccount: nadia.abara@redfern.com"
+  ],
+  [
+   "Person: Desmond Petrov",
+   "Holds_Account",
+   "EmailAddress: desmond.petrov@copperfield.com"
+  ],
+  [
+   "Person: Desmond Petrov",
+   "Holds_Account",
+   "EmailAccount: desmond.petrov@copperfield.com"
+  ],
+  [
+   "Person: Lena Brennan",
+   "Holds_Account",
+   "EmailAddress: lena.brennan@redfern.com"
+  ],
+  [
+   "Person: Lena Brennan",
+   "Holds_Account",
+   "EmailAccount: lena.brennan@redfern.com"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "subject",
+   "Contract terms for next quarter"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "sentTime",
+   "Mon, 09 Jun 2025 12:00:00 +0000"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "from",
+   "EmailAddress: nadia.abara@redfern.com"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "to",
+   "EmailAddress: desmond.petrov@copperfield.com"
+  ],
+  [
+   "EmailMessage: Contract terms for next quarter",
+   "to",
+   "EmailAddress: lena.brennan@redfern.com"
+  ],
+  [
+   "Person: Nadia Abara",
+   "Communicated_With",
+   "Person: Desmond Petrov"
+  ],
+  [
+   "Person: Nadia Abara",
+   "Communicated_With",
+   "Person: Lena Brennan"
+  ],
+  [
+   "Event: payment approval",
+   "eventType",
+   "payment approval"
+  ],
+  [
+   "Event: payment approval",
+   "startTime",
+   "10 May 2025, 13:50 UTC"
+  ],
+  [
+   "Person: Lena Brennan",
+   "Initiated",
+   "Event: payment approval"
+  ],
+  [
+   "Event: wire transfer",
+   "eventType",
+   "wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "23 May 2025, 11:50 UTC"
+  ],
+  [
+   "Person: Desmond Petrov",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: invoice submission",
+   "eventType",
+   "invoice submission"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "June 4, 2025 at 16:30 UTC"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Location: Copperfield Consulting Co.'s office",
+   "street",
+   "Copperfield Consulting Co.'s office"
+  ],
+  [
+   "Event: invoice submission",
+   "Located_At",
+   "Location: Copperfield Consulting Co.'s office"
+  ],
+  [
+   "Event: bank detail change",
+   "eventType",
+   "bank detail change"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "9 June 2025, 10:00 UTC"
+  ],
+  [
+   "Person: Desmond Petrov",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Person: Desmond Petrov",
+   "Employed_By",
+   "Organization: Copperfield Consulting Co."
+  ],
+  [
+   "Person: Desmond Petrov",
+   "Holds_Account",
+   "EmailAddress: desmond.petrov@copperfield.com"
+  ],
+  [
+   "Person: Desmond Petrov",
+   "Holds_Account",
+   "EmailAccount: desmond.petrov@copperfield.com"
+  ],
+  [
+   "Organization: Copperfield Consulting Co.",
+   "Located_At",
+   "Location: 2926 Industrial Parkway, Tucson, AZ 85701"
+  ],
+  [
+   "Person: Rosa Ashworth",
+   "Employed_By",
+   "Organization: Copperfield Consulting Co."
+  ],
+  [
+   "Person: Rosa Ashworth",
+   "Holds_Account",
+   "EmailAddress: rosa.ashworth@copperfield.com"
+  ],
+  [
+   "Person: Rosa Ashworth",
+   "Holds_Account",
+   "EmailAccount: rosa.ashworth@copperfield.com"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Employed_By",
+   "Organization: Copperfield Consulting Co."
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Holds_Account",
+   "EmailAddress: wfischer@copperfield.com"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Holds_Account",
+   "EmailAccount: wfischer@copperfield.com"
+  ],
+  [
+   "Organization: Redfern Distribution Co.",
+   "Employed_By",
+   "Person: Lena Brennan"
+  ],
+  [
+   "Person: Lena Brennan",
+   "Holds_Account",
+   "EmailAddress: lena.brennan@redfern.com"
+  ],
+  [
+   "Person: Lena Brennan",
+   "Holds_Account",
+   "EmailAccount: lena.brennan@redfern.com"
+  ],
+  [
+   "Person: Nadia Abara",
+   "Employed_By",
+   "Organization: Redfern Distribution Co."
+  ],
+  [
+   "Person: Nadia Abara",
+   "Holds_Account",
+   "EmailAddress: nadia.abara@redfern.com"
+  ],
+  [
+   "Person: Nadia Abara",
+   "Holds_Account",
+   "EmailAccount: nadia.abara@redfern.com"
+  ],
+  [
+   "Account: 9323031667",
+   "accountType",
+   "Meridian Trust Bank"
+  ],
+  [
+   "Account: 9323031667",
+   "accountIdentifier",
+   "9323031667"
+  ],
+  [
+   "Organization: Copperfield Consulting Co.",
+   "Owns_Account",
+   "Account: 9323031667"
+  ],
+  [
+   "Account: 7999104726",
+   "accountType",
+   "Meridian Trust Bank"
+  ],
+  [
+   "Account: 7999104726",
+   "accountIdentifier",
+   "7999104726"
+  ],
+  [
+   "Organization: Redfern Distribution Co.",
+   "Owns_Account",
+   "Account: 7999104726"
+  ],
+  [
+   "Account: 3605989132",
+   "accountType",
+   "Meridian Trust Bank"
+  ],
+  [
+   "Account: 3605989132",
+   "accountIdentifier",
+   "3605989132"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Owns_Account",
+   "Account: 3605989132"
+  ],
+  [
+   "Location: 2926 Industrial Parkway, Tucson, AZ 85701",
+   "street",
+   "2926 Industrial Parkway"
+  ],
+  [
+   "Location: 2926 Industrial Parkway, Tucson, AZ 85701",
+   "locality",
+   "Tucson"
+  ],
+  [
+   "Location: 2926 Industrial Parkway, Tucson, AZ 85701",
+   "region",
+   "AZ"
+  ],
+  [
+   "Location: 2926 Industrial Parkway, Tucson, AZ 85701",
+   "postalCode",
+   "85701"
+  ],
+  [
+   "EmailAddress: rosa.ashworth@copperfield.com",
+   "addressValue",
+   "rosa.ashworth@copperfield.com"
+  ],
+  [
+   "EmailAddress: lena.brennan@redfern.com",
+   "addressValue",
+   "lena.brennan@redfern.com"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "subject",
+   "Audit prep items"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "sentTime",
+   "Sat, 14 Jun 2025 12:50:00 +0000"
+  ],
+  [
+   "EmailAccount: rosa.ashworth@copperfield.com",
+   "emailAddress",
+   "EmailAddress: rosa.ashworth@copperfield.com"
+  ],
+  [
+   "EmailAccount: lena.brennan@redfern.com",
+   "emailAddress",
+   "EmailAddress: lena.brennan@redfern.com"
+  ],
+  [
+   "Person: Rosa Ashworth",
+   "Holds_Account",
+   "EmailAddress: rosa.ashworth@copperfield.com"
+  ],
+  [
+   "Person: Rosa Ashworth",
+   "Holds_Account",
+   "EmailAccount: rosa.ashworth@copperfield.com"
+  ],
+  [
+   "Person: Lena Brennan",
+   "Holds_Account",
+   "EmailAddress: lena.brennan@redfern.com"
+  ],
+  [
+   "Person: Lena Brennan",
+   "Holds_Account",
+   "EmailAccount: lena.brennan@redfern.com"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "startTime",
+   "May 22, 2025 at 17:50 UTC"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "May 22, 2025 at 17:50 UTC"
+  ],
+  [
+   "Person: Rosa Ashworth",
+   "Participated_In",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Person: Lena Brennan",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Person: Lena Brennan",
+   "startTime",
+   "28 May 2025, 14:25 UTC"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "28 May 2025, 14:25 UTC"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "startTime",
+   "June 8, 2025 at 11:50 UTC"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "June 8, 2025 at 11:50 UTC"
+  ],
+  [
+   "Person: Desmond Petrov",
+   "Initiated",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Person: Desmond Petrov",
+   "startTime",
+   "June 14, 2025 at 10:50 UTC"
+  ],
+  [
+   "Event: vendor onboarding",
+   "startTime",
+   "June 14, 2025 at 10:50 UTC"
+  ],
+  [
+   "Person: Rosa Ashworth",
+   "Communicated_With",
+   "Person: Lena Brennan"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2644,
+  "completion": 2323
+ }
+}

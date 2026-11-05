@@ -1,0 +1,522 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Yara Quinn\", \"Employed_By\", \"Organization: Copperfield Analytics Group\"],\n  [\"Person: Yara Quinn\", \"Holds_Account\", \"EmailAddress: yquinn@copperfield.com\"],\n  [\"Person: Yara Quinn\", \"Holds_Account\", \"EmailAccount: yquinn@copperfield.com\"],\n  [\"Person: Elena Tanaka\", \"Employed_By\", \"Organization: Copperfield Analytics Group\"],\n  [\"Person: Elena Tanaka\", \"Holds_Account\", \"EmailAddress: elena.tanaka@copperfield.com\"],\n  [\"Person: Elena Tanaka\", \"Holds_Account\", \"EmailAccount: elena.tanaka@copperfield.com\"],\n  [\"Person: Irene Lindqvist\", \"Employed_By\", \"Organization: Copperfield Analytics Group\"],\n  [\"Person: Irene Lindqvist\", \"Holds_Account\", \"EmailAddress: irene.lindqvist@copperfield.com\"],\n  [\"Person: Irene Lindqvist\", \"Holds_Account\", \"EmailAccount: irene.lindqvist@copperfield.com\"],\n  [\"Person: Nadia Vance\", \"Employed_By\", \"Organization: Summit Peak Industrial Inc.\"],\n  [\"Person: Nadia Vance\", \"Holds_Account\", \"EmailAddress: nvance@summitpeak.com\"],\n  [\"Person: Nadia Vance\", \"Holds_Account\", \"EmailAccount: nvance@summitpeak.com\"],\n  [\"Organization: Copperfield Analytics Group\", \"Located_At\", \"Location: 3512 Industrial Parkway, Albany, NY 12207\"],\n  [\"Organization: Summit Peak Industrial Inc.\", \"Located_At\", \"Location: 3463 Harbor Avenue, Spokane, WA 99201\"],\n  [\"Account: 2793689154\", \"Owns_Account\", \"Organization: Copperfield Analytics Group\"],\n  [\"Account: 7680134988\", \"Owns_Account\", \"Organization: Summit Peak Industrial Inc.\"],\n  [\"Account: 6775679614\", \"Owns_Account\", \"Person: Elena Tanaka\"],\n  [\"Account: 2793689154\", \"Transferred_To\", \"Account: 6775679614\"],\n  [\"EmailAddress: yquinn@copperfield.com\", \"emailAddress\", \"EmailAccount: yquinn@copperfield.com\"],\n  [\"EmailAddress: elena.tanaka@copperfield.com\", \"emailAddress\", \"EmailAccount: elena.tanaka@copperfield.com\"],\n  [\"EmailAddress: irene.lindqvist@copperfield.com\", \"emailAddress\", \"EmailAccount: irene.lindqvist@copperfield.com\"],\n  [\"EmailAddress: nvance@summitpeak.com\", \"emailAddress\", \"EmailAccount: nvance@summitpeak.com\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Yara Quinn",
+     "Employed_By",
+     "Organization: Copperfield Analytics Group"
+    ],
+    [
+     "Person: Yara Quinn",
+     "Holds_Account",
+     "EmailAddress: yquinn@copperfield.com"
+    ],
+    [
+     "Person: Yara Quinn",
+     "Holds_Account",
+     "EmailAccount: yquinn@copperfield.com"
+    ],
+    [
+     "Person: Elena Tanaka",
+     "Employed_By",
+     "Organization: Copperfield Analytics Group"
+    ],
+    [
+     "Person: Elena Tanaka",
+     "Holds_Account",
+     "EmailAddress: elena.tanaka@copperfield.com"
+    ],
+    [
+     "Person: Elena Tanaka",
+     "Holds_Account",
+     "EmailAccount: elena.tanaka@copperfield.com"
+    ],
+    [
+     "Person: Irene Lindqvist",
+     "Employed_By",
+     "Organization: Copperfield Analytics Group"
+    ],
+    [
+     "Person: Irene Lindqvist",
+     "Holds_Account",
+     "EmailAddress: irene.lindqvist@copperfield.com"
+    ],
+    [
+     "Person: Irene Lindqvist",
+     "Holds_Account",
+     "EmailAccount: irene.lindqvist@copperfield.com"
+    ],
+    [
+     "Person: Nadia Vance",
+     "Employed_By",
+     "Organization: Summit Peak Industrial Inc."
+    ],
+    [
+     "Person: Nadia Vance",
+     "Holds_Account",
+     "EmailAddress: nvance@summitpeak.com"
+    ],
+    [
+     "Person: Nadia Vance",
+     "Holds_Account",
+     "EmailAccount: nvance@summitpeak.com"
+    ],
+    [
+     "Organization: Copperfield Analytics Group",
+     "Located_At",
+     "Location: 3512 Industrial Parkway, Albany, NY 12207"
+    ],
+    [
+     "Organization: Summit Peak Industrial Inc.",
+     "Located_At",
+     "Location: 3463 Harbor Avenue, Spokane, WA 99201"
+    ],
+    [
+     "Account: 2793689154",
+     "Owns_Account",
+     "Organization: Copperfield Analytics Group"
+    ],
+    [
+     "Account: 7680134988",
+     "Owns_Account",
+     "Organization: Summit Peak Industrial Inc."
+    ],
+    [
+     "Account: 6775679614",
+     "Owns_Account",
+     "Person: Elena Tanaka"
+    ],
+    [
+     "Account: 2793689154",
+     "Transferred_To",
+     "Account: 6775679614"
+    ],
+    [
+     "EmailAddress: yquinn@copperfield.com",
+     "emailAddress",
+     "EmailAccount: yquinn@copperfield.com"
+    ],
+    [
+     "EmailAddress: elena.tanaka@copperfield.com",
+     "emailAddress",
+     "EmailAccount: elena.tanaka@copperfield.com"
+    ],
+    [
+     "EmailAddress: irene.lindqvist@copperfield.com",
+     "emailAddress",
+     "EmailAccount: irene.lindqvist@copperfield.com"
+    ],
+    [
+     "EmailAddress: nvance@summitpeak.com",
+     "emailAddress",
+     "EmailAccount: nvance@summitpeak.com"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 951,
+    "completion": 638
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: nvance@summitpeak.com\", \"addressValue\", \"nvance@summitpeak.com\"],\n  [\"EmailAddress: elena.tanaka@copperfield.com\", \"addressValue\", \"elena.tanaka@copperfield.com\"],\n  [\"EmailAddress: irene.lindqvist@copperfield.com\", \"addressValue\", \"irene.lindqvist@copperfield.com\"],\n  [\"EmailAccount: nvance@summitpeak.com\", \"emailAddress\", \"EmailAddress: nvance@summitpeak.com\"],\n  [\"EmailAccount: elena.tanaka@copperfield.com\", \"emailAddress\", \"EmailAddress: elena.tanaka@copperfield.com\"],\n  [\"EmailAccount: irene.lindqvist@copperfield.com\", \"emailAddress\", \"EmailAddress: irene.lindqvist@copperfield.com\"],\n  [\"Person: Nadia Vance\", \"Holds_Account\", \"EmailAddress: nvance@summitpeak.com\"],\n  [\"Person: Elena Tanaka\", \"Holds_Account\", \"EmailAddress: elena.tanaka@copperfield.com\"],\n  [\"Person: Irene Lindqvist\", \"Holds_Account\", \"EmailAddress: irene.lindqvist@copperfield.com\"],\n  [\"EmailMessage: Re: banking change request\", \"subject\", \"Re: banking change request\"],\n  [\"EmailMessage: Re: banking change request\", \"sentTime\", \"Wed, 22 Oct 2025 18:50:00 +0000\"],\n  [\"EmailMessage: Re: banking change request\", \"from\", \"EmailAddress: nvance@summitpeak.com\"],\n  [\"EmailMessage: Re: banking change request\", \"to\", \"EmailAddress: elena.tanaka@copperfield.com\"],\n  [\"EmailMessage: Re: banking change request\", \"to\", \"EmailAddress: irene.lindqvist@copperfield.com\"],\n  [\"Person: Nadia Vance\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Person: Nadia Vance\", \"Authorized\", \"Event: wire transfer\"],\n  [\"Person: Irene Lindqvist\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Person: Elena Tanaka\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"8 October 2025, 16:25 UTC\"],\n  [\"Event: account reconciliation\", \"Located_At\", \"Location: Copperfield Analytics Group's office\"],\n  [\"Person: Irene Lindqvist\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Event: bank detail change\", \"startTime\", \"October 19, 2025 at 14:10 UTC\"],\n  [\"Person: Nadia Vance\", \"Initiated\", \"Event: vendor onboarding\"],\n  [\"Event: vendor onboarding\", \"startTime\", \"22 October 2025, 16:50 UTC\"],\n  [\"Event: vendor onboarding\", \"Located_At\", \"Location: Copperfield Analytics Group office\"],\n  [\"Person: Nadia Vance\", \"Communicated_With\", \"Person: Elena Tanaka\"],\n  [\"Person: Nadia Vance\", \"Communicated_With\", \"Person: Irene Lindqvist\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: nvance@summitpeak.com",
+     "addressValue",
+     "nvance@summitpeak.com"
+    ],
+    [
+     "EmailAddress: elena.tanaka@copperfield.com",
+     "addressValue",
+     "elena.tanaka@copperfield.com"
+    ],
+    [
+     "EmailAddress: irene.lindqvist@copperfield.com",
+     "addressValue",
+     "irene.lindqvist@copperfield.com"
+    ],
+    [
+     "EmailAccount: nvance@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: nvance@summitpeak.com"
+    ],
+    [
+     "EmailAccount: elena.tanaka@copperfield.com",
+     "emailAddress",
+     "EmailAddress: elena.tanaka@copperfield.com"
+    ],
+    [
+     "EmailAccount: irene.lindqvist@copperfield.com",
+     "emailAddress",
+     "EmailAddress: irene.lindqvist@copperfield.com"
+    ],
+    [
+     "Person: Nadia Vance",
+     "Holds_Account",
+     "EmailAddress: nvance@summitpeak.com"
+    ],
+    [
+     "Person: Elena Tanaka",
+     "Holds_Account",
+     "EmailAddress: elena.tanaka@copperfield.com"
+    ],
+    [
+     "Person: Irene Lindqvist",
+     "Holds_Account",
+     "EmailAddress: irene.lindqvist@copperfield.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "subject",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Wed, 22 Oct 2025 18:50:00 +0000"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "from",
+     "EmailAddress: nvance@summitpeak.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: elena.tanaka@copperfield.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: irene.lindqvist@copperfield.com"
+    ],
+    [
+     "Person: Nadia Vance",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Nadia Vance",
+     "Authorized",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Irene Lindqvist",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Elena Tanaka",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "8 October 2025, 16:25 UTC"
+    ],
+    [
+     "Event: account reconciliation",
+     "Located_At",
+     "Location: Copperfield Analytics Group's office"
+    ],
+    [
+     "Person: Irene Lindqvist",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "October 19, 2025 at 14:10 UTC"
+    ],
+    [
+     "Person: Nadia Vance",
+     "Initiated",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Event: vendor onboarding",
+     "startTime",
+     "22 October 2025, 16:50 UTC"
+    ],
+    [
+     "Event: vendor onboarding",
+     "Located_At",
+     "Location: Copperfield Analytics Group office"
+    ],
+    [
+     "Person: Nadia Vance",
+     "Communicated_With",
+     "Person: Elena Tanaka"
+    ],
+    [
+     "Person: Nadia Vance",
+     "Communicated_With",
+     "Person: Irene Lindqvist"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 905,
+    "completion": 719
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Yara Quinn",
+   "Employed_By",
+   "Organization: Copperfield Analytics Group"
+  ],
+  [
+   "Person: Yara Quinn",
+   "Holds_Account",
+   "EmailAddress: yquinn@copperfield.com"
+  ],
+  [
+   "Person: Yara Quinn",
+   "Holds_Account",
+   "EmailAccount: yquinn@copperfield.com"
+  ],
+  [
+   "Person: Elena Tanaka",
+   "Employed_By",
+   "Organization: Copperfield Analytics Group"
+  ],
+  [
+   "Person: Elena Tanaka",
+   "Holds_Account",
+   "EmailAddress: elena.tanaka@copperfield.com"
+  ],
+  [
+   "Person: Elena Tanaka",
+   "Holds_Account",
+   "EmailAccount: elena.tanaka@copperfield.com"
+  ],
+  [
+   "Person: Irene Lindqvist",
+   "Employed_By",
+   "Organization: Copperfield Analytics Group"
+  ],
+  [
+   "Person: Irene Lindqvist",
+   "Holds_Account",
+   "EmailAddress: irene.lindqvist@copperfield.com"
+  ],
+  [
+   "Person: Irene Lindqvist",
+   "Holds_Account",
+   "EmailAccount: irene.lindqvist@copperfield.com"
+  ],
+  [
+   "Person: Nadia Vance",
+   "Employed_By",
+   "Organization: Summit Peak Industrial Inc."
+  ],
+  [
+   "Person: Nadia Vance",
+   "Holds_Account",
+   "EmailAddress: nvance@summitpeak.com"
+  ],
+  [
+   "Person: Nadia Vance",
+   "Holds_Account",
+   "EmailAccount: nvance@summitpeak.com"
+  ],
+  [
+   "Organization: Copperfield Analytics Group",
+   "Located_At",
+   "Location: 3512 Industrial Parkway, Albany, NY 12207"
+  ],
+  [
+   "Organization: Summit Peak Industrial Inc.",
+   "Located_At",
+   "Location: 3463 Harbor Avenue, Spokane, WA 99201"
+  ],
+  [
+   "Account: 2793689154",
+   "Owns_Account",
+   "Organization: Copperfield Analytics Group"
+  ],
+  [
+   "Account: 7680134988",
+   "Owns_Account",
+   "Organization: Summit Peak Industrial Inc."
+  ],
+  [
+   "Account: 6775679614",
+   "Owns_Account",
+   "Person: Elena Tanaka"
+  ],
+  [
+   "Account: 2793689154",
+   "Transferred_To",
+   "Account: 6775679614"
+  ],
+  [
+   "EmailAddress: yquinn@copperfield.com",
+   "emailAddress",
+   "EmailAccount: yquinn@copperfield.com"
+  ],
+  [
+   "EmailAddress: elena.tanaka@copperfield.com",
+   "emailAddress",
+   "EmailAccount: elena.tanaka@copperfield.com"
+  ],
+  [
+   "EmailAddress: irene.lindqvist@copperfield.com",
+   "emailAddress",
+   "EmailAccount: irene.lindqvist@copperfield.com"
+  ],
+  [
+   "EmailAddress: nvance@summitpeak.com",
+   "emailAddress",
+   "EmailAccount: nvance@summitpeak.com"
+  ],
+  [
+   "EmailAddress: nvance@summitpeak.com",
+   "addressValue",
+   "nvance@summitpeak.com"
+  ],
+  [
+   "EmailAddress: elena.tanaka@copperfield.com",
+   "addressValue",
+   "elena.tanaka@copperfield.com"
+  ],
+  [
+   "EmailAddress: irene.lindqvist@copperfield.com",
+   "addressValue",
+   "irene.lindqvist@copperfield.com"
+  ],
+  [
+   "EmailAccount: nvance@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: nvance@summitpeak.com"
+  ],
+  [
+   "EmailAccount: elena.tanaka@copperfield.com",
+   "emailAddress",
+   "EmailAddress: elena.tanaka@copperfield.com"
+  ],
+  [
+   "EmailAccount: irene.lindqvist@copperfield.com",
+   "emailAddress",
+   "EmailAddress: irene.lindqvist@copperfield.com"
+  ],
+  [
+   "Person: Nadia Vance",
+   "Holds_Account",
+   "EmailAddress: nvance@summitpeak.com"
+  ],
+  [
+   "Person: Elena Tanaka",
+   "Holds_Account",
+   "EmailAddress: elena.tanaka@copperfield.com"
+  ],
+  [
+   "Person: Irene Lindqvist",
+   "Holds_Account",
+   "EmailAddress: irene.lindqvist@copperfield.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "subject",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Wed, 22 Oct 2025 18:50:00 +0000"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "from",
+   "EmailAddress: nvance@summitpeak.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: elena.tanaka@copperfield.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: irene.lindqvist@copperfield.com"
+  ],
+  [
+   "Person: Nadia Vance",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Nadia Vance",
+   "Authorized",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Irene Lindqvist",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Elena Tanaka",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "8 October 2025, 16:25 UTC"
+  ],
+  [
+   "Event: account reconciliation",
+   "Located_At",
+   "Location: Copperfield Analytics Group's office"
+  ],
+  [
+   "Person: Irene Lindqvist",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "October 19, 2025 at 14:10 UTC"
+  ],
+  [
+   "Person: Nadia Vance",
+   "Initiated",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Event: vendor onboarding",
+   "startTime",
+   "22 October 2025, 16:50 UTC"
+  ],
+  [
+   "Event: vendor onboarding",
+   "Located_At",
+   "Location: Copperfield Analytics Group office"
+  ],
+  [
+   "Person: Nadia Vance",
+   "Communicated_With",
+   "Person: Elena Tanaka"
+  ],
+  [
+   "Person: Nadia Vance",
+   "Communicated_With",
+   "Person: Irene Lindqvist"
+  ]
+ ],
+ "tokens": {
+  "prompt": 1856,
+  "completion": 1357
+ }
+}

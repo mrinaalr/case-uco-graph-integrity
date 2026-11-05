@@ -1,0 +1,643 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Wesley Novak\", \"Employed_By\", \"Organization: Clearpath Distribution LLC\"],\n  [\"Person: Wesley Novak\", \"Holds_Account\", \"EmailAddress: wnovak@clearpath.com\"],\n  [\"Person: Felix Moreau\", \"Employed_By\", \"Organization: Clearpath Distribution LLC\"],\n  [\"Person: Felix Moreau\", \"Holds_Account\", \"EmailAddress: felix.moreau@clearpath.com\"],\n  [\"Person: Hannah Abara\", \"Employed_By\", \"Organization: Clearpath Distribution LLC\"],\n  [\"Person: Hannah Abara\", \"Holds_Account\", \"EmailAddress: habara@clearpath.com\"],\n  [\"Person: Maya Holloway\", \"Employed_By\", \"Organization: Summit Peak Components Ltd.\"],\n  [\"Person: Maya Holloway\", \"Holds_Account\", \"EmailAddress: maya.holloway@summitpeak.com\"],\n  [\"Person: Owen Kowalski\", \"Employed_By\", \"Organization: Summit Peak Components Ltd.\"],\n  [\"Person: Owen Kowalski\", \"Holds_Account\", \"EmailAddress: okowalski@summitpeak.com\"],\n  [\"Organization: Clearpath Distribution LLC\", \"Located_At\", \"Location: 3271 Main Street, Madison, WI 53703\"],\n  [\"Organization: Summit Peak Components Ltd.\", \"Located_At\", \"Location: 319 Lakeview Road, Tucson, AZ 85701\"],\n  [\"Account: 6913614736\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 6913614736\", \"Owns_Account\", \"Organization: Clearpath Distribution LLC\"],\n  [\"Account: 7810803667\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 7810803667\", \"Owns_Account\", \"Organization: Summit Peak Components Ltd.\"],\n  [\"Account: 2194800982\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 2194800982\", \"Owns_Account\", \"Person: Felix Moreau\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Wesley Novak",
+     "Employed_By",
+     "Organization: Clearpath Distribution LLC"
+    ],
+    [
+     "Person: Wesley Novak",
+     "Holds_Account",
+     "EmailAddress: wnovak@clearpath.com"
+    ],
+    [
+     "Person: Felix Moreau",
+     "Employed_By",
+     "Organization: Clearpath Distribution LLC"
+    ],
+    [
+     "Person: Felix Moreau",
+     "Holds_Account",
+     "EmailAddress: felix.moreau@clearpath.com"
+    ],
+    [
+     "Person: Hannah Abara",
+     "Employed_By",
+     "Organization: Clearpath Distribution LLC"
+    ],
+    [
+     "Person: Hannah Abara",
+     "Holds_Account",
+     "EmailAddress: habara@clearpath.com"
+    ],
+    [
+     "Person: Maya Holloway",
+     "Employed_By",
+     "Organization: Summit Peak Components Ltd."
+    ],
+    [
+     "Person: Maya Holloway",
+     "Holds_Account",
+     "EmailAddress: maya.holloway@summitpeak.com"
+    ],
+    [
+     "Person: Owen Kowalski",
+     "Employed_By",
+     "Organization: Summit Peak Components Ltd."
+    ],
+    [
+     "Person: Owen Kowalski",
+     "Holds_Account",
+     "EmailAddress: okowalski@summitpeak.com"
+    ],
+    [
+     "Organization: Clearpath Distribution LLC",
+     "Located_At",
+     "Location: 3271 Main Street, Madison, WI 53703"
+    ],
+    [
+     "Organization: Summit Peak Components Ltd.",
+     "Located_At",
+     "Location: 319 Lakeview Road, Tucson, AZ 85701"
+    ],
+    [
+     "Account: 6913614736",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 6913614736",
+     "Owns_Account",
+     "Organization: Clearpath Distribution LLC"
+    ],
+    [
+     "Account: 7810803667",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 7810803667",
+     "Owns_Account",
+     "Organization: Summit Peak Components Ltd."
+    ],
+    [
+     "Account: 2194800982",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 2194800982",
+     "Owns_Account",
+     "Person: Felix Moreau"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 936,
+    "completion": 492
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: maya.holloway@summitpeak.com\", \"addressValue\", \"maya.holloway@summitpeak.com\"],\n  [\"EmailAddress: wnovak@clearpath.com\", \"addressValue\", \"wnovak@clearpath.com\"],\n  [\"EmailAccount: maya.holloway@summitpeak.com\", \"emailAddress\", \"EmailAddress: maya.holloway@summitpeak.com\"],\n  [\"EmailAccount: wnovak@clearpath.com\", \"emailAddress\", \"EmailAddress: wnovak@clearpath.com\"],\n  [\"Person: Maya Holloway\", \"Holds_Account\", \"EmailAddress: maya.holloway@summitpeak.com\"],\n  [\"Person: Maya Holloway\", \"Holds_Account\", \"EmailAccount: maya.holloway@summitpeak.com\"],\n  [\"Person: Wesley Novak\", \"Holds_Account\", \"EmailAddress: wnovak@clearpath.com\"],\n  [\"Person: Wesley Novak\", \"Holds_Account\", \"EmailAccount: wnovak@clearpath.com\"],\n  [\"EmailMessage: Audit prep items\", \"subject\", \"Audit prep items\"],\n  [\"EmailMessage: Audit prep items\", \"sentTime\", \"Fri, 11 Jul 2025 17:30:00 +0000\"],\n  [\"EmailMessage: Audit prep items\", \"from\", \"EmailAddress: maya.holloway@summitpeak.com\"],\n  [\"EmailMessage: Audit prep items\", \"to\", \"EmailAddress: wnovak@clearpath.com\"],\n  [\"Event: audit review\", \"eventType\", \"audit review\"],\n  [\"Event: audit review\", \"startTime\", \"June 8, 2025 at 09:50 UTC\"],\n  [\"Event: account reconciliation\", \"eventType\", \"account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"June 15, 2025 at 10:30 UTC\"],\n  [\"Event: refund request\", \"eventType\", \"refund request\"],\n  [\"Event: refund request\", \"startTime\", \"June 15, 2025 at 17:15 UTC\"],\n  [\"Event: bank detail change\", \"eventType\", \"bank detail change\"],\n  [\"Event: bank detail change\", \"startTime\", \"25 June 2025, 10:25 UTC\"],\n  [\"Event: wire transfer\", \"eventType\", \"wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"July 8, 2025 at 13:25 UTC\"],\n  [\"Event: expense reimbursement\", \"eventType\", \"expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"11 July 2025, 15:30 UTC\"],\n  [\"Person: Felix Moreau\", \"Initiated\", \"Event: audit review\"],\n  [\"Person: Felix Moreau\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Person: Felix Moreau\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Hannah Abara\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Person: Hannah Abara\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Person: Felix Moreau\", \"Authorized\", \"Event: wire transfer\"],\n  [\"Person: Wesley Novak\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Person: Maya Holloway\", \"Communicated_With\", \"Person: Wesley Novak\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: maya.holloway@summitpeak.com",
+     "addressValue",
+     "maya.holloway@summitpeak.com"
+    ],
+    [
+     "EmailAddress: wnovak@clearpath.com",
+     "addressValue",
+     "wnovak@clearpath.com"
+    ],
+    [
+     "EmailAccount: maya.holloway@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: maya.holloway@summitpeak.com"
+    ],
+    [
+     "EmailAccount: wnovak@clearpath.com",
+     "emailAddress",
+     "EmailAddress: wnovak@clearpath.com"
+    ],
+    [
+     "Person: Maya Holloway",
+     "Holds_Account",
+     "EmailAddress: maya.holloway@summitpeak.com"
+    ],
+    [
+     "Person: Maya Holloway",
+     "Holds_Account",
+     "EmailAccount: maya.holloway@summitpeak.com"
+    ],
+    [
+     "Person: Wesley Novak",
+     "Holds_Account",
+     "EmailAddress: wnovak@clearpath.com"
+    ],
+    [
+     "Person: Wesley Novak",
+     "Holds_Account",
+     "EmailAccount: wnovak@clearpath.com"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "subject",
+     "Audit prep items"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "sentTime",
+     "Fri, 11 Jul 2025 17:30:00 +0000"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "from",
+     "EmailAddress: maya.holloway@summitpeak.com"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "to",
+     "EmailAddress: wnovak@clearpath.com"
+    ],
+    [
+     "Event: audit review",
+     "eventType",
+     "audit review"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "June 8, 2025 at 09:50 UTC"
+    ],
+    [
+     "Event: account reconciliation",
+     "eventType",
+     "account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "June 15, 2025 at 10:30 UTC"
+    ],
+    [
+     "Event: refund request",
+     "eventType",
+     "refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "June 15, 2025 at 17:15 UTC"
+    ],
+    [
+     "Event: bank detail change",
+     "eventType",
+     "bank detail change"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "25 June 2025, 10:25 UTC"
+    ],
+    [
+     "Event: wire transfer",
+     "eventType",
+     "wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "July 8, 2025 at 13:25 UTC"
+    ],
+    [
+     "Event: expense reimbursement",
+     "eventType",
+     "expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "11 July 2025, 15:30 UTC"
+    ],
+    [
+     "Person: Felix Moreau",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Person: Felix Moreau",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Felix Moreau",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Hannah Abara",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Person: Hannah Abara",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Felix Moreau",
+     "Authorized",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Wesley Novak",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Person: Maya Holloway",
+     "Communicated_With",
+     "Person: Wesley Novak"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 918,
+    "completion": 770
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"Person: Owen Kowalski\", \"Holds_Account\", \"EmailAddress: owenk\"],\n  [\"Person: Felix Moreau\", \"Holds_Account\", \"EmailAddress: felixm\"],\n  [\"Person: Owen Kowalski\", \"Communicated_With\", \"Person: Felix Moreau\"],\n  [\"Person: Felix Moreau\", \"Communicated_With\", \"Person: Owen Kowalski\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"from\", \"EmailAddress: owenk\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"to\", \"EmailAddress: felixm\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"sentTime\", \"2025-06-08 10:50 UTC\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"from\", \"EmailAddress: felixm\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"to\", \"EmailAddress: owenk\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"sentTime\", \"2025-06-08 10:57 UTC\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Owen Kowalski",
+     "Holds_Account",
+     "EmailAddress: owenk"
+    ],
+    [
+     "Person: Felix Moreau",
+     "Holds_Account",
+     "EmailAddress: felixm"
+    ],
+    [
+     "Person: Owen Kowalski",
+     "Communicated_With",
+     "Person: Felix Moreau"
+    ],
+    [
+     "Person: Felix Moreau",
+     "Communicated_With",
+     "Person: Owen Kowalski"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "from",
+     "EmailAddress: owenk"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "to",
+     "EmailAddress: felixm"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "sentTime",
+     "2025-06-08 10:50 UTC"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "from",
+     "EmailAddress: felixm"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "to",
+     "EmailAddress: owenk"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "sentTime",
+     "2025-06-08 10:57 UTC"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 776,
+    "completion": 274
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Wesley Novak",
+   "Employed_By",
+   "Organization: Clearpath Distribution LLC"
+  ],
+  [
+   "Person: Wesley Novak",
+   "Holds_Account",
+   "EmailAddress: wnovak@clearpath.com"
+  ],
+  [
+   "Person: Felix Moreau",
+   "Employed_By",
+   "Organization: Clearpath Distribution LLC"
+  ],
+  [
+   "Person: Felix Moreau",
+   "Holds_Account",
+   "EmailAddress: felix.moreau@clearpath.com"
+  ],
+  [
+   "Person: Hannah Abara",
+   "Employed_By",
+   "Organization: Clearpath Distribution LLC"
+  ],
+  [
+   "Person: Hannah Abara",
+   "Holds_Account",
+   "EmailAddress: habara@clearpath.com"
+  ],
+  [
+   "Person: Maya Holloway",
+   "Employed_By",
+   "Organization: Summit Peak Components Ltd."
+  ],
+  [
+   "Person: Maya Holloway",
+   "Holds_Account",
+   "EmailAddress: maya.holloway@summitpeak.com"
+  ],
+  [
+   "Person: Owen Kowalski",
+   "Employed_By",
+   "Organization: Summit Peak Components Ltd."
+  ],
+  [
+   "Person: Owen Kowalski",
+   "Holds_Account",
+   "EmailAddress: okowalski@summitpeak.com"
+  ],
+  [
+   "Organization: Clearpath Distribution LLC",
+   "Located_At",
+   "Location: 3271 Main Street, Madison, WI 53703"
+  ],
+  [
+   "Organization: Summit Peak Components Ltd.",
+   "Located_At",
+   "Location: 319 Lakeview Road, Tucson, AZ 85701"
+  ],
+  [
+   "Account: 6913614736",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 6913614736",
+   "Owns_Account",
+   "Organization: Clearpath Distribution LLC"
+  ],
+  [
+   "Account: 7810803667",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 7810803667",
+   "Owns_Account",
+   "Organization: Summit Peak Components Ltd."
+  ],
+  [
+   "Account: 2194800982",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 2194800982",
+   "Owns_Account",
+   "Person: Felix Moreau"
+  ],
+  [
+   "EmailAddress: maya.holloway@summitpeak.com",
+   "addressValue",
+   "maya.holloway@summitpeak.com"
+  ],
+  [
+   "EmailAddress: wnovak@clearpath.com",
+   "addressValue",
+   "wnovak@clearpath.com"
+  ],
+  [
+   "EmailAccount: maya.holloway@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: maya.holloway@summitpeak.com"
+  ],
+  [
+   "EmailAccount: wnovak@clearpath.com",
+   "emailAddress",
+   "EmailAddress: wnovak@clearpath.com"
+  ],
+  [
+   "Person: Maya Holloway",
+   "Holds_Account",
+   "EmailAddress: maya.holloway@summitpeak.com"
+  ],
+  [
+   "Person: Maya Holloway",
+   "Holds_Account",
+   "EmailAccount: maya.holloway@summitpeak.com"
+  ],
+  [
+   "Person: Wesley Novak",
+   "Holds_Account",
+   "EmailAddress: wnovak@clearpath.com"
+  ],
+  [
+   "Person: Wesley Novak",
+   "Holds_Account",
+   "EmailAccount: wnovak@clearpath.com"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "subject",
+   "Audit prep items"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "sentTime",
+   "Fri, 11 Jul 2025 17:30:00 +0000"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "from",
+   "EmailAddress: maya.holloway@summitpeak.com"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "to",
+   "EmailAddress: wnovak@clearpath.com"
+  ],
+  [
+   "Event: audit review",
+   "eventType",
+   "audit review"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "June 8, 2025 at 09:50 UTC"
+  ],
+  [
+   "Event: account reconciliation",
+   "eventType",
+   "account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "June 15, 2025 at 10:30 UTC"
+  ],
+  [
+   "Event: refund request",
+   "eventType",
+   "refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "June 15, 2025 at 17:15 UTC"
+  ],
+  [
+   "Event: bank detail change",
+   "eventType",
+   "bank detail change"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "25 June 2025, 10:25 UTC"
+  ],
+  [
+   "Event: wire transfer",
+   "eventType",
+   "wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "July 8, 2025 at 13:25 UTC"
+  ],
+  [
+   "Event: expense reimbursement",
+   "eventType",
+   "expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "11 July 2025, 15:30 UTC"
+  ],
+  [
+   "Person: Felix Moreau",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Person: Felix Moreau",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Felix Moreau",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Hannah Abara",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Person: Hannah Abara",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Felix Moreau",
+   "Authorized",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Wesley Novak",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Person: Maya Holloway",
+   "Communicated_With",
+   "Person: Wesley Novak"
+  ],
+  [
+   "Person: Owen Kowalski",
+   "Holds_Account",
+   "EmailAddress: owenk"
+  ],
+  [
+   "Person: Felix Moreau",
+   "Holds_Account",
+   "EmailAddress: felixm"
+  ],
+  [
+   "Person: Owen Kowalski",
+   "Communicated_With",
+   "Person: Felix Moreau"
+  ],
+  [
+   "Person: Felix Moreau",
+   "Communicated_With",
+   "Person: Owen Kowalski"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "from",
+   "EmailAddress: owenk"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "to",
+   "EmailAddress: felixm"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "sentTime",
+   "2025-06-08 10:50 UTC"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "from",
+   "EmailAddress: felixm"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "to",
+   "EmailAddress: owenk"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "sentTime",
+   "2025-06-08 10:57 UTC"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2630,
+  "completion": 1536
+ }
+}

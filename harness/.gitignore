@@ -7,11 +7,14 @@ results/*
 !results/qa-llm-v1/
 !results/abc-v1/
 !results/hook-v1/
+!results/rec-dev/
 results/baseline-v1/*
 results/qa-det-v1/*
 results/qa-llm-v1/*
 results/abc-v1/*
 results/hook-v1/*
+results/rec-dev/*
+!results/rec-dev/proposals/
 !results/*/summary.md
 !results/*/summary.csv
 !results/*/per_case.csv
@@ -19,5 +22,7 @@ results/hook-v1/*
 !results/*/qa_delta.md
 !results/*/qa_delta.csv
 !results/*/rule_coverage.md
+!results/*/meaning.md
+!results/*/calibration.md
 # pypdf text caches written next to the PDFs at run time
 *.pdf.txt

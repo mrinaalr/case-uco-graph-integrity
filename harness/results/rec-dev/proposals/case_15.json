@@ -1,0 +1,592 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Kofi Petrov\", \"Employed_By\", \"Organization: Bluegate Fabrication Ltd.\"],\n  [\"Person: Kofi Petrov\", \"Holds_Account\", \"EmailAddress: kofi.petrov@bluegate.com\"],\n  [\"Person: Kofi Petrov\", \"Holds_Account\", \"EmailAccount: kofi.petrov@bluegate.com\"],\n  [\"Person: Samuel Banerjee\", \"Employed_By\", \"Organization: Bluegate Fabrication Ltd.\"],\n  [\"Person: Samuel Banerjee\", \"Holds_Account\", \"EmailAddress: sbanerjee@bluegate.com\"],\n  [\"Person: Samuel Banerjee\", \"Holds_Account\", \"EmailAccount: sbanerjee@bluegate.com\"],\n  [\"Person: Nadia Haddad\", \"Employed_By\", \"Organization: Bluegate Fabrication Ltd.\"],\n  [\"Person: Nadia Haddad\", \"Holds_Account\", \"EmailAddress: nadia.haddad@bluegate.com\"],\n  [\"Person: Nadia Haddad\", \"Holds_Account\", \"EmailAccount: nadia.haddad@bluegate.com\"],\n  [\"Person: Elena Okafor\", \"Employed_By\", \"Organization: Clearpath Industrial LLC\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAddress: elena.okafor@clearpath.com\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAccount: elena.okafor@clearpath.com\"],\n  [\"Person: Arjun Ivanova\", \"Employed_By\", \"Organization: Clearpath Industrial LLC\"],\n  [\"Person: Arjun Ivanova\", \"Holds_Account\", \"EmailAddress: aivanova@clearpath.com\"],\n  [\"Person: Arjun Ivanova\", \"Holds_Account\", \"EmailAccount: aivanova@clearpath.com\"],\n  [\"Organization: Bluegate Fabrication Ltd.\", \"Located_At\", \"Location: 702 Commerce Drive, Richmond, VA 23219\"],\n  [\"Organization: Bluegate Fabrication Ltd.\", \"Owns_Account\", \"Account: 8887387116\"],\n  [\"Account: 8887387116\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Organization: Clearpath Industrial LLC\", \"Owns_Account\", \"Account: 7131540908\"],\n  [\"Account: 7131540908\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Person: Samuel Banerjee\", \"Owns_Account\", \"Account: 5897335669\"],\n  [\"Account: 5897335669\", \"accountType\", \"Union Ledger Bank\"],\n  [\"Account: 8887387116\", \"accountIssuer\", \"Organization: Bluegate Fabrication Ltd.\"],\n  [\"Account: 7131540908\", \"accountIssuer\", \"Organization: Clearpath Industrial LLC\"],\n  [\"Account: 5897335669\", \"accountIssuer\", \"Organization: Bluegate Fabrication Ltd.\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Kofi Petrov",
+     "Employed_By",
+     "Organization: Bluegate Fabrication Ltd."
+    ],
+    [
+     "Person: Kofi Petrov",
+     "Holds_Account",
+     "EmailAddress: kofi.petrov@bluegate.com"
+    ],
+    [
+     "Person: Kofi Petrov",
+     "Holds_Account",
+     "EmailAccount: kofi.petrov@bluegate.com"
+    ],
+    [
+     "Person: Samuel Banerjee",
+     "Employed_By",
+     "Organization: Bluegate Fabrication Ltd."
+    ],
+    [
+     "Person: Samuel Banerjee",
+     "Holds_Account",
+     "EmailAddress: sbanerjee@bluegate.com"
+    ],
+    [
+     "Person: Samuel Banerjee",
+     "Holds_Account",
+     "EmailAccount: sbanerjee@bluegate.com"
+    ],
+    [
+     "Person: Nadia Haddad",
+     "Employed_By",
+     "Organization: Bluegate Fabrication Ltd."
+    ],
+    [
+     "Person: Nadia Haddad",
+     "Holds_Account",
+     "EmailAddress: nadia.haddad@bluegate.com"
+    ],
+    [
+     "Person: Nadia Haddad",
+     "Holds_Account",
+     "EmailAccount: nadia.haddad@bluegate.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Employed_By",
+     "Organization: Clearpath Industrial LLC"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAddress: elena.okafor@clearpath.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAccount: elena.okafor@clearpath.com"
+    ],
+    [
+     "Person: Arjun Ivanova",
+     "Employed_By",
+     "Organization: Clearpath Industrial LLC"
+    ],
+    [
+     "Person: Arjun Ivanova",
+     "Holds_Account",
+     "EmailAddress: aivanova@clearpath.com"
+    ],
+    [
+     "Person: Arjun Ivanova",
+     "Holds_Account",
+     "EmailAccount: aivanova@clearpath.com"
+    ],
+    [
+     "Organization: Bluegate Fabrication Ltd.",
+     "Located_At",
+     "Location: 702 Commerce Drive, Richmond, VA 23219"
+    ],
+    [
+     "Organization: Bluegate Fabrication Ltd.",
+     "Owns_Account",
+     "Account: 8887387116"
+    ],
+    [
+     "Account: 8887387116",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Organization: Clearpath Industrial LLC",
+     "Owns_Account",
+     "Account: 7131540908"
+    ],
+    [
+     "Account: 7131540908",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Person: Samuel Banerjee",
+     "Owns_Account",
+     "Account: 5897335669"
+    ],
+    [
+     "Account: 5897335669",
+     "accountType",
+     "Union Ledger Bank"
+    ],
+    [
+     "Account: 8887387116",
+     "accountIssuer",
+     "Organization: Bluegate Fabrication Ltd."
+    ],
+    [
+     "Account: 7131540908",
+     "accountIssuer",
+     "Organization: Clearpath Industrial LLC"
+    ],
+    [
+     "Account: 5897335669",
+     "accountIssuer",
+     "Organization: Bluegate Fabrication Ltd."
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 920,
+    "completion": 706
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: elena.okafor@clearpath.com\", \"addressValue\", \"elena.okafor@clearpath.com\"],\n  [\"EmailAddress: sbanerjee@bluegate.com\", \"addressValue\", \"sbanerjee@bluegate.com\"],\n  [\"EmailAddress: aivanova@clearpath.com\", \"addressValue\", \"aivanova@clearpath.com\"],\n  [\"EmailAccount: elena.okafor@clearpath.com\", \"emailAddress\", \"EmailAddress: elena.okafor@clearpath.com\"],\n  [\"EmailAccount: sbanerjee@bluegate.com\", \"emailAddress\", \"EmailAddress: sbanerjee@bluegate.com\"],\n  [\"EmailAccount: aivanova@clearpath.com\", \"emailAddress\", \"EmailAddress: aivanova@clearpath.com\"],\n  [\"EmailMessage: Re: banking change request\", \"subject\", \"Re: banking change request\"],\n  [\"EmailMessage: Re: banking change request\", \"sentTime\", \"Sun, 19 Oct 2025 11:25:00 +0000\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAddress: elena.okafor@clearpath.com\"],\n  [\"Person: Elena Okafor\", \"Holds_Account\", \"EmailAccount: elena.okafor@clearpath.com\"],\n  [\"Person: Samuel Banerjee\", \"Holds_Account\", \"EmailAddress: sbanerjee@bluegate.com\"],\n  [\"Person: Samuel Banerjee\", \"Holds_Account\", \"EmailAccount: sbanerjee@bluegate.com\"],\n  [\"Person: Anna Ivanova\", \"Holds_Account\", \"EmailAddress: aivanova@clearpath.com\"],\n  [\"Person: Anna Ivanova\", \"Holds_Account\", \"EmailAccount: aivanova@clearpath.com\"],\n  [\"Person: Elena Okafor\", \"Communicated_With\", \"Person: Samuel Banerjee\"],\n  [\"Person: Elena Okafor\", \"Communicated_With\", \"Person: Anna Ivanova\"],\n  [\"Event: expense reimbursement\", \"eventType\", \"expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"October 6, 2025 at 09:45 UTC\"],\n  [\"Person: Samuel Banerjee\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Event: vendor onboarding\", \"eventType\", \"vendor onboarding\"],\n  [\"Event: vendor onboarding\", \"startTime\", \"6 October 2025, 10:10 UTC\"],\n  [\"Person: Elena Okafor\", \"Initiated\", \"Event: vendor onboarding\"],\n  [\"Event: account reconciliation\", \"eventType\", \"account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"October 7, 2025 at 15:30 UTC\"],\n  [\"Person: Elena Okafor\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Event: invoice submission\", \"eventType\", \"invoice submission\"],\n  [\"Event: invoice submission\", \"startTime\", \"11 October 2025, 13:15 UTC\"],\n  [\"Person: Nadia Haddad\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Event: audit review\", \"eventType\", \"audit review\"],\n  [\"Event: audit review\", \"startTime\", \"October 19, 2025 at 09:25 UTC\"],\n  [\"Person: Samuel Banerjee\", \"Initiated\", \"Event: audit review\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: elena.okafor@clearpath.com",
+     "addressValue",
+     "elena.okafor@clearpath.com"
+    ],
+    [
+     "EmailAddress: sbanerjee@bluegate.com",
+     "addressValue",
+     "sbanerjee@bluegate.com"
+    ],
+    [
+     "EmailAddress: aivanova@clearpath.com",
+     "addressValue",
+     "aivanova@clearpath.com"
+    ],
+    [
+     "EmailAccount: elena.okafor@clearpath.com",
+     "emailAddress",
+     "EmailAddress: elena.okafor@clearpath.com"
+    ],
+    [
+     "EmailAccount: sbanerjee@bluegate.com",
+     "emailAddress",
+     "EmailAddress: sbanerjee@bluegate.com"
+    ],
+    [
+     "EmailAccount: aivanova@clearpath.com",
+     "emailAddress",
+     "EmailAddress: aivanova@clearpath.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "subject",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Sun, 19 Oct 2025 11:25:00 +0000"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAddress: elena.okafor@clearpath.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Holds_Account",
+     "EmailAccount: elena.okafor@clearpath.com"
+    ],
+    [
+     "Person: Samuel Banerjee",
+     "Holds_Account",
+     "EmailAddress: sbanerjee@bluegate.com"
+    ],
+    [
+     "Person: Samuel Banerjee",
+     "Holds_Account",
+     "EmailAccount: sbanerjee@bluegate.com"
+    ],
+    [
+     "Person: Anna Ivanova",
+     "Holds_Account",
+     "EmailAddress: aivanova@clearpath.com"
+    ],
+    [
+     "Person: Anna Ivanova",
+     "Holds_Account",
+     "EmailAccount: aivanova@clearpath.com"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Communicated_With",
+     "Person: Samuel Banerjee"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Communicated_With",
+     "Person: Anna Ivanova"
+    ],
+    [
+     "Event: expense reimbursement",
+     "eventType",
+     "expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "October 6, 2025 at 09:45 UTC"
+    ],
+    [
+     "Person: Samuel Banerjee",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Event: vendor onboarding",
+     "eventType",
+     "vendor onboarding"
+    ],
+    [
+     "Event: vendor onboarding",
+     "startTime",
+     "6 October 2025, 10:10 UTC"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Initiated",
+     "Event: vendor onboarding"
+    ],
+    [
+     "Event: account reconciliation",
+     "eventType",
+     "account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "October 7, 2025 at 15:30 UTC"
+    ],
+    [
+     "Person: Elena Okafor",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Event: invoice submission",
+     "eventType",
+     "invoice submission"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "11 October 2025, 13:15 UTC"
+    ],
+    [
+     "Person: Nadia Haddad",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Event: audit review",
+     "eventType",
+     "audit review"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "October 19, 2025 at 09:25 UTC"
+    ],
+    [
+     "Person: Samuel Banerjee",
+     "Initiated",
+     "Event: audit review"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 895,
+    "completion": 789
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Kofi Petrov",
+   "Employed_By",
+   "Organization: Bluegate Fabrication Ltd."
+  ],
+  [
+   "Person: Kofi Petrov",
+   "Holds_Account",
+   "EmailAddress: kofi.petrov@bluegate.com"
+  ],
+  [
+   "Person: Kofi Petrov",
+   "Holds_Account",
+   "EmailAccount: kofi.petrov@bluegate.com"
+  ],
+  [
+   "Person: Samuel Banerjee",
+   "Employed_By",
+   "Organization: Bluegate Fabrication Ltd."
+  ],
+  [
+   "Person: Samuel Banerjee",
+   "Holds_Account",
+   "EmailAddress: sbanerjee@bluegate.com"
+  ],
+  [
+   "Person: Samuel Banerjee",
+   "Holds_Account",
+   "EmailAccount: sbanerjee@bluegate.com"
+  ],
+  [
+   "Person: Nadia Haddad",
+   "Employed_By",
+   "Organization: Bluegate Fabrication Ltd."
+  ],
+  [
+   "Person: Nadia Haddad",
+   "Holds_Account",
+   "EmailAddress: nadia.haddad@bluegate.com"
+  ],
+  [
+   "Person: Nadia Haddad",
+   "Holds_Account",
+   "EmailAccount: nadia.haddad@bluegate.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Employed_By",
+   "Organization: Clearpath Industrial LLC"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAddress: elena.okafor@clearpath.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAccount: elena.okafor@clearpath.com"
+  ],
+  [
+   "Person: Arjun Ivanova",
+   "Employed_By",
+   "Organization: Clearpath Industrial LLC"
+  ],
+  [
+   "Person: Arjun Ivanova",
+   "Holds_Account",
+   "EmailAddress: aivanova@clearpath.com"
+  ],
+  [
+   "Person: Arjun Ivanova",
+   "Holds_Account",
+   "EmailAccount: aivanova@clearpath.com"
+  ],
+  [
+   "Organization: Bluegate Fabrication Ltd.",
+   "Located_At",
+   "Location: 702 Commerce Drive, Richmond, VA 23219"
+  ],
+  [
+   "Organization: Bluegate Fabrication Ltd.",
+   "Owns_Account",
+   "Account: 8887387116"
+  ],
+  [
+   "Account: 8887387116",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Organization: Clearpath Industrial LLC",
+   "Owns_Account",
+   "Account: 7131540908"
+  ],
+  [
+   "Account: 7131540908",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Person: Samuel Banerjee",
+   "Owns_Account",
+   "Account: 5897335669"
+  ],
+  [
+   "Account: 5897335669",
+   "accountType",
+   "Union Ledger Bank"
+  ],
+  [
+   "Account: 8887387116",
+   "accountIssuer",
+   "Organization: Bluegate Fabrication Ltd."
+  ],
+  [
+   "Account: 7131540908",
+   "accountIssuer",
+   "Organization: Clearpath Industrial LLC"
+  ],
+  [
+   "Account: 5897335669",
+   "accountIssuer",
+   "Organization: Bluegate Fabrication Ltd."
+  ],
+  [
+   "EmailAddress: elena.okafor@clearpath.com",
+   "addressValue",
+   "elena.okafor@clearpath.com"
+  ],
+  [
+   "EmailAddress: sbanerjee@bluegate.com",
+   "addressValue",
+   "sbanerjee@bluegate.com"
+  ],
+  [
+   "EmailAddress: aivanova@clearpath.com",
+   "addressValue",
+   "aivanova@clearpath.com"
+  ],
+  [
+   "EmailAccount: elena.okafor@clearpath.com",
+   "emailAddress",
+   "EmailAddress: elena.okafor@clearpath.com"
+  ],
+  [
+   "EmailAccount: sbanerjee@bluegate.com",
+   "emailAddress",
+   "EmailAddress: sbanerjee@bluegate.com"
+  ],
+  [
+   "EmailAccount: aivanova@clearpath.com",
+   "emailAddress",
+   "EmailAddress: aivanova@clearpath.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "subject",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Sun, 19 Oct 2025 11:25:00 +0000"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAddress: elena.okafor@clearpath.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Holds_Account",
+   "EmailAccount: elena.okafor@clearpath.com"
+  ],
+  [
+   "Person: Samuel Banerjee",
+   "Holds_Account",
+   "EmailAddress: sbanerjee@bluegate.com"
+  ],
+  [
+   "Person: Samuel Banerjee",
+   "Holds_Account",
+   "EmailAccount: sbanerjee@bluegate.com"
+  ],
+  [
+   "Person: Anna Ivanova",
+   "Holds_Account",
+   "EmailAddress: aivanova@clearpath.com"
+  ],
+  [
+   "Person: Anna Ivanova",
+   "Holds_Account",
+   "EmailAccount: aivanova@clearpath.com"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Communicated_With",
+   "Person: Samuel Banerjee"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Communicated_With",
+   "Person: Anna Ivanova"
+  ],
+  [
+   "Event: expense reimbursement",
+   "eventType",
+   "expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "October 6, 2025 at 09:45 UTC"
+  ],
+  [
+   "Person: Samuel Banerjee",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Event: vendor onboarding",
+   "eventType",
+   "vendor onboarding"
+  ],
+  [
+   "Event: vendor onboarding",
+   "startTime",
+   "6 October 2025, 10:10 UTC"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Initiated",
+   "Event: vendor onboarding"
+  ],
+  [
+   "Event: account reconciliation",
+   "eventType",
+   "account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "October 7, 2025 at 15:30 UTC"
+  ],
+  [
+   "Person: Elena Okafor",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Event: invoice submission",
+   "eventType",
+   "invoice submission"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "11 October 2025, 13:15 UTC"
+  ],
+  [
+   "Person: Nadia Haddad",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Event: audit review",
+   "eventType",
+   "audit review"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "October 19, 2025 at 09:25 UTC"
+  ],
+  [
+   "Person: Samuel Banerjee",
+   "Initiated",
+   "Event: audit review"
+  ]
+ ],
+ "tokens": {
+  "prompt": 1815,
+  "completion": 1495
+ }
+}

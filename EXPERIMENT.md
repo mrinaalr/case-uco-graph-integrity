@@ -295,6 +295,13 @@ Disclosures:
   ontology-driven graph generation from text against gold facts, with measures of ontology
   conformance and hallucination; this benchmark does the same for CASE/UCO, with each gold
   statement tied to the sentence that states it.
+- [ProVe](https://arxiv.org/abs/2210.14846) (Amaral, Rodrigues and Simperl, 2022) checks a Wikidata triple
+  against the web page cited as its provenance: text extraction, triple verbalisation, sentence selection, claim
+  verification by an entailment model, then one binary verdict, supported or not. The reconciler's first pass is
+  that pipeline on a CASE/UCO graph; it differs after it: the verdict is one of five, the ontology's other readings
+  are scored beside the claim, and what the source states and the graph lacks is proposed and held to the same
+  check. [GraphEval](https://arxiv.org/abs/2407.10793) (2024) turns an LLM's output into triples and checks each
+  against the context with NLI, to find hallucinations; the same check, on text rather than a graph.
 - [PERSEUS](https://ceur-ws.org/Vol-4246/llms4kgoe-5.pdf) validates each LLM-extracted triple by
   NLI entailment against retrieved source evidence, as the left hook does, on open-schema triples.
 - [Sainz et al., 2021](https://aclanthology.org/2021.emnlp-main.92) extract relations by scoring

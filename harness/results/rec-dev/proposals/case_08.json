@@ -1,0 +1,893 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"EmailAddress: julian.mendes@clearpath.com\", \"addressValue\", \"julian.mendes@clearpath.com\"],\n  [\"EmailAddress: sfischer@cedarridge.com\", \"addressValue\", \"sfischer@cedarridge.com\"],\n  [\"EmailAddress: mhaddad@cedarridge.com\", \"addressValue\", \"mhaddad@cedarridge.com\"],\n  [\"EmailAccount: julian.mendes@clearpath.com\", \"emailAddress\", \"EmailAddress: julian.mendes@clearpath.com\"],\n  [\"EmailAccount: sfischer@cedarridge.com\", \"emailAddress\", \"EmailAddress: sfischer@cedarridge.com\"],\n  [\"EmailAccount: mhaddad@cedarridge.com\", \"emailAddress\", \"EmailAddress: mhaddad@cedarridge.com\"],\n  [\"Person: Julian Mendes\", \"Holds_Account\", \"EmailAddress: julian.mendes@clearpath.com\"],\n  [\"Person: Julian Mendes\", \"Holds_Account\", \"EmailAccount: julian.mendes@clearpath.com\"],\n  [\"Person: Sofia Fischer\", \"Holds_Account\", \"EmailAddress: sfischer@cedarridge.com\"],\n  [\"Person: Sofia Fischer\", \"Holds_Account\", \"EmailAccount: sfischer@cedarridge.com\"],\n  [\"Person: Marcus Haddad\", \"Holds_Account\", \"EmailAddress: mhaddad@cedarridge.com\"],\n  [\"Person: Marcus Haddad\", \"Holds_Account\", \"EmailAccount: mhaddad@cedarridge.com\"],\n  [\"EmailMessage: Urgent: payment timing\", \"subject\", \"Urgent: payment timing\"],\n  [\"EmailMessage: Urgent: payment timing\", \"sentTime\", \"Mon, 12 May 2025 19:30:00 +0000\"],\n  [\"EmailMessage: Urgent: payment timing\", \"from\", \"EmailAddress: julian.mendes@clearpath.com\"],\n  [\"EmailMessage: Urgent: payment timing\", \"to\", \"EmailAddress: sfischer@cedarridge.com\"],\n  [\"EmailMessage: Urgent: payment timing\", \"to\", \"EmailAddress: mhaddad@cedarridge.com\"],\n  [\"Person: Sofia Fischer\", \"Communicated_With\", \"Person: Julian Mendes\"],\n  [\"Person: Marcus Haddad\", \"Communicated_With\", \"Person: Julian Mendes\"],\n  [\"Event: wire transfer\", \"eventType\", \"wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"10 April 2025, 10:30 UTC\"],\n  [\"Person: Kofi Abara\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Event: contract amendment\", \"eventType\", \"contract amendment\"],\n  [\"Event: contract amendment\", \"startTime\", \"May 1, 2025 at 14:50 UTC\"],\n  [\"Person: Desmond Castillo\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Event: audit review\", \"eventType\", \"audit review\"],\n  [\"Event: audit review\", \"startTime\", \"May 6, 2025 at 16:15 UTC\"],\n  [\"Person: Marcus Haddad\", \"Initiated\", \"Event: audit review\"],\n  [\"Event: account reconciliation\", \"eventType\", \"account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"12 May 2025, 17:30 UTC\"],\n  [\"Person: Julian Mendes\", \"Initiated\", \"Event: account reconciliation\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: julian.mendes@clearpath.com",
+     "addressValue",
+     "julian.mendes@clearpath.com"
+    ],
+    [
+     "EmailAddress: sfischer@cedarridge.com",
+     "addressValue",
+     "sfischer@cedarridge.com"
+    ],
+    [
+     "EmailAddress: mhaddad@cedarridge.com",
+     "addressValue",
+     "mhaddad@cedarridge.com"
+    ],
+    [
+     "EmailAccount: julian.mendes@clearpath.com",
+     "emailAddress",
+     "EmailAddress: julian.mendes@clearpath.com"
+    ],
+    [
+     "EmailAccount: sfischer@cedarridge.com",
+     "emailAddress",
+     "EmailAddress: sfischer@cedarridge.com"
+    ],
+    [
+     "EmailAccount: mhaddad@cedarridge.com",
+     "emailAddress",
+     "EmailAddress: mhaddad@cedarridge.com"
+    ],
+    [
+     "Person: Julian Mendes",
+     "Holds_Account",
+     "EmailAddress: julian.mendes@clearpath.com"
+    ],
+    [
+     "Person: Julian Mendes",
+     "Holds_Account",
+     "EmailAccount: julian.mendes@clearpath.com"
+    ],
+    [
+     "Person: Sofia Fischer",
+     "Holds_Account",
+     "EmailAddress: sfischer@cedarridge.com"
+    ],
+    [
+     "Person: Sofia Fischer",
+     "Holds_Account",
+     "EmailAccount: sfischer@cedarridge.com"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Holds_Account",
+     "EmailAddress: mhaddad@cedarridge.com"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Holds_Account",
+     "EmailAccount: mhaddad@cedarridge.com"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "subject",
+     "Urgent: payment timing"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "sentTime",
+     "Mon, 12 May 2025 19:30:00 +0000"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "from",
+     "EmailAddress: julian.mendes@clearpath.com"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "to",
+     "EmailAddress: sfischer@cedarridge.com"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "to",
+     "EmailAddress: mhaddad@cedarridge.com"
+    ],
+    [
+     "Person: Sofia Fischer",
+     "Communicated_With",
+     "Person: Julian Mendes"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Communicated_With",
+     "Person: Julian Mendes"
+    ],
+    [
+     "Event: wire transfer",
+     "eventType",
+     "wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "10 April 2025, 10:30 UTC"
+    ],
+    [
+     "Person: Kofi Abara",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: contract amendment",
+     "eventType",
+     "contract amendment"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "May 1, 2025 at 14:50 UTC"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Event: audit review",
+     "eventType",
+     "audit review"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "May 6, 2025 at 16:15 UTC"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Initiated",
+     "Event: audit review"
+    ],
+    [
+     "Event: account reconciliation",
+     "eventType",
+     "account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "12 May 2025, 17:30 UTC"
+    ],
+    [
+     "Person: Julian Mendes",
+     "Initiated",
+     "Event: account reconciliation"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 864,
+    "completion": 779
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Sofia Fischer\", \"Employed_By\", \"Organization: Cedar Ridge Fabrication Ltd.\"],\n  [\"Person: Sofia Fischer\", \"Holds_Account\", \"EmailAddress: sfischer@cedarridge.com\"],\n  [\"Person: Sofia Fischer\", \"Holds_Account\", \"EmailAccount: sfischer@cedarridge.com\"],\n  [\"Organization: Cedar Ridge Fabrication Ltd.\", \"Located_At\", \"Location: 545 Industrial Parkway, Raleigh, NC 27601\"],\n  [\"Person: Marcus Haddad\", \"Employed_By\", \"Organization: Cedar Ridge Fabrication Ltd.\"],\n  [\"Person: Marcus Haddad\", \"Holds_Account\", \"EmailAddress: mhaddad@cedarridge.com\"],\n  [\"Person: Marcus Haddad\", \"Holds_Account\", \"EmailAccount: mhaddad@cedarridge.com\"],\n  [\"Person: Kofi Abara\", \"Employed_By\", \"Organization: Cedar Ridge Fabrication Ltd.\"],\n  [\"Person: Kofi Abara\", \"Holds_Account\", \"EmailAddress: kabara@cedarridge.com\"],\n  [\"Person: Kofi Abara\", \"Holds_Account\", \"EmailAccount: kabara@cedarridge.com\"],\n  [\"Person: Kofi Abara\", \"Reports_To\", \"Person: Sofia Fischer\"],\n  [\"Organization: Clearpath Analytics Group\", \"Employed_By\", \"Person: Desmond Castillo\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAddress: dcastillo@clearpath.com\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAccount: dcastillo@clearpath.com\"],\n  [\"Organization: Clearpath Analytics Group\", \"Employed_By\", \"Person: Julian Mendes\"],\n  [\"Person: Julian Mendes\", \"Holds_Account\", \"EmailAddress: julian.mendes@clearpath.com\"],\n  [\"Person: Julian Mendes\", \"Holds_Account\", \"EmailAccount: julian.mendes@clearpath.com\"],\n  [\"Account: 7093934523\", \"accountType\", \"Account\"],\n  [\"Account: 7093934523\", \"accountIdentifier\", \"7093934523\"],\n  [\"Account: 7093934523\", \"Owns_Account\", \"Organization: Cedar Ridge Fabrication Ltd.\"],\n  [\"Account: 7093934523\", \"accountIssuer\", \"Organization: Granite Federal Credit Union\"],\n  [\"Account: 9897240944\", \"accountType\", \"Account\"],\n  [\"Account: 9897240944\", \"accountIdentifier\", \"9897240944\"],\n  [\"Account: 9897240944\", \"Owns_Account\", \"Organization: Clearpath Analytics Group\"],\n  [\"Account: 9897240944\", \"accountIssuer\", \"Organization: Granite Federal Credit Union\"],\n  [\"Account: 4634673951\", \"accountType\", \"Account\"],\n  [\"Account: 4634673951\", \"accountIdentifier\", \"4634673951\"],\n  [\"Account: 4634673951\", \"Owns_Account\", \"Person: Sofia Fischer\"],\n  [\"Account: 4634673951\", \"accountIssuer\", \"Organization: Granite Federal Credit Union\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Sofia Fischer",
+     "Employed_By",
+     "Organization: Cedar Ridge Fabrication Ltd."
+    ],
+    [
+     "Person: Sofia Fischer",
+     "Holds_Account",
+     "EmailAddress: sfischer@cedarridge.com"
+    ],
+    [
+     "Person: Sofia Fischer",
+     "Holds_Account",
+     "EmailAccount: sfischer@cedarridge.com"
+    ],
+    [
+     "Organization: Cedar Ridge Fabrication Ltd.",
+     "Located_At",
+     "Location: 545 Industrial Parkway, Raleigh, NC 27601"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Employed_By",
+     "Organization: Cedar Ridge Fabrication Ltd."
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Holds_Account",
+     "EmailAddress: mhaddad@cedarridge.com"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Holds_Account",
+     "EmailAccount: mhaddad@cedarridge.com"
+    ],
+    [
+     "Person: Kofi Abara",
+     "Employed_By",
+     "Organization: Cedar Ridge Fabrication Ltd."
+    ],
+    [
+     "Person: Kofi Abara",
+     "Holds_Account",
+     "EmailAddress: kabara@cedarridge.com"
+    ],
+    [
+     "Person: Kofi Abara",
+     "Holds_Account",
+     "EmailAccount: kabara@cedarridge.com"
+    ],
+    [
+     "Person: Kofi Abara",
+     "Reports_To",
+     "Person: Sofia Fischer"
+    ],
+    [
+     "Organization: Clearpath Analytics Group",
+     "Employed_By",
+     "Person: Desmond Castillo"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAddress: dcastillo@clearpath.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAccount: dcastillo@clearpath.com"
+    ],
+    [
+     "Organization: Clearpath Analytics Group",
+     "Employed_By",
+     "Person: Julian Mendes"
+    ],
+    [
+     "Person: Julian Mendes",
+     "Holds_Account",
+     "EmailAddress: julian.mendes@clearpath.com"
+    ],
+    [
+     "Person: Julian Mendes",
+     "Holds_Account",
+     "EmailAccount: julian.mendes@clearpath.com"
+    ],
+    [
+     "Account: 7093934523",
+     "accountType",
+     "Account"
+    ],
+    [
+     "Account: 7093934523",
+     "accountIdentifier",
+     "7093934523"
+    ],
+    [
+     "Account: 7093934523",
+     "Owns_Account",
+     "Organization: Cedar Ridge Fabrication Ltd."
+    ],
+    [
+     "Account: 7093934523",
+     "accountIssuer",
+     "Organization: Granite Federal Credit Union"
+    ],
+    [
+     "Account: 9897240944",
+     "accountType",
+     "Account"
+    ],
+    [
+     "Account: 9897240944",
+     "accountIdentifier",
+     "9897240944"
+    ],
+    [
+     "Account: 9897240944",
+     "Owns_Account",
+     "Organization: Clearpath Analytics Group"
+    ],
+    [
+     "Account: 9897240944",
+     "accountIssuer",
+     "Organization: Granite Federal Credit Union"
+    ],
+    [
+     "Account: 4634673951",
+     "accountType",
+     "Account"
+    ],
+    [
+     "Account: 4634673951",
+     "accountIdentifier",
+     "4634673951"
+    ],
+    [
+     "Account: 4634673951",
+     "Owns_Account",
+     "Person: Sofia Fischer"
+    ],
+    [
+     "Account: 4634673951",
+     "accountIssuer",
+     "Organization: Granite Federal Credit Union"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 925,
+    "completion": 784
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: mhaddad@cedarridge.com\", \"addressValue\", \"mhaddad@cedarridge.com\"],\n  [\"EmailAddress: dcastillo@clearpath.com\", \"addressValue\", \"dcastillo@clearpath.com\"],\n  [\"EmailAddress: julian.mendes@clearpath.com\", \"addressValue\", \"julian.mendes@clearpath.com\"],\n  [\"EmailAccount: mhaddad@cedarridge.com\", \"emailAddress\", \"EmailAddress: mhaddad@cedarridge.com\"],\n  [\"EmailAccount: dcastillo@clearpath.com\", \"emailAddress\", \"EmailAddress: dcastillo@clearpath.com\"],\n  [\"EmailAccount: julian.mendes@clearpath.com\", \"emailAddress\", \"EmailAddress: julian.mendes@clearpath.com\"],\n  [\"Person: Marcus Haddad\", \"Holds_Account\", \"EmailAddress: mhaddad@cedarridge.com\"],\n  [\"Person: Marcus Haddad\", \"Holds_Account\", \"EmailAccount: mhaddad@cedarridge.com\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAddress: dcastillo@clearpath.com\"],\n  [\"Person: Desmond Castillo\", \"Holds_Account\", \"EmailAccount: dcastillo@clearpath.com\"],\n  [\"Person: Julian Mendes\", \"Holds_Account\", \"EmailAddress: julian.mendes@clearpath.com\"],\n  [\"Person: Julian Mendes\", \"Holds_Account\", \"EmailAccount: julian.mendes@clearpath.com\"],\n  [\"EmailMessage: Updated remittance details\", \"subject\", \"Updated remittance details\"],\n  [\"EmailMessage: Updated remittance details\", \"sentTime\", \"Sat, 10 May 2025 19:00:00 +0000\"],\n  [\"EmailMessage: Updated remittance details\", \"from\", \"EmailAddress: mhaddad@cedarridge.com\"],\n  [\"EmailMessage: Updated remittance details\", \"to\", \"EmailAddress: dcastillo@clearpath.com\"],\n  [\"EmailMessage: Updated remittance details\", \"to\", \"EmailAddress: julian.mendes@clearpath.com\"],\n  [\"Person: Marcus Haddad\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Event: bank detail change\", \"startTime\", \"21 April 2025, 17:15 UTC\"],\n  [\"Person: Julian Mendes\", \"Initiated\", \"Event: payment approval\"],\n  [\"Event: payment approval\", \"startTime\", \"4 May 2025, 14:50 UTC\"],\n  [\"Person: Marcus Haddad\", \"Initiated\", \"Event: refund request\"],\n  [\"Event: refund request\", \"startTime\", \"May 10, 2025 at 17:00 UTC\"],\n  [\"Person: Marcus Haddad\", \"Communicated_With\", \"Person: Desmond Castillo\"],\n  [\"Person: Marcus Haddad\", \"Communicated_With\", \"Person: Julian Mendes\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: mhaddad@cedarridge.com",
+     "addressValue",
+     "mhaddad@cedarridge.com"
+    ],
+    [
+     "EmailAddress: dcastillo@clearpath.com",
+     "addressValue",
+     "dcastillo@clearpath.com"
+    ],
+    [
+     "EmailAddress: julian.mendes@clearpath.com",
+     "addressValue",
+     "julian.mendes@clearpath.com"
+    ],
+    [
+     "EmailAccount: mhaddad@cedarridge.com",
+     "emailAddress",
+     "EmailAddress: mhaddad@cedarridge.com"
+    ],
+    [
+     "EmailAccount: dcastillo@clearpath.com",
+     "emailAddress",
+     "EmailAddress: dcastillo@clearpath.com"
+    ],
+    [
+     "EmailAccount: julian.mendes@clearpath.com",
+     "emailAddress",
+     "EmailAddress: julian.mendes@clearpath.com"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Holds_Account",
+     "EmailAddress: mhaddad@cedarridge.com"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Holds_Account",
+     "EmailAccount: mhaddad@cedarridge.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAddress: dcastillo@clearpath.com"
+    ],
+    [
+     "Person: Desmond Castillo",
+     "Holds_Account",
+     "EmailAccount: dcastillo@clearpath.com"
+    ],
+    [
+     "Person: Julian Mendes",
+     "Holds_Account",
+     "EmailAddress: julian.mendes@clearpath.com"
+    ],
+    [
+     "Person: Julian Mendes",
+     "Holds_Account",
+     "EmailAccount: julian.mendes@clearpath.com"
+    ],
+    [
+     "EmailMessage: Updated remittance details",
+     "subject",
+     "Updated remittance details"
+    ],
+    [
+     "EmailMessage: Updated remittance details",
+     "sentTime",
+     "Sat, 10 May 2025 19:00:00 +0000"
+    ],
+    [
+     "EmailMessage: Updated remittance details",
+     "from",
+     "EmailAddress: mhaddad@cedarridge.com"
+    ],
+    [
+     "EmailMessage: Updated remittance details",
+     "to",
+     "EmailAddress: dcastillo@clearpath.com"
+    ],
+    [
+     "EmailMessage: Updated remittance details",
+     "to",
+     "EmailAddress: julian.mendes@clearpath.com"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "21 April 2025, 17:15 UTC"
+    ],
+    [
+     "Person: Julian Mendes",
+     "Initiated",
+     "Event: payment approval"
+    ],
+    [
+     "Event: payment approval",
+     "startTime",
+     "4 May 2025, 14:50 UTC"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "May 10, 2025 at 17:00 UTC"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Communicated_With",
+     "Person: Desmond Castillo"
+    ],
+    [
+     "Person: Marcus Haddad",
+     "Communicated_With",
+     "Person: Julian Mendes"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 831,
+    "completion": 668
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: julian.mendes@clearpath.com",
+   "addressValue",
+   "julian.mendes@clearpath.com"
+  ],
+  [
+   "EmailAddress: sfischer@cedarridge.com",
+   "addressValue",
+   "sfischer@cedarridge.com"
+  ],
+  [
+   "EmailAddress: mhaddad@cedarridge.com",
+   "addressValue",
+   "mhaddad@cedarridge.com"
+  ],
+  [
+   "EmailAccount: julian.mendes@clearpath.com",
+   "emailAddress",
+   "EmailAddress: julian.mendes@clearpath.com"
+  ],
+  [
+   "EmailAccount: sfischer@cedarridge.com",
+   "emailAddress",
+   "EmailAddress: sfischer@cedarridge.com"
+  ],
+  [
+   "EmailAccount: mhaddad@cedarridge.com",
+   "emailAddress",
+   "EmailAddress: mhaddad@cedarridge.com"
+  ],
+  [
+   "Person: Julian Mendes",
+   "Holds_Account",
+   "EmailAddress: julian.mendes@clearpath.com"
+  ],
+  [
+   "Person: Julian Mendes",
+   "Holds_Account",
+   "EmailAccount: julian.mendes@clearpath.com"
+  ],
+  [
+   "Person: Sofia Fischer",
+   "Holds_Account",
+   "EmailAddress: sfischer@cedarridge.com"
+  ],
+  [
+   "Person: Sofia Fischer",
+   "Holds_Account",
+   "EmailAccount: sfischer@cedarridge.com"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Holds_Account",
+   "EmailAddress: mhaddad@cedarridge.com"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Holds_Account",
+   "EmailAccount: mhaddad@cedarridge.com"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "subject",
+   "Urgent: payment timing"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "sentTime",
+   "Mon, 12 May 2025 19:30:00 +0000"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "from",
+   "EmailAddress: julian.mendes@clearpath.com"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "to",
+   "EmailAddress: sfischer@cedarridge.com"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "to",
+   "EmailAddress: mhaddad@cedarridge.com"
+  ],
+  [
+   "Person: Sofia Fischer",
+   "Communicated_With",
+   "Person: Julian Mendes"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Communicated_With",
+   "Person: Julian Mendes"
+  ],
+  [
+   "Event: wire transfer",
+   "eventType",
+   "wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "10 April 2025, 10:30 UTC"
+  ],
+  [
+   "Person: Kofi Abara",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: contract amendment",
+   "eventType",
+   "contract amendment"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "May 1, 2025 at 14:50 UTC"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Event: audit review",
+   "eventType",
+   "audit review"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "May 6, 2025 at 16:15 UTC"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Initiated",
+   "Event: audit review"
+  ],
+  [
+   "Event: account reconciliation",
+   "eventType",
+   "account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "12 May 2025, 17:30 UTC"
+  ],
+  [
+   "Person: Julian Mendes",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Sofia Fischer",
+   "Employed_By",
+   "Organization: Cedar Ridge Fabrication Ltd."
+  ],
+  [
+   "Person: Sofia Fischer",
+   "Holds_Account",
+   "EmailAddress: sfischer@cedarridge.com"
+  ],
+  [
+   "Person: Sofia Fischer",
+   "Holds_Account",
+   "EmailAccount: sfischer@cedarridge.com"
+  ],
+  [
+   "Organization: Cedar Ridge Fabrication Ltd.",
+   "Located_At",
+   "Location: 545 Industrial Parkway, Raleigh, NC 27601"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Employed_By",
+   "Organization: Cedar Ridge Fabrication Ltd."
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Holds_Account",
+   "EmailAddress: mhaddad@cedarridge.com"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Holds_Account",
+   "EmailAccount: mhaddad@cedarridge.com"
+  ],
+  [
+   "Person: Kofi Abara",
+   "Employed_By",
+   "Organization: Cedar Ridge Fabrication Ltd."
+  ],
+  [
+   "Person: Kofi Abara",
+   "Holds_Account",
+   "EmailAddress: kabara@cedarridge.com"
+  ],
+  [
+   "Person: Kofi Abara",
+   "Holds_Account",
+   "EmailAccount: kabara@cedarridge.com"
+  ],
+  [
+   "Person: Kofi Abara",
+   "Reports_To",
+   "Person: Sofia Fischer"
+  ],
+  [
+   "Organization: Clearpath Analytics Group",
+   "Employed_By",
+   "Person: Desmond Castillo"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAddress: dcastillo@clearpath.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAccount: dcastillo@clearpath.com"
+  ],
+  [
+   "Organization: Clearpath Analytics Group",
+   "Employed_By",
+   "Person: Julian Mendes"
+  ],
+  [
+   "Person: Julian Mendes",
+   "Holds_Account",
+   "EmailAddress: julian.mendes@clearpath.com"
+  ],
+  [
+   "Person: Julian Mendes",
+   "Holds_Account",
+   "EmailAccount: julian.mendes@clearpath.com"
+  ],
+  [
+   "Account: 7093934523",
+   "accountType",
+   "Account"
+  ],
+  [
+   "Account: 7093934523",
+   "accountIdentifier",
+   "7093934523"
+  ],
+  [
+   "Account: 7093934523",
+   "Owns_Account",
+   "Organization: Cedar Ridge Fabrication Ltd."
+  ],
+  [
+   "Account: 7093934523",
+   "accountIssuer",
+   "Organization: Granite Federal Credit Union"
+  ],
+  [
+   "Account: 9897240944",
+   "accountType",
+   "Account"
+  ],
+  [
+   "Account: 9897240944",
+   "accountIdentifier",
+   "9897240944"
+  ],
+  [
+   "Account: 9897240944",
+   "Owns_Account",
+   "Organization: Clearpath Analytics Group"
+  ],
+  [
+   "Account: 9897240944",
+   "accountIssuer",
+   "Organization: Granite Federal Credit Union"
+  ],
+  [
+   "Account: 4634673951",
+   "accountType",
+   "Account"
+  ],
+  [
+   "Account: 4634673951",
+   "accountIdentifier",
+   "4634673951"
+  ],
+  [
+   "Account: 4634673951",
+   "Owns_Account",
+   "Person: Sofia Fischer"
+  ],
+  [
+   "Account: 4634673951",
+   "accountIssuer",
+   "Organization: Granite Federal Credit Union"
+  ],
+  [
+   "EmailAddress: mhaddad@cedarridge.com",
+   "addressValue",
+   "mhaddad@cedarridge.com"
+  ],
+  [
+   "EmailAddress: dcastillo@clearpath.com",
+   "addressValue",
+   "dcastillo@clearpath.com"
+  ],
+  [
+   "EmailAddress: julian.mendes@clearpath.com",
+   "addressValue",
+   "julian.mendes@clearpath.com"
+  ],
+  [
+   "EmailAccount: mhaddad@cedarridge.com",
+   "emailAddress",
+   "EmailAddress: mhaddad@cedarridge.com"
+  ],
+  [
+   "EmailAccount: dcastillo@clearpath.com",
+   "emailAddress",
+   "EmailAddress: dcastillo@clearpath.com"
+  ],
+  [
+   "EmailAccount: julian.mendes@clearpath.com",
+   "emailAddress",
+   "EmailAddress: julian.mendes@clearpath.com"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Holds_Account",
+   "EmailAddress: mhaddad@cedarridge.com"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Holds_Account",
+   "EmailAccount: mhaddad@cedarridge.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAddress: dcastillo@clearpath.com"
+  ],
+  [
+   "Person: Desmond Castillo",
+   "Holds_Account",
+   "EmailAccount: dcastillo@clearpath.com"
+  ],
+  [
+   "Person: Julian Mendes",
+   "Holds_Account",
+   "EmailAddress: julian.mendes@clearpath.com"
+  ],
+  [
+   "Person: Julian Mendes",
+   "Holds_Account",
+   "EmailAccount: julian.mendes@clearpath.com"
+  ],
+  [
+   "EmailMessage: Updated remittance details",
+   "subject",
+   "Updated remittance details"
+  ],
+  [
+   "EmailMessage: Updated remittance details",
+   "sentTime",
+   "Sat, 10 May 2025 19:00:00 +0000"
+  ],
+  [
+   "EmailMessage: Updated remittance details",
+   "from",
+   "EmailAddress: mhaddad@cedarridge.com"
+  ],
+  [
+   "EmailMessage: Updated remittance details",
+   "to",
+   "EmailAddress: dcastillo@clearpath.com"
+  ],
+  [
+   "EmailMessage: Updated remittance details",
+   "to",
+   "EmailAddress: julian.mendes@clearpath.com"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "21 April 2025, 17:15 UTC"
+  ],
+  [
+   "Person: Julian Mendes",
+   "Initiated",
+   "Event: payment approval"
+  ],
+  [
+   "Event: payment approval",
+   "startTime",
+   "4 May 2025, 14:50 UTC"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "May 10, 2025 at 17:00 UTC"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Communicated_With",
+   "Person: Desmond Castillo"
+  ],
+  [
+   "Person: Marcus Haddad",
+   "Communicated_With",
+   "Person: Julian Mendes"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2620,
+  "completion": 2231
+ }
+}

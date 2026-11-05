@@ -1,0 +1,704 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"EmailAddress: mbrennan@westmark.com\", \"addressValue\", \"mbrennan@westmark.com\"],\n  [\"EmailAddress: sofia.lindqvist@summitpeak.com\", \"addressValue\", \"sofia.lindqvist@summitpeak.com\"],\n  [\"EmailAccount: mbrennan@westmark.com\", \"emailAddress\", \"EmailAddress: mbrennan@westmark.com\"],\n  [\"EmailAccount: sofia.lindqvist@summitpeak.com\", \"emailAddress\", \"EmailAddress: sofia.lindqvist@summitpeak.com\"],\n  [\"Person: Mei Brennan\", \"Holds_Account\", \"EmailAddress: mbrennan@westmark.com\"],\n  [\"Person: Sofia Lindqvist\", \"Holds_Account\", \"EmailAddress: sofia.lindqvist@summitpeak.com\"],\n  [\"Person: Mei Brennan\", \"Communicated_With\", \"Person: Sofia Lindqvist\"],\n  [\"Person: Sofia Lindqvist\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"14 January 2025, 11:15 UTC\"],\n  [\"EmailMessage: Re: banking change request\", \"subject\", \"Re: banking change request\"],\n  [\"EmailMessage: Re: banking change request\", \"sentTime\", \"Tue, 14 Jan 2025 13:15:00 +0000\"],\n  [\"EmailMessage: Re: banking change request\", \"from\", \"EmailAddress: mbrennan@westmark.com\"],\n  [\"EmailMessage: Re: banking change request\", \"to\", \"EmailAddress: sofia.lindqvist@summitpeak.com\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: mbrennan@westmark.com",
+     "addressValue",
+     "mbrennan@westmark.com"
+    ],
+    [
+     "EmailAddress: sofia.lindqvist@summitpeak.com",
+     "addressValue",
+     "sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "EmailAccount: mbrennan@westmark.com",
+     "emailAddress",
+     "EmailAddress: mbrennan@westmark.com"
+    ],
+    [
+     "EmailAccount: sofia.lindqvist@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "Person: Mei Brennan",
+     "Holds_Account",
+     "EmailAddress: mbrennan@westmark.com"
+    ],
+    [
+     "Person: Sofia Lindqvist",
+     "Holds_Account",
+     "EmailAddress: sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "Person: Mei Brennan",
+     "Communicated_With",
+     "Person: Sofia Lindqvist"
+    ],
+    [
+     "Person: Sofia Lindqvist",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "14 January 2025, 11:15 UTC"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "subject",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Tue, 14 Jan 2025 13:15:00 +0000"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "from",
+     "EmailAddress: mbrennan@westmark.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: sofia.lindqvist@summitpeak.com"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 771,
+    "completion": 381
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"Person: Maya Banerjee\", \"Employed_By\", \"Organization: Summit Peak Tooling Ltd.\"],\n  [\"Person: Maya Banerjee\", \"Holds_Account\", \"EmailAddress: mbanerjee@summitpeak.com\"],\n  [\"Organization: Summit Peak Tooling Ltd.\", \"Owns_Account\", \"Account: mbanerjee@summitpeak.com\"],\n  [\"Organization: Summit Peak Tooling Ltd.\", \"Located_At\", \"Location: 3094 Maple Avenue, Dayton, OH 45402\"],\n  [\"Person: Luca Reyes\", \"Employed_By\", \"Organization: Summit Peak Tooling Ltd.\"],\n  [\"Person: Luca Reyes\", \"Holds_Account\", \"EmailAddress: lreyes@summitpeak.com\"],\n  [\"Organization: Summit Peak Tooling Ltd.\", \"Owns_Account\", \"Account: lreyes@summitpeak.com\"],\n  [\"Person: Sofia Lindqvist\", \"Employed_By\", \"Organization: Summit Peak Tooling Ltd.\"],\n  [\"Person: Sofia Lindqvist\", \"Holds_Account\", \"EmailAddress: sofia.lindqvist@summitpeak.com\"],\n  [\"Organization: Summit Peak Tooling Ltd.\", \"Owns_Account\", \"Account: sofia.lindqvist@summitpeak.com\"],\n  [\"Person: Sofia Lindqvist\", \"Reports_To\", \"Person: Maya Banerjee\"],\n  [\"Person: Mei Brennan\", \"Employed_By\", \"Organization: Westmark Fabrication Group\"],\n  [\"Person: Mei Brennan\", \"Holds_Account\", \"EmailAddress: mbrennan@westmark.com\"],\n  [\"Organization: Westmark Fabrication Group\", \"Owns_Account\", \"Account: mbrennan@westmark.com\"],\n  [\"Person: Felix Tanaka\", \"Employed_By\", \"Organization: Westmark Fabrication Group\"],\n  [\"Person: Felix Tanaka\", \"Holds_Account\", \"EmailAddress: felix.tanaka@westmark.com\"],\n  [\"Organization: Westmark Fabrication Group\", \"Owns_Account\", \"Account: felix.tanaka@westmark.com\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Maya Banerjee",
+     "Employed_By",
+     "Organization: Summit Peak Tooling Ltd."
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Holds_Account",
+     "EmailAddress: mbanerjee@summitpeak.com"
+    ],
+    [
+     "Organization: Summit Peak Tooling Ltd.",
+     "Owns_Account",
+     "Account: mbanerjee@summitpeak.com"
+    ],
+    [
+     "Organization: Summit Peak Tooling Ltd.",
+     "Located_At",
+     "Location: 3094 Maple Avenue, Dayton, OH 45402"
+    ],
+    [
+     "Person: Luca Reyes",
+     "Employed_By",
+     "Organization: Summit Peak Tooling Ltd."
+    ],
+    [
+     "Person: Luca Reyes",
+     "Holds_Account",
+     "EmailAddress: lreyes@summitpeak.com"
+    ],
+    [
+     "Organization: Summit Peak Tooling Ltd.",
+     "Owns_Account",
+     "Account: lreyes@summitpeak.com"
+    ],
+    [
+     "Person: Sofia Lindqvist",
+     "Employed_By",
+     "Organization: Summit Peak Tooling Ltd."
+    ],
+    [
+     "Person: Sofia Lindqvist",
+     "Holds_Account",
+     "EmailAddress: sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "Organization: Summit Peak Tooling Ltd.",
+     "Owns_Account",
+     "Account: sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "Person: Sofia Lindqvist",
+     "Reports_To",
+     "Person: Maya Banerjee"
+    ],
+    [
+     "Person: Mei Brennan",
+     "Employed_By",
+     "Organization: Westmark Fabrication Group"
+    ],
+    [
+     "Person: Mei Brennan",
+     "Holds_Account",
+     "EmailAddress: mbrennan@westmark.com"
+    ],
+    [
+     "Organization: Westmark Fabrication Group",
+     "Owns_Account",
+     "Account: mbrennan@westmark.com"
+    ],
+    [
+     "Person: Felix Tanaka",
+     "Employed_By",
+     "Organization: Westmark Fabrication Group"
+    ],
+    [
+     "Person: Felix Tanaka",
+     "Holds_Account",
+     "EmailAddress: felix.tanaka@westmark.com"
+    ],
+    [
+     "Organization: Westmark Fabrication Group",
+     "Owns_Account",
+     "Account: felix.tanaka@westmark.com"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 863,
+    "completion": 463
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"EmailAddress: sofia.lindqvist@summitpeak.com\", \"addressValue\", \"sofia.lindqvist@summitpeak.com\"],\n  [\"EmailAddress: felix.tanaka@westmark.com\", \"addressValue\", \"felix.tanaka@westmark.com\"],\n  [\"EmailAddress: mbanerjee@summitpeak.com\", \"addressValue\", \"mbanerjee@summitpeak.com\"],\n  [\"EmailAccount: sofia.lindqvist@summitpeak.com\", \"emailAddress\", \"EmailAddress: sofia.lindqvist@summitpeak.com\"],\n  [\"EmailAccount: felix.tanaka@westmark.com\", \"emailAddress\", \"EmailAddress: felix.tanaka@westmark.com\"],\n  [\"EmailAccount: mbanerjee@summitpeak.com\", \"emailAddress\", \"EmailAddress: mbanerjee@summitpeak.com\"],\n  [\"Person: Sofia Lindqvist\", \"name\", \"Sofia Lindqvist\"],\n  [\"Person: Felix Tanaka\", \"name\", \"Felix Tanaka\"],\n  [\"Person: Maya Banerjee\", \"name\", \"Maya Banerjee\"],\n  [\"Organization: Summit Peak Tooling Ltd.\", \"name\", \"Summit Peak Tooling Ltd.\"],\n  [\"Event: bank detail change\", \"eventType\", \"bank detail change\"],\n  [\"Event: bank detail change\", \"startTime\", \"January 18, 2025 at 12:00 UTC\"],\n  [\"EmailMessage: Re: banking change request\", \"subject\", \"Re: banking change request\"],\n  [\"EmailMessage: Re: banking change request\", \"sentTime\", \"Sat, 18 Jan 2025 14:00:00 +0000\"],\n  [\"Person: Sofia Lindqvist\", \"Initiated\", \"Event: bank detail change\"],\n  [\"Person: Felix Tanaka\", \"Authorized\", \"Event: bank detail change\"],\n  [\"Location: Summit Peak Tooling Ltd. office\", \"street\", \"Summit Peak Tooling Ltd. office\"],\n  [\"Event: bank detail change\", \"Located_At\", \"Location: Summit Peak Tooling Ltd. office\"],\n  [\"Person: Felix Tanaka\", \"Communicated_With\", \"Person: Maya Banerjee\"],\n  [\"Person: Sofia Lindqvist\", \"Holds_Account\", \"EmailAddress: sofia.lindqvist@summitpeak.com\"],\n  [\"Person: Felix Tanaka\", \"Holds_Account\", \"EmailAddress: felix.tanaka@westmark.com\"],\n  [\"Person: Maya Banerjee\", \"Holds_Account\", \"EmailAddress: mbanerjee@summitpeak.com\"],\n  [\"EmailMessage: Re: banking change request\", \"from\", \"EmailAddress: sofia.lindqvist@summitpeak.com\"],\n  [\"EmailMessage: Re: banking change request\", \"to\", \"EmailAddress: felix.tanaka@westmark.com\"],\n  [\"EmailMessage: Re: banking change request\", \"to\", \"EmailAddress: mbanerjee@summitpeak.com\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: sofia.lindqvist@summitpeak.com",
+     "addressValue",
+     "sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "EmailAddress: felix.tanaka@westmark.com",
+     "addressValue",
+     "felix.tanaka@westmark.com"
+    ],
+    [
+     "EmailAddress: mbanerjee@summitpeak.com",
+     "addressValue",
+     "mbanerjee@summitpeak.com"
+    ],
+    [
+     "EmailAccount: sofia.lindqvist@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "EmailAccount: felix.tanaka@westmark.com",
+     "emailAddress",
+     "EmailAddress: felix.tanaka@westmark.com"
+    ],
+    [
+     "EmailAccount: mbanerjee@summitpeak.com",
+     "emailAddress",
+     "EmailAddress: mbanerjee@summitpeak.com"
+    ],
+    [
+     "Person: Sofia Lindqvist",
+     "name",
+     "Sofia Lindqvist"
+    ],
+    [
+     "Person: Felix Tanaka",
+     "name",
+     "Felix Tanaka"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "name",
+     "Maya Banerjee"
+    ],
+    [
+     "Organization: Summit Peak Tooling Ltd.",
+     "name",
+     "Summit Peak Tooling Ltd."
+    ],
+    [
+     "Event: bank detail change",
+     "eventType",
+     "bank detail change"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "January 18, 2025 at 12:00 UTC"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "subject",
+     "Re: banking change request"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "sentTime",
+     "Sat, 18 Jan 2025 14:00:00 +0000"
+    ],
+    [
+     "Person: Sofia Lindqvist",
+     "Initiated",
+     "Event: bank detail change"
+    ],
+    [
+     "Person: Felix Tanaka",
+     "Authorized",
+     "Event: bank detail change"
+    ],
+    [
+     "Location: Summit Peak Tooling Ltd. office",
+     "street",
+     "Summit Peak Tooling Ltd. office"
+    ],
+    [
+     "Event: bank detail change",
+     "Located_At",
+     "Location: Summit Peak Tooling Ltd. office"
+    ],
+    [
+     "Person: Felix Tanaka",
+     "Communicated_With",
+     "Person: Maya Banerjee"
+    ],
+    [
+     "Person: Sofia Lindqvist",
+     "Holds_Account",
+     "EmailAddress: sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "Person: Felix Tanaka",
+     "Holds_Account",
+     "EmailAddress: felix.tanaka@westmark.com"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Holds_Account",
+     "EmailAddress: mbanerjee@summitpeak.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "from",
+     "EmailAddress: sofia.lindqvist@summitpeak.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: felix.tanaka@westmark.com"
+    ],
+    [
+     "EmailMessage: Re: banking change request",
+     "to",
+     "EmailAddress: mbanerjee@summitpeak.com"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 825,
+    "completion": 685
+   }
+  },
+  {
+   "doc": "D4",
+   "reply": "```json\n[\n  [\"Organization: Summit Peak Tooling Ltd.\", \"Owns_Account\", \"Account: 2314076727\"],\n  [\"Account: 2314076727\", \"accountType\", \"ApplicationAccount\"],\n  [\"Account: 2314076727\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Organization: Westmark Fabrication Group\", \"Owns_Account\", \"Account: 9962441511\"],\n  [\"Account: 9962441511\", \"accountType\", \"ApplicationAccount\"],\n  [\"Account: 9962441511\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Person: Maya Banerjee\", \"Initiated\", \"Event: payment approval\"],\n  [\"Event: payment approval\", \"startTime\", \"February 14, 2025 at 11:10 UTC\"],\n  [\"Person: Luca Reyes\", \"Authorized\", \"Event: payment approval\"],\n  [\"Organization: Summit Peak Tooling Ltd.\", \"Located_At\", \"Location: Summit Peak Tooling Ltd.'s office\"]\n]\n```",
+   "facts": [
+    [
+     "Organization: Summit Peak Tooling Ltd.",
+     "Owns_Account",
+     "Account: 2314076727"
+    ],
+    [
+     "Account: 2314076727",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Account: 2314076727",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Organization: Westmark Fabrication Group",
+     "Owns_Account",
+     "Account: 9962441511"
+    ],
+    [
+     "Account: 9962441511",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Account: 9962441511",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Person: Maya Banerjee",
+     "Initiated",
+     "Event: payment approval"
+    ],
+    [
+     "Event: payment approval",
+     "startTime",
+     "February 14, 2025 at 11:10 UTC"
+    ],
+    [
+     "Person: Luca Reyes",
+     "Authorized",
+     "Event: payment approval"
+    ],
+    [
+     "Organization: Summit Peak Tooling Ltd.",
+     "Located_At",
+     "Location: Summit Peak Tooling Ltd.'s office"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 791,
+    "completion": 272
+   }
+  }
+ ],
+ "facts": [
+  [
+   "EmailAddress: mbrennan@westmark.com",
+   "addressValue",
+   "mbrennan@westmark.com"
+  ],
+  [
+   "EmailAddress: sofia.lindqvist@summitpeak.com",
+   "addressValue",
+   "sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "EmailAccount: mbrennan@westmark.com",
+   "emailAddress",
+   "EmailAddress: mbrennan@westmark.com"
+  ],
+  [
+   "EmailAccount: sofia.lindqvist@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "Person: Mei Brennan",
+   "Holds_Account",
+   "EmailAddress: mbrennan@westmark.com"
+  ],
+  [
+   "Person: Sofia Lindqvist",
+   "Holds_Account",
+   "EmailAddress: sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "Person: Mei Brennan",
+   "Communicated_With",
+   "Person: Sofia Lindqvist"
+  ],
+  [
+   "Person: Sofia Lindqvist",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "14 January 2025, 11:15 UTC"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "subject",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Tue, 14 Jan 2025 13:15:00 +0000"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "from",
+   "EmailAddress: mbrennan@westmark.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Employed_By",
+   "Organization: Summit Peak Tooling Ltd."
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Holds_Account",
+   "EmailAddress: mbanerjee@summitpeak.com"
+  ],
+  [
+   "Organization: Summit Peak Tooling Ltd.",
+   "Owns_Account",
+   "Account: mbanerjee@summitpeak.com"
+  ],
+  [
+   "Organization: Summit Peak Tooling Ltd.",
+   "Located_At",
+   "Location: 3094 Maple Avenue, Dayton, OH 45402"
+  ],
+  [
+   "Person: Luca Reyes",
+   "Employed_By",
+   "Organization: Summit Peak Tooling Ltd."
+  ],
+  [
+   "Person: Luca Reyes",
+   "Holds_Account",
+   "EmailAddress: lreyes@summitpeak.com"
+  ],
+  [
+   "Organization: Summit Peak Tooling Ltd.",
+   "Owns_Account",
+   "Account: lreyes@summitpeak.com"
+  ],
+  [
+   "Person: Sofia Lindqvist",
+   "Employed_By",
+   "Organization: Summit Peak Tooling Ltd."
+  ],
+  [
+   "Person: Sofia Lindqvist",
+   "Holds_Account",
+   "EmailAddress: sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "Organization: Summit Peak Tooling Ltd.",
+   "Owns_Account",
+   "Account: sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "Person: Sofia Lindqvist",
+   "Reports_To",
+   "Person: Maya Banerjee"
+  ],
+  [
+   "Person: Mei Brennan",
+   "Employed_By",
+   "Organization: Westmark Fabrication Group"
+  ],
+  [
+   "Person: Mei Brennan",
+   "Holds_Account",
+   "EmailAddress: mbrennan@westmark.com"
+  ],
+  [
+   "Organization: Westmark Fabrication Group",
+   "Owns_Account",
+   "Account: mbrennan@westmark.com"
+  ],
+  [
+   "Person: Felix Tanaka",
+   "Employed_By",
+   "Organization: Westmark Fabrication Group"
+  ],
+  [
+   "Person: Felix Tanaka",
+   "Holds_Account",
+   "EmailAddress: felix.tanaka@westmark.com"
+  ],
+  [
+   "Organization: Westmark Fabrication Group",
+   "Owns_Account",
+   "Account: felix.tanaka@westmark.com"
+  ],
+  [
+   "EmailAddress: sofia.lindqvist@summitpeak.com",
+   "addressValue",
+   "sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "EmailAddress: felix.tanaka@westmark.com",
+   "addressValue",
+   "felix.tanaka@westmark.com"
+  ],
+  [
+   "EmailAddress: mbanerjee@summitpeak.com",
+   "addressValue",
+   "mbanerjee@summitpeak.com"
+  ],
+  [
+   "EmailAccount: sofia.lindqvist@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "EmailAccount: felix.tanaka@westmark.com",
+   "emailAddress",
+   "EmailAddress: felix.tanaka@westmark.com"
+  ],
+  [
+   "EmailAccount: mbanerjee@summitpeak.com",
+   "emailAddress",
+   "EmailAddress: mbanerjee@summitpeak.com"
+  ],
+  [
+   "Person: Sofia Lindqvist",
+   "name",
+   "Sofia Lindqvist"
+  ],
+  [
+   "Person: Felix Tanaka",
+   "name",
+   "Felix Tanaka"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "name",
+   "Maya Banerjee"
+  ],
+  [
+   "Organization: Summit Peak Tooling Ltd.",
+   "name",
+   "Summit Peak Tooling Ltd."
+  ],
+  [
+   "Event: bank detail change",
+   "eventType",
+   "bank detail change"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "January 18, 2025 at 12:00 UTC"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "subject",
+   "Re: banking change request"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "sentTime",
+   "Sat, 18 Jan 2025 14:00:00 +0000"
+  ],
+  [
+   "Person: Sofia Lindqvist",
+   "Initiated",
+   "Event: bank detail change"
+  ],
+  [
+   "Person: Felix Tanaka",
+   "Authorized",
+   "Event: bank detail change"
+  ],
+  [
+   "Location: Summit Peak Tooling Ltd. office",
+   "street",
+   "Summit Peak Tooling Ltd. office"
+  ],
+  [
+   "Event: bank detail change",
+   "Located_At",
+   "Location: Summit Peak Tooling Ltd. office"
+  ],
+  [
+   "Person: Felix Tanaka",
+   "Communicated_With",
+   "Person: Maya Banerjee"
+  ],
+  [
+   "Person: Sofia Lindqvist",
+   "Holds_Account",
+   "EmailAddress: sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "Person: Felix Tanaka",
+   "Holds_Account",
+   "EmailAddress: felix.tanaka@westmark.com"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Holds_Account",
+   "EmailAddress: mbanerjee@summitpeak.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "from",
+   "EmailAddress: sofia.lindqvist@summitpeak.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: felix.tanaka@westmark.com"
+  ],
+  [
+   "EmailMessage: Re: banking change request",
+   "to",
+   "EmailAddress: mbanerjee@summitpeak.com"
+  ],
+  [
+   "Organization: Summit Peak Tooling Ltd.",
+   "Owns_Account",
+   "Account: 2314076727"
+  ],
+  [
+   "Account: 2314076727",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Account: 2314076727",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Organization: Westmark Fabrication Group",
+   "Owns_Account",
+   "Account: 9962441511"
+  ],
+  [
+   "Account: 9962441511",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Account: 9962441511",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Person: Maya Banerjee",
+   "Initiated",
+   "Event: payment approval"
+  ],
+  [
+   "Event: payment approval",
+   "startTime",
+   "February 14, 2025 at 11:10 UTC"
+  ],
+  [
+   "Person: Luca Reyes",
+   "Authorized",
+   "Event: payment approval"
+  ],
+  [
+   "Organization: Summit Peak Tooling Ltd.",
+   "Located_At",
+   "Location: Summit Peak Tooling Ltd.'s office"
+  ]
+ ],
+ "tokens": {
+  "prompt": 3250,
+  "completion": 1801
+ }
+}

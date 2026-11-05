@@ -1,0 +1,663 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Clara Abara\", \"Employed_By\", \"Organization: Westmark Logistics LLC\"],\n  [\"Person: Clara Abara\", \"Holds_Account\", \"EmailAddress: clara.abara@westmark.com\"],\n  [\"Person: Clara Abara\", \"Holds_Account\", \"EmailAccount: clara.abara@westmark.com\"],\n  [\"Organization: Westmark Logistics LLC\", \"Employed_By\", \"Person: Victor Mendes\"],\n  [\"Person: Victor Mendes\", \"Holds_Account\", \"EmailAddress: vmendes@westmark.com\"],\n  [\"Person: Victor Mendes\", \"Holds_Account\", \"EmailAccount: vmendes@westmark.com\"],\n  [\"Organization: Westmark Logistics LLC\", \"Employed_By\", \"Person: Samuel Reyes\"],\n  [\"Person: Samuel Reyes\", \"Holds_Account\", \"EmailAddress: sreyes@westmark.com\"],\n  [\"Person: Samuel Reyes\", \"Holds_Account\", \"EmailAccount: sreyes@westmark.com\"],\n  [\"Person: Julian Osei\", \"Employed_By\", \"Organization: Harborline Distribution LLC\"],\n  [\"Person: Julian Osei\", \"Holds_Account\", \"EmailAddress: julian.osei@harborline.com\"],\n  [\"Person: Julian Osei\", \"Holds_Account\", \"EmailAccount: julian.osei@harborline.com\"],\n  [\"Person: Luca Tanaka\", \"Employed_By\", \"Organization: Harborline Distribution LLC\"],\n  [\"Person: Luca Tanaka\", \"Holds_Account\", \"EmailAddress: luca.tanaka@harborline.com\"],\n  [\"Person: Luca Tanaka\", \"Holds_Account\", \"EmailAccount: luca.tanaka@harborline.com\"],\n  [\"Person: Victor Mendes\", \"Reports_To\", \"Person: Clara Abara\"],\n  [\"Organization: Westmark Logistics LLC\", \"Located_At\", \"Location: 122 Commerce Drive, Dayton, OH 45402\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Clara Abara",
+     "Employed_By",
+     "Organization: Westmark Logistics LLC"
+    ],
+    [
+     "Person: Clara Abara",
+     "Holds_Account",
+     "EmailAddress: clara.abara@westmark.com"
+    ],
+    [
+     "Person: Clara Abara",
+     "Holds_Account",
+     "EmailAccount: clara.abara@westmark.com"
+    ],
+    [
+     "Organization: Westmark Logistics LLC",
+     "Employed_By",
+     "Person: Victor Mendes"
+    ],
+    [
+     "Person: Victor Mendes",
+     "Holds_Account",
+     "EmailAddress: vmendes@westmark.com"
+    ],
+    [
+     "Person: Victor Mendes",
+     "Holds_Account",
+     "EmailAccount: vmendes@westmark.com"
+    ],
+    [
+     "Organization: Westmark Logistics LLC",
+     "Employed_By",
+     "Person: Samuel Reyes"
+    ],
+    [
+     "Person: Samuel Reyes",
+     "Holds_Account",
+     "EmailAddress: sreyes@westmark.com"
+    ],
+    [
+     "Person: Samuel Reyes",
+     "Holds_Account",
+     "EmailAccount: sreyes@westmark.com"
+    ],
+    [
+     "Person: Julian Osei",
+     "Employed_By",
+     "Organization: Harborline Distribution LLC"
+    ],
+    [
+     "Person: Julian Osei",
+     "Holds_Account",
+     "EmailAddress: julian.osei@harborline.com"
+    ],
+    [
+     "Person: Julian Osei",
+     "Holds_Account",
+     "EmailAccount: julian.osei@harborline.com"
+    ],
+    [
+     "Person: Luca Tanaka",
+     "Employed_By",
+     "Organization: Harborline Distribution LLC"
+    ],
+    [
+     "Person: Luca Tanaka",
+     "Holds_Account",
+     "EmailAddress: luca.tanaka@harborline.com"
+    ],
+    [
+     "Person: Luca Tanaka",
+     "Holds_Account",
+     "EmailAccount: luca.tanaka@harborline.com"
+    ],
+    [
+     "Person: Victor Mendes",
+     "Reports_To",
+     "Person: Clara Abara"
+    ],
+    [
+     "Organization: Westmark Logistics LLC",
+     "Located_At",
+     "Location: 122 Commerce Drive, Dayton, OH 45402"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 841,
+    "completion": 431
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: luca.tanaka@harborline.com\", \"addressValue\", \"luca.tanaka@harborline.com\"],\n  [\"EmailAddress: clara.abara@westmark.com\", \"addressValue\", \"clara.abara@westmark.com\"],\n  [\"EmailAddress: sreyes@westmark.com\", \"addressValue\", \"sreyes@westmark.com\"],\n  [\"EmailAccount: luca.tanaka@harborline.com\", \"emailAddress\", \"EmailAddress: luca.tanaka@harborline.com\"],\n  [\"EmailAccount: clara.abara@westmark.com\", \"emailAddress\", \"EmailAddress: clara.abara@westmark.com\"],\n  [\"EmailAccount: sreyes@westmark.com\", \"emailAddress\", \"EmailAddress: sreyes@westmark.com\"],\n  [\"Person: Luca Tanaka\", \"Holds_Account\", \"EmailAddress: luca.tanaka@harborline.com\"],\n  [\"Person: Clara Abara\", \"Holds_Account\", \"EmailAddress: clara.abara@westmark.com\"],\n  [\"Person: Samuel Reyes\", \"Holds_Account\", \"EmailAddress: sreyes@westmark.com\"],\n  [\"EmailMessage: Invoice 8337 follow-up\", \"subject\", \"Invoice 8337 follow-up\"],\n  [\"EmailMessage: Invoice 8337 follow-up\", \"sentTime\", \"Sat, 10 May 2025 18:15:00 +0000\"],\n  [\"EmailMessage: Invoice 8337 follow-up\", \"from\", \"EmailAddress: luca.tanaka@harborline.com\"],\n  [\"EmailMessage: Invoice 8337 follow-up\", \"to\", \"EmailAddress: clara.abara@westmark.com\"],\n  [\"EmailMessage: Invoice 8337 follow-up\", \"to\", \"EmailAddress: sreyes@westmark.com\"],\n  [\"Person: Luca Tanaka\", \"Communicated_With\", \"Person: Clara Abara\"],\n  [\"Person: Luca Tanaka\", \"Communicated_With\", \"Person: Samuel Reyes\"],\n  [\"Event: bank detail change\", \"startTime\", \"April 29, 2025 at 15:15 UTC\"],\n  [\"Event: bank detail change\", \"Initiated\", \"Person: Victor Mendes\"],\n  [\"Event: bank detail change\", \"Participated_In\", \"Person: Samuel Reyes\"],\n  [\"Event: bank detail change\", \"Located_At\", \"Location: Westmark Logistics LLC's office\"],\n  [\"Event: audit review\", \"startTime\", \"2 May 2025, 15:25 UTC\"],\n  [\"Event: audit review\", \"Initiated\", \"Person: Samuel Reyes\"],\n  [\"Event: invoice submission\", \"startTime\", \"May 10, 2025 at 16:15 UTC\"],\n  [\"Event: invoice submission\", \"Initiated\", \"Person: Luca Tanaka\"],\n  [\"Event: invoice submission\", \"Located_At\", \"Location: Westmark Logistics LLC office\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: luca.tanaka@harborline.com",
+     "addressValue",
+     "luca.tanaka@harborline.com"
+    ],
+    [
+     "EmailAddress: clara.abara@westmark.com",
+     "addressValue",
+     "clara.abara@westmark.com"
+    ],
+    [
+     "EmailAddress: sreyes@westmark.com",
+     "addressValue",
+     "sreyes@westmark.com"
+    ],
+    [
+     "EmailAccount: luca.tanaka@harborline.com",
+     "emailAddress",
+     "EmailAddress: luca.tanaka@harborline.com"
+    ],
+    [
+     "EmailAccount: clara.abara@westmark.com",
+     "emailAddress",
+     "EmailAddress: clara.abara@westmark.com"
+    ],
+    [
+     "EmailAccount: sreyes@westmark.com",
+     "emailAddress",
+     "EmailAddress: sreyes@westmark.com"
+    ],
+    [
+     "Person: Luca Tanaka",
+     "Holds_Account",
+     "EmailAddress: luca.tanaka@harborline.com"
+    ],
+    [
+     "Person: Clara Abara",
+     "Holds_Account",
+     "EmailAddress: clara.abara@westmark.com"
+    ],
+    [
+     "Person: Samuel Reyes",
+     "Holds_Account",
+     "EmailAddress: sreyes@westmark.com"
+    ],
+    [
+     "EmailMessage: Invoice 8337 follow-up",
+     "subject",
+     "Invoice 8337 follow-up"
+    ],
+    [
+     "EmailMessage: Invoice 8337 follow-up",
+     "sentTime",
+     "Sat, 10 May 2025 18:15:00 +0000"
+    ],
+    [
+     "EmailMessage: Invoice 8337 follow-up",
+     "from",
+     "EmailAddress: luca.tanaka@harborline.com"
+    ],
+    [
+     "EmailMessage: Invoice 8337 follow-up",
+     "to",
+     "EmailAddress: clara.abara@westmark.com"
+    ],
+    [
+     "EmailMessage: Invoice 8337 follow-up",
+     "to",
+     "EmailAddress: sreyes@westmark.com"
+    ],
+    [
+     "Person: Luca Tanaka",
+     "Communicated_With",
+     "Person: Clara Abara"
+    ],
+    [
+     "Person: Luca Tanaka",
+     "Communicated_With",
+     "Person: Samuel Reyes"
+    ],
+    [
+     "Event: bank detail change",
+     "startTime",
+     "April 29, 2025 at 15:15 UTC"
+    ],
+    [
+     "Event: bank detail change",
+     "Initiated",
+     "Person: Victor Mendes"
+    ],
+    [
+     "Event: bank detail change",
+     "Participated_In",
+     "Person: Samuel Reyes"
+    ],
+    [
+     "Event: bank detail change",
+     "Located_At",
+     "Location: Westmark Logistics LLC's office"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "2 May 2025, 15:25 UTC"
+    ],
+    [
+     "Event: audit review",
+     "Initiated",
+     "Person: Samuel Reyes"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "May 10, 2025 at 16:15 UTC"
+    ],
+    [
+     "Event: invoice submission",
+     "Initiated",
+     "Person: Luca Tanaka"
+    ],
+    [
+     "Event: invoice submission",
+     "Located_At",
+     "Location: Westmark Logistics LLC office"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 876,
+    "completion": 682
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"Organization: Westmark Logistics LLC\", \"Owns_Account\", \"Account: 3677842631\"],\n  [\"Account: 3677842631\", \"accountType\", \"ApplicationAccount\"],\n  [\"Account: 3677842631\", \"accountIdentifier\", \"3677842631\"],\n  [\"Organization: First Harbor Bank\", \"accountIssuer\", \"Account: 3677842631\"],\n  [\"Organization: Harborline Distribution LLC\", \"Owns_Account\", \"Account: 3590090363\"],\n  [\"Account: 3590090363\", \"accountType\", \"ApplicationAccount\"],\n  [\"Account: 3590090363\", \"accountIdentifier\", \"3590090363\"],\n  [\"Organization: First Harbor Bank\", \"accountIssuer\", \"Account: 3590090363\"],\n  [\"Person: Samuel Reyes\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"2 May 2025, 11:25 UTC\"],\n  [\"Event: wire transfer\", \"eventType\", \"wire transfer\"],\n  [\"Organization: Westmark Logistics LLC\", \"Located_At\", \"Location: Westmark Logistics LLC office\"],\n  [\"Location: Westmark Logistics LLC office\", \"street\", \"Westmark Logistics LLC office\"],\n  [\"Person: Luca Tanaka\", \"Initiated\", \"Event: refund request\"],\n  [\"Event: refund request\", \"startTime\", \"May 6, 2025 at 15:45 UTC\"],\n  [\"Event: refund request\", \"eventType\", \"refund request\"],\n  [\"Person: Samuel Reyes\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"May 21, 2025 at 17:30 UTC\"],\n  [\"Event: account reconciliation\", \"eventType\", \"account reconciliation\"],\n  [\"Organization: Westmark Logistics LLC\", \"Located_At\", \"Location: Westmark Logistics LLC office\"]\n]\n```",
+   "facts": [
+    [
+     "Organization: Westmark Logistics LLC",
+     "Owns_Account",
+     "Account: 3677842631"
+    ],
+    [
+     "Account: 3677842631",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Account: 3677842631",
+     "accountIdentifier",
+     "3677842631"
+    ],
+    [
+     "Organization: First Harbor Bank",
+     "accountIssuer",
+     "Account: 3677842631"
+    ],
+    [
+     "Organization: Harborline Distribution LLC",
+     "Owns_Account",
+     "Account: 3590090363"
+    ],
+    [
+     "Account: 3590090363",
+     "accountType",
+     "ApplicationAccount"
+    ],
+    [
+     "Account: 3590090363",
+     "accountIdentifier",
+     "3590090363"
+    ],
+    [
+     "Organization: First Harbor Bank",
+     "accountIssuer",
+     "Account: 3590090363"
+    ],
+    [
+     "Person: Samuel Reyes",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "2 May 2025, 11:25 UTC"
+    ],
+    [
+     "Event: wire transfer",
+     "eventType",
+     "wire transfer"
+    ],
+    [
+     "Organization: Westmark Logistics LLC",
+     "Located_At",
+     "Location: Westmark Logistics LLC office"
+    ],
+    [
+     "Location: Westmark Logistics LLC office",
+     "street",
+     "Westmark Logistics LLC office"
+    ],
+    [
+     "Person: Luca Tanaka",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "May 6, 2025 at 15:45 UTC"
+    ],
+    [
+     "Event: refund request",
+     "eventType",
+     "refund request"
+    ],
+    [
+     "Person: Samuel Reyes",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "May 21, 2025 at 17:30 UTC"
+    ],
+    [
+     "Event: account reconciliation",
+     "eventType",
+     "account reconciliation"
+    ],
+    [
+     "Organization: Westmark Logistics LLC",
+     "Located_At",
+     "Location: Westmark Logistics LLC office"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 842,
+    "completion": 497
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Clara Abara",
+   "Employed_By",
+   "Organization: Westmark Logistics LLC"
+  ],
+  [
+   "Person: Clara Abara",
+   "Holds_Account",
+   "EmailAddress: clara.abara@westmark.com"
+  ],
+  [
+   "Person: Clara Abara",
+   "Holds_Account",
+   "EmailAccount: clara.abara@westmark.com"
+  ],
+  [
+   "Organization: Westmark Logistics LLC",
+   "Employed_By",
+   "Person: Victor Mendes"
+  ],
+  [
+   "Person: Victor Mendes",
+   "Holds_Account",
+   "EmailAddress: vmendes@westmark.com"
+  ],
+  [
+   "Person: Victor Mendes",
+   "Holds_Account",
+   "EmailAccount: vmendes@westmark.com"
+  ],
+  [
+   "Organization: Westmark Logistics LLC",
+   "Employed_By",
+   "Person: Samuel Reyes"
+  ],
+  [
+   "Person: Samuel Reyes",
+   "Holds_Account",
+   "EmailAddress: sreyes@westmark.com"
+  ],
+  [
+   "Person: Samuel Reyes",
+   "Holds_Account",
+   "EmailAccount: sreyes@westmark.com"
+  ],
+  [
+   "Person: Julian Osei",
+   "Employed_By",
+   "Organization: Harborline Distribution LLC"
+  ],
+  [
+   "Person: Julian Osei",
+   "Holds_Account",
+   "EmailAddress: julian.osei@harborline.com"
+  ],
+  [
+   "Person: Julian Osei",
+   "Holds_Account",
+   "EmailAccount: julian.osei@harborline.com"
+  ],
+  [
+   "Person: Luca Tanaka",
+   "Employed_By",
+   "Organization: Harborline Distribution LLC"
+  ],
+  [
+   "Person: Luca Tanaka",
+   "Holds_Account",
+   "EmailAddress: luca.tanaka@harborline.com"
+  ],
+  [
+   "Person: Luca Tanaka",
+   "Holds_Account",
+   "EmailAccount: luca.tanaka@harborline.com"
+  ],
+  [
+   "Person: Victor Mendes",
+   "Reports_To",
+   "Person: Clara Abara"
+  ],
+  [
+   "Organization: Westmark Logistics LLC",
+   "Located_At",
+   "Location: 122 Commerce Drive, Dayton, OH 45402"
+  ],
+  [
+   "EmailAddress: luca.tanaka@harborline.com",
+   "addressValue",
+   "luca.tanaka@harborline.com"
+  ],
+  [
+   "EmailAddress: clara.abara@westmark.com",
+   "addressValue",
+   "clara.abara@westmark.com"
+  ],
+  [
+   "EmailAddress: sreyes@westmark.com",
+   "addressValue",
+   "sreyes@westmark.com"
+  ],
+  [
+   "EmailAccount: luca.tanaka@harborline.com",
+   "emailAddress",
+   "EmailAddress: luca.tanaka@harborline.com"
+  ],
+  [
+   "EmailAccount: clara.abara@westmark.com",
+   "emailAddress",
+   "EmailAddress: clara.abara@westmark.com"
+  ],
+  [
+   "EmailAccount: sreyes@westmark.com",
+   "emailAddress",
+   "EmailAddress: sreyes@westmark.com"
+  ],
+  [
+   "Person: Luca Tanaka",
+   "Holds_Account",
+   "EmailAddress: luca.tanaka@harborline.com"
+  ],
+  [
+   "Person: Clara Abara",
+   "Holds_Account",
+   "EmailAddress: clara.abara@westmark.com"
+  ],
+  [
+   "Person: Samuel Reyes",
+   "Holds_Account",
+   "EmailAddress: sreyes@westmark.com"
+  ],
+  [
+   "EmailMessage: Invoice 8337 follow-up",
+   "subject",
+   "Invoice 8337 follow-up"
+  ],
+  [
+   "EmailMessage: Invoice 8337 follow-up",
+   "sentTime",
+   "Sat, 10 May 2025 18:15:00 +0000"
+  ],
+  [
+   "EmailMessage: Invoice 8337 follow-up",
+   "from",
+   "EmailAddress: luca.tanaka@harborline.com"
+  ],
+  [
+   "EmailMessage: Invoice 8337 follow-up",
+   "to",
+   "EmailAddress: clara.abara@westmark.com"
+  ],
+  [
+   "EmailMessage: Invoice 8337 follow-up",
+   "to",
+   "EmailAddress: sreyes@westmark.com"
+  ],
+  [
+   "Person: Luca Tanaka",
+   "Communicated_With",
+   "Person: Clara Abara"
+  ],
+  [
+   "Person: Luca Tanaka",
+   "Communicated_With",
+   "Person: Samuel Reyes"
+  ],
+  [
+   "Event: bank detail change",
+   "startTime",
+   "April 29, 2025 at 15:15 UTC"
+  ],
+  [
+   "Event: bank detail change",
+   "Initiated",
+   "Person: Victor Mendes"
+  ],
+  [
+   "Event: bank detail change",
+   "Participated_In",
+   "Person: Samuel Reyes"
+  ],
+  [
+   "Event: bank detail change",
+   "Located_At",
+   "Location: Westmark Logistics LLC's office"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "2 May 2025, 15:25 UTC"
+  ],
+  [
+   "Event: audit review",
+   "Initiated",
+   "Person: Samuel Reyes"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "May 10, 2025 at 16:15 UTC"
+  ],
+  [
+   "Event: invoice submission",
+   "Initiated",
+   "Person: Luca Tanaka"
+  ],
+  [
+   "Event: invoice submission",
+   "Located_At",
+   "Location: Westmark Logistics LLC office"
+  ],
+  [
+   "Organization: Westmark Logistics LLC",
+   "Owns_Account",
+   "Account: 3677842631"
+  ],
+  [
+   "Account: 3677842631",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Account: 3677842631",
+   "accountIdentifier",
+   "3677842631"
+  ],
+  [
+   "Organization: First Harbor Bank",
+   "accountIssuer",
+   "Account: 3677842631"
+  ],
+  [
+   "Organization: Harborline Distribution LLC",
+   "Owns_Account",
+   "Account: 3590090363"
+  ],
+  [
+   "Account: 3590090363",
+   "accountType",
+   "ApplicationAccount"
+  ],
+  [
+   "Account: 3590090363",
+   "accountIdentifier",
+   "3590090363"
+  ],
+  [
+   "Organization: First Harbor Bank",
+   "accountIssuer",
+   "Account: 3590090363"
+  ],
+  [
+   "Person: Samuel Reyes",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "2 May 2025, 11:25 UTC"
+  ],
+  [
+   "Event: wire transfer",
+   "eventType",
+   "wire transfer"
+  ],
+  [
+   "Organization: Westmark Logistics LLC",
+   "Located_At",
+   "Location: Westmark Logistics LLC office"
+  ],
+  [
+   "Location: Westmark Logistics LLC office",
+   "street",
+   "Westmark Logistics LLC office"
+  ],
+  [
+   "Person: Luca Tanaka",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "May 6, 2025 at 15:45 UTC"
+  ],
+  [
+   "Event: refund request",
+   "eventType",
+   "refund request"
+  ],
+  [
+   "Person: Samuel Reyes",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "May 21, 2025 at 17:30 UTC"
+  ],
+  [
+   "Event: account reconciliation",
+   "eventType",
+   "account reconciliation"
+  ],
+  [
+   "Organization: Westmark Logistics LLC",
+   "Located_At",
+   "Location: Westmark Logistics LLC office"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2559,
+  "completion": 1610
+ }
+}

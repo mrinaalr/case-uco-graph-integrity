@@ -1,0 +1,532 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Arjun Quinn\", \"Employed_By\", \"Organization: Oakhaven Analytics Inc.\"],\n  [\"Person: Arjun Quinn\", \"Holds_Account\", \"EmailAddress: arjun.quinn@oakhaven.com\"],\n  [\"Person: Kofi Tanaka\", \"Employed_By\", \"Organization: Oakhaven Analytics Inc.\"],\n  [\"Person: Kofi Tanaka\", \"Holds_Account\", \"EmailAddress: ktanaka@oakhaven.com\"],\n  [\"Person: Grace Novak\", \"Employed_By\", \"Organization: Cedar Ridge Consulting Group\"],\n  [\"Person: Grace Novak\", \"Holds_Account\", \"EmailAddress: gnovak@cedarridge.com\"],\n  [\"Organization: Oakhaven Analytics Inc.\", \"Located_At\", \"Location: 4148 Main Street, Tucson, AZ 85701\"],\n  [\"Organization: Cedar Ridge Consulting Group\", \"Located_At\", \"Location: 8959 Commerce Drive, Boise, ID 83702\"],\n  [\"Organization: Oakhaven Analytics Inc.\", \"Owns_Account\", \"Account: 8980197646\"],\n  [\"Account: 8980197646\", \"accountType\", \"Lakeshore Savings Bank\"],\n  [\"Organization: Cedar Ridge Consulting Group\", \"Owns_Account\", \"Account: 5930069189\"],\n  [\"Account: 5930069189\", \"accountType\", \"Lakeshore Savings Bank\"],\n  [\"Person: Kofi Tanaka\", \"Owns_Account\", \"Account: 7318578830\"],\n  [\"Account: 7318578830\", \"accountType\", \"Lakeshore Savings Bank\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Arjun Quinn",
+     "Employed_By",
+     "Organization: Oakhaven Analytics Inc."
+    ],
+    [
+     "Person: Arjun Quinn",
+     "Holds_Account",
+     "EmailAddress: arjun.quinn@oakhaven.com"
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Employed_By",
+     "Organization: Oakhaven Analytics Inc."
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Holds_Account",
+     "EmailAddress: ktanaka@oakhaven.com"
+    ],
+    [
+     "Person: Grace Novak",
+     "Employed_By",
+     "Organization: Cedar Ridge Consulting Group"
+    ],
+    [
+     "Person: Grace Novak",
+     "Holds_Account",
+     "EmailAddress: gnovak@cedarridge.com"
+    ],
+    [
+     "Organization: Oakhaven Analytics Inc.",
+     "Located_At",
+     "Location: 4148 Main Street, Tucson, AZ 85701"
+    ],
+    [
+     "Organization: Cedar Ridge Consulting Group",
+     "Located_At",
+     "Location: 8959 Commerce Drive, Boise, ID 83702"
+    ],
+    [
+     "Organization: Oakhaven Analytics Inc.",
+     "Owns_Account",
+     "Account: 8980197646"
+    ],
+    [
+     "Account: 8980197646",
+     "accountType",
+     "Lakeshore Savings Bank"
+    ],
+    [
+     "Organization: Cedar Ridge Consulting Group",
+     "Owns_Account",
+     "Account: 5930069189"
+    ],
+    [
+     "Account: 5930069189",
+     "accountType",
+     "Lakeshore Savings Bank"
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Owns_Account",
+     "Account: 7318578830"
+    ],
+    [
+     "Account: 7318578830",
+     "accountType",
+     "Lakeshore Savings Bank"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 894,
+    "completion": 405
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: gnovak@cedarridge.com\", \"addressValue\", \"gnovak@cedarridge.com\"],\n  [\"EmailAddress: arjun.quinn@oakhaven.com\", \"addressValue\", \"arjun.quinn@oakhaven.com\"],\n  [\"EmailAddress: ktanaka@oakhaven.com\", \"addressValue\", \"ktanaka@oakhaven.com\"],\n  [\"EmailAccount: gnovak@cedarridge.com\", \"emailAddress\", \"EmailAddress: gnovak@cedarridge.com\"],\n  [\"EmailAccount: arjun.quinn@oakhaven.com\", \"emailAddress\", \"EmailAddress: arjun.quinn@oakhaven.com\"],\n  [\"EmailAccount: ktanaka@oakhaven.com\", \"emailAddress\", \"EmailAddress: ktanaka@oakhaven.com\"],\n  [\"Person: Grace Novak\", \"Holds_Account\", \"EmailAddress: gnovak@cedarridge.com\"],\n  [\"Person: Grace Novak\", \"Holds_Account\", \"EmailAccount: gnovak@cedarridge.com\"],\n  [\"Person: Arjun Quinn\", \"Holds_Account\", \"EmailAddress: arjun.quinn@oakhaven.com\"],\n  [\"Person: Arjun Quinn\", \"Holds_Account\", \"EmailAccount: arjun.quinn@oakhaven.com\"],\n  [\"Person: Kofi Tanaka\", \"Holds_Account\", \"EmailAddress: ktanaka@oakhaven.com\"],\n  [\"Person: Kofi Tanaka\", \"Holds_Account\", \"EmailAccount: ktanaka@oakhaven.com\"],\n  [\"EmailMessage: Audit prep items\", \"subject\", \"Audit prep items\"],\n  [\"EmailMessage: Audit prep items\", \"sentTime\", \"Sun, 21 Sep 2025 19:10:00 +0000\"],\n  [\"EmailMessage: Audit prep items\", \"from\", \"EmailAddress: gnovak@cedarridge.com\"],\n  [\"EmailMessage: Audit prep items\", \"to\", \"EmailAddress: arjun.quinn@oakhaven.com\"],\n  [\"EmailMessage: Audit prep items\", \"to\", \"EmailAddress: ktanaka@oakhaven.com\"],\n  [\"Event: payment approval\", \"eventType\", \"payment approval\"],\n  [\"Event: payment approval\", \"startTime\", \"August 23, 2025 at 15:25 UTC\"],\n  [\"Event: expense reimbursement\", \"eventType\", \"expense reimbursement\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"August 29, 2025 at 17:45 UTC\"],\n  [\"Event: account reconciliation\", \"eventType\", \"account reconciliation\"],\n  [\"Event: account reconciliation\", \"startTime\", \"September 11, 2025 at 09:45 UTC\"],\n  [\"Event: contract amendment\", \"eventType\", \"contract amendment\"],\n  [\"Event: contract amendment\", \"startTime\", \"September 14, 2025 at 09:15 UTC\"],\n  [\"Event: wire transfer\", \"eventType\", \"wire transfer\"],\n  [\"Event: wire transfer\", \"startTime\", \"19 September 2025, 10:15 UTC\"],\n  [\"Event: audit review\", \"eventType\", \"audit review\"],\n  [\"Event: audit review\", \"startTime\", \"21 September 2025, 17:10 UTC\"],\n  [\"Person: Grace Novak\", \"Initiated\", \"Event: payment approval\"],\n  [\"Person: Kofi Tanaka\", \"Participated_In\", \"Event: payment approval\"],\n  [\"Person: Grace Novak\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Person: Arjun Quinn\", \"Initiated\", \"Event: account reconciliation\"],\n  [\"Person: Kofi Tanaka\", \"Initiated\", \"Event: contract amendment\"],\n  [\"Person: Kofi Tanaka\", \"Initiated\", \"Event: wire transfer\"],\n  [\"Person: Kofi Tanaka\", \"Initiated\", \"Event: audit review\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: gnovak@cedarridge.com",
+     "addressValue",
+     "gnovak@cedarridge.com"
+    ],
+    [
+     "EmailAddress: arjun.quinn@oakhaven.com",
+     "addressValue",
+     "arjun.quinn@oakhaven.com"
+    ],
+    [
+     "EmailAddress: ktanaka@oakhaven.com",
+     "addressValue",
+     "ktanaka@oakhaven.com"
+    ],
+    [
+     "EmailAccount: gnovak@cedarridge.com",
+     "emailAddress",
+     "EmailAddress: gnovak@cedarridge.com"
+    ],
+    [
+     "EmailAccount: arjun.quinn@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: arjun.quinn@oakhaven.com"
+    ],
+    [
+     "EmailAccount: ktanaka@oakhaven.com",
+     "emailAddress",
+     "EmailAddress: ktanaka@oakhaven.com"
+    ],
+    [
+     "Person: Grace Novak",
+     "Holds_Account",
+     "EmailAddress: gnovak@cedarridge.com"
+    ],
+    [
+     "Person: Grace Novak",
+     "Holds_Account",
+     "EmailAccount: gnovak@cedarridge.com"
+    ],
+    [
+     "Person: Arjun Quinn",
+     "Holds_Account",
+     "EmailAddress: arjun.quinn@oakhaven.com"
+    ],
+    [
+     "Person: Arjun Quinn",
+     "Holds_Account",
+     "EmailAccount: arjun.quinn@oakhaven.com"
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Holds_Account",
+     "EmailAddress: ktanaka@oakhaven.com"
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Holds_Account",
+     "EmailAccount: ktanaka@oakhaven.com"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "subject",
+     "Audit prep items"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "sentTime",
+     "Sun, 21 Sep 2025 19:10:00 +0000"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "from",
+     "EmailAddress: gnovak@cedarridge.com"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "to",
+     "EmailAddress: arjun.quinn@oakhaven.com"
+    ],
+    [
+     "EmailMessage: Audit prep items",
+     "to",
+     "EmailAddress: ktanaka@oakhaven.com"
+    ],
+    [
+     "Event: payment approval",
+     "eventType",
+     "payment approval"
+    ],
+    [
+     "Event: payment approval",
+     "startTime",
+     "August 23, 2025 at 15:25 UTC"
+    ],
+    [
+     "Event: expense reimbursement",
+     "eventType",
+     "expense reimbursement"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "August 29, 2025 at 17:45 UTC"
+    ],
+    [
+     "Event: account reconciliation",
+     "eventType",
+     "account reconciliation"
+    ],
+    [
+     "Event: account reconciliation",
+     "startTime",
+     "September 11, 2025 at 09:45 UTC"
+    ],
+    [
+     "Event: contract amendment",
+     "eventType",
+     "contract amendment"
+    ],
+    [
+     "Event: contract amendment",
+     "startTime",
+     "September 14, 2025 at 09:15 UTC"
+    ],
+    [
+     "Event: wire transfer",
+     "eventType",
+     "wire transfer"
+    ],
+    [
+     "Event: wire transfer",
+     "startTime",
+     "19 September 2025, 10:15 UTC"
+    ],
+    [
+     "Event: audit review",
+     "eventType",
+     "audit review"
+    ],
+    [
+     "Event: audit review",
+     "startTime",
+     "21 September 2025, 17:10 UTC"
+    ],
+    [
+     "Person: Grace Novak",
+     "Initiated",
+     "Event: payment approval"
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Participated_In",
+     "Event: payment approval"
+    ],
+    [
+     "Person: Grace Novak",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Person: Arjun Quinn",
+     "Initiated",
+     "Event: account reconciliation"
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Initiated",
+     "Event: contract amendment"
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Initiated",
+     "Event: wire transfer"
+    ],
+    [
+     "Person: Kofi Tanaka",
+     "Initiated",
+     "Event: audit review"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 937,
+    "completion": 899
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Arjun Quinn",
+   "Employed_By",
+   "Organization: Oakhaven Analytics Inc."
+  ],
+  [
+   "Person: Arjun Quinn",
+   "Holds_Account",
+   "EmailAddress: arjun.quinn@oakhaven.com"
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Employed_By",
+   "Organization: Oakhaven Analytics Inc."
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Holds_Account",
+   "EmailAddress: ktanaka@oakhaven.com"
+  ],
+  [
+   "Person: Grace Novak",
+   "Employed_By",
+   "Organization: Cedar Ridge Consulting Group"
+  ],
+  [
+   "Person: Grace Novak",
+   "Holds_Account",
+   "EmailAddress: gnovak@cedarridge.com"
+  ],
+  [
+   "Organization: Oakhaven Analytics Inc.",
+   "Located_At",
+   "Location: 4148 Main Street, Tucson, AZ 85701"
+  ],
+  [
+   "Organization: Cedar Ridge Consulting Group",
+   "Located_At",
+   "Location: 8959 Commerce Drive, Boise, ID 83702"
+  ],
+  [
+   "Organization: Oakhaven Analytics Inc.",
+   "Owns_Account",
+   "Account: 8980197646"
+  ],
+  [
+   "Account: 8980197646",
+   "accountType",
+   "Lakeshore Savings Bank"
+  ],
+  [
+   "Organization: Cedar Ridge Consulting Group",
+   "Owns_Account",
+   "Account: 5930069189"
+  ],
+  [
+   "Account: 5930069189",
+   "accountType",
+   "Lakeshore Savings Bank"
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Owns_Account",
+   "Account: 7318578830"
+  ],
+  [
+   "Account: 7318578830",
+   "accountType",
+   "Lakeshore Savings Bank"
+  ],
+  [
+   "EmailAddress: gnovak@cedarridge.com",
+   "addressValue",
+   "gnovak@cedarridge.com"
+  ],
+  [
+   "EmailAddress: arjun.quinn@oakhaven.com",
+   "addressValue",
+   "arjun.quinn@oakhaven.com"
+  ],
+  [
+   "EmailAddress: ktanaka@oakhaven.com",
+   "addressValue",
+   "ktanaka@oakhaven.com"
+  ],
+  [
+   "EmailAccount: gnovak@cedarridge.com",
+   "emailAddress",
+   "EmailAddress: gnovak@cedarridge.com"
+  ],
+  [
+   "EmailAccount: arjun.quinn@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: arjun.quinn@oakhaven.com"
+  ],
+  [
+   "EmailAccount: ktanaka@oakhaven.com",
+   "emailAddress",
+   "EmailAddress: ktanaka@oakhaven.com"
+  ],
+  [
+   "Person: Grace Novak",
+   "Holds_Account",
+   "EmailAddress: gnovak@cedarridge.com"
+  ],
+  [
+   "Person: Grace Novak",
+   "Holds_Account",
+   "EmailAccount: gnovak@cedarridge.com"
+  ],
+  [
+   "Person: Arjun Quinn",
+   "Holds_Account",
+   "EmailAddress: arjun.quinn@oakhaven.com"
+  ],
+  [
+   "Person: Arjun Quinn",
+   "Holds_Account",
+   "EmailAccount: arjun.quinn@oakhaven.com"
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Holds_Account",
+   "EmailAddress: ktanaka@oakhaven.com"
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Holds_Account",
+   "EmailAccount: ktanaka@oakhaven.com"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "subject",
+   "Audit prep items"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "sentTime",
+   "Sun, 21 Sep 2025 19:10:00 +0000"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "from",
+   "EmailAddress: gnovak@cedarridge.com"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "to",
+   "EmailAddress: arjun.quinn@oakhaven.com"
+  ],
+  [
+   "EmailMessage: Audit prep items",
+   "to",
+   "EmailAddress: ktanaka@oakhaven.com"
+  ],
+  [
+   "Event: payment approval",
+   "eventType",
+   "payment approval"
+  ],
+  [
+   "Event: payment approval",
+   "startTime",
+   "August 23, 2025 at 15:25 UTC"
+  ],
+  [
+   "Event: expense reimbursement",
+   "eventType",
+   "expense reimbursement"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "August 29, 2025 at 17:45 UTC"
+  ],
+  [
+   "Event: account reconciliation",
+   "eventType",
+   "account reconciliation"
+  ],
+  [
+   "Event: account reconciliation",
+   "startTime",
+   "September 11, 2025 at 09:45 UTC"
+  ],
+  [
+   "Event: contract amendment",
+   "eventType",
+   "contract amendment"
+  ],
+  [
+   "Event: contract amendment",
+   "startTime",
+   "September 14, 2025 at 09:15 UTC"
+  ],
+  [
+   "Event: wire transfer",
+   "eventType",
+   "wire transfer"
+  ],
+  [
+   "Event: wire transfer",
+   "startTime",
+   "19 September 2025, 10:15 UTC"
+  ],
+  [
+   "Event: audit review",
+   "eventType",
+   "audit review"
+  ],
+  [
+   "Event: audit review",
+   "startTime",
+   "21 September 2025, 17:10 UTC"
+  ],
+  [
+   "Person: Grace Novak",
+   "Initiated",
+   "Event: payment approval"
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Participated_In",
+   "Event: payment approval"
+  ],
+  [
+   "Person: Grace Novak",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Person: Arjun Quinn",
+   "Initiated",
+   "Event: account reconciliation"
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Initiated",
+   "Event: contract amendment"
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Initiated",
+   "Event: wire transfer"
+  ],
+  [
+   "Person: Kofi Tanaka",
+   "Initiated",
+   "Event: audit review"
+  ]
+ ],
+ "tokens": {
+  "prompt": 1831,
+  "completion": 1304
+ }
+}

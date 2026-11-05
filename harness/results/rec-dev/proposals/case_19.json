@@ -1,0 +1,633 @@
+{
+ "docs": [
+  {
+   "doc": "D1",
+   "reply": "```json\n[\n  [\"Person: Ruth Abara\", \"Employed_By\", \"Organization: Bluegate Packaging Group\"],\n  [\"Person: Ruth Abara\", \"Holds_Account\", \"EmailAddress: ruth.abara@bluegate.com\"],\n  [\"Person: Nadia Okafor\", \"Employed_By\", \"Organization: Bluegate Packaging Group\"],\n  [\"Person: Nadia Okafor\", \"Holds_Account\", \"EmailAddress: nokafor@bluegate.com\"],\n  [\"Person: Wesley Fischer\", \"Employed_By\", \"Organization: Northwind Supply Inc.\"],\n  [\"Person: Wesley Fischer\", \"Holds_Account\", \"EmailAddress: wfischer@northwind.com\"],\n  [\"Person: Nadia Okafor\", \"Reports_To\", \"Person: Ruth Abara\"],\n  [\"Organization: Bluegate Packaging Group\", \"Located_At\", \"Location: 7048 Main Street, Madison, WI 53703\"],\n  [\"Organization: Bluegate Packaging Group\", \"Owns_Account\", \"Account: 1767259990\"],\n  [\"Account: 1767259990\", \"accountType\", \"Bank\"],\n  [\"Account: 1767259990\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Account: 3201677702\", \"accountType\", \"Bank\"],\n  [\"Account: 3201677702\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Organization: Northwind Supply Inc.\", \"Owns_Account\", \"Account: 3201677702\"],\n  [\"Account: 7308269702\", \"accountType\", \"Bank\"],\n  [\"Account: 7308269702\", \"accountIssuer\", \"Organization: First Harbor Bank\"],\n  [\"Person: Ruth Abara\", \"Owns_Account\", \"Account: 7308269702\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Ruth Abara",
+     "Employed_By",
+     "Organization: Bluegate Packaging Group"
+    ],
+    [
+     "Person: Ruth Abara",
+     "Holds_Account",
+     "EmailAddress: ruth.abara@bluegate.com"
+    ],
+    [
+     "Person: Nadia Okafor",
+     "Employed_By",
+     "Organization: Bluegate Packaging Group"
+    ],
+    [
+     "Person: Nadia Okafor",
+     "Holds_Account",
+     "EmailAddress: nokafor@bluegate.com"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Employed_By",
+     "Organization: Northwind Supply Inc."
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Holds_Account",
+     "EmailAddress: wfischer@northwind.com"
+    ],
+    [
+     "Person: Nadia Okafor",
+     "Reports_To",
+     "Person: Ruth Abara"
+    ],
+    [
+     "Organization: Bluegate Packaging Group",
+     "Located_At",
+     "Location: 7048 Main Street, Madison, WI 53703"
+    ],
+    [
+     "Organization: Bluegate Packaging Group",
+     "Owns_Account",
+     "Account: 1767259990"
+    ],
+    [
+     "Account: 1767259990",
+     "accountType",
+     "Bank"
+    ],
+    [
+     "Account: 1767259990",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Account: 3201677702",
+     "accountType",
+     "Bank"
+    ],
+    [
+     "Account: 3201677702",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Organization: Northwind Supply Inc.",
+     "Owns_Account",
+     "Account: 3201677702"
+    ],
+    [
+     "Account: 7308269702",
+     "accountType",
+     "Bank"
+    ],
+    [
+     "Account: 7308269702",
+     "accountIssuer",
+     "Organization: First Harbor Bank"
+    ],
+    [
+     "Person: Ruth Abara",
+     "Owns_Account",
+     "Account: 7308269702"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 863,
+    "completion": 454
+   }
+  },
+  {
+   "doc": "D2",
+   "reply": "```json\n[\n  [\"EmailAddress: nokafor@bluegate.com\", \"addressValue\", \"nokafor@bluegate.com\"],\n  [\"EmailAddress: ruth.abara@bluegate.com\", \"addressValue\", \"ruth.abara@bluegate.com\"],\n  [\"EmailAddress: wfischer@northwind.com\", \"addressValue\", \"wfischer@northwind.com\"],\n  [\"EmailAccount: nokafor@bluegate.com\", \"emailAddress\", \"EmailAddress: nokafor@bluegate.com\"],\n  [\"EmailAccount: ruth.abara@bluegate.com\", \"emailAddress\", \"EmailAddress: ruth.abara@bluegate.com\"],\n  [\"EmailAccount: wfischer@northwind.com\", \"emailAddress\", \"EmailAddress: wfischer@northwind.com\"],\n  [\"EmailMessage: Urgent: payment timing\", \"subject\", \"Urgent: payment timing\"],\n  [\"EmailMessage: Urgent: payment timing\", \"sentTime\", \"Mon, 25 Aug 2025 19:15:00 +0000\"],\n  [\"EmailMessage: Urgent: payment timing\", \"from\", \"EmailAddress: nokafor@bluegate.com\"],\n  [\"EmailMessage: Urgent: payment timing\", \"to\", \"EmailAddress: ruth.abara@bluegate.com\"],\n  [\"EmailMessage: Urgent: payment timing\", \"to\", \"EmailAddress: wfischer@northwind.com\"],\n  [\"Person: Nadia Okafor\", \"Holds_Account\", \"EmailAddress: nokafor@bluegate.com\"],\n  [\"Person: Nadia Okafor\", \"Holds_Account\", \"EmailAccount: nokafor@bluegate.com\"],\n  [\"Person: Ruth Abara\", \"Holds_Account\", \"EmailAddress: ruth.abara@bluegate.com\"],\n  [\"Person: Ruth Abara\", \"Holds_Account\", \"EmailAccount: ruth.abara@bluegate.com\"],\n  [\"Person: Wesley Fischer\", \"Holds_Account\", \"EmailAddress: wfischer@northwind.com\"],\n  [\"Person: Wesley Fischer\", \"Holds_Account\", \"EmailAccount: wfischer@northwind.com\"],\n  [\"Person: Nadia Okafor\", \"Communicated_With\", \"Person: Wesley Fischer\"],\n  [\"Event: expense reimbursement\", \"startTime\", \"July 29, 2025 at 15:25 UTC\"],\n  [\"Event: invoice submission\", \"startTime\", \"August 11, 2025 at 13:15 UTC\"],\n  [\"Event: refund request\", \"startTime\", \"25 August 2025, 17:15 UTC\"],\n  [\"Person: Wesley Fischer\", \"Initiated\", \"Event: expense reimbursement\"],\n  [\"Person: Wesley Fischer\", \"Initiated\", \"Event: invoice submission\"],\n  [\"Person: Ruth Abara\", \"Initiated\", \"Event: refund request\"],\n  [\"Person: Wesley Fischer\", \"Authorized\", \"Event: refund request\"],\n  [\"Person: Nadia Okafor\", \"Participated_In\", \"Event: refund request\"],\n  [\"Location: Bluegate Packaging Group office\", \"street\", \"Bluegate Packaging Group office\"],\n  [\"Location: Bluegate Packaging Group office\", \"locality\", \"Bluegate Packaging Group office\"],\n  [\"Event: invoice submission\", \"Located_At\", \"Location: Bluegate Packaging Group office\"]\n]\n```",
+   "facts": [
+    [
+     "EmailAddress: nokafor@bluegate.com",
+     "addressValue",
+     "nokafor@bluegate.com"
+    ],
+    [
+     "EmailAddress: ruth.abara@bluegate.com",
+     "addressValue",
+     "ruth.abara@bluegate.com"
+    ],
+    [
+     "EmailAddress: wfischer@northwind.com",
+     "addressValue",
+     "wfischer@northwind.com"
+    ],
+    [
+     "EmailAccount: nokafor@bluegate.com",
+     "emailAddress",
+     "EmailAddress: nokafor@bluegate.com"
+    ],
+    [
+     "EmailAccount: ruth.abara@bluegate.com",
+     "emailAddress",
+     "EmailAddress: ruth.abara@bluegate.com"
+    ],
+    [
+     "EmailAccount: wfischer@northwind.com",
+     "emailAddress",
+     "EmailAddress: wfischer@northwind.com"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "subject",
+     "Urgent: payment timing"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "sentTime",
+     "Mon, 25 Aug 2025 19:15:00 +0000"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "from",
+     "EmailAddress: nokafor@bluegate.com"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "to",
+     "EmailAddress: ruth.abara@bluegate.com"
+    ],
+    [
+     "EmailMessage: Urgent: payment timing",
+     "to",
+     "EmailAddress: wfischer@northwind.com"
+    ],
+    [
+     "Person: Nadia Okafor",
+     "Holds_Account",
+     "EmailAddress: nokafor@bluegate.com"
+    ],
+    [
+     "Person: Nadia Okafor",
+     "Holds_Account",
+     "EmailAccount: nokafor@bluegate.com"
+    ],
+    [
+     "Person: Ruth Abara",
+     "Holds_Account",
+     "EmailAddress: ruth.abara@bluegate.com"
+    ],
+    [
+     "Person: Ruth Abara",
+     "Holds_Account",
+     "EmailAccount: ruth.abara@bluegate.com"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Holds_Account",
+     "EmailAddress: wfischer@northwind.com"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Holds_Account",
+     "EmailAccount: wfischer@northwind.com"
+    ],
+    [
+     "Person: Nadia Okafor",
+     "Communicated_With",
+     "Person: Wesley Fischer"
+    ],
+    [
+     "Event: expense reimbursement",
+     "startTime",
+     "July 29, 2025 at 15:25 UTC"
+    ],
+    [
+     "Event: invoice submission",
+     "startTime",
+     "August 11, 2025 at 13:15 UTC"
+    ],
+    [
+     "Event: refund request",
+     "startTime",
+     "25 August 2025, 17:15 UTC"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Initiated",
+     "Event: expense reimbursement"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Initiated",
+     "Event: invoice submission"
+    ],
+    [
+     "Person: Ruth Abara",
+     "Initiated",
+     "Event: refund request"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Authorized",
+     "Event: refund request"
+    ],
+    [
+     "Person: Nadia Okafor",
+     "Participated_In",
+     "Event: refund request"
+    ],
+    [
+     "Location: Bluegate Packaging Group office",
+     "street",
+     "Bluegate Packaging Group office"
+    ],
+    [
+     "Location: Bluegate Packaging Group office",
+     "locality",
+     "Bluegate Packaging Group office"
+    ],
+    [
+     "Event: invoice submission",
+     "Located_At",
+     "Location: Bluegate Packaging Group office"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 884,
+    "completion": 740
+   }
+  },
+  {
+   "doc": "D3",
+   "reply": "```json\n[\n  [\"Person: Ruth Abara\", \"Holds_Account\", \"EmailAddress: rutha@finance-ops\"],\n  [\"Person: Wesley Fischer\", \"Holds_Account\", \"EmailAddress: wesleyf@finance-ops\"],\n  [\"Person: Ruth Abara\", \"Communicated_With\", \"Person: Wesley Fischer\"],\n  [\"Person: Wesley Fischer\", \"Communicated_With\", \"Person: Ruth Abara\"],\n  [\"EmailMessage: Finance is asking questions again.\", \"from\", \"EmailAddress: rutha@finance-ops\"],\n  [\"EmailMessage: Finance is asking questions again.\", \"to\", \"EmailAddress: wesleyf@finance-ops\"],\n  [\"EmailMessage: Finance is asking questions again.\", \"sentTime\", \"2025-07-29 16:25 UTC\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"from\", \"EmailAddress: wesleyf@finance-ops\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"to\", \"EmailAddress: rutha@finance-ops\"],\n  [\"EmailMessage: I pushed it through, check your inbox.\", \"sentTime\", \"2025-07-29 16:32 UTC\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"from\", \"EmailAddress: rutha@finance-ops\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"to\", \"EmailAddress: wesleyf@finance-ops\"],\n  [\"EmailMessage: Let's keep this between us until Friday.\", \"sentTime\", \"2025-07-29 16:39 UTC\"]\n]\n```",
+   "facts": [
+    [
+     "Person: Ruth Abara",
+     "Holds_Account",
+     "EmailAddress: rutha@finance-ops"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Holds_Account",
+     "EmailAddress: wesleyf@finance-ops"
+    ],
+    [
+     "Person: Ruth Abara",
+     "Communicated_With",
+     "Person: Wesley Fischer"
+    ],
+    [
+     "Person: Wesley Fischer",
+     "Communicated_With",
+     "Person: Ruth Abara"
+    ],
+    [
+     "EmailMessage: Finance is asking questions again.",
+     "from",
+     "EmailAddress: rutha@finance-ops"
+    ],
+    [
+     "EmailMessage: Finance is asking questions again.",
+     "to",
+     "EmailAddress: wesleyf@finance-ops"
+    ],
+    [
+     "EmailMessage: Finance is asking questions again.",
+     "sentTime",
+     "2025-07-29 16:25 UTC"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "from",
+     "EmailAddress: wesleyf@finance-ops"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "to",
+     "EmailAddress: rutha@finance-ops"
+    ],
+    [
+     "EmailMessage: I pushed it through, check your inbox.",
+     "sentTime",
+     "2025-07-29 16:32 UTC"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "from",
+     "EmailAddress: rutha@finance-ops"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "to",
+     "EmailAddress: wesleyf@finance-ops"
+    ],
+    [
+     "EmailMessage: Let's keep this between us until Friday.",
+     "sentTime",
+     "2025-07-29 16:39 UTC"
+    ]
+   ],
+   "error": null,
+   "tokens": {
+    "prompt": 812,
+    "completion": 375
+   }
+  }
+ ],
+ "facts": [
+  [
+   "Person: Ruth Abara",
+   "Employed_By",
+   "Organization: Bluegate Packaging Group"
+  ],
+  [
+   "Person: Ruth Abara",
+   "Holds_Account",
+   "EmailAddress: ruth.abara@bluegate.com"
+  ],
+  [
+   "Person: Nadia Okafor",
+   "Employed_By",
+   "Organization: Bluegate Packaging Group"
+  ],
+  [
+   "Person: Nadia Okafor",
+   "Holds_Account",
+   "EmailAddress: nokafor@bluegate.com"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Employed_By",
+   "Organization: Northwind Supply Inc."
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Holds_Account",
+   "EmailAddress: wfischer@northwind.com"
+  ],
+  [
+   "Person: Nadia Okafor",
+   "Reports_To",
+   "Person: Ruth Abara"
+  ],
+  [
+   "Organization: Bluegate Packaging Group",
+   "Located_At",
+   "Location: 7048 Main Street, Madison, WI 53703"
+  ],
+  [
+   "Organization: Bluegate Packaging Group",
+   "Owns_Account",
+   "Account: 1767259990"
+  ],
+  [
+   "Account: 1767259990",
+   "accountType",
+   "Bank"
+  ],
+  [
+   "Account: 1767259990",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Account: 3201677702",
+   "accountType",
+   "Bank"
+  ],
+  [
+   "Account: 3201677702",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Organization: Northwind Supply Inc.",
+   "Owns_Account",
+   "Account: 3201677702"
+  ],
+  [
+   "Account: 7308269702",
+   "accountType",
+   "Bank"
+  ],
+  [
+   "Account: 7308269702",
+   "accountIssuer",
+   "Organization: First Harbor Bank"
+  ],
+  [
+   "Person: Ruth Abara",
+   "Owns_Account",
+   "Account: 7308269702"
+  ],
+  [
+   "EmailAddress: nokafor@bluegate.com",
+   "addressValue",
+   "nokafor@bluegate.com"
+  ],
+  [
+   "EmailAddress: ruth.abara@bluegate.com",
+   "addressValue",
+   "ruth.abara@bluegate.com"
+  ],
+  [
+   "EmailAddress: wfischer@northwind.com",
+   "addressValue",
+   "wfischer@northwind.com"
+  ],
+  [
+   "EmailAccount: nokafor@bluegate.com",
+   "emailAddress",
+   "EmailAddress: nokafor@bluegate.com"
+  ],
+  [
+   "EmailAccount: ruth.abara@bluegate.com",
+   "emailAddress",
+   "EmailAddress: ruth.abara@bluegate.com"
+  ],
+  [
+   "EmailAccount: wfischer@northwind.com",
+   "emailAddress",
+   "EmailAddress: wfischer@northwind.com"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "subject",
+   "Urgent: payment timing"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "sentTime",
+   "Mon, 25 Aug 2025 19:15:00 +0000"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "from",
+   "EmailAddress: nokafor@bluegate.com"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "to",
+   "EmailAddress: ruth.abara@bluegate.com"
+  ],
+  [
+   "EmailMessage: Urgent: payment timing",
+   "to",
+   "EmailAddress: wfischer@northwind.com"
+  ],
+  [
+   "Person: Nadia Okafor",
+   "Holds_Account",
+   "EmailAddress: nokafor@bluegate.com"
+  ],
+  [
+   "Person: Nadia Okafor",
+   "Holds_Account",
+   "EmailAccount: nokafor@bluegate.com"
+  ],
+  [
+   "Person: Ruth Abara",
+   "Holds_Account",
+   "EmailAddress: ruth.abara@bluegate.com"
+  ],
+  [
+   "Person: Ruth Abara",
+   "Holds_Account",
+   "EmailAccount: ruth.abara@bluegate.com"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Holds_Account",
+   "EmailAddress: wfischer@northwind.com"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Holds_Account",
+   "EmailAccount: wfischer@northwind.com"
+  ],
+  [
+   "Person: Nadia Okafor",
+   "Communicated_With",
+   "Person: Wesley Fischer"
+  ],
+  [
+   "Event: expense reimbursement",
+   "startTime",
+   "July 29, 2025 at 15:25 UTC"
+  ],
+  [
+   "Event: invoice submission",
+   "startTime",
+   "August 11, 2025 at 13:15 UTC"
+  ],
+  [
+   "Event: refund request",
+   "startTime",
+   "25 August 2025, 17:15 UTC"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Initiated",
+   "Event: expense reimbursement"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Initiated",
+   "Event: invoice submission"
+  ],
+  [
+   "Person: Ruth Abara",
+   "Initiated",
+   "Event: refund request"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Authorized",
+   "Event: refund request"
+  ],
+  [
+   "Person: Nadia Okafor",
+   "Participated_In",
+   "Event: refund request"
+  ],
+  [
+   "Location: Bluegate Packaging Group office",
+   "street",
+   "Bluegate Packaging Group office"
+  ],
+  [
+   "Location: Bluegate Packaging Group office",
+   "locality",
+   "Bluegate Packaging Group office"
+  ],
+  [
+   "Event: invoice submission",
+   "Located_At",
+   "Location: Bluegate Packaging Group office"
+  ],
+  [
+   "Person: Ruth Abara",
+   "Holds_Account",
+   "EmailAddress: rutha@finance-ops"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Holds_Account",
+   "EmailAddress: wesleyf@finance-ops"
+  ],
+  [
+   "Person: Ruth Abara",
+   "Communicated_With",
+   "Person: Wesley Fischer"
+  ],
+  [
+   "Person: Wesley Fischer",
+   "Communicated_With",
+   "Person: Ruth Abara"
+  ],
+  [
+   "EmailMessage: Finance is asking questions again.",
+   "from",
+   "EmailAddress: rutha@finance-ops"
+  ],
+  [
+   "EmailMessage: Finance is asking questions again.",
+   "to",
+   "EmailAddress: wesleyf@finance-ops"
+  ],
+  [
+   "EmailMessage: Finance is asking questions again.",
+   "sentTime",
+   "2025-07-29 16:25 UTC"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "from",
+   "EmailAddress: wesleyf@finance-ops"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "to",
+   "EmailAddress: rutha@finance-ops"
+  ],
+  [
+   "EmailMessage: I pushed it through, check your inbox.",
+   "sentTime",
+   "2025-07-29 16:32 UTC"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "from",
+   "EmailAddress: rutha@finance-ops"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "to",
+   "EmailAddress: wesleyf@finance-ops"
+  ],
+  [
+   "EmailMessage: Let's keep this between us until Friday.",
+   "sentTime",
+   "2025-07-29 16:39 UTC"
+  ]
+ ],
+ "tokens": {
+  "prompt": 2559,
+  "completion": 1569
+ }
+}
